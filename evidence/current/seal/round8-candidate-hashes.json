@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "capturedUtc": "2026-08-25T23:03:26.8915783Z",
+  "candidateRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\candidate-project",
+  "files": [
+    {
+      "path": "tools/Build-SourceSeal.ps1",
+      "length": 67519,
+      "sha256": "091454D944C3CB2BA7389D658CB07057C22F38C4BBFDE8A33B1409BC54AA14A9",
+      "lastWriteTimeUtc": "2026-08-25T19:29:06.0860232Z"
+    },
+    {
+      "path": "tools/Test-BuildSourceSeal.ps1",
+      "length": 72212,
+      "sha256": "B04C4FC8A8ABDB3BCE62A477020FEC05C85492352D9927ECE836677C1A311CCF",
+      "lastWriteTimeUtc": "2026-08-25T21:56:14.6302823Z"
+    },
+    {
+      "path": "tools/Install-PackageTransaction.ps1",
+      "length": 68489,
+      "sha256": "BC26EED5652E9CDF3DACD2087E780240F18B7C9593ADD35B123771DAA18583E0",
+      "lastWriteTimeUtc": "2026-08-25T22:27:08.6080739Z"
+    },
+    {
+      "path": "build.ps1",
+      "length": 51270,
+      "sha256": "CCB979B39B4D1D1A22DE952A110424D5C52A31EDF9BA1A329485778F5FF0D09C",
+      "lastWriteTimeUtc": "2026-08-25T21:54:13.7508127Z"
+    },
+    {
+      "path": "install-steam-ftag-mod.ps1",
+      "length": 35678,
+      "sha256": "722933832CB2671BEAAA94EA8E6F82567258D98BED51B0A3D446F69305454D57",
+      "lastWriteTimeUtc": "2026-08-25T22:26:52.5454173Z"
+    },
+    {
+      "path": "play-with-bots.ps1",
+      "length": 70088,
+      "sha256": "0663CBAE75CAC69AF4311C1F8E09C3D5A00D4DA3A7FCBD3E1B6E74EF1AECA387",
+      "lastWriteTimeUtc": "2026-08-25T14:51:46.1954124Z"
+    }
+  ]
+}

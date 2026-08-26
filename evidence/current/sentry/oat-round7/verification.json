@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "audit": "XI FreezeTag lethal-sentry independent OAT critic Round 7",
+  "verdict": "HOLD",
+  "singleBiggestRemainingGap": "promotion-map.json is not crash-consistent as a five-write transaction: a crash after operations 1-4 leaves a mixed production state, and the recipe provides no durable journal, commit marker, or automatic recovery entrypoint.",
+  "authoritativeCandidate": {
+    "path": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\sentry_material_builder_round4\\candidate\\worldmodel_xi_sentry_lethal_round4_material_challenger_lod0.glb",
+    "requiredSha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51",
+    "actualSha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51",
+    "exact": true
+  },
+  "subgates": {
+    "acceptedOfflineMaterialCritic": "PASS",
+    "independentOatConversionAndModel": "PASS",
+    "promotionMinimalDependencyGraph": "PASS",
+    "promotionTransactionReadiness": "HOLD",
+    "inGameAppearance": "NOT_TESTED_LATER_GATE"
+  },
+  "hardBar": [
+    {
+      "id": 1,
+      "status": "PASS",
+      "claim": "Candidate and all map-declared plus independently expanded production invariants were frozen first.",
+      "evidence": "BASELINE_MANIFEST.json"
+    },
+    {
+      "id": 2,
+      "status": "PASS",
+      "claim": "Fresh audit-local OAT v0.32.0 tree and independent commands.",
+      "evidence": "OAT_TREE_INITIAL_MANIFEST.json; OAT_COMMANDS.json"
+    },
+    {
+      "id": 3,
+      "status": "PASS",
+      "claim": "Conversion, link, list, and unlink reproduced under production identity; raw logs inspected semantically.",
+      "evidence": "OAT_RUN_SUMMARY.json; LOG_AUDIT.json; logs/"
+    },
+    {
+      "id": 4,
+      "status": "PASS",
+      "claim": "Source GLB and compiled XMODEL_EXPORT hierarchy, counts, materials, bounds, and URI closure inspected independently.",
+      "evidence": "MODEL_INSPECTION.json"
+    },
+    {
+      "id": 5,
+      "status": "PASS",
+      "claim": "Promotion-minimal graph resolves exact current production/common assets; no hidden required write found.",
+      "evidence": "DEPENDENCY_AUDIT.json; IWI_PROBE.json"
+    },
+    {
+      "id": 6,
+      "status": "HOLD",
+      "claim": "Hashes, current paths, rollback, and role separation pass, but transaction crash consistency does not.",
+      "evidence": "PROMOTION_AUDIT.json; PROMOTION-ATOMICITY-01"
+    },
+    {
+      "id": 7,
+      "status": "PASS",
+      "claim": "Candidate, all 22 production invariants, external inputs, OAT tools, and read-only common fastfiles are unchanged.",
+      "evidence": "FINAL_STATE_COMPARISON.json"
+    },
+    {
+      "id": 8,
+      "status": "PASS",
+      "claim": "Evidence was judged independently; no runtime or in-game appearance claim is made.",
+      "evidence": "BUILDER_COMPARISON.json; REPORT.md"
+    },
+    {
+      "id": 9,
+      "status": "PASS",
+      "claim": "Required report, result, machine manifest, exact command/log evidence, and checksums are present.",
+      "evidence": "REPORT.md; RESULT.json; VERIFICATION_MANIFEST.json; SHA256SUMS.txt"
+    },
+    {
+      "id": 10,
+      "status": "PASS",
+      "claim": "No promotion, full mod build, Steam install, or launch was performed.",
+      "evidence": "Scope declarations and audit-local command paths"
+    }
+  ],
+  "blockingFindings": [
+    {
+      "id": "PROMOTION-ATOMICITY-01",
+      "severity": "BLOCKING",
+      "title": "Five-write promotion has no crash-consistent transaction boundary",
+      "detail": "promotion-map.json is not crash-consistent as a five-write transaction: a crash after operations 1-4 leaves a mixed production state, and the recipe provides no durable journal, commit marker, or automatic recovery entrypoint.",
+      "evidence": {
+        "partialCrashStatesAfterOperations": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "manualRollbackRestoredEveryInjectedInterruption": true,
+        "journalSpecified": false,
+        "automaticRecoverySpecified": false,
+        "replacementHashConditionalCompareAndSwap": false
+      },
+      "clearance": "Supply and independently audit an executable promotion/rollback transaction with a durable journal or commit marker, startup recovery, exclusive ownership or equivalent compare-and-swap protection, and the same hash/path checks."
+    }
+  ],
+  "deterministicEvidence": {
+    "baselinePassed": true,
+    "oatPassed": true,
+    "modelInspectionPassed": true,
+    "iwiProbePassed": true,
+    "logAuditPassed": true,
+    "dependencyAuditPassed": true,
+    "promotionMapChecksPassed": true,
+    "productionUnchanged": true,
+    "allInputsUnchanged": true
+  },
+  "keyFacts": {
+    "oatVersion": "0.32.0",
+    "oatLogCount": 24,
+    "positiveLiteralWarnings": 0,
+    "positiveLiteralErrors": 0,
+    "sourceJoints": 12,
+    "sourceRenderVertices": 2843,
+    "compiledPooledVertices": 1100,
+    "triangles": 1749,
+    "surfaces": 4,
+    "materials": [
+      "mc/mtl_sentry_bo",
+      "mc/mtl_weapon_saw_misc_nocamo",
+      "mc/mtl_weapon_saw"
+    ],
+    "bounds": {
+      "min": [
+        -22.708826,
+        -19.395699,
+        0.0
+      ],
+      "max": [
+        19.212023,
+        19.564678,
+        38.201344
+      ],
+      "extent": [
+        41.920849,
+        38.960377,
+        38.201344
+      ]
+    },
+    "externalDdsCount": 4,
+    "omittedRequiredWrites": [],
+    "productionInvariantCount": 22
+  },
+  "scopeExclusions": [
+    "No production promotion",
+    "No full mod build",
+    "No Steam install or modification",
+    "No game launch",
+    "No in-game appearance, lighting, collision, animation, muzzle-effect, or runtime-pool claim"
+  ],
+  "evidence": [
+    "BASELINE_MANIFEST.json",
+    "OAT_TREE_INITIAL_MANIFEST.json",
+    "OAT_COMMANDS.json",
+    "OAT_RUN_SUMMARY.json",
+    "LOG_AUDIT.json",
+    "MODEL_INSPECTION.json",
+    "IWI_PROBE.json",
+    "DEPENDENCY_AUDIT.json",
+    "PROMOTION_AUDIT.json",
+    "FINAL_STATE_COMPARISON.json",
+    "BUILDER_COMPARISON.json",
+    "logs/"
+  ]
+}

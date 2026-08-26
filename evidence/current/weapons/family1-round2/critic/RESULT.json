@@ -1,0 +1,576 @@
+{
+  "blockers": [
+    "One or more candidate sight, optic, suppressor, rail, or visibility measurements fail the accepted bar.",
+    "Candidate fixed-camera active geometry is not centered against accepted controls in every exact XAnim.",
+    "17 selectable attachment states deploy attachment 0 instead of their selected state."
+  ],
+  "candidateBuilderReports": {
+    "allFreshAndHashMatched": true,
+    "records": [
+      {
+        "candidateModifiedNs": 1787718621355663400,
+        "candidatePath": "xi_ftag/.audit/weapon_alignment_builder_round2/candidates/family-01/viewmodel_t8_icr7_summon_round2_lod0.glb",
+        "candidateSha256": "55b764d91424339a0599acc3ce3c6cb64a98ab6f156c19677fec8a910590f254",
+        "family": 1,
+        "pass": true,
+        "reportNotOlderThanCandidate": true,
+        "reportedHashMatchesCandidate": true,
+        "reportedOpticScales": {
+          "acog": 0.375216281,
+          "reflex": 0.447503127
+        },
+        "reportedOutputPath": "xi_ftag/.audit/weapon_alignment_builder_round2/candidates/family-01/viewmodel_t8_icr7_summon_round2_lod0.glb",
+        "reportedOutputSha256": "55b764d91424339a0599acc3ce3c6cb64a98ab6f156c19677fec8a910590f254",
+        "reportedPathMatchesCandidate": true,
+        "status": "pass",
+        "summaryModifiedNs": 1787718621932994500,
+        "summaryPath": "xi_ftag/.audit/weapon_alignment_builder_round2/candidates/candidate-build-summary.json",
+        "summaryPromotionReady": false,
+        "summarySha256": "c1c44bc0abc20127f716896276db1e2e3899bff554cb6e98a9957b2eb14b6b86",
+        "summaryStatus": "BUILT_UNVERIFIED"
+      }
+    ]
+  },
+  "candidateCount": 1,
+  "candidateFixedCameraRenderCount": 1,
+  "candidateHashConsistency": [
+    {
+      "allTileHashesMatch": true,
+      "family": 1,
+      "measurementSha256": "55b764d91424339a0599acc3ce3c6cb64a98ab6f156c19677fec8a910590f254",
+      "pass": true,
+      "renderHashAfter": "55b764d91424339a0599acc3ce3c6cb64a98ab6f156c19677fec8a910590f254",
+      "renderHashBefore": "55b764d91424339a0599acc3ce3c6cb64a98ab6f156c19677fec8a910590f254",
+      "reportCompileDiskSha256": "55b764d91424339a0599acc3ce3c6cb64a98ab6f156c19677fec8a910590f254"
+    }
+  ],
+  "candidateMeasurements": {
+    "allPass": false,
+    "records": [
+      {
+        "family": 1,
+        "nativeSightAgainstAccepted": {
+          "acceptedDirection": [
+            0.999752283,
+            -0.000632329,
+            0.022250308
+          ],
+          "acceptedRear": [
+            -0.247874007,
+            0.286976814,
+            4.718307495
+          ],
+          "candidateDirection": [
+            0.999751389,
+            0.001671459,
+            0.02223316
+          ],
+          "candidateRear": [
+            -0.216506422,
+            0.27839312,
+            4.71910429
+          ],
+          "directionDeltaDeg": 0.131420014,
+          "limits": {
+            "maximumDirectionDeltaDeg": 0.1,
+            "maximumRearDelta": 0.05
+          },
+          "rearDelta": 0.032530603,
+          "status": "fail"
+        },
+        "opticsAgainstAcceptedSources": {
+          "acog": {
+            "acceptedFixedScale": 0.374398638,
+            "candidateCentroidDelta": 1.36611776,
+            "candidateMeasuredScale": 0.37677693,
+            "candidatePointCount": 6929,
+            "candidatePrincipalAxisDeltaDeg": 0.574395158,
+            "candidateRailContactDelta": 1.252219373,
+            "candidateRailNormalDeltaDeg": 0.0,
+            "candidateScaleDelta": 0.002378292,
+            "limits": {
+              "maximumAbsoluteScaleDelta": 0.001,
+              "maximumCentroidDelta": 0.02,
+              "maximumPrincipalAxisDeltaDeg": 0.5,
+              "maximumRailContactDelta": 0.02,
+              "maximumRailNormalDeltaDeg": 0.5,
+              "sourcePointCountMustMatch": true
+            },
+            "method": "reloaded candidate/source centered-shape scale plus accepted physical transform/contact",
+            "pointCountMatch": false,
+            "sourcePointCount": 5520,
+            "sourceSha256": "e183c5c4aff3bc7ec6dd1136126602c59abdec6579ad7966b959f658251b821b",
+            "status": "fail"
+          },
+          "reflex": {
+            "acceptedFixedScale": 0.377598602,
+            "candidateCentroidDelta": 0.389480062,
+            "candidateMeasuredScale": 0.457250653,
+            "candidatePointCount": 7380,
+            "candidatePrincipalAxisDeltaDeg": 0.902317763,
+            "candidateRailContactDelta": 0.676563837,
+            "candidateRailNormalDeltaDeg": 0.0,
+            "candidateScaleDelta": 0.079652051,
+            "limits": {
+              "maximumAbsoluteScaleDelta": 0.001,
+              "maximumCentroidDelta": 0.02,
+              "maximumPrincipalAxisDeltaDeg": 0.5,
+              "maximumRailContactDelta": 0.02,
+              "maximumRailNormalDeltaDeg": 0.5,
+              "sourcePointCountMustMatch": true
+            },
+            "method": "reloaded candidate/source centered-shape scale plus accepted physical transform/contact",
+            "pointCountMatch": false,
+            "sourcePointCount": 5706,
+            "sourceSha256": "8fad4dedc833cff168a0c33e77505a40babfd627b046cf1ab152889092ff9b8e",
+            "status": "fail"
+          }
+        },
+        "pass": false,
+        "requiredFramesAndVisibilityGroupsPass": false,
+        "suppressorAgainstAccepted": {
+          "acceptedBaseline": {
+            "axisErrorDeg": 0.03426402,
+            "signedAxialContactOffset": -0.046146102,
+            "suppressorRearPatch": {
+              "area": 2.32960583,
+              "axisCoordinate": 20.4413461,
+              "center": [
+                20.443023682,
+                -4.3e-08,
+                2.4535532
+              ],
+              "maximumInternalNormalDeviationDeg": 0.0,
+              "normal": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "normalAxisAbsDot": 0.999999821,
+              "triangleCount": 28
+            },
+            "weaponMuzzlePatch": {
+              "area": 1.18519888,
+              "axisCoordinate": 20.487492202,
+              "center": [
+                20.489162445,
+                -0.005860977,
+                2.442796469
+              ],
+              "maximumInternalNormalDeviationDeg": 0.001383832,
+              "normal": [
+                -1.0,
+                1.614e-06,
+                -1.7842e-05
+              ],
+              "normalAxisAbsDot": 0.999999809,
+              "triangleCount": 13
+            }
+          },
+          "candidateDelta": {
+            "axisErrorDeg": -0.034262541,
+            "signedAxialContactOffset": 0.046298675
+          },
+          "candidateMeasured": {
+            "axisErrorDeg": 1.479e-06,
+            "method": "reloaded suppressor mesh PCA versus independent tag_flash forward; disjoint multi-triangle rear/muzzle planes",
+            "nativeCoordinateContractForward": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "nativeSightHorizontalForward": [
+              0.999998689,
+              0.001671872,
+              0.0
+            ],
+            "pass": true,
+            "patchesUseDisjointOwnership": true,
+            "selfReferenceForbidden": true,
+            "sightHorizontalToSocketDeg": 0.096899791,
+            "signedAxialContactOffset": 0.000152573,
+            "sourcePatchCoherent": true,
+            "suppressorCylinderBoreAxis": [
+              1.0,
+              -1e-09,
+              -0.000128609
+            ],
+            "suppressorRearPatch": {
+              "area": 2.329605542,
+              "axisCoordinate": 29.477841993,
+              "center": [
+                29.478126526,
+                0.000484924,
+                2.212391138
+              ],
+              "maximumInternalNormalDeviationDeg": 0.0,
+              "normal": [
+                -0.99999994,
+                0.0,
+                0.0
+              ],
+              "normalAxisAbsDot": 0.99999994,
+              "triangleCount": 28
+            },
+            "tagFlashSocketForward": [
+              1.0,
+              2.38e-07,
+              0.0
+            ],
+            "targetPatchCoherent": true,
+            "weaponMuzzlePatch": {
+              "area": 0.112351301,
+              "axisCoordinate": 29.47768942,
+              "center": [
+                29.47791481,
+                -0.001633762,
+                1.752530575
+              ],
+              "maximumInternalNormalDeviationDeg": 0.300639926,
+              "normal": [
+                0.999986529,
+                3.6109e-05,
+                0.005185888
+              ],
+              "normalAxisAbsDot": 0.999985862,
+              "triangleCount": 4
+            }
+          },
+          "limits": {
+            "absoluteAxisVetoDeg": 2.0,
+            "axis": "accepted baseline + explicit tolerance, with independent absolute veto",
+            "axisToleranceDeg": 0.25,
+            "maximumAbsoluteContactOffsetDelta": 0.02,
+            "maximumAxisErrorDeg": 0.28426402,
+            "maximumInternalPatchNormalDeviationDeg": 5.0,
+            "minimumPatchArea": 0.05,
+            "minimumTrianglesPerPatch": 3,
+            "sameSelectedTriangleMayDefineAndValidateTarget": false
+          },
+          "patchCoherencePass": true,
+          "status": "fail"
+        }
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "family": 1,
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2/candidates/family-01/viewmodel_t8_icr7_summon_round2_lod0.glb",
+      "sha256": "55b764d91424339a0599acc3ce3c6cb64a98ab6f156c19677fec8a910590f254"
+    }
+  ],
+  "family1AcceptedSuppressorBaseline": {
+    "axisErrorDeg": 0.03426402,
+    "method": "reloaded suppressor mesh PCA versus independent tag_flash forward; disjoint multi-triangle rear/muzzle planes",
+    "nativeCoordinateContractForward": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "nativeSightHorizontalForward": [
+      0.999999821,
+      -0.000632486,
+      0.0
+    ],
+    "pass": true,
+    "patchesUseDisjointOwnership": true,
+    "selfReferenceForbidden": true,
+    "sightHorizontalToSocketDeg": 0.034271243,
+    "signedAxialContactOffset": -0.046146102,
+    "sourcePatchCoherent": true,
+    "suppressorCylinderBoreAxis": [
+      0.999999821,
+      -4e-09,
+      -0.000682181
+    ],
+    "suppressorRearPatch": {
+      "area": 2.32960583,
+      "axisCoordinate": 20.4413461,
+      "center": [
+        20.443023682,
+        -4.3e-08,
+        2.4535532
+      ],
+      "maximumInternalNormalDeviationDeg": 0.0,
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "normalAxisAbsDot": 0.999999821,
+      "triangleCount": 28
+    },
+    "tagFlashSocketForward": [
+      1.0,
+      1.19e-07,
+      0.0
+    ],
+    "targetPatchCoherent": true,
+    "weaponMuzzlePatch": {
+      "area": 1.18519888,
+      "axisCoordinate": 20.487492202,
+      "center": [
+        20.489162445,
+        -0.005860977,
+        2.442796469
+      ],
+      "maximumInternalNormalDeviationDeg": 0.001383832,
+      "normal": [
+        -1.0,
+        1.614e-06,
+        -1.7842e-05
+      ],
+      "normalAxisAbsDot": 0.999999809,
+      "triangleCount": 13
+    }
+  },
+  "family1OpticFixedScale": {
+    "acog": {
+      "method": "accepted-template/source contact-to-optical-height ratio; no camera input",
+      "scale": 0.374398638,
+      "sourceSha256": "e183c5c4aff3bc7ec6dd1136126602c59abdec6579ad7966b959f658251b821b",
+      "templateSha256": "b2491a22fab1b313f4815dffc48f9426c3a60df5029d5e86b85e175126e85632"
+    },
+    "reflex": {
+      "method": "accepted-template/source contact-to-optical-height ratio; no camera input",
+      "scale": 0.377598602,
+      "sourceSha256": "8fad4dedc833cff168a0c33e77505a40babfd627b046cf1ab152889092ff9b8e",
+      "templateSha256": "b2491a22fab1b313f4815dffc48f9426c3a60df5029d5e86b85e175126e85632"
+    }
+  },
+  "gates": {
+    "acceptedFamily1SuppressorCalibrationPass": true,
+    "all11BareStatesInventoried": true,
+    "all26AttachmentStatesInventoried": true,
+    "allExactXAnimsDecodedAndHashed": true,
+    "candidateBuilderSummaryFreshAndHashMatched": true,
+    "candidateFixedCameraEvidenceExists": true,
+    "candidateGeometryCenteringMatchesAcceptedControls": false,
+    "candidateMeasurementRenderReportHashesMatch": true,
+    "candidateSightOpticSuppressorRailVisibilityPass": false,
+    "negativeFixturesRejectAllMisuse": true,
+    "noOptionRemoved": true,
+    "noSelectableRuntimeFallback": false,
+    "realCandidateSupplied": true
+  },
+  "hashManifest": {
+    "entries": 238,
+    "path": "HASHES.json",
+    "sha256": "7a22338c2b34197010ff0432f019b6493fbac5bb4adf95402170438f736b9af8"
+  },
+  "negativeExpandedCaseCount": 906,
+  "negativeFixtureCount": 12,
+  "outputs": {
+    "geometry": "measurements/geometry.json",
+    "hashes": "HASHES.json",
+    "negativeResults": "measurements/negative_results.json",
+    "renderInventory": "measurements/render_inventory.json",
+    "report": "REPORT.md",
+    "result": "RESULT.json",
+    "scope": "SCOPE.md",
+    "sourceInventory": "measurements/source_inventory.json"
+  },
+  "runtimeFallbackCount": 17,
+  "runtimeFallbackStateIds": [
+    "F01-A1",
+    "F01-A2",
+    "F01-A3",
+    "F02-A1",
+    "F02-A2",
+    "F02-A3",
+    "F03-A1",
+    "F03-A2",
+    "F03-A3",
+    "F05-A1",
+    "F05-A2",
+    "F05-A3",
+    "F07-A1",
+    "F07-A3",
+    "F08-A3",
+    "F09-A3",
+    "F10-A3"
+  ],
+  "runtimeFallbacks": [
+    {
+      "family": 1,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F01-A0",
+      "runtimeWeaponFile": "g36c_mp",
+      "selectedAttachment": 1,
+      "selectedRole": "reflex",
+      "selectedWeaponFile": "g36c_reflex_mp",
+      "stateId": "F01-A1"
+    },
+    {
+      "family": 1,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F01-A0",
+      "runtimeWeaponFile": "g36c_mp",
+      "selectedAttachment": 2,
+      "selectedRole": "acog",
+      "selectedWeaponFile": "g36c_acog_mp",
+      "stateId": "F01-A2"
+    },
+    {
+      "family": 1,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F01-A0",
+      "runtimeWeaponFile": "g36c_mp",
+      "selectedAttachment": 3,
+      "selectedRole": "suppressor",
+      "selectedWeaponFile": "g36c_silencer_mp",
+      "stateId": "F01-A3"
+    },
+    {
+      "family": 2,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F02-A0",
+      "runtimeWeaponFile": "g3_mp",
+      "selectedAttachment": 1,
+      "selectedRole": "reflex",
+      "selectedWeaponFile": "g3_reflex_mp",
+      "stateId": "F02-A1"
+    },
+    {
+      "family": 2,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F02-A0",
+      "runtimeWeaponFile": "g3_mp",
+      "selectedAttachment": 2,
+      "selectedRole": "acog",
+      "selectedWeaponFile": "g3_acog_mp",
+      "stateId": "F02-A2"
+    },
+    {
+      "family": 2,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F02-A0",
+      "runtimeWeaponFile": "g3_mp",
+      "selectedAttachment": 3,
+      "selectedRole": "suppressor",
+      "selectedWeaponFile": "g3_silencer_mp",
+      "stateId": "F02-A3"
+    },
+    {
+      "family": 3,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F03-A0",
+      "runtimeWeaponFile": "m14_mp",
+      "selectedAttachment": 1,
+      "selectedRole": "reflex",
+      "selectedWeaponFile": "m14_reflex_mp",
+      "stateId": "F03-A1"
+    },
+    {
+      "family": 3,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F03-A0",
+      "runtimeWeaponFile": "m14_mp",
+      "selectedAttachment": 2,
+      "selectedRole": "acog",
+      "selectedWeaponFile": "m14_acog_mp",
+      "stateId": "F03-A2"
+    },
+    {
+      "family": 3,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F03-A0",
+      "runtimeWeaponFile": "m14_mp",
+      "selectedAttachment": 3,
+      "selectedRole": "suppressor",
+      "selectedWeaponFile": "m14_silencer_mp",
+      "stateId": "F03-A3"
+    },
+    {
+      "family": 5,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F05-A0",
+      "runtimeWeaponFile": "m60e4_mp",
+      "selectedAttachment": 1,
+      "selectedRole": "reflex",
+      "selectedWeaponFile": "m60e4_reflex_mp",
+      "stateId": "F05-A1"
+    },
+    {
+      "family": 5,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F05-A0",
+      "runtimeWeaponFile": "m60e4_mp",
+      "selectedAttachment": 2,
+      "selectedRole": "acog",
+      "selectedWeaponFile": "m60e4_acog_mp",
+      "stateId": "F05-A2"
+    },
+    {
+      "family": 5,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F05-A0",
+      "runtimeWeaponFile": "m60e4_mp",
+      "selectedAttachment": 3,
+      "selectedRole": "grip",
+      "selectedWeaponFile": "m60e4_grip_mp",
+      "stateId": "F05-A3"
+    },
+    {
+      "family": 7,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F07-A0",
+      "runtimeWeaponFile": "winchester1200_mp",
+      "selectedAttachment": 1,
+      "selectedRole": "reflex",
+      "selectedWeaponFile": "winchester1200_reflex_mp",
+      "stateId": "F07-A1"
+    },
+    {
+      "family": 7,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F07-A0",
+      "runtimeWeaponFile": "winchester1200_mp",
+      "selectedAttachment": 3,
+      "selectedRole": "grip",
+      "selectedWeaponFile": "winchester1200_grip_mp",
+      "stateId": "F07-A3"
+    },
+    {
+      "family": 8,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F08-A0",
+      "runtimeWeaponFile": "colt45_mp",
+      "selectedAttachment": 3,
+      "selectedRole": "suppressor",
+      "selectedWeaponFile": "colt45_silencer_mp",
+      "stateId": "F08-A3"
+    },
+    {
+      "family": 9,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F09-A0",
+      "runtimeWeaponFile": "remington700_mp",
+      "selectedAttachment": 3,
+      "selectedRole": "suppressor",
+      "selectedWeaponFile": "remington700_silencer_mp",
+      "stateId": "F09-A3"
+    },
+    {
+      "family": 10,
+      "runtimeAttachment": 0,
+      "runtimeStateId": "F10-A0",
+      "runtimeWeaponFile": "dragunov_mp",
+      "selectedAttachment": 3,
+      "selectedRole": "suppressor",
+      "selectedWeaponFile": "dragunov_silencer_mp",
+      "stateId": "F10-A3"
+    }
+  ],
+  "schemaVersion": 1,
+  "scopeCounts": {
+    "attachmentStates": 26,
+    "bareStates": 11,
+    "countContractPass": true,
+    "families": 11,
+    "totalStates": 37,
+    "uniqueXAnims": 69
+  },
+  "verdict": "HOLD"
+}

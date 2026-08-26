@@ -1,0 +1,3919 @@
+{
+  "schemaVersion": 2,
+  "authorityLayer": "globalMeasurementCalibration",
+  "authority": "Untouched stock CoD4 M4 and SAW/SAW-grip assets calibrate iron, optic, suppressor, grip, contact, ownership, and orientation semantics. Every negative is a physical copied mesh evaluated by the same function and thresholds as its positive. This layer is not a Family 1 recoil-trajectory authority.",
+  "coordinateContract": {
+    "serializedModel": "+X forward, +Y up, +Z right",
+    "blenderGlb": "+X forward, +Z up, -Y right",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "screenCenter": [
+      960.0,
+      540.0
+    ]
+  },
+  "fixtureDisplacements": {
+    "projectionCameraRightModelUnits": 0.25,
+    "contactNormalModelUnits": 0.08,
+    "rotationNegativeDegrees": 3.0,
+    "suppressorTranslationBlenderGlb": [
+      0.0,
+      -0.5,
+      0.5
+    ],
+    "suppressorRotationDegrees": 5.0,
+    "gripTranslationBlenderGlb": [
+      0.0,
+      0.0,
+      0.75
+    ],
+    "gripRotationDegrees": 15.0
+  },
+  "thresholds": {
+    "terminalCenterPixels": 2.0,
+    "contactResidualModelUnits": 0.02,
+    "axisResidualDegrees": 0.5
+  },
+  "requiredCategories": [
+    "m4BareIron",
+    "m4Reflex",
+    "m4Acog",
+    "m4Suppressor",
+    "m249Grip"
+  ],
+  "executedCategories": [
+    "m4BareIron",
+    "m4Reflex",
+    "m4Acog",
+    "m4Suppressor",
+    "m249Grip"
+  ],
+  "categoryResults": {
+    "m4BareIron": true,
+    "m4Reflex": true,
+    "m4Acog": true,
+    "m4Suppressor": true,
+    "m249Grip": true
+  },
+  "coveragePassed": true,
+  "controls": {
+    "m4": {
+      "authority": "untouched stock CoD4 M4 weapon family",
+      "model": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_m4_mp_lod0.glb",
+      "modelSha256": "F6C39DA0BDBABEBF74D54DDEB0BA1496CDD510964723AB627DF22CE4F7A801D5",
+      "hands": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_base_viewhands_lod0.glb",
+      "handsSha256": "4E52E9CD84F8C1AD5444510FE277FDD3C053CD845DE45B4908F7E3368691F3F5",
+      "categories": {
+        "bareIron": {
+          "authority": "untouched stock CoD4 M4 bare iron terminal ADS-up",
+          "weaponfile": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_mp",
+          "weaponfileSha256": "1B315A16749E7F02086AFC82BE0971F81B2F792D9416ED793FC4BA8E296DA2FB",
+          "model": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_m4_mp_lod0.glb",
+          "modelSha256": "F6C39DA0BDBABEBF74D54DDEB0BA1496CDD510964723AB627DF22CE4F7A801D5",
+          "hands": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_base_viewhands_lod0.glb",
+          "handsSha256": "4E52E9CD84F8C1AD5444510FE277FDD3C053CD845DE45B4908F7E3368691F3F5",
+          "runtimeLayers": [
+            {
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_idle",
+              "sha256": "753C6076969D7E9CE1AAB485EF61A32C262834E9BE387E8B5DBEC36E59772405",
+              "frame": 1,
+              "frameCount": 2
+            },
+            {
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_iron_ads_up",
+              "sha256": "B5E95CB7ABB3BA98B977F3D43F03E801B9212CB0F07B181656FC26176C06AD9D",
+              "frame": 13,
+              "frameCount": 13
+            }
+          ],
+          "camera": {
+            "eye": [
+              -4.86780988,
+              2.921992859,
+              9.923980068
+            ],
+            "forward": [
+              0.999413012,
+              1.3185e-05,
+              0.034258303
+            ],
+            "right": [
+              1.3193e-05,
+              -1.0,
+              0.0
+            ],
+            "up": [
+              -0.034258303,
+              -4.52e-07,
+              0.999413012
+            ]
+          },
+          "positive": {
+            "evaluator": "exact tag_iron_sight mesh landmarks -> exact layered stock pose -> shared 1920x1080 projection",
+            "line": {
+              "method": "rear-front-geometry-p12-p88",
+              "rear": [
+                -0.640606046,
+                -0.039344124,
+                4.837393284
+              ],
+              "front": [
+                14.744358063,
+                -0.03939867,
+                5.364765644
+              ],
+              "direction": [
+                0.999413013,
+                -3.543e-06,
+                0.034258306
+              ],
+              "pointCount": 779
+            },
+            "rear": {
+              "model": [
+                -0.640606046,
+                -0.039344124,
+                4.837393284
+              ],
+              "posedWorld": [
+                3.127494216,
+                2.922098338,
+                10.198046492
+              ],
+              "pixel": [
+                960.0,
+                540.0
+              ],
+              "absoluteOffsetPixels": 0.0,
+              "passed": true
+            },
+            "front": {
+              "model": [
+                14.744358063,
+                -0.03939867,
+                5.364765644
+              ],
+              "posedWorld": [
+                18.512458324,
+                2.922301306,
+                10.725418816
+              ],
+              "pixel": [
+                960.0,
+                540.0
+              ],
+              "absoluteOffsetPixels": 0.0,
+              "passed": true
+            },
+            "rearFrontSeparationPixels": 0.0,
+            "limits": {
+              "absoluteCenterPixelsPerLandmark": 2.0,
+              "rearFrontSeparationPixels": 2.0
+            },
+            "passed": true
+          },
+          "physicallyDisplacedRotatedNegative": {
+            "evaluator": "exact tag_iron_sight mesh landmarks -> exact layered stock pose -> shared 1920x1080 projection",
+            "line": {
+              "method": "rear-front-geometry-p12-p88",
+              "rear": [
+                -0.629301786,
+                -0.526979327,
+                4.837271214
+              ],
+              "front": [
+                14.740491867,
+                0.276731014,
+                5.364643574
+              ],
+              "direction": [
+                0.998049796,
+                0.05218957,
+                0.034245346
+              ],
+              "pointCount": 779
+            },
+            "rear": {
+              "model": [
+                -0.629301786,
+                -0.526979327,
+                4.837271214
+              ],
+              "posedWorld": [
+                3.138798475,
+                2.434463134,
+                10.198162532
+              ],
+              "pixel": [
+                1085.31156,
+                540.06966
+              ],
+              "absoluteOffsetPixels": 125.311579,
+              "passed": false
+            },
+            "front": {
+              "model": [
+                14.740491867,
+                0.276731014,
+                5.364643574
+              ],
+              "posedWorld": [
+                18.508592129,
+                3.238430893,
+                10.725142381
+              ],
+              "pixel": [
+                932.175252,
+                540.012671
+              ],
+              "absoluteOffsetPixels": 27.824751,
+              "passed": false
+            },
+            "rearFrontSeparationPixels": 153.136319,
+            "limits": {
+              "absoluteCenterPixelsPerLandmark": 2.0,
+              "rearFrontSeparationPixels": 2.0
+            },
+            "passed": false,
+            "fixtureType": "physically translated and rotated copied stock iron meshes",
+            "localTranslation": [
+              3.298e-06,
+              -0.24999997,
+              -0.000122074
+            ],
+            "localRotationDegrees": 3.0,
+            "passedByCorrectlyFailingGate": true
+          },
+          "duplicateBodyOwnership": {
+            "positive": {
+              "evaluator": "exact world-triangle overlap between the active tag_iron_sight set and independently body-owned j_gun surfaces",
+              "activeTriangleCount": 570,
+              "bodyOwnedTriangleCount": 867,
+              "bodyOwnedDuplicateTriangleCount": 0,
+              "bodyOwnedDuplicateObjects": [],
+              "coherentFactorySightSetCount": 1,
+              "limits": {
+                "bodyOwnedDuplicateTriangleCount": 0,
+                "coherentFactorySightSetCount": 1
+              },
+              "passed": true
+            },
+            "bodyOwnedCopiedNegative": {
+              "evaluator": "exact world-triangle overlap between the active tag_iron_sight set and independently body-owned j_gun surfaces",
+              "activeTriangleCount": 570,
+              "bodyOwnedTriangleCount": 1437,
+              "bodyOwnedDuplicateTriangleCount": 570,
+              "bodyOwnedDuplicateObjects": [
+                "physical_m4_bare_body_owned_duplicate_negative_00_surf4.001"
+              ],
+              "coherentFactorySightSetCount": 2,
+              "limits": {
+                "bodyOwnedDuplicateTriangleCount": 0,
+                "coherentFactorySightSetCount": 1
+              },
+              "passed": false,
+              "fixtureType": "exact copied stock sight surfaces rebound from tag_iron_sight to j_gun",
+              "meshSha256": "789D43D9A4F499486746E6E841EAC3256B812C5668D203F187F9829C9F6D105D",
+              "passedByCorrectlyFailingGate": true
+            },
+            "passed": true
+          },
+          "passed": true
+        },
+        "reflex": {
+          "tag": "tag_reflex_sight",
+          "runtimeLayers": [
+            {
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_idle",
+              "sha256": "753C6076969D7E9CE1AAB485EF61A32C262834E9BE387E8B5DBEC36E59772405",
+              "frame": 1,
+              "frameCount": 2
+            },
+            {
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_reflex_ads_up",
+              "sha256": "BE081D36988A55A92B1C4398586166EAFB6E765217569559FEBB5E3902443275",
+              "frame": 13,
+              "frameCount": 13
+            }
+          ],
+          "projection": {
+            "positive": {
+              "evaluator": "exact mesh reticle-plane center -> live pose -> fixed projection",
+              "meshCount": 3,
+              "witness": {
+                "method": "exact reticle-material vertices and fitted plane normal",
+                "materialToken": "mtl_weapon_reflex_red_dot",
+                "pointCount": 6,
+                "uniquePointCount": 6,
+                "center": [
+                  2.709314108,
+                  -1.79e-07,
+                  4.907441139
+                ],
+                "axis": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "planeResidualRms": 0.0,
+                "planeResidualMaximum": 0.0
+              },
+              "posedWorldCenter": [
+                6.618214369,
+                2.956663846,
+                10.319340645
+              ],
+              "posedWorldAxis": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "pixel": [
+                960.0,
+                540.0
+              ],
+              "absoluteOffsetPixels": 0.0,
+              "axisResidualDegrees": 0.0,
+              "limits": {
+                "absoluteOffsetPixels": 2.0,
+                "axisResidualDegrees": 0.25
+              },
+              "passed": true
+            },
+            "displacedRotatedCopiedNegative": {
+              "evaluator": "exact mesh reticle-plane center -> live pose -> fixed projection",
+              "meshCount": 3,
+              "witness": {
+                "method": "exact reticle-material vertices and fitted plane normal",
+                "materialToken": "mtl_weapon_reflex_red_dot",
+                "pointCount": 6,
+                "uniquePointCount": 6,
+                "center": [
+                  2.709315062,
+                  -0.250000179,
+                  4.907441139
+                ],
+                "axis": [
+                  0.998629541,
+                  0.052335841,
+                  1.25e-07
+                ],
+                "planeResidualRms": 5.5149e-08,
+                "planeResidualMaximum": 9.3989e-08
+              },
+              "posedWorldCenter": [
+                6.618215323,
+                2.706663846,
+                10.319340645
+              ],
+              "posedWorldAxis": [
+                0.998629541,
+                0.052335841,
+                1.25e-07
+              ],
+              "pixel": [
+                1006.442164,
+                540.0
+              ],
+              "absoluteOffsetPixels": 46.442164,
+              "axisResidualDegrees": 2.999993368,
+              "limits": {
+                "absoluteOffsetPixels": 2.0,
+                "axisResidualDegrees": 0.25
+              },
+              "passed": false,
+              "fixtureType": "physically translated and rotated copied attachment meshes",
+              "localTranslation": [
+                9.66e-07,
+                -0.25,
+                0.0
+              ],
+              "localRotationDegrees": 3.0,
+              "passedByCorrectlyFailingGate": true
+            },
+            "passed": true
+          },
+          "contact": {
+            "evaluator": "shared coherent-plane contact_patch_clusters + host_contact_pairs + evaluate_contact_pair",
+            "positive": {
+              "selectedPair": {
+                "signedGap": -5.8174e-05,
+                "normalErrorDeg": 0.0,
+                "forwardOverlap": 3.135881066,
+                "rightOverlap": 0.635680139,
+                "overlapArea": 1.993417312,
+                "attachmentOpticalHeight": 1.572234392,
+                "attachment": {
+                  "coordinate": 3.335206747,
+                  "area": 1.99341668,
+                  "triangles": 2,
+                  "center": [
+                    1.655513644,
+                    -1.2e-07,
+                    3.335206747
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    -1.0
+                  ],
+                  "interfaceBounds": {
+                    "lower": [
+                      -1.567940712,
+                      0.0,
+                      -0.31784007
+                    ],
+                    "upper": [
+                      1.567940354,
+                      0.0,
+                      0.31784007
+                    ]
+                  },
+                  "quality": {
+                    "triangleCount": 2.0,
+                    "area": 1.99341668,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualRms": 0.0,
+                    "planeResidualMaximum": 0.0
+                  }
+                },
+                "host": {
+                  "coordinate": 3.335264921,
+                  "area": 5.913788037,
+                  "triangles": 2,
+                  "center": [
+                    2.448962212,
+                    -0.038896147,
+                    3.335264921
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "interfaceBounds": {
+                    "lower": [
+                      -2.742652655,
+                      5.7936e-05,
+                      -0.379205197
+                    ],
+                    "upper": [
+                      4.329550266,
+                      5.7936e-05,
+                      0.456997126
+                    ]
+                  },
+                  "quality": {
+                    "triangleCount": 2.0,
+                    "area": 5.913788037,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualRms": 2.38e-07,
+                    "planeResidualMaximum": 2.38e-07
+                  }
+                }
+              },
+              "evaluation": {
+                "acceptedSignedGap": -5.8174e-05,
+                "signedGapResidual": 0.0,
+                "limits": {
+                  "signedGapResidual": 0.02,
+                  "normalErrorDeg": 0.5,
+                  "minimumOverlapArea": 0.2,
+                  "minimumAttachmentTriangles": 2,
+                  "minimumHostTriangles": 2,
+                  "minimumAttachmentArea": 0.2,
+                  "minimumHostArea": 0.75,
+                  "maximumPlaneResidual": 0.01
+                },
+                "failures": [],
+                "passed": true
+              }
+            },
+            "negativeFixtures": {
+              "float": {
+                "fixtureType": "physically translated copied attachment meshes",
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.079999998
+                ],
+                "meshCount": 3,
+                "selectedPair": {
+                  "signedGap": 0.079941988,
+                  "normalErrorDeg": 0.0,
+                  "forwardOverlap": 3.135881066,
+                  "rightOverlap": 0.635680139,
+                  "overlapArea": 1.993417312,
+                  "attachmentOpticalHeight": 1.572234154,
+                  "attachment": {
+                    "coordinate": 3.415206671,
+                    "area": 1.99341668,
+                    "triangles": 2,
+                    "center": [
+                      1.655513644,
+                      -1.2e-07,
+                      3.415206909
+                    ],
+                    "normal": [
+                      0.0,
+                      0.0,
+                      -1.0
+                    ],
+                    "interfaceBounds": {
+                      "lower": [
+                        -1.567940712,
+                        -2.38e-07,
+                        -0.31784007
+                      ],
+                      "upper": [
+                        1.567940354,
+                        -2.38e-07,
+                        0.31784007
+                      ]
+                    },
+                    "quality": {
+                      "triangleCount": 2.0,
+                      "area": 1.99341668,
+                      "normalSpreadDeg": 0.0,
+                      "planeResidualRms": 2.38e-07,
+                      "planeResidualMaximum": 2.38e-07
+                    }
+                  },
+                  "host": {
+                    "coordinate": 3.335264921,
+                    "area": 5.913788037,
+                    "triangles": 2,
+                    "center": [
+                      2.448962212,
+                      -0.038896147,
+                      3.335264921
+                    ],
+                    "normal": [
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "interfaceBounds": {
+                      "lower": [
+                        -2.742652655,
+                        -0.079942226,
+                        -0.379205197
+                      ],
+                      "upper": [
+                        4.329550266,
+                        -0.079942226,
+                        0.456997126
+                      ]
+                    },
+                    "quality": {
+                      "triangleCount": 2.0,
+                      "area": 5.913788037,
+                      "normalSpreadDeg": 0.0,
+                      "planeResidualRms": 2.38e-07,
+                      "planeResidualMaximum": 2.38e-07
+                    }
+                  }
+                },
+                "evaluation": {
+                  "acceptedSignedGap": -5.8174e-05,
+                  "signedGapResidual": 0.080000162,
+                  "limits": {
+                    "signedGapResidual": 0.02,
+                    "normalErrorDeg": 0.5,
+                    "minimumOverlapArea": 0.2,
+                    "minimumAttachmentTriangles": 2,
+                    "minimumHostTriangles": 2,
+                    "minimumAttachmentArea": 0.2,
+                    "minimumHostArea": 0.75,
+                    "maximumPlaneResidual": 0.01
+                  },
+                  "failures": [
+                    "signed-gap-outside-accepted-control-envelope"
+                  ],
+                  "passed": false
+                },
+                "passedByCorrectlyFailingGate": true
+              },
+              "clip": {
+                "fixtureType": "physically translated copied attachment meshes",
+                "translation": [
+                  -0.0,
+                  -0.0,
+                  -0.079999998
+                ],
+                "meshCount": 3,
+                "selectedPair": {
+                  "signedGap": -0.080057859,
+                  "normalErrorDeg": 0.0,
+                  "forwardOverlap": 3.135881066,
+                  "rightOverlap": 0.635680139,
+                  "overlapArea": 1.993417312,
+                  "attachmentOpticalHeight": 1.572234154,
+                  "attachment": {
+                    "coordinate": 3.255206823,
+                    "area": 1.99341668,
+                    "triangles": 2,
+                    "center": [
+                      1.655513644,
+                      -1.2e-07,
+                      3.255207062
+                    ],
+                    "normal": [
+                      0.0,
+                      0.0,
+                      -1.0
+                    ],
+                    "interfaceBounds": {
+                      "lower": [
+                        -1.567940712,
+                        -2.38e-07,
+                        -0.31784007
+                      ],
+                      "upper": [
+                        1.567940354,
+                        -2.38e-07,
+                        0.31784007
+                      ]
+                    },
+                    "quality": {
+                      "triangleCount": 2.0,
+                      "area": 1.99341668,
+                      "normalSpreadDeg": 0.0,
+                      "planeResidualRms": 2.38e-07,
+                      "planeResidualMaximum": 2.38e-07
+                    }
+                  },
+                  "host": {
+                    "coordinate": 3.335264921,
+                    "area": 5.913788037,
+                    "triangles": 2,
+                    "center": [
+                      2.448962212,
+                      -0.038896147,
+                      3.335264921
+                    ],
+                    "normal": [
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "interfaceBounds": {
+                      "lower": [
+                        -2.742652655,
+                        0.080057621,
+                        -0.379205197
+                      ],
+                      "upper": [
+                        4.329550266,
+                        0.080057621,
+                        0.456997126
+                      ]
+                    },
+                    "quality": {
+                      "triangleCount": 2.0,
+                      "area": 5.913788037,
+                      "normalSpreadDeg": 0.0,
+                      "planeResidualRms": 2.38e-07,
+                      "planeResidualMaximum": 2.38e-07
+                    }
+                  }
+                },
+                "evaluation": {
+                  "acceptedSignedGap": -5.8174e-05,
+                  "signedGapResidual": 0.079999685,
+                  "limits": {
+                    "signedGapResidual": 0.02,
+                    "normalErrorDeg": 0.5,
+                    "minimumOverlapArea": 0.2,
+                    "minimumAttachmentTriangles": 2,
+                    "minimumHostTriangles": 2,
+                    "minimumAttachmentArea": 0.2,
+                    "minimumHostArea": 0.75,
+                    "maximumPlaneResidual": 0.01
+                  },
+                  "failures": [
+                    "signed-gap-outside-accepted-control-envelope"
+                  ],
+                  "passed": false
+                },
+                "passedByCorrectlyFailingGate": true
+              }
+            },
+            "passed": true
+          },
+          "passed": true
+        },
+        "acog": {
+          "tag": "tag_acog",
+          "runtimeLayers": [
+            {
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_idle",
+              "sha256": "753C6076969D7E9CE1AAB485EF61A32C262834E9BE387E8B5DBEC36E59772405",
+              "frame": 1,
+              "frameCount": 2
+            },
+            {
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_acog_ads_up",
+              "sha256": "BB8BD2BCE443E3BFF9351C715EF1C9DB2B3851E8213860D20FA9DBB0391731BC",
+              "frame": 13,
+              "frameCount": 13
+            }
+          ],
+          "projection": {
+            "positive": {
+              "evaluator": "exact mesh reticle-plane center -> live pose -> fixed projection",
+              "meshCount": 4,
+              "witness": {
+                "method": "exact reticle-material vertices and fitted plane normal",
+                "materialToken": "mtl_weapon_acog_reticle",
+                "pointCount": 8,
+                "uniquePointCount": 8,
+                "center": [
+                  -0.504230022,
+                  -6.85e-07,
+                  4.739423991
+                ],
+                "axis": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "planeResidualRms": 0.0,
+                "planeResidualMaximum": 0.0
+              },
+              "posedWorldCenter": [
+                3.542570115,
+                2.956651967,
+                10.118315662
+              ],
+              "posedWorldAxis": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "pixel": [
+                960.0,
+                540.0
+              ],
+              "absoluteOffsetPixels": 0.0,
+              "axisResidualDegrees": 0.0,
+              "limits": {
+                "absoluteOffsetPixels": 2.0,
+                "axisResidualDegrees": 0.25
+              },
+              "passed": true
+            },
+            "displacedRotatedCopiedNegative": {
+              "evaluator": "exact mesh reticle-plane center -> live pose -> fixed projection",
+              "meshCount": 4,
+              "witness": {
+                "method": "exact reticle-material vertices and fitted plane normal",
+                "materialToken": "mtl_weapon_acog_reticle",
+                "pointCount": 8,
+                "uniquePointCount": 8,
+                "center": [
+                  -0.504229069,
+                  -0.2500007,
+                  4.739423991
+                ],
+                "axis": [
+                  0.998629537,
+                  0.052335919,
+                  -5e-09
+                ],
+                "planeResidualRms": 7.132e-09,
+                "planeResidualMaximum": 9.976e-09
+              },
+              "posedWorldCenter": [
+                3.542571068,
+                2.706651952,
+                10.118315662
+              ],
+              "posedWorldAxis": [
+                0.998629537,
+                0.052335919,
+                -5e-09
+              ],
+              "pixel": [
+                1024.335212,
+                540.0
+              ],
+              "absoluteOffsetPixels": 64.335212,
+              "axisResidualDegrees": 2.999997837,
+              "limits": {
+                "absoluteOffsetPixels": 2.0,
+                "axisResidualDegrees": 0.25
+              },
+              "passed": false,
+              "fixtureType": "physically translated and rotated copied attachment meshes",
+              "localTranslation": [
+                9.66e-07,
+                -0.25,
+                0.0
+              ],
+              "localRotationDegrees": 3.0,
+              "passedByCorrectlyFailingGate": true
+            },
+            "passed": true
+          },
+          "contact": {
+            "evaluator": "shared coherent-plane contact_patch_clusters + host_contact_pairs + evaluate_contact_pair",
+            "positive": {
+              "selectedPair": {
+                "signedGap": -0.00597091,
+                "normalErrorDeg": 0.0,
+                "forwardOverlap": 3.274634242,
+                "rightOverlap": 0.836203754,
+                "overlapArea": 2.738261446,
+                "attachmentOpticalHeight": 1.410129428,
+                "attachment": {
+                  "coordinate": 3.329294205,
+                  "area": 3.881501681,
+                  "triangles": 2,
+                  "center": [
+                    1.725188136,
+                    -1.15e-07,
+                    3.329294205
+                  ],
+                  "normal": [
+                    -2.91e-07,
+                    0.0,
+                    -1.0
+                  ],
+                  "interfaceBounds": {
+                    "lower": [
+                      -1.637316942,
+                      -5.5e-08,
+                      -0.592662334
+                    ],
+                    "upper": [
+                      1.6373173,
+                      2.3e-08,
+                      0.592662334
+                    ]
+                  },
+                  "quality": {
+                    "triangleCount": 2.0,
+                    "area": 3.881501681,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualRms": 0.0,
+                    "planeResidualMaximum": 0.0
+                  }
+                },
+                "host": {
+                  "coordinate": 3.335265576,
+                  "area": 5.913788037,
+                  "triangles": 2,
+                  "center": [
+                    2.448962212,
+                    -0.038896147,
+                    3.335264921
+                  ],
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "interfaceBounds": {
+                    "lower": [
+                      -4.259875774,
+                      0.005969711,
+                      -0.45699808
+                    ],
+                    "upper": [
+                      2.812327147,
+                      0.005971601,
+                      0.379205674
+                    ]
+                  },
+                  "quality": {
+                    "triangleCount": 2.0,
+                    "area": 5.913788037,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualRms": 2.38e-07,
+                    "planeResidualMaximum": 2.38e-07
+                  }
+                }
+              },
+              "evaluation": {
+                "acceptedSignedGap": -0.00597091,
+                "signedGapResidual": 0.0,
+                "limits": {
+                  "signedGapResidual": 0.02,
+                  "normalErrorDeg": 0.5,
+                  "minimumOverlapArea": 0.2,
+                  "minimumAttachmentTriangles": 2,
+                  "minimumHostTriangles": 2,
+                  "minimumAttachmentArea": 0.2,
+                  "minimumHostArea": 0.75,
+                  "maximumPlaneResidual": 0.01
+                },
+                "failures": [],
+                "passed": true
+              }
+            },
+            "negativeFixtures": {
+              "float": {
+                "fixtureType": "physically translated copied attachment meshes",
+                "translation": [
+                  2.1e-08,
+                  -0.0,
+                  0.079999998
+                ],
+                "meshCount": 4,
+                "selectedPair": {
+                  "signedGap": 0.074029252,
+                  "normalErrorDeg": 0.0,
+                  "forwardOverlap": 3.274634242,
+                  "rightOverlap": 0.836203754,
+                  "overlapArea": 2.738261446,
+                  "attachmentOpticalHeight": 1.410129189,
+                  "attachment": {
+                    "coordinate": 3.409294128,
+                    "area": 3.881501681,
+                    "triangles": 2,
+                    "center": [
+                      1.725188136,
+                      -1.15e-07,
+                      3.409294367
+                    ],
+                    "normal": [
+                      -2.91e-07,
+                      0.0,
+                      -1.0
+                    ],
+                    "interfaceBounds": {
+                      "lower": [
+                        -1.637317061,
+                        -2.93e-07,
+                        -0.592662334
+                      ],
+                      "upper": [
+                        1.637317181,
+                        -2.15e-07,
+                        0.592662334
+                      ]
+                    },
+                    "quality": {
+                      "triangleCount": 2.0,
+                      "area": 3.881501681,
+                      "normalSpreadDeg": 0.0,
+                      "planeResidualRms": 2.38e-07,
+                      "planeResidualMaximum": 2.38e-07
+                    }
+                  },
+                  "host": {
+                    "coordinate": 3.335265576,
+                    "area": 5.913788037,
+                    "triangles": 2,
+                    "center": [
+                      2.448962212,
+                      -0.038896147,
+                      3.335264921
+                    ],
+                    "normal": [
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "interfaceBounds": {
+                      "lower": [
+                        -4.259875774,
+                        -0.074030451,
+                        -0.45699808
+                      ],
+                      "upper": [
+                        2.812326908,
+                        -0.074028559,
+                        0.379205674
+                      ]
+                    },
+                    "quality": {
+                      "triangleCount": 2.0,
+                      "area": 5.913788037,
+                      "normalSpreadDeg": 0.0,
+                      "planeResidualRms": 2.38e-07,
+                      "planeResidualMaximum": 2.38e-07
+                    }
+                  }
+                },
+                "evaluation": {
+                  "acceptedSignedGap": -0.00597091,
+                  "signedGapResidual": 0.080000162,
+                  "limits": {
+                    "signedGapResidual": 0.02,
+                    "normalErrorDeg": 0.5,
+                    "minimumOverlapArea": 0.2,
+                    "minimumAttachmentTriangles": 2,
+                    "minimumHostTriangles": 2,
+                    "minimumAttachmentArea": 0.2,
+                    "minimumHostArea": 0.75,
+                    "maximumPlaneResidual": 0.01
+                  },
+                  "failures": [
+                    "signed-gap-outside-accepted-control-envelope"
+                  ],
+                  "passed": false
+                },
+                "passedByCorrectlyFailingGate": true
+              },
+              "clip": {
+                "fixtureType": "physically translated copied attachment meshes",
+                "translation": [
+                  -2.1e-08,
+                  0.0,
+                  -0.079999998
+                ],
+                "meshCount": 4,
+                "selectedPair": {
+                  "signedGap": -0.085970595,
+                  "normalErrorDeg": 0.0,
+                  "forwardOverlap": 3.274634242,
+                  "rightOverlap": 0.836203754,
+                  "overlapArea": 2.738261446,
+                  "attachmentOpticalHeight": 1.410128713,
+                  "attachment": {
+                    "coordinate": 3.249294281,
+                    "area": 3.881501681,
+                    "triangles": 2,
+                    "center": [
+                      1.725188136,
+                      -1.15e-07,
+                      3.249294519
+                    ],
+                    "normal": [
+                      -2.91e-07,
+                      0.0,
+                      -1.0
+                    ],
+                    "interfaceBounds": {
+                      "lower": [
+                        -1.637316942,
+                        -2.93e-07,
+                        -0.592662334
+                      ],
+                      "upper": [
+                        1.6373173,
+                        -2.15e-07,
+                        0.592662334
+                      ]
+                    },
+                    "quality": {
+                      "triangleCount": 2.0,
+                      "area": 3.881501681,
+                      "normalSpreadDeg": 0.0,
+                      "planeResidualRms": 2.38e-07,
+                      "planeResidualMaximum": 2.38e-07
+                    }
+                  },
+                  "host": {
+                    "coordinate": 3.335265576,
+                    "area": 5.913788037,
+                    "triangles": 2,
+                    "center": [
+                      2.448962212,
+                      -0.038896147,
+                      3.335264921
+                    ],
+                    "normal": [
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "interfaceBounds": {
+                      "lower": [
+                        -4.259875774,
+                        0.085969396,
+                        -0.45699808
+                      ],
+                      "upper": [
+                        2.812327147,
+                        0.085971288,
+                        0.379205674
+                      ]
+                    },
+                    "quality": {
+                      "triangleCount": 2.0,
+                      "area": 5.913788037,
+                      "normalSpreadDeg": 0.0,
+                      "planeResidualRms": 2.38e-07,
+                      "planeResidualMaximum": 2.38e-07
+                    }
+                  }
+                },
+                "evaluation": {
+                  "acceptedSignedGap": -0.00597091,
+                  "signedGapResidual": 0.079999685,
+                  "limits": {
+                    "signedGapResidual": 0.02,
+                    "normalErrorDeg": 0.5,
+                    "minimumOverlapArea": 0.2,
+                    "minimumAttachmentTriangles": 2,
+                    "minimumHostTriangles": 2,
+                    "minimumAttachmentArea": 0.2,
+                    "minimumHostArea": 0.75,
+                    "maximumPlaneResidual": 0.01
+                  },
+                  "failures": [
+                    "signed-gap-outside-accepted-control-envelope"
+                  ],
+                  "passed": false
+                },
+                "passedByCorrectlyFailingGate": true
+              }
+            },
+            "passed": true
+          },
+          "passed": true
+        },
+        "suppressor": {
+          "authority": "untouched stock CoD4 M4 base/silenced pair",
+          "baseWeaponfile": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_mp",
+          "baseWeaponfileSha256": "1B315A16749E7F02086AFC82BE0971F81B2F792D9416ED793FC4BA8E296DA2FB",
+          "silencedWeaponfile": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_silencer_mp",
+          "silencedWeaponfileSha256": "1ACF007D740708BAA2D483CFC3EDF3785C8773DF86423BFB4533BD1FCF7888E6",
+          "baseModel": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_m4_mp_lod0.glb",
+          "baseModelSha256": "F6C39DA0BDBABEBF74D54DDEB0BA1496CDD510964723AB627DF22CE4F7A801D5",
+          "silencedModel": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_m4_and_silencer_mp_lod0.glb",
+          "silencedModelSha256": "F78FA79EE3BA57F8AB56232F13E1D05614F45619CEB56E6D489F34174CD710D9",
+          "runtimeLayers": [
+            {
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_idle",
+              "sha256": "753C6076969D7E9CE1AAB485EF61A32C262834E9BE387E8B5DBEC36E59772405",
+              "frame": 1,
+              "frameCount": 2
+            },
+            {
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_iron_ads_up",
+              "sha256": "B5E95CB7ABB3BA98B977F3D43F03E801B9212CB0F07B181656FC26176C06AD9D",
+              "frame": 13,
+              "frameCount": 13
+            }
+          ],
+          "baseMuzzleInterface": {
+            "tagFlash": [
+              [
+                0.0,
+                1.0,
+                -1.19e-07,
+                23.870096207
+              ],
+              [
+                -7.5e-08,
+                1.19e-07,
+                1.0,
+                0.015752843
+              ],
+              [
+                1.0,
+                0.0,
+                7.5e-08,
+                2.503872633
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "silencedJSilencer": [
+              [
+                0.0,
+                1.0,
+                -1.19e-07,
+                23.870096207
+              ],
+              [
+                -7.5e-08,
+                1.19e-07,
+                1.0,
+                0.015752843
+              ],
+              [
+                1.0,
+                0.0,
+                7.5e-08,
+                2.503872633
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "silencedTagFlash": [
+              [
+                0.0,
+                1.0,
+                -1.19e-07,
+                34.095153809
+              ],
+              [
+                -7.5e-08,
+                1.19e-07,
+                1.0,
+                0.015754061
+              ],
+              [
+                1.0,
+                -0.0,
+                7.5e-08,
+                2.503872633
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "baseToSilencedBoreAxis": [
+              1.0,
+              1.19e-07,
+              0.0
+            ],
+            "baseTagFlashToSilencerRootDistance": 0.0,
+            "muzzleExtensionModelUnits": 10.225057633
+          },
+          "positive": {
+            "evaluator": "coherent low-poly silencer interface collar, mesh-derived cylinder axis, transformed j_silencer branch origin/basis, independent base tag_flash contact origin, and base-to-silenced muzzle-extension bore axis",
+            "signedAxialContactOffset": 0.0,
+            "acceptedSignedAxialContactOffset": 0.0,
+            "signedAxialContactResidual": 0.0,
+            "lateralContactResidual": 0.0,
+            "cylinderToBaseBoreAxisDegrees": 0.077901372,
+            "cylinderToAcceptedOrientationDegrees": 0.0,
+            "interfaceBasisToBaseBoreAxisDegrees": 0.0,
+            "cylinderToInterfaceBasisDegrees": 0.077901375,
+            "cylinderAxis": [
+              0.999999046,
+              -0.000751176,
+              0.001133209
+            ],
+            "interfaceOrigin": [
+              23.870096207,
+              0.015752843,
+              2.503872633
+            ],
+            "interfaceCollar": {
+              "method": "all j_silencer triangles whose complete support lies within 1.5 model units of the transformed branch contact plane",
+              "triangleCount": 13,
+              "area": 2.161593641,
+              "center": [
+                22.968336105,
+                0.011402834,
+                2.507324934
+              ],
+              "axialSpan": 0.66834179,
+              "coherent": true
+            },
+            "limits": {
+              "signedAxialContactResidual": 0.02,
+              "lateralContactResidual": 0.02,
+              "cylinderToBaseBoreAxisDegrees": 0.5,
+              "cylinderToAcceptedOrientationDegrees": 0.5,
+              "interfaceBasisToBaseBoreAxisDegrees": 0.5,
+              "cylinderToInterfaceBasisDegrees": 0.5,
+              "minimumInterfaceTriangles": 3,
+              "minimumInterfaceArea": 0.05
+            },
+            "passed": true
+          },
+          "physicallyDisplacedRotatedNegative": {
+            "evaluator": "coherent low-poly silencer interface collar, mesh-derived cylinder axis, transformed j_silencer branch origin/basis, independent base tag_flash contact origin, and base-to-silenced muzzle-extension bore axis",
+            "signedAxialContactOffset": -6e-08,
+            "acceptedSignedAxialContactOffset": 0.0,
+            "signedAxialContactResidual": 6e-08,
+            "lateralContactResidual": 0.707106865,
+            "cylinderToBaseBoreAxisDegrees": 4.957376472,
+            "cylinderToAcceptedOrientationDegrees": 4.999995181,
+            "interfaceBasisToBaseBoreAxisDegrees": 4.999998688,
+            "cylinderToInterfaceBasisDegrees": 0.077901747,
+            "cylinderAxis": [
+              0.996259272,
+              0.086407319,
+              0.001133214
+            ],
+            "interfaceOrigin": [
+              23.870096207,
+              -0.484247267,
+              3.003872633
+            ],
+            "interfaceCollar": {
+              "method": "all j_silencer triangles whose complete support lies within 1.5 model units of the transformed branch contact plane",
+              "triangleCount": 13,
+              "area": 2.161593437,
+              "center": [
+                22.972150803,
+                -0.567174256,
+                3.007324696
+              ],
+              "axialSpan": 0.668340954,
+              "coherent": true
+            },
+            "limits": {
+              "signedAxialContactResidual": 0.02,
+              "lateralContactResidual": 0.02,
+              "cylinderToBaseBoreAxisDegrees": 0.5,
+              "cylinderToAcceptedOrientationDegrees": 0.5,
+              "interfaceBasisToBaseBoreAxisDegrees": 0.5,
+              "cylinderToInterfaceBasisDegrees": 0.5,
+              "minimumInterfaceTriangles": 3,
+              "minimumInterfaceArea": 0.05
+            },
+            "passed": false,
+            "fixtureType": "physically displaced and yaw-rotated copied j_silencer geometry",
+            "translationBlenderGlb": [
+              0.0,
+              -0.5,
+              0.5
+            ],
+            "rotationDegreesAboutModelUp": 5.0,
+            "meshSha256": "1D4893E56A11C90447EDE048D3AEBCFC248C44681E3A88E1B37C5D7489660E27",
+            "passedByCorrectlyFailingGate": true
+          },
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    "m249": {
+      "authority": "untouched stock CoD4 SAW/SAW-grip weapon pair",
+      "model": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_m249_mp_lod0.glb",
+      "modelSha256": "383A991692FD697ADF45C6E5BB11D09A96AEFD4EA12CDDFA397E0744C385931E",
+      "hands": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_base_viewhands_lod0.glb",
+      "handsSha256": "4E52E9CD84F8C1AD5444510FE277FDD3C053CD845DE45B4908F7E3368691F3F5",
+      "categories": {
+        "grip": {
+          "authority": "untouched stock CoD4 SAW/SAW-grip pair",
+          "model": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_m249_mp_lod0.glb",
+          "modelSha256": "383A991692FD697ADF45C6E5BB11D09A96AEFD4EA12CDDFA397E0744C385931E",
+          "hands": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_base_viewhands_lod0.glb",
+          "handsSha256": "4E52E9CD84F8C1AD5444510FE277FDD3C053CD845DE45B4908F7E3368691F3F5",
+          "baseWeaponfile": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/saw_mp",
+          "baseWeaponfileSha256": "643B7A0EC9389B5C74FEBC7A1D991F1B1B3FD5B5776B54ED5B0B17865F3C8AB8",
+          "gripWeaponfile": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/saw_grip_mp",
+          "gripWeaponfileSha256": "0E18DCD7781A262D3C677FE1B89FA139EF2AC2B1B7909925FA382B765D48F4D4",
+          "positive": {
+            "meshSha256": "073E8E776CCDD265D65391A6F767DFA6285E077DB5BC29FBC2701AD853A41150",
+            "phases": {
+              "idle": {
+                "sampleCount": 2,
+                "samples": [
+                  {
+                    "sample": 0,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.868806839,
+                        3.379058361,
+                        5.564902306
+                      ],
+                      "axis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "acceptedCenter": [
+                        17.868806839,
+                        3.379058361,
+                        5.564902306
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 21.691011429,
+                        "p10": 21.951406479,
+                        "p25": 23.119190216,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 21.691011429,
+                        "p10": 21.951406479,
+                        "p25": 23.119190216,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 1,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 1,
+                        "frameCount": 1
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.868806839,
+                        3.379058361,
+                        5.564902306
+                      ],
+                      "axis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "acceptedCenter": [
+                        17.868806839,
+                        3.379058361,
+                        5.564902306
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 8.893853188,
+                        "p10": 9.175707817,
+                        "p25": 9.420582771,
+                        "gripVerticesWithinMinimumPlus0.05": 10,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 8.893853188,
+                        "p10": 9.175707817,
+                        "p25": 9.420582771,
+                        "gripVerticesWithinMinimumPlus0.05": 10,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  }
+                ],
+                "passed": true
+              },
+              "terminalAdsUp": {
+                "sampleCount": 1,
+                "samples": [
+                  {
+                    "sample": 0,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.933784485,
+                        3.366058111,
+                        5.342881203
+                      ],
+                      "axis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "acceptedCenter": [
+                        17.933784485,
+                        3.366058111,
+                        5.342881203
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 0.628492117,
+                        "p10": 0.868900657,
+                        "p25": 1.001001894,
+                        "gripVerticesWithinMinimumPlus0.05": 2,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.628492117,
+                        "p10": 0.868900657,
+                        "p25": 1.001001894,
+                        "gripVerticesWithinMinimumPlus0.05": 2,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  }
+                ],
+                "passed": true
+              },
+              "adsFireRecoil": {
+                "sampleCount": 6,
+                "samples": [
+                  {
+                    "sample": 0,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 0,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.66318512,
+                        3.366058111,
+                        5.346102715
+                      ],
+                      "axis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "acceptedCenter": [
+                        17.66318512,
+                        3.366058111,
+                        5.346102715
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 0.132936537,
+                        "p10": 0.347521842,
+                        "p25": 0.54245168,
+                        "gripVerticesWithinMinimumPlus0.05": 2,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.132936537,
+                        "p10": 0.347521842,
+                        "p25": 0.54245168,
+                        "gripVerticesWithinMinimumPlus0.05": 2,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 1,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 1,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.66210556,
+                        3.366058111,
+                        5.346115589
+                      ],
+                      "axis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "acceptedCenter": [
+                        17.66210556,
+                        3.366058111,
+                        5.346115589
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 1.417384028,
+                        "p10": 1.80185318,
+                        "p25": 2.094960093,
+                        "gripVerticesWithinMinimumPlus0.05": 2,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 1.417384028,
+                        "p10": 1.80185318,
+                        "p25": 2.094960093,
+                        "gripVerticesWithinMinimumPlus0.05": 2,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 2,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 2,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.662822723,
+                        3.366058111,
+                        5.346106052
+                      ],
+                      "axis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "acceptedCenter": [
+                        17.662822723,
+                        3.366058111,
+                        5.346106052
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 0.889434159,
+                        "p10": 1.151088476,
+                        "p25": 1.300135612,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.889434159,
+                        "p10": 1.151088476,
+                        "p25": 1.300135612,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 3,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 3,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.662952423,
+                        3.366058111,
+                        5.346105576
+                      ],
+                      "axis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "acceptedCenter": [
+                        17.662952423,
+                        3.366058111,
+                        5.346105576
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 0.749622703,
+                        "p10": 0.978798211,
+                        "p25": 1.093224049,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.749622703,
+                        "p10": 0.978798211,
+                        "p25": 1.093224049,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 4,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 4,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.663045883,
+                        3.366058111,
+                        5.346103668
+                      ],
+                      "axis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "acceptedCenter": [
+                        17.663045883,
+                        3.366058111,
+                        5.346103668
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 0.797230542,
+                        "p10": 1.059016466,
+                        "p25": 1.147978306,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.797230542,
+                        "p10": 1.059016466,
+                        "p25": 1.147978306,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 5,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 5,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.66318512,
+                        3.366058111,
+                        5.346102715
+                      ],
+                      "axis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "acceptedCenter": [
+                        17.66318512,
+                        3.366058111,
+                        5.346102715
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 0.790390134,
+                        "p10": 1.046453595,
+                        "p25": 1.141802073,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.790390134,
+                        "p10": 1.046453595,
+                        "p25": 1.141802073,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  }
+                ],
+                "passed": true
+              },
+              "fire": {
+                "sampleCount": 9,
+                "samples": [
+                  {
+                    "sample": 0,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 0,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "axis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 0.42890352,
+                        "p10": 0.775433302,
+                        "p25": 1.114058614,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.42890352,
+                        "p10": 0.775433302,
+                        "p25": 1.114058614,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 1,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 1,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.07167244,
+                        3.379058361,
+                        5.445651054
+                      ],
+                      "axis": [
+                        0.831551135,
+                        -0.0221014,
+                        -0.555008292
+                      ],
+                      "acceptedCenter": [
+                        17.07167244,
+                        3.379058361,
+                        5.445651054
+                      ],
+                      "acceptedAxis": [
+                        0.831551135,
+                        -0.0221014,
+                        -0.555008292
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 1.207e-06,
+                      "handContact": {
+                        "minimum": 0.521297097,
+                        "p10": 0.954707384,
+                        "p25": 1.1760149,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.521297097,
+                        "p10": 0.954707384,
+                        "p25": 1.1760149,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 2,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 2,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.074972153,
+                        3.379058361,
+                        5.461084366
+                      ],
+                      "axis": [
+                        0.83243084,
+                        -0.0221014,
+                        -0.553688049
+                      ],
+                      "acceptedCenter": [
+                        17.074972153,
+                        3.379058361,
+                        5.461084366
+                      ],
+                      "acceptedAxis": [
+                        0.83243084,
+                        -0.0221014,
+                        -0.553688049
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 10.586833,
+                        "p10": 10.813372612,
+                        "p25": 11.346946716,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.586833,
+                        "p10": 10.813372612,
+                        "p25": 11.346946716,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 3,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 3,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.08588028,
+                        3.379058361,
+                        5.537137508
+                      ],
+                      "axis": [
+                        0.836731374,
+                        -0.0221014,
+                        -0.547167361
+                      ],
+                      "acceptedCenter": [
+                        17.08588028,
+                        3.379058361,
+                        5.537137508
+                      ],
+                      "acceptedAxis": [
+                        0.836731374,
+                        -0.0221014,
+                        -0.547167361
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 8.54e-07,
+                      "handContact": {
+                        "minimum": 10.645089149,
+                        "p10": 10.875245094,
+                        "p25": 11.351632118,
+                        "gripVerticesWithinMinimumPlus0.05": 6,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.645089149,
+                        "p10": 10.875245094,
+                        "p25": 11.351632118,
+                        "gripVerticesWithinMinimumPlus0.05": 6,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 4,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 4,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.095994949,
+                        3.379058361,
+                        5.613219738
+                      ],
+                      "axis": [
+                        0.840980887,
+                        -0.022101402,
+                        -0.540613413
+                      ],
+                      "acceptedCenter": [
+                        17.095994949,
+                        3.379058361,
+                        5.613219738
+                      ],
+                      "acceptedAxis": [
+                        0.840980887,
+                        -0.022101402,
+                        -0.540613413
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 10.638441086,
+                        "p10": 10.945636749,
+                        "p25": 11.36721611,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.638441086,
+                        "p10": 10.945636749,
+                        "p25": 11.36721611,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 5,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 5,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "axis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 10.637741089,
+                        "p10": 10.955751419,
+                        "p25": 11.394490242,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.637741089,
+                        "p10": 10.955751419,
+                        "p25": 11.394490242,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 6,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 6,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "axis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 10.627987862,
+                        "p10": 10.951782227,
+                        "p25": 11.386949062,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.627987862,
+                        "p10": 10.951782227,
+                        "p25": 11.386949062,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 7,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 7,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "axis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 10.630190849,
+                        "p10": 10.956177711,
+                        "p25": 11.389615536,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.630190849,
+                        "p10": 10.956177711,
+                        "p25": 11.389615536,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  },
+                  {
+                    "sample": 8,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 8,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "axis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.0,
+                      "orientationDeltaDegrees": 0.0,
+                      "handContact": {
+                        "minimum": 10.632393837,
+                        "p10": 10.957306862,
+                        "p25": 11.391222,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.632393837,
+                        "p10": 10.957306862,
+                        "p25": 11.391222,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.0,
+                      "p10HandContactResidual": 0.0,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": true
+                    }
+                  }
+                ],
+                "passed": true
+              }
+            },
+            "passed": true
+          },
+          "physicallyDisplacedRotatedNegative": {
+            "fixtureType": "copied tag_foregrip geometry moved +0.75 CoD Z and rolled +15 degrees about CoD +X",
+            "translationBlenderGlb": [
+              0.0,
+              0.0,
+              0.75
+            ],
+            "rotationDegreesAboutModelForward": 15.0,
+            "meshSha256": "776BABC72244636F7D5997A0BD0B8A56DBA5ED874477EFAF5ABF313DF608BC2E",
+            "phases": {
+              "idle": {
+                "sampleCount": 2,
+                "samples": [
+                  {
+                    "sample": 0,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.868806839,
+                        3.379056215,
+                        6.314909458
+                      ],
+                      "axis": [
+                        0.843512297,
+                        0.117548168,
+                        -0.524089098
+                      ],
+                      "acceptedCenter": [
+                        17.868806839,
+                        3.379058361,
+                        5.564902306
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.750007153,
+                      "orientationDeltaDegrees": 8.040253065,
+                      "handContact": {
+                        "minimum": 10.907785416,
+                        "p10": 11.666436195,
+                        "p25": 12.011894703,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 21.691011429,
+                        "p10": 21.951406479,
+                        "p25": 23.119190216,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 10.783226013,
+                      "p10HandContactResidual": 10.284970284,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 1,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 1,
+                        "frameCount": 1
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.868806839,
+                        3.379056215,
+                        6.314909458
+                      ],
+                      "axis": [
+                        0.843512297,
+                        0.117548168,
+                        -0.524089098
+                      ],
+                      "acceptedCenter": [
+                        17.868806839,
+                        3.379058361,
+                        5.564902306
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.750007153,
+                      "orientationDeltaDegrees": 8.040253065,
+                      "handContact": {
+                        "minimum": 10.907785416,
+                        "p10": 11.666436195,
+                        "p25": 11.954032898,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 8.893853188,
+                        "p10": 9.175707817,
+                        "p25": 9.420582771,
+                        "gripVerticesWithinMinimumPlus0.05": 10,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 2.013932228,
+                      "p10HandContactResidual": 2.490728378,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  }
+                ],
+                "passedByCorrectlyFailingEverySample": true
+              },
+              "terminalAdsUp": {
+                "sampleCount": 1,
+                "samples": [
+                  {
+                    "sample": 0,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.942708969,
+                        3.366055965,
+                        6.092826843
+                      ],
+                      "axis": [
+                        0.837214768,
+                        0.117548168,
+                        -0.534091592
+                      ],
+                      "acceptedCenter": [
+                        17.933784485,
+                        3.366058111,
+                        5.342881203
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.749998738,
+                      "orientationDeltaDegrees": 8.040252934,
+                      "handContact": {
+                        "minimum": 10.8782444,
+                        "p10": 11.638737679,
+                        "p25": 11.99160862,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.628492117,
+                        "p10": 0.868900657,
+                        "p25": 1.001001894,
+                        "gripVerticesWithinMinimumPlus0.05": 2,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 10.249752283,
+                      "p10HandContactResidual": 10.769837022,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  }
+                ],
+                "passedByCorrectlyFailingEverySample": true
+              },
+              "adsFireRecoil": {
+                "sampleCount": 6,
+                "samples": [
+                  {
+                    "sample": 0,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 0,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.672117233,
+                        3.366055965,
+                        6.096048832
+                      ],
+                      "axis": [
+                        0.837214768,
+                        0.117548168,
+                        -0.534091592
+                      ],
+                      "acceptedCenter": [
+                        17.66318512,
+                        3.366058111,
+                        5.346102715
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.749999306,
+                      "orientationDeltaDegrees": 8.040252934,
+                      "handContact": {
+                        "minimum": 7.787353516,
+                        "p10": 8.346502304,
+                        "p25": 9.285889626,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.132936537,
+                        "p10": 0.347521842,
+                        "p25": 0.54245168,
+                        "gripVerticesWithinMinimumPlus0.05": 2,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 7.654416979,
+                      "p10HandContactResidual": 7.998980462,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 1,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 1,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.671030045,
+                        3.366055965,
+                        6.096061707
+                      ],
+                      "axis": [
+                        0.837214768,
+                        0.117548168,
+                        -0.534091592
+                      ],
+                      "acceptedCenter": [
+                        17.66210556,
+                        3.366058111,
+                        5.346115589
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.749999215,
+                      "orientationDeltaDegrees": 8.040252934,
+                      "handContact": {
+                        "minimum": 0.090193398,
+                        "p10": 0.238204792,
+                        "p25": 0.3470276,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 1.417384028,
+                        "p10": 1.80185318,
+                        "p25": 2.094960093,
+                        "gripVerticesWithinMinimumPlus0.05": 2,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 1.32719063,
+                      "p10HandContactResidual": 1.563648388,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 2,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 2,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.67175293,
+                        3.366055965,
+                        6.096053123
+                      ],
+                      "axis": [
+                        0.837214768,
+                        0.117548168,
+                        -0.534091592
+                      ],
+                      "acceptedCenter": [
+                        17.662822723,
+                        3.366058111,
+                        5.346106052
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.750000237,
+                      "orientationDeltaDegrees": 8.040252934,
+                      "handContact": {
+                        "minimum": 0.519055963,
+                        "p10": 0.637898266,
+                        "p25": 0.776795447,
+                        "gripVerticesWithinMinimumPlus0.05": 6,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.889434159,
+                        "p10": 1.151088476,
+                        "p25": 1.300135612,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.370378196,
+                      "p10HandContactResidual": 0.51319021,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 3,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 3,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.671888351,
+                        3.366055965,
+                        6.096050739
+                      ],
+                      "axis": [
+                        0.837214768,
+                        0.117548168,
+                        -0.534091592
+                      ],
+                      "acceptedCenter": [
+                        17.662952423,
+                        3.366058111,
+                        5.346105576
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.749998398,
+                      "orientationDeltaDegrees": 8.040252934,
+                      "handContact": {
+                        "minimum": 0.194771752,
+                        "p10": 0.468751222,
+                        "p25": 0.649729788,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.749622703,
+                        "p10": 0.978798211,
+                        "p25": 1.093224049,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.554850951,
+                      "p10HandContactResidual": 0.510046989,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 4,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 4,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.671981812,
+                        3.366055965,
+                        6.096049309
+                      ],
+                      "axis": [
+                        0.837214768,
+                        0.117548168,
+                        -0.534091592
+                      ],
+                      "acceptedCenter": [
+                        17.663045883,
+                        3.366058111,
+                        5.346103668
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.749998874,
+                      "orientationDeltaDegrees": 8.040252934,
+                      "handContact": {
+                        "minimum": 0.216944054,
+                        "p10": 0.492010057,
+                        "p25": 0.681222677,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.797230542,
+                        "p10": 1.059016466,
+                        "p25": 1.147978306,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.580286488,
+                      "p10HandContactResidual": 0.567006409,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 5,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+                        "sha256": "AEC565BBEEABC4EF580764370A87840D384E6786C90BE396716BD02B4097A929",
+                        "frame": 14,
+                        "frameCount": 14
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+                        "sha256": "092D6135186A0B79E5146096A8CFC8C359CE98FB50F910D2230997ACFD63E423",
+                        "frame": 5,
+                        "frameCount": 5
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.672117233,
+                        3.366055965,
+                        6.096048832
+                      ],
+                      "axis": [
+                        0.837214768,
+                        0.117548168,
+                        -0.534091592
+                      ],
+                      "acceptedCenter": [
+                        17.66318512,
+                        3.366058111,
+                        5.346102715
+                      ],
+                      "acceptedAxis": [
+                        0.83706522,
+                        -0.0221014,
+                        -0.546656549
+                      ],
+                      "railContactDeltaModelUnits": 0.749999306,
+                      "orientationDeltaDegrees": 8.040252934,
+                      "handContact": {
+                        "minimum": 0.20756425,
+                        "p10": 0.4880355,
+                        "p25": 0.674620211,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.790390134,
+                        "p10": 1.046453595,
+                        "p25": 1.141802073,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.582825884,
+                      "p10HandContactResidual": 0.558418095,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  }
+                ],
+                "passedByCorrectlyFailingEverySample": true
+              },
+              "fire": {
+                "sampleCount": 9,
+                "samples": [
+                  {
+                    "sample": 0,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 0,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379056215,
+                        6.40903759
+                      ],
+                      "axis": [
+                        0.843512297,
+                        0.117548168,
+                        -0.524089098
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.749996185,
+                      "orientationDeltaDegrees": 8.040253065,
+                      "handContact": {
+                        "minimum": 0.251309305,
+                        "p10": 0.460791498,
+                        "p25": 2.454585791,
+                        "gripVerticesWithinMinimumPlus0.05": 5,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.42890352,
+                        "p10": 0.775433302,
+                        "p25": 1.114058614,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.177594215,
+                      "p10HandContactResidual": 0.314641804,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 1,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 1,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.088106155,
+                        3.379056215,
+                        6.195470333
+                      ],
+                      "axis": [
+                        0.831826568,
+                        0.117548183,
+                        -0.54244554
+                      ],
+                      "acceptedCenter": [
+                        17.07167244,
+                        3.379058361,
+                        5.445651054
+                      ],
+                      "acceptedAxis": [
+                        0.831551135,
+                        -0.0221014,
+                        -0.555008292
+                      ],
+                      "railContactDeltaModelUnits": 0.749999363,
+                      "orientationDeltaDegrees": 8.040253113,
+                      "handContact": {
+                        "minimum": 0.12176349,
+                        "p10": 0.227807894,
+                        "p25": 0.367357284,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 0.521297097,
+                        "p10": 0.954707384,
+                        "p25": 1.1760149,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.399533607,
+                      "p10HandContactResidual": 0.72689949,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 2,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 2,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.090215683,
+                        3.379056215,
+                        6.21092701
+                      ],
+                      "axis": [
+                        0.832686245,
+                        0.117548168,
+                        -0.541124761
+                      ],
+                      "acceptedCenter": [
+                        17.074972153,
+                        3.379058361,
+                        5.461084366
+                      ],
+                      "acceptedAxis": [
+                        0.83243084,
+                        -0.0221014,
+                        -0.553688049
+                      ],
+                      "railContactDeltaModelUnits": 0.749997554,
+                      "orientationDeltaDegrees": 8.040253149,
+                      "handContact": {
+                        "minimum": 0.210539594,
+                        "p10": 0.389592767,
+                        "p25": 0.543116212,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.586833,
+                        "p10": 10.813372612,
+                        "p25": 11.346946716,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 10.376293406,
+                      "p10HandContactResidual": 10.423779845,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 3,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 3,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.095283508,
+                        3.379056215,
+                        6.287077427
+                      ],
+                      "axis": [
+                        0.836888611,
+                        0.117548168,
+                        -0.534602523
+                      ],
+                      "acceptedCenter": [
+                        17.08588028,
+                        3.379058361,
+                        5.537137508
+                      ],
+                      "acceptedAxis": [
+                        0.836731374,
+                        -0.0221014,
+                        -0.547167361
+                      ],
+                      "railContactDeltaModelUnits": 0.749998866,
+                      "orientationDeltaDegrees": 8.040252889,
+                      "handContact": {
+                        "minimum": 1.407312155,
+                        "p10": 1.763082862,
+                        "p25": 2.119969606,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.645089149,
+                        "p10": 10.875245094,
+                        "p25": 11.351632118,
+                        "gripVerticesWithinMinimumPlus0.05": 6,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 9.237776994,
+                      "p10HandContactResidual": 9.112162232,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 4,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 4,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.099515915,
+                        3.379056215,
+                        6.363212585
+                      ],
+                      "axis": [
+                        0.841039956,
+                        0.117548183,
+                        -0.52804774
+                      ],
+                      "acceptedCenter": [
+                        17.095994949,
+                        3.379058361,
+                        5.613219738
+                      ],
+                      "acceptedAxis": [
+                        0.840980887,
+                        -0.022101402,
+                        -0.540613413
+                      ],
+                      "railContactDeltaModelUnits": 0.750001112,
+                      "orientationDeltaDegrees": 8.040252942,
+                      "handContact": {
+                        "minimum": 10.639056206,
+                        "p10": 11.411651611,
+                        "p25": 11.669962883,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.638441086,
+                        "p10": 10.945636749,
+                        "p25": 11.36721611,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.00061512,
+                      "p10HandContactResidual": 0.466014862,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 5,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 5,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379056215,
+                        6.40903759
+                      ],
+                      "axis": [
+                        0.843512297,
+                        0.117548168,
+                        -0.524089098
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.749996185,
+                      "orientationDeltaDegrees": 8.040253065,
+                      "handContact": {
+                        "minimum": 10.6398592,
+                        "p10": 11.411551476,
+                        "p25": 11.680991173,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.637741089,
+                        "p10": 10.955751419,
+                        "p25": 11.394490242,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.002118111,
+                      "p10HandContactResidual": 0.455800057,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 6,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 6,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379056215,
+                        6.40903759
+                      ],
+                      "axis": [
+                        0.843512297,
+                        0.117548168,
+                        -0.524089098
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.749996185,
+                      "orientationDeltaDegrees": 8.040253065,
+                      "handContact": {
+                        "minimum": 10.630706787,
+                        "p10": 11.402150154,
+                        "p25": 11.675075054,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.627987862,
+                        "p10": 10.951782227,
+                        "p25": 11.386949062,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.002718925,
+                      "p10HandContactResidual": 0.450367927,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 7,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 7,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379056215,
+                        6.40903759
+                      ],
+                      "axis": [
+                        0.843512297,
+                        0.117548168,
+                        -0.524089098
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.749996185,
+                      "orientationDeltaDegrees": 8.040253065,
+                      "handContact": {
+                        "minimum": 10.632823944,
+                        "p10": 11.40431118,
+                        "p25": 11.676749229,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.630190849,
+                        "p10": 10.956177711,
+                        "p25": 11.389615536,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.002633095,
+                      "p10HandContactResidual": 0.448133469,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  },
+                  {
+                    "sample": 8,
+                    "runtimeLayers": [
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+                        "sha256": "FC369D3A477E03B3F808F55DD943037F49B71A0D587611A77FE60A201AD33399",
+                        "frame": 0,
+                        "frameCount": 1
+                      },
+                      {
+                        "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+                        "sha256": "1EB04CBD58862B8BE736055F4ED1018EE4D31BAD561B9EE472010BCA295936A5",
+                        "frame": 8,
+                        "frameCount": 8
+                      }
+                    ],
+                    "measurement": {
+                      "evaluator": "same-frame posed grip center/orientation plus evaluated left-hand mesh nearest-contact envelope",
+                      "center": [
+                        17.101650238,
+                        3.379056215,
+                        6.40903759
+                      ],
+                      "axis": [
+                        0.843512297,
+                        0.117548168,
+                        -0.524089098
+                      ],
+                      "acceptedCenter": [
+                        17.101650238,
+                        3.379058361,
+                        5.659041405
+                      ],
+                      "acceptedAxis": [
+                        0.843512297,
+                        -0.0221014,
+                        -0.536654949
+                      ],
+                      "railContactDeltaModelUnits": 0.749996185,
+                      "orientationDeltaDegrees": 8.040253065,
+                      "handContact": {
+                        "minimum": 10.634942055,
+                        "p10": 11.406474113,
+                        "p25": 11.678358078,
+                        "gripVerticesWithinMinimumPlus0.05": 1,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "acceptedHandContact": {
+                        "minimum": 10.632393837,
+                        "p10": 10.957306862,
+                        "p25": 11.391222,
+                        "gripVerticesWithinMinimumPlus0.05": 3,
+                        "leftHandPointCount": 1428,
+                        "gripPointCount": 171
+                      },
+                      "minimumHandContactResidual": 0.002548218,
+                      "p10HandContactResidual": 0.449167251,
+                      "limits": {
+                        "railContactDeltaModelUnits": 0.02,
+                        "orientationDeltaDegrees": 0.5,
+                        "minimumHandContactResidual": 0.02,
+                        "p10HandContactResidual": 0.02
+                      },
+                      "passed": false
+                    }
+                  }
+                ],
+                "passedByCorrectlyFailingEverySample": true
+              }
+            },
+            "passedByCorrectlyFailingGate": true
+          },
+          "passed": true
+        }
+      },
+      "passed": true
+    }
+  },
+  "passed": true
+}

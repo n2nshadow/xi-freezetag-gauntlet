@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "capturedUtc": "2026-08-26T03:41:28.6167571Z",
+  "status": "PASS",
+  "independentReplay": true,
+  "auditOnly": true,
+  "promoted": false,
+  "built": false,
+  "installed": false,
+  "launched": false,
+  "steamTouched": false,
+  "productionUntouched": true,
+  "architecture": "txf-directory-swap-v1",
+  "policy": "old-until-single-txf-commit",
+  "transactionMatrices": {
+    "PS7": {
+      "edition": "Core",
+      "version": "7.6.4",
+      "status": "PASS",
+      "caseCount": 32,
+      "passCount": 32,
+      "heldCaseCount": 22,
+      "precommitAllOldCount": 16,
+      "postcommitAllNewCount": 6,
+      "secondRecoveryKillCount": 3,
+      "childCount": 77,
+      "allChildrenReaped": true,
+      "sha256": "751E4240A56B3A39F01D0D925C5283677C944F71D17E1C804C1E54D37AF8B843"
+    },
+    "PS5": {
+      "edition": "Desktop",
+      "version": "5.1.26100.9168",
+      "status": "PASS",
+      "caseCount": 32,
+      "passCount": 32,
+      "heldCaseCount": 22,
+      "precommitAllOldCount": 16,
+      "postcommitAllNewCount": 6,
+      "secondRecoveryKillCount": 3,
+      "childCount": 77,
+      "allChildrenReaped": true,
+      "sha256": "F984222E838EA128BEB5B7C2AD6AE7DA724634ABE8F8B7A7B5F22C4388DFB5C4"
+    }
+  },
+  "sourceSuites": {
+    "PS7": {
+      "parserErrors": 0,
+      "parserFileCount": 6,
+      "groupCount": 8,
+      "helperTamperRejected": true,
+      "helperOmissionRejected": true,
+      "helperSelectedExactlyOnce": true,
+      "runnerExitCode": 0
+    },
+    "PS5": {
+      "parserErrors": 0,
+      "parserFileCount": 6,
+      "groupCount": 8,
+      "helperTamperRejected": true,
+      "helperOmissionRejected": true,
+      "helperSelectedExactlyOnce": true,
+      "runnerExitCode": 0
+    }
+  },
+  "candidateHelperSha256": "341435DA6B6CAA95F1EB5D1A8B85D83DFEC84B43E1C418CA8B17F35AF6490DA2",
+  "verificationCheckCount": 37,
+  "verificationFailureCount": 0,
+  "residueCount": 0,
+  "liveChildCount": 0,
+  "gap": "TxF is deprecated and host/volume dependent. This audit reproduced abrupt user-process termination, not sudden power loss or kernel crash. Unsupported TxF/KTM/NTFS topology fails closed."
+}

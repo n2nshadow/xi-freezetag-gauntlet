@@ -1,0 +1,460 @@
+{
+  "directPoseGreenComposedRuntimeBad": {
+    "composedRuntimeAxisErrorPixels": 64.0,
+    "composedRuntimeWitness": {
+      "binding": {
+        "alignmentTag": "tag_selftest_sight",
+        "cameraContractSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+        "candidateHandModelPath": "procedural://selftest-hands",
+        "candidateHandModelSha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "compositionSha256": "682aa5d94946faa2df1ba525d18a47172e13658075749d11a2ae7e6ea3747556",
+        "directPoseDiagnosticPixel": [
+          960.0,
+          540.0
+        ],
+        "evidenceClass": "synthetic-raster-engine-unit-test-v2",
+        "hideTags": [],
+        "phase": "ads_up",
+        "sampleFrame": 0,
+        "source": "procedural composed sight and hands",
+        "sourceSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "stateId": "SELFTEST-A0",
+        "visibleTag": "tag_selftest_sight",
+        "xanimSha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "camera": {
+        "angleXDegrees": 50.000000253,
+        "angleYDegrees": 34.537988765,
+        "clipEnd": 200.0,
+        "clipStart": 0.029999999,
+        "matrixWorld": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "pixelAspect": [
+          1.0,
+          1.0
+        ],
+        "projectionMatrix": [
+          [
+            2.144506931,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            3.812457085,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.00030005,
+            -0.060009003
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ],
+        "renderEngine": "BLENDER_WORKBENCH",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "resolutionPercentage": 100,
+        "sceneCameraIsWitnessCamera": true,
+        "sha256": "e1c146a8d17447aeeae90e5d7bade770b907377ba3576e4cc7d3ece83403f1f2"
+      },
+      "composition": {
+        "adversarialRuntimeCompositionOffset": {
+          "pixels": 64.0,
+          "worldTranslation": [
+            0.15543589,
+            0.0,
+            0.0
+          ]
+        },
+        "alignmentTag": "tag_selftest_sight",
+        "cameraContractSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+        "candidateHandModelPath": "procedural://selftest-hands",
+        "candidateHandModelResolvedPath": "procedural://selftest-hands",
+        "candidateHandModelSha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "candidatePath": "procedural://selftest-candidate",
+        "candidateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "compositionSha256": "682aa5d94946faa2df1ba525d18a47172e13658075749d11a2ae7e6ea3747556",
+        "frame": 0,
+        "hideTags": [],
+        "method": "candidate-plus-sealed-viewhands-exact-xanim-v1",
+        "phase": "ads_up",
+        "stateId": "SELFTEST-A0",
+        "triangleCounts": {
+          "alignmentGeometry": 2,
+          "viewhands": 2,
+          "visibilityGeometry": 0,
+          "weaponBody": 2
+        },
+        "visibleTag": "tag_selftest_sight",
+        "xanimName": "procedural_terminal_ads",
+        "xanimSha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "method": "same-raster-engine-composed-visible-center-v2",
+      "sample": {
+        "axisErrorPixels": 64.0,
+        "cameraSha256": "e1c146a8d17447aeeae90e5d7bade770b907377ba3576e4cc7d3ece83403f1f2",
+        "centerTargetPixel": [
+          960.0,
+          540.0
+        ],
+        "centerWitness": {
+          "bounds": [
+            947.5,
+            525.5,
+            972.5,
+            554.5
+          ],
+          "boundsCenter": [
+            960.0,
+            540.0
+          ],
+          "centroid": [
+            960.0,
+            540.0
+          ],
+          "pixelCount": 148
+        },
+        "centerWitnessErrorPixels": 0.0,
+        "centerWitnessMethod": "rendered-red-cross-open-center-v1",
+        "compositionSha256": "682aa5d94946faa2df1ba525d18a47172e13658075749d11a2ae7e6ea3747556",
+        "foregroundPixels": 70059,
+        "name": "direct-pose-green-composed-runtime-bad",
+        "pngSha256": "8af21de8f1bf1c924218a8e95bc41f2f68aaebd41a4c38e5023b453f66a16308",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "sampleSha256": "7137ae7dfe846c45b801ae6e21783a1f4c6ea2703152f45a1715e2a86f930e6c",
+        "viewhandsPixels": 27555,
+        "visibilityGeometryPixels": 0,
+        "visibleCenterMethod": "segmented-final-raster-bounds-center-v1",
+        "visibleCenterPixel": [
+          1024.0,
+          540.0
+        ],
+        "visibleGeometryWitness": {
+          "bounds": [
+            1020.5,
+            536.5,
+            1027.5,
+            543.5
+          ],
+          "boundsCenter": [
+            1024.0,
+            540.0
+          ],
+          "centroid": [
+            1023.942623,
+            539.942623
+          ],
+          "pixelCount": 61
+        }
+      },
+      "sealSha256": "c6d0e681ecb0cc06fd3fd25721e695596df76a7535a9cb988d4a71600c9b9115"
+    },
+    "directPoseDiagnosticPixel": [
+      960.0,
+      540.0
+    ],
+    "rejected": true
+  },
+  "gate": {
+    "binding": {
+      "alignmentTag": "tag_selftest_sight",
+      "cameraContractSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "candidateHandModelPath": "procedural://selftest-hands",
+      "candidateHandModelSha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "compositionSha256": "af8204cac2ccf04c50d6efccea6d5dcd77cecec97ef655f0f35bbb7acb62fc3c",
+      "evidenceClass": "synthetic-raster-engine-unit-test-v2",
+      "hideTags": [],
+      "phase": "ads_up",
+      "sampleFrame": 0,
+      "source": "procedural composed sight and hands",
+      "sourceSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "stateId": "SELFTEST-A0",
+      "visibleTag": "tag_selftest_sight",
+      "xanimSha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    },
+    "camera": {
+      "angleXDegrees": 50.000000253,
+      "angleYDegrees": 34.537988765,
+      "clipEnd": 200.0,
+      "clipStart": 0.029999999,
+      "matrixWorld": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pixelAspect": [
+        1.0,
+        1.0
+      ],
+      "projectionMatrix": [
+        [
+          2.144506931,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.812457085,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.00030005,
+          -0.060009003
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "renderEngine": "BLENDER_WORKBENCH",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "resolutionPercentage": 100,
+      "sceneCameraIsWitnessCamera": true,
+      "sha256": "e1c146a8d17447aeeae90e5d7bade770b907377ba3576e4cc7d3ece83403f1f2"
+    },
+    "centerWitnessSealed": true,
+    "composition": {
+      "alignmentTag": "tag_selftest_sight",
+      "cameraContractSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "candidateHandModelPath": "procedural://selftest-hands",
+      "candidateHandModelResolvedPath": "procedural://selftest-hands",
+      "candidateHandModelSha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "candidatePath": "procedural://selftest-candidate",
+      "candidateSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "compositionSha256": "af8204cac2ccf04c50d6efccea6d5dcd77cecec97ef655f0f35bbb7acb62fc3c",
+      "frame": 0,
+      "hideTags": [],
+      "method": "candidate-plus-sealed-viewhands-exact-xanim-v1",
+      "phase": "ads_up",
+      "stateId": "SELFTEST-A0",
+      "triangleCounts": {
+        "alignmentGeometry": 2,
+        "viewhands": 2,
+        "visibilityGeometry": 0,
+        "weaponBody": 2
+      },
+      "visibleTag": "tag_selftest_sight",
+      "xanimName": "procedural_terminal_ads",
+      "xanimSha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    },
+    "finalRasterSha256": "3126446efbd0eac4eb9547b2ee09a421e700854a31fe2ca301564405435993b6",
+    "maximumAxisErrorPixels": 0.0,
+    "measurementStatus": "measured",
+    "method": "same-raster-engine-composed-visible-center-v2",
+    "passed": true,
+    "physicallyDisplacedNegative": {
+      "axisErrorPixels": 32.0,
+      "baseCompositionSha256": "af8204cac2ccf04c50d6efccea6d5dcd77cecec97ef655f0f35bbb7acb62fc3c",
+      "cameraSha256": "e1c146a8d17447aeeae90e5d7bade770b907377ba3576e4cc7d3ece83403f1f2",
+      "centerTargetPixel": [
+        960.0,
+        540.0
+      ],
+      "centerWitness": {
+        "bounds": [
+          947.5,
+          525.5,
+          972.5,
+          554.5
+        ],
+        "boundsCenter": [
+          960.0,
+          540.0
+        ],
+        "centroid": [
+          960.0,
+          540.0
+        ],
+        "pixelCount": 148
+      },
+      "centerWitnessErrorPixels": 0.0,
+      "centerWitnessMethod": "rendered-red-cross-open-center-v1",
+      "compositionSha256": "142bb950318b04ad4190062c48b91e43e97f59127fecda7656151782ffc2c8e5",
+      "foregroundPixels": 70059,
+      "mutation": {
+        "affectedGeometry": "rasterized-alignment-geometry",
+        "method": "physical-alignment-geometry-screen-translation-v1",
+        "requestedTranslationPixels": 32.0,
+        "worldTranslation": [
+          0.077717945,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "physically-displaced-raster-negative",
+      "negativeCompositionSha256": "142bb950318b04ad4190062c48b91e43e97f59127fecda7656151782ffc2c8e5",
+      "pngSha256": "a06d9968a0e377a61e860ee0555de3f3862d28823dd074a8009f9b165071bf5e",
+      "rejected": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "sampleSha256": "2337b143edca4813a599e973a46dbdc73e7687f148d082166d7e472ef5415fe2",
+      "viewhandsPixels": 27555,
+      "visibilityGeometryPixels": 0,
+      "visibleCenterMethod": "segmented-final-raster-bounds-center-v1",
+      "visibleCenterPixel": [
+        992.0,
+        540.0
+      ],
+      "visibleGeometryWitness": {
+        "bounds": [
+          988.5,
+          536.5,
+          995.5,
+          543.5
+        ],
+        "boundsCenter": [
+          992.0,
+          540.0
+        ],
+        "centroid": [
+          991.942623,
+          539.942623
+        ],
+        "pixelCount": 61
+      }
+    },
+    "sameCameraForAllPasses": true,
+    "samples": [
+      {
+        "axisErrorPixels": 0.0,
+        "cameraSha256": "e1c146a8d17447aeeae90e5d7bade770b907377ba3576e4cc7d3ece83403f1f2",
+        "centerTargetPixel": [
+          960.0,
+          540.0
+        ],
+        "centerWitness": {
+          "bounds": [
+            947.5,
+            525.5,
+            972.5,
+            554.5
+          ],
+          "boundsCenter": [
+            960.0,
+            540.0
+          ],
+          "centroid": [
+            960.0,
+            540.0
+          ],
+          "pixelCount": 148
+        },
+        "centerWitnessErrorPixels": 0.0,
+        "centerWitnessMethod": "rendered-red-cross-open-center-v1",
+        "compositionSha256": "af8204cac2ccf04c50d6efccea6d5dcd77cecec97ef655f0f35bbb7acb62fc3c",
+        "foregroundPixels": 70059,
+        "name": "visible-iron-or-optic-center",
+        "pngSha256": "3126446efbd0eac4eb9547b2ee09a421e700854a31fe2ca301564405435993b6",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "sampleSha256": "c405c64efbd1cf55b9540555856e96f02ca393820ca5b2d668f72efd0c5747c4",
+        "viewhandsPixels": 27555,
+        "visibilityGeometryPixels": 0,
+        "visibleCenterMethod": "segmented-final-raster-bounds-center-v1",
+        "visibleCenterPixel": [
+          960.0,
+          540.0
+        ],
+        "visibleGeometryWitness": {
+          "bounds": [
+            956.5,
+            536.5,
+            963.5,
+            543.5
+          ],
+          "boundsCenter": [
+            960.0,
+            540.0
+          ],
+          "centroid": [
+            959.942623,
+            539.942623
+          ],
+          "pixelCount": 61
+        }
+      }
+    ],
+    "screenCenter": [
+      960.0,
+      540.0
+    ],
+    "sealSha256": "0aafcf7a6815ca7fdef7312a09192573d87fef73b62b3263d48bd6ecbc439dcb",
+    "thresholdPixels": 2.0
+  },
+  "promotional": false,
+  "schemaVersion": 2,
+  "status": "PASS",
+  "unitTestOnly": true
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "lane": "weapon_alignment_remaining_families_lead_round1",
+  "generatedAt": "2026-08-26T19:31:00-04:00",
+  "verdict": "HOLD",
+  "claimEligible": false,
+  "scope": {
+    "excludedActiveFamilies": [1, 2],
+    "families": [3, 5, 7, 8, 9, 10, 13, 14, 15],
+    "familyCount": 9,
+    "stateCount": 29,
+    "passedStates": 0,
+    "heldStates": 29
+  },
+  "evidenceAuthority": {
+    "visualReleaseEvidence": false,
+    "reason": "The round-1 evaluator was independently rejected and retained no inspectable state PNGs in this baseline lane.",
+    "winningBarSha256": "ba919e14c86e4fe27a6762c7c09741f5b3486c8ac5b8d72a465790806be33a25",
+    "stateContractSha256": "5f576eafac59053bc54ec059e3bed078088476acee615062e8e5f8a5ae060e49",
+    "diagnosticResultSha256": "00fdd4bd9cea6a4c65310f400ab82315721dc075d3d2c61362189ec00b913620"
+  },
+  "families": [
+    {"family": 3, "states": 4, "findingTotal": 150, "diagnosticGatePass": 6, "diagnosticGateHold": 38, "priority": 1},
+    {"family": 5, "states": 4, "findingTotal": 210, "diagnosticGatePass": 6, "diagnosticGateHold": 38, "priority": 3},
+    {"family": 7, "states": 3, "findingTotal": 123, "diagnosticGatePass": 11, "diagnosticGateHold": 22, "priority": 4},
+    {"family": 8, "states": 2, "findingTotal": 61, "diagnosticGatePass": 6, "diagnosticGateHold": 16, "priority": 2},
+    {"family": 9, "states": 2, "findingTotal": 86, "diagnosticGatePass": 4, "diagnosticGateHold": 18, "priority": 8},
+    {"family": 10, "states": 2, "findingTotal": 93, "diagnosticGatePass": 3, "diagnosticGateHold": 19, "priority": 9},
+    {"family": 13, "states": 4, "findingTotal": 184, "diagnosticGatePass": 13, "diagnosticGateHold": 31, "priority": 6},
+    {"family": 14, "states": 4, "findingTotal": 169, "diagnosticGatePass": 15, "diagnosticGateHold": 29, "priority": 7},
+    {"family": 15, "states": 4, "findingTotal": 228, "diagnosticGatePass": 11, "diagnosticGateHold": 33, "priority": 5}
+  ],
+  "nextGate": "Repair and fresh-critic the evaluator before using these diagnostics for physical promotion.",
+  "reportSha256": "41d5c3be2558a67c5864e151e65d11e9f323810aee7c7b95fb37d6b76b8ed64b"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "verdict": "PASS",
+  "approved": true,
+  "completedDate": "2026-08-25",
+  "engines": [
+    "PowerShell 7.6.4",
+    "Windows PowerShell 5.1.26100.9168"
+  ],
+  "productionHashesUnchanged": true,
+  "priorGroupsPerEngine": 8,
+  "criticSchedulesPerEngine": 11,
+  "defaultCrashBoundariesPerEngine": 6,
+  "cleanCrashBoundariesPerEngine": 2,
+  "secondRecoveryInterruptionsPerEngine": 2,
+  "transactionInvariant": "No install consumer may proceed while a hash-bound transaction is active. Before durable commit, restart establishes the exact old tuple/tree; after durable commit, restart establishes the exact new tuple/tree.",
+  "largestRemainingGap": "The audit did not run a real OAT build or top-level Steam installation, and hard process kills do not model every hardware or filesystem power-loss failure.",
+  "verificationCheckCount": 61,
+  "verificationFailureCount": 0,
+  "cleanup": {
+    "tempChildCount": 0,
+    "transactionResidualCount": 0,
+    "reparseResidualCount": 0
+  }
+}

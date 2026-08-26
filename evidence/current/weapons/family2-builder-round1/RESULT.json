@@ -1,0 +1,976 @@
+{
+  "schemaVersion": 2,
+  "family": "F02",
+  "role": "Family 2 VAPR-XKG builder continuation",
+  "status": "HOLD",
+  "overallPassed": false,
+  "promotionReady": false,
+  "candidateRebuilt": false,
+  "productionPromotionPerformed": false,
+  "candidate": {
+    "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/candidate/viewmodel_t8_vapr_vampire_lod0.glb",
+    "sha256": "7418FA455010EA64115752E149F7BFF17D43F7C0DA3E76D2B4480696C6528C94",
+    "byteCount": 1862416,
+    "manifestPath": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/candidate/f02-candidate-manifest.json",
+    "manifestSha256": "8E0D79C7CEF7C48E065747D6A1D1F43BE9EB2B6FDFA9306318950649C2F61F88",
+    "manifestHashMatches": true,
+    "evaluationHashStable": true
+  },
+  "mandatoryEvidencePolicy": {
+    "terminalAdsUpResolution": [
+      1920,
+      1080
+    ],
+    "fixedCenterWitness": [
+      960,
+      540
+    ],
+    "visibleSightOrOpticCenterTolerancePixels": 2.0,
+    "exactEngineComposedViewhandsWeaponXanimRequired": true,
+    "eachStateIndependent": true,
+    "modelSpaceProjectionCanPass": false,
+    "isolatedOrDirectPoseRenderCanPass": false,
+    "helperPointMetricCanPass": false,
+    "phaseVisualInspectionRequired": [
+      "hip",
+      "adsFire",
+      "reload",
+      "reloadEmpty"
+    ],
+    "phaseInspectionCriteria": [
+      "clipping",
+      "floating",
+      "duplicate parts",
+      "wrong socket",
+      "wrong scale",
+      "rail or muzzle contact"
+    ]
+  },
+  "engineEvidenceInventory": {
+    "gameLaunch": "NOT_RUN_BY_DESIGN",
+    "candidateHashRequired": "7418FA455010EA64115752E149F7BFF17D43F7C0DA3E76D2B4480696C6528C94",
+    "laneRasterFiles": [],
+    "eligibleExactCandidateTerminalRasterCount": 0,
+    "eligibleExactCandidatePhaseRasterCount": 0,
+    "engineVisualClaimsProven": false,
+    "verdictImpact": "Every state remains HOLD."
+  },
+  "authority": {
+    "runtimeIdentity": {
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/inputs/f02-runtime-identity.json",
+      "sha256": "03FF4E999F3C7A8ABCAF6F9F2BC319F1AA8934A55F0D3A24EDD0BD8A686AEC20",
+      "currentBytesReparsed": true,
+      "stateCount": 4,
+      "passed": true
+    },
+    "sourceRehashReparse": {
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/metrics/f02-source-rehash-reparse.json",
+      "sha256": "4C53DC560761802CFEE6BA18E1B84C21FEFAFDB35DBF550136B408D6EBDC5DC1",
+      "passed": true
+    },
+    "sourceAuthoredTrajectory": {
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/metrics/f02-source-authored-runtime-axis-control.json",
+      "sha256": "438353EB30C07B4FC57D249095F6BFECD50D6DD535C8E953B2D44B8F5B0BB565",
+      "stateResults": {
+        "F02-A0": true,
+        "F02-A1": true,
+        "F02-A2": true,
+        "F02-A3": true
+      },
+      "allCurrentF02StateTrajectoriesPassed": true,
+      "topLevelPassed": false,
+      "topLevelHoldReason": "Retained older stock M4 bare/suppressor control remains failed; source trajectory success cannot pass the candidate."
+    },
+    "freshStockCategoryCalibration": {
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/metrics/global-stock-cod4-measurement-calibration.json",
+      "sha256": "2119C50982C545DED9CD73103D63AF7029F2F564B5D6BC6776D0E8FE9434A575",
+      "requiredCategories": [
+        "m4BareIron",
+        "m4Reflex",
+        "m4Acog",
+        "m4Suppressor",
+        "m249Grip"
+      ],
+      "categoryResults": {
+        "m4BareIron": true,
+        "m4Reflex": true,
+        "m4Acog": true,
+        "m4Suppressor": true,
+        "m249Grip": true
+      },
+      "positivesPassAndPhysicalNegativesFail": true,
+      "freshReportPassed": true
+    },
+    "stockIndependentVerification": {
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/metrics/stock-calibration-independent-verification.json",
+      "sha256": "3CA9E3F7EC3E5F4CB4E1E4C60B54756FCA8CD72E22DE37D0FF47BE81A92744F6",
+      "sourceEvidenceSha256": "D88E9563FA193F2F94B5A262C10C6198182F82E27AB155141DE28B36EA4871C1",
+      "laneReexecutionSha256": "2119C50982C545DED9CD73103D63AF7029F2F564B5D6BC6776D0E8FE9434A575",
+      "byteIdentical": false,
+      "semanticComparisonPassed": false,
+      "rejectedDifferenceCount": 343,
+      "passed": false
+    },
+    "stockCategoryControls": {
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/metrics/stock-m4-category-controls.json",
+      "sha256": "5835A4B3681B1B018FDD70D3986176FE80C262BCA07DEDE6DA3D4289B6291BC9",
+      "passed": false
+    },
+    "projectionCompositionVerification": {
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/metrics/stock-projection-composition-verification.json",
+      "sha256": "6794D80E1CBF106557C6546A0EBB9608CB4CBB318109C2EB353329BA7552853C",
+      "passed": true
+    },
+    "manifestDependencySeals": {
+      "runtimeIdentity": {
+        "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/inputs/f02-runtime-identity.json",
+        "manifestSha256": "03FF4E999F3C7A8ABCAF6F9F2BC319F1AA8934A55F0D3A24EDD0BD8A686AEC20",
+        "currentSha256": "03FF4E999F3C7A8ABCAF6F9F2BC319F1AA8934A55F0D3A24EDD0BD8A686AEC20",
+        "matchesManifest": true
+      },
+      "stockCalibration": {
+        "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/metrics/global-stock-cod4-measurement-calibration.json",
+        "manifestSha256": "F7910DA1E36E6CCBD312390873EEF00E52BD2837E554A657FED995298DF81487",
+        "currentSha256": "2119C50982C545DED9CD73103D63AF7029F2F564B5D6BC6776D0E8FE9434A575",
+        "matchesManifest": false
+      },
+      "runtimeAxis": {
+        "path": "xi_ftag/.audit/weapon_alignment_builder_round2/metrics/family01-absolute-runtime-axis-control.json",
+        "manifestSha256": "5C275843B041BC498F20DF5F4E30519D6F6BDF97AAD142D7BB421DD90BE9A504",
+        "currentSha256": "2857F13CFBD7B76F45428FE500F081A88EDA2016DCA214AD0F024E5A10673263",
+        "matchesManifest": false
+      }
+    }
+  },
+  "stateResults": {
+    "F02-A0": {
+      "stateId": "F02-A0",
+      "attachment": 0,
+      "role": "bare",
+      "weaponFile": "g3_mp",
+      "visibleTag": "tag_sight_on",
+      "adsZoomFov": 50.0,
+      "handModel": "viewmodel_base_viewhands",
+      "gunModel": "viewmodel_t8_vapr_vampire",
+      "independentMandatoryGate": true,
+      "runtimeIdentityPassed": true,
+      "terminalAdsUpEngineRaster": {
+        "requiredEvidence": "exact engine-composed terminal ADS-up raster",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "fixedCenterWitness": [
+          960,
+          540
+        ],
+        "maximumVisibleSightOrOpticCenterDistancePixels": 2.0,
+        "evidenceStatus": "MISSING",
+        "evidencePath": null,
+        "candidateSha256": null,
+        "visibleCenterPixel": null,
+        "visibleCenterDistancePixels": null,
+        "inspectionPerformed": false,
+        "passed": false,
+        "verdict": "HOLD"
+      },
+      "phaseVisualInspection": {
+        "hip": {
+          "phase": "hip",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "adsFire": {
+          "phase": "adsFire",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "reload": {
+          "phase": "reload",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "reloadEmpty": {
+          "phase": "reloadEmpty",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        }
+      },
+      "staticGeometry": {
+        "kind": "bareIron",
+        "rearPositionDeltaModelUnits": 0.298679681781,
+        "rearPositionLimitModelUnits": 0.05,
+        "directionDeltaDegrees": 1.436296076,
+        "directionLimitDegrees": 0.1,
+        "sourceFaithfulScaleAndShapePassed": true,
+        "bodyContactPassed": false,
+        "passed": false
+      },
+      "offlineRuntimeCompositionDiagnostic": {
+        "authority": "offline diagnostic only; cannot satisfy an engine-raster gate",
+        "hipMaximumWitnessDeltaPixels": 2784.395103,
+        "terminalCandidateLandmarkAbsoluteOffsetsPixels": {
+          "rear": 741.257723,
+          "front": 3803.058114
+        },
+        "terminalCandidateInternalAxisSeparationPixels": 3699.221342,
+        "terminalComparisonToUntouchedSourceMaximumDeltaPixels": 3803.058114,
+        "adsFireMaximumDeviationPixels": 3976.449192,
+        "terminalPassed": false,
+        "hipPassed": false,
+        "adsFirePassed": false,
+        "statePassed": false
+      },
+      "offlineEveryFrameXanimSweeps": {
+        "phases": {
+          "idle": {
+            "sampleCount": 31,
+            "maximumSourceCandidateMatrixElementResidual": 1.0,
+            "passed": false
+          },
+          "adsUp": {
+            "sampleCount": 13,
+            "maximumSourceCandidateMatrixElementResidual": 1.07613802812,
+            "passed": false
+          },
+          "adsFireRecoil": {
+            "sampleCount": 6,
+            "maximumSourceCandidateMatrixElementResidual": 1.013873441329,
+            "passed": false
+          },
+          "fire": {
+            "sampleCount": 6,
+            "maximumSourceCandidateMatrixElementResidual": 1.020769990703,
+            "passed": false
+          },
+          "reload": {
+            "sampleCount": 62,
+            "maximumSourceCandidateMatrixElementResidual": 1.414204207563,
+            "passed": false
+          },
+          "reloadEmpty": {
+            "sampleCount": 71,
+            "maximumSourceCandidateMatrixElementResidual": 1.414204207563,
+            "passed": false
+          }
+        },
+        "passed": false
+      },
+      "hideShowPassed": true,
+      "selectableGeometryRetainedForRuntimeFiltering": true,
+      "duplicateGeometryGatePassed": true,
+      "physicalDisplacedNegative": {
+        "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/negative-fixtures/f02-a0-physical-displaced.glb",
+        "sha256": "46A58EF6D6C7038CF1393E9B0F8F6B605B9E65B883D9156053AE8396E0AC2519",
+        "byteCount": 1871768,
+        "transformedMeshNames": [
+          "f02_tag_sight_on_00_m16_iron",
+          "f02_tag_sight_on_01_m16_iron"
+        ],
+        "geometrySha256Before": "9D06A13753AB62B5453167F6F1FE335C4831404D048D8D98E03A6E8763EB04A7",
+        "geometrySha256After": "9D265C4FC5BB9C1193566C384C0AE93C6335C78539BFE6E691804BE4A8F53ED0",
+        "physicalGeometryMoved": true,
+        "allSelectableAttachmentGeometryRetained": true,
+        "sameEvaluatorPassed": false,
+        "rejected": true,
+        "engineRasterAuthority": false
+      },
+      "offlineDiagnosticPassed": false,
+      "mandatoryGatePassed": false,
+      "reasons": [
+        "No exact engine-composed 1920x1080 terminal ADS-up raster linked to the candidate hash.",
+        "No eligible exact-engine hip, ADS-fire, reload, or reload-empty visual evidence.",
+        "Exact candidate runtime composition and every-frame XAnim sweep diagnostics fail.",
+        "Bare iron line exceeds accepted position and direction limits.",
+        "One iron component floats beyond the body-contact threshold."
+      ],
+      "verdict": "HOLD"
+    },
+    "F02-A1": {
+      "stateId": "F02-A1",
+      "attachment": 1,
+      "role": "reflex",
+      "weaponFile": "g3_reflex_mp",
+      "visibleTag": "tag_reflex",
+      "adsZoomFov": 50.0,
+      "handModel": "viewmodel_base_viewhands",
+      "gunModel": "viewmodel_t8_vapr_vampire",
+      "independentMandatoryGate": true,
+      "runtimeIdentityPassed": true,
+      "terminalAdsUpEngineRaster": {
+        "requiredEvidence": "exact engine-composed terminal ADS-up raster",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "fixedCenterWitness": [
+          960,
+          540
+        ],
+        "maximumVisibleSightOrOpticCenterDistancePixels": 2.0,
+        "evidenceStatus": "MISSING",
+        "evidencePath": null,
+        "candidateSha256": null,
+        "visibleCenterPixel": null,
+        "visibleCenterDistancePixels": null,
+        "inspectionPerformed": false,
+        "passed": false,
+        "verdict": "HOLD"
+      },
+      "phaseVisualInspection": {
+        "hip": {
+          "phase": "hip",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "adsFire": {
+          "phase": "adsFire",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "reload": {
+          "phase": "reload",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "reloadEmpty": {
+          "phase": "reloadEmpty",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        }
+      },
+      "staticGeometry": {
+        "kind": "reflex",
+        "opticalWitnessPassed": true,
+        "sourceSha256": "8FAD4DEDC833CFF168A0C33E77505A40BABFD627B046CF1AB152889092FF9B8E",
+        "candidateTriangleCount": 5486,
+        "expectedSourceTriangleCount": 5566,
+        "uniformScaleDelta": 0.001382485058,
+        "sourceFaithfulScaleAndShapePassed": false,
+        "railContactPassed": false,
+        "nonContactIntersectionPairs": 142,
+        "socketOwnershipPassed": true,
+        "passed": false
+      },
+      "offlineRuntimeCompositionDiagnostic": {
+        "authority": "offline diagnostic only; cannot satisfy an engine-raster gate",
+        "hipMaximumWitnessDeltaPixels": 1828.240414,
+        "terminalCandidateLandmarkAbsoluteOffsetsPixels": {
+          "opticalCenter": 1280.335227,
+          "opticalAxisFar": 2673.482325
+        },
+        "terminalCandidateInternalAxisSeparationPixels": 1571.062631,
+        "terminalComparisonToUntouchedSourceMaximumDeltaPixels": 2676.749623,
+        "adsFireMaximumDeviationPixels": 2810.152683,
+        "terminalPassed": false,
+        "hipPassed": false,
+        "adsFirePassed": false,
+        "statePassed": false
+      },
+      "offlineEveryFrameXanimSweeps": {
+        "phases": {
+          "idle": {
+            "sampleCount": 31,
+            "maximumSourceCandidateMatrixElementResidual": 1.0,
+            "passed": false
+          },
+          "adsUp": {
+            "sampleCount": 14,
+            "maximumSourceCandidateMatrixElementResidual": 1.080107856211,
+            "passed": false
+          },
+          "adsFireRecoil": {
+            "sampleCount": 6,
+            "maximumSourceCandidateMatrixElementResidual": 1.0,
+            "passed": false
+          },
+          "fire": {
+            "sampleCount": 6,
+            "maximumSourceCandidateMatrixElementResidual": 1.020769990703,
+            "passed": false
+          },
+          "reload": {
+            "sampleCount": 62,
+            "maximumSourceCandidateMatrixElementResidual": 1.414204207563,
+            "passed": false
+          },
+          "reloadEmpty": {
+            "sampleCount": 71,
+            "maximumSourceCandidateMatrixElementResidual": 1.414204207563,
+            "passed": false
+          }
+        },
+        "passed": false
+      },
+      "hideShowPassed": true,
+      "selectableGeometryRetainedForRuntimeFiltering": true,
+      "duplicateGeometryGatePassed": true,
+      "physicalDisplacedNegative": {
+        "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/negative-fixtures/f02-a1-physical-displaced.glb",
+        "sha256": "0EC60C6492C15794F53F4DBF1E873E2334511445AF286691669860FCD38FF817",
+        "byteCount": 1871988,
+        "transformedMeshNames": [
+          "round2_f02_tag_reflex_00_src00_cutout_mtl_attach_t8_optic_refle",
+          "round2_f02_tag_reflex_01_src00_cutout_mtl_t8_attach_optic_refle",
+          "round2_f02_tag_reflex_02_src00_cutout_xmaterial_82b16ea2cbc795b",
+          "round2_f02_tag_reflex_03_src00_glass_xmaterial_61055af217b8876",
+          "round2_f02_tag_reflex_04_src00_opaque_mtl_t8_attach_optic_refle",
+          "round2_f02_tag_reflex_05_src00_opaque_mtl_t8_attach_optic_refle",
+          "round2_f02_tag_reflex_06_src00_opaque_mtl_t8_attach_optic_refle",
+          "round2_f02_tag_reflex_07_src00_opaque_mtl_t8_attach_optic_refle",
+          "round2_f02_tag_reflex_08_src00_opaque_mtl_t8_attach_optic_refle",
+          "round2_f02_tag_reflex_09_src00_opaque_mtl_t8_attach_optic_refle",
+          "round2_f02_tag_reflex_10_src00_opaque_mtl_t8_attach_optic_refle",
+          "round2_f02_tag_reflex_11_src00_opaque_xmaterial_885a29a232599e0"
+        ],
+        "geometrySha256Before": "D7711C7A3F21B2A95D6C51729FE586F0954D51FC0E57A810EB209DD49D876289",
+        "geometrySha256After": "0659CC97E8B393D83E30DAD6B7F06E770A13C35F43CFA26C5B6A1419C9D03DD1",
+        "physicalGeometryMoved": true,
+        "allSelectableAttachmentGeometryRetained": true,
+        "sameEvaluatorPassed": false,
+        "rejected": true,
+        "engineRasterAuthority": false
+      },
+      "offlineDiagnosticPassed": false,
+      "mandatoryGatePassed": false,
+      "reasons": [
+        "No exact engine-composed 1920x1080 terminal ADS-up raster linked to the candidate hash.",
+        "No eligible exact-engine hip, ADS-fire, reload, or reload-empty visual evidence.",
+        "Exact candidate runtime composition and every-frame XAnim sweep diagnostics fail.",
+        "Reflex reimport is 80 triangles short of the sealed source and exceeds the scale tolerance.",
+        "Reflex rail evaluation contains non-contact intersections."
+      ],
+      "verdict": "HOLD"
+    },
+    "F02-A2": {
+      "stateId": "F02-A2",
+      "attachment": 2,
+      "role": "acog",
+      "weaponFile": "g3_acog_mp",
+      "visibleTag": "tag_acog",
+      "adsZoomFov": 40.0,
+      "handModel": "viewmodel_base_viewhands",
+      "gunModel": "viewmodel_t8_vapr_vampire",
+      "independentMandatoryGate": true,
+      "runtimeIdentityPassed": true,
+      "terminalAdsUpEngineRaster": {
+        "requiredEvidence": "exact engine-composed terminal ADS-up raster",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "fixedCenterWitness": [
+          960,
+          540
+        ],
+        "maximumVisibleSightOrOpticCenterDistancePixels": 2.0,
+        "evidenceStatus": "MISSING",
+        "evidencePath": null,
+        "candidateSha256": null,
+        "visibleCenterPixel": null,
+        "visibleCenterDistancePixels": null,
+        "inspectionPerformed": false,
+        "passed": false,
+        "verdict": "HOLD"
+      },
+      "phaseVisualInspection": {
+        "hip": {
+          "phase": "hip",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "adsFire": {
+          "phase": "adsFire",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "reload": {
+          "phase": "reload",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "reloadEmpty": {
+          "phase": "reloadEmpty",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        }
+      },
+      "staticGeometry": {
+        "kind": "acog",
+        "opticalWitnessPassed": true,
+        "sourceSha256": "E183C5C4AFF3BC7EC6DD1136126602C59ABDEC6579AD7966B959F658251B821B",
+        "candidateTriangleCount": 5776,
+        "expectedSourceTriangleCount": 5856,
+        "uniformScaleDelta": 6.9321828e-05,
+        "sourceFaithfulScaleAndShapePassed": false,
+        "railContactPassed": true,
+        "nonContactIntersectionPairs": 0,
+        "socketOwnershipPassed": true,
+        "passed": false
+      },
+      "offlineRuntimeCompositionDiagnostic": {
+        "authority": "offline diagnostic only; cannot satisfy an engine-raster gate",
+        "hipMaximumWitnessDeltaPixels": 1835.255025,
+        "terminalCandidateLandmarkAbsoluteOffsetsPixels": {
+          "opticalCenter": 1161.354081,
+          "opticalAxisFar": 2675.734839
+        },
+        "terminalCandidateInternalAxisSeparationPixels": 1994.475046,
+        "terminalComparisonToUntouchedSourceMaximumDeltaPixels": 2683.565372,
+        "adsFireMaximumDeviationPixels": 2816.502,
+        "terminalPassed": false,
+        "hipPassed": false,
+        "adsFirePassed": false,
+        "statePassed": false
+      },
+      "offlineEveryFrameXanimSweeps": {
+        "phases": {
+          "idle": {
+            "sampleCount": 31,
+            "maximumSourceCandidateMatrixElementResidual": 1.0,
+            "passed": false
+          },
+          "adsUp": {
+            "sampleCount": 14,
+            "maximumSourceCandidateMatrixElementResidual": 1.080107856211,
+            "passed": false
+          },
+          "adsFireRecoil": {
+            "sampleCount": 6,
+            "maximumSourceCandidateMatrixElementResidual": 1.0,
+            "passed": false
+          },
+          "fire": {
+            "sampleCount": 6,
+            "maximumSourceCandidateMatrixElementResidual": 1.020769990703,
+            "passed": false
+          },
+          "reload": {
+            "sampleCount": 62,
+            "maximumSourceCandidateMatrixElementResidual": 1.414204207563,
+            "passed": false
+          },
+          "reloadEmpty": {
+            "sampleCount": 71,
+            "maximumSourceCandidateMatrixElementResidual": 1.414204207563,
+            "passed": false
+          }
+        },
+        "passed": false
+      },
+      "hideShowPassed": true,
+      "selectableGeometryRetainedForRuntimeFiltering": true,
+      "duplicateGeometryGatePassed": true,
+      "physicalDisplacedNegative": {
+        "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/negative-fixtures/f02-a2-physical-displaced.glb",
+        "sha256": "8A5FEF5521964805E102D0B22D6BEB921A607FBADDAA3E2C39EA8457FAAB80A5",
+        "byteCount": 1872292,
+        "transformedMeshNames": [
+          "round2_f02_tag_acog_00_src00_cutout_mtl_attach_t8_optic_hybrid_",
+          "round2_f02_tag_acog_01_src00_glass_xmaterial_de20cbe8b1fc7ad",
+          "round2_f02_tag_acog_02_src00_opaque_mtl_attach_t8_optic_hybrid_",
+          "round2_f02_tag_acog_03_src00_opaque_mtl_attach_t8_optic_hybrid_",
+          "round2_f02_tag_acog_04_src00_opaque_mtl_attach_t8_optic_hybrid_",
+          "round2_f02_tag_acog_05_src00_opaque_mtl_attach_t8_optic_hybrid_"
+        ],
+        "geometrySha256Before": "A30C3FDF85E5B0CC00CBCB2D05AFE66DBC499AB1F61CE8FCD0A77584116F1197",
+        "geometrySha256After": "7D6F5CB18B554877C9EF851544E691971D173807FA4DE0FAAA5EC93349C11C70",
+        "physicalGeometryMoved": true,
+        "allSelectableAttachmentGeometryRetained": true,
+        "sameEvaluatorPassed": false,
+        "rejected": true,
+        "engineRasterAuthority": false
+      },
+      "offlineDiagnosticPassed": false,
+      "mandatoryGatePassed": false,
+      "reasons": [
+        "No exact engine-composed 1920x1080 terminal ADS-up raster linked to the candidate hash.",
+        "No eligible exact-engine hip, ADS-fire, reload, or reload-empty visual evidence.",
+        "Exact candidate runtime composition and every-frame XAnim sweep diagnostics fail.",
+        "ACOG reimport is 80 triangles short of the sealed source.",
+        "Static rail contact passes, but source-faithful topology and runtime composition do not."
+      ],
+      "verdict": "HOLD"
+    },
+    "F02-A3": {
+      "stateId": "F02-A3",
+      "attachment": 3,
+      "role": "suppressor",
+      "weaponFile": "g3_silencer_mp",
+      "visibleTag": "tag_silencer",
+      "adsZoomFov": 50.0,
+      "handModel": "viewmodel_base_viewhands",
+      "gunModel": "viewmodel_t8_vapr_vampire",
+      "independentMandatoryGate": true,
+      "runtimeIdentityPassed": true,
+      "terminalAdsUpEngineRaster": {
+        "requiredEvidence": "exact engine-composed terminal ADS-up raster",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "fixedCenterWitness": [
+          960,
+          540
+        ],
+        "maximumVisibleSightOrOpticCenterDistancePixels": 2.0,
+        "evidenceStatus": "MISSING",
+        "evidencePath": null,
+        "candidateSha256": null,
+        "visibleCenterPixel": null,
+        "visibleCenterDistancePixels": null,
+        "inspectionPerformed": false,
+        "passed": false,
+        "verdict": "HOLD"
+      },
+      "phaseVisualInspection": {
+        "hip": {
+          "phase": "hip",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "adsFire": {
+          "phase": "adsFire",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "reload": {
+          "phase": "reload",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        },
+        "reloadEmpty": {
+          "phase": "reloadEmpty",
+          "requiredEvidence": "exact engine-composed raster or raster sweep",
+          "evidenceStatus": "MISSING",
+          "evidencePath": null,
+          "candidateSha256": null,
+          "inspectionPerformed": false,
+          "clipping": null,
+          "floating": null,
+          "duplicateParts": null,
+          "wrongSocket": null,
+          "wrongScale": null,
+          "railOrMuzzleContact": null,
+          "passed": false,
+          "verdict": "HOLD"
+        }
+      },
+      "staticGeometry": {
+        "kind": "suppressor",
+        "axisDeltaDegrees": 0.0,
+        "contactOffsetDeltaModelUnits": 5.638918e-06,
+        "sourceFaithfulScaleAndShapePassed": true,
+        "nonContactIntersectionPairs": 99,
+        "socketOwnershipPassed": true,
+        "visibleBareIronGeometryPassed": false,
+        "passed": false
+      },
+      "offlineRuntimeCompositionDiagnostic": {
+        "authority": "offline diagnostic only; cannot satisfy an engine-raster gate",
+        "hipMaximumWitnessDeltaPixels": 2784.395103,
+        "terminalCandidateLandmarkAbsoluteOffsetsPixels": {
+          "rear": 741.257723,
+          "front": 3803.058114
+        },
+        "terminalCandidateInternalAxisSeparationPixels": 3699.221342,
+        "terminalComparisonToUntouchedSourceMaximumDeltaPixels": 3803.058114,
+        "adsFireMaximumDeviationPixels": 3976.449192,
+        "terminalPassed": false,
+        "hipPassed": false,
+        "adsFirePassed": false,
+        "statePassed": false
+      },
+      "offlineEveryFrameXanimSweeps": {
+        "phases": {
+          "idle": {
+            "sampleCount": 31,
+            "maximumSourceCandidateMatrixElementResidual": 1.0,
+            "passed": false
+          },
+          "adsUp": {
+            "sampleCount": 13,
+            "maximumSourceCandidateMatrixElementResidual": 1.07613802812,
+            "passed": false
+          },
+          "adsFireRecoil": {
+            "sampleCount": 6,
+            "maximumSourceCandidateMatrixElementResidual": 1.013873441329,
+            "passed": false
+          },
+          "fire": {
+            "sampleCount": 6,
+            "maximumSourceCandidateMatrixElementResidual": 1.020769990703,
+            "passed": false
+          },
+          "reload": {
+            "sampleCount": 62,
+            "maximumSourceCandidateMatrixElementResidual": 1.414204207563,
+            "passed": false
+          },
+          "reloadEmpty": {
+            "sampleCount": 71,
+            "maximumSourceCandidateMatrixElementResidual": 1.414204207563,
+            "passed": false
+          }
+        },
+        "passed": false
+      },
+      "hideShowPassed": true,
+      "selectableGeometryRetainedForRuntimeFiltering": true,
+      "duplicateGeometryGatePassed": true,
+      "physicalDisplacedNegative": {
+        "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/negative-fixtures/f02-a3-physical-displaced.glb",
+        "sha256": "3A211558E1DFA774D6E21D5C4C2ABD4CBD1331195849396DA13251DD0536EE0C",
+        "byteCount": 1871772,
+        "transformedMeshNames": [
+          "f02_tag_silencer_00_m16"
+        ],
+        "geometrySha256Before": "3D743D460E2A449B059FB1960C0CF9D4F8B7FD38F443ABD42C62E626E7D4A4D0",
+        "geometrySha256After": "C36416AD1CBD6851D7D30AAD73DB106993463B375361F9C78B29CC2A96CC5C70",
+        "physicalGeometryMoved": true,
+        "allSelectableAttachmentGeometryRetained": true,
+        "sameEvaluatorPassed": false,
+        "rejected": true,
+        "engineRasterAuthority": false
+      },
+      "offlineDiagnosticPassed": false,
+      "mandatoryGatePassed": false,
+      "reasons": [
+        "No exact engine-composed 1920x1080 terminal ADS-up raster linked to the candidate hash.",
+        "No eligible exact-engine hip, ADS-fire, reload, or reload-empty visual evidence.",
+        "Exact candidate runtime composition and every-frame XAnim sweep diagnostics fail.",
+        "Suppressor has 99 non-contact body intersections.",
+        "The visible bare iron sight also fails its independent geometry/contact gate."
+      ],
+      "verdict": "HOLD"
+    }
+  },
+  "crossStateIntegrity": {
+    "hideShowPassed": true,
+    "duplicateGeometryGatePassed": true,
+    "socketOrientationOwnershipPassed": false,
+    "candidateJGunVsUntouchedXanimAuthoringMaximumMatrixResidual": 1.0,
+    "allSelectableAttachmentGeometryRetained": true,
+    "selectableAttachmentsRemovedToManufacturePass": false,
+    "family1CandidateGeometryCopiedInContinuation": false,
+    "family1ArtifactUse": "projection/composition authority code and evidence only"
+  },
+  "physicalNegatives": {
+    "path": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/metrics/f02-physical-negative-evaluation.json",
+    "sha256": "B11E789A085214A73410F2B5CD66E8EF17E0D5AE714CD0E3C9FA2B26943B0110",
+    "fullCandidateGlbPerState": true,
+    "helperPointOnly": false,
+    "selectableAttachmentsRemoved": false,
+    "allRejected": true,
+    "positiveCandidatePassed": false,
+    "canUpgradePositiveCandidate": false
+  },
+  "excludedEvidence": [
+    {
+      "kind": "isolated or direct-pose render",
+      "eligible": false,
+      "reason": "Not exact engine viewhands + weapon + XAnim composition."
+    },
+    {
+      "kind": "model-space projection or helper-point metric",
+      "eligible": false,
+      "reason": "Diagnostic only and explicitly barred from passing."
+    },
+    {
+      "kind": "synthetic, stale, or different-hash raster",
+      "eligible": false,
+      "reason": "Not linked to the exact candidate SHA-256."
+    }
+  ],
+  "production": {
+    "path": "xi_ftag/zone_raw/xi_ftag/model_export/viewmodel_t8_vapr_vampire_lod0.glb",
+    "expectedPreimageSha256": "594F2687A47D8FED38234E74673BD255B149C58D145F3B667D4C08C7A42C8881",
+    "currentSha256": "594F2687A47D8FED38234E74673BD255B149C58D145F3B667D4C08C7A42C8881",
+    "modifiedByContinuation": false,
+    "promotionPerformed": false
+  },
+  "aggregate": {
+    "requiredStateCount": 4,
+    "stateVerdicts": {
+      "F02-A0": "HOLD",
+      "F02-A1": "HOLD",
+      "F02-A2": "HOLD",
+      "F02-A3": "HOLD"
+    },
+    "anyStatePassed": false,
+    "allMandatoryGatesPassed": false,
+    "status": "HOLD"
+  },
+  "artifacts": {
+    "report": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/REPORT.md",
+    "result": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/RESULT.json",
+    "checksums": "xi_ftag/.audit/weapon_alignment_builder_round2_family02/SHA256SUMS.txt",
+    "checksumFileExcludesItself": true
+  }
+}

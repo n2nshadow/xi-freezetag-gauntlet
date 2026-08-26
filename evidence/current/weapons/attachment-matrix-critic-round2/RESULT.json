@@ -1,0 +1,1399 @@
+{
+  "schemaVersion": 1,
+  "auditId": "weapon_attachment_matrix_critic_round2",
+  "role": "fresh independent critic for runtime/menu attachment-state conformance",
+  "generatedAtUtc": "2026-08-26T20:09:25.670088Z",
+  "status": "FAIL",
+  "verdict": "HOLD",
+  "promotionReady": false,
+  "repositoryRoot": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag",
+  "baseCommit": "30424acca3264c7b9c47a536436518231a9749db",
+  "candidate": {
+    "patchPath": "xi_ftag/.audit/weapon_attachment_matrix_builder_round1/candidate.patch",
+    "patchByteLength": 110160,
+    "patchSha256": "b7920db5a1139a07572fcb2f7e3f3ca628809848f5895e763c5d4cc7b5f8d8ee",
+    "expectedPatchSha256": "b7920db5a1139a07572fcb2f7e3f3ca628809848f5895e763c5d4cc7b5f8d8ee",
+    "changedPathCount": 7,
+    "changedPaths": [
+      "weapons/xi/dragunov_mp",
+      "xi_ftag/source_weapons/modern/10_kvinhibitor/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/mp/xi_weaponattachmentmatrix.csv",
+      "xi_ftag/zone_raw/xi_ftag/ui_mp/xi_offline_class.menu",
+      "xi_ftag/zone_raw/xi_ftag/weapons/mp/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/xi_ftag/_weapons.gsc",
+      "xi_ftag/zone_source/xi_ftag.zone"
+    ],
+    "stagedFileCount": 82,
+    "stagedManifestSha256": "8e6e1e2e591f10cd4fa84cd57007d0f61c4fe0da15a506f072a086013a34d730",
+    "stagedGscByteLength": 218922,
+    "stagedGscSha256": "2390daac595e4181fb241cd82cf031902541e92fe335df2c52779b7ac21f579a",
+    "matrixByteLength": 13428,
+    "matrixSha256": "7cd388ae404f1369d19ef96f0c665f368b62d88ae21b9633e544a0c58db4fdcd"
+  },
+  "inputEvidence": {
+    "hardBar": {
+      "path": "xi_ftag/gauntlet/weapon_alignment_bar.md",
+      "byteLength": 7508,
+      "sha256": "ba919e14c86e4fe27a6762c7c09741f5b3486c8ac5b8d72a465790806be33a25"
+    },
+    "priorCriticReport": {
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round1/REPORT.md",
+      "byteLength": 18178,
+      "sha256": "3ab684af87573a1d62a8dea6c36ea31af1d717892642ce68769c47029bf493e9"
+    },
+    "priorCriticResult": {
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round1/RESULT.json",
+      "byteLength": 32399,
+      "sha256": "d9cc909cbe70ffbafb71d6773f1067cd0ca68106309e6248183401fe88bbb399"
+    },
+    "round3Manifest": {
+      "path": "xi_ftag/.audit/weapon_runtime_identity_builder_round3/candidate/weapon_runtime_identity_manifest.json",
+      "byteLength": 1538326,
+      "sha256": "cae59fbb794cbcc660a07702d8da9f4c20365b954581721465a8840b454f2c1b"
+    },
+    "round3Patch": {
+      "path": "xi_ftag/.audit/weapon_runtime_identity_builder_round3/candidate/weapon_runtime_identity_round3.patch",
+      "byteLength": 11016268,
+      "sha256": "9230c0e42120c2161ede0bd35792fd7622ca875fa71e62517a8c04e6fca1dc9f"
+    },
+    "round3CriticReport": {
+      "path": "xi_ftag/.audit/weapon_runtime_identity_critic_round3/REPORT.md",
+      "byteLength": 6274,
+      "sha256": "b195bfdd92f3cdaea10a1f531041c711a1013d62f6b3655e5348ee942d0be155"
+    },
+    "round3CriticResult": {
+      "path": "xi_ftag/.audit/weapon_runtime_identity_critic_round3/RESULT.json",
+      "byteLength": 7368,
+      "sha256": "5596968c931d813188a0114e82007fd5265140520e331794fe153a2e032fab6c"
+    },
+    "visualRequest": {
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_builder_round1/candidate/visual-acceptance-request.json",
+      "byteLength": 1325,
+      "sha256": "881bc0f66b484e35271a476f746548cbbd79f1cafe31cbe6d4c0dfde676fd01a"
+    }
+  },
+  "reconstruction": {
+    "baselineFileCount": 81,
+    "baselineManifestSha256": "69f47c4401d2d9fa31b0e8c5715b4062d5974acef599718a4429dfd2b6140616",
+    "baselineVsLiveMismatchCountBeforeFinalization": 0,
+    "baselineVsLiveMismatchPaths": [],
+    "exactLfApply": {
+      "leftFileCount": 82,
+      "rightFileCount": 82,
+      "leftManifestSha256": "8e6e1e2e591f10cd4fa84cd57007d0f61c4fe0da15a506f072a086013a34d730",
+      "rightManifestSha256": "8e6e1e2e591f10cd4fa84cd57007d0f61c4fe0da15a506f072a086013a34d730",
+      "mismatchCount": 0,
+      "mismatchPaths": []
+    },
+    "defaultWindowsApply": {
+      "leftFileCount": 82,
+      "rightFileCount": 82,
+      "leftManifestSha256": "81b150132267c5be1970fc2baa6151b19fd77aa2d4c1d206f19cc46d1e7edd1c",
+      "rightManifestSha256": "8e6e1e2e591f10cd4fa84cd57007d0f61c4fe0da15a506f072a086013a34d730",
+      "mismatchCount": 7,
+      "mismatchPaths": [
+        "weapons/xi/dragunov_mp",
+        "xi_ftag/source_weapons/modern/10_kvinhibitor/dragunov_mp",
+        "xi_ftag/zone_raw/xi_ftag/mp/xi_weaponattachmentmatrix.csv",
+        "xi_ftag/zone_raw/xi_ftag/ui_mp/xi_offline_class.menu",
+        "xi_ftag/zone_raw/xi_ftag/weapons/mp/dragunov_mp",
+        "xi_ftag/zone_raw/xi_ftag/xi_ftag/_weapons.gsc",
+        "xi_ftag/zone_source/xi_ftag.zone"
+      ]
+    },
+    "exactApplyRequiredConfig": [
+      "core.autocrlf=false",
+      "core.eol=lf"
+    ]
+  },
+  "criteria": {
+    "candidatePatchHash": "PASS",
+    "exactLfReconstruction": "PASS",
+    "defaultWindowsReconstruction": "FAIL",
+    "exact37StateSet": "PASS",
+    "weaponfileVisibleHideIdentity": "PASS",
+    "noA4OrSelectedAlias": "PASS",
+    "f10VisibleTagNotHidden": "PASS",
+    "retainedSavedSelection": "PASS",
+    "onlineOfflineLabels": "PASS",
+    "primarySecondarySpawnFrozenRoundCoverage": "PASS",
+    "hardBarA0FailClosed": "FAIL",
+    "gameplayRegression": "FAIL",
+    "physicalMutationRejection": "PASS",
+    "heldVisualAcceptance": "HOLD",
+    "liveRuntime": "HOLD"
+  },
+  "counts": {
+    "families": 11,
+    "states": 37,
+    "bareStates": 11,
+    "attachmentStates": 26,
+    "readyStates": 20,
+    "heldStates": 17,
+    "sourceRuntimePairs": 37,
+    "xanimSlots": 1110,
+    "physicalMutationFixtures": 10,
+    "renderedImagesInBuilderLane": 0
+  },
+  "stateSetSha256": "f73d992b1b7787ce8f79b58aa2cf0550df07cf0bed8602544464f7f973370c7c",
+  "requiredContractSha256": "c1eb361965ad507238e0e621dbab19d223ba256cc088d4dccd5289965c8433d9",
+  "stateInventorySha256": "0e69afc81bac6594f9890d534aefca5d27a43c862f3bfbefad7f8d7bba5e18a6",
+  "stateByteSummary": {
+    "statesChecked": 37,
+    "sourceRuntimePairsChecked": 37,
+    "stateMismatchCount": 0,
+    "stateMismatchIds": [],
+    "visibleTagHiddenCount": 0,
+    "xanimSlotsChecked": 1110,
+    "inventorySha256": "0e69afc81bac6594f9890d534aefca5d27a43c862f3bfbefad7f8d7bba5e18a6"
+  },
+  "states": [
+    {
+      "stateId": "F01-A0",
+      "family": 1,
+      "attachment": 0,
+      "selectedWeaponFile": "g36c_mp",
+      "visibleTag": "tag_sights",
+      "hideTags": [
+        "tag_acog",
+        "tag_holo",
+        "tag_reflex",
+        "tag_silencer"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "g36c_mp",
+      "candidateMatrixRuntimeWeapon": "g36c_mp",
+      "weaponSha256": "773e5460720691a78b2a81b2789c6879ba3f47b585355bac9014d6d33b5e7dfd",
+      "byteLength": 7926,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F01-A1",
+      "family": 1,
+      "attachment": 1,
+      "selectedWeaponFile": "g36c_reflex_mp",
+      "visibleTag": "tag_reflex",
+      "hideTags": [
+        "tag_acog",
+        "tag_holo",
+        "tag_sights",
+        "tag_silencer"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "g36c_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "9186014ed283db3bb250c2fec8d929e01c5027d28cbe7f0aef3ffab7aee0b4d6",
+      "byteLength": 7965,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F01-A2",
+      "family": 1,
+      "attachment": 2,
+      "selectedWeaponFile": "g36c_acog_mp",
+      "visibleTag": "tag_acog",
+      "hideTags": [
+        "tag_sights",
+        "tag_holo",
+        "tag_reflex",
+        "tag_silencer"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "g36c_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "48f20962a499ba0fba119a0fcf6ae674deaa98ab95a4b98f402cab8512766cd7",
+      "byteLength": 7957,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F01-A3",
+      "family": 1,
+      "attachment": 3,
+      "selectedWeaponFile": "g36c_silencer_mp",
+      "visibleTag": "tag_silencer",
+      "hideTags": [
+        "tag_acog",
+        "tag_holo",
+        "tag_reflex"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "g36c_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "50bb0c541554d4e9a46cc6a61adfb1b80ecec915646c18c35438940ba9a49141",
+      "byteLength": 7934,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F02-A0",
+      "family": 2,
+      "attachment": 0,
+      "selectedWeaponFile": "g3_mp",
+      "visibleTag": "tag_sight_on",
+      "hideTags": [
+        "tag_acog",
+        "tag_silencer",
+        "tag_reflex"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "g3_mp",
+      "candidateMatrixRuntimeWeapon": "g3_mp",
+      "weaponSha256": "46f1f461f1d06b66e4198841c9307eda91859101fe4bd0bfb4a315797d537a01",
+      "byteLength": 7891,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F02-A1",
+      "family": 2,
+      "attachment": 1,
+      "selectedWeaponFile": "g3_reflex_mp",
+      "visibleTag": "tag_reflex",
+      "hideTags": [
+        "tag_acog",
+        "tag_silencer",
+        "tag_eotech"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "g3_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "eaf6ebfaea8af69e53573a86ed0c787b6f4e8360728f5c43e9d29b1e78278311",
+      "byteLength": 7931,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F02-A2",
+      "family": 2,
+      "attachment": 2,
+      "selectedWeaponFile": "g3_acog_mp",
+      "visibleTag": "tag_acog",
+      "hideTags": [
+        "tag_silencer",
+        "tag_reflex",
+        "tag_eotech"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "g3_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "a0aa7959438dbed6fa9d0f65f09bfb7e268a445884b3f26bb9dbea1a9d5635c0",
+      "byteLength": 7918,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F02-A3",
+      "family": 2,
+      "attachment": 3,
+      "selectedWeaponFile": "g3_silencer_mp",
+      "visibleTag": "tag_silencer",
+      "hideTags": [
+        "tag_acog",
+        "tag_reflex"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "g3_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "16aefbf1f9343c1de4f90179e7f620ba4866180d387ba1c6f68fbd1a983b6796",
+      "byteLength": 7924,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F03-A0",
+      "family": 3,
+      "attachment": 0,
+      "selectedWeaponFile": "m14_mp",
+      "visibleTag": "tag_scope",
+      "hideTags": [
+        "TAG_ACOG",
+        "TAG_REFLEX_SIGHT",
+        "TAG_EOTECH",
+        "TAG_SILENCER",
+        "TAG_M320",
+        "J_M320_SLIDE",
+        "J_M320_GRENADE"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "m14_mp",
+      "candidateMatrixRuntimeWeapon": "m14_mp",
+      "weaponSha256": "cb2f502621c790fb9b6f503e7b09a2eb13c7ec71eaf7db8c3b7613b52a9cbee1",
+      "byteLength": 7996,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F03-A1",
+      "family": 3,
+      "attachment": 1,
+      "selectedWeaponFile": "m14_reflex_mp",
+      "visibleTag": "tag_reflex_sight",
+      "hideTags": [
+        "TAG_ACOG",
+        "TAG_EOTECH",
+        "TAG_SILENCER",
+        "TAG_M320",
+        "J_M320_SLIDE",
+        "J_M320_GRENADE"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "m14_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "8f71fd9d769211ec4e516336bb93fdf05ed8f17fa77d011e6d9848dcfe53c6bc",
+      "byteLength": 8012,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F03-A2",
+      "family": 3,
+      "attachment": 2,
+      "selectedWeaponFile": "m14_acog_mp",
+      "visibleTag": "tag_acog",
+      "hideTags": [
+        "TAG_EOTECH",
+        "TAG_REFLEX_SIGHT",
+        "TAG_SILENCER",
+        "TAG_M320",
+        "J_M320_SLIDE",
+        "J_M320_GRENADE"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "m14_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "d8a45841218e9dfc6805c14802c86b7c7fafc115dcb83379ce64da8b3b525adc",
+      "byteLength": 8013,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F03-A3",
+      "family": 3,
+      "attachment": 3,
+      "selectedWeaponFile": "m14_silencer_mp",
+      "visibleTag": "tag_silencer",
+      "hideTags": [
+        "TAG_ACOG",
+        "TAG_REFLEX_SIGHT",
+        "TAG_EOTECH",
+        "TAG_M320",
+        "J_M320_SLIDE",
+        "J_M320_GRENADE"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "m14_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "23d12f81fb09e849c70da871e9a1f97f0a1f1d2e4539bf22b5193710a95be0f3",
+      "byteLength": 7991,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F05-A0",
+      "family": 5,
+      "attachment": 0,
+      "selectedWeaponFile": "m60e4_mp",
+      "visibleTag": "tag_iron_sight",
+      "hideTags": [
+        "tag_foregrip",
+        "tag_ak47_mount",
+        "tag_acog",
+        "TAG_REFLEX_SIGHT"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "m60e4_mp",
+      "candidateMatrixRuntimeWeapon": "m60e4_mp",
+      "weaponSha256": "55487edaee7a4be036265a220adf59739c766a039d4d06590d5b4a29a1aa8394",
+      "byteLength": 8007,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F05-A1",
+      "family": 5,
+      "attachment": 1,
+      "selectedWeaponFile": "m60e4_reflex_mp",
+      "visibleTag": "tag_reflex_sight",
+      "hideTags": [
+        "tag_foregrip",
+        "tag_acog",
+        "tag_ak47_mount",
+        "TAG_IRON_SIGHT",
+        "TAG_IRON_SIGHT_FRONT"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "m60e4_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "a80abd0e6a514897b680576ad26252d6deae2ee498faea04138d47ead61a4e85",
+      "byteLength": 8071,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F05-A2",
+      "family": 5,
+      "attachment": 2,
+      "selectedWeaponFile": "m60e4_acog_mp",
+      "visibleTag": "tag_acog",
+      "hideTags": [
+        "tag_foregrip",
+        "tag_reflex_sight",
+        "TAG_IRON_SIGHT",
+        "TAG_IRON_SIGHT_FRONT"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "m60e4_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "99f7bcfc6b5b5e57062ee7daee28ef644b2cf8a6350127f2d0e075a860835456",
+      "byteLength": 8052,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F05-A3",
+      "family": 5,
+      "attachment": 3,
+      "selectedWeaponFile": "m60e4_grip_mp",
+      "visibleTag": "tag_foregrip",
+      "hideTags": [
+        "tag_acog",
+        "tag_ak47_mount",
+        "TAG_REFLEX_SIGHT"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "m60e4_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "a75b9e50f382d064a6a17c04515b477aa4982f2ba8228d220aa972e6beb228d5",
+      "byteLength": 8100,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F07-A0",
+      "family": 7,
+      "attachment": 0,
+      "selectedWeaponFile": "winchester1200_mp",
+      "visibleTag": "tag_iron_sight",
+      "hideTags": [
+        "TAG_EOTECH",
+        "TAG_SILENCER",
+        "TAG_REFLEX_SIGHT",
+        "TAG_GRIP"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "winchester1200_mp",
+      "candidateMatrixRuntimeWeapon": "winchester1200_mp",
+      "weaponSha256": "20a8071661b91cb736bfb0a2c4f67a196ef60a46d7f2beb6cd427509c680b6d2",
+      "byteLength": 8221,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F07-A1",
+      "family": 7,
+      "attachment": 1,
+      "selectedWeaponFile": "winchester1200_reflex_mp",
+      "visibleTag": "tag_reflex_sight",
+      "hideTags": [
+        "TAG_EOTECH",
+        "TAG_IRON_SIGHT",
+        "TAG_SILENCER",
+        "TAG_GRIP"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "winchester1200_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "7b04faec0fdebb702df28591fb69ab7521b8fc9a638c1562f018a6c10ebece32",
+      "byteLength": 8261,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F07-A3",
+      "family": 7,
+      "attachment": 3,
+      "selectedWeaponFile": "winchester1200_grip_mp",
+      "visibleTag": "tag_grip",
+      "hideTags": [
+        "TAG_EOTECH",
+        "TAG_SILENCER",
+        "TAG_REFLEX_SIGHT"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "winchester1200_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "4bfa4b609ee00fce5783b2540b8b98b1f9852151876fbb118c7316c56ba7be50",
+      "byteLength": 8339,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F08-A0",
+      "family": 8,
+      "attachment": 0,
+      "selectedWeaponFile": "colt45_mp",
+      "visibleTag": "j_bolt",
+      "hideTags": [
+        "TAG_SILENCER",
+        "TAG_RAIL",
+        "TAG_EOTECH",
+        "TAG_REFLEX"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "colt45_mp",
+      "candidateMatrixRuntimeWeapon": "colt45_mp",
+      "weaponSha256": "fa9a133af8215bae190529469932181b476257af28f4822e7ee1738158773ae6",
+      "byteLength": 8079,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F08-A3",
+      "family": 8,
+      "attachment": 3,
+      "selectedWeaponFile": "colt45_silencer_mp",
+      "visibleTag": "tag_silencer",
+      "hideTags": [
+        "TAG_RAIL",
+        "TAG_EOTECH",
+        "TAG_REFLEX"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "colt45_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "cb5d65e5a5d5d70e7df63ba25aa7b881df9c2ae9881263ac98835c5eb407ece4",
+      "byteLength": 8071,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F09-A0",
+      "family": 9,
+      "attachment": 0,
+      "selectedWeaponFile": "remington700_mp",
+      "visibleTag": "tag_scope",
+      "hideTags": [
+        "TAG_ACOG",
+        "TAG_SILENCER"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "remington700_mp",
+      "candidateMatrixRuntimeWeapon": "remington700_mp",
+      "weaponSha256": "c6112666a666e6e8ae1ddb8c4d4f6be663de6351ceb02af6e568fc12de2d8498",
+      "byteLength": 8767,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F09-A3",
+      "family": 9,
+      "attachment": 3,
+      "selectedWeaponFile": "remington700_silencer_mp",
+      "visibleTag": "tag_silencer",
+      "hideTags": [
+        "TAG_ACOG"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "remington700_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "cefd324db6c8d890943801302f837088fdb553c95136062e3d01b6a34cf44300",
+      "byteLength": 8760,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F10-A0",
+      "family": 10,
+      "attachment": 0,
+      "selectedWeaponFile": "dragunov_mp",
+      "visibleTag": "tag_scope_colt",
+      "hideTags": [
+        "tag_silencer"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "dragunov_mp",
+      "candidateMatrixRuntimeWeapon": "dragunov_mp",
+      "weaponSha256": "7ef916a91aebbe7b33cd6526940216bc14d37816d97672011ecac89a2fd5e76c",
+      "byteLength": 8071,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F10-A3",
+      "family": 10,
+      "attachment": 3,
+      "selectedWeaponFile": "dragunov_silencer_mp",
+      "visibleTag": "tag_silencer",
+      "hideTags": [
+        "tag_scope_colt"
+      ],
+      "status": "HOLD",
+      "requiredHeldRuntimeWeapon": "dragunov_mp",
+      "candidateMatrixRuntimeWeapon": "",
+      "weaponSha256": "26293516ee2a4d6667ac2786770e0e4a199eaf0147a92ddc5462b256e4541754",
+      "byteLength": 8090,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F13-A0",
+      "family": 13,
+      "attachment": 0,
+      "selectedWeaponFile": "skorpion_mp",
+      "visibleTag": "tag_iron_sight",
+      "hideTags": [
+        "TAG_ACOG",
+        "TAG_REFLEX_SIGHT",
+        "TAG_EOTECH",
+        "TAG_SILENCER"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "skorpion_mp",
+      "candidateMatrixRuntimeWeapon": "skorpion_mp",
+      "weaponSha256": "ef0814a08a21961c16cc7c17a002506e0132145ec5f8cd5f44c2126de10d912c",
+      "byteLength": 7934,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F13-A1",
+      "family": 13,
+      "attachment": 1,
+      "selectedWeaponFile": "skorpion_reflex_mp",
+      "visibleTag": "tag_reflex_sight",
+      "hideTags": [
+        "TAG_IRON_SIGHT",
+        "TAG_ACOG",
+        "TAG_EOTECH",
+        "TAG_SILENCER"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "skorpion_reflex_mp",
+      "candidateMatrixRuntimeWeapon": "skorpion_reflex_mp",
+      "weaponSha256": "f5b24424e45f6e9ce4b4922eb60c35497a97da8c48250856d0bc21e57fc6a0e4",
+      "byteLength": 7967,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F13-A2",
+      "family": 13,
+      "attachment": 2,
+      "selectedWeaponFile": "skorpion_acog_mp",
+      "visibleTag": "tag_acog",
+      "hideTags": [
+        "TAG_IRON_SIGHT",
+        "TAG_REFLEX_SIGHT",
+        "TAG_EOTECH",
+        "TAG_SILENCER"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "skorpion_acog_mp",
+      "candidateMatrixRuntimeWeapon": "skorpion_acog_mp",
+      "weaponSha256": "38e6e2eefb7d263c7de9fc73b7c1f293d8f98b6ac8b92b0e0059cf76b5946fb9",
+      "byteLength": 7962,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F13-A3",
+      "family": 13,
+      "attachment": 3,
+      "selectedWeaponFile": "skorpion_silencer_mp",
+      "visibleTag": "tag_silencer",
+      "hideTags": [
+        "TAG_ACOG",
+        "TAG_REFLEX_SIGHT",
+        "TAG_EOTECH"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "skorpion_silencer_mp",
+      "candidateMatrixRuntimeWeapon": "skorpion_silencer_mp",
+      "weaponSha256": "af34c47d93fce762ee6b202db55c06c0747e5c67c16c0653db08dfbd381ba83f",
+      "byteLength": 7927,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F14-A0",
+      "family": 14,
+      "attachment": 0,
+      "selectedWeaponFile": "uzi_mp",
+      "visibleTag": "tag_iron_sight",
+      "hideTags": [
+        "TAG_REFLEX_SIGHT",
+        "TAG_ACOG",
+        "TAG_EOTECH",
+        "TAG_SILENCER"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "uzi_mp",
+      "candidateMatrixRuntimeWeapon": "uzi_mp",
+      "weaponSha256": "f076be5e71ffa8dc4277cea744b9fcb54b0ffb1d538bcbe7c87efa56d4156f5d",
+      "byteLength": 8022,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F14-A1",
+      "family": 14,
+      "attachment": 1,
+      "selectedWeaponFile": "uzi_reflex_mp",
+      "visibleTag": "tag_reflex_sight",
+      "hideTags": [
+        "TAG_IRON_SIGHT",
+        "TAG_ACOG",
+        "TAG_EOTECH",
+        "TAG_SILENCER"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "uzi_reflex_mp",
+      "candidateMatrixRuntimeWeapon": "uzi_reflex_mp",
+      "weaponSha256": "3c8038324d92be6f9941b42885ed80debae59afcc100ab6ec66ffdd417c70dc9",
+      "byteLength": 8038,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F14-A2",
+      "family": 14,
+      "attachment": 2,
+      "selectedWeaponFile": "uzi_acog_mp",
+      "visibleTag": "tag_acog",
+      "hideTags": [
+        "TAG_REFLEX_SIGHT",
+        "TAG_IRON_SIGHT",
+        "TAG_EOTECH",
+        "TAG_SILENCER"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "uzi_acog_mp",
+      "candidateMatrixRuntimeWeapon": "uzi_acog_mp",
+      "weaponSha256": "8635dc7a37ac422976a544405fdccefdd4aa8a6b84fbfed4d131219b94a4dc30",
+      "byteLength": 8047,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F14-A3",
+      "family": 14,
+      "attachment": 3,
+      "selectedWeaponFile": "uzi_silencer_mp",
+      "visibleTag": "tag_silencer",
+      "hideTags": [
+        "TAG_REFLEX_SIGHT",
+        "TAG_ACOG",
+        "TAG_EOTECH"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "uzi_silencer_mp",
+      "candidateMatrixRuntimeWeapon": "uzi_silencer_mp",
+      "weaponSha256": "716660ffc194a5b2b5b253ca3763de48fb52caf81b1341c18c0c0c8998c489ee",
+      "byteLength": 8027,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F15-A0",
+      "family": 15,
+      "attachment": 0,
+      "selectedWeaponFile": "mp44_mp",
+      "visibleTag": "tag_iron_sight",
+      "hideTags": [
+        "TAG_ACOG",
+        "TAG_EOTECH",
+        "TAG_REFLEX",
+        "TAG_SILENCER",
+        "J_GRENADE",
+        "J_M203_SLIDE",
+        "TAG_M203_BASE"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "mp44_mp",
+      "candidateMatrixRuntimeWeapon": "mp44_mp",
+      "weaponSha256": "d889c9cb51f9ed6e783cd98d93f246cbd75807e6da8e09cae0949d60735fcff6",
+      "byteLength": 8044,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F15-A1",
+      "family": 15,
+      "attachment": 1,
+      "selectedWeaponFile": "g3_gl_mp",
+      "visibleTag": "tag_reflex",
+      "hideTags": [
+        "TAG_ACOG",
+        "TAG_EOTECH",
+        "TAG_IRON_SIGHT",
+        "TAG_SILENCER",
+        "J_GRENADE",
+        "J_M203_SLIDE",
+        "TAG_M203_BASE"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "g3_gl_mp",
+      "candidateMatrixRuntimeWeapon": "g3_gl_mp",
+      "weaponSha256": "9f59d150b8ba3c75224e435c459331eaeead3003a847698c3fd28a8adcc725b2",
+      "byteLength": 8087,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F15-A2",
+      "family": 15,
+      "attachment": 2,
+      "selectedWeaponFile": "m14_gl_mp",
+      "visibleTag": "tag_acog",
+      "hideTags": [
+        "TAG_IRON_SIGHT",
+        "TAG_EOTECH",
+        "TAG_REFLEX",
+        "TAG_SILENCER",
+        "J_GRENADE",
+        "J_M203_SLIDE",
+        "TAG_M203_BASE"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "m14_gl_mp",
+      "candidateMatrixRuntimeWeapon": "m14_gl_mp",
+      "weaponSha256": "539384c6e22a39a53f54084bc086c12e5d0cf8025e038ae123dadd6bade829d8",
+      "byteLength": 8072,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    },
+    {
+      "stateId": "F15-A3",
+      "family": 15,
+      "attachment": 3,
+      "selectedWeaponFile": "g36c_gl_mp",
+      "visibleTag": "tag_silencer",
+      "hideTags": [
+        "TAG_ACOG",
+        "TAG_EOTECH",
+        "TAG_REFLEX",
+        "J_GRENADE",
+        "J_M203_SLIDE",
+        "TAG_M203_BASE"
+      ],
+      "status": "READY",
+      "requiredHeldRuntimeWeapon": "g36c_gl_mp",
+      "candidateMatrixRuntimeWeapon": "g36c_gl_mp",
+      "weaponSha256": "9c494f3c04d1ca8f5c6ad962a7f7df4e893ed4c7ee219882adec1579b85833f7",
+      "byteLength": 8056,
+      "sourceRuntimeByteIdentical": true,
+      "xanimSlotsChecked": 30,
+      "xanimSlotMismatchCount": 0,
+      "visibleTagHidden": false,
+      "pass": true
+    }
+  ],
+  "matrixSummary": {
+    "matrixRowCount": 37,
+    "matrixUniqueStateCount": 37,
+    "readyCount": 20,
+    "holdCount": 17,
+    "selectedWeaponUniqueCount": 37,
+    "heldRuntimeMismatchCountAgainstRound3AndHardBar": 17
+  },
+  "runtimePolicy": {
+    "requiredByHardBar": {
+      "heldRuntimeAttachment": 0,
+      "heldRuntimeWeapon": "family A0 weaponfile",
+      "savedSelectionRetained": true,
+      "explicitAuditEvent": true
+    },
+    "candidate": {
+      "heldRuntimeAttachment": -1,
+      "heldRuntimeWeapon": "",
+      "savedSelectionRetained": true,
+      "explicitAuditEvent": true,
+      "eventClaimsDeployed": false,
+      "nativeDeployBlocked": true,
+      "oldPrimaryAndSidearmRemoved": true
+    },
+    "round3PinnedEvidence": {
+      "patchSha256": "9230c0e42120c2161ede0bd35792fd7622ca875fa71e62517a8c04e6fca1dc9f",
+      "criticResultSha256": "5596968c931d813188a0114e82007fd5265140520e331794fe153a2e032fab6c",
+      "candidateGscSha256": "079c3d0a07c1560ba9349e53279a459cbedd0de46db440c416cb34429e98819d",
+      "allHeldStatesResolveToA0": true
+    },
+    "candidateGscMatchesPinnedRound3Gsc": false,
+    "currentCandidatePatchHashPresentInPackagedGsc": false,
+    "currentCandidatePatchHashPresentInMatrix": false
+  },
+  "persistence": {
+    "checks": {
+      "userinfoPrimary": true,
+      "userinfoSidearm": true,
+      "cacheSavesPrimary": true,
+      "cacheSavesSidearm": true,
+      "cacheRestoresPrimary": true,
+      "cacheRestoresSidearm": true,
+      "profileEncodesPrimary": true,
+      "profileEncodesSidearm": true,
+      "profileRestoresPrimary": true,
+      "profileRestoresSidearm": true,
+      "heldRemainsAvailable": true
+    },
+    "allPresent": true
+  },
+  "deploymentPaths": {
+    "candidateFunctions": {
+      "primary": true,
+      "secondary": true,
+      "selectedLoadout": true,
+      "authoritativeSpawn": true,
+      "spawn": true,
+      "postFrameSpawn": true,
+      "frozenSpawn": true,
+      "roundRestore": true
+    },
+    "externalHooks": {
+      "spawnHook": true,
+      "postFrameHook": true,
+      "classHook": true,
+      "thawHook": true,
+      "roundFields": true
+    },
+    "allCovered": true
+  },
+  "visualEvidence": {
+    "acceptancePresent": false,
+    "decision": "HOLD",
+    "heldStateIds": [
+      "F01-A1",
+      "F01-A2",
+      "F01-A3",
+      "F02-A1",
+      "F02-A2",
+      "F02-A3",
+      "F03-A1",
+      "F03-A2",
+      "F03-A3",
+      "F05-A1",
+      "F05-A2",
+      "F05-A3",
+      "F07-A1",
+      "F07-A3",
+      "F08-A3",
+      "F09-A3",
+      "F10-A3"
+    ],
+    "renderedImageCount": 0,
+    "renderedImagePaths": [],
+    "composedVisualVerdict": "HOLD",
+    "runtimeOrMenuPassMayNotPromoteVisualState": true
+  },
+  "pristineIssueCodes": [
+    "hard_bar_a0_attachment_missing",
+    "hard_bar_a0_resolver_missing",
+    "hard_bar_a0_runtime_missing",
+    "held_native_deploy_blocked",
+    "held_primary_stripped",
+    "held_sidearm_stripped",
+    "hold_event_misreports_runtime"
+  ],
+  "pristineIssues": [
+    {
+      "code": "hard_bar_a0_runtime_missing",
+      "detail": "F01-A1,F01-A2,F01-A3,F02-A1,F02-A2,F02-A3,F03-A1,F03-A2,F03-A3,F05-A1,F05-A2,F05-A3,F07-A1,F07-A3,F08-A3,F09-A3,F10-A3"
+    },
+    {
+      "code": "hard_bar_a0_resolver_missing",
+      "detail": "held resolver returns empty instead of family A0"
+    },
+    {
+      "code": "hard_bar_a0_attachment_missing",
+      "detail": "held attachment resolves to -1 instead of A0"
+    },
+    {
+      "code": "hold_event_misreports_runtime",
+      "detail": "event reports no A0 deployment"
+    },
+    {
+      "code": "held_primary_stripped",
+      "detail": "held primary path removes the equipped primary"
+    },
+    {
+      "code": "held_sidearm_stripped",
+      "detail": "held sidearm path removes the equipped sidearm"
+    },
+    {
+      "code": "held_native_deploy_blocked",
+      "detail": "native deploy rejects all held selections instead of deploying A0"
+    }
+  ],
+  "mutations": [
+    {
+      "name": "silent-fallback",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/silent-fallback/_weapons.gsc",
+      "byteLength": 218951,
+      "sha256": "e78c1efb4aefc3749f8fa4580f194c22dd7efb1ee2340232d0605f7e5a1ff52e",
+      "expectedNewIssueCodes": [
+        "missing_hold_event"
+      ],
+      "actualNewIssueCodes": [
+        "missing_hold_event"
+      ],
+      "rejected": true
+    },
+    {
+      "name": "missing-hold-event",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/missing-hold-event/_weapons.gsc",
+      "byteLength": 218925,
+      "sha256": "c5c29a1e23663721b6d8099f64fa9c2edd5926a8911aa415c34a85a9cfbca488",
+      "expectedNewIssueCodes": [
+        "missing_hold_event"
+      ],
+      "actualNewIssueCodes": [
+        "missing_hold_event"
+      ],
+      "rejected": true
+    },
+    {
+      "name": "post-resolver-rewrite",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/post-resolver-rewrite/_weapons.gsc",
+      "byteLength": 218963,
+      "sha256": "9b561fb1a2924b5c6c1fafefb215e37d1c94560aa029740e6217de32e44bcb46",
+      "expectedNewIssueCodes": [
+        "post_resolver_selection_rewrite"
+      ],
+      "actualNewIssueCodes": [
+        "post_resolver_selection_rewrite"
+      ],
+      "rejected": true
+    },
+    {
+      "name": "invalid-sidearm",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/invalid-sidearm/xi_weaponattachmentmatrix.csv",
+      "byteLength": 13780,
+      "sha256": "bdc04aecba1892c45295d22a6735aad7a0021eadb14f98ba44c2f1d1dc10d96b",
+      "expectedNewIssueCodes": [
+        "invalid_sidearm",
+        "state_set_mismatch"
+      ],
+      "actualNewIssueCodes": [
+        "invalid_sidearm",
+        "state_set_mismatch"
+      ],
+      "rejected": true
+    },
+    {
+      "name": "ready-without-visual-acceptance",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/ready-without-visual-acceptance/xi_weaponattachmentmatrix.csv",
+      "byteLength": 13427,
+      "sha256": "1d5dfcb6efc5f9c17115f8c6621d29951d036f417e87da0f0d09e7a9a088d153",
+      "expectedNewIssueCodes": [
+        "identity_mismatch",
+        "ready_without_visual_acceptance"
+      ],
+      "actualNewIssueCodes": [
+        "identity_mismatch",
+        "ready_without_visual_acceptance"
+      ],
+      "rejected": true
+    },
+    {
+      "name": "selected-weapon-alias",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/selected-weapon-alias/xi_weaponattachmentmatrix.csv",
+      "byteLength": 13421,
+      "sha256": "f7d9d4812f12ad4b58bfd6575ce75ebb4ab11f7d6fc70be24ff95d2836c9c7ff",
+      "expectedNewIssueCodes": [
+        "identity_mismatch",
+        "selected_weapon_alias"
+      ],
+      "actualNewIssueCodes": [
+        "identity_mismatch",
+        "selected_weapon_alias"
+      ],
+      "rejected": true
+    },
+    {
+      "name": "forbidden-a4",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/forbidden-a4/xi_weaponattachmentmatrix.csv",
+      "byteLength": 13775,
+      "sha256": "48528f1f82cc56ab770ddbcebc3cfea2bab7ac0b36cc337dcef9e3badfac1a78",
+      "expectedNewIssueCodes": [
+        "forbidden_a4",
+        "state_set_mismatch"
+      ],
+      "actualNewIssueCodes": [
+        "forbidden_a4",
+        "selected_weapon_alias",
+        "state_set_mismatch"
+      ],
+      "rejected": true
+    },
+    {
+      "name": "f10-visible-hide-overlap",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/f10-visible-hide-overlap/dragunov_mp",
+      "byteLength": 8086,
+      "sha256": "726487e0bd74601d02cc99f7956ae4b28120da441a3a48f98381cda3e565c8e0",
+      "expectedNewIssueCodes": [
+        "f10_visible_hidden"
+      ],
+      "actualNewIssueCodes": [
+        "f10_visible_hidden"
+      ],
+      "rejected": true
+    },
+    {
+      "name": "coarse-offline-labels",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/coarse-offline-labels/xi_offline_class.menu",
+      "byteLength": 47612,
+      "sha256": "015f1625dd9f222727fabce0cf4821e3a008f720ee4e3501aa93576e30c9f909",
+      "expectedNewIssueCodes": [
+        "coarse_offline_label"
+      ],
+      "actualNewIssueCodes": [
+        "coarse_offline_label"
+      ],
+      "rejected": true
+    },
+    {
+      "name": "sidearm-resolver-bypass",
+      "path": "xi_ftag/.audit/weapon_attachment_matrix_critic_round2/fixtures/sidearm-resolver-bypass/_weapons.gsc",
+      "byteLength": 218915,
+      "sha256": "f6100fbae4b09b27c9b3c4a842aa9613c9971311a51dbdaf5bf607291137d114",
+      "expectedNewIssueCodes": [
+        "resolver_bypass"
+      ],
+      "actualNewIssueCodes": [
+        "missing_hold_event",
+        "resolver_bypass"
+      ],
+      "rejected": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "held-states-do-not-fallback-to-a0",
+      "severity": "BLOCKER",
+      "status": "FAIL",
+      "stateIds": [
+        "F01-A1",
+        "F01-A2",
+        "F01-A3",
+        "F02-A1",
+        "F02-A2",
+        "F02-A3",
+        "F03-A1",
+        "F03-A2",
+        "F03-A3",
+        "F05-A1",
+        "F05-A2",
+        "F05-A3",
+        "F07-A1",
+        "F07-A3",
+        "F08-A3",
+        "F09-A3",
+        "F10-A3"
+      ],
+      "summary": "All 17 held selections resolve to no weapon, block native deployment, and remove an existing primary or sidearm instead of explicitly deploying family A0 while retaining the saved selection."
+    },
+    {
+      "id": "round3-runtime-proof-not-bound-to-current-candidate",
+      "severity": "HIGH",
+      "status": "FAIL",
+      "summary": "The matrix and GSC cite the Round 3 patch/result whose accepted behavior was A0 fallback, but the staged GSC is different and the packaged authority omits the current b792... patch hash."
+    },
+    {
+      "id": "default-windows-apply-is-not-byte-exact",
+      "severity": "LOW",
+      "status": "DISCLOSURE",
+      "summary": "A default core.autocrlf=true apply passes but converts all seven changed outputs to CRLF; core.eol=lf is required to reproduce the staged hashes."
+    },
+    {
+      "id": "composed-visual-evidence-missing",
+      "severity": "HOLD",
+      "status": "HOLD",
+      "stateIds": [
+        "F01-A1",
+        "F01-A2",
+        "F01-A3",
+        "F02-A1",
+        "F02-A2",
+        "F02-A3",
+        "F03-A1",
+        "F03-A2",
+        "F03-A3",
+        "F05-A1",
+        "F05-A2",
+        "F05-A3",
+        "F07-A1",
+        "F07-A3",
+        "F08-A3",
+        "F09-A3",
+        "F10-A3"
+      ],
+      "summary": "No rendered image exists in the builder lane and visual-acceptance-request.json says acceptancePresent=false, so all 17 states and the complete visual gate remain HOLD."
+    }
+  ],
+  "limitations": {
+    "liveEngineRunPerformed": false,
+    "buildPerformed": false,
+    "packagePerformed": false,
+    "steamTouched": false,
+    "serverRun": false,
+    "gameLaunched": false,
+    "renderedOutputAvailable": false,
+    "runtimePathClaimsAreStatic": true
+  },
+  "productionIntegrity": {
+    "statusScope": "git status --porcelain=v1 --untracked-files=all, excluding xi_ftag/.audit/weapon_attachment_matrix_critic_round2/",
+    "openingRecordCount": 1834,
+    "openingStatusSha256": "ac57358b72ccb45fd99aac7cf8b230ed66d18a14c3d9cb1c5ae22dd6aac22577",
+    "closingRecordCount": 1834,
+    "closingStatusSha256": "ac57358b72ccb45fd99aac7cf8b230ed66d18a14c3d9cb1c5ae22dd6aac22577",
+    "openingEqualsClosing": true,
+    "liveTargetHashesUnchanged": true,
+    "liveTargets": [
+      {
+        "path": "weapons/xi/dragunov_mp",
+        "sha256": "726487e0bd74601d02cc99f7956ae4b28120da441a3a48f98381cda3e565c8e0"
+      },
+      {
+        "path": "xi_ftag/source_weapons/modern/10_kvinhibitor/dragunov_mp",
+        "sha256": "726487e0bd74601d02cc99f7956ae4b28120da441a3a48f98381cda3e565c8e0"
+      },
+      {
+        "path": "xi_ftag/zone_raw/xi_ftag/weapons/mp/dragunov_mp",
+        "sha256": "726487e0bd74601d02cc99f7956ae4b28120da441a3a48f98381cda3e565c8e0"
+      },
+      {
+        "path": "xi_ftag/zone_raw/xi_ftag/ui_mp/xi_offline_class.menu",
+        "sha256": "5b500680463050ec152efa60be40d901042d031ec98fbe9ccba367019c2f0469"
+      },
+      {
+        "path": "xi_ftag/zone_raw/xi_ftag/xi_ftag/_weapons.gsc",
+        "sha256": "397c9b1af176ef7fd828baf7b684735d05256c22f1f137c8ccfca0655620fe93"
+      },
+      {
+        "path": "xi_ftag/zone_source/xi_ftag.zone",
+        "sha256": "421a2362ed6a72332c13b779313c43b22ef2461cb0bf32754134dc816c2f73ce"
+      }
+    ]
+  },
+  "operations": {
+    "productionModified": false,
+    "builderLaneModified": false,
+    "writesRestrictedToAssignedCriticLane": true
+  },
+  "artifacts": {
+    "report": "REPORT.md",
+    "result": "RESULT.json",
+    "sha256Manifest": "SHA256SUMS.txt"
+  }
+}

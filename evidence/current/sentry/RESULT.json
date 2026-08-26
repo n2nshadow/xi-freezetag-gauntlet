@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-08-25T20:34:36.8858065Z",
+  "audit": "XI FreezeTag lethal sentry independent visual/runtime critic Round 3",
+  "verdict": {
+    "status": "PASS",
+    "hardBarResult": "ALL_PASS",
+    "rationale": "The mounted candidate is one unmistakable conventional full-size machine gun on one coherent grounded sweeping mount. It contains no second weapon, minigun, launcher, detached ammo box, loose belt/ammunition, or deployed bipod. It clearly beats the rejected production composite and remains physically and visually distinct from the actual smaller ground Frost Sentry.",
+    "promotionRecommendation": {
+      "status": "NO_DIRECT_PRODUCTION_PROMOTION_RECOMMENDATION",
+      "geometryDirection": "EVIDENCE_EARNED_FOR_CONTROLLED_RUNTIME-CANDIDATE_HANDOFF",
+      "reason": "The GLB uses four audit-namespaced materials and embeds no textures. Material binding, compiled XModel behavior, and in-game shading were not tested because build, link, install, Steam, and game launch were prohibited."
+    }
+  },
+  "scores": {
+    "scale": {
+      "minimum": 0,
+      "maximum": 10,
+      "higherIsBetter": true
+    },
+    "visualCoherence": 8.5,
+    "oneGunReadability": 9.0,
+    "grounding": 8.5,
+    "runtimeSuitability": 8.5,
+    "auditIntegrity": 8.0,
+    "overallMean": 8.5
+  },
+  "singleBiggestRemainingGap": {
+    "category": "visual proportion",
+    "finding": "The oversized four-foot legacy mount dominates the gun in the front and gameplay-height silhouettes, so the result reads as a heavy field emplacement rather than a compact sentry.",
+    "hardBarFailure": false
+  },
+  "identityControl": {
+    "selectorEvidence": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/xi_ftag/_assetprofile.gsc",
+      "sha256": "2247DDDA60A2E38F7D2842EAA4528A6E8A6E8B2390198CAB3F9F140F36CBC20C",
+      "groundFrostSentry": {
+        "function": "getFrostSentryModel",
+        "lines": [29, 31],
+        "asset": "worldmodel_t8_sentry_deployed"
+      },
+      "lethalSentryGrenade": {
+        "function": "getSentryGrenadeModel",
+        "lines": [35, 37],
+        "currentProductionAsset": "worldmodel_xi_sentry_old_clean",
+        "round2CandidatePromoted": false
+      },
+      "airborneDefrosterDrone": {
+        "function": "getDefrosterDroneModel",
+        "lines": [47, 49],
+        "asset": "worldmodel_t8_defroster_drone"
+      }
+    },
+    "round2ChangeScope": "Round 2 changes only the audit candidate for the lethal Sentry Grenade asset. It does not change the ground Frost Sentry or the airborne Defroster Drone, and this audit made no production change to any of the three.",
+    "initialIdentityCorrection": {
+      "finding": "The first post-reveal diagnostic incorrectly treated the airborne Defroster Drone as the requested small ground Frost Sentry control.",
+      "disposition": "SUPERSEDED_FOR_FROST_IDENTITY_EVIDENCE",
+      "correction": "The drone inventory/render was relabeled as an airborne identity control. A new structural inventory and same-scale render were made against worldmodel_t8_sentry_deployed_lod0.glb. The final verdict uses the corrected Frost evidence."
+    }
+  },
+  "artifacts": {
+    "lethalMountedCandidate": {
+      "role": "candidate under verdict",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_builder_round2/candidate/worldmodel_xi_sentry_lethal_round2_mounted_lod0.glb",
+      "sha256": "D6F0827EB196E27966AE959FCAC026C20F98E312E7FB9C80CD9045824AEB9EE1",
+      "bytes": 165964,
+      "meshes": 4,
+      "primitives": 4,
+      "vertexPool": 2843,
+      "primitiveVertexEntries": 2843,
+      "referencedPrimitiveVertexEntries": 2843,
+      "triangles": 1749,
+      "materials": 4,
+      "textures": 0,
+      "images": 0,
+      "skins": 1,
+      "joints": 12,
+      "boundsExtent": [41.92085, 38.960377, 38.201343],
+      "topologicalComponents": 78,
+      "assemblyClusters": 1,
+      "largestAssemblyTriangleFraction": 1.0,
+      "looseVertices": 0,
+      "degenerateTriangles": 0,
+      "redundantDuplicateFaceInstances": 0,
+      "boundaryEdges": 255,
+      "nonManifoldEdges": 0,
+      "hiddenMeshNodes": 0,
+      "unreferencedMeshes": 0,
+      "unreferencedMaterials": 0,
+      "allNumericDataFinite": true
+    },
+    "sawSurf0Control": {
+      "role": "blind A/B control, not proposed runtime asset",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_builder_round2/candidate/control_weapon_saw_mg_setup_surf0_proxy_lod0.glb",
+      "sha256": "8AEF0A1EA1F250B5444C75AD7EE1504845545291E14216A9D6E6483A05FF53C1",
+      "bytes": 81208,
+      "meshes": 1,
+      "primitives": 1,
+      "vertexPool": 1414,
+      "triangles": 868,
+      "materials": 1,
+      "skins": 1,
+      "joints": 4,
+      "boundsExtent": [38.854818, 11.11031, 13.243969],
+      "topologicalComponents": 44,
+      "assemblyClusters": 1,
+      "looseVertices": 0,
+      "degenerateTriangles": 0,
+      "redundantDuplicateFaceInstances": 0,
+      "boundaryEdges": 202,
+      "nonManifoldEdges": 0,
+      "allNumericDataFinite": true
+    },
+    "rejectedProductionComposite": {
+      "role": "controlling rejected production comparison",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+      "sha256": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD",
+      "bytes": 304020,
+      "meshes": 4,
+      "primitives": 4,
+      "vertexPool": 5323,
+      "primitiveVertexEntries": 21292,
+      "referencedPrimitiveVertexEntries": 5323,
+      "primitiveEntryNote": "One POSITION accessor is reused by four primitives; 5323 is the unique pool and referenced-entry count.",
+      "triangles": 3742,
+      "materials": 1,
+      "textures": 2,
+      "images": 2,
+      "boundsExtent": [60.442575, 44.034187, 38.540762],
+      "topologicalComponents": 139,
+      "looseVertices": 0,
+      "degenerateTriangles": 1,
+      "redundantDuplicateFaceInstances": 30,
+      "boundaryEdges": 533,
+      "nonManifoldEdges": 69,
+      "allNumericDataFinite": true
+    },
+    "groundFrostSentry": {
+      "role": "actual smaller ground Frost Sentry selected by getFrostSentryModel",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/model_export/worldmodel_t8_sentry_deployed_lod0.glb",
+      "sha256": "580A7381B916FAFFBBBC812F785A42F1EBE61100B15ED4CE490B983356C9AD9E",
+      "bytes": 515016,
+      "meshes": 1,
+      "primitives": 1,
+      "vertexPool": 7043,
+      "primitiveVertexEntries": 7043,
+      "referencedPrimitiveVertexEntries": 7043,
+      "triangles": 5641,
+      "materials": 1,
+      "textures": 0,
+      "images": 0,
+      "skins": 1,
+      "joints": 2,
+      "boundsExtent": [23.336943, 17.0, 20.755417],
+      "topologicalComponents": 87,
+      "assemblyClusters": 3,
+      "largestAssemblyTriangleFraction": 0.961709,
+      "looseVertices": 0,
+      "degenerateTriangles": 0,
+      "redundantDuplicateFaceInstances": 1,
+      "boundaryEdges": 2845,
+      "nonManifoldEdges": 4,
+      "allNumericDataFinite": true,
+      "grounding": {
+        "floorZ": 0.0,
+        "supportHullAreaAt0_01": 221.191017,
+        "surfaceCentroidInsideSupportHull": true,
+        "centroidSignedMargin": 6.952333
+      },
+      "scaleRelation": {
+        "lethalHeightDividedByFrostHeight": 1.8405,
+        "lethalLongestExtentDividedByFrostLongestExtent": 1.7963,
+        "visualFinding": "The Frost model is a compact ground pedestal turret; it is clearly smaller and does not share the lethal model's long old-style machine-gun silhouette or four-foot field mount."
+      },
+      "unchangedBeforeAfterCorrectedRender": true
+    },
+    "airborneDefrosterDrone": {
+      "role": "separate airborne streak identity control, not the ground Frost Sentry",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/model_export/worldmodel_t8_defroster_drone_lod0.glb",
+      "sha256": "2737870FF7A67C75D33DDD68D2158D7721E852869F5DA755207714A8AC5E15D5",
+      "bytes": 173136,
+      "meshes": 2,
+      "primitives": 2,
+      "vertexPool": 2244,
+      "triangles": 2064,
+      "materials": 1,
+      "boundsExtent": [49.332024, 56.166083, 14.851976],
+      "looseVertices": 0,
+      "degenerateTriangles": 0,
+      "redundantDuplicateFaceInstances": 0,
+      "boundaryEdges": 1882,
+      "nonManifoldEdges": 0,
+      "allNumericDataFinite": true,
+      "unchangedAfterAudit": true
+    }
+  },
+  "candidateMeshInventory": [
+    {
+      "mesh": "surf1.001",
+      "role": "legacy four-foot stand",
+      "vertices": 864,
+      "triangles": 564,
+      "material": "audit/xi_round2_tripod_olive",
+      "topologicalComponents": 29,
+      "assemblyClusters": 1,
+      "boundaryEdges": 56,
+      "nonManifoldEdges": 0,
+      "influencingJoint": "tag_base"
+    },
+    {
+      "mesh": "Cylinder.003",
+      "role": "mount hardware",
+      "vertices": 216,
+      "triangles": 132,
+      "material": "audit/xi_round2_hardware_brass",
+      "topologicalComponents": 3,
+      "assemblyClusters": 3,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "influencingJoint": "tag_swivel"
+    },
+    {
+      "mesh": "Cylinder",
+      "role": "mount yoke",
+      "vertices": 552,
+      "triangles": 296,
+      "material": "audit/xi_round2_mount_steel",
+      "topologicalComponents": 6,
+      "assemblyClusters": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "influencingJoint": "tag_swivel"
+    },
+    {
+      "mesh": "Mesh_0.001",
+      "role": "single SAW machine gun",
+      "vertices": 1211,
+      "triangles": 757,
+      "material": "audit/xi_round2_saw_gunmetal",
+      "boundsExtent": [38.854821, 3.473328, 8.134302],
+      "topologicalComponents": 40,
+      "assemblyClusters": 1,
+      "boundaryEdges": 199,
+      "nonManifoldEdges": 0,
+      "influencingJoint": "tag_gun"
+    }
+  ],
+  "hardBars": [
+    {
+      "id": "one_full_size_old_style_machine_gun",
+      "pass": true,
+      "evidence": "Exactly one elevated elongated mesh meets the weapon selection rule. It is a 38.855-unit receiver/stock/barrel silhouette with 757 triangles and remains continuous in every blind view."
+    },
+    {
+      "id": "one_coherent_grounded_mount",
+      "pass": true,
+      "evidence": "All geometry falls into one global assembly cluster. Four stand feet are within 0.187164 units of one plane; at a 0.20-unit support band the hull area is 1425.839001 and the surface centroid is inside by 18.221908 units."
+    },
+    {
+      "id": "no_rejected_weapon_pile",
+      "pass": true,
+      "evidence": "Direct mesh classification finds one elevated long assembly and only stand, yoke, and mount hardware outside it. Matched renders show no overlapping weapon bodies."
+    },
+    {
+      "id": "no_deployed_bipod",
+      "pass": true,
+      "evidence": "All 757 mounted gun faces match the 868-face surf0 control after tag_flash alignment; exactly 111 control faces are absent in the mounted model. Their bounds are the deployed bipod region: [4.330039,-5.555156,0.0] to [8.621229,5.555154,10.329177]."
+    },
+    {
+      "id": "no_detached_ammo_box",
+      "pass": true,
+      "evidence": "The candidate gun is an exact face subset of the surf0-only control, and its three non-gun meshes are the stand, yoke, and mount hardware. No box-like detached assembly appears in geometry clusters or any render."
+    },
+    {
+      "id": "no_loose_belt_or_ammunition",
+      "pass": true,
+      "evidence": "No source belt/ammunition mesh is present; the weapon mesh is an exact surf0 control subset and every other primitive is mount structure. No loose or detached ammunition silhouette appears in top-ish or rear views."
+    },
+    {
+      "id": "no_minigun_launcher_or_secondary_weapon",
+      "pass": true,
+      "evidence": "There is one elevated elongated weapon mesh, no secondary weapon primitive, and no launcher/minigun silhouette. The candidate joint list also contains no launcher tag."
+    },
+    {
+      "id": "plausible_sweep_and_muzzle",
+      "pass": true,
+      "evidence": "The base is weighted to tag_base, 768 yoke/hardware vertices to tag_swivel, and 1211 gun vertices to tag_gun. tag_flash +Y resolves to +X, differs from barrel-to-flash by 0.048968 degrees, and differs from the gun PCA axis by 2.263471 degrees."
+    },
+    {
+      "id": "finite_required_tags",
+      "pass": true,
+      "evidence": "All 12 required hierarchy joints/tags are present with finite matrices, unit axis scales, determinant 1, no cycles, and no multiple parents."
+    },
+    {
+      "id": "conservative_runtime_structure",
+      "pass": true,
+      "evidence": "1749 triangles, 2843 vertex-pool entries, four primitives/materials, 12 joints, no animations/textures/images, no loose vertices, no duplicate faces, no degenerates, no non-manifold edges, and no hidden/unreferenced meshes or materials."
+    },
+    {
+      "id": "beats_rejected_production_composite",
+      "pass": true,
+      "evidence": "Same-scale diagnostic shows one clean gun/mount instead of the rejected overlapping turret/minigun pile. Candidate has 53.26% fewer triangles and 46.59% fewer pooled vertices, with zero versus 30 redundant face instances."
+    },
+    {
+      "id": "actual_ground_frost_sentry_smaller_distinct_and_untouched",
+      "pass": true,
+      "evidence": "Corrected same-scale render shows a compact 23.337 x 17.000 x 20.755 pedestal turret beside the lethal 41.921 x 38.960 x 38.201 field mount. Frost SHA-256 stayed 580A7381... before and after rendering."
+    },
+    {
+      "id": "airborne_drone_identity_not_conflated_or_modified",
+      "pass": true,
+      "evidence": "The airborne model is separately identified through getDefrosterDroneModel(), retains SHA-256 2737870F..., and is excluded from the corrected ground Frost Sentry comparison."
+    }
+  ],
+  "grounding": {
+    "floorZ": 0.00000046,
+    "footPadMinimumZ": [0.0, 0.08299, 0.095828, 0.187164],
+    "maximumFootPlaneDeviation": 0.187164,
+    "deviationAsPercentOfModelHeight": 0.49,
+    "supportBand0_10": {
+      "hullArea": 712.919796,
+      "centroidSignedMargin": -0.655987,
+      "inside": false
+    },
+    "supportBand0_20": {
+      "hullArea": 1425.839001,
+      "centroidSignedMargin": 18.221908,
+      "inside": true
+    },
+    "visualFinding": "All four feet read on one floor with coherent contact shadows in matched views. The strict minimum-Z-only test used in Round 2 was insufficient, but the independent four-foot support analysis passes."
+  },
+  "tagsAndSweep": {
+    "jointNames": [
+      "tag_origin",
+      "tag_base",
+      "tag_swivel",
+      "j_pivot",
+      "j_hinge",
+      "tag_gun",
+      "j_barrel_anchor",
+      "j_barrel",
+      "tag_barrel",
+      "tag_flash",
+      "tag_brass",
+      "tag_clip"
+    ],
+    "hierarchy": "tag_origin -> tag_base -> tag_swivel -> j_pivot -> j_hinge -> tag_gun -> j_barrel_anchor -> j_barrel -> tag_barrel -> tag_flash; tag_brass and tag_clip descend from tag_gun",
+    "jointUsage": {
+      "tag_base": 864,
+      "tag_swivel": 768,
+      "tag_gun": 1211
+    },
+    "tagFlashPosition": [16.145991, 0.0, 35.9156],
+    "tagFlashForwardAxis": [1.0, 0.0, 0.0],
+    "tagBarrelPosition": [11.0, 0.0, 35.919998],
+    "barrelToFlashDirection": [1.0, 0.0, -0.000855],
+    "flashAxisVsBarrelToFlashDegrees": 0.048968,
+    "flashAxisVsWeaponPcaDegrees": 2.263471,
+    "nearestWeaponVertexToFlash": 0.42682957,
+    "singleEntityYawFinding": "The complete model remains one coherent entity around a central ground origin. A tag_swivel yaw is more physically plausible because it leaves the four-foot base planted while rotating yoke, hardware, and gun together."
+  },
+  "blindAudit": {
+    "assignmentCommitment": "5428E0F1F7248249184C0BCE9CB652A5B5576EB579522137BBD7D706224C2B73",
+    "assignmentCreatedAtUtc": "2026-08-25T20:01:40.438907Z",
+    "mappingKnownAtScoring": false,
+    "scoresRecordedAtUtc": "2026-08-25T20:12:33.1642419Z",
+    "mappingRevealedAtUtc": "2026-08-25T20:13:27.936768Z",
+    "commitmentVerified": true,
+    "mapping": {
+      "A": "sha256:D6F0827EB196E27966AE959FCAC026C20F98E312E7FB9C80CD9045824AEB9EE1",
+      "B": "sha256:8AEF0A1EA1F250B5444C75AD7EE1504845545291E14216A9D6E6483A05FF53C1"
+    },
+    "scores": {
+      "A": {
+        "visualCoherence": 8.5,
+        "oneGunReadability": 9.0,
+        "groundingReadability": 8.5,
+        "sweepPlausibility": 8.5,
+        "silhouetteClarity": 8.5,
+        "visualMean": 8.6,
+        "hardBar": "PASS"
+      },
+      "B": {
+        "visualCoherence": 6.5,
+        "oneGunReadability": 9.5,
+        "groundingReadability": 2.0,
+        "sweepPlausibility": 1.5,
+        "silhouetteClarity": 7.5,
+        "visualMean": 5.4,
+        "hardBar": "FAIL"
+      }
+    },
+    "preferredBlindLabel": "A",
+    "views": ["front", "side", "rear-three-quarter", "top-ish", "gameplay-height"],
+    "matchedConditions": "One camera, one world scale, one neutral material, one light rig, and one ground plane per paired view."
+  },
+  "auditIntegrity": {
+    "builderClaimsCorroborated": [
+      "candidate and control SHA-256 values",
+      "candidate triangle and vertex counts",
+      "111-face deployed-bipod trim",
+      "source surf0-only weapon contribution",
+      "old rejected production composite identity"
+    ],
+    "builderEvidenceDeficiencies": [
+      "Round 2 A/B mapping was disclosed in its render report, so it was not accepted as concealed blind evidence.",
+      "Round 2 grounding evidence used minimum Z only and did not establish a four-foot support hull."
+    ],
+    "round3Correction": "The critic initially used the airborne drone for the mini-ground-sentry comparison. The lead correction was accepted before verdict; the wrong identity inference was withdrawn, artifacts were explicitly relabeled, and the actual ground Frost Sentry was independently inventoried and rendered.",
+    "parser": "Independent GLB 2.0 JSON/BIN parser; glTF Y-up converted to audit Z-up as (x,-z,y). Builder validation JSON was not consumed for candidate geometry measurements.",
+    "allBuilderCandidateGlbsInventoried": true,
+    "builderCandidateGlbCount": 2
+  },
+  "renders": {
+    "blind": [
+      {
+        "view": "front",
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/blind/blind-front.png",
+        "sha256": "FC035A543500687499912653CBA3F8DFD8691ED3B97E1AFDC8B9780336FB999C",
+        "bytes": 1377813,
+        "resolution": [1600, 900]
+      },
+      {
+        "view": "side",
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/blind/blind-side.png",
+        "sha256": "C27E0C459A3BDEABFB1EA20C7A978158514A525EF52BE8CE144A4009184DCB92",
+        "bytes": 1370585,
+        "resolution": [1600, 900]
+      },
+      {
+        "view": "rear-three-quarter",
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/blind/blind-rear-three-quarter.png",
+        "sha256": "5A5598B090E951609D264767CD8D66B27E8248F09DC21DCA87AC3B0E3E28DBBC",
+        "bytes": 1478174,
+        "resolution": [1600, 900]
+      },
+      {
+        "view": "top-ish",
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/blind/blind-top-ish.png",
+        "sha256": "FAB77998B03A7C7C9FB4734FC478D6BAD3AD90B09CCCDCB4ED092FDC2333E561",
+        "bytes": 1460726,
+        "resolution": [1600, 900]
+      },
+      {
+        "view": "gameplay-height",
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/blind/blind-gameplay-height.png",
+        "sha256": "B3E1F48EE691F04D6F7C202CCAF14E5A80403BADFDE9B6ED837E1862D0A0CC6F",
+        "bytes": 1461800,
+        "resolution": [1600, 900]
+      }
+    ],
+    "correctedGroundFrostSentryComparison": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/diagnostic-lethal-vs-ground-frost-sentry.png",
+      "sha256": "62C0CB3CDB0CB09C5136A28FFF473F93AE827A25C41B38A5366A3D19352399C3",
+      "bytes": 1471327,
+      "resolution": [1600, 900],
+      "sameWorldScale": true,
+      "identicalMaterial": true,
+      "identicalLighting": true,
+      "groundFrostSentryShiftForRenderOnly": 0.0,
+      "verdictEvidence": true
+    },
+    "airborneDroneIdentityControl": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/diagnostic-lethal-vs-defroster.png",
+      "sha256": "2A8F8D5EA9C0773DD9F01CDE0EF6F6723D0CE88F1214900CD2BE7D8AE0649132",
+      "bytes": 1486983,
+      "resolution": [1600, 900],
+      "identity": "airborne Defroster Drone, not ground Frost Sentry",
+      "verdictEvidenceForGroundFrostIdentity": false
+    },
+    "rejectedProductionComparison": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/diagnostic-round2-vs-rejected-production.png",
+      "sha256": "E6CF367836477BF9CEE26FC8057924F991AE7864C5A01D72C24E1335F88259C1",
+      "bytes": 1519748,
+      "resolution": [1600, 900],
+      "sameWorldScale": true,
+      "identicalMaterial": true,
+      "identicalLighting": true
+    }
+  },
+  "supportingEvidence": [
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/inventory.json",
+      "sha256": "A7B6311DEE5C5A2280F2C467D12B1CFA9097C62800E263E4A63ACD126AC6D763"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/rejected-production-control-inventory.json",
+      "sha256": "40589EB253B5EA5473EEA4A1A41FAF8A31970EB171016D14E1BF6A42339524C2"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/frost-sentry-control-inventory.json",
+      "sha256": "5F447822188D03E0CC8EFCDA77E433D20DF9E69F40E45D4B314F5F09DC30F723"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/defroster-control-inventory.json",
+      "sha256": "82ABD2DF9058C92BB011B9C1E0F55BBC40D074947AC16EF5659B1570A3F2DC33"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/blind/commitment.json",
+      "sha256": "C0A6AE16F92882C397E126A2AE7B651063FE0E484900F0D889ABCCF96D574B65"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/blind/blind-scores.json",
+      "sha256": "A39BC0F0B2DE22BCE008F79081669957CB56A359B1AF158488649C9006CA9303"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/blind/mapping-reveal.json",
+      "sha256": "1760E12C4E58CB21E27C6AFB593383679AB23BAB5E2AAC4E759478F98FF1E65C"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/blind-render-manifest.json",
+      "sha256": "141DC4063641B463A1C577FCE471A944DE6AC0608D7D46C1FF41FC596B82625A"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/frost-sentry-comparison-render-manifest.json",
+      "sha256": "7750FFFEC4ECB76D0125EB7E94EE66BA6782BBD693B871E11203EAA505CD0E3A"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/diagnostic-render-manifest.json",
+      "sha256": "6DF26DD91B0BD3F84D43E7AB4CAA074424CD22E73724DF598B60D50810A991BF"
+    },
+    {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3/renders/rejected-comparison-render-manifest.json",
+      "sha256": "ECF0833BEC3879B1C9F20DB4CCE2EDA191405ADA45FEC5BDD81EE98DDAF0F196"
+    }
+  ],
+  "scopeCompliance": {
+    "writeRoot": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_critic_round3",
+    "productionFilesWritten": false,
+    "builderDirectoryWritten": false,
+    "productionOrRepositoryScriptsWritten": false,
+    "auditHelperScriptsWrittenUnderWriteRoot": true,
+    "steamWrittenOrLaunched": false,
+    "gameLaunched": false,
+    "buildRun": false,
+    "linkRun": false,
+    "installRun": false,
+    "offlineGlbParserAndHeadlessRendererOnly": true,
+    "readOnlyGitStatusObserved": [
+      "M xi_ftag/zone_raw/xi_ftag/xi_ftag/_assetprofile.gsc",
+      "?? xi_ftag/zone_raw/xi_ftag/model_export/worldmodel_t8_defroster_drone_lod0.glb",
+      "?? xi_ftag/zone_raw/xi_ftag/model_export/worldmodel_t8_sentry_deployed_lod0.glb",
+      "?? xi_ftag/zone_raw/xi_ftag/model_export/worldmodel_xi_sentry_old_clean_lod0.glb"
+    ],
+    "gitStatusEntriesWrittenByThisAudit": false,
+    "groundFrostSentryHashAfterAudit": "580A7381B916FAFFBBBC812F785A42F1EBE61100B15ED4CE490B983356C9AD9E",
+    "airborneDefrosterDroneHashAfterAudit": "2737870FF7A67C75D33DDD68D2158D7721E852869F5DA755207714A8AC5E15D5",
+    "rejectedProductionHashAfterAudit": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD"
+  }
+}

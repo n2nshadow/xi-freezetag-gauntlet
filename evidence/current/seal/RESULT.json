@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "verdict": "HOLD",
+  "approved": false,
+  "completedDate": "2026-08-25",
+  "engines": [
+    "PowerShell 7.6.4",
+    "Windows PowerShell 5.1.26100.9168"
+  ],
+  "productionHashesUnchanged": true,
+  "existingSuite": {
+    "ps7ExitCode": 0,
+    "ps5ExitCode": 0,
+    "groupsPerEngine": 8,
+    "attackRecordsPerEngine": 11
+  },
+  "independentReliability": {
+    "ps7ExitCode": 0,
+    "ps5ExitCode": 0,
+    "schedulesPerEngine": 11,
+    "unexpectedErrorsPerEngine": 0,
+    "blockingSchedules": [
+      "fresh_exception_after_successful_move_before_bookkeeping",
+      "fresh_hard_process_termination_after_first_successful_publication"
+    ]
+  },
+  "blockingFindings": [
+    {
+      "id": "R7B-F1A",
+      "title": "Successful move can precede publication bookkeeping",
+      "result": "A fault after the native move returned but before the published list was updated left new mod.ff with the prior xi_ftag.iwd and xi_ftag.cfg. The old mod.ff remained in the rollback stage and incomplete rollback was reported.",
+      "previousModSha256": "57F3FD0691DD30E2864F6E9C87081C6B31C26AD906E08C607A9A7471F6D0B63E",
+      "destinationModSha256": "8A28B6279EAF6854BE77083ACF73D22C3C922C93DDEF1FDADCFE0B3E0D31D7BE",
+      "reproducedOnBothEngines": true
+    },
+    {
+      "id": "R7B-F1B",
+      "title": "Publication has no crash recovery",
+      "result": "Hard termination immediately after the first successful publication left only the new mod.ff at the canonical destination. Both later package names were absent; exact old backups remained in the abandoned private stage, but no durable transaction state or startup recovery restores them.",
+      "destinationModSha256": "D60EDF17895D0075AFB2BE46AE7CA07628097BB22E9A5445D4F63E9774507A33",
+      "destinationIwdPresent": false,
+      "destinationCfgPresent": false,
+      "reproducedOnBothEngines": true
+    }
+  ],
+  "exactRepairBar": [
+    "Persist a durable transaction record before moving any prior canonical member. It must bind transaction ID, canonical destination, private stage, exact old/absent identities, exact new identities, and operation state.",
+    "Record and flush move intent before every backup/publication move, then reconcile the retained file identity at both possible locations before recording completion. Rollback must not depend only on an in-memory published list.",
+    "At installer startup, before new staging, backup, cleanup, or publication, detect every unfinished transaction and idempotently restore the exact prior three-file tuple or complete a provably exact all-new tuple.",
+    "Do not delete the private stage or .r-* rollback members unless commit or complete rollback has been verified by canonical pathname, length, and SHA-256 for all three names. Preserve/quarantine state when recovery is incomplete.",
+    "Add PS7 and PS5.1 fault tests after every successful backup and publication move, including hard process termination. After restart recovery, require either the exact prior tuple or exact new tuple, never a mixed or partial tuple, with all temporary processes and recoverable state accounted for."
+  ],
+  "largestRemainingReliabilityGap": "The three-file installer compensating transaction is not crash-consistent and has no durable recovery protocol.",
+  "verification": {
+    "exitCode": 0,
+    "checkCount": 92,
+    "failureCount": 0,
+    "ps7RuntimeFileRecordsRehashed": 983,
+    "ps5RuntimeDeclarationRecordsRehashed": 7
+  },
+  "cleanup": {
+    "auditTempChildCount": 0,
+    "liveTrackedChildProcessCount": 0,
+    "residualAuditReparsePointCount": 0,
+    "residualPrivateStageCount": 0,
+    "residualBuildSessionCount": 0
+  },
+  "limitations": [
+    "No full OAT build was run.",
+    "The top-level Steam installer was not invoked; exact production helper definitions and static top-level ordering were reviewed against audit-local paths.",
+    "No Steam, OAT, network, Git, package-output, or production file was modified.",
+    "The adjacent manifest checksum remains a drift detector, not an authenticity signature."
+  ]
+}

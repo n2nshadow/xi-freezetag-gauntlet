@@ -1,0 +1,3537 @@
+{
+  "schemaVersion": 2,
+  "family": 1,
+  "rosterId": "mtz556",
+  "displayName": "ICR-7 Summon",
+  "status": "BUILT_UNVERIFIED",
+  "promotionReady": false,
+  "source": "xi_ftag/zone_raw/xi_ftag/model_export/viewmodel_t8_icr7_summon_lod0.glb",
+  "sourceSha256": "F2B9317376DA870B8659ADF9EA12C964E6F2F896B617279744E731D39F798471",
+  "template": "mw2_ftag/model_export/viewmodel_ow2_hk416_lod0.glb",
+  "templateSha256": "B2491A22FAB1B313F4815DFFC48F9426C3A60DF5029D5E86B85E175126E85632",
+  "profile": "xi_ftag/.asset_staging/t8_pack/rig_profiles/mtz556/mtz556-view-rig-profile.json",
+  "profileSha256": "7A75C155AD908C43BB64BBBB76D7767A178912BA10BD0446961D0F136681B52C",
+  "weaponOriginChanged": false,
+  "targetBonesChanged": false,
+  "weaponBodyRailAlignment": {
+    "method": "rigid current coherent rail frame to stock coherent rail frame",
+    "driverOptic": "reflex",
+    "currentRail": {
+      "coordinate": 3.88335102,
+      "area": 8.022701334,
+      "triangles": 8,
+      "center": [
+        4.634400845,
+        -0.857256532,
+        3.883351088
+      ],
+      "normal": [
+        -1.46e-07,
+        -0.0,
+        1.0
+      ],
+      "interfaceBounds": {
+        "lower": [
+          -3.129268408,
+          -7.41e-07,
+          -0.728544712
+        ],
+        "upper": [
+          7.663328648,
+          8.77e-07,
+          0.728544593
+        ]
+      },
+      "quality": {
+        "triangleCount": 8.0,
+        "area": 8.022701334,
+        "normalSpreadDeg": 0.0,
+        "planeResidualRms": 5.2e-07,
+        "planeResidualMaximum": 8.37e-07
+      }
+    },
+    "stockRail": {
+      "coordinate": 3.960135937,
+      "area": 1.145590324,
+      "triangles": 14,
+      "center": [
+        1.915807486,
+        -6.54e-07,
+        3.960136175
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "interfaceBounds": {
+        "lower": [
+          -1.532873631,
+          -4.77e-07,
+          -0.370910466
+        ],
+        "upper": [
+          1.334575415,
+          -4.77e-07,
+          0.370910466
+        ]
+      },
+      "quality": {
+        "triangleCount": 14.0,
+        "area": 1.145590324,
+        "normalSpreadDeg": 0.0,
+        "planeResidualRms": 4.77e-07,
+        "planeResidualMaximum": 4.77e-07
+      },
+      "candidateCount": 1,
+      "rejectedCount": 4
+    },
+    "matrix": [
+      [
+        1.0,
+        -0.0,
+        1.46e-07,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.857255876
+      ],
+      [
+        -1.46e-07,
+        -0.0,
+        1.0,
+        0.076785803
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "linearColumnLengths": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "determinant": 1.0
+  },
+  "nativeSightAlignment": {
+    "method": "iterated rigid rear-aperture/front-post frame to stock sight frame",
+    "sourceSightLine": {
+      "method": "rear-front-geometry-p12-p88",
+      "rear": [
+        -0.56369257,
+        -6.56e-07,
+        4.56680584
+      ],
+      "front": [
+        19.251909256,
+        0.403836727,
+        4.757677078
+      ],
+      "direction": [
+        0.999746025,
+        0.020374594,
+        0.009629926
+      ],
+      "pointCount": 2318
+    },
+    "stockTemplateSightLine": {
+      "method": "rear-front-geometry-p12-p88",
+      "rear": [
+        -0.247874007,
+        0.286976814,
+        4.718307495
+      ],
+      "front": [
+        12.454422951,
+        0.278942794,
+        5.001007557
+      ],
+      "direction": [
+        0.999752283,
+        -0.000632329,
+        0.022250308
+      ],
+      "pointCount": 1216
+    },
+    "matrix": [
+      [
+        0.999727547,
+        0.019465454,
+        -0.01289791,
+        0.370173633
+      ],
+      [
+        -0.019467214,
+        0.999810517,
+        -1.1285e-05,
+        0.268348247
+      ],
+      [
+        0.01289525,
+        0.000262368,
+        0.999916852,
+        0.152270719
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "uniformScale": 1.0,
+    "postAlignmentSightLine": {
+      "method": "rear-front-geometry-p12-p88",
+      "rear": [
+        -0.247873962,
+        0.286976576,
+        4.718307495
+      ],
+      "front": [
+        19.560447693,
+        0.274448305,
+        5.159157753
+      ],
+      "direction": [
+        0.999752223,
+        -0.000632318,
+        0.022250297
+      ],
+      "pointCount": 2318
+    },
+    "rearResidual": 2.42573e-07,
+    "angularResidualDeg": 0.0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "rearResidual": 0.011547890413,
+        "angularResidualDeg": 0.089319443432
+      },
+      {
+        "iteration": 2,
+        "rearResidual": 0.000685417703,
+        "angularResidualDeg": 0.0
+      },
+      {
+        "iteration": 3,
+        "rearResidual": 1.3861444e-05,
+        "angularResidualDeg": 0.0
+      },
+      {
+        "iteration": 4,
+        "rearResidual": 2.42573e-07,
+        "angularResidualDeg": 0.0
+      }
+    ],
+    "postExportReparse": {
+      "method": "closed-loop correction against exact staged GLB reimport",
+      "target": {
+        "method": "rear-front-geometry-p12-p88",
+        "rear": [
+          -0.247874007,
+          0.286976814,
+          4.718307495
+        ],
+        "front": [
+          12.454422951,
+          0.278942794,
+          5.001007557
+        ],
+        "direction": [
+          0.999752283,
+          -0.000632329,
+          0.022250308
+        ],
+        "pointCount": 1216
+      },
+      "final": {
+        "method": "rear-front-geometry-p12-p88",
+        "rear": [
+          -0.247876614,
+          0.286977977,
+          4.718310356
+        ],
+        "front": [
+          19.56595993,
+          0.27445516,
+          5.159281731
+        ],
+        "direction": [
+          0.999752223,
+          -0.000631867,
+          0.022250215
+        ],
+        "pointCount": 2406
+      },
+      "rearResidual": 4.041842e-06,
+      "angularResidualDeg": 0.0,
+      "iterations": [
+        {
+          "iteration": 0,
+          "exactGlbSha256": "1659E0F0608AE14D730C5A9F359E4834C054EF573622176423447503A9079C90",
+          "measured": {
+            "method": "rear-front-geometry-p12-p88",
+            "rear": [
+              -0.247873932,
+              0.287218541,
+              4.71872139
+            ],
+            "front": [
+              19.566791534,
+              0.274448276,
+              5.159157753
+            ],
+            "direction": [
+              0.99975282,
+              -0.000644326,
+              0.022222303
+            ],
+            "pointCount": 2334
+          },
+          "rearResidual": 0.000479312587,
+          "angularResidualDeg": 0.0
+        },
+        {
+          "iteration": 1,
+          "exactGlbSha256": "A92850BF1552979290510C03C5DD4F4EA791934E15A688AAA04BEAC67B3E10D5",
+          "measured": {
+            "method": "rear-front-geometry-p12-p88",
+            "rear": [
+              -0.246974796,
+              0.286729753,
+              4.718817234
+            ],
+            "front": [
+              19.567325592,
+              0.274443775,
+              5.159301758
+            ],
+            "direction": [
+              0.99975276,
+              -0.000619903,
+              0.022225142
+            ],
+            "pointCount": 2352
+          },
+          "rearResidual": 0.001062757121,
+          "angularResidualDeg": 0.0
+        },
+        {
+          "iteration": 2,
+          "exactGlbSha256": "F7721B3E357378A45D44330FCC4DEF72902CB40F91F6062E5CB42A2F12793D25",
+          "measured": {
+            "method": "rear-front-geometry-p12-p88",
+            "rear": [
+              -0.233992592,
+              0.278483033,
+              4.718322277
+            ],
+            "front": [
+              19.570243835,
+              0.312036723,
+              5.159293175
+            ],
+            "direction": [
+              0.999750733,
+              0.001693846,
+              0.022260942
+            ],
+            "pointCount": 2397
+          },
+          "rearResidual": 0.016273850633,
+          "angularResidualDeg": 0.132703728466
+        },
+        {
+          "iteration": 3,
+          "exactGlbSha256": "BD2812D14E51944E07121DEC45C0A978C012BE909DD46220FE725F0C81AB77C2",
+          "measured": {
+            "method": "rear-front-geometry-p12-p88",
+            "rear": [
+              -0.257831812,
+              0.286825448,
+              4.718203068
+            ],
+            "front": [
+              19.555997849,
+              0.273677468,
+              5.159066677
+            ],
+            "direction": [
+              0.999752402,
+              -0.000663412,
+              0.022244789
+            ],
+            "pointCount": 2402
+          },
+          "rearResidual": 0.009959503107,
+          "angularResidualDeg": 0.002973886641
+        },
+        {
+          "iteration": 4,
+          "exactGlbSha256": "86A6086FBE90B57B51BBCA9B562B4666E928C180498CD26165E8AF94113F649B",
+          "measured": {
+            "method": "rear-front-geometry-p12-p88",
+            "rear": [
+              -0.247876614,
+              0.286977977,
+              4.718310356
+            ],
+            "front": [
+              19.56595993,
+              0.27445516,
+              5.159281731
+            ],
+            "direction": [
+              0.999752223,
+              -0.000631867,
+              0.022250215
+            ],
+            "pointCount": 2406
+          },
+          "rearResidual": 4.041842e-06,
+          "angularResidualDeg": 0.0
+        }
+      ],
+      "passed": true
+    }
+  },
+  "nativeSightVisibility": {
+    "group": "tag_sights",
+    "object": "round2_native_tag_sights",
+    "triangles": 1339,
+    "independentlySkinned": true
+  },
+  "optics": [
+    {
+      "kind": "reflex",
+      "targetTag": "tag_reflex",
+      "source": "xi_ftag/.asset_staging/t8_pack/active_optics/reflex/reflex-view.glb",
+      "sourceSha256": "8FAD4DEDC833CFF168A0C33E77505A40BABFD627B046CF1AB152889092FF9B8E",
+      "fixedScaleEvidence": {
+        "method": "accepted-template/source lowest evidence-bearing attachment contact-to-optical height ratio; no camera input",
+        "cameraOrViewportUsed": false,
+        "sourceHeight": 3.68864584,
+        "referenceHeight": 1.392827511,
+        "sourceMountHeight": 2.670805931,
+        "referenceMountHeight": 1.189097404,
+        "uniformScale": 0.377598602,
+        "sealedCalibration": {
+          "sourceSha256": "8FAD4DEDC833CFF168A0C33E77505A40BABFD627B046CF1AB152889092FF9B8E",
+          "templateSha256": "B2491A22FAB1B313F4815DFFC48F9426C3A60DF5029D5E86B85E175126E85632",
+          "expected": {
+            "sourceSha256": "8FAD4DEDC833CFF168A0C33E77505A40BABFD627B046CF1AB152889092FF9B8E",
+            "templateSha256": "B2491A22FAB1B313F4815DFFC48F9426C3A60DF5029D5E86B85E175126E85632",
+            "sourceContactToOpticalHeight": 3.68864584,
+            "templateContactToOpticalHeight": 1.392827511,
+            "uniformScale": 0.377598602,
+            "correctTransform": [
+              [
+                0.377598614,
+                0.0,
+                0.0,
+                1.859453201
+              ],
+              [
+                0.0,
+                0.377598614,
+                0.0,
+                -0.007533661
+              ],
+              [
+                0.0,
+                0.0,
+                0.377598614,
+                4.03324461
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "absoluteResiduals": {
+            "sourceHeight": 3.09e-10,
+            "templateHeight": 1.66e-10,
+            "uniformScale": 4.08e-10
+          },
+          "tolerance": 1e-06,
+          "acceptedTransformMaximumResidual": 4.66e-10,
+          "pass": true
+        },
+        "sourceContact": {
+          "coordinate": -0.717009932,
+          "area": 0.057672436,
+          "triangles": 2,
+          "center": [
+            0.550380349,
+            0.0,
+            -0.717010021
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -0.99999994
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -0.087584734,
+              -0.007946968,
+              -1.342958927
+            ],
+            "upper": [
+              0.131668091,
+              0.003973722,
+              1.342958927
+            ]
+          }
+        },
+        "referenceAttachmentContact": {
+          "coordinate": 3.76250267,
+          "area": 0.954525292,
+          "triangles": 12,
+          "center": [
+            2.067276001,
+            -0.00753366,
+            3.76250267
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -1.088283062,
+              0.0,
+              -0.615262508
+            ],
+            "upper": [
+              0.975653887,
+              0.0,
+              0.615262389
+            ]
+          }
+        },
+        "sourceMountContact": {
+          "coordinate": 0.300829962,
+          "area": 10.908320452,
+          "triangles": 2,
+          "center": [
+            -0.55401963,
+            0.0,
+            0.300829947
+          ],
+          "normal": [
+            0.0,
+            4e-08,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -3.658440828,
+              -3e-08,
+              -0.74542141
+            ],
+            "upper": [
+              3.658440828,
+              3e-08,
+              0.74542141
+            ]
+          }
+        },
+        "referenceMountContact": {
+          "coordinate": 3.966233015,
+          "area": 1.776245247,
+          "triangles": 2,
+          "center": [
+            2.014953613,
+            -0.007533644,
+            3.966232777
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -0.99999994
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -1.196761608,
+              0.0,
+              -0.371052474
+            ],
+            "upper": [
+              1.19676137,
+              0.0,
+              0.371052474
+            ]
+          }
+        },
+        "scaleCalibrationContacts": {
+          "selection": "lowest evidence-bearing downward plane",
+          "source": {
+            "coordinate": -0.717009932,
+            "area": 0.057672436,
+            "triangles": 2,
+            "center": [
+              0.550380349,
+              0.0,
+              -0.717010021
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -0.99999994
+            ],
+            "interfaceBounds": {
+              "lower": [
+                -0.087584734,
+                -0.007946968,
+                -1.342958927
+              ],
+              "upper": [
+                0.131668091,
+                0.003973722,
+                1.342958927
+              ]
+            }
+          },
+          "acceptedTemplate": {
+            "coordinate": 3.76250267,
+            "area": 0.954525292,
+            "triangles": 12,
+            "center": [
+              2.067276001,
+              -0.00753366,
+              3.76250267
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "interfaceBounds": {
+              "lower": [
+                -1.088283062,
+                0.0,
+                -0.615262508
+              ],
+              "upper": [
+                0.975653887,
+                0.0,
+                0.615262389
+              ]
+            }
+          }
+        },
+        "mountInterfaceSelection": "diagnostic only; cannot alter accepted transform",
+        "referenceHostRail": {
+          "coordinate": 3.960135937,
+          "area": 1.145590324,
+          "triangles": 14,
+          "center": [
+            1.915807486,
+            -6.54e-07,
+            3.960136175
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -1.532873631,
+              -4.77e-07,
+              -0.370910466
+            ],
+            "upper": [
+              1.334575415,
+              -4.77e-07,
+              0.370910466
+            ]
+          },
+          "quality": {
+            "triangleCount": 14.0,
+            "area": 1.145590324,
+            "normalSpreadDeg": 0.0,
+            "planeResidualRms": 4.77e-07,
+            "planeResidualMaximum": 4.77e-07
+          },
+          "candidateCount": 1,
+          "rejectedCount": 4
+        },
+        "sourceOpticalCenter": [
+          2.944263935,
+          -6e-08,
+          2.971635818
+        ],
+        "referenceOpticalCenter": [
+          3.527414083,
+          -1.79e-07,
+          5.155330181
+        ]
+      },
+      "railContact": {
+        "selection": "accepted template target physical interface",
+        "hostPlacementHeuristicUsed": false,
+        "acceptedTargetContact": {
+          "coordinate": 3.76250267,
+          "area": 0.954525292,
+          "triangles": 12,
+          "center": [
+            2.067276001,
+            -0.00753366,
+            3.76250267
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -1.088283062,
+              0.0,
+              -0.615262508
+            ],
+            "upper": [
+              0.975653887,
+              0.0,
+              0.615262389
+            ]
+          }
+        },
+        "currentSocketDeltaFromAccepted": [
+          [
+            1.0,
+            -0.0,
+            0.0,
+            -5e-09
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0,
+            1e-09
+          ],
+          [
+            -0.0,
+            -0.0,
+            1.0,
+            3e-09
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "targetInterface": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.067276001
+        ],
+        [
+          -0.0,
+          0.0,
+          -1.0,
+          -0.00753366
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          3.76250267
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "opticalCenter": [
+        2.971203327,
+        -0.007533683,
+        5.155330181
+      ],
+      "expectedAttachmentBounds": {
+        "lower": [
+          -0.019252062,
+          -0.755794108,
+          3.759501934
+        ],
+        "upper": [
+          3.307458401,
+          0.754075527,
+          5.792470455
+        ]
+      },
+      "hostMeshNames": [
+        "t8_mtz556_j_gun"
+      ],
+      "opticalMeshNames": [
+        "round2_tag_reflex_00_src00_cutout_mtl_attach_t8_optic_reflex_re"
+      ],
+      "acceptedTransformResidual": 4.66e-10,
+      "transformContract": {
+        "composition": "targetWorldBasis @ interfaceAdjustment @ inverse(sourceWorldBasis)",
+        "sourceWorldBasis": [
+          [
+            1.0,
+            0.0,
+            3.4e-08,
+            0.0
+          ],
+          [
+            -3.4e-08,
+            3.4e-08,
+            1.0,
+            0.0
+          ],
+          [
+            -0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "targetWorldBasis": [
+          [
+            0.0,
+            1.0,
+            -1.18e-07,
+            2.866221189
+          ],
+          [
+            -7.5e-08,
+            1.18e-07,
+            1.0,
+            -0.044476651
+          ],
+          [
+            1.0,
+            -0.0,
+            7.5e-08,
+            3.997569561
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "interfaceAdjustment": [
+          [
+            0.0,
+            -0.377598614,
+            -2.9e-08,
+            0.035675108
+          ],
+          [
+            0.377598614,
+            0.0,
+            5.8e-08,
+            -1.006767988
+          ],
+          [
+            -5.8e-08,
+            -1.6e-08,
+            0.377598614,
+            0.036943112
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "composedWorldTransform": [
+          [
+            0.377598614,
+            0.0,
+            -0.0,
+            1.859453201
+          ],
+          [
+            -0.0,
+            0.377598614,
+            0.0,
+            -0.007533661
+          ],
+          [
+            -0.0,
+            -0.0,
+            0.377598614,
+            4.03324461
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "uniformScale": 0.377598602,
+        "linearColumnLengths": [
+          0.37759862,
+          0.37759862,
+          0.37759862
+        ],
+        "determinant": 0.053838283,
+        "mappedAxisErrorsDeg": [
+          0.019782341,
+          0.019782341,
+          0.019782341
+        ],
+        "mappedContactResidual": 9.31e-10
+      },
+      "meshNames": [
+        "round2_tag_reflex_00_src00_cutout_mtl_attach_t8_optic_reflex_re",
+        "round2_tag_reflex_01_src00_cutout_mtl_t8_attach_optic_reflex_de",
+        "round2_tag_reflex_02_src00_cutout_xmaterial_82b16ea2cbc795b",
+        "round2_tag_reflex_03_src00_glass_xmaterial_61055af217b8876",
+        "round2_tag_reflex_04_src00_opaque_mtl_t8_attach_optic_reflex_bo",
+        "round2_tag_reflex_05_src00_opaque_mtl_t8_attach_optic_reflex_bo",
+        "round2_tag_reflex_06_src00_opaque_mtl_t8_attach_optic_reflex_bo",
+        "round2_tag_reflex_07_src00_opaque_mtl_t8_attach_optic_reflex_bu",
+        "round2_tag_reflex_08_src00_opaque_mtl_t8_attach_optic_reflex_ho",
+        "round2_tag_reflex_09_src00_opaque_mtl_t8_attach_optic_reflex_la",
+        "round2_tag_reflex_10_src00_opaque_mtl_t8_attach_optic_reflex_lo",
+        "round2_tag_reflex_11_src00_opaque_xmaterial_885a29a232599e0"
+      ],
+      "postExportReparse": {
+        "method": "factory-reset import of the exact exported GLB, final-mesh contact/optical measurement, and raw GLB accessor parse",
+        "exactGlbSha256": "86A6086FBE90B57B51BBCA9B562B4666E928C180498CD26165E8AF94113F649B",
+        "opticContact": {
+          "coordinate": 3.762501717,
+          "area": 0.008222957,
+          "triangles": 2,
+          "center": [
+            2.067276239,
+            -0.007533285,
+            3.762501955
+          ],
+          "normal": [
+            0.0,
+            -2e-09,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -0.033071756,
+              -0.00300169,
+              -0.507099271
+            ],
+            "upper": [
+              0.049717665,
+              0.001499414,
+              0.507099152
+            ]
+          }
+        },
+        "targetRailContact": {
+          "coordinate": 3.76250267,
+          "area": 0.954525292,
+          "triangles": 12,
+          "center": [
+            2.067276001,
+            -0.00753366,
+            3.76250267
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -1.088283062,
+              0.0,
+              -0.615262508
+            ],
+            "upper": [
+              0.975653887,
+              0.0,
+              0.615262389
+            ]
+          }
+        },
+        "measured": {
+          "signedRailGap": -7.15256e-07,
+          "acceptedContactResidual": 8.422e-07,
+          "contactNormalErrorDeg": 0.0,
+          "opticalCenter": [
+            2.971203804,
+            -0.007533699,
+            5.155327797
+          ],
+          "opticalCenterResidualFromPreExport": 2.431457e-06,
+          "contactToOpticalHeight": 1.392825842,
+          "uniformScale": 0.377598149,
+          "expectedUniformScale": 0.377598602,
+          "uniformScaleResidual": 4.52891e-07,
+          "acceptedTransformBoundsResidual": 2.384186e-06
+        },
+        "hostIntersectionDiagnostic": {
+          "triangleOverlapPairs": 503,
+          "interfaceContactPairs": 0,
+          "nonContactIntersectionPairs": 503,
+          "nonContactExamples": [
+            {
+              "hostCenter": [
+                0.106093585,
+                0.373774469,
+                4.33727932
+              ],
+              "attachmentCenter": [
+                0.098292232,
+                0.394712627,
+                4.352074623
+              ],
+              "hostPlaneDistance": 0.600975513,
+              "attachmentPlaneDistance": 0.63537693
+            },
+            {
+              "hostCenter": [
+                0.118234359,
+                0.423605919,
+                4.280644894
+              ],
+              "attachmentCenter": [
+                0.150659949,
+                0.483572096,
+                4.283873558
+              ],
+              "hostPlaneDistance": 0.562781811,
+              "attachmentPlaneDistance": 0.59529686
+            },
+            {
+              "hostCenter": [
+                0.118234359,
+                0.423605919,
+                4.280644894
+              ],
+              "attachmentCenter": [
+                0.179068908,
+                0.50759387,
+                4.201085091
+              ],
+              "hostPlaneDistance": 0.562781811,
+              "attachmentPlaneDistance": 0.59529686
+            },
+            {
+              "hostCenter": [
+                0.118234359,
+                0.423605919,
+                4.280644894
+              ],
+              "attachmentCenter": [
+                0.201342568,
+                0.461112976,
+                4.214598179
+              ],
+              "hostPlaneDistance": 0.562781811,
+              "attachmentPlaneDistance": 0.484541416
+            },
+            {
+              "hostCenter": [
+                0.118234359,
+                0.423605919,
+                4.280644894
+              ],
+              "attachmentCenter": [
+                0.15757069,
+                0.455899596,
+                4.292744637
+              ],
+              "hostPlaneDistance": 0.562781811,
+              "attachmentPlaneDistance": 0.618409157
+            },
+            {
+              "hostCenter": [
+                0.118234359,
+                0.423605919,
+                4.280644894
+              ],
+              "attachmentCenter": [
+                0.112022027,
+                0.410859346,
+                4.306092262
+              ],
+              "hostPlaneDistance": 0.562781811,
+              "attachmentPlaneDistance": 0.618409157
+            },
+            {
+              "hostCenter": [
+                0.118234359,
+                0.423605919,
+                4.280644894
+              ],
+              "attachmentCenter": [
+                0.098292232,
+                0.394712627,
+                4.352074623
+              ],
+              "hostPlaneDistance": 0.562781811,
+              "attachmentPlaneDistance": 0.63537693
+            },
+            {
+              "hostCenter": [
+                0.118234359,
+                0.423605919,
+                4.280644894
+              ],
+              "attachmentCenter": [
+                0.058687538,
+                0.451104254,
+                4.28399086
+              ],
+              "hostPlaneDistance": 0.562781811,
+              "attachmentPlaneDistance": 0.595180035
+            }
+          ],
+          "passed": false,
+          "acceptanceAuthority": "fixed-camera and independent critic; diagnostic cannot move the accepted template transform"
+        },
+        "serializedCoordinateBasis": {
+          "serializedGlbModel": "+X forward, +Y up, +Z right",
+          "blenderInternal": "+X forward, +Z up, -Y right",
+          "blenderToGlbModel": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          ],
+          "verificationMethod": "raw GLB POSITION accessors mapped back to Blender and compared with the same exact GLB reimport",
+          "meshes": [
+            {
+              "mesh": "round2_tag_reflex_00_src00_cutout_mtl_attach_t8_optic_reflex_re",
+              "serializedPositionCount": 16,
+              "serializedConvertedBounds": {
+                "lower": [
+                  2.971203566,
+                  -0.64467448,
+                  4.518188
+                ],
+                "upper": [
+                  2.971203566,
+                  0.629607081,
+                  5.792468548
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  2.971203566,
+                  -0.64467442,
+                  4.518187523
+                ],
+                "upper": [
+                  2.971203804,
+                  0.629607022,
+                  5.792468071
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_01_src00_cutout_mtl_t8_attach_optic_reflex_de",
+              "serializedPositionCount": 150,
+              "serializedConvertedBounds": {
+                "lower": [
+                  0.185203508,
+                  -0.755793869,
+                  4.04681015
+                ],
+                "upper": [
+                  3.008130789,
+                  0.740726531,
+                  5.160515785
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  0.18520385,
+                  -0.75579381,
+                  4.046809673
+                ],
+                "upper": [
+                  3.008130789,
+                  0.740726471,
+                  5.160515308
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_02_src00_cutout_xmaterial_82b16ea2cbc795b",
+              "serializedPositionCount": 1103,
+              "serializedConvertedBounds": {
+                "lower": [
+                  0.002549079,
+                  -0.699279487,
+                  4.047756195
+                ],
+                "upper": [
+                  2.787222147,
+                  0.684212148,
+                  4.656932354
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  0.002549434,
+                  -0.699279428,
+                  4.047755718
+                ],
+                "upper": [
+                  2.787222147,
+                  0.684212089,
+                  4.656931877
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_03_src00_glass_xmaterial_61055af217b8876",
+              "serializedPositionCount": 108,
+              "serializedConvertedBounds": {
+                "lower": [
+                  2.716702223,
+                  -0.602493823,
+                  4.59197855
+                ],
+                "upper": [
+                  3.071860075,
+                  0.587426484,
+                  5.72341156
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  2.716702223,
+                  -0.602493763,
+                  4.591978073
+                ],
+                "upper": [
+                  3.071860313,
+                  0.587426424,
+                  5.723411083
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_04_src00_opaque_mtl_t8_attach_optic_reflex_bo",
+              "serializedPositionCount": 1136,
+              "serializedConvertedBounds": {
+                "lower": [
+                  -0.006535885,
+                  -0.745813489,
+                  3.75950098
+                ],
+                "upper": [
+                  3.065717936,
+                  0.73074615,
+                  4.522802353
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  -0.006535538,
+                  -0.745813429,
+                  3.75950098
+                ],
+                "upper": [
+                  3.065717936,
+                  0.73074609,
+                  4.522801876
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_05_src00_opaque_mtl_t8_attach_optic_reflex_bo",
+              "serializedPositionCount": 1241,
+              "serializedConvertedBounds": {
+                "lower": [
+                  0.917041659,
+                  -0.650449157,
+                  4.005516052
+                ],
+                "upper": [
+                  3.061651468,
+                  0.635381818,
+                  4.658335209
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  0.917041957,
+                  -0.650449097,
+                  4.005515575
+                ],
+                "upper": [
+                  3.061651468,
+                  0.635381758,
+                  4.658334732
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_06_src00_opaque_mtl_t8_attach_optic_reflex_bo",
+              "serializedPositionCount": 146,
+              "serializedConvertedBounds": {
+                "lower": [
+                  2.295314789,
+                  -0.690527678,
+                  4.086539745
+                ],
+                "upper": [
+                  2.514571905,
+                  0.675460339,
+                  4.30540657
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  2.295314789,
+                  -0.690527618,
+                  4.086539268
+                ],
+                "upper": [
+                  2.514571905,
+                  0.675460279,
+                  4.305406094
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_07_src00_opaque_mtl_t8_attach_optic_reflex_bu",
+              "serializedPositionCount": 128,
+              "serializedConvertedBounds": {
+                "lower": [
+                  1.289812684,
+                  -0.103044987,
+                  4.585493565
+                ],
+                "upper": [
+                  1.748091936,
+                  0.087977618,
+                  4.652786255
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  1.289812922,
+                  -0.103044979,
+                  4.585493088
+                ],
+                "upper": [
+                  1.748092175,
+                  0.087977611,
+                  4.652785778
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_08_src00_opaque_mtl_t8_attach_optic_reflex_ho",
+              "serializedPositionCount": 1341,
+              "serializedConvertedBounds": {
+                "lower": [
+                  1.869274735,
+                  -0.704467654,
+                  3.972188234
+                ],
+                "upper": [
+                  3.285048723,
+                  0.689400315,
+                  5.739114285
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  1.869274974,
+                  -0.704467595,
+                  3.972188234
+                ],
+                "upper": [
+                  3.285048962,
+                  0.689400256,
+                  5.739113808
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_09_src00_opaque_mtl_t8_attach_optic_reflex_la",
+              "serializedPositionCount": 333,
+              "serializedConvertedBounds": {
+                "lower": [
+                  -0.019250857,
+                  0.349689901,
+                  3.809742689
+                ],
+                "upper": [
+                  1.79892993,
+                  0.669515252,
+                  4.35794735
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  -0.019250507,
+                  0.349689871,
+                  3.809742451
+                ],
+                "upper": [
+                  1.798930168,
+                  0.669515193,
+                  4.357946873
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_10_src00_opaque_mtl_t8_attach_optic_reflex_lo",
+              "serializedPositionCount": 118,
+              "serializedConvertedBounds": {
+                "lower": [
+                  0.90767926,
+                  0.563331306,
+                  4.161345959
+                ],
+                "upper": [
+                  1.072610736,
+                  0.754075289,
+                  4.307952881
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  0.907679498,
+                  0.563331246,
+                  4.161345482
+                ],
+                "upper": [
+                  1.072610974,
+                  0.754075229,
+                  4.307952404
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_reflex_11_src00_opaque_xmaterial_885a29a232599e0",
+              "serializedPositionCount": 518,
+              "serializedConvertedBounds": {
+                "lower": [
+                  0.895155251,
+                  -0.606192946,
+                  4.232785225
+                ],
+                "upper": [
+                  3.307458639,
+                  0.591125607,
+                  4.8502388
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  0.895155549,
+                  -0.606192887,
+                  4.232784748
+                ],
+                "upper": [
+                  3.307458639,
+                  0.591125548,
+                  4.850238323
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            }
+          ],
+          "maximumBoundsResidual": 4.76837e-07,
+          "passed": true
+        },
+        "failures": [],
+        "passed": true
+      }
+    },
+    {
+      "kind": "acog",
+      "targetTag": "tag_acog",
+      "source": "xi_ftag/.asset_staging/t8_pack/active_optics/compact_scope/compact_scope-view.glb",
+      "sourceSha256": "E183C5C4AFF3BC7EC6DD1136126602C59ABDEC6579AD7966B959F658251B821B",
+      "fixedScaleEvidence": {
+        "method": "accepted-template/source lowest evidence-bearing attachment contact-to-optical height ratio; no camera input",
+        "cameraOrViewportUsed": false,
+        "sourceHeight": 3.397053003,
+        "referenceHeight": 1.271852016,
+        "sourceMountHeight": 2.811558723,
+        "referenceMountHeight": 1.207645655,
+        "uniformScale": 0.374398638,
+        "sealedCalibration": {
+          "sourceSha256": "E183C5C4AFF3BC7EC6DD1136126602C59ABDEC6579AD7966B959F658251B821B",
+          "templateSha256": "B2491A22FAB1B313F4815DFFC48F9426C3A60DF5029D5E86B85E175126E85632",
+          "expected": {
+            "sourceSha256": "E183C5C4AFF3BC7EC6DD1136126602C59ABDEC6579AD7966B959F658251B821B",
+            "templateSha256": "B2491A22FAB1B313F4815DFFC48F9426C3A60DF5029D5E86B85E175126E85632",
+            "sourceContactToOpticalHeight": 3.397053003,
+            "templateContactToOpticalHeight": 1.271852016,
+            "uniformScale": 0.374398638,
+            "correctTransform": [
+              [
+                0.374398649,
+                0.0,
+                0.0,
+                2.27504468
+              ],
+              [
+                0.0,
+                0.374398649,
+                0.0,
+                0.837326944
+              ],
+              [
+                0.0,
+                0.0,
+                0.374398649,
+                3.815890789
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "absoluteResiduals": {
+            "sourceHeight": 3.11e-10,
+            "templateHeight": 4.49e-10,
+            "uniformScale": 3.55e-10
+          },
+          "tolerance": 1e-06,
+          "acceptedTransformMaximumResidual": 0.0,
+          "pass": true
+        },
+        "sourceContact": {
+          "coordinate": -0.194082829,
+          "area": 7.065263999,
+          "triangles": 10,
+          "center": [
+            -1.237948179,
+            0.017923454,
+            -0.194082826
+          ],
+          "normal": [
+            0.0,
+            2e-08,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -3.68630147,
+              -0.00020434,
+              -1.392952561
+            ],
+            "upper": [
+              5.686966896,
+              0.000197068,
+              1.415588975
+            ]
+          }
+        },
+        "referenceAttachmentContact": {
+          "coordinate": 3.743226767,
+          "area": 0.284204712,
+          "triangles": 17,
+          "center": [
+            1.811558485,
+            0.844037473,
+            3.743226528
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -0.431265473,
+              2.38e-07,
+              -0.204658329
+            ],
+            "upper": [
+              0.372061491,
+              2.38e-07,
+              0.293035626
+            ]
+          }
+        },
+        "sourceMountContact": {
+          "coordinate": 0.391411424,
+          "area": 12.132681704,
+          "triangles": 2,
+          "center": [
+            -0.237614349,
+            0.000885196,
+            0.391411453
+          ],
+          "normal": [
+            0.0,
+            4.6e-08,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -4.686635494,
+              -6e-08,
+              -0.647195816
+            ],
+            "upper": [
+              4.686635017,
+              0.0,
+              0.647195816
+            ]
+          }
+        },
+        "referenceMountContact": {
+          "coordinate": 3.80743289,
+          "area": 2.207908901,
+          "triangles": 2,
+          "center": [
+            3.116174459,
+            -1.21e-07,
+            3.80743289
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -1.102149487,
+              -2.38e-07,
+              -0.500818968
+            ],
+            "upper": [
+              1.102148771,
+              -2.38e-07,
+              0.500818968
+            ]
+          }
+        },
+        "scaleCalibrationContacts": {
+          "selection": "lowest evidence-bearing downward plane",
+          "source": {
+            "coordinate": -0.194082829,
+            "area": 7.065263999,
+            "triangles": 10,
+            "center": [
+              -1.237948179,
+              0.017923454,
+              -0.194082826
+            ],
+            "normal": [
+              0.0,
+              2e-08,
+              -1.0
+            ],
+            "interfaceBounds": {
+              "lower": [
+                -3.68630147,
+                -0.00020434,
+                -1.392952561
+              ],
+              "upper": [
+                5.686966896,
+                0.000197068,
+                1.415588975
+              ]
+            }
+          },
+          "acceptedTemplate": {
+            "coordinate": 3.743226767,
+            "area": 0.284204712,
+            "triangles": 17,
+            "center": [
+              1.811558485,
+              0.844037473,
+              3.743226528
+            ],
+            "normal": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "interfaceBounds": {
+              "lower": [
+                -0.431265473,
+                2.38e-07,
+                -0.204658329
+              ],
+              "upper": [
+                0.372061491,
+                2.38e-07,
+                0.293035626
+              ]
+            }
+          }
+        },
+        "mountInterfaceSelection": "diagnostic only; cannot alter accepted transform",
+        "referenceHostRail": {
+          "coordinate": 3.960135937,
+          "area": 0.981934286,
+          "triangles": 12,
+          "center": [
+            3.018652916,
+            -6.54e-07,
+            3.960135937
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -1.310670495,
+              -2.38e-07,
+              -0.370910466
+            ],
+            "upper": [
+              1.115630388,
+              -2.38e-07,
+              0.370910466
+            ]
+          },
+          "quality": {
+            "triangleCount": 12.0,
+            "area": 0.981934286,
+            "normalSpreadDeg": 0.0,
+            "planeResidualRms": 2.38e-07,
+            "planeResidualMaximum": 2.38e-07
+          },
+          "candidateCount": 1,
+          "rejectedCount": 4
+        },
+        "sourceOpticalCenter": [
+          -8.599903107,
+          -0.00083071,
+          3.202970266
+        ],
+        "referenceOpticalCenter": [
+          2.532016993,
+          -1.79e-07,
+          5.015078545
+        ]
+      },
+      "railContact": {
+        "selection": "accepted template target physical interface",
+        "hostPlacementHeuristicUsed": false,
+        "acceptedTargetContact": {
+          "coordinate": 3.743226767,
+          "area": 0.284204712,
+          "triangles": 17,
+          "center": [
+            1.811558485,
+            0.844037473,
+            3.743226528
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -0.431265473,
+              2.38e-07,
+              -0.204658329
+            ],
+            "upper": [
+              0.372061491,
+              2.38e-07,
+              0.293035626
+            ]
+          }
+        },
+        "currentSocketDeltaFromAccepted": [
+          [
+            1.0,
+            -0.0,
+            0.0,
+            -5e-09
+          ],
+          [
+            -0.0,
+            1.0,
+            0.0,
+            -1e-09
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3e-09
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "targetInterface": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.811558485
+        ],
+        [
+          -0.0,
+          0.0,
+          -1.0,
+          0.844037473
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          3.743226528
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "opticalCenter": [
+        -0.944747448,
+        0.837015927,
+        5.015078545
+      ],
+      "expectedAttachmentBounds": {
+        "lower": [
+          -1.347811222,
+          -0.002279162,
+          3.743149996
+        ],
+        "upper": [
+          4.219201565,
+          2.02071619,
+          6.07153511
+        ]
+      },
+      "hostMeshNames": [
+        "t8_mtz556_j_gun"
+      ],
+      "opticalMeshNames": [
+        "round2_tag_acog_01_src00_glass_xmaterial_de20cbe8b1fc7ad"
+      ],
+      "acceptedTransformResidual": 0.0,
+      "transformContract": {
+        "composition": "targetWorldBasis @ interfaceAdjustment @ inverse(sourceWorldBasis)",
+        "sourceWorldBasis": [
+          [
+            1.0,
+            0.0,
+            3.4e-08,
+            0.0
+          ],
+          [
+            -3.4e-08,
+            3.4e-08,
+            1.0,
+            0.0
+          ],
+          [
+            -0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "targetWorldBasis": [
+          [
+            0.0,
+            1.0,
+            -1.19e-07,
+            2.889560223
+          ],
+          [
+            -7.5e-08,
+            1.19e-07,
+            1.0,
+            -0.044476654
+          ],
+          [
+            1.0,
+            0.0,
+            7.5e-08,
+            4.938028812
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "interfaceAdjustment": [
+          [
+            0.0,
+            -0.374398649,
+            -2.8e-08,
+            -1.122138023
+          ],
+          [
+            0.374398649,
+            0.0,
+            5.7e-08,
+            -0.614515483
+          ],
+          [
+            -5.7e-08,
+            -1.5e-08,
+            0.374398649,
+            0.881803572
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "composedWorldTransform": [
+          [
+            0.374398649,
+            0.0,
+            -0.0,
+            2.27504468
+          ],
+          [
+            -0.0,
+            0.374398649,
+            0.0,
+            0.837326944
+          ],
+          [
+            0.0,
+            -0.0,
+            0.374398649,
+            3.815890789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "uniformScale": 0.374398638,
+        "linearColumnLengths": [
+          0.374398643,
+          0.374398643,
+          0.374398643
+        ],
+        "determinant": 0.052481085,
+        "mappedAxisErrorsDeg": [
+          0.019782341,
+          0.019782341,
+          0.019782341
+        ],
+        "mappedContactResidual": 0.0
+      },
+      "meshNames": [
+        "round2_tag_acog_00_src00_cutout_mtl_attach_t8_optic_hybrid_deca",
+        "round2_tag_acog_01_src00_glass_xmaterial_de20cbe8b1fc7ad",
+        "round2_tag_acog_02_src00_opaque_mtl_attach_t8_optic_hybrid_body",
+        "round2_tag_acog_03_src00_opaque_mtl_attach_t8_optic_hybrid_fram",
+        "round2_tag_acog_04_src00_opaque_mtl_attach_t8_optic_hybrid_piec",
+        "round2_tag_acog_05_src00_opaque_mtl_attach_t8_optic_hybrid_scop"
+      ],
+      "postExportReparse": {
+        "method": "factory-reset import of the exact exported GLB, final-mesh contact/optical measurement, and raw GLB accessor parse",
+        "exactGlbSha256": "86A6086FBE90B57B51BBCA9B562B4666E928C180498CD26165E8AF94113F649B",
+        "opticContact": {
+          "coordinate": 3.743225469,
+          "area": 0.990368258,
+          "triangles": 10,
+          "center": [
+            1.811558604,
+            0.844037235,
+            3.743225336
+          ],
+          "normal": [
+            5.21e-07,
+            0.0,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -1.380145669,
+              -7.7724e-05,
+              -0.521518886
+            ],
+            "upper": [
+              2.129192352,
+              7.3671e-05,
+              0.529994726
+            ]
+          }
+        },
+        "targetRailContact": {
+          "coordinate": 3.743226767,
+          "area": 0.284204712,
+          "triangles": 17,
+          "center": [
+            1.811558485,
+            0.844037473,
+            3.743226528
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -0.431265473,
+              2.38e-07,
+              -0.204658329
+            ],
+            "upper": [
+              0.372061491,
+              2.38e-07,
+              0.293035626
+            ]
+          }
+        },
+        "measured": {
+          "signedRailGap": -1.192093e-06,
+          "acceptedContactResidual": 1.221532e-06,
+          "contactNormalErrorDeg": 0.0,
+          "opticalCenter": [
+            -0.944746017,
+            0.837015569,
+            5.01507616
+          ],
+          "opticalCenterResidualFromPreExport": 2.80332e-06,
+          "contactToOpticalHeight": 1.271850824,
+          "uniformScale": 0.374398287,
+          "expectedUniformScale": 0.374398638,
+          "uniformScaleResidual": 3.5124e-07,
+          "acceptedTransformBoundsResidual": 2.384186e-06
+        },
+        "hostIntersectionDiagnostic": {
+          "triangleOverlapPairs": 198,
+          "interfaceContactPairs": 0,
+          "nonContactIntersectionPairs": 198,
+          "nonContactExamples": [
+            {
+              "hostCenter": [
+                -0.417447448,
+                0.462788045,
+                4.503228188
+              ],
+              "attachmentCenter": [
+                0.16979599,
+                0.554800987,
+                4.41026783
+              ],
+              "hostPlaneDistance": 0.888195992,
+              "attachmentPlaneDistance": 0.689918518
+            },
+            {
+              "hostCenter": [
+                -0.417447448,
+                0.462788045,
+                4.503228188
+              ],
+              "attachmentCenter": [
+                0.169742346,
+                0.461635441,
+                4.463149071
+              ],
+              "hostPlaneDistance": 0.888195992,
+              "attachmentPlaneDistance": 0.781284809
+            },
+            {
+              "hostCenter": [
+                -0.417447448,
+                0.462788045,
+                4.503228188
+              ],
+              "attachmentCenter": [
+                -0.257822454,
+                0.414423555,
+                4.499321461
+              ],
+              "hostPlaneDistance": 0.888195992,
+              "attachmentPlaneDistance": 0.798436642
+            },
+            {
+              "hostCenter": [
+                -0.405919909,
+                0.509340048,
+                4.463527679
+              ],
+              "attachmentCenter": [
+                0.16979599,
+                0.554800987,
+                4.41026783
+              ],
+              "hostPlaneDistance": 0.775337219,
+              "attachmentPlaneDistance": 0.689918518
+            },
+            {
+              "hostCenter": [
+                -0.464107037,
+                0.50933969,
+                4.463953972
+              ],
+              "attachmentCenter": [
+                0.16979599,
+                0.554800987,
+                4.41026783
+              ],
+              "hostPlaneDistance": 0.775337219,
+              "attachmentPlaneDistance": 0.689918518
+            },
+            {
+              "hostCenter": [
+                -0.578044176,
+                0.462821484,
+                4.458919048
+              ],
+              "attachmentCenter": [
+                0.16979599,
+                0.554800987,
+                4.41026783
+              ],
+              "hostPlaneDistance": 0.770523071,
+              "attachmentPlaneDistance": 0.689918518
+            },
+            {
+              "hostCenter": [
+                -0.578044176,
+                0.462821484,
+                4.458919048
+              ],
+              "attachmentCenter": [
+                0.169742346,
+                0.461635441,
+                4.463149071
+              ],
+              "hostPlaneDistance": 0.770523071,
+              "attachmentPlaneDistance": 0.781284809
+            },
+            {
+              "hostCenter": [
+                -0.578044176,
+                0.462821484,
+                4.458919048
+              ],
+              "attachmentCenter": [
+                -0.257822454,
+                0.414423555,
+                4.499321461
+              ],
+              "hostPlaneDistance": 0.770523071,
+              "attachmentPlaneDistance": 0.798436642
+            }
+          ],
+          "passed": false,
+          "acceptanceAuthority": "fixed-camera and independent critic; diagnostic cannot move the accepted template transform"
+        },
+        "serializedCoordinateBasis": {
+          "serializedGlbModel": "+X forward, +Y up, +Z right",
+          "blenderInternal": "+X forward, +Z up, -Y right",
+          "blenderToGlbModel": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          ],
+          "verificationMethod": "raw GLB POSITION accessors mapped back to Blender and compared with the same exact GLB reimport",
+          "meshes": [
+            {
+              "mesh": "round2_tag_acog_00_src00_cutout_mtl_attach_t8_optic_hybrid_deca",
+              "serializedPositionCount": 86,
+              "serializedConvertedBounds": {
+                "lower": [
+                  -0.035242319,
+                  0.141574383,
+                  4.795673847
+                ],
+                "upper": [
+                  4.118015289,
+                  1.992653608,
+                  6.071533203
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  -0.0352422,
+                  0.141574368,
+                  4.79567337
+                ],
+                "upper": [
+                  4.118015289,
+                  1.992653489,
+                  6.071532726
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_acog_01_src00_glass_xmaterial_de20cbe8b1fc7ad",
+              "serializedPositionCount": 41,
+              "serializedConvertedBounds": {
+                "lower": [
+                  -0.994906664,
+                  0.277677536,
+                  4.455738544
+                ],
+                "upper": [
+                  -0.894585788,
+                  1.396353722,
+                  5.57441473
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  -0.994906485,
+                  0.277677506,
+                  4.455738068
+                ],
+                "upper": [
+                  -0.89458555,
+                  1.396353602,
+                  5.574414253
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_acog_02_src00_opaque_mtl_attach_t8_optic_hybrid_body",
+              "serializedPositionCount": 2193,
+              "serializedConvertedBounds": {
+                "lower": [
+                  -1.118996859,
+                  0.101031274,
+                  4.325036049
+                ],
+                "upper": [
+                  4.219200611,
+                  2.020715237,
+                  5.755394459
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  -1.118996739,
+                  0.101031266,
+                  4.325035572
+                ],
+                "upper": [
+                  4.219200611,
+                  2.020714998,
+                  5.755393982
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_acog_03_src00_opaque_mtl_attach_t8_optic_hybrid_fram",
+              "serializedPositionCount": 2582,
+              "serializedConvertedBounds": {
+                "lower": [
+                  -0.649356067,
+                  -0.002279162,
+                  3.776901007
+                ],
+                "upper": [
+                  3.932709932,
+                  1.752452135,
+                  6.069033623
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  -0.649355829,
+                  -0.00227916,
+                  3.776900768
+                ],
+                "upper": [
+                  3.932709694,
+                  1.752452016,
+                  6.069033146
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_acog_04_src00_opaque_mtl_attach_t8_optic_hybrid_piec",
+              "serializedPositionCount": 263,
+              "serializedConvertedBounds": {
+                "lower": [
+                  0.431412846,
+                  0.302110195,
+                  3.743149042
+                ],
+                "upper": [
+                  3.941740274,
+                  1.733617783,
+                  4.303195
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  0.431412846,
+                  0.302110165,
+                  3.743148804
+                ],
+                "upper": [
+                  3.941740036,
+                  1.733617663,
+                  4.303194523
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            },
+            {
+              "mesh": "round2_tag_acog_05_src00_opaque_mtl_attach_t8_optic_hybrid_scop",
+              "serializedPositionCount": 522,
+              "serializedConvertedBounds": {
+                "lower": [
+                  -1.347810149,
+                  0.145862341,
+                  4.321091175
+                ],
+                "upper": [
+                  -1.061128497,
+                  1.528790951,
+                  5.709327698
+                ]
+              },
+              "exactReimportBounds": {
+                "lower": [
+                  -1.347809911,
+                  0.145862326,
+                  4.321090698
+                ],
+                "upper": [
+                  -1.061128378,
+                  1.528790832,
+                  5.709327221
+                ]
+              },
+              "maximumBoundsResidual": 4.76837e-07
+            }
+          ],
+          "maximumBoundsResidual": 4.76837e-07,
+          "passed": true
+        },
+        "failures": [],
+        "passed": true
+      }
+    }
+  ],
+  "suppressor": {
+    "kind": "suppressor",
+    "targetTag": "tag_silencer",
+    "source": "mw2_ftag/model_export/viewmodel_ow2_hk416_lod0.glb",
+    "sourceSha256": "B2491A22FAB1B313F4815DFFC48F9426C3A60DF5029D5E86B85E175126E85632",
+    "fixedScaleEvidence": {
+      "method": "accepted stock-template suppressor retained at native CoD model scale",
+      "cameraOrViewportUsed": false,
+      "uniformScale": 1.0
+    },
+    "acceptedTemplateOrientation": {
+      "method": "robust rear/front axial cap centers plus accepted tag-frame roll; no PCA or target singleton normal",
+      "sourceSocketWorldBasis": [
+        [
+          0.0,
+          1.0,
+          -1.19e-07,
+          29.574977875
+        ],
+        [
+          -7.5e-08,
+          1.19e-07,
+          1.0,
+          -0.044473469
+        ],
+        [
+          1.0,
+          0.0,
+          7.5e-08,
+          2.364643812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "tagUpColumn": 0,
+      "cylinderAxis": [
+        1.0,
+        -1.9e-08,
+        -2.3e-08
+      ],
+      "tagFrameUp": [
+        2.3e-08,
+        -7.5e-08,
+        1.0
+      ],
+      "rearCap": {
+        "coordinate": 20.443021774,
+        "area": 2.32960583,
+        "triangles": 28,
+        "center": [
+          20.443023682,
+          -4.3e-08,
+          2.4535532
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "interfaceBounds": {
+          "lower": [
+            -1.993e-06,
+            -0.962343335,
+            -0.961829901
+          ],
+          "upper": [
+            -1.936e-06,
+            0.962343454,
+            0.961830974
+          ]
+        },
+        "quality": {
+          "triangleCount": 28.0,
+          "area": 2.32960583,
+          "normalSpreadDeg": 0.0,
+          "planeResidualRms": 1.907e-06,
+          "planeResidualMaximum": 1.907e-06
+        },
+        "radialCoverage": {
+          "upSpan": 1.92468679,
+          "rightSpan": 1.923660874,
+          "minimumRadius": 0.421792507,
+          "maximumRadius": 0.985380755,
+          "quadrantsCovered": 4.0
+        }
+      },
+      "frontCap": {
+        "coordinate": 30.636099543,
+        "area": 3.341813455,
+        "triangles": 14,
+        "center": [
+          30.636096954,
+          -2.36e-07,
+          2.453552961
+        ],
+        "normal": [
+          1.0,
+          -2.01e-07,
+          -6.38e-07
+        ],
+        "interfaceBounds": {
+          "lower": [
+            10.19307518,
+            -1.035994053,
+            -1.035441995
+          ],
+          "upper": [
+            10.193077087,
+            1.035995722,
+            1.03544271
+          ]
+        },
+        "quality": {
+          "triangleCount": 14.0,
+          "area": 3.341813455,
+          "normalSpreadDeg": 7.383e-05,
+          "planeResidualRms": 2.244e-06,
+          "planeResidualMaximum": 3.312e-06
+        },
+        "radialCoverage": {
+          "upSpan": 2.071989775,
+          "rightSpan": 2.070884705,
+          "minimumRadius": 2.82e-07,
+          "maximumRadius": 1.060794894,
+          "quadrantsCovered": 4.0
+        }
+      },
+      "templateSightLine": {
+        "method": "rear-front-geometry-p12-p88",
+        "rear": [
+          -0.247874007,
+          0.286976814,
+          4.718307495
+        ],
+        "front": [
+          12.454422951,
+          0.278942794,
+          5.001007557
+        ],
+        "direction": [
+          0.999752283,
+          -0.000632329,
+          0.022250308
+        ],
+        "pointCount": 1216
+      },
+      "cylinderToSightLineDeg": 1.275336716,
+      "selfValidation": {
+        "rearNormalErrorDeg": 0.0,
+        "frontNormalErrorDeg": 0.0,
+        "passed": true
+      }
+    },
+    "nativeBarrelReference": {
+      "method": "source tag_flash origin through sealed rig profile and rigid body alignment; accepted template suppressor/tag orientation retained",
+      "sourceReference": "xi_ftag/.asset_staging/t8_pack/mtz556/view/mtz556-view-reference.glb",
+      "sourceReferenceSha256": "121B470669A39252884774FE985F59FA70A90DB86CD903AAFAD087A59F51F054",
+      "profile": "xi_ftag/.asset_staging/t8_pack/rig_profiles/mtz556/mtz556-view-rig-profile.json",
+      "profileSha256": "7A75C155AD908C43BB64BBBB76D7767A178912BA10BD0446961D0F136681B52C",
+      "rawTagFlashWorldBasis": [
+        [
+          0.0,
+          1.0,
+          -1.19e-07,
+          61.21471405
+        ],
+        [
+          -7.5e-08,
+          1.19e-07,
+          1.0,
+          7.297e-06
+        ],
+        [
+          1.0,
+          -0.0,
+          7.5e-08,
+          8.443120003
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "profileMatrix": [
+        [
+          0.474742055,
+          0.0,
+          0.0,
+          0.199838176
+        ],
+        [
+          0.0,
+          0.474742055,
+          0.0,
+          -0.857256234
+        ],
+        [
+          0.0,
+          0.0,
+          0.474742055,
+          -1.87706995
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bodyAlignmentMatrix": [
+        [
+          1.0,
+          -0.0,
+          1.46e-07,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.857255876
+        ],
+        [
+          -1.46e-07,
+          -0.0,
+          1.0,
+          0.076785803
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "frame": [
+        [
+          1.0,
+          2.3e-08,
+          -1.9e-08,
+          29.261037827
+        ],
+        [
+          -1.9e-08,
+          -7.5e-08,
+          -1.0,
+          3.107e-06
+        ],
+        [
+          -2.3e-08,
+          1.0,
+          -7.5e-08,
+          2.20801568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "currentWeaponBore": {
+      "method": "linear fit through coherent axis-centered annular planes; frontmost viable annulus anchors the bore while the independent mouth rim sets longitudinal contact",
+      "coherentPatches": [
+        {
+          "coordinate": 22.19961834,
+          "area": 0.913358663,
+          "triangles": 50,
+          "center": [
+            22.199615479,
+            -5.63e-07,
+            2.20254159
+          ],
+          "normal": [
+            0.99999994,
+            0.0,
+            1.27e-07
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -0.000108763,
+              -0.782717943,
+              -1.040880322
+            ],
+            "upper": [
+              0.001565874,
+              0.924328446,
+              1.040880084
+            ]
+          },
+          "quality": {
+            "triangleCount": 50.0,
+            "area": 0.913358663,
+            "normalSpreadDeg": 0.000122415,
+            "planeResidualRms": 0.0007056,
+            "planeResidualMaximum": 0.001566022
+          },
+          "radialCoverage": {
+            "upSpan": 1.70704639,
+            "rightSpan": 2.081760406,
+            "minimumRadius": 0.615324612,
+            "maximumRadius": 1.129884033,
+            "quadrantsCovered": 4.0
+          },
+          "axisOffset": 0.005474257,
+          "normalToAxisDeg": 4.436e-06
+        },
+        {
+          "coordinate": 23.678502985,
+          "area": 0.424432679,
+          "triangles": 31,
+          "center": [
+            23.678503036,
+            0.000266829,
+            2.217170238
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -6.9e-08,
+              -0.57097584,
+              -0.568201721
+            ],
+            "upper": [
+              -3.5e-08,
+              0.525935054,
+              0.568736315
+            ]
+          },
+          "quality": {
+            "triangleCount": 31.0,
+            "area": 0.424432679,
+            "normalSpreadDeg": 0.0,
+            "planeResidualRms": 0.0,
+            "planeResidualMaximum": 0.0
+          },
+          "radialCoverage": {
+            "upSpan": 1.096910894,
+            "rightSpan": 1.136938035,
+            "minimumRadius": 0.388173087,
+            "maximumRadius": 0.572818074,
+            "quadrantsCovered": 4.0
+          },
+          "axisOffset": 0.009158223,
+          "normalToAxisDeg": 0.0
+        },
+        {
+          "coordinate": 26.678165384,
+          "area": 0.815441649,
+          "triangles": 38,
+          "center": [
+            26.678167343,
+            0.001350829,
+            2.208014011
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "interfaceBounds": {
+            "lower": [
+              -3.884e-06,
+              -0.592850089,
+              -0.585464656
+            ],
+            "upper": [
+              -3.849e-06,
+              0.592850566,
+              0.588167071
+            ]
+          },
+          "quality": {
+            "triangleCount": 38.0,
+            "area": 0.815441649,
+            "normalSpreadDeg": 0.0,
+            "planeResidualRms": 3.815e-06,
+            "planeResidualMaximum": 3.815e-06
+          },
+          "radialCoverage": {
+            "upSpan": 1.185700655,
+            "rightSpan": 1.173631728,
+            "minimumRadius": 0.29367435,
+            "maximumRadius": 0.594187877,
+            "quadrantsCovered": 4.0
+          },
+          "axisOffset": 0.001347674,
+          "normalToAxisDeg": 0.0
+        }
+      ],
+      "centerline": {
+        "axis": [
+          0.999999762,
+          0.000310454,
+          0.000597808
+        ],
+        "origin": [
+          24.185428619,
+          0.000539032,
+          2.209241867
+        ],
+        "patchCount": 3,
+        "longitudinalSpan": 4.478551864,
+        "planeCenterResidualRms": 0.005931811,
+        "planeCenterResidualMaximum": 0.008232215,
+        "acceptedTemplateAxisErrorDeg": 0.039566331
+      },
+      "frontmostAnnularShoulder": {
+        "coordinate": 26.678165384,
+        "area": 0.815441649,
+        "triangles": 38,
+        "center": [
+          26.678167343,
+          0.001350829,
+          2.208014011
+        ],
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "interfaceBounds": {
+          "lower": [
+            -3.884e-06,
+            -0.592850089,
+            -0.585464656
+          ],
+          "upper": [
+            -3.849e-06,
+            0.592850566,
+            0.588167071
+          ]
+        },
+        "quality": {
+          "triangleCount": 38.0,
+          "area": 0.815441649,
+          "normalSpreadDeg": 0.0,
+          "planeResidualRms": 3.815e-06,
+          "planeResidualMaximum": 3.815e-06
+        },
+        "radialCoverage": {
+          "upSpan": 1.185700655,
+          "rightSpan": 1.173631728,
+          "minimumRadius": 0.29367435,
+          "maximumRadius": 0.594187877,
+          "quadrantsCovered": 4.0
+        },
+        "axisOffset": 0.001347674,
+        "normalToAxisDeg": 0.0
+      }
+    },
+    "sourceRearContact": {
+      "coordinate": 20.443021774,
+      "area": 2.32960583,
+      "triangles": 28,
+      "center": [
+        20.443023682,
+        -4.3e-08,
+        2.4535532
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "interfaceBounds": {
+        "lower": [
+          -1.993e-06,
+          -0.962343335,
+          -0.961829901
+        ],
+        "upper": [
+          -1.936e-06,
+          0.962343454,
+          0.961830974
+        ]
+      },
+      "quality": {
+        "triangleCount": 28.0,
+        "area": 2.32960583,
+        "normalSpreadDeg": 0.0,
+        "planeResidualRms": 1.907e-06,
+        "planeResidualMaximum": 1.907e-06
+      },
+      "radialCoverage": {
+        "upSpan": 1.92468679,
+        "rightSpan": 1.923660874,
+        "minimumRadius": 0.421792507,
+        "maximumRadius": 0.985380755,
+        "quadrantsCovered": 4.0
+      }
+    },
+    "targetMuzzleContact": {
+      "method": "robust coplanar front-rim vertex cluster with multi-triangle surface support; orientation excluded from this measurement",
+      "coordinate": 29.47813308,
+      "center": [
+        29.478132248,
+        0.002182172,
+        2.21240592
+      ],
+      "rimPointCount": 13,
+      "supportTriangles": 6,
+      "supportArea": 0.244646418,
+      "planeResidualRms": 0.000213464,
+      "planeResidualMaximum": 0.000546386,
+      "radialCoverage": {
+        "minimumRadius": 0.570341123,
+        "maximumRadius": 0.685961465,
+        "radialSpan": 0.115620342,
+        "quadrantsCovered": 4,
+        "angularSectorsCoveredOf12": 8
+      },
+      "orientationSource": "accepted template suppressor geometry/tag frame"
+    },
+    "targetInterface": [
+      [
+        1.0,
+        2.3e-08,
+        -1.9e-08,
+        29.431985855
+      ],
+      [
+        -1.9e-08,
+        -7.5e-08,
+        -1.0,
+        0.002182173
+      ],
+      [
+        -2.3e-08,
+        1.0,
+        -7.5e-08,
+        2.21240592
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "preExportMeasured": {
+      "signedGap": -0.046148300171,
+      "acceptedSignedAxialContactOffset": -0.046146102,
+      "signedAxialContactOffsetDelta": 2.198171e-06,
+      "lateralContactResidual": 2.308e-09,
+      "radialContactOverlap": 0.115620342,
+      "finalCylinderAxis": [
+        1.0,
+        -1.9e-08,
+        -2.3e-08
+      ],
+      "suppressorCylinderToWeaponBoreAxisErrorDeg": 0.039566331,
+      "candidateOrientationDeltaFromAcceptedTemplateDeg": 0.0,
+      "candidateCylinderToSightLineDeg": 1.275490146,
+      "candidateSightAngleDeltaFromAcceptedTemplateDeg": 0.00015343,
+      "gateDegrees": 0.25,
+      "passed": true
+    },
+    "transformContract": {
+      "composition": "targetWorldBasis @ interfaceAdjustment @ inverse(sourceWorldBasis)",
+      "sourceWorldBasis": [
+        [
+          0.0,
+          1.0,
+          -1.19e-07,
+          29.574977875
+        ],
+        [
+          -7.5e-08,
+          1.19e-07,
+          1.0,
+          -0.044473469
+        ],
+        [
+          1.0,
+          0.0,
+          7.5e-08,
+          2.364643812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "targetWorldBasis": [
+        [
+          0.0,
+          1.0,
+          -1.19e-07,
+          29.574977875
+        ],
+        [
+          -7.5e-08,
+          1.19e-07,
+          1.0,
+          -0.044473469
+        ],
+        [
+          1.0,
+          0.0,
+          7.5e-08,
+          2.364643812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "interfaceAdjustment": [
+        [
+          1.0,
+          -0.0,
+          -0.0,
+          -0.24114728
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          8.988962173
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0,
+          0.002181126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "composedWorldTransform": [
+        [
+          1.0,
+          -0.0,
+          -0.0,
+          8.988960266
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          0.002182214
+        ],
+        [
+          -0.0,
+          -0.0,
+          1.0,
+          -0.24114728
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "uniformScale": 1.0,
+      "linearColumnLengths": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "determinant": 1.0,
+      "mappedAxisErrorsDeg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mappedContactResidual": 1.90735e-06
+    },
+    "hostMeshNames": [
+      "t8_mtz556_j_gun"
+    ],
+    "sightMeshName": null,
+    "meshNames": [
+      "round2_tag_silencer_00_suppressor"
+    ],
+    "postExportReparse": {
+      "method": "factory-reset import of the exact exported GLB plus raw GLB accessor parse",
+      "exactGlbSha256": "86A6086FBE90B57B51BBCA9B562B4666E928C180498CD26165E8AF94113F649B",
+      "targetMuzzleContact": {
+        "method": "robust coplanar front-rim vertex cluster with multi-triangle surface support; orientation excluded from this measurement",
+        "coordinate": 29.478123544,
+        "center": [
+          29.478122711,
+          0.002182186,
+          2.212411404
+        ],
+        "rimPointCount": 13,
+        "supportTriangles": 6,
+        "supportArea": 0.244646314,
+        "planeResidualRms": 0.000213464,
+        "planeResidualMaximum": 0.000546386,
+        "radialCoverage": {
+          "minimumRadius": 0.570340437,
+          "maximumRadius": 0.685961606,
+          "radialSpan": 0.115621169,
+          "quadrantsCovered": 4,
+          "angularSectorsCoveredOf12": 8
+        },
+        "orientationSource": "accepted template suppressor geometry/tag frame"
+      },
+      "suppressorRearContact": {
+        "coordinate": 29.431972453,
+        "area": 2.329604368,
+        "triangles": 28,
+        "center": [
+          29.431970596,
+          0.002182161,
+          2.212411165
+        ],
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "interfaceBounds": {
+          "lower": [
+            2.17e-06,
+            -0.962343454,
+            -0.961829603
+          ],
+          "upper": [
+            2.576e-06,
+            0.962342739,
+            0.961830676
+          ]
+        },
+        "quality": {
+          "triangleCount": 28.0,
+          "area": 2.329604368,
+          "normalSpreadDeg": 0.0,
+          "planeResidualRms": 1.907e-06,
+          "planeResidualMaximum": 1.907e-06
+        },
+        "radialCoverage": {
+          "upSpan": 1.924686193,
+          "rightSpan": 1.923660278,
+          "minimumRadius": 0.421791762,
+          "maximumRadius": 0.985380558,
+          "quadrantsCovered": 4.0
+        }
+      },
+      "suppressorFrontCap": {
+        "coordinate": 39.625041911,
+        "area": 3.341811886,
+        "triangles": 14,
+        "center": [
+          39.625041962,
+          0.002181975,
+          2.212413311
+        ],
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "interfaceBounds": {
+          "lower": [
+            2.48e-07,
+            -1.03599453,
+            -1.035441399
+          ],
+          "upper": [
+            6.84e-07,
+            1.035995245,
+            1.035442114
+          ]
+        },
+        "quality": {
+          "triangleCount": 14.0,
+          "area": 3.341811886,
+          "normalSpreadDeg": 0.0,
+          "planeResidualRms": 0.0,
+          "planeResidualMaximum": 0.0
+        },
+        "radialCoverage": {
+          "upSpan": 2.071989775,
+          "rightSpan": 2.070883512,
+          "minimumRadius": 7.71e-07,
+          "maximumRadius": 1.060794426,
+          "quadrantsCovered": 4.0
+        }
+      },
+      "measured": {
+        "signedGap": -0.046152114868,
+        "acceptedSignedAxialContactOffset": -0.046146102,
+        "signedAxialContactOffsetDelta": 6.012868e-06,
+        "lateralContactResidual": 2.30123e-07,
+        "radialContactOverlap": 0.115621169,
+        "rimToRearCapDistanceRms": 0.046151582,
+        "rimToRearCapDistanceMaximum": 0.04624176,
+        "finalCylinderAxis": [
+          1.0,
+          -1.8e-08,
+          2.11e-07
+        ],
+        "weaponBoreAxis": [
+          0.999999762,
+          0.000310453,
+          0.000598082
+        ],
+        "suppressorCylinderToWeaponBoreAxisErrorDeg": 0.039554705,
+        "candidateOrientationDeltaFromAcceptedTemplateDeg": 5.4e-06,
+        "candidateCylinderToSightLineDeg": 1.275476752,
+        "candidateSightAngleDeltaFromAcceptedTemplateDeg": 0.000140036,
+        "gateDegrees": 0.25
+      },
+      "meshIntersectionDiagnostic": {
+        "triangleOverlapPairs": 99,
+        "interfaceContactPairs": 0,
+        "nonContactIntersectionPairs": 99,
+        "nonContactExamples": [
+          {
+            "hostCenter": [
+              28.356384277,
+              -0.564921498,
+              2.533996582
+            ],
+            "suppressorCenter": [
+              29.431972504,
+              -0.508140326,
+              2.53136158
+            ],
+            "hostPlaneDistance": 2.692874814,
+            "suppressorPlaneDistance": 0.04615018
+          },
+          {
+            "hostCenter": [
+              29.224393845,
+              -0.539265752,
+              2.461596012
+            ],
+            "suppressorCenter": [
+              29.431972504,
+              -0.508140326,
+              2.53136158
+            ],
+            "hostPlaneDistance": 0.693330718,
+            "suppressorPlaneDistance": 0.04615018
+          },
+          {
+            "hostCenter": [
+              29.455535889,
+              -0.522309899,
+              2.489488363
+            ],
+            "suppressorCenter": [
+              29.431972504,
+              -0.508140326,
+              2.53136158
+            ],
+            "hostPlaneDistance": 0.088849974,
+            "suppressorPlaneDistance": 0.04615018
+          },
+          {
+            "hostCenter": [
+              29.455535889,
+              -0.522309899,
+              2.489488363
+            ],
+            "suppressorCenter": [
+              29.431972504,
+              -0.716059625,
+              2.515081406
+            ],
+            "hostPlaneDistance": 0.088849974,
+            "suppressorPlaneDistance": 0.04615018
+          },
+          {
+            "hostCenter": [
+              29.416210175,
+              -0.441786289,
+              2.567139387
+            ],
+            "suppressorCenter": [
+              29.431972504,
+              -0.508140326,
+              2.53136158
+            ],
+            "hostPlaneDistance": 0.217229769,
+            "suppressorPlaneDistance": 0.04615018
+          },
+          {
+            "hostCenter": [
+              29.416210175,
+              -0.441786289,
+              2.567139387
+            ],
+            "suppressorCenter": [
+              29.431972504,
+              -0.510302365,
+              2.78908968
+            ],
+            "hostPlaneDistance": 0.217229769,
+            "suppressorPlaneDistance": 0.046150146
+          },
+          {
+            "hostCenter": [
+              29.415960312,
+              0.441807628,
+              2.567101479
+            ],
+            "suppressorCenter": [
+              29.431972504,
+              0.514666557,
+              2.789089203
+            ],
+            "hostPlaneDistance": 0.217229781,
+            "suppressorPlaneDistance": 0.046150158
+          },
+          {
+            "hostCenter": [
+              29.415960312,
+              0.441807628,
+              2.567101479
+            ],
+            "suppressorCenter": [
+              29.431972504,
+              0.51250422,
+              2.531361341
+            ],
+            "hostPlaneDistance": 0.217229781,
+            "suppressorPlaneDistance": 0.046150195
+          }
+        ],
+        "passed": false,
+        "acceptedAxialEngagement": -0.046146102
+      },
+      "serializedCoordinateBasis": {
+        "serializedGlbModel": "+X forward, +Y up, +Z right",
+        "blenderInternal": "+X forward, +Z up, -Y right",
+        "blenderToGlbModel": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ],
+        "verificationMethod": "raw GLB POSITION accessors mapped back to Blender and compared with the same exact GLB reimport",
+        "meshes": [
+          {
+            "mesh": "t8_mtz556_j_gun",
+            "serializedPositionCount": 16409,
+            "serializedConvertedBounds": {
+              "lower": [
+                -11.998376846,
+                -1.366793394,
+                -11.743536949
+              ],
+              "upper": [
+                29.499118805,
+                2.401014328,
+                4.631422997
+              ]
+            },
+            "exactReimportBounds": {
+              "lower": [
+                -11.998375893,
+                -1.366793275,
+                -11.743535995
+              ],
+              "upper": [
+                29.499116898,
+                2.40101409,
+                4.63142252
+              ]
+            },
+            "maximumBoundsResidual": 1.907349e-06
+          },
+          {
+            "mesh": "round2_tag_silencer_00_suppressor",
+            "serializedPositionCount": 207,
+            "serializedConvertedBounds": {
+              "lower": [
+                29.431974411,
+                -1.167191267,
+                1.0232054
+              ],
+              "upper": [
+                39.625045776,
+                1.171555519,
+                3.401614428
+              ]
+            },
+            "exactReimportBounds": {
+              "lower": [
+                29.431972504,
+                -1.167191148,
+                1.023207188
+              ],
+              "upper": [
+                39.625041962,
+                1.1715554,
+                3.401616096
+              ]
+            },
+            "maximumBoundsResidual": 3.814697e-06
+          }
+        ],
+        "maximumBoundsResidual": 3.814697e-06,
+        "passed": true
+      },
+      "failures": [],
+      "passed": true
+    }
+  },
+  "stateCoverage": {
+    "familyStatesBuilt": 4,
+    "familyStatesRequired": 4,
+    "gauntletStatesBuilt": 4,
+    "gauntletStatesRequired": 37
+  },
+  "menuContract": {
+    "choicesRemoved": [],
+    "fallbacksAdded": [],
+    "weaponfilesModified": false,
+    "preimages": [
+      {
+        "index": 0,
+        "kind": "bare",
+        "weaponFile": "g36c_mp",
+        "path": "xi_ftag/zone_raw/xi_ftag/weapons/mp/g36c_mp",
+        "sha256": "773E5460720691A78B2A81B2789C6879BA3F47B585355BAC9014D6D33B5E7DFD",
+        "modified": false
+      },
+      {
+        "index": 1,
+        "kind": "reflex",
+        "weaponFile": "g36c_reflex_mp",
+        "path": "xi_ftag/zone_raw/xi_ftag/weapons/mp/g36c_reflex_mp",
+        "sha256": "9186014ED283DB3BB250C2FEC8D929E01C5027D28CBE7F0AEF3FFAB7AEE0B4D6",
+        "modified": false
+      },
+      {
+        "index": 2,
+        "kind": "acog",
+        "weaponFile": "g36c_acog_mp",
+        "path": "xi_ftag/zone_raw/xi_ftag/weapons/mp/g36c_acog_mp",
+        "sha256": "48F20962A499BA0FBA119A0FCF6AE674DEAA98AB95A4B98F402CAB8512766CD7",
+        "modified": false
+      },
+      {
+        "index": 3,
+        "kind": "suppressor",
+        "weaponFile": "g36c_silencer_mp",
+        "path": "xi_ftag/zone_raw/xi_ftag/weapons/mp/g36c_silencer_mp",
+        "sha256": "50BB0C541554D4E9A46CC6A61ADFB1B80ECEC915646C18C35438940BA9A49141",
+        "modified": false
+      }
+    ]
+  },
+  "runtimePoseInputs": [
+    {
+      "name": "viewmodel_mw2_m16_idle",
+      "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_idle",
+      "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697"
+    },
+    {
+      "name": "viewmodel_mw2_m16_ADS_up",
+      "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_ADS_up",
+      "sha256": "4079A7EC4B35F6C2CB0A513B90F28E6E4114248178019C78B915F42A47339462"
+    },
+    {
+      "name": "viewmodel_mw2_m16_ADS_fire",
+      "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_ADS_fire",
+      "sha256": "61475977E7487CE2416DD85D036E06C7A8E911277A22E6E0BE514CA0B45EE2F9"
+    },
+    {
+      "name": "viewmodel_ow2_m16a4_reflex_ads_up",
+      "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_ow2_m16a4_reflex_ads_up",
+      "sha256": "E1507E3D2AAF1D1BAD2869D49F1A3538AF834EE23A3DD3B382062A4B9B103069"
+    },
+    {
+      "name": "viewmodel_mw2_m16_reflex_ADS_fire",
+      "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_reflex_ADS_fire",
+      "sha256": "5C6B50E7F4F99949F43EA9E4441FC4A002F2F1EABB6BB35597370B916E7DF97C"
+    },
+    {
+      "name": "viewmodel_ow2_m16a4_acog_ads_up",
+      "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_ow2_m16a4_acog_ads_up",
+      "sha256": "473ECD0D9F4C14371EB61E64E87FA4FCCE8CEF8FD6EC1505D313CF6EF76DAEA5"
+    },
+    {
+      "name": "viewmodel_mw2_m16_acog_ADS_fire",
+      "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_acog_ADS_fire",
+      "sha256": "37757AB62320B2FFF5EA347BD50F4931C4CF5A5AB748A5D51E318C63733AAF32"
+    },
+    {
+      "name": "viewmodel_mw2_m16_reload",
+      "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_reload",
+      "sha256": "F7F9E0FA0E6FF024AFF15D09B1C76AD5CB7DC5F6C8B0FCC1E75E593B70A803F0"
+    },
+    {
+      "name": "viewmodel_mw2_m16_reload_empty",
+      "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_reload_empty",
+      "sha256": "FB3F810C6A4652A18658D4D700AE5504121E0283BCEE9EAEE17A54AC2671A11F"
+    }
+  ],
+  "output": "xi_ftag/.audit/weapon_alignment_builder_round2/candidates/family-01/viewmodel_t8_icr7_summon_round2_lod0.glb",
+  "outputSha256": "86A6086FBE90B57B51BBCA9B562B4666E928C180498CD26165E8AF94113F649B",
+  "outputBytes": 1788280,
+  "transaction": {
+    "verifiedBeforeCandidateReplacement": true,
+    "pendingArtifactRetained": false
+  },
+  "meshCount": 21,
+  "productionUntouched": true
+}

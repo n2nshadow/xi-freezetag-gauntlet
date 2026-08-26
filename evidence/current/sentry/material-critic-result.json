@@ -1,0 +1,169 @@
+{
+  "audit": "XI FreezeTag lethal sentry material critic Round 5",
+  "verdict": "PASS",
+  "scope": "offline material/UV/visual gate only",
+  "runtimeProofClaimed": false,
+  "oatProofClaimed": false,
+  "singleBiggestRemainingGap": "OAT/CoD4 material conversion and real in-game lighting were not exercised, so engine-specific runtime appearance remains unproven.",
+  "authoritativeInputs": {
+    "candidate": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_material_builder_round4/candidate/worldmodel_xi_sentry_lethal_round4_material_challenger_lod0.glb",
+      "requiredSha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51",
+      "actualSha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51",
+      "matches": true
+    },
+    "acceptedGeometryWinner": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_builder_round2/candidate/worldmodel_xi_sentry_lethal_round2_mounted_lod0.glb",
+      "requiredSha256": "D6F0827EB196E27966AE959FCAC026C20F98E312E7FB9C80CD9045824AEB9EE1",
+      "actualSha256": "D6F0827EB196E27966AE959FCAC026C20F98E312E7FB9C80CD9045824AEB9EE1",
+      "matches": true
+    },
+    "legacySourceSha256": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD",
+    "stockSawSourceSha256": "08D434AACEE4E53065E60F5447904594B16946684BACE54DE858370099655283",
+    "groundFrostSentrySha256": "580A7381B916FAFFBBBC812F785A42F1EBE61100B15ED4CE490B983356C9AD9E",
+    "airborneDefrosterDroneSha256": "2737870FF7A67C75D33DDD68D2158D7721E852869F5DA755207714A8AC5E15D5"
+  },
+  "geometry": {
+    "pass": true,
+    "binaryChunkSha256": "3BC2E194744F6D0023DED35839E503FD56441EE5FE64062A53ED80BF7DBC010B",
+    "binaryChunkByteIdentical": true,
+    "accessorCount": 25,
+    "allAccessorDefinitionsExact": true,
+    "allAccessorLogicalBytesExact": true,
+    "allBufferViewDefinitionsAndBytesExact": true,
+    "allIndexBytesExact": true,
+    "nonMaterialJsonExact": true,
+    "nodesExact": true,
+    "skinsExact": true,
+    "tagJointCount": 12,
+    "transformsExact": true,
+    "boundsExact": true,
+    "topologyExact": true,
+    "meshCount": 4,
+    "primitiveCount": 4,
+    "vertexCount": 2843,
+    "triangleCount": 1749,
+    "oneGunOneMount": true,
+    "namedObjects": [
+      "legacy_tripod",
+      "mount_hardware",
+      "mount_yoke",
+      "saw_receiver"
+    ]
+  },
+  "materials": {
+    "pass": true,
+    "materialNames": [
+      "mc/mtl_sentry_bo",
+      "mc/mtl_weapon_saw_misc_nocamo",
+      "mc/mtl_weapon_saw"
+    ],
+    "minimalSemanticMaterialCount": 3,
+    "allMaterialsReferenced": true,
+    "allTexturesReferenced": true,
+    "allImagesReferenced": true,
+    "implicitDefaultSamplerOnly": true,
+    "auditOrDebugMaterialCount": 0,
+    "unreferencedMaterialCount": 0,
+    "unreferencedTextureCount": 0,
+    "unreferencedImageCount": 0,
+    "embeddedImageCount": 0,
+    "missingImageCount": 0,
+    "inventedImageUriCount": 0,
+    "allImagePayloadsHaveIndependentSameHashCopies": true,
+    "allAlphaModesOpaque": true,
+    "allMaterialsDoubleSided": true,
+    "tripodMaterialClosureExactToLegacy": true,
+    "sawReceiverMaterialClosureExactToStockSaw": true,
+    "syntheticMountMaterialClosureExactToStockSawMisc": true,
+    "syntheticMountCreatesNoAsset": true
+  },
+  "uv": {
+    "pass": true,
+    "tripod": {
+      "candidateTriangles": 564,
+      "sourceTriangles": 564,
+      "allIndexedUvTrianglesBitExact": true
+    },
+    "sawReceiver": {
+      "candidateTriangles": 757,
+      "sourceTriangles": 868,
+      "allCandidateIndexedUvTrianglesBitExactSourceSubset": true
+    },
+    "syntheticMountUvsFinite": true,
+    "syntheticMountDegenerateUvTriangleCount": 0,
+    "visibleStretchingFound": false
+  },
+  "visual": {
+    "pass": true,
+    "renderer": "Blender 5.2.0 LTS fbe6228777e7 EEVEE",
+    "actualTextureDataLoaded": true,
+    "viewsInspected": [
+      "front_muzzle",
+      "side",
+      "rear",
+      "top_oblique",
+      "gameplay_height"
+    ],
+    "blackOrMissingTexturePatchesFound": false,
+    "unintendedTransparencyOrAlphaCutoutFound": false,
+    "missingOrBackfaceLostSurfacesFound": false,
+    "zFightingSignatureFound": false,
+    "detachedPartsFound": false,
+    "excessDarknessHidingWeaponUnderNeutralInspectionLight": false,
+    "priorThreeWeaponPileReturned": false,
+    "oneSawReadable": true,
+    "oneGroundedMountReadable": true
+  },
+  "blindComparison": {
+    "performed": true,
+    "mappingConcealedUntilAfterBallot": true,
+    "views": [
+      "front",
+      "side",
+      "top"
+    ],
+    "preRevealVotes": {
+      "front": "TIE",
+      "side": "TIE",
+      "top": "TIE"
+    },
+    "revealedCandidatePanel": "A/left",
+    "revealedSourceControlPanel": "B/right",
+    "challengerLostSourceFidelity": false
+  },
+  "identityDistinction": {
+    "pass": true,
+    "groundFrostSentrySourceIdentityConfirmed": true,
+    "airborneDefrosterDroneSourceIdentityConfirmed": true,
+    "commonScaleRender": "renders/identity_lethal_frost_drone_same_scale.png",
+    "lethalCandidateDimensions": [
+      41.92084884643555,
+      38.96037673950195,
+      38.20134353637695
+    ],
+    "groundFrostSentryDimensions": [
+      23.3369426727295,
+      17.0,
+      20.7554168701172
+    ],
+    "airborneDefrosterDroneDimensions": [
+      49.3320274353027,
+      56.1660690307617,
+      14.8519744873047
+    ]
+  },
+  "evidence": {
+    "report": "REPORT.md",
+    "visualInspection": "VISUAL_INSPECTION.md",
+    "machineChecks": "MACHINE_CHECKS.json",
+    "structuralAudit": "STRUCTURAL_AUDIT.json",
+    "materialAudit": "MATERIAL_AUDIT.json",
+    "renderManifest": "RENDER_MANIFEST.json",
+    "probeManifest": "probe_manifest.json",
+    "blindBallot": "blind/BALLOT_PRE_REVEAL.md",
+    "blindMapping": "blind/HIDDEN_MAPPING.json",
+    "blindReveal": "blind/REVEAL.md",
+    "sha256Sums": "SHA256SUMS.txt"
+  }
+}

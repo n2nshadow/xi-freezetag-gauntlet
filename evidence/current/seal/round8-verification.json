@@ -1,0 +1,1052 @@
+{
+  "schemaVersion": 1,
+  "capturedUtc": "2026-08-25T23:03:28.3672102Z",
+  "checkCount": 61,
+  "failureCount": 0,
+  "failures": [],
+  "checks": [
+    {
+      "name": "Production hash unchanged: tools/Build-SourceSeal.ps1",
+      "pass": true,
+      "detail": "091454D944C3CB2BA7389D658CB07057C22F38C4BBFDE8A33B1409BC54AA14A9"
+    },
+    {
+      "name": "Production hash unchanged: tools/Test-BuildSourceSeal.ps1",
+      "pass": true,
+      "detail": "C0B90A91648415903C443E091522C9E6698AC19CFAFB95F9E645E82976B2BBA2"
+    },
+    {
+      "name": "Production hash unchanged: build.ps1",
+      "pass": true,
+      "detail": "74E6EDBBBABF7ACF41C4801E3208E5D0CCFC44A0F8528FB082EB0EFDD9D7800F"
+    },
+    {
+      "name": "Production hash unchanged: install-steam-ftag-mod.ps1",
+      "pass": true,
+      "detail": "96AB1FD459BC41F417B7AD8C54FD9152BF2948EB25369689928C504F1FBA8193"
+    },
+    {
+      "name": "PS7 parser has five exact files",
+      "pass": true,
+      "detail": [
+        "tools/Build-SourceSeal.ps1",
+        "tools/Test-BuildSourceSeal.ps1",
+        "tools/Install-PackageTransaction.ps1",
+        "build.ps1",
+        "install-steam-ftag-mod.ps1"
+      ]
+    },
+    {
+      "name": "PS7 parser identity: tools/Build-SourceSeal.ps1",
+      "pass": true,
+      "detail": "091454D944C3CB2BA7389D658CB07057C22F38C4BBFDE8A33B1409BC54AA14A9"
+    },
+    {
+      "name": "PS7 parser identity: tools/Test-BuildSourceSeal.ps1",
+      "pass": true,
+      "detail": "B04C4FC8A8ABDB3BCE62A477020FEC05C85492352D9927ECE836677C1A311CCF"
+    },
+    {
+      "name": "PS7 parser identity: tools/Install-PackageTransaction.ps1",
+      "pass": true,
+      "detail": "BC26EED5652E9CDF3DACD2087E780240F18B7C9593ADD35B123771DAA18583E0"
+    },
+    {
+      "name": "PS7 parser identity: build.ps1",
+      "pass": true,
+      "detail": "CCB979B39B4D1D1A22DE952A110424D5C52A31EDF9BA1A329485778F5FF0D09C"
+    },
+    {
+      "name": "PS7 parser identity: install-steam-ftag-mod.ps1",
+      "pass": true,
+      "detail": "722933832CB2671BEAAA94EA8E6F82567258D98BED51B0A3D446F69305454D57"
+    },
+    {
+      "name": "PS7 prior eight groups",
+      "pass": true,
+      "detail": [
+        "PASS structured AST call order and complete build capture",
+        "PASS schema 4 frozen-session baseline and ordinary source/package drift",
+        "PASS frozen reads, retained output causality, and stale tuple rejection",
+        "PASS every selected external/reference/toolchain input and set",
+        "PASS ordinal source identity, actual casing, and collision rejection",
+        "PASS pre-cleanup project/package and nested input reparse rejection",
+        "PASS canonical IWD entries, per-entry hashes, and lowercase cfg invariant",
+        "PASS reparse-safe locked installer publication and complete rollback"
+      ]
+    },
+    {
+      "name": "PS7 suite cleanup",
+      "pass": true,
+      "detail": {
+        "schemaVersion": 1,
+        "engine": {
+          "edition": "Core",
+          "version": "7.6.4",
+          "executable": "C:\\Users\\shawn\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+          "processId": 25380
+        },
+        "suitePath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\candidate-project\\tools\\Test-BuildSourceSeal.ps1",
+        "suiteSha256": "B04C4FC8A8ABDB3BCE62A477020FEC05C85492352D9927ECE836677C1A311CCF",
+        "projectRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\candidate-project",
+        "testRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\tmp\\suite-ps7",
+        "evidencePath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\SUITE-PS7.json",
+        "logPath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\logs\\SUITE-PS7.log",
+        "startedUtc": "2026-08-25T22:39:12.8208087Z",
+        "finishedUtc": "2026-08-25T22:44:27.7244236Z",
+        "exitCode": 0,
+        "outputLineCount": 9,
+        "testRootExistsAfterSuite": false,
+        "tempRootExistsAfterRunnerCleanup": false
+      }
+    },
+    {
+      "name": "PS7 helper omission and tamper rejection",
+      "pass": true,
+      "detail": [
+        {
+          "case": "installer_helper_source_and_selected_runtime_binding",
+          "manifestSourcePath": "xi_ftag/tools/Install-PackageTransaction.ps1",
+          "manifestSourceSha256": "BC26EED5652E9CDF3DACD2087E780240F18B7C9593ADD35B123771DAA18583E0",
+          "selectedRuntimeName": "installer-transaction-runtime",
+          "tamperRejected": true,
+          "omissionRejected": true
+        }
+      ]
+    },
+    {
+      "name": "PS7 suite reviewed helper identity",
+      "pass": true,
+      "detail": [
+        {
+          "path": "tools/Install-PackageTransaction.ps1",
+          "length": 68489,
+          "sha256": "BC26EED5652E9CDF3DACD2087E780240F18B7C9593ADD35B123771DAA18583E0"
+        }
+      ]
+    },
+    {
+      "name": "PS7 critic 11 schedules",
+      "pass": true,
+      "detail": [
+        "source_changed_and_restored_with_manifest_iwd_identity",
+        "old_public_package_tuple_appears_after_begin",
+        "fresh_retained_output_path_write_after_identity",
+        "case_distinct_repo_sibling",
+        "junctions_before_build_cleanup_and_during_install",
+        "staged_member_changed_after_initial_validation",
+        "caught_interruption_after_first_publication",
+        "deliberate_restore_failure_reported_honestly",
+        "fresh_exception_after_successful_move_before_bookkeeping",
+        "fresh_destination_ancestor_renamed_after_directory_locks",
+        "fresh_hard_process_termination_after_first_successful_publication"
+      ]
+    },
+    {
+      "name": "PS7 post-move caught fault exact rollback",
+      "pass": true,
+      "detail": [
+        {
+          "schedule": "fresh_exception_after_successful_move_before_bookkeeping",
+          "reproductionCompleted": true,
+          "approvalPass": true,
+          "failureInjectedAfterNativeMove": true,
+          "durableJournalAtFault": {
+            "intentSha256": "C726AB4CAA727BABC44CFA7FF3EDA18C0C36B2D30CF4AA80104EC21F28E5DEEA",
+            "intentSealPresent": true,
+            "operationSha256": "C3C6732D4BE79671BB47AE725CB77845E13C73DCC1A180C0BCCDCAE5A63EB463",
+            "operationSealPresent": true
+          },
+          "error": "ROUND7B injected exception after successful native move.",
+          "previousTuple": {
+            "mod.ff": {
+              "length": 38,
+              "sha256": "57F3FD0691DD30E2864F6E9C87081C6B31C26AD906E08C607A9A7471F6D0B63E"
+            },
+            "xi_ftag.iwd": {
+              "length": 43,
+              "sha256": "089921B7244E6A07C6C571281598CD25C5BA23635A52846685482CE893D65127"
+            },
+            "xi_ftag.cfg": {
+              "length": 43,
+              "sha256": "25D30F2354639F5F31035F64FA64FA313F41E3B8601536F28E63FBCD94E13023"
+            }
+          },
+          "destinationAfterFailure": {
+            "mod.ff": {
+              "length": 38,
+              "sha256": "57F3FD0691DD30E2864F6E9C87081C6B31C26AD906E08C607A9A7471F6D0B63E"
+            },
+            "xi_ftag.iwd": {
+              "length": 43,
+              "sha256": "089921B7244E6A07C6C571281598CD25C5BA23635A52846685482CE893D65127"
+            },
+            "xi_ftag.cfg": {
+              "length": 43,
+              "sha256": "25D30F2354639F5F31035F64FA64FA313F41E3B8601536F28E63FBCD94E13023"
+            }
+          },
+          "previousTupleExact": true,
+          "activeStageExistsAfterRecovery": false,
+          "reliabilityFinding": null
+        }
+      ]
+    },
+    {
+      "name": "PS7 critic hard-kill restart recovery",
+      "pass": true,
+      "detail": [
+        {
+          "schedule": "fresh_hard_process_termination_after_first_successful_publication",
+          "reproductionCompleted": true,
+          "approvalPass": true,
+          "childProcessId": 27200,
+          "childExitCode": -1,
+          "childStillPresent": false,
+          "signalSeen": true,
+          "destinationAfterTermination": {
+            "mod.ff": {
+              "length": 24,
+              "sha256": "D60EDF17895D0075AFB2BE46AE7CA07628097BB22E9A5445D4F63E9774507A33"
+            },
+            "xi_ftag.iwd": null,
+            "xi_ftag.cfg": null
+          },
+          "stageAfterTermination": {
+            "mod.ff": {
+              "newPath": null,
+              "rollbackPath": {
+                "length": 24,
+                "sha256": "D7B23C9DC2E768B80D501C499148A73759E4A02A60E441FF91B5F9F074FCD80F"
+              }
+            },
+            "xi_ftag.iwd": {
+              "newPath": {
+                "length": 29,
+                "sha256": "B6658DD6105C91488E175489BF05D149D807B826B4B1FD5F7C853D3637177BE6"
+              },
+              "rollbackPath": {
+                "length": 29,
+                "sha256": "3856876EB73C99DBD662C75960EFF6C5DDC3711B656B5FBD9A977438D8D58D66"
+              }
+            },
+            "xi_ftag.cfg": {
+              "newPath": {
+                "length": 29,
+                "sha256": "23792EA62DE19A380C85874A825BC4DFAD21DB4DAA42EE51223ECE174AAAE6F0"
+              },
+              "rollbackPath": {
+                "length": 29,
+                "sha256": "670F5373A3AB4F5CBC3EA4D3F94667443AA0ED82625C1BEC5A82049E82487682"
+              }
+            }
+          },
+          "previousTupleRestored": false,
+          "rollbackBackupsExact": true,
+          "hashBoundJournalPresent": true,
+          "intentSha256": "05DB684C82547EAD545EA41034FFB7BBD28EABBBA958A12FA25FB0F3EABA2527",
+          "recoveryOutcome": "rolledback",
+          "destinationAfterRecovery": {
+            "mod.ff": {
+              "length": 24,
+              "sha256": "D7B23C9DC2E768B80D501C499148A73759E4A02A60E441FF91B5F9F074FCD80F"
+            },
+            "xi_ftag.iwd": {
+              "length": 29,
+              "sha256": "3856876EB73C99DBD662C75960EFF6C5DDC3711B656B5FBD9A977438D8D58D66"
+            },
+            "xi_ftag.cfg": {
+              "length": 29,
+              "sha256": "670F5373A3AB4F5CBC3EA4D3F94667443AA0ED82625C1BEC5A82049E82487682"
+            }
+          },
+          "recoveredExactOldTuple": true,
+          "activeStageExistsAfterRecovery": false,
+          "stdoutPath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\logs\\hard-crash-child-PS7.stdout.log",
+          "stderrPath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\logs\\hard-crash-child-PS7.stderr.log",
+          "reliabilityFinding": null,
+          "tempRootExistsAfterCleanup": false
+        }
+      ]
+    },
+    {
+      "name": "PS7 critic cleanup",
+      "pass": true,
+      "detail": {
+        "runRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\tmp\\reliability-PS7",
+        "entryCountBeforeCleanup": 1,
+        "runRootExistsAfterCleanup": false,
+        "liveTrackedChildCount": 0
+      }
+    },
+    {
+      "name": "PS7 all-member crash matrix",
+      "pass": true,
+      "detail": [
+        "default-backup-mod-ff",
+        "default-backup-xi_ftag-iwd",
+        "default-backup-xi_ftag-cfg",
+        "default-publish-mod-ff",
+        "default-publish-xi_ftag-iwd",
+        "default-publish-xi_ftag-cfg",
+        "clean-backup",
+        "clean-publish"
+      ]
+    },
+    {
+      "name": "PS7 matrix record: default-backup-mod-ff",
+      "pass": true,
+      "detail": {
+        "case": "default-backup-mod-ff",
+        "mode": "default",
+        "boundaryKind": "backup",
+        "boundaryName": "mod.ff",
+        "childProcessId": 16996,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "9DFCEAC74380271F9987160B823B3198D5640B90F51E60F4BD322F73291C1C8F",
+        "operationIntentSha256": "48548735EF17D4894A8417157442C213745ECD36BE441EE3449894E1BD36F760",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS7 matrix record: default-backup-xi_ftag-iwd",
+      "pass": true,
+      "detail": {
+        "case": "default-backup-xi_ftag-iwd",
+        "mode": "default",
+        "boundaryKind": "backup",
+        "boundaryName": "xi_ftag.iwd",
+        "childProcessId": 21072,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "78718C729ACE98E996418CA7410436716CA2B90475493F17EFB89839E53A5D42",
+        "operationIntentSha256": "36188DA97A9875F092B1544C57F915280C403F05ABF44F6DF543B2A5CE7BA19A",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS7 matrix record: default-backup-xi_ftag-cfg",
+      "pass": true,
+      "detail": {
+        "case": "default-backup-xi_ftag-cfg",
+        "mode": "default",
+        "boundaryKind": "backup",
+        "boundaryName": "xi_ftag.cfg",
+        "childProcessId": 27244,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "237D6FB39B17F9CDEC9542CCAB3B356B541585F5B0C5893055F16DCD9643D5F7",
+        "operationIntentSha256": "00016EE80925EEA15596D7289918DDD73CE7DBD0F4FA1224BACEFD9BC92B4E20",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS7 matrix record: default-publish-mod-ff",
+      "pass": true,
+      "detail": {
+        "case": "default-publish-mod-ff",
+        "mode": "default",
+        "boundaryKind": "publish",
+        "boundaryName": "mod.ff",
+        "childProcessId": 21212,
+        "secondRecoveryInterruption": true,
+        "secondRecoveryChildProcessId": 2400,
+        "intentSha256": "AE5631646CBDF20CFA1A72ACBF2C231BDE12D602DD4D80A6B0540EAB2F02C4BD",
+        "operationIntentSha256": "C36EB5DF79B470364DDD4BB6E71F8F1F4084643A5638B7010D58F4DDAAB16EBE",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS7 matrix record: default-publish-xi_ftag-iwd",
+      "pass": true,
+      "detail": {
+        "case": "default-publish-xi_ftag-iwd",
+        "mode": "default",
+        "boundaryKind": "publish",
+        "boundaryName": "xi_ftag.iwd",
+        "childProcessId": 23064,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "7B23CFE6E0D5A1161FD68A0DCD4F0B43E3463289AC78D20AA3C592C7F05C0DB5",
+        "operationIntentSha256": "66241E865077F637B3A0D73EDB4DB11E29FD4FC23D8072749B3984DDA8A671D2",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS7 matrix record: default-publish-xi_ftag-cfg",
+      "pass": true,
+      "detail": {
+        "case": "default-publish-xi_ftag-cfg",
+        "mode": "default",
+        "boundaryKind": "publish",
+        "boundaryName": "xi_ftag.cfg",
+        "childProcessId": 19528,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "9FE820515ACD6EB7E6E2D6159556F55171F8C1F3DD8F4799C95C669EF9D81C3E",
+        "operationIntentSha256": "1C025B2FEED33AAB9C70A0B3828AC6F50AC7371AC5E05DCA0390C0D715862A35",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS7 matrix record: clean-backup",
+      "pass": true,
+      "detail": {
+        "case": "clean-backup",
+        "mode": "clean",
+        "boundaryKind": "backup",
+        "childProcessId": 6988,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "DABB527FC5A238D59E2A3E6EFD3F5071D4A857CA939C78CB24F5162F05A215DB",
+        "operationIntentSha256": "EC6F0C4606EA7DF6CE58922275D048E9FCB2A757FC6898019CB170C99BDD82C7",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldTreeAfterRestart": true,
+        "retryKeptBackup": true,
+        "exactNewOnlyAfterRetry": true,
+        "backupSemanticsExact": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS7 matrix record: clean-publish",
+      "pass": true,
+      "detail": {
+        "case": "clean-publish",
+        "mode": "clean",
+        "boundaryKind": "publish",
+        "childProcessId": 18476,
+        "secondRecoveryInterruption": true,
+        "secondRecoveryChildProcessId": 13076,
+        "intentSha256": "7CF49501E8F66D06D5B210DDBF4CBA4AA52E630AA63C5E217842266DBDC110F3",
+        "operationIntentSha256": "6925F6768BB653E7E26BFA8E4901DB85697E2B31AF3CEB04E143769E36322827",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldTreeAfterRestart": true,
+        "retryKeptBackup": false,
+        "exactNewOnlyAfterRetry": true,
+        "backupSemanticsExact": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS7 matrix children and cleanup",
+      "pass": true,
+      "detail": {
+        "runRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\tmp\\transaction-matrix-PS7",
+        "entryCountBeforeCleanup": 1,
+        "runRootExistsAfterCleanup": false,
+        "liveTrackedChildCount": 0
+      }
+    },
+    {
+      "name": "PS7 runtime evidence checksum",
+      "pass": true,
+      "detail": "5601F63A9DBC68D8D4B24A0ACBB7586CFFB2B3E01A89B4579C8E53F78881A01E"
+    },
+    {
+      "name": "PS7 selected runtime binds helper",
+      "pass": true,
+      "detail": [
+        {
+          "name": "installer-transaction-runtime",
+          "kind": "runtime",
+          "pathType": "file",
+          "path": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\candidate-project\\tools\\Install-PackageTransaction.ps1",
+          "fileCount": 1,
+          "files": [
+            {
+              "path": "Install-PackageTransaction.ps1",
+              "length": 68489,
+              "sha256": "BC26EED5652E9CDF3DACD2087E780240F18B7C9593ADD35B123771DAA18583E0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS7 complete selected runtime rehash",
+      "pass": true,
+      "detail": {
+        "recordCount": 984,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "PS5 parser has five exact files",
+      "pass": true,
+      "detail": [
+        "tools/Build-SourceSeal.ps1",
+        "tools/Test-BuildSourceSeal.ps1",
+        "tools/Install-PackageTransaction.ps1",
+        "build.ps1",
+        "install-steam-ftag-mod.ps1"
+      ]
+    },
+    {
+      "name": "PS5 parser identity: tools/Build-SourceSeal.ps1",
+      "pass": true,
+      "detail": "091454D944C3CB2BA7389D658CB07057C22F38C4BBFDE8A33B1409BC54AA14A9"
+    },
+    {
+      "name": "PS5 parser identity: tools/Test-BuildSourceSeal.ps1",
+      "pass": true,
+      "detail": "B04C4FC8A8ABDB3BCE62A477020FEC05C85492352D9927ECE836677C1A311CCF"
+    },
+    {
+      "name": "PS5 parser identity: tools/Install-PackageTransaction.ps1",
+      "pass": true,
+      "detail": "BC26EED5652E9CDF3DACD2087E780240F18B7C9593ADD35B123771DAA18583E0"
+    },
+    {
+      "name": "PS5 parser identity: build.ps1",
+      "pass": true,
+      "detail": "CCB979B39B4D1D1A22DE952A110424D5C52A31EDF9BA1A329485778F5FF0D09C"
+    },
+    {
+      "name": "PS5 parser identity: install-steam-ftag-mod.ps1",
+      "pass": true,
+      "detail": "722933832CB2671BEAAA94EA8E6F82567258D98BED51B0A3D446F69305454D57"
+    },
+    {
+      "name": "PS5 prior eight groups",
+      "pass": true,
+      "detail": [
+        "PASS structured AST call order and complete build capture",
+        "PASS schema 4 frozen-session baseline and ordinary source/package drift",
+        "PASS frozen reads, retained output causality, and stale tuple rejection",
+        "PASS every selected external/reference/toolchain input and set",
+        "PASS ordinal source identity, actual casing, and collision rejection",
+        "PASS pre-cleanup project/package and nested input reparse rejection",
+        "PASS canonical IWD entries, per-entry hashes, and lowercase cfg invariant",
+        "PASS reparse-safe locked installer publication and complete rollback"
+      ]
+    },
+    {
+      "name": "PS5 suite cleanup",
+      "pass": true,
+      "detail": {
+        "schemaVersion": 1,
+        "engine": {
+          "edition": "Desktop",
+          "version": "5.1.26100.9168",
+          "executable": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "processId": 23752
+        },
+        "suitePath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\candidate-project\\tools\\Test-BuildSourceSeal.ps1",
+        "suiteSha256": "B04C4FC8A8ABDB3BCE62A477020FEC05C85492352D9927ECE836677C1A311CCF",
+        "projectRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\candidate-project",
+        "testRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\tmp\\suite-ps5",
+        "evidencePath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\SUITE-PS5.json",
+        "logPath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\logs\\SUITE-PS5.log",
+        "startedUtc": "2026-08-25T22:44:47.5510721Z",
+        "finishedUtc": "2026-08-25T22:46:17.0463911Z",
+        "exitCode": 0,
+        "outputLineCount": 9,
+        "testRootExistsAfterSuite": false,
+        "tempRootExistsAfterRunnerCleanup": false
+      }
+    },
+    {
+      "name": "PS5 helper omission and tamper rejection",
+      "pass": true,
+      "detail": [
+        {
+          "case": "installer_helper_source_and_selected_runtime_binding",
+          "manifestSourcePath": "xi_ftag/tools/Install-PackageTransaction.ps1",
+          "manifestSourceSha256": "BC26EED5652E9CDF3DACD2087E780240F18B7C9593ADD35B123771DAA18583E0",
+          "selectedRuntimeName": "installer-transaction-runtime",
+          "tamperRejected": true,
+          "omissionRejected": true
+        }
+      ]
+    },
+    {
+      "name": "PS5 suite reviewed helper identity",
+      "pass": true,
+      "detail": [
+        {
+          "path": "tools/Install-PackageTransaction.ps1",
+          "length": 68489,
+          "sha256": "BC26EED5652E9CDF3DACD2087E780240F18B7C9593ADD35B123771DAA18583E0"
+        }
+      ]
+    },
+    {
+      "name": "PS5 critic 11 schedules",
+      "pass": true,
+      "detail": [
+        "source_changed_and_restored_with_manifest_iwd_identity",
+        "old_public_package_tuple_appears_after_begin",
+        "fresh_retained_output_path_write_after_identity",
+        "case_distinct_repo_sibling",
+        "junctions_before_build_cleanup_and_during_install",
+        "staged_member_changed_after_initial_validation",
+        "caught_interruption_after_first_publication",
+        "deliberate_restore_failure_reported_honestly",
+        "fresh_exception_after_successful_move_before_bookkeeping",
+        "fresh_destination_ancestor_renamed_after_directory_locks",
+        "fresh_hard_process_termination_after_first_successful_publication"
+      ]
+    },
+    {
+      "name": "PS5 post-move caught fault exact rollback",
+      "pass": true,
+      "detail": [
+        {
+          "schedule": "fresh_exception_after_successful_move_before_bookkeeping",
+          "reproductionCompleted": true,
+          "approvalPass": true,
+          "failureInjectedAfterNativeMove": true,
+          "durableJournalAtFault": {
+            "intentSha256": "6A2500EE0E3AE1CD7E7960498A6613D3B75F10B575FC10EEBF73AE9D92F4E9FB",
+            "intentSealPresent": true,
+            "operationSha256": "ED32BBDBB31643043909E904081C32F31EE3866137BE41F0B9D3B52D4D02B5A6",
+            "operationSealPresent": true
+          },
+          "error": "ROUND7B injected exception after successful native move.",
+          "previousTuple": {
+            "mod.ff": {
+              "length": 38,
+              "sha256": "57F3FD0691DD30E2864F6E9C87081C6B31C26AD906E08C607A9A7471F6D0B63E"
+            },
+            "xi_ftag.iwd": {
+              "length": 43,
+              "sha256": "089921B7244E6A07C6C571281598CD25C5BA23635A52846685482CE893D65127"
+            },
+            "xi_ftag.cfg": {
+              "length": 43,
+              "sha256": "25D30F2354639F5F31035F64FA64FA313F41E3B8601536F28E63FBCD94E13023"
+            }
+          },
+          "destinationAfterFailure": {
+            "mod.ff": {
+              "length": 38,
+              "sha256": "57F3FD0691DD30E2864F6E9C87081C6B31C26AD906E08C607A9A7471F6D0B63E"
+            },
+            "xi_ftag.iwd": {
+              "length": 43,
+              "sha256": "089921B7244E6A07C6C571281598CD25C5BA23635A52846685482CE893D65127"
+            },
+            "xi_ftag.cfg": {
+              "length": 43,
+              "sha256": "25D30F2354639F5F31035F64FA64FA313F41E3B8601536F28E63FBCD94E13023"
+            }
+          },
+          "previousTupleExact": true,
+          "activeStageExistsAfterRecovery": false,
+          "reliabilityFinding": null
+        }
+      ]
+    },
+    {
+      "name": "PS5 critic hard-kill restart recovery",
+      "pass": true,
+      "detail": [
+        {
+          "schedule": "fresh_hard_process_termination_after_first_successful_publication",
+          "reproductionCompleted": true,
+          "approvalPass": true,
+          "childProcessId": 14892,
+          "childExitCode": -1,
+          "childStillPresent": false,
+          "signalSeen": true,
+          "destinationAfterTermination": {
+            "mod.ff": {
+              "length": 24,
+              "sha256": "D60EDF17895D0075AFB2BE46AE7CA07628097BB22E9A5445D4F63E9774507A33"
+            },
+            "xi_ftag.iwd": null,
+            "xi_ftag.cfg": null
+          },
+          "stageAfterTermination": {
+            "mod.ff": {
+              "newPath": null,
+              "rollbackPath": {
+                "length": 24,
+                "sha256": "D7B23C9DC2E768B80D501C499148A73759E4A02A60E441FF91B5F9F074FCD80F"
+              }
+            },
+            "xi_ftag.iwd": {
+              "newPath": {
+                "length": 29,
+                "sha256": "B6658DD6105C91488E175489BF05D149D807B826B4B1FD5F7C853D3637177BE6"
+              },
+              "rollbackPath": {
+                "length": 29,
+                "sha256": "3856876EB73C99DBD662C75960EFF6C5DDC3711B656B5FBD9A977438D8D58D66"
+              }
+            },
+            "xi_ftag.cfg": {
+              "newPath": {
+                "length": 29,
+                "sha256": "23792EA62DE19A380C85874A825BC4DFAD21DB4DAA42EE51223ECE174AAAE6F0"
+              },
+              "rollbackPath": {
+                "length": 29,
+                "sha256": "670F5373A3AB4F5CBC3EA4D3F94667443AA0ED82625C1BEC5A82049E82487682"
+              }
+            }
+          },
+          "previousTupleRestored": false,
+          "rollbackBackupsExact": true,
+          "hashBoundJournalPresent": true,
+          "intentSha256": "8B83B50B1DF652C4C83C6D8440E535F47670C9BF8D8ED7FDD82CA47B8CD5A2B9",
+          "recoveryOutcome": "rolledback",
+          "destinationAfterRecovery": {
+            "mod.ff": {
+              "length": 24,
+              "sha256": "D7B23C9DC2E768B80D501C499148A73759E4A02A60E441FF91B5F9F074FCD80F"
+            },
+            "xi_ftag.iwd": {
+              "length": 29,
+              "sha256": "3856876EB73C99DBD662C75960EFF6C5DDC3711B656B5FBD9A977438D8D58D66"
+            },
+            "xi_ftag.cfg": {
+              "length": 29,
+              "sha256": "670F5373A3AB4F5CBC3EA4D3F94667443AA0ED82625C1BEC5A82049E82487682"
+            }
+          },
+          "recoveredExactOldTuple": true,
+          "activeStageExistsAfterRecovery": false,
+          "stdoutPath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\logs\\hard-crash-child-PS5.stdout.log",
+          "stderrPath": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\logs\\hard-crash-child-PS5.stderr.log",
+          "reliabilityFinding": null,
+          "tempRootExistsAfterCleanup": false
+        }
+      ]
+    },
+    {
+      "name": "PS5 critic cleanup",
+      "pass": true,
+      "detail": {
+        "runRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\tmp\\reliability-PS5",
+        "entryCountBeforeCleanup": 1,
+        "runRootExistsAfterCleanup": false,
+        "liveTrackedChildCount": 0
+      }
+    },
+    {
+      "name": "PS5 all-member crash matrix",
+      "pass": true,
+      "detail": [
+        "default-backup-mod-ff",
+        "default-backup-xi_ftag-iwd",
+        "default-backup-xi_ftag-cfg",
+        "default-publish-mod-ff",
+        "default-publish-xi_ftag-iwd",
+        "default-publish-xi_ftag-cfg",
+        "clean-backup",
+        "clean-publish"
+      ]
+    },
+    {
+      "name": "PS5 matrix record: default-backup-mod-ff",
+      "pass": true,
+      "detail": {
+        "case": "default-backup-mod-ff",
+        "mode": "default",
+        "boundaryKind": "backup",
+        "boundaryName": "mod.ff",
+        "childProcessId": 25056,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "C2955B5053A389A1D4CCAD3BDED8A3774CE18C223B522787E26FEE001A27E072",
+        "operationIntentSha256": "8D4F2644A45C8BA18034D2B77F94FD625B1286ACF2F40543EC5B28A892956146",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS5 matrix record: default-backup-xi_ftag-iwd",
+      "pass": true,
+      "detail": {
+        "case": "default-backup-xi_ftag-iwd",
+        "mode": "default",
+        "boundaryKind": "backup",
+        "boundaryName": "xi_ftag.iwd",
+        "childProcessId": 18068,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "C6E573E70119CA3DE7B38B034D1D3E5880D28CBFD21F42B80028969C872E69CD",
+        "operationIntentSha256": "552F5A63B63719CFF1C5DD7A42EA24835C39DA8EB14A0799C2207347619B3242",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS5 matrix record: default-backup-xi_ftag-cfg",
+      "pass": true,
+      "detail": {
+        "case": "default-backup-xi_ftag-cfg",
+        "mode": "default",
+        "boundaryKind": "backup",
+        "boundaryName": "xi_ftag.cfg",
+        "childProcessId": 21332,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "8B32722D7F5577F4BB8EB6AECA643B88A228C216D7D651172D56B5672FD8126E",
+        "operationIntentSha256": "9BE75C74240773B0D37D4C08A9464710BBEC0D7F7D737F2032C613E6DB02479B",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS5 matrix record: default-publish-mod-ff",
+      "pass": true,
+      "detail": {
+        "case": "default-publish-mod-ff",
+        "mode": "default",
+        "boundaryKind": "publish",
+        "boundaryName": "mod.ff",
+        "childProcessId": 20712,
+        "secondRecoveryInterruption": true,
+        "secondRecoveryChildProcessId": 20540,
+        "intentSha256": "49579FCC6A7E0374616AF8B27531E4DE63D51DB0A8447E639E8D3DEBBD893853",
+        "operationIntentSha256": "61FFAD6FDE694DDF34CA50F94D753062920595120A5ABD74D2D699D7CC917888",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS5 matrix record: default-publish-xi_ftag-iwd",
+      "pass": true,
+      "detail": {
+        "case": "default-publish-xi_ftag-iwd",
+        "mode": "default",
+        "boundaryKind": "publish",
+        "boundaryName": "xi_ftag.iwd",
+        "childProcessId": 28476,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "9FC1934D422C28841DDA119EDA539DD4BE40872115C2C02C4E43C8D6AAF4F634",
+        "operationIntentSha256": "0574EE2D0A71B1FC2ED102FB0428CE42C31FFE286FC536C4A9A46F6CDCB68494",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS5 matrix record: default-publish-xi_ftag-cfg",
+      "pass": true,
+      "detail": {
+        "case": "default-publish-xi_ftag-cfg",
+        "mode": "default",
+        "boundaryKind": "publish",
+        "boundaryName": "xi_ftag.cfg",
+        "childProcessId": 9104,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "626C96D03F236278F05261F36FAFA1E9092AC478DE11101E089EA94A5338FCF2",
+        "operationIntentSha256": "048F02486C046F8528E74CBC6F381A8A0300D4A2F68BABAF71631D08FDB5FE39",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldAfterRestart": true,
+        "unrelatedPreservedDuringRecovery": true,
+        "exactNewAfterRetry": true,
+        "unrelatedPreservedDuringCommit": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS5 matrix record: clean-backup",
+      "pass": true,
+      "detail": {
+        "case": "clean-backup",
+        "mode": "clean",
+        "boundaryKind": "backup",
+        "childProcessId": 25536,
+        "secondRecoveryInterruption": false,
+        "secondRecoveryChildProcessId": null,
+        "intentSha256": "2C4E07152D130A6C333EAA7AC9132010BF4565427AA85CB81332698B78EE42DB",
+        "operationIntentSha256": "CD4179E6C2E2B8E30F3E1436595CBCF9E07994F4F798BBCE237606A3040F53B7",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldTreeAfterRestart": true,
+        "retryKeptBackup": true,
+        "exactNewOnlyAfterRetry": true,
+        "backupSemanticsExact": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS5 matrix record: clean-publish",
+      "pass": true,
+      "detail": {
+        "case": "clean-publish",
+        "mode": "clean",
+        "boundaryKind": "publish",
+        "childProcessId": 13236,
+        "secondRecoveryInterruption": true,
+        "secondRecoveryChildProcessId": 23300,
+        "intentSha256": "D04A14B0282583E5340E6A637E3E6703D2B1B430D9E59C980A39B93A4F265897",
+        "operationIntentSha256": "5313BC067E3FBB2AA98D7424D9DE4AFCBB970ED8FDAFC425F1DCC648DFD145AE",
+        "journalExact": true,
+        "recoveryOutcome": "rolledback",
+        "exactOldTreeAfterRestart": true,
+        "retryKeptBackup": false,
+        "exactNewOnlyAfterRetry": true,
+        "backupSemanticsExact": true,
+        "residualCount": 0,
+        "pass": true,
+        "caseRootExistsAfterCleanup": false
+      }
+    },
+    {
+      "name": "PS5 matrix children and cleanup",
+      "pass": true,
+      "detail": {
+        "runRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\tmp\\transaction-matrix-PS5",
+        "entryCountBeforeCleanup": 1,
+        "runRootExistsAfterCleanup": false,
+        "liveTrackedChildCount": 0
+      }
+    },
+    {
+      "name": "PS5 runtime evidence checksum",
+      "pass": true,
+      "detail": "7DF00B0BB767C17D4992E16A203DD4E60F2CCA41553747886BE3A72B00B1A79F"
+    },
+    {
+      "name": "PS5 selected runtime binds helper",
+      "pass": true,
+      "detail": [
+        {
+          "name": "installer-transaction-runtime",
+          "kind": "runtime",
+          "pathType": "file",
+          "path": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\candidate-project\\tools\\Install-PackageTransaction.ps1",
+          "fileCount": 1,
+          "files": [
+            {
+              "path": "Install-PackageTransaction.ps1",
+              "length": 68489,
+              "sha256": "BC26EED5652E9CDF3DACD2087E780240F18B7C9593ADD35B123771DAA18583E0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS5 complete selected runtime rehash",
+      "pass": true,
+      "detail": {
+        "recordCount": 8,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Audit temp root empty",
+      "pass": true,
+      "detail": [
+        null
+      ]
+    },
+    {
+      "name": "No transaction residual directories",
+      "pass": true,
+      "detail": [
+        null
+      ]
+    },
+    {
+      "name": "No audit reparse residuals",
+      "pass": true,
+      "detail": [
+        null
+      ]
+    }
+  ]
+}

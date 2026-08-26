@@ -1,0 +1,1598 @@
+{
+  "schemaVersion": 1,
+  "engine": "PS7",
+  "powershellVersion": "7.6.4",
+  "candidateRoot": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\candidate-project",
+  "caseCount": 27,
+  "passed": 26,
+  "failed": 1,
+  "invariantViolations": [
+    "kill-default-move-01",
+    "kill-default-move-02",
+    "kill-default-move-03",
+    "kill-default-move-04",
+    "kill-default-move-05",
+    "kill-default-move-06",
+    "kill-clean-move-01",
+    "kill-clean-move-02"
+  ],
+  "semanticGaps": [
+    "corrupt-operation-journal"
+  ],
+  "absenceGaps": [
+    "rollback-absent-destination"
+  ],
+  "finalEventSha256": "A97B111152D9EFFDAAA0E5120AD93486DF396CDC0941E39D33F030068A6CD7B0",
+  "results": [
+    {
+      "name": "baseline-default-preserve-unrelated",
+      "status": "PASS",
+      "data": {
+        "tuple": {
+          "tupleClass": "all-new",
+          "members": [
+            {
+              "name": "mod.ff",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 53,
+                "sha256": "EF1AA39A10EEC8D1A1AC41A90B68A192EEF1E92D1B455607FE322A7BD52CFED9"
+              }
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 58,
+                "sha256": "463BD4BD9B9475E57A0509CF791E960BAB797D53B91BA95168BC61F0C5872494"
+              }
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 58,
+                "sha256": "E9DDBE34DCF4A6006E24F442BCE89AA9D77233052C7F9FE4141CDA1C32E5B42D"
+              }
+            }
+          ]
+        },
+        "residue": [],
+        "destinationTree": {
+          "exists": true,
+          "directories": [
+            "nested"
+          ],
+          "files": [
+            {
+              "path": "mod.ff",
+              "length": 53,
+              "sha256": "EF1AA39A10EEC8D1A1AC41A90B68A192EEF1E92D1B455607FE322A7BD52CFED9"
+            },
+            {
+              "path": "nested/deep.keep",
+              "length": 52,
+              "sha256": "2CB0F17767AAFAD8512CBFF8B711D68271258F695F701DACD59D5B3B262161C5"
+            },
+            {
+              "path": "unrelated.keep",
+              "length": 50,
+              "sha256": "9E6F7BCFBD12FEC48C2CCA82AE7E23B07A3331CE09589DB4E39A54433CE19F93"
+            },
+            {
+              "path": "xi_ftag.cfg",
+              "length": 58,
+              "sha256": "E9DDBE34DCF4A6006E24F442BCE89AA9D77233052C7F9FE4141CDA1C32E5B42D"
+            },
+            {
+              "path": "xi_ftag.iwd",
+              "length": 58,
+              "sha256": "463BD4BD9B9475E57A0509CF791E960BAB797D53B91BA95168BC61F0C5872494"
+            }
+          ]
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "baseline-default-all-old-absent",
+      "status": "PASS",
+      "data": {
+        "tuple": {
+          "tupleClass": "all-new",
+          "members": [
+            {
+              "name": "mod.ff",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 49,
+                "sha256": "701099EE3947DFB938E36570764D532916811E108864C71F58CDAAE5ADBBBEE0"
+              }
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 54,
+                "sha256": "1E1595B0EEB7D9D75D1B9398707A1150C6097890DACDFC9CE779F475A163F0C0"
+              }
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 54,
+                "sha256": "5F936237112C71B574F6F3B18B1097008408D24BF450966030684BB379944F08"
+              }
+            }
+          ]
+        },
+        "residue": [],
+        "destinationTree": {
+          "exists": true,
+          "directories": [],
+          "files": [
+            {
+              "path": "mod.ff",
+              "length": 49,
+              "sha256": "701099EE3947DFB938E36570764D532916811E108864C71F58CDAAE5ADBBBEE0"
+            },
+            {
+              "path": "xi_ftag.cfg",
+              "length": 54,
+              "sha256": "5F936237112C71B574F6F3B18B1097008408D24BF450966030684BB379944F08"
+            },
+            {
+              "path": "xi_ftag.iwd",
+              "length": 54,
+              "sha256": "1E1595B0EEB7D9D75D1B9398707A1150C6097890DACDFC9CE779F475A163F0C0"
+            }
+          ]
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "baseline-clean-retained-backup",
+      "status": "PASS",
+      "data": {
+        "keepBackup": true,
+        "tuple": {
+          "tupleClass": "all-new",
+          "members": [
+            {
+              "name": "mod.ff",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 48,
+                "sha256": "869C359EA7D517EC004291DC9D7220EA748D54F65EC9C99CD07718713FFA0721"
+              }
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 53,
+                "sha256": "4791B0B42765F29B6882ED23A96C3D84DD1003464DBAF21C352222B7EBB2CB46"
+              }
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 53,
+                "sha256": "6BEE0559192665DFEDE30DDA3B85292CF040C9C8095182C6213F1D104BC3076C"
+              }
+            }
+          ]
+        },
+        "liveTree": {
+          "exists": true,
+          "directories": [],
+          "files": [
+            {
+              "path": "mod.ff",
+              "length": 48,
+              "sha256": "869C359EA7D517EC004291DC9D7220EA748D54F65EC9C99CD07718713FFA0721"
+            },
+            {
+              "path": "xi_ftag.cfg",
+              "length": 53,
+              "sha256": "6BEE0559192665DFEDE30DDA3B85292CF040C9C8095182C6213F1D104BC3076C"
+            },
+            {
+              "path": "xi_ftag.iwd",
+              "length": 53,
+              "sha256": "4791B0B42765F29B6882ED23A96C3D84DD1003464DBAF21C352222B7EBB2CB46"
+            }
+          ]
+        },
+        "backupExists": true,
+        "residue": []
+      },
+      "error": null
+    },
+    {
+      "name": "baseline-clean-nobackup",
+      "status": "PASS",
+      "data": {
+        "keepBackup": false,
+        "tuple": {
+          "tupleClass": "all-new",
+          "members": [
+            {
+              "name": "mod.ff",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 41,
+                "sha256": "0B6A6FF7A9753826F629389209800C05CF57C2CDFFA70D8333A42FA0AAD0F629"
+              }
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 46,
+                "sha256": "4C6A739421008A0AD8838C8654FEB75F0899D59C2CDE0E9F160C2514F90C8963"
+              }
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "state": "new",
+              "actual": {
+                "kind": "file",
+                "length": 46,
+                "sha256": "ECAC55110CF057DF5581DC38045361FA849DE5413C4DC863E308EDE1B6CAA952"
+              }
+            }
+          ]
+        },
+        "liveTree": {
+          "exists": true,
+          "directories": [],
+          "files": [
+            {
+              "path": "mod.ff",
+              "length": 41,
+              "sha256": "0B6A6FF7A9753826F629389209800C05CF57C2CDFFA70D8333A42FA0AAD0F629"
+            },
+            {
+              "path": "xi_ftag.cfg",
+              "length": 46,
+              "sha256": "ECAC55110CF057DF5581DC38045361FA849DE5413C4DC863E308EDE1B6CAA952"
+            },
+            {
+              "path": "xi_ftag.iwd",
+              "length": 46,
+              "sha256": "4C6A739421008A0AD8838C8654FEB75F0899D59C2CDE0E9F160C2514F90C8963"
+            }
+          ]
+        },
+        "backupExists": false,
+        "residue": []
+      },
+      "error": null
+    },
+    {
+      "name": "caught-default-move-01",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 1,
+        "exitCode": 1,
+        "exactOld": true,
+        "residue": [],
+        "error": "Exception: C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\harness\\TransactionWorker.ps1:85\r\nLine |\r\n  85 |              throw \"ROUND9 injected caught failure after native file m …\r\n     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | ROUND9 injected caught failure after native file move 1 before bookkeeping.\r\n"
+      },
+      "error": null
+    },
+    {
+      "name": "caught-default-move-02",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 2,
+        "exitCode": 1,
+        "exactOld": true,
+        "residue": [],
+        "error": "Exception: C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\harness\\TransactionWorker.ps1:85\r\nLine |\r\n  85 |              throw \"ROUND9 injected caught failure after native file m …\r\n     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | ROUND9 injected caught failure after native file move 2 before bookkeeping.\r\n"
+      },
+      "error": null
+    },
+    {
+      "name": "caught-default-move-03",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 3,
+        "exitCode": 1,
+        "exactOld": true,
+        "residue": [],
+        "error": "Exception: C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\harness\\TransactionWorker.ps1:85\r\nLine |\r\n  85 |              throw \"ROUND9 injected caught failure after native file m …\r\n     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | ROUND9 injected caught failure after native file move 3 before bookkeeping.\r\n"
+      },
+      "error": null
+    },
+    {
+      "name": "caught-default-move-04",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 4,
+        "exitCode": 1,
+        "exactOld": true,
+        "residue": [],
+        "error": "Exception: C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\harness\\TransactionWorker.ps1:85\r\nLine |\r\n  85 |              throw \"ROUND9 injected caught failure after native file m …\r\n     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | ROUND9 injected caught failure after native file move 4 before bookkeeping.\r\n"
+      },
+      "error": null
+    },
+    {
+      "name": "caught-default-move-05",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 5,
+        "exitCode": 1,
+        "exactOld": true,
+        "residue": [],
+        "error": "Exception: C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\harness\\TransactionWorker.ps1:85\r\nLine |\r\n  85 |              throw \"ROUND9 injected caught failure after native file m …\r\n     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | ROUND9 injected caught failure after native file move 5 before bookkeeping.\r\n"
+      },
+      "error": null
+    },
+    {
+      "name": "caught-default-move-06",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 6,
+        "exitCode": 1,
+        "exactOld": true,
+        "residue": [],
+        "error": "Exception: C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\harness\\TransactionWorker.ps1:85\r\nLine |\r\n  85 |              throw \"ROUND9 injected caught failure after native file m …\r\n     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | ROUND9 injected caught failure after native file move 6 before bookkeeping.\r\n"
+      },
+      "error": null
+    },
+    {
+      "name": "caught-clean-move-01",
+      "status": "PASS",
+      "data": {
+        "moveType": "directory",
+        "moveNumber": 1,
+        "exitCode": 1,
+        "exactOld": true,
+        "residue": [],
+        "error": "Exception: C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\harness\\TransactionWorker.ps1:105\r\nLine |\r\n 105 |              throw \"ROUND9 injected caught failure after native direct …\r\n     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | ROUND9 injected caught failure after native directory move 1 before bookkeeping.\r\n"
+      },
+      "error": null
+    },
+    {
+      "name": "caught-clean-move-02",
+      "status": "PASS",
+      "data": {
+        "moveType": "directory",
+        "moveNumber": 2,
+        "exitCode": 1,
+        "exactOld": true,
+        "residue": [],
+        "error": "Exception: C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\harness\\TransactionWorker.ps1:105\r\nLine |\r\n 105 |              throw \"ROUND9 injected caught failure after native direct …\r\n     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | ROUND9 injected caught failure after native directory move 2 before bookkeeping.\r\n"
+      },
+      "error": null
+    },
+    {
+      "name": "kill-default-move-01",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 1,
+        "publicationBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "4CAC7BD375245E325F33EC4271524B2F34530BD150EDD81A7FDAFBCD20161CC8"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "891F85C419A7E1704376B04A68EFDB0E70E7BC099C69FE3D0DBD94B0C8E8B818"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-01\\parent\\xi_ftag\\mod.ff'.\""
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "4CAC7BD375245E325F33EC4271524B2F34530BD150EDD81A7FDAFBCD20161CC8"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "891F85C419A7E1704376B04A68EFDB0E70E7BC099C69FE3D0DBD94B0C8E8B818"
+            }
+          ]
+        },
+        "recoveryBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": true,
+          "tuple": {
+            "tupleClass": "all-old",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 38,
+                  "sha256": "75A56A24C029C51169290DF781C24979B4457C22629FFB54A030FE8DDA2B236D"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "4CAC7BD375245E325F33EC4271524B2F34530BD150EDD81A7FDAFBCD20161CC8"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "891F85C419A7E1704376B04A68EFDB0E70E7BC099C69FE3D0DBD94B0C8E8B818"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "75A56A24C029C51169290DF781C24979B4457C22629FFB54A030FE8DDA2B236D"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "4CAC7BD375245E325F33EC4271524B2F34530BD150EDD81A7FDAFBCD20161CC8"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "891F85C419A7E1704376B04A68EFDB0E70E7BC099C69FE3D0DBD94B0C8E8B818"
+            }
+          ]
+        },
+        "exactOldAfterRetry": true,
+        "residue": [],
+        "publicationInvariantHeld": false
+      },
+      "error": null
+    },
+    {
+      "name": "kill-default-move-02",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 2,
+        "publicationBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "5CF7E21806EB02027D10D2529CB35C153867FD69497F2F911D5352DD6AC7F818"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-02\\parent\\xi_ftag\\mod.ff'.\""
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-02\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "5CF7E21806EB02027D10D2529CB35C153867FD69497F2F911D5352DD6AC7F818"
+            }
+          ]
+        },
+        "recoveryBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 38,
+                  "sha256": "7B640CC3A4242803583AF774A222C86E75BB9D79513045B2D4A7AE61A869FCF9"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "5CF7E21806EB02027D10D2529CB35C153867FD69497F2F911D5352DD6AC7F818"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "7B640CC3A4242803583AF774A222C86E75BB9D79513045B2D4A7AE61A869FCF9"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-02\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "5CF7E21806EB02027D10D2529CB35C153867FD69497F2F911D5352DD6AC7F818"
+            }
+          ]
+        },
+        "exactOldAfterRetry": true,
+        "residue": [],
+        "publicationInvariantHeld": false
+      },
+      "error": null
+    },
+    {
+      "name": "kill-default-move-03",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 3,
+        "publicationBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "all-absent",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-03\\parent\\xi_ftag\\mod.ff'.\""
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-03\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-03\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "recoveryBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 38,
+                  "sha256": "72B8803AEDFD6C3A8586CF4121E3CF54E77175054597288D466E271A5525F6CF"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "72B8803AEDFD6C3A8586CF4121E3CF54E77175054597288D466E271A5525F6CF"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-03\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-03\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "exactOldAfterRetry": true,
+        "residue": [],
+        "publicationInvariantHeld": false
+      },
+      "error": null
+    },
+    {
+      "name": "kill-default-move-04",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 4,
+        "publicationBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 38,
+                  "sha256": "DC84EF06114A521DA91B9FDA1A24E497341A77E4B74D0A6E48C07BC302C63547"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "DC84EF06114A521DA91B9FDA1A24E497341A77E4B74D0A6E48C07BC302C63547"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-04\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-04\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "recoveryBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "all-absent",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-04\\parent\\xi_ftag\\mod.ff'.\""
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-04\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-04\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "exactOldAfterRetry": true,
+        "residue": [],
+        "publicationInvariantHeld": false
+      },
+      "error": null
+    },
+    {
+      "name": "kill-default-move-05",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 5,
+        "publicationBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 38,
+                  "sha256": "8E43A05EA51096C5E1180C637F4C156025E89CDA526F3F6A5B6FC0193F118950"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "ED6B0882A5608C41A83EC298E04AA0828165EB062028224D5B3CF2510722E90A"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "8E43A05EA51096C5E1180C637F4C156025E89CDA526F3F6A5B6FC0193F118950"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "ED6B0882A5608C41A83EC298E04AA0828165EB062028224D5B3CF2510722E90A"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-05\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "recoveryBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "ED6B0882A5608C41A83EC298E04AA0828165EB062028224D5B3CF2510722E90A"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-05\\parent\\xi_ftag\\mod.ff'.\""
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "ED6B0882A5608C41A83EC298E04AA0828165EB062028224D5B3CF2510722E90A"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-05\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "exactOldAfterRetry": true,
+        "residue": [],
+        "publicationInvariantHeld": false
+      },
+      "error": null
+    },
+    {
+      "name": "kill-default-move-06",
+      "status": "PASS",
+      "data": {
+        "moveType": "file",
+        "moveNumber": 6,
+        "publicationBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": true,
+          "tuple": {
+            "tupleClass": "all-new",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 38,
+                  "sha256": "B2EF51F7D6E1317D7782FDF28FBD43C014924C43EDF42FED512E3109705D6758"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "C243A878C00DEBF8FCA4375B8C26DB7996FE4EF12045D26225C5747FB5FB70D1"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "BECAB8B8DDD7D54B27B04F0F05600DA70E7EE59DD3782B2C33FF37393C2B1B30"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "B2EF51F7D6E1317D7782FDF28FBD43C014924C43EDF42FED512E3109705D6758"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "C243A878C00DEBF8FCA4375B8C26DB7996FE4EF12045D26225C5747FB5FB70D1"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "BECAB8B8DDD7D54B27B04F0F05600DA70E7EE59DD3782B2C33FF37393C2B1B30"
+            }
+          ]
+        },
+        "recoveryBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "C243A878C00DEBF8FCA4375B8C26DB7996FE4EF12045D26225C5747FB5FB70D1"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 43,
+                  "sha256": "BECAB8B8DDD7D54B27B04F0F05600DA70E7EE59DD3782B2C33FF37393C2B1B30"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-default-move-06\\parent\\xi_ftag\\mod.ff'.\""
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "C243A878C00DEBF8FCA4375B8C26DB7996FE4EF12045D26225C5747FB5FB70D1"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "BECAB8B8DDD7D54B27B04F0F05600DA70E7EE59DD3782B2C33FF37393C2B1B30"
+            }
+          ]
+        },
+        "exactOldAfterRetry": true,
+        "residue": [],
+        "publicationInvariantHeld": false
+      },
+      "error": null
+    },
+    {
+      "name": "kill-clean-move-01",
+      "status": "PASS",
+      "data": {
+        "moveType": "directory",
+        "moveNumber": 1,
+        "publicationBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "all-absent",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find a part of the path 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-clean-move-01\\parent\\xi_ftag\\mod.ff'.\""
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find a part of the path 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-clean-move-01\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find a part of the path 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-clean-move-01\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "recoveryBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": true,
+          "tuple": {
+            "tupleClass": "all-old",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 36,
+                  "sha256": "650B9BA56061223595F586FDC42134590C1A274F42BA4B91E98815E580C163E6"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 41,
+                  "sha256": "55B724568B189EE749742E99D9DAB3787D2CD6D3917AE3B8FC053E6F9353BCCF"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 41,
+                  "sha256": "4D28F9A47A0D048B41DC36DE51350DE4CF45026A88979973BE82D8D986179046"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "650B9BA56061223595F586FDC42134590C1A274F42BA4B91E98815E580C163E6"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "55B724568B189EE749742E99D9DAB3787D2CD6D3917AE3B8FC053E6F9353BCCF"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "4D28F9A47A0D048B41DC36DE51350DE4CF45026A88979973BE82D8D986179046"
+            }
+          ]
+        },
+        "exactOldAfterRetry": true,
+        "residue": [],
+        "publicationInvariantHeld": false
+      },
+      "error": null
+    },
+    {
+      "name": "kill-clean-move-02",
+      "status": "PASS",
+      "data": {
+        "moveType": "directory",
+        "moveNumber": 2,
+        "publicationBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": true,
+          "tuple": {
+            "tupleClass": "all-new",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 36,
+                  "sha256": "35B862A5993C40D44E2A9BBEABF6CD87312D2F9F8714B49B4B651BB61FD1B5CF"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 41,
+                  "sha256": "26A9D8DF3A19E0E045A3FA270360213836AECAC1F1A8788FF207411E536E0C99"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 41,
+                  "sha256": "7B4371F0B46AF8AB74AB51D2EDDDA5343D98F6DDBBC15D413FECED8DFEE4FDA0"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "35B862A5993C40D44E2A9BBEABF6CD87312D2F9F8714B49B4B651BB61FD1B5CF"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "26A9D8DF3A19E0E045A3FA270360213836AECAC1F1A8788FF207411E536E0C99"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "7B4371F0B46AF8AB74AB51D2EDDDA5343D98F6DDBBC15D413FECED8DFEE4FDA0"
+            }
+          ]
+        },
+        "recoveryBoundary": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "all-absent",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find a part of the path 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-clean-move-02\\parent\\xi_ftag\\mod.ff'.\""
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find a part of the path 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-clean-move-02\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find a part of the path 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-clean-move-02\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "exactOldAfterRetry": true,
+        "residue": [],
+        "publicationInvariantHeld": false
+      },
+      "error": null
+    },
+    {
+      "name": "kill-after-intent-json",
+      "status": "FAIL",
+      "data": null,
+      "error": "Durable-boundary recovery failed: Exception: C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_builder_round8\\candidate-project\\tools\\Install-PackageTransaction.ps1:72\r\nLine |\r\n  72 |          throw \"$Label is missing: $(Join-Path $exactParent $Name)\"\r\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Transaction intent seal is missing:\r\n     | C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\kill-after-intent-json\\parent\\.xi-ftag-private-stage-dadb8a18c89e408aaf48262859427a8b\\transaction-intent.json.sha256\r\n"
+    },
+    {
+      "name": "kill-after-intent-seal",
+      "status": "PASS",
+      "data": {
+        "durableName": "transaction-intent.json.sha256",
+        "held": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": true,
+          "tuple": {
+            "tupleClass": "all-old",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 40,
+                  "sha256": "95A539825FD7D26B0176FF7EA2FD0E3D62818C59AD9BC1E7F355C7AD22719141"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 45,
+                  "sha256": "D0F6E179BE76DACFCC233E49A17CAA9E31D132310AF293D9C1CBFB1D5CF353BB"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "old",
+                "actual": {
+                  "kind": "file",
+                  "length": 45,
+                  "sha256": "A1D789DBB876DDF19A0DA1EF03219D57DEDCA8F5A8F3857E47FF742C690C6EA2"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "95A539825FD7D26B0176FF7EA2FD0E3D62818C59AD9BC1E7F355C7AD22719141"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "D0F6E179BE76DACFCC233E49A17CAA9E31D132310AF293D9C1CBFB1D5CF353BB"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "A1D789DBB876DDF19A0DA1EF03219D57DEDCA8F5A8F3857E47FF742C690C6EA2"
+            }
+          ]
+        },
+        "recovered": "all-old",
+        "residue": []
+      },
+      "error": null
+    },
+    {
+      "name": "kill-after-commit-json",
+      "status": "PASS",
+      "data": {
+        "durableName": "transaction-commit.json",
+        "held": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": true,
+          "tuple": {
+            "tupleClass": "all-new",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 40,
+                  "sha256": "81A2E178A33998BD273A93F29EB95099F6F0FD892A86AD0DC64D95883CE355FD"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 45,
+                  "sha256": "057CDF8636CB0794E0A7826332E7A7D14AA0504DE250266B0C554AE8E25D4337"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 45,
+                  "sha256": "4810215196BE284C7143B670759CD4987D159E370A4BB4670314384DC3F14EE7"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "81A2E178A33998BD273A93F29EB95099F6F0FD892A86AD0DC64D95883CE355FD"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "057CDF8636CB0794E0A7826332E7A7D14AA0504DE250266B0C554AE8E25D4337"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "4810215196BE284C7143B670759CD4987D159E370A4BB4670314384DC3F14EE7"
+            }
+          ]
+        },
+        "recovered": "all-old",
+        "residue": []
+      },
+      "error": null
+    },
+    {
+      "name": "kill-after-commit-seal",
+      "status": "PASS",
+      "data": {
+        "durableName": "transaction-commit.json.sha256",
+        "held": {
+          "active": true,
+          "durableCommit": true,
+          "acceptedCompleteTuple": true,
+          "tuple": {
+            "tupleClass": "all-new",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 40,
+                  "sha256": "A973C86439DFAC14ABBB7396D84EEFD4795FD4794F56279ED37A70A14073B8EC"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 45,
+                  "sha256": "BD37597FCBC78D07EF8DD86275E47DDC874997165C5161B06BE2F409C36061C1"
+                }
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 45,
+                  "sha256": "0F212E2784AA12D89CF4D6D8BF2443A8232C6C9335C68DEF902F3C2F264AB31C"
+                }
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "A973C86439DFAC14ABBB7396D84EEFD4795FD4794F56279ED37A70A14073B8EC"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": true,
+              "sha256": "BD37597FCBC78D07EF8DD86275E47DDC874997165C5161B06BE2F409C36061C1"
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": true,
+              "sha256": "0F212E2784AA12D89CF4D6D8BF2443A8232C6C9335C68DEF902F3C2F264AB31C"
+            }
+          ]
+        },
+        "recovered": "all-new",
+        "residue": []
+      },
+      "error": null
+    },
+    {
+      "name": "rollback-existing-empty-destination",
+      "status": "PASS",
+      "data": {
+        "destinationInitiallyAbsent": false,
+        "held": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 53,
+                  "sha256": "FF53FA3E2F5C0BA8E95D2925D9A4794EE7914743BE61706FD620ED4FD434758A"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "FF53FA3E2F5C0BA8E95D2925D9A4794EE7914743BE61706FD620ED4FD434758A"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\rollback-existing-empty-destination\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\rollback-existing-empty-destination\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "exactOldTree": true,
+        "expected": {
+          "exists": true,
+          "directories": [],
+          "files": []
+        },
+        "actual": {
+          "exists": true,
+          "directories": [],
+          "files": []
+        },
+        "residue": null
+      },
+      "error": null
+    },
+    {
+      "name": "rollback-absent-destination",
+      "status": "PASS",
+      "data": {
+        "destinationInitiallyAbsent": true,
+        "held": {
+          "active": true,
+          "durableCommit": false,
+          "acceptedCompleteTuple": false,
+          "tuple": {
+            "tupleClass": "partial-or-mixed",
+            "members": [
+              {
+                "name": "mod.ff",
+                "state": "new",
+                "actual": {
+                  "kind": "file",
+                  "length": 45,
+                  "sha256": "79A708ED084F0C7351563CC8A737622ED2C502540874A9F1E9515133B7AC865D"
+                }
+              },
+              {
+                "name": "xi_ftag.iwd",
+                "state": "absent",
+                "actual": null
+              },
+              {
+                "name": "xi_ftag.cfg",
+                "state": "absent",
+                "actual": null
+              }
+            ]
+          },
+          "opened": [
+            {
+              "name": "mod.ff",
+              "opened": true,
+              "sha256": "79A708ED084F0C7351563CC8A737622ED2C502540874A9F1E9515133B7AC865D"
+            },
+            {
+              "name": "xi_ftag.iwd",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\rollback-absent-destination\\parent\\xi_ftag\\xi_ftag.iwd'.\""
+            },
+            {
+              "name": "xi_ftag.cfg",
+              "opened": false,
+              "error": "Exception calling \"Open\" with \"4\" argument(s): \"Could not find file 'C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round9\\cases\\PS7\\rollback-absent-destination\\parent\\xi_ftag\\xi_ftag.cfg'.\""
+            }
+          ]
+        },
+        "exactOldTree": false,
+        "expected": {
+          "exists": false,
+          "directories": [],
+          "files": []
+        },
+        "actual": {
+          "exists": true,
+          "directories": [],
+          "files": []
+        },
+        "residue": null
+      },
+      "error": null
+    },
+    {
+      "name": "corrupt-operation-journal",
+      "status": "PASS",
+      "data": {
+        "recoveryExitCode": 0,
+        "recoveryError": "",
+        "corruptRecordWasIgnored": true,
+        "exactOld": true,
+        "residue": null
+      },
+      "error": null
+    }
+  ]
+}

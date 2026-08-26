@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "scope": "XI FreezeTag weapon Family 1 only",
+  "verdict": "HOLD",
+  "pass": false,
+  "candidate": {
+    "path": "xi_ftag/.audit/weapon_alignment_builder_round2/candidates/family-01/viewmodel_t8_icr7_summon_round2_lod0.glb",
+    "sha256": "86A6086FBE90B57B51BBCA9B562B4666E928C180498CD26165E8AF94113F649B",
+    "expectedSha256": "86A6086FBE90B57B51BBCA9B562B4666E928C180498CD26165E8AF94113F649B",
+    "expectedHashMatch": true
+  },
+  "acceptedTemplate": {
+    "path": "mw2_ftag/model_export/viewmodel_ow2_hk416_lod0.glb",
+    "sha256": "B2491A22FAB1B313F4815DFFC48F9426C3A60DF5029D5E86B85E175126E85632"
+  },
+  "promotedCurrent": {
+    "path": "xi_ftag/zone_raw/xi_ftag/model_export/viewmodel_t8_icr7_summon_lod0.glb",
+    "sha256": "F2B9317376DA870B8659ADF9EA12C964E6F2F896B617279744E731D39F798471"
+  },
+  "identityAndFreshness": {
+    "builderReport": {
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2/candidates/family-01/viewmodel_t8_icr7_summon_round2_lod0.build.json",
+      "sha256": "037778C5245854145944216B2FC023C26D41ABC9E29EBF5F14DE6367F5F435AB",
+      "adjacentToCandidate": true,
+      "candidateModifiedNs": 1787720096748858200,
+      "reportModifiedNs": 1787720098101123700,
+      "reportNotOlderThanCandidate": true,
+      "reportedOutput": "xi_ftag/.audit/weapon_alignment_builder_round2/candidates/family-01/viewmodel_t8_icr7_summon_round2_lod0.glb",
+      "reportedOutputSha256": "86A6086FBE90B57B51BBCA9B562B4666E928C180498CD26165E8AF94113F649B",
+      "reportedOutputBytes": 1788280,
+      "pathMatches": true,
+      "hashMatches": true,
+      "sizeMatches": true,
+      "status": "BUILT_UNVERIFIED",
+      "promotionReady": false,
+      "hostIntersectionDiagnostics": {
+        "reflex": {
+          "passed": false,
+          "nonContactIntersectionPairs": 503
+        },
+        "acog": {
+          "passed": false,
+          "nonContactIntersectionPairs": 198
+        }
+      },
+      "freshHashPathPass": true
+    },
+    "candidateCurrentAliasPass": true,
+    "candidateTemplateAliasPass": true,
+    "noStaleReport": true
+  },
+  "matrix": {
+    "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/matrix.json",
+    "sha256": "D20FB5D9CAA97F4A22FD5CCFF8534666ECFD64BCC3F38418092482D1465321A8",
+    "exactCounts": {
+      "families": 11,
+      "bareStates": 11,
+      "attachmentStates": 26,
+      "totalStates": 37
+    },
+    "executionScope": "F01-A0 through F01-A3"
+  },
+  "stateResults": {
+    "schemaVersion": 1,
+    "requiredStateWins": 4,
+    "candidateStateWins": 0,
+    "acceptedControlStateWins": 4,
+    "allFourStatesWin": false,
+    "states": {
+      "bare": {
+        "weaponfileHideTagsContractPass": true,
+        "effectiveVisibilityPass": false,
+        "visualAuthority": "1920x1080 fixed camera A/B; retained or duplicate sight obstruction is a hard veto",
+        "verdict": "FAIL",
+        "numericDirectionPass": true,
+        "directionDeltaDeg": 0.0,
+        "maximumDirectionDeltaDeg": 0.1,
+        "candidateSightPointCount": 2406,
+        "acceptedSightPointCount": 1216,
+        "candidateSightTriangleCount": 1339,
+        "acceptedSightTriangleCount": 1224,
+        "visualFinding": "Duplicate competing native sight structures obstruct the accepted sight picture.",
+        "evidence": [
+          "renders/fixed/candidate/family-01/bare_ads_up_fixed.png",
+          "renders/fixed/candidate_template_control_A/family-01/bare_ads_up_fixed.png"
+        ]
+      },
+      "reflex": {
+        "weaponfileHideTagsContractPass": true,
+        "effectiveVisibilityPass": false,
+        "visualAuthority": "1920x1080 fixed camera A/B; retained or duplicate sight obstruction is a hard veto",
+        "verdict": "FAIL",
+        "acceptedScale": 0.377598602,
+        "scaleAndSourceShapePass": true,
+        "contactPass": true,
+        "signedRailGap": -7.15e-07,
+        "opticAxisPass": false,
+        "adsUpAxisDeltaPixels": 6.602796,
+        "maximumAxisDeltaPixels": 142.365554,
+        "axisLimitPixels": 2.0,
+        "visualFinding": "Grey retained rear/iron posts remain in the sight picture although tag_sights is hidden.",
+        "evidence": [
+          "renders/fixed/candidate/family-01/reflex_ads_up_fixed.png",
+          "renders/fixed/candidate_template_control_A/family-01/reflex_ads_up_fixed.png"
+        ]
+      },
+      "acog": {
+        "weaponfileHideTagsContractPass": true,
+        "effectiveVisibilityPass": false,
+        "visualAuthority": "1920x1080 fixed camera A/B; retained or duplicate sight obstruction is a hard veto",
+        "verdict": "FAIL",
+        "acceptedScale": 0.374398638,
+        "scaleAndSourceShapePass": true,
+        "contactPass": true,
+        "signedRailGap": -1.192e-06,
+        "opticAxisPass": false,
+        "adsUpAxisDeltaPixels": 371.773604,
+        "maximumAxisDeltaPixels": 1211.561582,
+        "axisLimitPixels": 2.0,
+        "visualFinding": "ACOG is visibly huge and far off-axis; grey retained rear/iron posts remain relative to clean Control A.",
+        "evidence": [
+          "renders/fixed/candidate/family-01/acog_ads_up_fixed.png",
+          "renders/fixed/candidate_template_control_A/family-01/acog_ads_up_fixed.png"
+        ]
+      },
+      "suppressor": {
+        "weaponfileHideTagsContractPass": true,
+        "effectiveVisibilityPass": false,
+        "visualAuthority": "1920x1080 fixed camera A/B; retained or duplicate sight obstruction is a hard veto",
+        "verdict": "FAIL",
+        "suppressorAxisContactPass": true,
+        "axisErrorDeg": 5.263e-06,
+        "signedAxialContactOffset": -0.045995643,
+        "contactOffsetDelta": 0.000150459,
+        "visualFinding": "Suppressor axis/contact passes, but this state intentionally leaves native sights visible and therefore inherits the duplicate/retained sight obstruction.",
+        "evidence": [
+          "renders/fixed/candidate/family-01/suppressor_ads_up_fixed.png",
+          "renders/fixed/candidate_template_control_A/family-01/suppressor_ads_up_fixed.png"
+        ]
+      }
+    }
+  },
+  "blindAB": {
+    "schemaVersion": 1,
+    "mapping": {
+      "selectionMethod": "candidate first-byte parity fixed before pair assembly",
+      "A": "accepted_template_control",
+      "B": "candidate",
+      "revealedAfterVisualScoring": true
+    },
+    "winner": "A",
+    "loser": "B",
+    "winnerIdentityAfterReveal": "accepted_template_control",
+    "candidateStateWins": 0,
+    "acceptedControlStateWins": 4,
+    "result": "A wins 4-0; candidate B loses all four states",
+    "decisiveVisualFindings": [
+      "bare duplicate competing sight structures",
+      "reflex retained grey rear/iron posts",
+      "ACOG retained posts plus huge off-axis presentation",
+      "suppressor inherits the native-sight obstruction"
+    ],
+    "pairCount": 20,
+    "keyEvidence": [
+      {
+        "role": "bare",
+        "phase": "ads_up",
+        "A": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_A/family-01/bare_ads_up_fixed.png",
+          "sha256": "6A734126B4F9ACE4C23581959BF6834ED0DD4F7455A25CC51EB103C34FAA6545"
+        },
+        "B": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_B/family-01/bare_ads_up_fixed.png",
+          "sha256": "7F77D79074A962E88F32C28FF8E639D8191D5C03F9C7844E4C62F1AF648BF8F0"
+        },
+        "pair": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_pairs/family-01/bare_ads_up_fixed.png",
+          "sha256": "3759F1ACFC3E8388DB7C6BD92F15CC9E73339414034064B05B4E7D5EED4D9832"
+        }
+      },
+      {
+        "role": "reflex",
+        "phase": "ads_up",
+        "A": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_A/family-01/reflex_ads_up_fixed.png",
+          "sha256": "0B29D3B11733EF39D4A3BC07B5D1419542CFC6D02433A261F6D5AD9D80E0F3B1"
+        },
+        "B": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_B/family-01/reflex_ads_up_fixed.png",
+          "sha256": "8FD39E14B8491E47895D23D65817F375F3CB6A0C8EF80D4F35C50ECF4B26C445"
+        },
+        "pair": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_pairs/family-01/reflex_ads_up_fixed.png",
+          "sha256": "AB67A412EDCC0CF6EC0C690E2E1D1E8CC70884C18DC95A25EF9B6FC0A4DC96B2"
+        }
+      },
+      {
+        "role": "acog",
+        "phase": "ads_up",
+        "A": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_A/family-01/acog_ads_up_fixed.png",
+          "sha256": "B80357E8E4CACABAF40955500120744EE1D893C41C15409645D8F60EA1B9811C"
+        },
+        "B": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_B/family-01/acog_ads_up_fixed.png",
+          "sha256": "A670C77F9F1C0583BB85A7AF3F424FF5A19B74A87D7C2B3AEC515FB6C5AB36B8"
+        },
+        "pair": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_pairs/family-01/acog_ads_up_fixed.png",
+          "sha256": "ACDC2E548B7769E5DEB7C2B8D55D31040121490E8B316E02B738E77C0DAB963F"
+        }
+      },
+      {
+        "role": "suppressor",
+        "phase": "ads_up",
+        "A": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_A/family-01/suppressor_ads_up_fixed.png",
+          "sha256": "EE0559ACA496BF51B8B10F0B48B57A683BF7C19755F790F9BAE591F23B92B164"
+        },
+        "B": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_B/family-01/suppressor_ads_up_fixed.png",
+          "sha256": "0B8861328FC40950C98785731046DA5F32C9CD573225093F969AE61A51BE9733"
+        },
+        "pair": {
+          "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/blind_pairs/family-01/suppressor_ads_up_fixed.png",
+          "sha256": "0B7C0D0C9A020B7BF66ED46BDBEEA687570A640FF95F0233126AAAE57A5E9742"
+        }
+      }
+    ]
+  },
+  "largestGap": {
+    "id": "retained_duplicate_native_factory_sight_geometry",
+    "summary": "Incorrectly retained/body-owned native sight geometry creates duplicate bare sights, survives reflex/ACOG hideTags as grey posts, and reappears in suppressor.",
+    "hardVeto": true
+  },
+  "numericGates": {
+    "bareDirection": {
+      "status": "pass",
+      "candidateRear": [
+        -0.247876614,
+        0.286977977,
+        4.718310356
+      ],
+      "acceptedRear": [
+        -0.247874007,
+        0.286976814,
+        4.718307495
+      ],
+      "candidateDirection": [
+        0.999752223,
+        -0.000631867,
+        0.022250215
+      ],
+      "acceptedDirection": [
+        0.999752283,
+        -0.000632329,
+        0.022250308
+      ],
+      "rearDelta": 4.042e-06,
+      "directionDeltaDeg": 0.0,
+      "limits": {
+        "maximumRearDelta": 0.05,
+        "maximumDirectionDeltaDeg": 0.1
+      }
+    },
+    "opticAxisPixels": {
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/measurements/optic_axis_pixels.json",
+      "reflexPass": false,
+      "acogPass": false
+    },
+    "opticScaleShapeContact": {
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/measurements/optic_shape_contact.json",
+      "reflexScaleAndShapePass": true,
+      "reflexContactPass": true,
+      "acogScaleAndShapePass": true,
+      "acogContactPass": true
+    },
+    "suppressor": {
+      "status": "pass",
+      "acceptedBaseline": {
+        "axisErrorDeg": 0.03426402,
+        "signedAxialContactOffset": -0.046146102,
+        "suppressorRearPatch": {
+          "center": [
+            20.443023682,
+            -4.3e-08,
+            2.4535532
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "axisCoordinate": 20.4413461,
+          "normalAxisAbsDot": 0.999999821,
+          "triangleCount": 28,
+          "area": 2.32960583,
+          "maximumInternalNormalDeviationDeg": 0.0
+        },
+        "weaponMuzzlePatch": {
+          "center": [
+            20.489162445,
+            -0.005860977,
+            2.442796469
+          ],
+          "normal": [
+            -1.0,
+            1.614e-06,
+            -1.7842e-05
+          ],
+          "axisCoordinate": 20.487492202,
+          "normalAxisAbsDot": 0.999999809,
+          "triangleCount": 13,
+          "area": 1.18519888,
+          "maximumInternalNormalDeviationDeg": 0.001383832
+        }
+      },
+      "candidateMeasured": {
+        "method": "reloaded suppressor mesh PCA versus independent tag_flash forward; disjoint multi-triangle rear/muzzle planes",
+        "nativeCoordinateContractForward": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tagFlashSocketForward": [
+          1.0,
+          7.75e-07,
+          0.0
+        ],
+        "nativeSightHorizontalForward": [
+          0.999999881,
+          -0.000632023,
+          0.0
+        ],
+        "sightHorizontalToSocketDeg": 0.039605296,
+        "suppressorCylinderBoreAxis": [
+          1.0,
+          -5e-09,
+          -0.000128426
+        ],
+        "axisErrorDeg": 5.263e-06,
+        "suppressorRearPatch": {
+          "center": [
+            29.431970596,
+            0.002182161,
+            2.212411165
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "axisCoordinate": 29.431686464,
+          "normalAxisAbsDot": 1.0,
+          "triangleCount": 28,
+          "area": 2.329604368,
+          "maximumInternalNormalDeviationDeg": 0.0
+        },
+        "weaponMuzzlePatch": {
+          "center": [
+            29.477907181,
+            6.3546e-05,
+            1.752550483
+          ],
+          "normal": [
+            0.999986529,
+            3.6109e-05,
+            0.005185888
+          ],
+          "axisCoordinate": 29.477682107,
+          "normalAxisAbsDot": 0.999985863,
+          "triangleCount": 4,
+          "area": 0.112351263,
+          "maximumInternalNormalDeviationDeg": 0.300640284
+        },
+        "signedAxialContactOffset": -0.045995643,
+        "patchesUseDisjointOwnership": true,
+        "sourcePatchCoherent": true,
+        "targetPatchCoherent": true,
+        "selfReferenceForbidden": true,
+        "pass": true
+      },
+      "candidateDelta": {
+        "axisErrorDeg": -0.034258757,
+        "signedAxialContactOffset": 0.000150459
+      },
+      "limits": {
+        "axis": "accepted baseline + explicit tolerance, with independent absolute veto",
+        "axisToleranceDeg": 0.25,
+        "maximumAxisErrorDeg": 0.28426402,
+        "absoluteAxisVetoDeg": 2.0,
+        "maximumAbsoluteContactOffsetDelta": 0.02,
+        "minimumTrianglesPerPatch": 3,
+        "minimumPatchArea": 0.05,
+        "maximumInternalPatchNormalDeviationDeg": 5.0,
+        "sameSelectedTriangleMayDefineAndValidateTarget": false
+      },
+      "patchCoherencePass": true
+    }
+  },
+  "visibility": {
+    "weaponfileLiteralContractPass": true,
+    "effectiveCandidateVisibilityPass": false,
+    "reason": "retained sight geometry is body-owned or duplicated and therefore survives/competes despite correct literal hideTags"
+  },
+  "renderCoverage": {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "candidateRawRenderCount": 20,
+    "acceptedRawRenderCount": 20,
+    "blindCopyCount": 40,
+    "blindPairCount": 20,
+    "allExpectedTilesPresent": true,
+    "allReloadedFromDisk": true,
+    "allSourceHashesSealed": true
+  },
+  "xanimCoverage": {
+    "schemaVersion": 1,
+    "tileCount": 20,
+    "uniqueXAnimCount": 9,
+    "allExactXAnimsHashed": true,
+    "xanims": [
+      {
+        "name": "viewmodel_mw2_m16_acog_ADS_fire",
+        "sha256": "37757AB62320B2FFF5EA347BD50F4931C4CF5A5AB748A5D51E318C63733AAF32"
+      },
+      {
+        "name": "viewmodel_mw2_m16_ADS_fire",
+        "sha256": "61475977E7487CE2416DD85D036E06C7A8E911277A22E6E0BE514CA0B45EE2F9"
+      },
+      {
+        "name": "viewmodel_mw2_m16_ADS_up",
+        "sha256": "4079A7EC4B35F6C2CB0A513B90F28E6E4114248178019C78B915F42A47339462"
+      },
+      {
+        "name": "viewmodel_mw2_m16_idle",
+        "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697"
+      },
+      {
+        "name": "viewmodel_mw2_m16_reflex_ADS_fire",
+        "sha256": "5C6B50E7F4F99949F43EA9E4441FC4A002F2F1EABB6BB35597370B916E7DF97C"
+      },
+      {
+        "name": "viewmodel_mw2_m16_reload",
+        "sha256": "F7F9E0FA0E6FF024AFF15D09B1C76AD5CB7DC5F6C8B0FCC1E75E593B70A803F0"
+      },
+      {
+        "name": "viewmodel_mw2_m16_reload_empty",
+        "sha256": "FB3F810C6A4652A18658D4D700AE5504121E0283BCEE9EAEE17A54AC2671A11F"
+      },
+      {
+        "name": "viewmodel_ow2_m16a4_acog_ads_up",
+        "sha256": "473ECD0D9F4C14371EB61E64E87FA4FCCE8CEF8FD6EC1505D313CF6EF76DAEA5"
+      },
+      {
+        "name": "viewmodel_ow2_m16a4_reflex_ads_up",
+        "sha256": "E1507E3D2AAF1D1BAD2869D49F1A3538AF834EE23A3DD3B382062A4B9B103069"
+      }
+    ],
+    "states": [
+      {
+        "role": "bare",
+        "phase": "idle",
+        "xanim": "viewmodel_mw2_m16_idle",
+        "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697",
+        "frame": 15
+      },
+      {
+        "role": "bare",
+        "phase": "ads_up",
+        "xanim": "viewmodel_mw2_m16_ADS_up",
+        "sha256": "4079A7EC4B35F6C2CB0A513B90F28E6E4114248178019C78B915F42A47339462",
+        "frame": 12
+      },
+      {
+        "role": "bare",
+        "phase": "ads_fire",
+        "xanim": "viewmodel_mw2_m16_ADS_fire",
+        "sha256": "61475977E7487CE2416DD85D036E06C7A8E911277A22E6E0BE514CA0B45EE2F9",
+        "frame": 2
+      },
+      {
+        "role": "bare",
+        "phase": "reload",
+        "xanim": "viewmodel_mw2_m16_reload",
+        "sha256": "F7F9E0FA0E6FF024AFF15D09B1C76AD5CB7DC5F6C8B0FCC1E75E593B70A803F0",
+        "frame": 30
+      },
+      {
+        "role": "bare",
+        "phase": "reload_empty",
+        "xanim": "viewmodel_mw2_m16_reload_empty",
+        "sha256": "FB3F810C6A4652A18658D4D700AE5504121E0283BCEE9EAEE17A54AC2671A11F",
+        "frame": 35
+      },
+      {
+        "role": "reflex",
+        "phase": "idle",
+        "xanim": "viewmodel_mw2_m16_idle",
+        "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697",
+        "frame": 15
+      },
+      {
+        "role": "reflex",
+        "phase": "ads_up",
+        "xanim": "viewmodel_ow2_m16a4_reflex_ads_up",
+        "sha256": "E1507E3D2AAF1D1BAD2869D49F1A3538AF834EE23A3DD3B382062A4B9B103069",
+        "frame": 13
+      },
+      {
+        "role": "reflex",
+        "phase": "ads_fire",
+        "xanim": "viewmodel_mw2_m16_reflex_ADS_fire",
+        "sha256": "5C6B50E7F4F99949F43EA9E4441FC4A002F2F1EABB6BB35597370B916E7DF97C",
+        "frame": 2
+      },
+      {
+        "role": "reflex",
+        "phase": "reload",
+        "xanim": "viewmodel_mw2_m16_reload",
+        "sha256": "F7F9E0FA0E6FF024AFF15D09B1C76AD5CB7DC5F6C8B0FCC1E75E593B70A803F0",
+        "frame": 30
+      },
+      {
+        "role": "reflex",
+        "phase": "reload_empty",
+        "xanim": "viewmodel_mw2_m16_reload_empty",
+        "sha256": "FB3F810C6A4652A18658D4D700AE5504121E0283BCEE9EAEE17A54AC2671A11F",
+        "frame": 35
+      },
+      {
+        "role": "acog",
+        "phase": "idle",
+        "xanim": "viewmodel_mw2_m16_idle",
+        "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697",
+        "frame": 15
+      },
+      {
+        "role": "acog",
+        "phase": "ads_up",
+        "xanim": "viewmodel_ow2_m16a4_acog_ads_up",
+        "sha256": "473ECD0D9F4C14371EB61E64E87FA4FCCE8CEF8FD6EC1505D313CF6EF76DAEA5",
+        "frame": 13
+      },
+      {
+        "role": "acog",
+        "phase": "ads_fire",
+        "xanim": "viewmodel_mw2_m16_acog_ADS_fire",
+        "sha256": "37757AB62320B2FFF5EA347BD50F4931C4CF5A5AB748A5D51E318C63733AAF32",
+        "frame": 2
+      },
+      {
+        "role": "acog",
+        "phase": "reload",
+        "xanim": "viewmodel_mw2_m16_reload",
+        "sha256": "F7F9E0FA0E6FF024AFF15D09B1C76AD5CB7DC5F6C8B0FCC1E75E593B70A803F0",
+        "frame": 30
+      },
+      {
+        "role": "acog",
+        "phase": "reload_empty",
+        "xanim": "viewmodel_mw2_m16_reload_empty",
+        "sha256": "FB3F810C6A4652A18658D4D700AE5504121E0283BCEE9EAEE17A54AC2671A11F",
+        "frame": 35
+      },
+      {
+        "role": "suppressor",
+        "phase": "idle",
+        "xanim": "viewmodel_mw2_m16_idle",
+        "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697",
+        "frame": 15
+      },
+      {
+        "role": "suppressor",
+        "phase": "ads_up",
+        "xanim": "viewmodel_mw2_m16_ADS_up",
+        "sha256": "4079A7EC4B35F6C2CB0A513B90F28E6E4114248178019C78B915F42A47339462",
+        "frame": 12
+      },
+      {
+        "role": "suppressor",
+        "phase": "ads_fire",
+        "xanim": "viewmodel_mw2_m16_ADS_fire",
+        "sha256": "61475977E7487CE2416DD85D036E06C7A8E911277A22E6E0BE514CA0B45EE2F9",
+        "frame": 2
+      },
+      {
+        "role": "suppressor",
+        "phase": "reload",
+        "xanim": "viewmodel_mw2_m16_reload",
+        "sha256": "F7F9E0FA0E6FF024AFF15D09B1C76AD5CB7DC5F6C8B0FCC1E75E593B70A803F0",
+        "frame": 30
+      },
+      {
+        "role": "suppressor",
+        "phase": "reload_empty",
+        "xanim": "viewmodel_mw2_m16_reload_empty",
+        "sha256": "FB3F810C6A4652A18658D4D700AE5504121E0283BCEE9EAEE17A54AC2671A11F",
+        "frame": 35
+      }
+    ]
+  },
+  "keyRenderEvidence": [
+    {
+      "identity": "accepted_template_control",
+      "role": "bare",
+      "phase": "ads_up",
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/fixed/candidate_template_control_A/family-01/bare_ads_up_fixed.png",
+      "sha256": "6A734126B4F9ACE4C23581959BF6834ED0DD4F7455A25CC51EB103C34FAA6545"
+    },
+    {
+      "identity": "accepted_template_control",
+      "role": "reflex",
+      "phase": "ads_up",
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/fixed/candidate_template_control_A/family-01/reflex_ads_up_fixed.png",
+      "sha256": "0B29D3B11733EF39D4A3BC07B5D1419542CFC6D02433A261F6D5AD9D80E0F3B1"
+    },
+    {
+      "identity": "accepted_template_control",
+      "role": "acog",
+      "phase": "ads_up",
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/fixed/candidate_template_control_A/family-01/acog_ads_up_fixed.png",
+      "sha256": "B80357E8E4CACABAF40955500120744EE1D893C41C15409645D8F60EA1B9811C"
+    },
+    {
+      "identity": "accepted_template_control",
+      "role": "suppressor",
+      "phase": "ads_up",
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/fixed/candidate_template_control_A/family-01/suppressor_ads_up_fixed.png",
+      "sha256": "EE0559ACA496BF51B8B10F0B48B57A683BF7C19755F790F9BAE591F23B92B164"
+    },
+    {
+      "identity": "candidate",
+      "role": "bare",
+      "phase": "ads_up",
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/fixed/candidate/family-01/bare_ads_up_fixed.png",
+      "sha256": "7F77D79074A962E88F32C28FF8E639D8191D5C03F9C7844E4C62F1AF648BF8F0"
+    },
+    {
+      "identity": "candidate",
+      "role": "reflex",
+      "phase": "ads_up",
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/fixed/candidate/family-01/reflex_ads_up_fixed.png",
+      "sha256": "8FD39E14B8491E47895D23D65817F375F3CB6A0C8EF80D4F35C50ECF4B26C445"
+    },
+    {
+      "identity": "candidate",
+      "role": "acog",
+      "phase": "ads_up",
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/fixed/candidate/family-01/acog_ads_up_fixed.png",
+      "sha256": "A670C77F9F1C0583BB85A7AF3F424FF5A19B74A87D7C2B3AEC515FB6C5AB36B8"
+    },
+    {
+      "identity": "candidate",
+      "role": "suppressor",
+      "phase": "ads_up",
+      "path": "xi_ftag/.audit/weapon_alignment_critic_round3_family1/renders/fixed/candidate/family-01/suppressor_ads_up_fixed.png",
+      "sha256": "0B8861328FC40950C98785731046DA5F32C9CD573225093F969AE61A51BE9733"
+    }
+  ],
+  "blockers": [
+    "Retained/duplicate native factory sight geometry is a hard visibility obstruction across bare, reflex, ACOG, and suppressor states.",
+    "Reflex optic axis misses accepted control by more than 2 px under every exact sampled XAnim; ADS-up delta is 6.602796 px.",
+    "ACOG is visibly huge/off-axis and misses accepted control by 371.773604 px in ADS-up."
+  ],
+  "outputs": {
+    "report": "REPORT.md",
+    "result": "RESULT.json",
+    "hashes": "HASHES.json",
+    "geometry": "measurements/geometry.json",
+    "opticAxisPixels": "measurements/optic_axis_pixels.json",
+    "opticShapeContact": "measurements/optic_shape_contact.json",
+    "renderInventory": "measurements/render_inventory.json",
+    "stateScores": "measurements/state_scores.json",
+    "blindAB": "measurements/blind_ab.json",
+    "inputHashes": "measurements/input_hashes.json",
+    "xanimInventory": "measurements/xanim_inventory.json",
+    "weaponfileVisibility": "measurements/weaponfile_visibility.json",
+    "builderReportCheck": "measurements/builder_report_check.json"
+  },
+  "productionModified": false,
+  "hashManifest": {
+    "path": "HASHES.json",
+    "sha256": "7690ABCC954B00522406797704E7F3BAF07818938C5CF6EB64C810EBF32DC918",
+    "entryCount": 135
+  }
+}

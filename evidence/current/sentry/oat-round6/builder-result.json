@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "audit": "XI FreezeTag lethal sentry OAT/promotion builder Round 6",
+  "verdict": "PASS",
+  "scope": "Exact isolated OAT conversion/link/unlink and reversible promotion recipe; no production promotion or in-game rendering was performed.",
+  "promotionExecuted": false,
+  "verification": {
+    "path": "manifests/VERIFICATION.json",
+    "sha256": "D5D56EF6698863111E8F15B1EE1AA9FC3E98DFC3EA205FE8F3F1807AB6BFAE8E",
+    "checksPassed": 157,
+    "checksTotal": 157,
+    "failures": []
+  },
+  "hardBar": {
+    "authoritativeCandidateHashExact": true,
+    "authoritativeOfflineCriticPass": true,
+    "privateOatClosureLinkPass": true,
+    "stockResidentLinkPass": true,
+    "promotionMinimalLinkPass": true,
+    "xmodelExportUnlinkPass": true,
+    "glbUnlinkPass": true,
+    "materialUnlinkPass": true,
+    "imageUnlinkWithPrivateIwdPass": true,
+    "allExternalGlbUrisResolvedInPromotionTree": true,
+    "noInventedExternalGlbUris": true,
+    "productionMetadataUnchanged": true,
+    "frostSentryIdentityUnchanged": true,
+    "defrosterDroneIdentityUnchanged": true,
+    "exactRollbackPayloadPresent": true,
+    "result": "ALL_PASS"
+  },
+  "authoritativeInputs": {
+    "candidate": {
+      "path": "../sentry_material_builder_round4/candidate/worldmodel_xi_sentry_lethal_round4_material_challenger_lod0.glb",
+      "bytes": 165728,
+      "sha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+    },
+    "offlineCritic": {
+      "report": "../sentry_material_critic_round5/REPORT.md",
+      "result": "../sentry_material_critic_round5/RESULT.json",
+      "verdict": "PASS",
+      "oatProofPreviouslyClaimed": false
+    },
+    "oldProductionLethalGlb": {
+      "path": "../../zone_raw/xi_ftag/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+      "bytes": 304020,
+      "sha256": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD"
+    },
+    "productionXmodelMetadata": {
+      "path": "../../zone_raw/xi_ftag/xmodel/worldmodel_xi_sentry_old_clean.json",
+      "sha256": "68929F3834097C09003DF63DB1148D776D61A38E70500F2E149BE8F5DAF2377C",
+      "lodFile": "model_export/worldmodel_xi_sentry_old_clean_lod0.glb"
+    }
+  },
+  "toolchain": {
+    "version": "OpenAssetTools v0.32.0",
+    "root": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/tools/oat-v0.32.0",
+    "linkerSha256": "1A5CB7499458BEF359F55FF2A78C72E5822F62455599AB291B590DA747C0233B",
+    "unlinkerSha256": "8475AF247240D34B29AA51AE5C84B3E4AED2F7100BB5C689FD3FA1EA666F4A7F",
+    "imageConverterSha256": "FB0EFD4172DC741CEB2329D000118C6262EEA2D9103A24092FB4AA0CA4218906",
+    "commonFfSha256": "DD269840AD20F4C67CD96D1F42B0E5571BC61645C91B1866B65BD08036A6B306",
+    "commonMpFfSha256": "602C068B34F6A32147BFC7727B4F18B6A37FE47B4E99C68F5E25C6507C637320",
+    "commands": "OAT_RUNS.json"
+  },
+  "imageConversion": {
+    "ddsInputs": 5,
+    "iwiOutputs": 5,
+    "exitCode": 0,
+    "stdoutBytes": 0,
+    "outputHashes": {
+      "weapon_sentry_gun_col.iwi": "B8DF825DC29D6F16EF4342ABCF91D9C4CB0CA9401C435975CA2118F150EAAED0",
+      "weapon_sentry_gun_nml.iwi": "31141254F607C353B186AD44BFCA2C0A84F65EDDB355F3C7705B2E164736AD54",
+      "weapon_saw_col.iwi": "B63E4589B04F82077DFC3373DDACBA32CC9914E6864458C958057479D48D24B7",
+      "$identitynormalmap.iwi": "861B04E62C3E2E62CFE754DCA84C08DC5F9E80B8BAC46E3DD7FE9EA720970F20",
+      "~weapon_saw_spc-r65g65b65&wea~fbd00e22.iwi": "7B9355A9E1DDAD73A6ADE62B445DD00F238B051A1E3D44D91785B8D6825E2DC5"
+    },
+    "productionEncodingDistinction": {
+      "convertedSentryColorMatchesProductionIwi": false,
+      "convertedSentryNormalMatchesProductionIwi": false,
+      "promotionMinimalProbeUsesExactProductionSentryIwis": true
+    },
+    "negativeProof": "The first private link with DDS files but without converted IWIs failed with 0 warnings and 6 errors; OAT reported missing IW3 image assets."
+  },
+  "oatContexts": {
+    "privateClosure": {
+      "zone": "xi_sentry_lethal_round6_private",
+      "fastfile": "private/output_private/xi_sentry_lethal_round6_private.ff",
+      "bytes": 50473,
+      "sha256": "0764F33E8E809C1E1EC1A7FDE1252FD062549D24F3849C3599EFC1928F70D6BB",
+      "link": "Finished with 0 warnings, 0 errors",
+      "assetOrigins": "All three materials and all six images from the private disk tree; two technique sets from common.ff."
+    },
+    "stockResident": {
+      "zone": "xi_sentry_lethal_round6_resident",
+      "fastfile": "private/output_resident/xi_sentry_lethal_round6_resident.ff",
+      "bytes": 39400,
+      "sha256": "32FBED2FEF6307DD3250C89F12F3D4BFED651489973ECA4408163E47CFBBCFF7",
+      "link": "Finished with 0 warnings, 0 errors",
+      "assetOrigins": "Production ignore list active; sentry and misc SAW materials available from disk, stock SAW material/images recorded as resident references."
+    },
+    "promotionMinimal": {
+      "zone": "xi_sentry_lethal_round6_minimal",
+      "fastfile": "private/output_minimal/xi_sentry_lethal_round6_minimal.ff",
+      "bytes": 39408,
+      "sha256": "BF846EECBCE57E142015D8070AE2677DECFD0EF8BD1F77EDF6FE6936A76E4967",
+      "link": "Finished with 0 warnings, 0 errors",
+      "assetOrigins": "Exact production sentry material/IWIs from disk; no private SAW material JSON or SAW IWIs; mc/mtl_weapon_saw_misc_nocamo resolved from common_mp; stock SAW material/images remained references."
+    }
+  },
+  "compiledModel": {
+    "sourceGlb": {
+      "joints": 12,
+      "meshes": 4,
+      "primitives": 4,
+      "renderVertices": 2843,
+      "triangles": 1749,
+      "materialOrder": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ],
+      "jointOrder": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash",
+        "tag_brass",
+        "tag_clip"
+      ]
+    },
+    "xmodelExport": {
+      "bones": 12,
+      "pooledPositions": 1100,
+      "triangles": 1749,
+      "surfaces": 4,
+      "materials": 3,
+      "boneOrder": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "tag_brass",
+        "tag_clip",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash"
+      ],
+      "bounds": {
+        "min": [-22.708826, -19.395699, 0.0],
+        "max": [19.212023, 19.564678, 38.201344],
+        "extent": [41.920849, 38.960377, 38.201344]
+      },
+      "surfaceRecords": [
+        { "name": "surf0", "pooledPositions": 356, "triangles": 564, "material": "mc/mtl_sentry_bo" },
+        { "name": "surf1", "pooledPositions": 72, "triangles": 132, "material": "mc/mtl_weapon_saw_misc_nocamo" },
+        { "name": "surf2", "pooledPositions": 160, "triangles": 296, "material": "mc/mtl_weapon_saw_misc_nocamo" },
+        { "name": "surf3", "pooledPositions": 512, "triangles": 757, "material": "mc/mtl_weapon_saw" }
+      ]
+    },
+    "dumpedGlb": {
+      "declaredPositionAccessorEntries": 11372,
+      "referencedRenderVertices": 2843,
+      "referencedRenderVerticesBySurface": [864, 216, 552, 1211],
+      "triangles": 1749,
+      "explanation": "Each dumped primitive has a global 2,843-entry position accessor, but its indices reference only its own exact source render-vertex subset. XMODEL_EXPORT separately stores 1,100 pooled positions with normal/UV data at triangle corners."
+    },
+    "allThreeContextsSemanticallyIdentical": true
+  },
+  "materialAndImageClosure": {
+    "materials": [
+      { "name": "mc/mtl_sentry_bo", "images": ["~weapon_sentry_gun_spec-rgb&$~ae6da276", "weapon_sentry_gun_nml", "weapon_sentry_gun_col"] },
+      { "name": "mc/mtl_weapon_saw_misc_nocamo", "images": ["~weapon_saw_spc-r65g65b65&wea~fbd00e22", "$identitynormalmap", "weapon_saw_col"] },
+      { "name": "mc/mtl_weapon_saw", "images": ["~weapon_saw_spc-r65g65b65&wea~fbd00e22", "$identitynormalmap", "weapon_saw_col"] }
+    ],
+    "externalGlbUris": [
+      { "uri": "../images/weapon_sentry_gun_col.dds", "sha256": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC" },
+      { "uri": "../images/weapon_sentry_gun_nml.dds", "sha256": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3" },
+      { "uri": "../images/weapon_saw_col.dds", "sha256": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA" },
+      { "uri": "../images/$identitynormalmap.dds", "sha256": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96" }
+    ],
+    "externalUriCount": 4,
+    "missingInPrivatePromotionTree": 0,
+    "inventedUriCount": 0,
+    "unlinkedExternalDdsHashesExact": true,
+    "imageUnlink": {
+      "withoutIwd": "Finished with 0 warnings, 6 errors despite process exit code 0",
+      "withPrivateSixEntryIwd": "Finished with 0 warnings, 0 errors"
+    }
+  },
+  "promotion": {
+    "map": "promotion-map.json",
+    "status": "NOT_EXECUTED",
+    "operationCount": 5,
+    "replacedModelIdentities": ["worldmodel_xi_sentry_old_clean"],
+    "replaceOperations": 1,
+    "createOperations": 4,
+    "singleFilePromotion": false,
+    "singleFileGap": "The unchanged authoritative GLB contains four external DDS URIs and none of those literal DDS targets currently exists in production. The exact recipe therefore adds those four source files while replacing only the lethal model payload.",
+    "metadataWrites": 0,
+    "materialWrites": 0,
+    "iwiWrites": 0,
+    "profileWrites": 0,
+    "zoneWrites": 0,
+    "controlModelWrites": 0,
+    "rollback": "One sealed old-production GLB restore plus hash-gated deletion of the four newly created DDS files."
+  },
+  "roleIdentity": {
+    "groundFrostSentry": {
+      "asset": "worldmodel_t8_sentry_deployed",
+      "glbSha256": "580A7381B916FAFFBBBC812F785A42F1EBE61100B15ED4CE490B983356C9AD9E"
+    },
+    "lethalSentry": {
+      "asset": "worldmodel_xi_sentry_old_clean",
+      "candidateGlbSha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+    },
+    "airborneDefrosterDrone": {
+      "asset": "worldmodel_t8_defroster_drone",
+      "glbSha256": "2737870FF7A67C75D33DDD68D2158D7721E852869F5DA755207714A8AC5E15D5"
+    },
+    "assetProfileReturnsThreeDistinctNames": true,
+    "zoneContainsEachRoleXmodelExactlyOnce": true,
+    "privateProbeContainsOnlyLethalXmodel": true
+  },
+  "iw3FormatCapacities": {
+    "scope": "Representational field capacities evidenced by OAT v0.32.0 IW3_Assets.h, not a claim about every runtime pool.",
+    "source": "https://raw.githubusercontent.com/Laupetin/OpenAssetTools/v0.32.0/src/Common/Game/IW3/IW3_Assets.h",
+    "representableMax": {
+      "bones": 255,
+      "surfaces": 255,
+      "verticesPerSurface": 65535,
+      "trianglesPerSurface": 65535,
+      "triangleVertexIndex": 65535
+    },
+    "compiled": {
+      "bones": 12,
+      "surfaces": 4,
+      "verticesPerSurface": [356, 72, 160, 512],
+      "trianglesPerSurface": [564, 132, 296, 757],
+      "maxTriangleVertexIndex": 1099
+    },
+    "withinRepresentationalCapacities": true
+  },
+  "limitations": [
+    "No production file was promoted by this audit.",
+    "No in-game load, lighting, collision, animation, muzzle-effect alignment, or runtime asset-pool behavior was exercised.",
+    "OAT reordered the source skin joint array into a deterministic parent-before-child XModel bone order; the exact source and compiled orders are both recorded.",
+    "A bare image-only Unlinker run cannot recover IW3 pixel data from the FF alone; supplying the private IWD resolved all six payloads.",
+    "Representational field capacities do not establish every engine or renderer limit."
+  ],
+  "evidence": {
+    "report": "REPORT.md",
+    "promotionMap": "promotion-map.json",
+    "oatRuns": "OAT_RUNS.json",
+    "verification": "manifests/VERIFICATION.json",
+    "verifier": "verify_round6.py",
+    "checksumVerifier": "verify_sha256.py",
+    "sha256Sums": "SHA256SUMS.txt",
+    "logs": "logs/",
+    "privateTree": "private/",
+    "rollbackPayload": "rollback/worldmodel_xi_sentry_old_clean_lod0.pre_round6.glb"
+  }
+}

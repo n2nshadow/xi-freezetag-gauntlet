@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "audit": "XI CoD4 FreezeTag viewhands critic round12 ghost",
+  "status": "PASS",
+  "candidate": {
+    "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/viewhands_builder_round11_ghost/variants/source-stock-basis-shifted/hands.glb",
+    "sha256": "47632BE9B567B257A39D86314FB2CB82C1354A1AA519C2845CB75A3BBB6356C6",
+    "expected_hash_match": true
+  },
+  "blind_result": {
+    "mapping": {
+      "A": "stock",
+      "B": "candidate"
+    },
+    "candidate_panel": "B",
+    "candidate_visual_disposition": "PASS_WITH_NONFATAL_ANATOMICAL_GAP",
+    "ballot_sha256": "C1F813196071534B4B143910771C489109CB6EA99CDBE5F37863AFE06456DFE2",
+    "mandatory_fatal_defect_count": 0
+  },
+  "nonfatal_gap": "Candidate palms/hands are thinner and more faceted than stock; the left underside has an angular X-like thenar-to-wrist crease while retaining palm depth and viable thumb opposition.",
+  "structural": {
+    "vertices": 61233,
+    "triangles": 20411,
+    "serialized_connected_components": 20411,
+    "geometric_welded_components_1e5": 289,
+    "joints": 91,
+    "passes_91_or_fewer": true,
+    "passes_128_safe": true,
+    "stock_required_joint_names": 71,
+    "missing_stock_required_joint_names": [],
+    "passes_effective_required_hierarchy": true,
+    "max_positive_influences": 4,
+    "unweighted_vertices": 0,
+    "minimum_positive_weight": 0.01176498830318451,
+    "passes_weight_floor_0_0101": true,
+    "invalid_joint_indices": 0,
+    "degenerate_or_zero_area_triangles": 0,
+    "nonmanifold_edges": 0
+  },
+  "source_preservation": {
+    "authored_smd_triangles": 20411,
+    "candidate_triangles_match": true,
+    "authored_smd_uv_corner_stream_float32_exact": true,
+    "maximum_uv_delta": 0.0,
+    "material_names": [
+      "mc/xi_operator_ghost_5_1_t8_viewhands",
+      "mc/xi_operator_ghost_5_1_t8_viewhands_glass"
+    ],
+    "unresolved_material_image_references": []
+  },
+  "animations": {
+    "idle_frames_sampled": 31,
+    "reload_frames_sampled": 71,
+    "all_candidate_positions_finite": true,
+    "all_candidate_node_determinants_positive": true,
+    "posed_zero_area_triangles": 0,
+    "common_hand_track_nodes_exact_to_stock": 68,
+    "visual_contact_no_worse_than_stock": true
+  },
+  "visual_bar": {
+    "reversed_hands": false,
+    "collapsed_or_corkscrewed_wrists_forearms": false,
+    "flattened_palms": false,
+    "missing_or_inside_out_fingers": false,
+    "impossible_thumb_opposition": false,
+    "camera_dominating_volume": false,
+    "material_or_geometry_contamination": false,
+    "idle_reload_contact_worse_than_stock": false
+  },
+  "biggest_remaining_gap": "No OAT conversion or in-game first-person runtime render was permitted, so final importer behavior, IW3 shader behavior, and game FOV were not exercised.",
+  "evidence": {
+    "report": "REPORT.md",
+    "mapping_commitment": "mapping_v2_commitment.json",
+    "mapping_reveal": "mapping_v2_reveal.json",
+    "blind_ballot": "blind_ballot.json",
+    "blind_ballot_lock": "blind_ballot_lock.json",
+    "primary_blind_render_manifest": "render_manifest_blind_lit_v2.json",
+    "textured_render_manifest": "render_manifest_candidate_textured.json",
+    "structural_audit": "structural_audit.json",
+    "semantic_topology_audit": "semantic_topology_audit.json",
+    "authored_smd_uv_audit": "smd_source_uv_audit.json",
+    "input_hashes": "input_hashes_and_materials.json"
+  },
+  "prohibited_actions_performed": {
+    "oat_conversion": false,
+    "production_promotion": false,
+    "build_script_modification": false,
+    "steam_modification": false,
+    "git_modification": false
+  }
+}

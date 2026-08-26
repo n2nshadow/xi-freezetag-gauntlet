@@ -1,0 +1,1336 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#101516">
+  <title>XI FreezeTag | Gauntlet Progress</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="dashboard.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to dashboard</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="XI FreezeTag gauntlet overview">
+        <span class="brand-sigil" aria-hidden="true"><span>XI</span></span>
+        <span class="brand-copy">
+          <strong>FreezeTag</strong>
+          <span>Gauntlet control</span>
+        </span>
+      </a>
+
+      <nav class="section-nav" aria-label="Dashboard sections">
+        <a href="#scorecards">Scorecards</a>
+        <a href="#budgets">Budgets</a>
+        <a href="#current-round">Current round</a>
+        <a href="#history">History</a>
+        <a href="#visual-vote">A/B vote</a>
+      </nav>
+
+      <div class="header-state">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span>
+          <strong>Live status</strong>
+          <span data-local-clock>Clock loading</span>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- SNAPSHOT FACTS: update this block and the matching sections below together. -->
+    <section class="intro" id="top" aria-labelledby="goal-title">
+      <div class="section-shell">
+        <div class="intro-grid">
+          <div class="goal-copy">
+            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 68</p>
+            <h1 id="goal-title">Clear an independent, evidence-backed release gate.</h1>
+            <p class="lede">
+              Ship the 18-map CoD4 FreezeTag build inside hard engine limits, with its rescue
+              systems independently proven in runtime and one final user session completed live.
+            </p>
+          </div>
+
+          <div class="gate-summary" aria-labelledby="winning-bar-title">
+            <div class="gate-summary-head">
+              <div>
+                <p class="eyebrow" id="winning-bar-title">Concrete winning bar</p>
+                <p class="gate-rule">All six hard gates must pass. Structural evidence cannot substitute for runtime or live play.</p>
+              </div>
+              <div class="gate-count" aria-label="One of six gates passed">
+                <strong>1</strong><span>/ 6</span>
+              </div>
+            </div>
+            <div class="gate-progress" role="progressbar" aria-label="Winning bar progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="1">
+              <span></span>
+            </div>
+            <div class="snapshot-stamp">
+              <span>Current verdict: <strong class="text-fail">FAIL</strong></span>
+              <time datetime="2026-08-26T19:35:00-04:00">26 Aug 2026, 19:35 EDT</time>
+            </div>
+          </div>
+        </div>
+
+        <ol class="winning-bar" aria-label="Release gates">
+          <li class="checkpoint is-fail">
+            <span class="checkpoint-index">01</span>
+            <strong>Build and package</strong>
+            <span>Atomic publication independently passes; real build held for visual gates</span>
+          </li>
+          <li class="checkpoint is-fail">
+            <span class="checkpoint-index">02</span>
+            <strong>Engine envelope</strong>
+            <span>18 maps inside hard caps</span>
+          </li>
+          <li class="checkpoint is-pass">
+            <span class="checkpoint-index">03</span>
+            <strong>Runtime integration</strong>
+            <span>84/100; skinned cache overflow</span>
+          </li>
+          <li class="checkpoint is-fail">
+            <span class="checkpoint-index">04</span>
+            <strong>Sustained population</strong>
+            <span>Duration held; streak exercise absent</span>
+          </li>
+          <li class="checkpoint is-fail">
+            <span class="checkpoint-index">05</span>
+            <strong>Blind visual A/B</strong>
+              <span>38/100; candidate lost 16 of 16</span>
+          </li>
+          <li class="checkpoint is-fail">
+            <span class="checkpoint-index">06</span>
+            <strong>User live test</strong>
+            <span>Rejected: hands, ice/translucency, sentry visuals</span>
+          </li>
+        </ol>
+
+        <div class="verification-key" aria-label="Verification level definitions">
+          <div class="key-label">Evidence levels</div>
+          <div class="key-item">
+            <span class="tier tier-structural">Structural</span>
+            <span>Files, package inventory, static budgets</span>
+          </div>
+          <div class="key-item">
+            <span class="tier tier-runtime">Runtime</span>
+            <span>Engine log emitted the required probe result</span>
+          </div>
+          <div class="key-item">
+            <span class="tier tier-live">User live</span>
+            <span>A person played and accepted the experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band" id="scorecards" aria-labelledby="scorecards-title">
+      <div class="section-shell">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow">Objective gates</p>
+            <h2 id="scorecards-title">System scorecards</h2>
+          </div>
+          <div class="score-tally" aria-label="Two pass, four fail">
+            <span><i class="state-dot pass" aria-hidden="true"></i>2 pass</span>
+            <span><i class="state-dot fail" aria-hidden="true"></i>4 fail</span>
+          </div>
+        </header>
+
+        <div class="score-table" role="table" aria-label="Gauntlet system scorecards">
+          <div class="score-head" role="row">
+            <span role="columnheader">System</span>
+            <span role="columnheader">Objective result</span>
+            <span role="columnheader">Highest evidence</span>
+            <span role="columnheader">State</span>
+          </div>
+
+          <div class="score-row is-current" role="row">
+            <div class="score-system" role="cell" data-label="System">
+              <span class="system-code">SYS-01</span>
+              <strong>Reproducible package</strong>
+            </div>
+            <div class="score-result" role="cell" data-label="Objective result">
+              105 validators owned; all 87 mandatory source gates pass. A new OAT link is intentionally pending the hands visual gate.
+            </div>
+            <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
+            <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
+          </div>
+
+          <div class="score-row" role="row">
+            <div class="score-system" role="cell" data-label="System">
+              <span class="system-code">SYS-02</span>
+              <strong>Engine envelope and maps</strong>
+            </div>
+            <div class="score-result" role="cell" data-label="Objective result">
+              Materials 353/760, union 1676/2048, XModels 989/1000; 18 of 21 stock maps supported.
+            </div>
+            <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
+            <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
+          </div>
+
+          <div class="score-row" role="row">
+            <div class="score-system" role="cell" data-label="System">
+              <span class="system-code">SYS-03</span>
+              <strong>Independent runtime integration</strong>
+            </div>
+            <div class="score-result" role="cell" data-label="Objective result">
+              The critic scored 84/100 and found client-side skinned-cache loss hidden by the old receipt scanner.
+            </div>
+            <div role="cell" data-label="Highest evidence"><span class="tier tier-runtime">Runtime</span></div>
+            <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
+          </div>
+
+          <div class="score-row is-current" role="row">
+            <div class="score-system" role="cell" data-label="System">
+              <span class="system-code">SYS-04</span>
+              <strong>Sustained 43-player soak</strong>
+            </div>
+            <div class="score-result" role="cell" data-label="Objective result">
+              Population held for 235.068 seconds, but the measured window lacks an earned stored-streak activation/deployment.
+            </div>
+            <div role="cell" data-label="Highest evidence"><span class="tier tier-runtime">Runtime</span></div>
+            <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
+          </div>
+
+          <div class="score-row is-current" role="row">
+            <div class="score-system" role="cell" data-label="System">
+              <span class="system-code">SYS-05</span>
+              <strong>Blind visual A/B</strong>
+            </div>
+            <div class="score-result" role="cell" data-label="Objective result">
+              The critic scored 38/100; custom viewhands lost all 16 stock comparisons across eight operators.
+            </div>
+            <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
+            <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
+          </div>
+
+          <div class="score-row" role="row">
+            <div class="score-system" role="cell" data-label="System">
+              <span class="system-code">SYS-06</span>
+              <strong>User live session</strong>
+            </div>
+            <div class="score-result" role="cell" data-label="Objective result">
+              User-live play rejected this exact tuple: collapsed viewhands, widespread opaque/corrupt rendering, a composite sentry pile, and displaced sights.
+            </div>
+            <div role="cell" data-label="Highest evidence"><span class="tier tier-live">User live</span></div>
+            <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band section-band-alt" id="budgets" aria-labelledby="budgets-title">
+      <div class="section-shell">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow">Current build envelope</p>
+            <h2 id="budgets-title">Engine budgets</h2>
+          </div>
+          <p class="section-note">Worst supported map: <code>mp_vacant</code></p>
+        </header>
+
+        <div class="budget-grid">
+          <article class="budget-metric">
+            <div class="metric-head">
+              <div>
+                <span class="metric-label">Materials</span>
+                <strong>353 <small>/ 760</small></strong>
+              </div>
+              <span class="status status-pass">Pass</span>
+            </div>
+            <div class="meter" role="progressbar" aria-label="Materials used" aria-valuemin="0" aria-valuemax="760" aria-valuenow="353">
+              <span style="--meter-fill: 46.4%"></span>
+            </div>
+            <p>46.4% used <span>407 headroom</span></p>
+          </article>
+
+          <article class="budget-metric">
+            <div class="metric-head">
+              <div>
+                <span class="metric-label">Map + mod assets</span>
+                <strong>1,676 <small>/ 2,048</small></strong>
+              </div>
+              <span class="status status-pass">Pass</span>
+            </div>
+            <div class="meter" role="progressbar" aria-label="Map and mod assets used" aria-valuemin="0" aria-valuemax="2048" aria-valuenow="1676">
+              <span style="--meter-fill: 81.8%"></span>
+            </div>
+            <p>81.8% used <span>372 headroom</span></p>
+          </article>
+
+          <article class="budget-metric is-tight">
+            <div class="metric-head">
+              <div>
+                <span class="metric-label">XModels on mp_vacant</span>
+                <strong>989 <small>/ 1,000</small></strong>
+              </div>
+              <span class="status status-pass">Pass</span>
+            </div>
+            <div class="meter" role="progressbar" aria-label="XModels used on mp_vacant" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="989">
+              <span style="--meter-fill: 98.9%"></span>
+            </div>
+            <p>98.9% used <span>11 engine / 1 safety headroom</span></p>
+          </article>
+
+          <article class="budget-metric">
+            <div class="metric-head">
+              <div>
+                <span class="metric-label">Supported stock maps</span>
+                <strong>18 <small>/ 21</small></strong>
+              </div>
+              <span class="status status-pass">Pass</span>
+            </div>
+            <div class="meter" role="progressbar" aria-label="Supported stock maps" aria-valuemin="0" aria-valuemax="21" aria-valuenow="18">
+              <span style="--meter-fill: 85.7%"></span>
+            </div>
+            <p>Shipped safety bar met <span>3 excluded</span></p>
+          </article>
+        </div>
+
+        <div class="package-strip" aria-label="IWD package inventory">
+          <div class="package-title">
+            <span class="eyebrow">IWD inventory</span>
+            <strong><code>zone_out/xi_ftag.iwd</code></strong>
+          </div>
+          <dl>
+            <div>
+              <dt>Package size</dt>
+              <dd>34,801,753 <small>bytes</small></dd>
+            </div>
+            <div>
+              <dt>Files</dt>
+              <dd>516</dd>
+            </div>
+            <div>
+              <dt>Runtime images</dt>
+              <dd>337</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band current-round" id="current-round" aria-labelledby="current-round-title">
+      <div class="section-shell">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow">Live checkpoint</p>
+            <h2 id="current-round-title">Center Every Sight, Seal Every Runtime State</h2>
+          </div>
+          <span class="status status-unknown status-large">Snapshot 70 / no-go</span>
+        </header>
+
+        <div class="round-grid">
+          <div>
+            <dl class="round-facts">
+              <div>
+                <dt>Recovered builders</dt>
+                <dd>All eight operator far LODs now have promotion receipts. Alice's <code>900 exported / 712 compiled</code> challenger beat production <code>8.75 / 2.00</code> in a concealed A/B, passed a fresh OAT round trip, and was promoted through a hash-sealed rollback transaction. LOD0, viewhands, cards, and the other seven operators stayed unchanged.</dd>
+              </div>
+              <div>
+                <dt>Independent critics</dt>
+                <dd>Alice round 8 remains a sealed <strong class="text-pass">PASS</strong>. The exact one-gun lethal sentry and package transaction Round 10 retain independent <strong class="text-pass">PASS</strong> verdicts. Runtime Identity Round 3 has a fresh independent <strong class="text-pass">PASS</strong> for its exact <code>9230C0E4...</code> candidate: committed-tree reconstruction, all <code>37</code> state mappings, and <code>1,110 / 1,110</code> XAnim slots reproduce while production remains untouched. The newer staged runtime/menu patch <code>B7920DB5...</code> is now independently <strong class="text-fail">REJECTED</strong>: all <code>17</code> held selections resolve to no weapon and block deployment instead of retaining the saved choice while deploying family <code>A0</code>. Its claimed Round 3 proof is also not hash-bound to that changed behavior. Family 1, Family 2, and Ghost hands remain rejected visual blockers.</dd>
+              </div>
+              <div>
+                <dt>Probe</dt>
+                <dd><strong class="text-pass">ROUND 10 FRESH CRITIC PASS.</strong> PowerShell 7.6.4 and Windows PowerShell 5.1 each pass <code>32 / 32</code> independent interruption cases. The critic confirms exact all-old/all-new visibility, zero mixed states, zero residue, <code>154 / 154</code> child processes reaped, <code>37 / 37</code> critic checks, and identical production snapshots. Power-loss and kernel-crash simulation remain outside this offline process-termination bar.</dd>
+              </div>
+              <div>
+                <dt>Remote viewer</dt>
+                <dd><strong class="text-pass">PUBLIC HTTPS RESTORED.</strong> The expired route was replaced with a direct <a href="https://c23ee3f0eaef267e-70-44-112-229.serveousercontent.com/?snapshot=70">phone-safe dashboard route</a>. Repeated Android-style outside checks returned the complete Snapshot 70 page, stylesheet, and JavaScript without an interstitial. Only this dashboard directory is served; the temporary address remains unlisted but is accessible to anyone who has it.</dd>
+              </div>
+              <div>
+                <dt>Alignment evaluator</dt>
+                <dd><strong class="text-fail">FRESH CRITIC REJECTED THE JUDGE.</strong> The original replay still passes <code>9 / 9</code> tests and rejects its <code>49</code> known fixtures, but a coherently resealed real <code>1920 x 1080</code> raster with a <code>64 px</code> sight displacement and even an arbitrary nonexistent raster hash both pass. Stock controls bypass the final-raster path, contact and visibility contain asserted values, sight landmarks are not measured separately, and the real trajectory path has no measurable positive. A fresh Round 2 builder is repairing those exact gaps; no weapon candidate may be promoted through the rejected evaluator.</dd>
+              </div>
+              <div>
+                <dt>Gameplay spine</dt>
+                <dd><strong class="text-pass">72 / 72 SOURCE-ONLY GATES PASS.</strong> The current source validates all <code>295</code> recovered MW2 FreezeTag scripts plus gameplay, admin, menus, audio, streaks, rank 150, bots, population, weapon and attachment geometry, ADS templates, 38 weapon-material visual gates, operator LOD budgets, and runtime asset references. The <code>337</code>-image plan is <code>74.8 MiB</code>. These checks do not waive hands, sentry OAT/in-engine shading, package transaction, or live-play gates.</dd>
+              </div>
+              <div>
+                <dt>Verdict</dt>
+                <dd><strong class="text-fail">NO-GO</strong> / repair source only; no packaging, Steam copy, backup, commit, or push before the visual lanes win</dd>
+              </div>
+              <div>
+                <dt>Sentry recovery</dt>
+                <dd><strong class="text-pass">OFFLINE GEOMETRY, MATERIAL, AND OAT PASS.</strong> The fresh Round 7 critic independently linked the exact <code>9EDE3C17...</code> candidate under the production lethal-sentry identity in private and promotion-minimal contexts with zero warnings/errors. Source and compiled hierarchy, four surfaces, <code>1,749</code> triangles, three materials, and the current production image payloads all agree. Frost Sentry and Defroster Drone remain distinct. Promotion is held only until the shared crash-safe transaction lane passes; real CoD4 lighting and deployment remain later runtime gates.</dd>
+              </div>
+              <div>
+                <dt>Best hands probe</dt>
+                <dd><strong class="text-fail">ROUND 15 REJECTED BEFORE EXPORT.</strong> The strongest root-diffusion candidate preserves the exact <code>91</code>-joint rig, four influences per vertex, minimum positive weight <code>0.0102</code>, and zero unweighted vertices. It still fails every real animation comparison: <code>40 / 40</code> training frames expose <code>31,022</code> hard defects and <code>32 / 32</code> held-out frames expose <code>25,460</code>. No GLB, XModel, OAT link, package, or production change was allowed.</dd>
+              </div>
+              <div>
+                <dt>Weapon alignment</dt>
+                <dd><strong class="text-fail">ALL 37 STATES HELD; FOUR FRESH BUILD LANES ARE ACTIVE.</strong> Real terminal raster inspection rejects F01's bare slab and grossly oversized/clipped reflex and ACOG geometry. F02 is <code>0 / 4</code>: its bare aperture is about <code>119.8 px</code> high, reflex about <code>92.5 px</code> high, and ACOG about <code>30.27 px</code> off center. A hash-sealed lead inventory now confirms the other <code>29 / 29</code> states remain unproved and that the rejected baseline retained no inspectable PNGs. Fresh builders are repairing the evaluator, F01, F02, and held-state <code>A0</code> fallback independently. The release bar still requires exact final <code>1920 x 1080</code> composed rasters within <code>2 px</code>, source-sealed recoil, correct hip framing, attachment scale/contact, hide/show ownership, and all six animation phases for every state.</dd>
+              </div>
+              <div>
+                <dt>Sentry deployment trace</dt>
+                <dd>Current source routes both Frost Sentry and Sentry Grenade through the same <code>briefcase_bomb_defuse_mp</code> throwable-marker system, including the same settle and detonation resolver. Their different live-test deployment presentation therefore indicates stale or mismatched packaged source, not an intentional source-path difference; seal round 6 must prevent that mismatch before the next build.</dd>
+              </div>
+              <div>
+                <dt>Outlaw lens and IWD</dt>
+                <dd>The Outlaw lens alpha/material repair and runtime-reference checks pass. Deduplication now records <code>8</code> byte-identical slots removed and <code>337</code> runtime IWD images; the existing IWD is intentionally considered stale until rebuilt.</dd>
+              </div>
+              <div>
+                <dt>Hades world probe</dt>
+                <dd>Round 4 is promoted at <code>9,984 triangles / 14,063 vertices</code>, preserves <code>35/35</code> source regions, and wins over round 3. The dropped composite was rebuilt at <code>60,617 / 64,000</code> vertices, and the current source passes all <code>42</code> weapon material/geometry gates.</dd>
+              </div>
+              <div>
+                <dt>Operator LOD3 verdict</dt>
+                <dd><strong class="text-pass">PASS / ALL EIGHT PROMOTED.</strong> Seven prior winners remain intact. Alice round 8 replaced only its malformed production LOD3, reduced compiled vertices from <code>965</code> to <code>712</code>, and passed presentation, four-LOD, and five body-budget scenarios. Receipt <code>promotion-receipt.json</code> records the sealed critic evidence, before/after hashes, and rollback files.</dd>
+              </div>
+              <div>
+                <dt>Weapon-pool constraint</dt>
+                <dd>The playable source passes at <code>11</code> explicit fastfile weapons and <code>84 / 128</code> runtime names. Its <code>337</code> compressed runtime images total <code>74.8 MiB</code>, all <code>38</code> production weapon-material visual gates pass, and the private imported weapon meshes retain the audited 30% reduction. The stricter ten-entry optimization remains isolated and may not remove a playable custom weapon.</dd>
+              </div>
+            </dl>
+
+            <div class="evidence-block">
+              <h3>Evidence links and paths</h3>
+              <ul class="evidence-list">
+                <li>
+                  <span class="tier tier-visual">Current</span>
+                  <a href="evidence/current/sentry/material-identity.png">Accepted lethal sentry, Frost Sentry, and drone identity comparison</a>
+                  <code>Fresh material critic PASS; one full-size gun, one coherent mount, separate smaller Frost Sentry and airborne drone</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/sentry/material-critic-report.md">Fresh lethal-sentry material critic report</a>
+                  <code>PASS: all machine checks and 39 checksum replays pass; blind front/side/top A/B ties</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/sentry/oat-round6/builder-report.md">Lethal-sentry isolated OAT builder report</a>
+                  <code>Builder PASS: exact candidate hash, three clean OAT contexts, full unlink evidence, 157/157 verification</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/sentry/oat-round7/critic-report.md">Independent lethal-sentry OAT critic report</a>
+                  <code>Asset/OAT PASS; overall HOLD only because the five-file promotion map still needs the shared crash-safe transaction</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/sentry/oat-round7/critic-result.json">Independent lethal-sentry OAT verdict</a>
+                  <code>653/653 checksums valid; 22 production invariants unchanged; no promotion, build, Steam copy, or launch performed</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current</span>
+                  <a href="evidence/current/hands/bind-left-details.png">Ghost round-11 blind hand details</a>
+                  <code>No fatal collapse; stock still wins palm volume and thenar-to-wrist continuity</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current</span>
+                  <a href="evidence/current/hands/round13-bind-invariant-a/bind-candidate.png">Round 13 exact source-faithful bind candidate</a>
+                  <code>Bind PASS: complete Ghost source topology and materials, microunit reconstruction error</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current</span>
+                  <a href="evidence/current/hands/round13-bind-invariant-a/idle-candidate-fail.png">Round 13 stock-idle animation failure</a>
+                  <code>Lead VETO: source weights do not retarget to the CoD4 animation controls; arms and fingers explode into arcs</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current</span>
+                  <a href="evidence/current/hands/round13-stock-transfer-a/idle15-candidate.png">Round 13 stock-transfer animation candidate</a>
+                  <code>Improved envelope, still vetoed: collapsed palm/thumb web and intersecting accessory shells</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Builder</span>
+                  <a href="evidence/current/hands/round15-root-diffusion/REPORT.md">Ghost viewhands Round 15 report</a>
+                  <code>Rejected before export: 40/40 training and 32/32 held-out animation comparisons fail despite an exact 91-joint rig</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Lead replay</span>
+                  <a href="evidence/current/weapons/alignment-harness-round1/REPORT.md">Sealed alignment evaluator report</a>
+                  <code>9/9 tests; 49/49 adversarial cases rejected; exact 37-state and 222-phase contract</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Lead replay</span>
+                  <a href="evidence/current/weapons/alignment-harness-round1/lead-real-controls.json">Independent real stock-control replay</a>
+                  <code>5/5 untouched positives pass; 5/5 physically displaced negatives reject; exact reference replay</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Fresh critic</span>
+                  <a href="evidence/current/weapons/alignment-harness-critic-round1/REPORT.md">Alignment evaluator adversarial rejection</a>
+                  <code>HOLD: resealed 64 px displaced and nonexistent raster evidence can pass; stock controls do not exercise the claimed final-raster path</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Sealed result</span>
+                  <a href="evidence/current/weapons/alignment-harness-critic-round1/RESULT.json">Alignment evaluator critic result</a>
+                  <code>0/37 candidate states remain HOLD; no weapon promotion authorized</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Hash manifest</span>
+                  <a href="evidence/current/weapons/alignment-harness-critic-round1/SHA256SUMS.txt">Alignment evaluator critic hashes</a>
+                  <code>53/53 critic artifacts verified with zero missing or mismatched entries</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Lead triage</span>
+                  <a href="evidence/current/weapons/remaining-families-lead-round1/REPORT.md">Remaining 29-state weapon-family inventory</a>
+                  <code>HOLD: nine families and 29 states inventoried; rejected baseline retained no inspectable PNG release evidence</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Sealed result</span>
+                  <a href="evidence/current/weapons/remaining-families-lead-round1/RESULT.json">Remaining-family triage result</a>
+                  <code>0/29 pass; exact state, visible-tag, weaponfile, model hash, and repair order recorded</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Hash manifest</span>
+                  <a href="evidence/current/weapons/remaining-families-lead-round1/SHA256SUMS.txt">Remaining-family triage hashes</a>
+                  <code>Report and result replay with zero missing or mismatched entries</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current hold</span>
+                  <a href="evidence/current/weapons/family1-local-c2/bare.png">F01 local-C2 exact-composed bare raster</a>
+                  <code>REJECTED: competing offset cyan and gray sight/weapon structures remain visible</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current hold</span>
+                  <a href="evidence/current/weapons/family1-local-c2/reflex.png">F01 local-C2 exact-composed reflex raster</a>
+                  <code>REJECTED: oversized, left-offset optic and duplicate host geometry</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current hold</span>
+                  <a href="evidence/current/weapons/family1-local-c2/acog.png">F01 local-C2 exact-composed ACOG raster</a>
+                  <code>REJECTED: optic shell is oversized and clips across the camera</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Builder hold</span>
+                  <a href="evidence/current/weapons/family2-round3/basis-candidate-evaluation.json">F02 round-3 exact candidate evaluation</a>
+                  <code>BD12E912... preserves root identity but fails iron contact, optic scale/shape, suppressor, and dependency gates</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Builder candidate</span>
+                  <a href="evidence/current/weapons/attachment-matrix-builder-round1/REPORT.md">Quarantined runtime/menu conformance patch</a>
+                  <code>B7920DB5... closes silent fallback and F10 conflict; 17 visually unaccepted states remain held for fresh criticism</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current</span>
+                  <a href="evidence/current/weapons/family1-baseline/current-bare-ads.png">Family 1 current bare-state ADS failure</a>
+                  <code>Independent fixed camera reproduces the wrong optic structure still visible over the bare weapon</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current</span>
+                  <a href="evidence/current/weapons/family1-baseline/current-reflex-ads.png">Family 1 current reflex ADS failure</a>
+                  <code>The selected reflex is buried behind the retained factory structure instead of presenting one centered optical window</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Current</span>
+                  <a href="evidence/current/weapons/family1-baseline/current-acog-ads.png">Family 1 current ACOG ADS failure</a>
+                  <code>The current ACOG is oversized and displaced; this is the live-test defect the Round 2 challenger must beat</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Critic</span>
+                  <a href="evidence/current/weapons/family1-round3/critic/REPORT.md">Family 1 Round 3 independent report</a>
+                  <code>HOLD: exact hash 86A6086F... loses 0-4; duplicate body-owned native sights are the largest gap</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Critic</span>
+                  <a href="evidence/current/weapons/family1-round3/critic/RESULT.json">Family 1 Round 3 sealed result</a>
+                  <code>20 candidate plus 20 control XAnim tiles; reflex 6.603 px and ACOG 371.774 px against the 2 px bar</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Critic</span>
+                  <a href="evidence/current/weapons/runtime-identity-round1/REPORT.md">Weapon runtime identity Round 1 report</a>
+                  <code>HOLD: F10-A0 visible/hidden scope conflict, self-certified readiness, and only 185 of 1110 XAnim slots sealed</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Critic</span>
+                  <a href="evidence/current/weapons/runtime-identity-round1/RESULT.json">Weapon runtime identity Round 1 sealed result</a>
+                  <code>All 37 states audited; 879 present slots and 180 unique runtime XAnims independently inventoried</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Builder</span>
+                  <a href="evidence/current/weapons/runtime-identity-round2-builder/REPORT.md">Weapon runtime identity Round 2 candidate report</a>
+                  <code>Builder PASS / release HOLD: 1110/1110 XAnim slots sealed, F10 repaired, and clean-clone external receipt attacks pass; fresh criticism is active</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Builder</span>
+                  <a href="evidence/current/weapons/runtime-identity-round2-builder/RESULT.json">Weapon runtime identity Round 2 candidate result</a>
+                  <code>Exact isolated patch 39C778AF...; production remains untouched and visual alignment is not waived</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Critic</span>
+                  <a href="evidence/current/weapons/runtime-identity-round2-critic/REPORT.md">Weapon runtime identity Round 2 independent report</a>
+                  <code>FAIL: clean committed source is incomplete; trust root self-certifies; held/unknown deployment and post-resolver rewrite bypasses remain</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Critic</span>
+                  <a href="evidence/current/weapons/runtime-identity-round2-critic/RESULT.json">Weapon runtime identity Round 2 sealed result</a>
+                  <code>Positive inventory checks pass, but the exact candidate is quarantined and production remains untouched</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Builder</span>
+                  <a href="evidence/current/weapons/runtime-identity-round3-builder/REPORT.md">Weapon runtime identity Round 3 candidate report</a>
+                  <code>Lead rerun PASS / visual HOLD: exact patch 9230C0E4..., clean committed-tree reconstruction, 37 states and 1,110 XAnim slots; fresh criticism remains active</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Builder</span>
+                  <a href="evidence/current/weapons/runtime-identity-round3-builder/RESULT.json">Weapon runtime identity Round 3 sealed result</a>
+                  <code>Production, packaging and Steam remain untouched; this candidate does not grant visual acceptance</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Critic</span>
+                  <a href="evidence/current/weapons/runtime-identity-round3-critic/REPORT.md">Weapon runtime identity Round 3 independent report</a>
+                  <code>PASS: exact 9230C0E4... patch reconstructed in a clean detached checkout; all 37 mappings and 1,110 animation slots reproduced; visual alignment remains HOLD</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Critic</span>
+                  <a href="evidence/current/weapons/runtime-identity-round3-critic/RESULT.json">Weapon runtime identity Round 3 independent result</a>
+                  <code>30/30 expected rejection cases fail closed; no build, package, install, launch, or production modification occurred</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Source control</span>
+                  <a href="evidence/current/weapons/alignment-source-controls-round1/REPORT.md">Independent stock sight and attachment controls</a>
+                  <code>Stock M4 controls irons/reflex/ACOG/suppressor; stock M249 controls grip; five displaced negatives define measurable failures</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Executed calibration</span>
+                  <a href="evidence/current/weapons/alignment-stock-calibration-round2/global-stock-cod4-measurement-calibration.json">Five-category stock measurement result</a>
+                  <code>M4 bare/reflex/ACOG/suppressor and M249 grip positives pass; physical displacement, rotation and duplicate-geometry negatives fail through the same evaluators</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Fresh critic</span>
+                  <a href="evidence/current/weapons/attachment-matrix-critic-round1/REPORT.md">Exact 37-state attachment-surface audit</a>
+                  <code>HOLD: exact 11 bare + 26 attachment coverage; 17 selected attachments deploy A0 and F10-A0 hides its required visible scope tag</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Fresh critic</span>
+                  <a href="evidence/current/weapons/attachment-matrix-critic-round1/RESULT.json">Attachment state and runtime conformance result</a>
+                  <code>101 manifest entries verified; no selectable state removed; no production, package, Steam, or game change</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Fresh critic</span>
+                  <a href="evidence/current/weapons/attachment-matrix-critic-round2/REPORT.md">Held-state runtime policy rejection</a>
+                  <code>FAIL / HOLD: all 17 held selections retain their menu identity but resolve to no deployed weapon instead of the required A0 runtime fallback</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Sealed evidence</span>
+                  <a href="evidence/current/weapons/attachment-matrix-critic-round2/RESULT.json">Round 2 exact 37-state critic result</a>
+                  <code>Exact inventory and F10-A0 tag correction pass; current candidate remains quarantined and production is untouched</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Hash manifest</span>
+                  <a href="evidence/current/weapons/attachment-matrix-critic-round2/SHA256SUMS.txt">Round 2 evidence hashes</a>
+                  <code>183/183 entries independently replayed with zero missing files and zero hash failures</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Builder hold</span>
+                  <a href="evidence/current/weapons/family2-builder-round1/REPORT.md">Family 2 VAPR exact-candidate report</a>
+                  <code>HOLD: candidate 7418FA45... has no eligible engine-composed raster and all four selectable states fail current geometry/runtime sweeps</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Builder hold</span>
+                  <a href="evidence/current/weapons/family2-builder-round1/RESULT.json">Family 2 state-by-state result</a>
+                  <code>F02-A0/A1/A2/A3 remain quarantined; displaced physical negatives reject and the production model remains untouched</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Blind A/B</span>
+                  <a href="evidence/current/weapons/family1-round3/blind-pairs/bare_ads_up_fixed.png">Bare sight comparison</a>
+                  <code>Control A wins: candidate B shows duplicate competing native sight structures</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Blind A/B</span>
+                  <a href="evidence/current/weapons/family1-round3/blind-pairs/reflex_ads_up_fixed.png">Reflex sight comparison</a>
+                  <code>Control A wins: grey factory posts survive the selected optic's hideTags</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Blind A/B</span>
+                  <a href="evidence/current/weapons/family1-round3/blind-pairs/acog_ads_up_fixed.png">ACOG sight comparison</a>
+                  <code>Control A wins: candidate is obstructed and far outside the fixed-camera optical axis</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Candidate</span>
+                  <a href="evidence/current/weapons/family1-round2/builder/viewmodel_t8_icr7_summon_round2_lod0.build.json">Family 1 Round 2 sealed builder report</a>
+                  <code>BUILT_UNVERIFIED: coherent optic rails and reloaded suppressor geometry; promotionReady remains false</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Candidate</span>
+                  <a href="evidence/current/weapons/family1-round2/candidate-renders/bare_ads_up_fixed.png">Family 1 Round 2 bare ADS critic render</a>
+                  <code>FAIL: rear/front sight direction exceeds the accepted angular bar</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Candidate</span>
+                  <a href="evidence/current/weapons/family1-round2/candidate-renders/reflex_ads_up_fixed.png">Family 1 Round 2 reflex ADS critic render</a>
+                  <code>FAIL: visibly oversized and improperly seated against the accepted fixed-camera control</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Candidate</span>
+                  <a href="evidence/current/weapons/family1-round2/candidate-renders/acog_ads_up_fixed.png">Family 1 Round 2 ACOG ADS critic render</a>
+                  <code>FAIL: physical scale is close but center, rail contact, and principal axis are displaced</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/weapons/family1-round2/critic/REPORT.md">37-state weapon preflight critic report</a>
+                  <code>HOLD: 11 bare and 26 attachment states inventoried; 17 selected attachments currently deploy their bare fallback</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/weapons/family1-round2/critic/RESULT.json">37-state weapon preflight result</a>
+                  <code>Hash-sealed blocker list, runtime fallback identities, accepted optic scales, and suppressor calibration</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/seal/round10-critic-report.md">Package transaction Round 10 independent critic report</a>
+                  <code>PASS: 64/64 crash and retry cases, 154/154 child processes reaped, exact all-old/all-new visibility on PowerShell 7 and 5.1</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/seal/round10-critic-result.json">Package transaction Round 10 critic result</a>
+                  <code>Independent PASS: 37/37 critic assertions, zero transaction residue, production and repository remained unchanged</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/seal/round10-critic-verification.json">Package transaction Round 10 verification matrix</a>
+                  <code>Both Windows engines replayed from a clean critic-owned workspace; every interruption recovered without mixed package generations</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/seal/round10-critic-sha256sums.txt">Package transaction Round 10 evidence hashes</a>
+                  <code>Hash manifest for the independently generated report, result, verification matrix, and candidate package set</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Current</span>
+                  <a href="evidence/current/hands/REPORT.md">Fresh Ghost viewhands critic report</a>
+                  <code>Structurally valid and source-faithful; returned because the challenger does not beat stock anatomy</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../../.audit/operator_lod3_promotion_round8_alice/20260825_163348/promotion-receipt.json">Alice LOD3 promotion receipt</a>
+                  <code>Blind winner promoted; 900 exported / 712 compiled; rollback originals retained</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Visual</span>
+                  <a href="../../.audit/operator_lod3_critic_round8_alice/REPORT.md">Alice fresh blind critic report</a>
+                  <code>PASS: candidate 8.75 / production 2.00; exact OAT and 48/96px gates passed</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../../.audit/viewhands_builder_round8_ghost/REPORT.md">Ghost viewhands round 8 report</a>
+                  <code>HOLD: exact 71, OAT weight floor and coherent anatomy pass; idle/reload contact still fails</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Visual</span>
+                  <a href="../../.audit/viewhands_builder_round9_ghost/REPORT.md">Ghost viewhands round 9 report</a>
+                  <code>HOLD: coherent two-control shell improves placement but cannot create curled-finger and opposing-thumb contact</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../../.audit/build_source_seal_critic_round5/REPORT.md">Build-source seal critic round 5</a>
+                  <code>FAIL / HOLD: transient source swap, stale tuple injection, case alias, pre-gate junction cleanup, incomplete runtime binding, and non-transactional install</code>
+                </li>
+                <li>
+                  <span class="tier tier-visual">Visual</span>
+                  <a href="../../.audit/operator_lod3_builder_round7_alice/REPORT.md">Alice LOD3 round 7 builder report</a>
+                  <code>Builder provenance for the independently accepted candidate</code>
+                </li>
+                <li>
+                  <span class="tier tier-runtime">Runtime</span>
+                  <a href="../../zone_out/local_bot_shared/Mods/xi_ftag/games_mp.log">Current user-test engine log</a>
+                  <code>RC detonation/control restore, exact 100-point multi-helper thaw, bot movement, ping, and respawn-protection receipts observed</code>
+                </li>
+                <li>
+                  <span class="tier tier-runtime">Runtime</span>
+                  <a href="../../zone_out/integration_server/Mods/xi_ftag_integration_current30/games_mp.log">Current30 engine log</a>
+                  <code>zone_out/integration_server/Mods/xi_ftag_integration_current30/games_mp.log</code>
+                </li>
+                <li>
+                  <span class="tier tier-runtime">Runtime</span>
+                  <a href="../../zone_out/integration-test-receipt.json">Hash-bound integration receipt</a>
+                  <code>Historical receipt only; hardened scanner now rejects this package</code>
+                </li>
+                <li>
+                  <span class="tier tier-runtime">Runtime</span>
+                  <a href="../critics/runtime_automated_thaw_round2.md">Independent runtime review</a>
+                  <code>gauntlet/critics/runtime_automated_thaw_round2.md : FAIL 84/100</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../critics/visual_round2.md">Blind visual review</a>
+                  <code>gauntlet/critics/visual_round2.md : HOLD 38/100; 0/16</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../critics/streak_deployables_round1.md">Streak deployables review</a>
+                  <code>gauntlet/critics/streak_deployables_round1.md : FAIL 35/64</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../builders/streak_presentation_round1.md">Streak transaction builder</a>
+                  <code>First challenger rejected by fresh critic at 75/100</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../critics/streak_presentation_round2.md">Streak transaction critic</a>
+                  <code>FAIL 75/100; Care settlement and Hunter full-cap rollback returned to builder</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../builders/streak_presentation_round2.md">Streak transaction repair</a>
+                  <code>Settled Care marker + capacity-safe Hunter challenger; rejected on occurrence identity</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../critics/streak_presentation_round3.md">Fresh streak transaction critic</a>
+                  <code>FAIL 81/100; duplicate Hunter occurrence and premature-consume mutations remain</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../builders/streak_presentation_round3.md">Exact streak occurrence repair</a>
+                  <code>Builder source gate claimed 28/28; fresh round-4 critic found five concealed semantic false greens</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../critics/streak_presentation_round4.md">Fresh owner-disconnect and mutation critic</a>
+                  <code>FAIL 82/100; ownerless Care terminal reconciliation and semantic mutation coverage returned to builder</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../builders/viewhands_visual_round3.md">Source-armature viewhands proof</a>
+                  <code>Route sealed incompatible; real stock-XANIM renders remain detached and malformed</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../builders/viewhands_visual_round5.md">Ghost stock-cage round 5</a>
+                  <code>REJECTED; v14 passes core rig and centers, but real idle/reload deformation remains malformed</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../../.audit/skinned_vertex_pool_round1/authored_topology_challenger/mace-authored-2833-compiled.json">Firebreak isolated OAT count</a>
+                  <code>2,833 XMODEL_EXPORT vertices / 2,836 ceiling; visual promotion still withheld</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../../.audit/skinned_vertex_pool_round1/authored_topology_challenger/mace-signature-swap-a-front.png">Firebreak signature-swap challenger</a>
+                  <code>2,824 physical vertices; restored high-salience armor and pouches, critic pending</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../../.audit/weapon_materials_builder_round2/candidate/r12-barrel25-textured/three-quarter.png">Hades barrel-protected challenger</a>
+                  <code>9,869 triangles / 38.25% below coherent control / 35 of 35 source regions / rejected 86 of 100</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../critics/weapon_materials_round2.md">Fresh Hades round-2 critic</a>
+                  <code>FAIL 86/100; open receiver/canister/rear shell and six-view loss returned to round-3 builder</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../builders/weapon_materials_round1.md">Hades and optic material challenger</a>
+                  <code>Builder gate 35/35; rejected by the independent source comparison</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../critics/weapon_materials_round1.md">Fresh Hades and optic critic</a>
+                  <code>FAIL 67/100; optics pass, malformed world silhouette and 4/35 missing source regions veto promotion</code>
+                </li>
+                <li>
+                  <span class="tier tier-structural">Structural</span>
+                  <a href="../../zone_out/stock-map-xmodel-budget.json">Stock-map XModel report</a>
+                  <code>zone_out/stock-map-xmodel-budget.json</code>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <aside class="gap-panel" aria-labelledby="gap-title">
+            <p class="eyebrow">Biggest remaining gap</p>
+            <h3 id="gap-title">Repair viewhands and exact-composed weapon alignment.</h3>
+            <p>
+              The current viewhands still lose the live visual bar, and neither F01 nor F02 has a
+              complete accepted sight and attachment set under the real composed animation path. The evaluator
+              is independently replayed; builders now have to beat it with real connected geometry and complete
+              socket-local frames. The runtime policy must also retain held selections while explicitly deploying
+              each family's bare A0 state, never remove the player's weapon.
+            </p>
+            <div class="exit-evidence">
+              <span>Exit evidence</span>
+              <code>37 / 37 exact states / &lt;= 2 px ADS / all animation phases / no visual veto</code>
+            </div>
+            <div class="gap-after">
+              <span>After this clears</span>
+              <strong>Promote through the sealed transaction, rebuild once, then run the user-live test.</strong>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band section-band-alt" id="history" aria-labelledby="history-title">
+      <div class="section-shell">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow">Oldest to newest</p>
+            <h2 id="history-title">Round history</h2>
+          </div>
+          <p class="section-note">Dashboard round IDs are the gauntlet ledger.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline-item is-pass">
+            <div class="timeline-marker" aria-hidden="true">G-00</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Baseline / structural inventory</span>
+                  <h3>Build envelope captured</h3>
+                </div>
+                <span class="status status-pass">Pass</span>
+              </div>
+              <p>Materials, combined assets, IWD inventory, 18-map coverage, and worst-case XModels recorded.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../../zone_out/stock-map-xmodel-budget.json">stock-map-xmodel-budget.json</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-pass">
+            <div class="timeline-marker" aria-hidden="true">G-01</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Independent runtime probe</span>
+                  <h3>Automated thaw fairness</h3>
+                </div>
+                <span class="status status-pass">Pass</span>
+              </div>
+              <p>Round-robin selection covered two live targets and preserved target identity.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-runtime">Runtime</span>
+                <code>AUTOMATED_THAW_TARGET_FAIRNESS;...;PASS</code>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-pass">
+            <div class="timeline-marker" aria-hidden="true">G-02</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Independent runtime probe</span>
+                  <h3>Defroster Drone delivery</h3>
+                </div>
+                <span class="status status-pass">Pass</span>
+              </div>
+              <p>Real client, black airframe, visible pulse, health restore, and cleanup satisfied the contract.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-runtime">Runtime</span>
+                <code>DEFROSTER_DRONE_PROBE;...;PASS</code>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-pass">
+            <div class="timeline-marker" aria-hidden="true">G-03</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Runtime probe</span>
+                  <h3>Glacier Guard team rescue</h3>
+                </div>
+                <span class="status status-pass">Pass</span>
+              </div>
+              <p>The complete integration chain now records the required team-rescue PASS evidence.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-runtime">Runtime</span>
+                <code>GLACIER_GUARD_TEAM_RESCUE;...;PASS</code>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-pass">
+            <div class="timeline-marker" aria-hidden="true">G-04</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Package-bound runtime integration</span>
+                  <h3>Current30 complete runtime chain</h3>
+                </div>
+                <span class="status status-pass">Pass</span>
+              </div>
+              <p>Three real clients and 40 bots cleared the full scripted chain, including blocked and visible Deep Thaw.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-runtime">Runtime</span>
+                <a href="../../zone_out/integration-test-receipt.json">integration-test-receipt.json</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail is-active">
+            <div class="timeline-marker" aria-hidden="true">G-05</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Current round / sustained runtime</span>
+                  <h3>Three-client 43-player soak</h3>
+                </div>
+                <span class="status status-fail">Fail</span>
+              </div>
+              <p>All 43 participants held for 235.068 seconds; the window still failed the real stored-streak exercise requirement.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-runtime">Runtime</span>
+                <a href="../builders/three_client_soak_round1.md">three_client_soak_round1.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail is-active">
+            <div class="timeline-marker" aria-hidden="true">G-06</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Current round / blind comparison</span>
+                  <h3>Compiled visual A/B review</h3>
+                </div>
+                <span class="status status-fail">Fail</span>
+              </div>
+              <p>The current viewhands lost all 16 blind stock comparisons; animation deformation remains a visual veto.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../critics/visual_round2.md">visual_round2.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail">
+            <div class="timeline-marker" aria-hidden="true">G-07</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Current round / builders</span>
+                  <h3>Renderer-budget and viewhands remediation</h3>
+                </div>
+                <span class="status status-unknown">Reviewing</span>
+              </div>
+              <p>Builders are reducing worst-case operator geometry and replacing the failed bind/weight transfer. Collapsed split, decimate, and voxel challengers were quarantined rather than promoted.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <span>Fresh challenger evidence pending</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail">
+            <div class="timeline-marker" aria-hidden="true">G-08</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Fresh source-first gameplay audit</span>
+                  <h3>Streak deployables and remote presentation</h3>
+                </div>
+                <span class="status status-fail">Fail</span>
+              </div>
+              <p>RC destruction, sentry assembly/arc, defrost-sentry plant, care marker/smoke, and Hunter camera order contradicted the requested behavior.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../critics/streak_deployables_round1.md">streak_deployables_round1.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-unknown is-active">
+            <div class="timeline-marker" aria-hidden="true">G-09</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Current round / source-complete challenger</span>
+                  <h3>RC-XD, Care Package, and Hunter transaction</h3>
+                </div>
+                <span class="status status-fail">Fail 75/100</span>
+              </div>
+              <p>The builder added monotonic effect ownership, but a fresh critic reproduced two false greens: unsettled Care landing and capacity-sensitive Hunter rollback.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../critics/streak_presentation_round2.md">streak_presentation_round2.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail">
+            <div class="timeline-marker" aria-hidden="true">G-22</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Fresh critic / runtime policy</span>
+                  <h3>Held selections must deploy the family base weapon</h3>
+                </div>
+                <span class="status status-fail">Fail / held</span>
+              </div>
+              <p>The staged runtime/menu patch preserves all 37 selectable identities and repairs the F10-A0 visibility tag, but its 17 held attachment states resolve to no weapon and block deployment. The bar requires retaining the saved selection while safely deploying that family's A0 weapon with an explicit audit event, so the patch remains quarantined for a correction round.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Independent critic</span>
+                <span>183/183 evidence hashes replayed; production untouched</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail">
+            <div class="timeline-marker" aria-hidden="true">G-23</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Lead audit / remaining weapon families</span>
+                  <h3>No inferred passes from the rejected alignment evaluator</h3>
+                </div>
+                <span class="status status-fail">0 / 29</span>
+              </div>
+              <p>F03, F05, F07, F08, F09, F10, F13, F14, and F15 now have an exact state, visible-tag, weaponfile, model-hash, and repair-order inventory. The old baseline kept no inspectable PNGs, so every state remains held until the repaired judge and a fresh visual critic agree.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Hash-sealed triage</span>
+                <a href="evidence/current/weapons/remaining-families-lead-round1/REPORT.md">remaining-families-lead-round1</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-unknown">
+            <div class="timeline-marker" aria-hidden="true">G-10</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Current round / targeted source repair</span>
+                  <h3>Settled Care marker and capacity-safe Hunter charge</h3>
+                </div>
+                <span class="status status-fail">Fail 81/100</span>
+              </div>
+              <p>Care settlement and full-cap rollback improved, but the critic proved that an identical prepended reward can steal Hunter's reserved occurrence and two premature-consume mutations still false-green.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../builders/streak_presentation_round2.md">streak_presentation_round2.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-unknown">
+            <div class="timeline-marker" aria-hidden="true">G-11</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Source challenger / exact occurrence repair</span>
+                  <h3>Hunter identity and Care loss reconciliation</h3>
+                </div>
+                <span class="status status-unknown">Source sealed</span>
+              </div>
+              <p>The builder now tags each Hunter occurrence, rejects all 28 mutation cases, and adds bounded Care marker/crate reconciliation. No pass is awarded until the fresh critic accepts the real source.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../builders/streak_presentation_round3.md">streak_presentation_round3.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail">
+            <div class="timeline-marker" aria-hidden="true">G-12</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Adversarial source review</span>
+                  <h3>Fresh critic breaks the sealed streak repair</h3>
+                </div>
+                <span class="status status-fail">Fail 82/100</span>
+              </div>
+              <p>Owner disconnect can strand Care state and all five concealed semantic mutants false-green, so the transaction and its tests returned to a fresh builder.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../critics/streak_presentation_round4.md">streak_presentation_round4.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-unknown is-active">
+            <div class="timeline-marker" aria-hidden="true">G-13</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Current round / bounded rebuilds</span>
+                  <h3>Owner-independent Care and exact-stock hands</h3>
+                </div>
+                <span class="status status-unknown">Running</span>
+              </div>
+              <p>Four disjoint builders are repairing body budget, exact-stock hands, complete Hades world geometry, and streak terminal ownership. Every result returns to a fresh critic.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <span>No challenger promoted or packaged</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail is-active">
+            <div class="timeline-marker" aria-hidden="true">G-16</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Fresh body verdict + next builder</span>
+                  <h3>Firebreak budget clears, identity does not</h3>
+                </div>
+                <span class="status status-fail">Fail 79/100</span>
+              </div>
+              <p>The first 2,824-vertex challenger fit the close-crowd envelope, but blind review exposed missing signature gear and the GLB failed exact stock bind representation. A new isolated builder now owns that single gap.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../critics/skinned_vertex_pool_round1.md">skinned_vertex_pool_round1.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail is-active">
+            <div class="timeline-marker" aria-hidden="true">G-17</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Fresh semantic attack</span>
+                  <h3>Known mutants reject; every new mutant escapes</h3>
+                </div>
+                <span class="status status-fail">Fail 76/100</span>
+              </div>
+              <p>The critic's 13 new aliases, helper, loop, provenance, accounting, Hunter, and RC attacks all false-green. Round cleanup also stops Care workers before owner-independent terminal reconciliation. Both gaps returned to a fresh builder.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../critics/streak_presentation_round5.md">streak_presentation_round5.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail is-active">
+            <div class="timeline-marker" aria-hidden="true">G-18</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Fresh Hades verdict + next builder</span>
+                  <h3>Identity survives; shell closure misses by one point</h3>
+                </div>
+                <span class="status status-fail">Fail 86/100</span>
+              </div>
+              <p>The 9,869-triangle candidate preserved all 35 authored regions, compiled cleanly, and scored 50/60 blind, but every welded component remained open and it lost to the coherent control in all six silhouettes. Round 3 now owns only shell continuity.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../critics/weapon_materials_round2.md">weapon_materials_round2.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail is-active">
+            <div class="timeline-marker" aria-hidden="true">G-19</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Ghost core pass + visual rejection</span>
+                  <h3>Centers clear; live carrier deformation does not</h3>
+                </div>
+                <span class="status status-fail">Round 5 rejected</span>
+              </div>
+              <p>V14 clears the exact stock rig, 49 controls, 20 fingers, locality, cuffs, and both weighted-center limits. Real M16 idle and reload still expose an oversized arm arc and spiky elbow/wrist transitions, so round 6 freezes the passing hand rows and repairs only carrier deformation.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="../builders/viewhands_visual_round5.md">viewhands_visual_round5.md</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail">
+            <div class="timeline-marker" aria-hidden="true">G-21</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Current / exact alignment gate</span>
+                  <h3>Fresh critic breaks the evaluator and holds every challenger</h3>
+                </div>
+                <span class="status status-fail">Judge rejected</span>
+              </div>
+              <p>The known suite passes, but a fresh critic made a real 64 px displaced composed raster and a nonexistent raster hash pass after coherent JSON resealing. It also found that stock controls bypass final-raster decoding and that contact, visibility, sight landmarks, and trajectory evidence are not independently measured. A fresh ultra builder now owns the judge repair while F01, F02, and runtime/menu candidates remain quarantined.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural + visual</span>
+                <span>Four fresh ultra agents, disjoint audit lanes; production untouched</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-unknown">
+            <div class="timeline-marker" aria-hidden="true">G-14</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Queued / final gate</span>
+                  <h3>User-live acceptance session</h3>
+                </div>
+                <span class="status status-unknown">Unknown</span>
+              </div>
+              <p>Hands-on gameplay, HUD readability, rescue feedback, and overall acceptance remain pending.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-live">User live</span>
+                <span>No evidence recorded</span>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section-band visual-vote" id="visual-vote" aria-labelledby="visual-vote-title">
+      <div class="section-shell">
+        <div class="vote-layout">
+          <header>
+            <p class="eyebrow">Advisory visual check</p>
+            <h2 id="visual-vote-title">Blind A/B vote</h2>
+            <p class="section-note">Candidate identities stay hidden until after the vote is recorded.</p>
+          </header>
+
+          <form class="vote-form" id="visual-vote-form">
+            <label class="field field-pair">
+              <span>Pair ID</span>
+              <input type="text" name="pair" value="VIS-01" maxlength="24" autocomplete="off" required>
+            </label>
+
+            <fieldset class="vote-choices">
+              <legend>Vote</legend>
+              <label>
+                <input type="radio" name="choice" value="A" required>
+                <span>A</span>
+              </label>
+              <label>
+                <input type="radio" name="choice" value="B">
+                <span>B</span>
+              </label>
+              <label>
+                <input type="radio" name="choice" value="Tie">
+                <span>Tie</span>
+              </label>
+            </fieldset>
+
+            <label class="field field-confidence">
+              <span>Confidence</span>
+              <select name="confidence">
+                <option value="1">1 / 5</option>
+                <option value="2">2 / 5</option>
+                <option value="3" selected>3 / 5</option>
+                <option value="4">4 / 5</option>
+                <option value="5">5 / 5</option>
+              </select>
+            </label>
+
+            <label class="field field-note">
+              <span>Reason</span>
+              <input type="text" name="note" maxlength="100" placeholder="Readability, hierarchy, game fit" autocomplete="off">
+            </label>
+
+            <div class="vote-actions">
+              <button class="button button-primary" type="submit">Record vote</button>
+              <button class="button button-secondary" type="button" data-reset-vote>Reset</button>
+            </div>
+          </form>
+
+          <output class="vote-output" id="vote-output" aria-live="polite">No local vote recorded.</output>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-inner">
+      <p><strong>XI FreezeTag Gauntlet</strong> / local evidence board</p>
+      <p>Snapshot source: project evidence on 26 Aug 2026. <a href="README.md">Update guide</a></p>
+    </div>
+  </footer>
+</body>
+</html>

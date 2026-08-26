@@ -1,0 +1,248 @@
+{
+  "auditId": "xi-ftag-weapon-alignment-harness-critic-round1",
+  "auditRole": "fresh-independent-critic",
+  "builderLane": "xi_ftag/.audit/weapon_alignment_harness_round1",
+  "decision": {
+    "builderBaselineResult": "HOLD",
+    "harnessPass": false,
+    "verdict": "HOLD",
+    "weaponCandidatePromotionAuthorized": false,
+    "weaponCandidateResultFromHarnessVerdict": "NONE"
+  },
+  "exactBuilderArtifacts": {
+    "matrix": {
+      "actualSha256": "14c7dc8ee70db04d2907866420134dfaf4684ad958e72d61e4af7d3eb4a803f9",
+      "expectedSha256": "14c7dc8ee70db04d2907866420134dfaf4684ad958e72d61e4af7d3eb4a803f9",
+      "verified": true
+    },
+    "report": {
+      "actualSha256": "0e5ac1e9369569262d20fd62f38852b19887c44cb66781db102b7f9ccad4738b",
+      "expectedSha256": "0e5ac1e9369569262d20fd62f38852b19887c44cb66781db102b7f9ccad4738b",
+      "verified": true
+    },
+    "result": {
+      "actualSha256": "00fdd4bd9cea6a4c65310f400ab82315721dc075d3d2c61362189ec00b913620",
+      "expectedSha256": "00fdd4bd9cea6a4c65310f400ab82315721dc075d3d2c61362189ec00b913620",
+      "verified": true
+    }
+  },
+  "freshExecution": {
+    "adversarialFixtures": {
+      "fixtureCount": 49,
+      "rejectedWithExpectedCode": 49,
+      "sourceOnlyUnitSuitePassed": true,
+      "testCount": 9,
+      "testLogSha256": "cffb20516757875bc01b2ad99f5ced644fd8b05dd3ff0a63807e2893f38c7689"
+    },
+    "blender": {
+      "missingTextureWarningsObserved": true,
+      "probeExitCode": 0,
+      "version": "3.6.0"
+    },
+    "coverage": {
+      "applicablePhaseRecords": 219,
+      "attachmentStates": 26,
+      "bareStates": 11,
+      "nonapplicablePhaseRecords": [
+        "F07-A0:reload_empty",
+        "F07-A1:reload_empty",
+        "F07-A3:reload_empty"
+      ],
+      "phaseRecords": 222,
+      "states": 37,
+      "uniqueStates": 37
+    },
+    "freshArtifacts": {
+      "candidateSetSha256": "72c32e180e286534888b685d555b1be40d7df1d65624c0febb90c55c8451d841",
+      "evidenceProbeSha256": "156c45d2b36f1b8d6db863046572bba434f9142fd5c728714f1d44e47b4da577",
+      "evidenceSha256": "f7cd60ac8f8d16574a980ba0cb36b2341f5a21a8cfe241cc0c580baa1193702e",
+      "evaluatorResultSha256": "dba55ffc20d6d2b7c5112f3ecb5016e692d1539cb3eb4e313f285a5e8dd21490",
+      "rasterSelftestSha256": "e9d9736194d8cfaec8af84a71602aa321441591cfcbe801b33f24a699620d945",
+      "realControlsSha256": "37d138d3c3df21411934938e9db358a75449a45d1072137935c7bfaac2374caf"
+    },
+    "freshResult": {
+      "gateSummariesMatchBuilder": true,
+      "hold": 37,
+      "pass": 0,
+      "semanticReplayExactAfterFreshRasterHashes": true,
+      "verdict": "HOLD"
+    },
+    "rasterBindings": {
+      "allApplicableDimensions": [
+        1920,
+        1080
+      ],
+      "applicableComposedRasters": 219,
+      "exactRuntimeCompositionBindings": 219,
+      "retainedApplicableRasterArtifacts": 0,
+      "terminalAdsBindings": 37,
+      "terminalAdsGatePasses": 0,
+      "terminalAdsMeasurementStatus": {
+        "unmeasurable": 37
+      },
+      "terminalAdsThresholdPixels": 2.0,
+      "transientApplicableRasterArtifacts": 219
+    },
+    "sealedResultReplay": {
+      "exactBytes": true,
+      "sha256": "00fdd4bd9cea6a4c65310f400ab82315721dc075d3d2c61362189ec00b913620",
+      "sourceOnlyPythonReplayExact": true
+    },
+    "sourceAuthorities": {
+      "actualByteHashMatches": 185,
+      "declaredAssetRecords": 185,
+      "frameIndexSetsMatchSpec": 37,
+      "sourceAuthorityGateHold": 10,
+      "sourceAuthorityGatePass": 27,
+      "templateAliasStates": [
+        "F05-A0",
+        "F05-A1",
+        "F05-A2",
+        "F05-A3"
+      ],
+      "trajectoryGateHold": 37,
+      "trajectoryGatePass": 0,
+      "trajectoryMeasurementStatus": {
+        "unmeasurable": 37
+      }
+    },
+    "stateGates": {
+      "allStatesHaveExactSeparateSet": true,
+      "gateCountPerState": 11,
+      "gateNames": [
+        "adsFireTrajectory",
+        "contact",
+        "duplicateGeometry",
+        "hideShow",
+        "hip",
+        "identity",
+        "scaleOrientation",
+        "socket",
+        "sourceAuthority",
+        "sweep",
+        "terminalAdsUp"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "code": "FINAL_RASTER_BYTES_NOT_BOUND",
+      "decisionImpact": "HOLD",
+      "evidence": {
+        "acceptedArbitraryNonexistentRasterHash": "df012ac7127fac15150f638cd1e7ed0376757d4ecc187d71ee42b42781d4328e",
+        "acceptedKnownBadRasterAxisErrorPixels": 64.0,
+        "acceptedKnownBadRasterSha256": "d6dcddf28d5b2ff192a3d9c93c9052d3f6df2b25aca92ddab5ec0e8d12fe74f2",
+        "mutantFindingCodes": [],
+        "mutantState": "F01-A1",
+        "mutantStateStatus": "PASS",
+        "mutantTerminalAdsGateStatus": "PASS",
+        "rasterPathSuppliedToEvaluator": false
+      },
+      "severity": "CRITICAL",
+      "summary": "The evaluator accepts coherently resealed JSON hashes without opening a retained raster. A real 1920x1080 composed raster whose decoded sight is 64 px off center and an arbitrary nonexistent raster hash both pass an otherwise clean F01-A1 state."
+    },
+    {
+      "code": "STOCK_CONTROLS_NOT_ON_FINAL_RASTER_PATH",
+      "decisionImpact": "HOLD",
+      "evidence": {
+        "allPhysicalNegativesRejected": true,
+        "allReportedPositivesPassed": true,
+        "m249PositiveContactMetricLiteral": 0.0,
+        "m249PositiveOrientationMetricLiteral": 0.0,
+        "realControlRasterArtifacts": 0,
+        "referenceReplayCategoriesSha256": "0d4ee93b4a59e96e2f75c256d76278da59ed375dd21f726418026b7dff546f99",
+        "sourceOnlyReplaySha256": "37d138d3c3df21411934938e9db358a75449a45d1072137935c7bfaac2374caf"
+      },
+      "severity": "HIGH",
+      "summary": "The M4 controls use geometry-derived cameras, helper projection, and bone-space contact; M249 positive contact/orientation are literal zero checks. They do not execute raster_witness or preserve stock-control final rasters, so they cannot calibrate the evaluator path claimed in the builder report or support blind visual comparison."
+    },
+    {
+      "code": "CONTACT_AND_VISIBILITY_VALUES_ASSERTED",
+      "decisionImpact": "HOLD",
+      "evidence": {
+        "genericAttachmentFloatsWhenMeasurable": false,
+        "hiddenTagCountsConstructedAsZero": true,
+        "suppressorContactDistanceAxesMeasured": [
+          "x"
+        ],
+        "suppressorLateralDistanceAxesMeasured": []
+      },
+      "severity": "HIGH",
+      "summary": "Separate gate labels exist, but key contact and visibility inputs are constructed rather than independently observed. Generic attachment float is forced false, hidden ownership counts are forced zero, and suppressor contact ignores lateral Y/Z separation, permitting a mis-mounted or floating attachment path."
+    },
+    {
+      "code": "FINAL_RASTER_SIGHT_LANDMARKS_NOT_SEPARATE",
+      "decisionImpact": "HOLD",
+      "evidence": {
+        "alignmentGeometryColorSegment": "green",
+        "terminalMetric": "whole alignment-tag raster bounds center",
+        "separateFrontPostRasterMetric": false,
+        "separateRearApertureRasterMetric": false
+      },
+      "severity": "HIGH",
+      "summary": "The final-raster terminal metric reduces all alignment-tag pixels to one bounding-box center. It does not independently locate rear aperture, front post, or optical center, so a centered overall silhouette cannot prove a straight sight picture."
+    },
+    {
+      "code": "REAL_TRAJECTORY_PASS_PATH_UNCALIBRATED",
+      "decisionImpact": "HOLD",
+      "evidence": {
+        "actualAuthorityAssetHashesMatch": 185,
+        "candidateTrajectoriesWithFrames": 0,
+        "controlTrajectoriesWithFrames": 0,
+        "realStateTrajectoryMeasurements": 0,
+        "unmeasurableStates": 37
+      },
+      "severity": "HIGH",
+      "summary": "Authority bytes and frame-index contracts are sealed, and failures close to HOLD, but the fresh real replay has no measurable candidate or control recoil trajectory in any state. The only green path is synthetic and the stock controls do not exercise it."
+    },
+    {
+      "code": "RECURSIVE_MANIFEST_INCOMPLETE",
+      "decisionImpact": "HOLD",
+      "evidence": {
+        "actualFilesExcludingManifest": 104,
+        "cliChecked": 79,
+        "cliReportedPass": true,
+        "listedEntries": 79,
+        "listedHashesMatch": true,
+        "unlistedFiles": 25,
+        "unlistedKind": "Python bytecode caches"
+      },
+      "severity": "MEDIUM",
+      "summary": "SHA256SUMS verifies every listed row but is not recursively complete. Source-only reruns reproduced the results and the Blender 3.10 raster bytecode equals a fresh source compile, but the builder's recursive-manifest PASS claim is still false."
+    }
+  ],
+  "observations": {
+    "currentCandidateAuthority": "All 185 declared authority assets match actual bytes. F05-A0/A1/A2/A3 authority is also the accepted-template hash and is correctly held as template-derived.",
+    "rasterSelftest": "Retained 1920x1080 images independently show 0 px positive, 32 px displaced negative, and 64 px composed-runtime negative. The selftest works, but the evaluator does not require those bytes.",
+    "stockControlMetrics": {
+      "negative": {
+        "m249GripContactDeltaModelUnits": 0.74999981,
+        "m249GripRotationDegrees": 8.040253488,
+        "m4AcogRotationDegrees": 2.999997882,
+        "m4BareAxisErrorPixels": 64.335209,
+        "m4ReflexAxisErrorPixels": 46.442158137,
+        "m4SuppressorAxisDegrees": 4.999998653,
+        "m4SuppressorContactDeltaModelUnits": 0.707106381
+      },
+      "positive": {
+        "m249GripContactDeltaModelUnits": 0.0,
+        "m249GripRotationDegrees": 0.0,
+        "m4AcogAxisErrorPixels": 0.0,
+        "m4BareAxisErrorPixels": 0.0,
+        "m4ReflexAxisErrorPixels": 0.0,
+        "m4SuppressorAxisDegrees": 0.000000854,
+        "m4SuppressorContactDeltaModelUnits": 0.0
+      }
+    }
+  },
+  "requiredRemediation": [
+    "Retain every terminal composed raster, bind a canonical relative path and byte hash, reopen and decode it during evaluation, and reject missing bytes before trusting any claimed measurement or seal.",
+    "Measure rear/front or optic landmarks directly and separately in the decoded final raster; whole-tag bounds center is insufficient.",
+    "Run untouched stock positives and physical negatives through the same composed-raster, contact, visibility, sealing, and evaluator path used for candidate states. Do not use literal positive metrics.",
+    "Replace hardcoded hidden/floating values and X-only suppressor contact with independently measured 3D/raster evidence that detects lateral gaps, clipping, and wrong mounts.",
+    "Add a real source-sealed, frame-by-frame trajectory positive through the production evaluator path, then retain every trajectory frame raster or equivalent independently decodable evidence.",
+    "Add adversarial fixtures for a coherently resealed bad raster, nonexistent raster bytes, symmetric crooked sight landmarks, lateral suppressor displacement, and literal-positive control metrics.",
+    "Regenerate SHA256SUMS over every file in the sealed lane except the manifest itself, and make verify-hashes fail on unlisted files."
+  ],
+  "schemaVersion": 1
+}

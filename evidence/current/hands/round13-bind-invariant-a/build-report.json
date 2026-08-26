@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "round": 13,
+  "status": "bind-invariant screening only; animation prohibited until visual acceptance",
+  "method": "complete clean-source topology under authoritative round11 control rig with rest-world/inverse-bind identity",
+  "inputs": {
+    "cleanSource": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/viewhands_builder_round13_ghost/inputs/ghost-source-original-bind.glb",
+      "sha256": "EA14B6B31EAAE64BD7E40CBEAE3EEB6365018BAA14A9173F87964A26F95406A5"
+    },
+    "round11Authoritative": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/viewhands_builder_round13_ghost/inputs/round11-authoritative.glb",
+      "sha256": "47632BE9B567B257A39D86314FB2CB82C1354A1AA519C2845CB75A3BBB6356C6"
+    },
+    "stock": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/viewhands_builder_round13_ghost/inputs/viewhands-usmc-stock.glb",
+      "sha256": "3FF4DD298BEEEA7FD4EB7FF25DE5B7D21CA33059583FB8A283F7EF7ECDFEB182"
+    }
+  },
+  "registration": {
+    "definition": "round11_tag_torso_world * inverse(clean_source_tag_torso_world)",
+    "matrixColumnMajor": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -4.631834030151367,
+      -1.376955270767212,
+      -2.384185791015625e-07,
+      1.0
+    ],
+    "determinant": 1.0,
+    "uniformScale": 1.0
+  },
+  "output": {
+    "candidate": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/viewhands_builder_round13_ghost/candidates/bind-invariant-a/hands.glb",
+      "sha256": "421B834B3F9D7052E8568575157FEC2214D23B81AC3AE155C4D4C599FBE8C17A",
+      "bytes": 3716752
+    },
+    "registeredSourceReference": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/viewhands_builder_round13_ghost/analysis/bind-invariant-a/source-registered.glb",
+      "sha256": "B7057FAF181F530F4793EDB2DB5BD44157812FD2CFBD750958C8B8D7680B6BFA",
+      "bytes": 3708784
+    }
+  },
+  "geometry": {
+    "primitives": [
+      {
+        "primitive": 0,
+        "vertices": 16326,
+        "triangles": 5442,
+        "material": 0,
+        "sourcePositionSha256": "1BC7707D288F6EFA15B2BD65FF78F3B4F778754889AA688BE6D7F3079E2B45A0",
+        "registeredPositionSha256": "60AE9B9380022AAE77A39EBE21F62C5E645212EDB45A15FAACDBA47DD6DB5013",
+        "normalSha256": "3959760A2CAC4CC66095264B640A3E86E61B729A7370D64CFF77D012B63AA710",
+        "uvSha256": "713D20C2876A7C0BAC2E8E584D8677E2E5D8BB807CF24CE185B565C0F0012CFC",
+        "jointsSha256": "08E9A3AE9DCE7125B564C1CC8489CF6D6BB3E1127C1E1FD728514CC32509C5FB",
+        "weightsSha256": "2F893AD97271C68102B2BD10987F4EA98611A3694F2F58D707ABEAC49EAA1A62",
+        "indicesSha256": "A5C28DA97C2A665E96ECD88C11EF6FC140677E616693FAE5F0AD445F53167CAB"
+      },
+      {
+        "primitive": 1,
+        "vertices": 1260,
+        "triangles": 420,
+        "material": 0,
+        "sourcePositionSha256": "A3C2EB89DAE8F4FF41E7646952A83DD2B9CA149DDBCC23304480160ADCD4301C",
+        "registeredPositionSha256": "543F63F039099436CD25C0AAA875F9CF1389142A2A6EF74C756B41C328C5615F",
+        "normalSha256": "3A1D405E3785AFCC2C2FC57195B39D3ED7E3E19082365276F06E4ABF17F0B9CA",
+        "uvSha256": "432D2C9522B577B551CA716426935A6C27E0121A9BA2E7009E5ACF3868C1B3A0",
+        "jointsSha256": "60944615604ADFBC1A2ADA0198CFE1CC948EE5A73ED252DD62C2EE9493B8FE03",
+        "weightsSha256": "DD6E4DD812BB4A98E7F3400BE4ED00FAFA3357B4ECCDCE7FF4205FEE1BF4A26B",
+        "indicesSha256": "EB65BD285405718DC24F1EDC1E90C655BECE9123AE4296C2DB38D08D90D04B7E"
+      },
+      {
+        "primitive": 2,
+        "vertices": 1197,
+        "triangles": 399,
+        "material": 0,
+        "sourcePositionSha256": "AF779B1D37A79FDF6566BC2BCC2609D920ABAF67338B688EADC9AE140EC222AD",
+        "registeredPositionSha256": "F7F3D0CC530CE3AF1A961A7ECCF8D2A792E152A692C27FC05868867C06E865C2",
+        "normalSha256": "36BF115B985B6F2B77FE21D5A084A9731E7A13CF9FC9DB40C55E73008AC26CDA",
+        "uvSha256": "DE9FA0CD7D99681E88697DFCEEFCA30203E3C0AD9A8F1086865BBBCED638FE64",
+        "jointsSha256": "6DB57AF30BE8B729C3C829962DBA69EE6AE25D14E6A6211B30FCEF48E9DCC856",
+        "weightsSha256": "FD297664C40DDFE1C8EFCB7F8139806146918219417AB1569B4C521CE83106FA",
+        "indicesSha256": "77DE901E68C50E2CCB9BE086779692E64BB0928D2B00AD0E3C8F211D46101BEB"
+      },
+      {
+        "primitive": 3,
+        "vertices": 12528,
+        "triangles": 4176,
+        "material": 0,
+        "sourcePositionSha256": "A0CBDA2189087130F306CAE7C85E6FB3DAD8F622215DC28A6F91D810111F1A5B",
+        "registeredPositionSha256": "A7C6D29EEB443AE8194C0ED16577A174B5704AD59A590A569003590E514086E2",
+        "normalSha256": "C2B603C9A68B91BC123D13463E6A72C1A7CA35143E5326B22C13271823CB875C",
+        "uvSha256": "08E6D4BB57BE90F283DB352C15A58EC4B343EC0EB6846E164C052B53771830BD",
+        "jointsSha256": "AFB2DE04FA8053686432A98712747786A2F06852BF464A1D56BD7828EA019320",
+        "weightsSha256": "029AF191FF2B165D693C1BA91C066C0E3BAAD8FA86595B2990693A9749347F51",
+        "indicesSha256": "1F2B198D3395F87C71C9CA063A734D82E5DB21A1994783EB1D5146756F2CB5A1"
+      },
+      {
+        "primitive": 4,
+        "vertices": 16986,
+        "triangles": 5662,
+        "material": 0,
+        "sourcePositionSha256": "F46256A9269EFF63B52AEF0FA4D1687F056E17F6C02343E40F2785D2C89B3672",
+        "registeredPositionSha256": "06CCDD50E565BDA2D66FBA334392F1751F5259A43B3D54292A076EC5BE3C900E",
+        "normalSha256": "508E88A4F676D56ECAC27E16E1D07259BD4AA36527FEEDBC0AFEAE183235BAEB",
+        "uvSha256": "43F667679BF0330BDADECB0FEF84B2CC2C5633FE3F0960C107F555E33EA3CDFD",
+        "jointsSha256": "B9D4D34D4249AEBA2DF49C4A02F4DD491D3B32D80363748BAAC982D58CBF4A98",
+        "weightsSha256": "C1BFB83BFE9F92C4D24A3DD39199377E006BAA7C01FFEC2765DAC53D0AD37D08",
+        "indicesSha256": "52E3876716F53E1C2A010344403B34EA4BECDBC277335A0D1199F965DC60EAC9"
+      },
+      {
+        "primitive": 5,
+        "vertices": 12528,
+        "triangles": 4176,
+        "material": 0,
+        "sourcePositionSha256": "78BFAE90747280FE303FEEE42AC4F817945FE9A5B79E442C6D8BED83153E4C67",
+        "registeredPositionSha256": "2BB504C53A948511B73A7C29DBA8579ECB4F04BB07D4772B832DC6747D093A2C",
+        "normalSha256": "75865C3F9992DC7BEEBAB01E38D3661F12EE5B5B7C17CCF47D65153B3386DAC6",
+        "uvSha256": "7373D2EAC8AE95998E6EF98C8F26A3FE98DD88D307964899F844C075071E38FB",
+        "jointsSha256": "D1CFBA6643524EBF7CCDA2ED6B133BF2CAB5A8F32B85AB18C6CCF5920E57B6E6",
+        "weightsSha256": "4282796A8672F14D4B0DD4B38B80B636CDC6AD3BFC347FC8DFD3D22D72F86C0D",
+        "indicesSha256": "1F2B198D3395F87C71C9CA063A734D82E5DB21A1994783EB1D5146756F2CB5A1"
+      },
+      {
+        "primitive": 6,
+        "vertices": 174,
+        "triangles": 58,
+        "material": 1,
+        "sourcePositionSha256": "AF1F1E8ADDF29C25C664E85F4355005A3128B2AFF67E8E67C0325D64302DA037",
+        "registeredPositionSha256": "88225A588782A3D59947A49B269EDEE173DFCC6AA54C80A2D1CD0A56F80224D9",
+        "normalSha256": "E3BED8E6583F20A9956EF7CCD3621CC66080B66EE368E8E19961DF3627C76163",
+        "uvSha256": "45A88AEA18D48C2EA7CCD61E561CFD1908BBAF415A290840758CAC86E816656E",
+        "jointsSha256": "61F537D72780559264340AC30607BEA952F239CBE6F2BCE5FF2BF3C83EFAC471",
+        "weightsSha256": "42EFF32DA7AC766770BF918D9E8DFD86D1048489383ECD09CE00A6E201009DED",
+        "indicesSha256": "1D5FA63EB141BD82DA8C5691838F3A8538C096474EE092120A1A390C5D5FFD01"
+      },
+      {
+        "primitive": 7,
+        "vertices": 234,
+        "triangles": 78,
+        "material": 0,
+        "sourcePositionSha256": "ADBA5D69F7F1BF887626E654E4E2F19E4EDEC1A188441C6BA06A1CCFB327DA5A",
+        "registeredPositionSha256": "B11FDAB48A6DD328EBDCFC1D2C0DC76D213DB4647778B648E7E7C5B4965C721E",
+        "normalSha256": "B7A94C7ABDE65FB85EAB0490B5035B3CB764624D495D08981D6A666F69341ECD",
+        "uvSha256": "B76755B683A7851542A9767B3B9F0DFA2CB20AD25516EB4BEC889372D97F6637",
+        "jointsSha256": "5C56454B999192964D9455CD9F035CF9661358D44423F017CF9613C81D7D4B1E",
+        "weightsSha256": "3D0E6871BADC83D4C47238B7FCCF0888E1838E04EA52C52DCA141DF7350874FD",
+        "indicesSha256": "246FC8CD83A3793233782FEE6730F5B371BA30F19316F3116313147B71EA3C14"
+      }
+    ],
+    "vertices": 61233,
+    "triangles": 20411,
+    "sourceComponentsRemoved": 0,
+    "sourceTopologyRetained": true,
+    "sourceUvsRetained": true,
+    "stockGeometryUsed": false,
+    "alphaHidingUsed": false
+  },
+  "rig": {
+    "jointCount": 91,
+    "sourceJointCount": 66,
+    "sourceJointSlotsMapped": 66,
+    "authoritativeRigNodesCloned": true,
+    "stockControlsMissing": [],
+    "maximumStockControlTranslationDelta": 2.1018137570293107e-14,
+    "maximumStockControlRotationDelta": 8.881784197001252e-16,
+    "controlDeltas": [
+      {
+        "name": "tag_view",
+        "translation": 0.0,
+        "rotation": 0.0
+      },
+      {
+        "name": "tag_ads",
+        "translation": 0.0,
+        "rotation": 0.0
+      },
+      {
+        "name": "tag_cambone",
+        "translation": 0.0,
+        "rotation": 0.0
+      },
+      {
+        "name": "tag_camera",
+        "translation": 0.0,
+        "rotation": 0.0
+      },
+      {
+        "name": "tag_torso",
+        "translation": 0.0,
+        "rotation": 0.0
+      },
+      {
+        "name": "j_shoulder_le",
+        "translation": 9.930136612989092e-16,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_shoulder_ri",
+        "translation": 1.831026719408895e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "tag_gasmask",
+        "translation": 0.0,
+        "rotation": 0.0
+      },
+      {
+        "name": "tag_gasmask2",
+        "translation": 0.0,
+        "rotation": 0.0
+      },
+      {
+        "name": "tag_weapon",
+        "translation": 0.0,
+        "rotation": 0.0
+      },
+      {
+        "name": "j_elbow_le",
+        "translation": 5.687116766346677e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_elbow_ri",
+        "translation": 1.831026719408895e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_sleave_reshape_bottom_le_1",
+        "translation": 4.351167857633658e-15,
+        "rotation": 1.1102230246251565e-16
+      },
+      {
+        "name": "j_sleave_reshape_bottom_le_2",
+        "translation": 1.7763568394002505e-15,
+        "rotation": 1.1102230246251565e-16
+      },
+      {
+        "name": "j_sleave_reshape_top_le_1",
+        "translation": 3.972054645195637e-15,
+        "rotation": 1.1102230246251565e-16
+      },
+      {
+        "name": "j_sleave_reshape_top_le_2",
+        "translation": 1.7763568394002505e-15,
+        "rotation": 1.1102230246251565e-16
+      },
+      {
+        "name": "j_sleave_reshape_top_le_3",
+        "translation": 1.9860273225978185e-15,
+        "rotation": 1.1102230246251565e-16
+      },
+      {
+        "name": "j_sleave_reshape_top_ri_1",
+        "translation": 4.351167857633658e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_sleave_reshape_top_ri_2",
+        "translation": 3.972054645195637e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_sleave_reshape_top_ri_3",
+        "translation": 3.076740298213702e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_wrist_le",
+        "translation": 3.552713678800501e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_wrist_ri",
+        "translation": 6.646518689688359e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_wristtwist_le",
+        "translation": 1.7763568394002505e-15,
+        "rotation": 1.1102230246251565e-16
+      },
+      {
+        "name": "j_wristtwist_ri",
+        "translation": 0.0,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_index_le_0",
+        "translation": 3.972054645195637e-15,
+        "rotation": 1.1102230246251565e-16
+      },
+      {
+        "name": "j_index_ri_0",
+        "translation": 7.32410687763558e-15,
+        "rotation": 6.661338147750939e-16
+      },
+      {
+        "name": "j_mid_le_0",
+        "translation": 5.0242958677880805e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_mid_ri_0",
+        "translation": 7.32410687763558e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_pinkypalm_le",
+        "translation": 6.4047456679787536e-15,
+        "rotation": 1.3935119948167607e-16
+      },
+      {
+        "name": "j_pinkypalm_ri",
+        "translation": 5.687116766346677e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_ringpalm_le",
+        "translation": 5.102196573270515e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_ringpalm_ri",
+        "translation": 9.272854936269104e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_thumb_le_0",
+        "translation": 1.1234667099445444e-14,
+        "rotation": 3.6608425410272194e-16
+      },
+      {
+        "name": "j_thumb_ri_0",
+        "translation": 9.565974336450906e-15,
+        "rotation": 3.535977618878706e-16
+      },
+      {
+        "name": "j_webbing_le",
+        "translation": 6.4047456679787536e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_webbing_ri",
+        "translation": 7.742959950613002e-15,
+        "rotation": 1.633707714631077e-16
+      },
+      {
+        "name": "tag_knife_attach",
+        "translation": 8.926082647349967e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_index_le_1",
+        "translation": 6.4047456679787536e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_index_ri_1",
+        "translation": 3.972054645195637e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_mid_le_1",
+        "translation": 4.782987168225453e-15,
+        "rotation": 2.99304291193499e-16
+      },
+      {
+        "name": "j_mid_ri_1",
+        "translation": 1.3293037379376718e-14,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_pinky_le_0",
+        "translation": 7.160723346098895e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_pinky_ri_0",
+        "translation": 5.329070518200751e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_ring_le_0",
+        "translation": 7.32410687763558e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_ring_ri_0",
+        "translation": 1.434896150467636e-14,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_thumb_le_1",
+        "translation": 6.4047456679787536e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_thumb_ri_1",
+        "translation": 1.5485919901226005e-14,
+        "rotation": 5.551115123125783e-16
+      },
+      {
+        "name": "j_index_le_2",
+        "translation": 9.565974336450906e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_index_ri_2",
+        "translation": 5.102196573270515e-15,
+        "rotation": 6.661338147750939e-16
+      },
+      {
+        "name": "j_mid_le_2",
+        "translation": 6.705600017716362e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_mid_ri_2",
+        "translation": 1.7336551124407806e-14,
+        "rotation": 5.551115123125783e-16
+      },
+      {
+        "name": "j_pinky_le_1",
+        "translation": 8.379058453350832e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_pinky_ri_1",
+        "translation": 1.0087767680389479e-14,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_ring_le_1",
+        "translation": 8.140289677804162e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_ring_ri_1",
+        "translation": 1.751761662244535e-14,
+        "rotation": 6.661338147750939e-16
+      },
+      {
+        "name": "j_thumb_le_2",
+        "translation": 7.944109290391274e-15,
+        "rotation": 2.220446049250313e-16
+      },
+      {
+        "name": "j_thumb_ri_2",
+        "translation": 1.37882369488729e-14,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_index_le_3",
+        "translation": 4.440892098500626e-15,
+        "rotation": 1.3962103536977754e-16
+      },
+      {
+        "name": "j_index_ri_3",
+        "translation": 7.944109290391274e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_mid_le_3",
+        "translation": 1.020439314654103e-14,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_mid_ri_3",
+        "translation": 1.7404671430534633e-14,
+        "rotation": 6.661338147750939e-16
+      },
+      {
+        "name": "j_pinky_le_2",
+        "translation": 4.440892098500626e-15,
+        "rotation": 3.3306690738754696e-16
+      },
+      {
+        "name": "j_pinky_ri_2",
+        "translation": 8.702335715267317e-15,
+        "rotation": 8.881784197001252e-16
+      },
+      {
+        "name": "j_ring_le_2",
+        "translation": 9.565974336450906e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_ring_ri_2",
+        "translation": 1.831026719408895e-14,
+        "rotation": 6.661338147750939e-16
+      },
+      {
+        "name": "j_thumb_le_3",
+        "translation": 7.993605777301127e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_thumb_ri_3",
+        "translation": 1.2809491335957507e-14,
+        "rotation": 3.3306690738754696e-16
+      },
+      {
+        "name": "j_pinky_le_3",
+        "translation": 5.0242958677880805e-15,
+        "rotation": 4.440892098500626e-16
+      },
+      {
+        "name": "j_pinky_ri_3",
+        "translation": 7.993605777301127e-15,
+        "rotation": 6.661338147750939e-16
+      },
+      {
+        "name": "j_ring_le_3",
+        "translation": 7.993605777301127e-15,
+        "rotation": 4.129110325935447e-16
+      },
+      {
+        "name": "j_ring_ri_3",
+        "translation": 2.1018137570293107e-14,
+        "rotation": 6.661338147750939e-16
+      }
+    ]
+  },
+  "weights": {
+    "sourceArraysRetained": true,
+    "maximumInfluences": 4,
+    "unweightedVertices": 0,
+    "minimumPositiveWeight": 0.01176498830318451,
+    "maximumJointIndexUsed": 65
+  },
+  "bindInvariant": {
+    "evaluatedVertices": 61233,
+    "maximumErrorCoDUnits": 1.8550211455117576e-06,
+    "meanErrorCoDUnits": 7.134568861502101e-07,
+    "rmsErrorCoDUnits": 7.623055339698601e-07,
+    "maximumRestWorldTimesInverseBindElementError": 8.635922270627816e-07,
+    "referenceMaximumErrorCoDUnits": 2.2867269951306373e-06,
+    "referenceMeanErrorCoDUnits": 8.339212941237713e-07,
+    "referenceMaximumRestWorldTimesInverseBindElementError": 1.094763902642626e-06
+  },
+  "checks": {
+    "sourceHashBound": true,
+    "authoritativeRound11HashBound": true,
+    "stockHashBound": true,
+    "singleRigidGlobalRegistration": true,
+    "sourceJointSlotsMapExactly": true,
+    "allSourcePrimitivesRetained": true,
+    "allSourceVerticesRetained": true,
+    "allSourceTrianglesRetained": true,
+    "sourceTopologyByteExact": true,
+    "sourceUvByteExact": true,
+    "jointCountAtMost128": true,
+    "allStockControlsPresent": true,
+    "exactStockControlGlobals": true,
+    "maximumFourInfluences": true,
+    "zeroUnweightedVertices": true,
+    "minimumWeightAtLeast0_0102": true,
+    "jointIndicesInRange": true,
+    "bindIdentityProductTight": true,
+    "bindVertexMaximumAtMost0_05": true,
+    "bindVertexMeanAtMost0_005": true,
+    "registeredReferenceMaximumAtMost0_05": true,
+    "registeredReferenceMeanAtMost0_005": true,
+    "noAlphaHiding": true
+  },
+  "failedChecks": [],
+  "acceptedForBindVisualScreening": true,
+  "acceptedForAnimation": false
+}

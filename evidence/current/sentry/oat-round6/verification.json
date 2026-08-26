@@ -1,0 +1,3985 @@
+{
+  "schemaVersion": 1,
+  "audit": "XI FreezeTag lethal sentry OAT/promotion builder Round 6",
+  "deterministic": true,
+  "verdict": "PASS",
+  "promotionExecuted": false,
+  "checksPassed": 157,
+  "checksTotal": 157,
+  "failures": [],
+  "checks": [
+    {
+      "id": "authoritative-candidate-hash",
+      "pass": true,
+      "expected": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51",
+      "actual": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+    },
+    {
+      "id": "authoritative-critic-verdict",
+      "pass": true,
+      "expected": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "authoritative-critic-candidate-match",
+      "pass": true
+    },
+    {
+      "id": "authoritative-critic-oat-not-previously-claimed",
+      "pass": true
+    },
+    {
+      "id": "private-candidate-byte-exact",
+      "pass": true,
+      "expected": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51",
+      "actual": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+    },
+    {
+      "id": "minimal-candidate-byte-exact",
+      "pass": true,
+      "expected": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51",
+      "actual": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+    },
+    {
+      "id": "candidate-material-order",
+      "pass": true,
+      "expected": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ],
+      "actual": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ]
+    },
+    {
+      "id": "candidate-image-uri-order",
+      "pass": true,
+      "expected": [
+        "../images/weapon_sentry_gun_col.dds",
+        "../images/weapon_sentry_gun_nml.dds",
+        "../images/weapon_saw_col.dds",
+        "../images/$identitynormalmap.dds"
+      ],
+      "actual": [
+        "../images/weapon_sentry_gun_col.dds",
+        "../images/weapon_sentry_gun_nml.dds",
+        "../images/weapon_saw_col.dds",
+        "../images/$identitynormalmap.dds"
+      ]
+    },
+    {
+      "id": "candidate-one-object-each",
+      "pass": true,
+      "expected": [
+        "legacy_tripod",
+        "mount_hardware",
+        "mount_yoke",
+        "saw_receiver"
+      ],
+      "actual": [
+        [
+          "legacy_tripod"
+        ],
+        [
+          "mount_hardware"
+        ],
+        [
+          "mount_yoke"
+        ],
+        [
+          "saw_receiver"
+        ]
+      ]
+    },
+    {
+      "id": "candidate-source-counts",
+      "pass": true,
+      "expected": [
+        12,
+        4,
+        4,
+        2843,
+        2843,
+        1749
+      ],
+      "actual": [
+        12,
+        4,
+        4,
+        2843,
+        2843,
+        1749
+      ]
+    },
+    {
+      "id": "candidate-joint-order",
+      "pass": true,
+      "expected": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash",
+        "tag_brass",
+        "tag_clip"
+      ],
+      "actual": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash",
+        "tag_brass",
+        "tag_clip"
+      ]
+    },
+    {
+      "id": "external-uri-weapon_sentry_gun_col.dds",
+      "pass": true,
+      "expected": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC",
+      "actual": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC"
+    },
+    {
+      "id": "external-uri-weapon_sentry_gun_nml.dds",
+      "pass": true,
+      "expected": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3",
+      "actual": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3"
+    },
+    {
+      "id": "external-uri-weapon_saw_col.dds",
+      "pass": true,
+      "expected": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA",
+      "actual": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA"
+    },
+    {
+      "id": "external-uri-$identitynormalmap.dds",
+      "pass": true,
+      "expected": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96",
+      "actual": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96"
+    },
+    {
+      "id": "external-uri-count",
+      "pass": true,
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "id": "xmodel-metadata-byte-exact-production",
+      "pass": true,
+      "expected": "68929F3834097C09003DF63DB1148D776D61A38E70500F2E149BE8F5DAF2377C",
+      "actual": "68929F3834097C09003DF63DB1148D776D61A38E70500F2E149BE8F5DAF2377C"
+    },
+    {
+      "id": "xmodel-production-lod-target",
+      "pass": true,
+      "expected": "model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+      "actual": "model_export/worldmodel_xi_sentry_old_clean_lod0.glb"
+    },
+    {
+      "id": "xmodel-rigid-iw3",
+      "pass": true
+    },
+    {
+      "id": "material-closure-mc/mtl_sentry_bo",
+      "pass": true,
+      "expected": [
+        "~weapon_sentry_gun_spec-rgb&$~ae6da276",
+        "weapon_sentry_gun_nml",
+        "weapon_sentry_gun_col"
+      ],
+      "actual": [
+        "~weapon_sentry_gun_spec-rgb&$~ae6da276",
+        "weapon_sentry_gun_nml",
+        "weapon_sentry_gun_col"
+      ]
+    },
+    {
+      "id": "material-closure-mc/mtl_weapon_saw_misc_nocamo",
+      "pass": true,
+      "expected": [
+        "~weapon_saw_spc-r65g65b65&wea~fbd00e22",
+        "$identitynormalmap",
+        "weapon_saw_col"
+      ],
+      "actual": [
+        "~weapon_saw_spc-r65g65b65&wea~fbd00e22",
+        "$identitynormalmap",
+        "weapon_saw_col"
+      ]
+    },
+    {
+      "id": "material-closure-mc/mtl_weapon_saw",
+      "pass": true,
+      "expected": [
+        "~weapon_saw_spc-r65g65b65&wea~fbd00e22",
+        "$identitynormalmap",
+        "weapon_saw_col"
+      ],
+      "actual": [
+        "~weapon_saw_spc-r65g65b65&wea~fbd00e22",
+        "$identitynormalmap",
+        "weapon_saw_col"
+      ]
+    },
+    {
+      "id": "sentry-material-source-hash",
+      "pass": true
+    },
+    {
+      "id": "saw-material-source-hashes",
+      "pass": true
+    },
+    {
+      "id": "engine-image-~weapon_sentry_gun_spec-rgb&$~ae6da276.iwi",
+      "pass": true,
+      "expected": "70AAA15760AFC2FC1D4E33BEC860B9D11EF61E98BF3721E4948767405BA7D9C2",
+      "actual": "70AAA15760AFC2FC1D4E33BEC860B9D11EF61E98BF3721E4948767405BA7D9C2"
+    },
+    {
+      "id": "engine-image-weapon_sentry_gun_nml.iwi",
+      "pass": true,
+      "expected": "31141254F607C353B186AD44BFCA2C0A84F65EDDB355F3C7705B2E164736AD54",
+      "actual": "31141254F607C353B186AD44BFCA2C0A84F65EDDB355F3C7705B2E164736AD54"
+    },
+    {
+      "id": "engine-image-weapon_sentry_gun_col.iwi",
+      "pass": true,
+      "expected": "B8DF825DC29D6F16EF4342ABCF91D9C4CB0CA9401C435975CA2118F150EAAED0",
+      "actual": "B8DF825DC29D6F16EF4342ABCF91D9C4CB0CA9401C435975CA2118F150EAAED0"
+    },
+    {
+      "id": "engine-image-~weapon_saw_spc-r65g65b65&wea~fbd00e22.iwi",
+      "pass": true,
+      "expected": "7B9355A9E1DDAD73A6ADE62B445DD00F238B051A1E3D44D91785B8D6825E2DC5",
+      "actual": "7B9355A9E1DDAD73A6ADE62B445DD00F238B051A1E3D44D91785B8D6825E2DC5"
+    },
+    {
+      "id": "engine-image-$identitynormalmap.iwi",
+      "pass": true,
+      "expected": "861B04E62C3E2E62CFE754DCA84C08DC5F9E80B8BAC46E3DD7FE9EA720970F20",
+      "actual": "861B04E62C3E2E62CFE754DCA84C08DC5F9E80B8BAC46E3DD7FE9EA720970F20"
+    },
+    {
+      "id": "engine-image-weapon_saw_col.iwi",
+      "pass": true,
+      "expected": "B63E4589B04F82077DFC3373DDACBA32CC9914E6864458C958057479D48D24B7",
+      "actual": "B63E4589B04F82077DFC3373DDACBA32CC9914E6864458C958057479D48D24B7"
+    },
+    {
+      "id": "private-iwd-entry-set",
+      "pass": true,
+      "expected": [
+        "images/$identitynormalmap.iwi",
+        "images/weapon_saw_col.iwi",
+        "images/weapon_sentry_gun_col.iwi",
+        "images/weapon_sentry_gun_nml.iwi",
+        "images/~weapon_saw_spc-r65g65b65&wea~fbd00e22.iwi",
+        "images/~weapon_sentry_gun_spec-rgb&$~ae6da276.iwi"
+      ],
+      "actual": [
+        "images/$identitynormalmap.iwi",
+        "images/weapon_saw_col.iwi",
+        "images/weapon_sentry_gun_col.iwi",
+        "images/weapon_sentry_gun_nml.iwi",
+        "images/~weapon_saw_spc-r65g65b65&wea~fbd00e22.iwi",
+        "images/~weapon_sentry_gun_spec-rgb&$~ae6da276.iwi"
+      ]
+    },
+    {
+      "id": "private-iwd-entry-hashes",
+      "pass": true
+    },
+    {
+      "id": "private-export-internal-consistency",
+      "pass": true,
+      "actual": {
+        "boneDefinitionsMatch": true,
+        "vertexOffsetsMatch": true,
+        "triangleRecordsMatch": true,
+        "objectDefinitionsMatch": true,
+        "materialDefinitionsMatch": true,
+        "threeVerticesPerTriangle": true
+      }
+    },
+    {
+      "id": "private-compiled-counts",
+      "pass": true,
+      "expected": {
+        "bones": 12,
+        "vertices": 1100,
+        "triangles": 1749,
+        "objects": 4,
+        "materials": 3
+      },
+      "actual": {
+        "bones": 12,
+        "vertices": 1100,
+        "triangles": 1749,
+        "objects": 4,
+        "materials": 3
+      }
+    },
+    {
+      "id": "private-bone-order",
+      "pass": true,
+      "expected": [
+        {
+          "index": 0,
+          "parent": -1,
+          "name": "tag_origin"
+        },
+        {
+          "index": 1,
+          "parent": 0,
+          "name": "tag_base"
+        },
+        {
+          "index": 2,
+          "parent": 1,
+          "name": "tag_swivel"
+        },
+        {
+          "index": 3,
+          "parent": 2,
+          "name": "j_pivot"
+        },
+        {
+          "index": 4,
+          "parent": 3,
+          "name": "j_hinge"
+        },
+        {
+          "index": 5,
+          "parent": 4,
+          "name": "tag_gun"
+        },
+        {
+          "index": 6,
+          "parent": 5,
+          "name": "j_barrel_anchor"
+        },
+        {
+          "index": 7,
+          "parent": 5,
+          "name": "tag_brass"
+        },
+        {
+          "index": 8,
+          "parent": 5,
+          "name": "tag_clip"
+        },
+        {
+          "index": 9,
+          "parent": 6,
+          "name": "j_barrel"
+        },
+        {
+          "index": 10,
+          "parent": 9,
+          "name": "tag_barrel"
+        },
+        {
+          "index": 11,
+          "parent": 10,
+          "name": "tag_flash"
+        }
+      ],
+      "actual": [
+        {
+          "index": 0,
+          "parent": -1,
+          "name": "tag_origin"
+        },
+        {
+          "index": 1,
+          "parent": 0,
+          "name": "tag_base"
+        },
+        {
+          "index": 2,
+          "parent": 1,
+          "name": "tag_swivel"
+        },
+        {
+          "index": 3,
+          "parent": 2,
+          "name": "j_pivot"
+        },
+        {
+          "index": 4,
+          "parent": 3,
+          "name": "j_hinge"
+        },
+        {
+          "index": 5,
+          "parent": 4,
+          "name": "tag_gun"
+        },
+        {
+          "index": 6,
+          "parent": 5,
+          "name": "j_barrel_anchor"
+        },
+        {
+          "index": 7,
+          "parent": 5,
+          "name": "tag_brass"
+        },
+        {
+          "index": 8,
+          "parent": 5,
+          "name": "tag_clip"
+        },
+        {
+          "index": 9,
+          "parent": 6,
+          "name": "j_barrel"
+        },
+        {
+          "index": 10,
+          "parent": 9,
+          "name": "tag_barrel"
+        },
+        {
+          "index": 11,
+          "parent": 10,
+          "name": "tag_flash"
+        }
+      ]
+    },
+    {
+      "id": "private-object-order",
+      "pass": true
+    },
+    {
+      "id": "private-material-order",
+      "pass": true
+    },
+    {
+      "id": "private-surface-triangles",
+      "pass": true,
+      "expected": [
+        564,
+        132,
+        296,
+        757
+      ],
+      "actual": [
+        564,
+        132,
+        296,
+        757
+      ]
+    },
+    {
+      "id": "resident-export-internal-consistency",
+      "pass": true,
+      "actual": {
+        "boneDefinitionsMatch": true,
+        "vertexOffsetsMatch": true,
+        "triangleRecordsMatch": true,
+        "objectDefinitionsMatch": true,
+        "materialDefinitionsMatch": true,
+        "threeVerticesPerTriangle": true
+      }
+    },
+    {
+      "id": "resident-compiled-counts",
+      "pass": true,
+      "expected": {
+        "bones": 12,
+        "vertices": 1100,
+        "triangles": 1749,
+        "objects": 4,
+        "materials": 3
+      },
+      "actual": {
+        "bones": 12,
+        "vertices": 1100,
+        "triangles": 1749,
+        "objects": 4,
+        "materials": 3
+      }
+    },
+    {
+      "id": "resident-bone-order",
+      "pass": true,
+      "expected": [
+        {
+          "index": 0,
+          "parent": -1,
+          "name": "tag_origin"
+        },
+        {
+          "index": 1,
+          "parent": 0,
+          "name": "tag_base"
+        },
+        {
+          "index": 2,
+          "parent": 1,
+          "name": "tag_swivel"
+        },
+        {
+          "index": 3,
+          "parent": 2,
+          "name": "j_pivot"
+        },
+        {
+          "index": 4,
+          "parent": 3,
+          "name": "j_hinge"
+        },
+        {
+          "index": 5,
+          "parent": 4,
+          "name": "tag_gun"
+        },
+        {
+          "index": 6,
+          "parent": 5,
+          "name": "j_barrel_anchor"
+        },
+        {
+          "index": 7,
+          "parent": 5,
+          "name": "tag_brass"
+        },
+        {
+          "index": 8,
+          "parent": 5,
+          "name": "tag_clip"
+        },
+        {
+          "index": 9,
+          "parent": 6,
+          "name": "j_barrel"
+        },
+        {
+          "index": 10,
+          "parent": 9,
+          "name": "tag_barrel"
+        },
+        {
+          "index": 11,
+          "parent": 10,
+          "name": "tag_flash"
+        }
+      ],
+      "actual": [
+        {
+          "index": 0,
+          "parent": -1,
+          "name": "tag_origin"
+        },
+        {
+          "index": 1,
+          "parent": 0,
+          "name": "tag_base"
+        },
+        {
+          "index": 2,
+          "parent": 1,
+          "name": "tag_swivel"
+        },
+        {
+          "index": 3,
+          "parent": 2,
+          "name": "j_pivot"
+        },
+        {
+          "index": 4,
+          "parent": 3,
+          "name": "j_hinge"
+        },
+        {
+          "index": 5,
+          "parent": 4,
+          "name": "tag_gun"
+        },
+        {
+          "index": 6,
+          "parent": 5,
+          "name": "j_barrel_anchor"
+        },
+        {
+          "index": 7,
+          "parent": 5,
+          "name": "tag_brass"
+        },
+        {
+          "index": 8,
+          "parent": 5,
+          "name": "tag_clip"
+        },
+        {
+          "index": 9,
+          "parent": 6,
+          "name": "j_barrel"
+        },
+        {
+          "index": 10,
+          "parent": 9,
+          "name": "tag_barrel"
+        },
+        {
+          "index": 11,
+          "parent": 10,
+          "name": "tag_flash"
+        }
+      ]
+    },
+    {
+      "id": "resident-object-order",
+      "pass": true
+    },
+    {
+      "id": "resident-material-order",
+      "pass": true
+    },
+    {
+      "id": "resident-surface-triangles",
+      "pass": true,
+      "expected": [
+        564,
+        132,
+        296,
+        757
+      ],
+      "actual": [
+        564,
+        132,
+        296,
+        757
+      ]
+    },
+    {
+      "id": "minimal-export-internal-consistency",
+      "pass": true,
+      "actual": {
+        "boneDefinitionsMatch": true,
+        "vertexOffsetsMatch": true,
+        "triangleRecordsMatch": true,
+        "objectDefinitionsMatch": true,
+        "materialDefinitionsMatch": true,
+        "threeVerticesPerTriangle": true
+      }
+    },
+    {
+      "id": "minimal-compiled-counts",
+      "pass": true,
+      "expected": {
+        "bones": 12,
+        "vertices": 1100,
+        "triangles": 1749,
+        "objects": 4,
+        "materials": 3
+      },
+      "actual": {
+        "bones": 12,
+        "vertices": 1100,
+        "triangles": 1749,
+        "objects": 4,
+        "materials": 3
+      }
+    },
+    {
+      "id": "minimal-bone-order",
+      "pass": true,
+      "expected": [
+        {
+          "index": 0,
+          "parent": -1,
+          "name": "tag_origin"
+        },
+        {
+          "index": 1,
+          "parent": 0,
+          "name": "tag_base"
+        },
+        {
+          "index": 2,
+          "parent": 1,
+          "name": "tag_swivel"
+        },
+        {
+          "index": 3,
+          "parent": 2,
+          "name": "j_pivot"
+        },
+        {
+          "index": 4,
+          "parent": 3,
+          "name": "j_hinge"
+        },
+        {
+          "index": 5,
+          "parent": 4,
+          "name": "tag_gun"
+        },
+        {
+          "index": 6,
+          "parent": 5,
+          "name": "j_barrel_anchor"
+        },
+        {
+          "index": 7,
+          "parent": 5,
+          "name": "tag_brass"
+        },
+        {
+          "index": 8,
+          "parent": 5,
+          "name": "tag_clip"
+        },
+        {
+          "index": 9,
+          "parent": 6,
+          "name": "j_barrel"
+        },
+        {
+          "index": 10,
+          "parent": 9,
+          "name": "tag_barrel"
+        },
+        {
+          "index": 11,
+          "parent": 10,
+          "name": "tag_flash"
+        }
+      ],
+      "actual": [
+        {
+          "index": 0,
+          "parent": -1,
+          "name": "tag_origin"
+        },
+        {
+          "index": 1,
+          "parent": 0,
+          "name": "tag_base"
+        },
+        {
+          "index": 2,
+          "parent": 1,
+          "name": "tag_swivel"
+        },
+        {
+          "index": 3,
+          "parent": 2,
+          "name": "j_pivot"
+        },
+        {
+          "index": 4,
+          "parent": 3,
+          "name": "j_hinge"
+        },
+        {
+          "index": 5,
+          "parent": 4,
+          "name": "tag_gun"
+        },
+        {
+          "index": 6,
+          "parent": 5,
+          "name": "j_barrel_anchor"
+        },
+        {
+          "index": 7,
+          "parent": 5,
+          "name": "tag_brass"
+        },
+        {
+          "index": 8,
+          "parent": 5,
+          "name": "tag_clip"
+        },
+        {
+          "index": 9,
+          "parent": 6,
+          "name": "j_barrel"
+        },
+        {
+          "index": 10,
+          "parent": 9,
+          "name": "tag_barrel"
+        },
+        {
+          "index": 11,
+          "parent": 10,
+          "name": "tag_flash"
+        }
+      ]
+    },
+    {
+      "id": "minimal-object-order",
+      "pass": true
+    },
+    {
+      "id": "minimal-material-order",
+      "pass": true
+    },
+    {
+      "id": "minimal-surface-triangles",
+      "pass": true,
+      "expected": [
+        564,
+        132,
+        296,
+        757
+      ],
+      "actual": [
+        564,
+        132,
+        296,
+        757
+      ]
+    },
+    {
+      "id": "compiled-contexts-semantically-identical",
+      "pass": true
+    },
+    {
+      "id": "compiled-bounds-min",
+      "pass": true,
+      "expected": [
+        -22.708826065063477,
+        -19.39569854736328,
+        4.6193599700927734e-07
+      ],
+      "actual": [
+        -22.708826,
+        -19.395699,
+        0.0
+      ]
+    },
+    {
+      "id": "compiled-bounds-max",
+      "pass": true,
+      "expected": [
+        19.21202278137207,
+        19.564678192138672,
+        38.20134353637695
+      ],
+      "actual": [
+        19.212023,
+        19.564678,
+        38.201344
+      ]
+    },
+    {
+      "id": "private-dumped-glb-counts",
+      "pass": true,
+      "expected": [
+        12,
+        4,
+        11372,
+        2843,
+        1749
+      ],
+      "actual": [
+        12,
+        4,
+        11372,
+        2843,
+        1749
+      ]
+    },
+    {
+      "id": "private-dumped-glb-material-order",
+      "pass": true,
+      "expected": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ],
+      "actual": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ]
+    },
+    {
+      "id": "private-dumped-glb-joint-order",
+      "pass": true
+    },
+    {
+      "id": "private-dumped-glb-triangles-preserved",
+      "pass": true
+    },
+    {
+      "id": "private-dumped-glb-referenced-vertices",
+      "pass": true,
+      "expected": [
+        864,
+        216,
+        552,
+        1211
+      ],
+      "actual": [
+        864,
+        216,
+        552,
+        1211
+      ]
+    },
+    {
+      "id": "private-xmodel-pooled-position-counts",
+      "pass": true,
+      "expected": [
+        356,
+        72,
+        160,
+        512
+      ],
+      "actual": [
+        356,
+        72,
+        160,
+        512
+      ]
+    },
+    {
+      "id": "resident-dumped-glb-counts",
+      "pass": true,
+      "expected": [
+        12,
+        4,
+        11372,
+        2843,
+        1749
+      ],
+      "actual": [
+        12,
+        4,
+        11372,
+        2843,
+        1749
+      ]
+    },
+    {
+      "id": "resident-dumped-glb-material-order",
+      "pass": true,
+      "expected": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ],
+      "actual": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ]
+    },
+    {
+      "id": "resident-dumped-glb-joint-order",
+      "pass": true
+    },
+    {
+      "id": "resident-dumped-glb-triangles-preserved",
+      "pass": true
+    },
+    {
+      "id": "resident-dumped-glb-referenced-vertices",
+      "pass": true,
+      "expected": [
+        864,
+        216,
+        552,
+        1211
+      ],
+      "actual": [
+        864,
+        216,
+        552,
+        1211
+      ]
+    },
+    {
+      "id": "resident-xmodel-pooled-position-counts",
+      "pass": true,
+      "expected": [
+        356,
+        72,
+        160,
+        512
+      ],
+      "actual": [
+        356,
+        72,
+        160,
+        512
+      ]
+    },
+    {
+      "id": "minimal-dumped-glb-counts",
+      "pass": true,
+      "expected": [
+        12,
+        4,
+        11372,
+        2843,
+        1749
+      ],
+      "actual": [
+        12,
+        4,
+        11372,
+        2843,
+        1749
+      ]
+    },
+    {
+      "id": "minimal-dumped-glb-material-order",
+      "pass": true,
+      "expected": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ],
+      "actual": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ]
+    },
+    {
+      "id": "minimal-dumped-glb-joint-order",
+      "pass": true
+    },
+    {
+      "id": "minimal-dumped-glb-triangles-preserved",
+      "pass": true
+    },
+    {
+      "id": "minimal-dumped-glb-referenced-vertices",
+      "pass": true,
+      "expected": [
+        864,
+        216,
+        552,
+        1211
+      ],
+      "actual": [
+        864,
+        216,
+        552,
+        1211
+      ]
+    },
+    {
+      "id": "minimal-xmodel-pooled-position-counts",
+      "pass": true,
+      "expected": [
+        356,
+        72,
+        160,
+        512
+      ],
+      "actual": [
+        356,
+        72,
+        160,
+        512
+      ]
+    },
+    {
+      "id": "dumped-glb-context-geometry-identical",
+      "pass": true
+    },
+    {
+      "id": "private-dumped-material-set",
+      "pass": true,
+      "expected": [
+        "mtl_sentry_bo",
+        "mtl_weapon_saw",
+        "mtl_weapon_saw_misc_nocamo"
+      ],
+      "actual": [
+        "mtl_sentry_bo",
+        "mtl_weapon_saw",
+        "mtl_weapon_saw_misc_nocamo"
+      ]
+    },
+    {
+      "id": "private-dumped-material-closure-mtl_sentry_bo",
+      "pass": true
+    },
+    {
+      "id": "private-dumped-material-closure-mtl_weapon_saw",
+      "pass": true
+    },
+    {
+      "id": "private-dumped-material-closure-mtl_weapon_saw_misc_nocamo",
+      "pass": true
+    },
+    {
+      "id": "resident-dumped-material-set",
+      "pass": true,
+      "expected": [
+        "mtl_sentry_bo",
+        "mtl_weapon_saw_misc_nocamo"
+      ],
+      "actual": [
+        "mtl_sentry_bo",
+        "mtl_weapon_saw_misc_nocamo"
+      ]
+    },
+    {
+      "id": "resident-dumped-material-closure-mtl_sentry_bo",
+      "pass": true
+    },
+    {
+      "id": "resident-dumped-material-closure-mtl_weapon_saw_misc_nocamo",
+      "pass": true
+    },
+    {
+      "id": "minimal-dumped-material-set",
+      "pass": true,
+      "expected": [
+        "mtl_sentry_bo",
+        "mtl_weapon_saw_misc_nocamo"
+      ],
+      "actual": [
+        "mtl_sentry_bo",
+        "mtl_weapon_saw_misc_nocamo"
+      ]
+    },
+    {
+      "id": "minimal-dumped-material-closure-mtl_sentry_bo",
+      "pass": true
+    },
+    {
+      "id": "minimal-dumped-material-closure-mtl_weapon_saw_misc_nocamo",
+      "pass": true
+    },
+    {
+      "id": "private-link-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "resident-link-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "minimal-link-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "private-link-all-materials-disk",
+      "pass": true
+    },
+    {
+      "id": "private-link-all-images-disk",
+      "pass": true
+    },
+    {
+      "id": "minimal-link-stock-misc",
+      "pass": true
+    },
+    {
+      "id": "minimal-link-no-private-saw-iwi",
+      "pass": true
+    },
+    {
+      "id": "minimal-link-no-private-saw-material",
+      "pass": true
+    },
+    {
+      "id": "minimal-sentry-iwis-byte-exact-production",
+      "pass": true
+    },
+    {
+      "id": "dds-only-negative-probe-exact",
+      "pass": true,
+      "expected": {
+        "kind": "Failed",
+        "warnings": 0,
+        "errors": 6
+      },
+      "actual": {
+        "kind": "Failed",
+        "warnings": 0,
+        "errors": 6
+      }
+    },
+    {
+      "id": "dds-only-negative-probe-missing-image",
+      "pass": true
+    },
+    {
+      "id": "list-private-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-private-xmodel-export-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-private-glb-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-private-materials-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-private-images-with-iwd-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "list-resident-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-resident-xmodel-export-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-resident-glb-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-resident-materials-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "list-minimal-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-minimal-xmodel-export-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-minimal-glb-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "unlink-minimal-materials-clean",
+      "pass": true,
+      "expected": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      },
+      "actual": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 0
+      }
+    },
+    {
+      "id": "private-list-no-references",
+      "pass": true
+    },
+    {
+      "id": "private-list-one-xmodel",
+      "pass": true
+    },
+    {
+      "id": "resident-resident-reference-set",
+      "pass": true,
+      "actual": [
+        "$identitynormalmap",
+        "mc/mtl_weapon_saw",
+        "mc_l_sm_r0c0n0s0",
+        "mc_l_sm_r0c0s0",
+        "weapon_saw_col",
+        "~weapon_saw_spc-r65g65b65&wea~fbd00e22"
+      ]
+    },
+    {
+      "id": "resident-one-lethal-xmodel",
+      "pass": true
+    },
+    {
+      "id": "minimal-resident-reference-set",
+      "pass": true,
+      "actual": [
+        "$identitynormalmap",
+        "mc/mtl_weapon_saw",
+        "mc_l_sm_r0c0n0s0",
+        "mc_l_sm_r0c0s0",
+        "weapon_saw_col",
+        "~weapon_saw_spc-r65g65b65&wea~fbd00e22"
+      ]
+    },
+    {
+      "id": "minimal-one-lethal-xmodel",
+      "pass": true
+    },
+    {
+      "id": "unlinked-image-name-set",
+      "pass": true,
+      "expected": [
+        "$identitynormalmap.dds",
+        "weapon_saw_col.dds",
+        "weapon_sentry_gun_col.dds",
+        "weapon_sentry_gun_nml.dds",
+        "~weapon_saw_spc-r65g65b65&wea~fbd00e22.dds",
+        "~weapon_sentry_gun_spec-rgb&$~ae6da276.dds"
+      ],
+      "actual": [
+        "$identitynormalmap.dds",
+        "weapon_saw_col.dds",
+        "weapon_sentry_gun_col.dds",
+        "weapon_sentry_gun_nml.dds",
+        "~weapon_saw_spc-r65g65b65&wea~fbd00e22.dds",
+        "~weapon_sentry_gun_spec-rgb&$~ae6da276.dds"
+      ]
+    },
+    {
+      "id": "unlinked-external-dds-weapon_sentry_gun_col.dds",
+      "pass": true,
+      "expected": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC",
+      "actual": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC"
+    },
+    {
+      "id": "unlinked-external-dds-weapon_sentry_gun_nml.dds",
+      "pass": true,
+      "expected": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3",
+      "actual": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3"
+    },
+    {
+      "id": "unlinked-external-dds-weapon_saw_col.dds",
+      "pass": true,
+      "expected": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA",
+      "actual": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA"
+    },
+    {
+      "id": "unlinked-external-dds-$identitynormalmap.dds",
+      "pass": true,
+      "expected": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96",
+      "actual": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96"
+    },
+    {
+      "id": "unlinked-saw-spec-dds",
+      "pass": true
+    },
+    {
+      "id": "promotion-not-executed",
+      "pass": true
+    },
+    {
+      "id": "promotion-operation-count",
+      "pass": true,
+      "expected": 5,
+      "actual": 5
+    },
+    {
+      "id": "promotion-write-scope",
+      "pass": true
+    },
+    {
+      "id": "promotion-source-1",
+      "pass": true
+    },
+    {
+      "id": "promotion-precondition-1",
+      "pass": true,
+      "expected": {
+        "exists": true,
+        "sha256": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD"
+      },
+      "actual": {
+        "exists": true,
+        "sha256": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD"
+      }
+    },
+    {
+      "id": "promotion-source-2",
+      "pass": true
+    },
+    {
+      "id": "promotion-precondition-2",
+      "pass": true,
+      "expected": {
+        "exists": false
+      },
+      "actual": {
+        "exists": false,
+        "sha256": null
+      }
+    },
+    {
+      "id": "promotion-source-3",
+      "pass": true
+    },
+    {
+      "id": "promotion-precondition-3",
+      "pass": true,
+      "expected": {
+        "exists": false
+      },
+      "actual": {
+        "exists": false,
+        "sha256": null
+      }
+    },
+    {
+      "id": "promotion-source-4",
+      "pass": true
+    },
+    {
+      "id": "promotion-precondition-4",
+      "pass": true,
+      "expected": {
+        "exists": false
+      },
+      "actual": {
+        "exists": false,
+        "sha256": null
+      }
+    },
+    {
+      "id": "promotion-source-5",
+      "pass": true
+    },
+    {
+      "id": "promotion-precondition-5",
+      "pass": true,
+      "expected": {
+        "exists": false
+      },
+      "actual": {
+        "exists": false,
+        "sha256": null
+      }
+    },
+    {
+      "id": "rollback-payload-exact",
+      "pass": true,
+      "expected": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD",
+      "actual": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD"
+    },
+    {
+      "id": "promotion-map-covers-uri-dds",
+      "pass": true
+    },
+    {
+      "id": "promotion-map-no-control-profile-zone-material-iwi-writes",
+      "pass": true
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+      "pass": true,
+      "expected": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD",
+      "actual": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/xmodel/worldmodel_xi_sentry_old_clean.json",
+      "pass": true,
+      "expected": "68929F3834097C09003DF63DB1148D776D61A38E70500F2E149BE8F5DAF2377C",
+      "actual": "68929F3834097C09003DF63DB1148D776D61A38E70500F2E149BE8F5DAF2377C"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/xi_ftag/_assetprofile.gsc",
+      "pass": true,
+      "expected": "2247DDDA60A2E38F7D2842EAA4528A6E8A6E8B2390198CAB3F9F140F36CBC20C",
+      "actual": "2247DDDA60A2E38F7D2842EAA4528A6E8A6E8B2390198CAB3F9F140F36CBC20C"
+    },
+    {
+      "id": "protected-zone_source/xi_ftag.zone",
+      "pass": true,
+      "expected": "421A2362ED6A72332C13B779313C43B22EF2461CB0BF32754134DC816C2F73CE",
+      "actual": "421A2362ED6A72332C13B779313C43B22EF2461CB0BF32754134DC816C2F73CE"
+    },
+    {
+      "id": "protected-zone_source/assetlist/xi_ftag_stock_render_assets.csv",
+      "pass": true,
+      "expected": "90F7A3F0478794F5B6F566AFFE18A77E602157B8A2795F9D1262D4A86BEB3A36",
+      "actual": "90F7A3F0478794F5B6F566AFFE18A77E602157B8A2795F9D1262D4A86BEB3A36"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/xmodel/worldmodel_t8_sentry_deployed.json",
+      "pass": true,
+      "expected": "5C9757A71714A931B1E930D583044001972CED0771BA9E329455D7F7652B7369",
+      "actual": "5C9757A71714A931B1E930D583044001972CED0771BA9E329455D7F7652B7369"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/model_export/worldmodel_t8_sentry_deployed_lod0.glb",
+      "pass": true,
+      "expected": "580A7381B916FAFFBBBC812F785A42F1EBE61100B15ED4CE490B983356C9AD9E",
+      "actual": "580A7381B916FAFFBBBC812F785A42F1EBE61100B15ED4CE490B983356C9AD9E"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/xmodel/worldmodel_t8_defroster_drone.json",
+      "pass": true,
+      "expected": "24E46C73A85BEE21E51A0496134AFEB6E4D542A19BA81145262DBD89CF7CDAB0",
+      "actual": "24E46C73A85BEE21E51A0496134AFEB6E4D542A19BA81145262DBD89CF7CDAB0"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/model_export/worldmodel_t8_defroster_drone_lod0.glb",
+      "pass": true,
+      "expected": "2737870FF7A67C75D33DDD68D2158D7721E852869F5DA755207714A8AC5E15D5",
+      "actual": "2737870FF7A67C75D33DDD68D2158D7721E852869F5DA755207714A8AC5E15D5"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/materials/mc/mtl_sentry_bo.json",
+      "pass": true,
+      "expected": "B6C560252B8D70AB5C2E0BD398773E0341A7006EF314531225193777C8E2CB7F",
+      "actual": "B6C560252B8D70AB5C2E0BD398773E0341A7006EF314531225193777C8E2CB7F"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/images/~weapon_sentry_gun_spec-rgb&$~ae6da276.iwi",
+      "pass": true,
+      "expected": "70AAA15760AFC2FC1D4E33BEC860B9D11EF61E98BF3721E4948767405BA7D9C2",
+      "actual": "70AAA15760AFC2FC1D4E33BEC860B9D11EF61E98BF3721E4948767405BA7D9C2"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/images/weapon_sentry_gun_nml.iwi",
+      "pass": true,
+      "expected": "3A4A9FFE7E610E2031F09586B135142B9000A389F154D31778C5A329E9BB5799",
+      "actual": "3A4A9FFE7E610E2031F09586B135142B9000A389F154D31778C5A329E9BB5799"
+    },
+    {
+      "id": "protected-zone_raw/xi_ftag/images/weapon_sentry_gun_col.iwi",
+      "pass": true,
+      "expected": "DD5EAB12A22216D405D98BD3217841B591971106B19AEFA43515F6821A1674EE",
+      "actual": "DD5EAB12A22216D405D98BD3217841B591971106B19AEFA43515F6821A1674EE"
+    },
+    {
+      "id": "tool-Linker.exe",
+      "pass": true,
+      "expected": "1A5CB7499458BEF359F55FF2A78C72E5822F62455599AB291B590DA747C0233B",
+      "actual": "1A5CB7499458BEF359F55FF2A78C72E5822F62455599AB291B590DA747C0233B"
+    },
+    {
+      "id": "tool-Unlinker.exe",
+      "pass": true,
+      "expected": "8475AF247240D34B29AA51AE5C84B3E4AED2F7100BB5C689FD3FA1EA666F4A7F",
+      "actual": "8475AF247240D34B29AA51AE5C84B3E4AED2F7100BB5C689FD3FA1EA666F4A7F"
+    },
+    {
+      "id": "tool-ImageConverter.exe",
+      "pass": true,
+      "expected": "FB0EFD4172DC741CEB2329D000118C6262EEA2D9103A24092FB4AA0CA4218906",
+      "actual": "FB0EFD4172DC741CEB2329D000118C6262EEA2D9103A24092FB4AA0CA4218906"
+    },
+    {
+      "id": "reference-zone-common.ff",
+      "pass": true,
+      "expected": "DD269840AD20F4C67CD96D1F42B0E5571BC61645C91B1866B65BD08036A6B306",
+      "actual": "DD269840AD20F4C67CD96D1F42B0E5571BC61645C91B1866B65BD08036A6B306"
+    },
+    {
+      "id": "reference-zone-common_mp.ff",
+      "pass": true,
+      "expected": "602C068B34F6A32147BFC7727B4F18B6A37FE47B4E99C68F5E25C6507C637320",
+      "actual": "602C068B34F6A32147BFC7727B4F18B6A37FE47B4E99C68F5E25C6507C637320"
+    },
+    {
+      "id": "role-profile-distinct",
+      "pass": true,
+      "expected": {
+        "getFrostSentryModel": "worldmodel_t8_sentry_deployed",
+        "getSentryGrenadeModel": "worldmodel_xi_sentry_old_clean",
+        "getDefrosterDroneModel": "worldmodel_t8_defroster_drone"
+      },
+      "actual": {
+        "getFrostSentryModel": "worldmodel_t8_sentry_deployed",
+        "getSentryGrenadeModel": "worldmodel_xi_sentry_old_clean",
+        "getDefrosterDroneModel": "worldmodel_t8_defroster_drone"
+      }
+    },
+    {
+      "id": "role-zone-references-once",
+      "pass": true
+    },
+    {
+      "id": "private-probe-no-control-xmodels",
+      "pass": true
+    },
+    {
+      "id": "identity-hashes-distinct",
+      "pass": true,
+      "actual": {
+        "oldProductionLethal": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD",
+        "groundFrostSentry": "580A7381B916FAFFBBBC812F785A42F1EBE61100B15ED4CE490B983356C9AD9E",
+        "airborneDefrosterDrone": "2737870FF7A67C75D33DDD68D2158D7721E852869F5DA755207714A8AC5E15D5",
+        "acceptedCandidate": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+      }
+    },
+    {
+      "id": "iw3-representational-capacities",
+      "pass": true,
+      "expected": {
+        "bones": 255,
+        "surfaces": 255,
+        "verticesPerSurface": 65535,
+        "trianglesPerSurface": 65535,
+        "triangleVertexIndex": 65535
+      },
+      "actual": {
+        "bones": 12,
+        "surfaces": 4,
+        "verticesPerSurface": [
+          356,
+          72,
+          160,
+          512
+        ],
+        "trianglesPerSurface": [
+          564,
+          132,
+          296,
+          757
+        ],
+        "maxTriangleVertexIndex": 1099
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "image-unlink-without-iwd",
+      "result": {
+        "kind": "Finished",
+        "warnings": 0,
+        "errors": 6
+      },
+      "interpretation": "The FF contains image metadata but the pixel payload requires an external IWD search path. The retry with the private six-entry IWD completed with zero errors."
+    }
+  ],
+  "authoritativeInputs": {
+    "candidate": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_material_builder_round4/candidate/worldmodel_xi_sentry_lethal_round4_material_challenger_lod0.glb",
+      "bytes": 165728,
+      "sha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+    },
+    "criticReport": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_material_critic_round5/REPORT.md",
+      "bytes": 9333,
+      "sha256": "0D30EA5E007539836E72DF8A0B90BF7BB10777EFAA16E1EF952DBEB087002604"
+    },
+    "criticResult": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_material_critic_round5/RESULT.json",
+      "bytes": 5893,
+      "sha256": "A00582C032C510775DAC8A0A0038D313232D4684E8D85813253CDEC322C5C16A"
+    }
+  },
+  "candidate": {
+    "artifact": {
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+      "bytes": 165728,
+      "sha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+    },
+    "binaryChunkBytes": 159100,
+    "binaryChunkSha256": "3BC2E194744F6D0023DED35839E503FD56441EE5FE64062A53ED80BF7DBC010B",
+    "generator": "Khronos glTF Blender I/O v3.6.27",
+    "sceneCount": 1,
+    "nodeCount": 17,
+    "nodeNames": [
+      "tag_flash",
+      "tag_barrel",
+      "j_barrel",
+      "j_barrel_anchor",
+      "tag_brass",
+      "tag_clip",
+      "tag_gun",
+      "j_hinge",
+      "j_pivot",
+      "tag_swivel",
+      "tag_base",
+      "tag_origin",
+      "legacy_tripod",
+      "mount_hardware",
+      "mount_yoke",
+      "saw_receiver",
+      "xi_sentry_round2_tags"
+    ],
+    "skinCount": 1,
+    "jointCount": 12,
+    "jointNames": [
+      "tag_origin",
+      "tag_base",
+      "tag_swivel",
+      "j_pivot",
+      "j_hinge",
+      "tag_gun",
+      "j_barrel_anchor",
+      "j_barrel",
+      "tag_barrel",
+      "tag_flash",
+      "tag_brass",
+      "tag_clip"
+    ],
+    "meshCount": 4,
+    "primitiveCount": 4,
+    "vertices": 2843,
+    "referencedVertices": 2843,
+    "triangles": 1749,
+    "primitives": [
+      {
+        "meshIndex": 0,
+        "primitiveIndex": 0,
+        "meshName": "surf1.001",
+        "nodeNames": [
+          "legacy_tripod"
+        ],
+        "vertices": 864,
+        "referencedVertices": 864,
+        "maxVertexIndex": 863,
+        "triangles": 564,
+        "materialIndex": 0,
+        "material": "mc/mtl_sentry_bo",
+        "positionMin": [
+          -19.942481994628906,
+          4.6193599700927734e-07,
+          -19.564678192138672
+        ],
+        "positionMax": [
+          19.21202278137207,
+          28.719257354736328,
+          19.39569854736328
+        ]
+      },
+      {
+        "meshIndex": 1,
+        "primitiveIndex": 0,
+        "meshName": "Cylinder.003",
+        "nodeNames": [
+          "mount_hardware"
+        ],
+        "vertices": 216,
+        "referencedVertices": 216,
+        "maxVertexIndex": 215,
+        "triangles": 132,
+        "materialIndex": 1,
+        "material": "mc/mtl_weapon_saw_misc_nocamo",
+        "positionMin": [
+          -1.2699999809265137,
+          30.350000381469727,
+          -3.5299999713897705
+        ],
+        "positionMax": [
+          1.2699999809265137,
+          35.9900016784668,
+          3.5299999713897705
+        ]
+      },
+      {
+        "meshIndex": 2,
+        "primitiveIndex": 0,
+        "meshName": "Cylinder",
+        "nodeNames": [
+          "mount_yoke"
+        ],
+        "vertices": 552,
+        "referencedVertices": 552,
+        "maxVertexIndex": 551,
+        "triangles": 296,
+        "materialIndex": 1,
+        "material": "mc/mtl_weapon_saw_misc_nocamo",
+        "positionMin": [
+          -8,
+          28.649999618530273,
+          -4.25
+        ],
+        "positionMax": [
+          4.25,
+          35.58000183105469,
+          4.25
+        ]
+      },
+      {
+        "meshIndex": 3,
+        "primitiveIndex": 0,
+        "meshName": "Mesh_0.001",
+        "nodeNames": [
+          "saw_receiver"
+        ],
+        "vertices": 1211,
+        "referencedVertices": 1211,
+        "maxVertexIndex": 1210,
+        "triangles": 757,
+        "materialIndex": 2,
+        "material": "mc/mtl_weapon_saw",
+        "positionMin": [
+          -22.708826065063477,
+          30.067041397094727,
+          -1.6599829196929932
+        ],
+        "positionMax": [
+          16.145992279052734,
+          38.20134353637695,
+          1.8133448362350464
+        ]
+      }
+    ],
+    "materials": [
+      "mc/mtl_sentry_bo",
+      "mc/mtl_weapon_saw_misc_nocamo",
+      "mc/mtl_weapon_saw"
+    ],
+    "images": [
+      "../images/weapon_sentry_gun_col.dds",
+      "../images/weapon_sentry_gun_nml.dds",
+      "../images/weapon_saw_col.dds",
+      "../images/$identitynormalmap.dds"
+    ],
+    "bounds": {
+      "min": [
+        -22.708826065063477,
+        4.6193599700927734e-07,
+        -19.564678192138672
+      ],
+      "max": [
+        19.21202278137207,
+        38.20134353637695,
+        19.39569854736328
+      ],
+      "extent": [
+        41.92084884643555,
+        38.201343074440956,
+        38.96037673950195
+      ]
+    }
+  },
+  "externalImageUris": [
+    {
+      "uri": "../images/weapon_sentry_gun_col.dds",
+      "safeRelative": true,
+      "resolvedPath": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/weapon_sentry_gun_col.dds",
+      "exists": true,
+      "sha256": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC",
+      "expectedSha256": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC"
+    },
+    {
+      "uri": "../images/weapon_sentry_gun_nml.dds",
+      "safeRelative": true,
+      "resolvedPath": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/weapon_sentry_gun_nml.dds",
+      "exists": true,
+      "sha256": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3",
+      "expectedSha256": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3"
+    },
+    {
+      "uri": "../images/weapon_saw_col.dds",
+      "safeRelative": true,
+      "resolvedPath": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/weapon_saw_col.dds",
+      "exists": true,
+      "sha256": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA",
+      "expectedSha256": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA"
+    },
+    {
+      "uri": "../images/$identitynormalmap.dds",
+      "safeRelative": true,
+      "resolvedPath": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/$identitynormalmap.dds",
+      "exists": true,
+      "sha256": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96",
+      "expectedSha256": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96"
+    }
+  ],
+  "engineImages": [
+    {
+      "name": "~weapon_sentry_gun_spec-rgb&$~ae6da276.iwi",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/~weapon_sentry_gun_spec-rgb&$~ae6da276.iwi",
+      "sha256": "70AAA15760AFC2FC1D4E33BEC860B9D11EF61E98BF3721E4948767405BA7D9C2",
+      "expectedSha256": "70AAA15760AFC2FC1D4E33BEC860B9D11EF61E98BF3721E4948767405BA7D9C2"
+    },
+    {
+      "name": "weapon_sentry_gun_nml.iwi",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/weapon_sentry_gun_nml.iwi",
+      "sha256": "31141254F607C353B186AD44BFCA2C0A84F65EDDB355F3C7705B2E164736AD54",
+      "expectedSha256": "31141254F607C353B186AD44BFCA2C0A84F65EDDB355F3C7705B2E164736AD54"
+    },
+    {
+      "name": "weapon_sentry_gun_col.iwi",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/weapon_sentry_gun_col.iwi",
+      "sha256": "B8DF825DC29D6F16EF4342ABCF91D9C4CB0CA9401C435975CA2118F150EAAED0",
+      "expectedSha256": "B8DF825DC29D6F16EF4342ABCF91D9C4CB0CA9401C435975CA2118F150EAAED0"
+    },
+    {
+      "name": "~weapon_saw_spc-r65g65b65&wea~fbd00e22.iwi",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/~weapon_saw_spc-r65g65b65&wea~fbd00e22.iwi",
+      "sha256": "7B9355A9E1DDAD73A6ADE62B445DD00F238B051A1E3D44D91785B8D6825E2DC5",
+      "expectedSha256": "7B9355A9E1DDAD73A6ADE62B445DD00F238B051A1E3D44D91785B8D6825E2DC5"
+    },
+    {
+      "name": "$identitynormalmap.iwi",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/$identitynormalmap.iwi",
+      "sha256": "861B04E62C3E2E62CFE754DCA84C08DC5F9E80B8BAC46E3DD7FE9EA720970F20",
+      "expectedSha256": "861B04E62C3E2E62CFE754DCA84C08DC5F9E80B8BAC46E3DD7FE9EA720970F20"
+    },
+    {
+      "name": "weapon_saw_col.iwi",
+      "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/images/weapon_saw_col.iwi",
+      "sha256": "B63E4589B04F82077DFC3373DDACBA32CC9914E6864458C958057479D48D24B7",
+      "expectedSha256": "B63E4589B04F82077DFC3373DDACBA32CC9914E6864458C958057479D48D24B7"
+    }
+  ],
+  "materials": {
+    "mc/mtl_sentry_bo": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/materials/mc/mtl_sentry_bo.json",
+        "bytes": 6454,
+        "sha256": "B6C560252B8D70AB5C2E0BD398773E0341A7006EF314531225193777C8E2CB7F"
+      },
+      "techniqueSet": "mc_l_sm_r0c0n0s0",
+      "textures": [
+        {
+          "name": "specularMap",
+          "semantic": "specularMap",
+          "image": "~weapon_sentry_gun_spec-rgb&$~ae6da276",
+          "samplerState": {
+            "clampU": false,
+            "clampV": false,
+            "clampW": false,
+            "filter": "aniso2x",
+            "mipMap": "nearest"
+          }
+        },
+        {
+          "name": "normalMap",
+          "semantic": "normalMap",
+          "image": "weapon_sentry_gun_nml",
+          "samplerState": {
+            "clampU": false,
+            "clampV": false,
+            "clampW": false,
+            "filter": "aniso2x",
+            "mipMap": "nearest"
+          }
+        },
+        {
+          "name": "colorMap",
+          "semantic": "colorMap",
+          "image": "weapon_sentry_gun_col",
+          "samplerState": {
+            "clampU": false,
+            "clampV": false,
+            "clampW": false,
+            "filter": "aniso2x",
+            "mipMap": "nearest"
+          }
+        }
+      ],
+      "canonicalSha256": "46353C9B3AFCDC3869B0FDB2B6280746D172BF1711EF33F7F22C645515D1565A"
+    },
+    "mc/mtl_weapon_saw_misc_nocamo": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/materials/mc/mtl_weapon_saw_misc_nocamo.json",
+        "bytes": 6205,
+        "sha256": "EFD2B43443C4074C643912BEC6EC0F7C5120DA1E58FADD51C1E269115CAC87EB"
+      },
+      "techniqueSet": "mc_l_sm_r0c0s0",
+      "textures": [
+        {
+          "name": "specularMap",
+          "semantic": "specularMap",
+          "image": "~weapon_saw_spc-r65g65b65&wea~fbd00e22",
+          "samplerState": {
+            "clampU": false,
+            "clampV": false,
+            "clampW": false,
+            "filter": "aniso2x",
+            "mipMap": "nearest"
+          }
+        },
+        {
+          "name": "normalMap",
+          "semantic": "normalMap",
+          "image": "$identitynormalmap",
+          "samplerState": {
+            "clampU": false,
+            "clampV": false,
+            "clampW": false,
+            "filter": "nearest",
+            "mipMap": "disabled"
+          }
+        },
+        {
+          "name": "colorMap",
+          "semantic": "colorMap",
+          "image": "weapon_saw_col",
+          "samplerState": {
+            "clampU": false,
+            "clampV": false,
+            "clampW": false,
+            "filter": "aniso2x",
+            "mipMap": "nearest"
+          }
+        }
+      ],
+      "canonicalSha256": "8612CA1BA45D70D49D1DF26785D043E7B128C6673AADB64533F173F91114E679"
+    },
+    "mc/mtl_weapon_saw": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/zone_raw/materials/mc/mtl_weapon_saw.json",
+        "bytes": 6205,
+        "sha256": "EFD2B43443C4074C643912BEC6EC0F7C5120DA1E58FADD51C1E269115CAC87EB"
+      },
+      "techniqueSet": "mc_l_sm_r0c0s0",
+      "textures": [
+        {
+          "name": "specularMap",
+          "semantic": "specularMap",
+          "image": "~weapon_saw_spc-r65g65b65&wea~fbd00e22",
+          "samplerState": {
+            "clampU": false,
+            "clampV": false,
+            "clampW": false,
+            "filter": "aniso2x",
+            "mipMap": "nearest"
+          }
+        },
+        {
+          "name": "normalMap",
+          "semantic": "normalMap",
+          "image": "$identitynormalmap",
+          "samplerState": {
+            "clampU": false,
+            "clampV": false,
+            "clampW": false,
+            "filter": "nearest",
+            "mipMap": "disabled"
+          }
+        },
+        {
+          "name": "colorMap",
+          "semantic": "colorMap",
+          "image": "weapon_saw_col",
+          "samplerState": {
+            "clampU": false,
+            "clampV": false,
+            "clampW": false,
+            "filter": "aniso2x",
+            "mipMap": "nearest"
+          }
+        }
+      ],
+      "canonicalSha256": "8612CA1BA45D70D49D1DF26785D043E7B128C6673AADB64533F173F91114E679"
+    }
+  },
+  "compiledXModelExports": {
+    "private": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_private/xmodel_export/model_export/worldmodel_xi_sentry_old_clean_lod0.xmodel_export",
+        "bytes": 678483,
+        "sha256": "22DEE74EA7B9627983B150F1B372843E0BCD6740430F63988A01699AFFE56816"
+      },
+      "counts": {
+        "bones": 12,
+        "vertices": 1100,
+        "triangles": 1749,
+        "objects": 4,
+        "materials": 3
+      },
+      "bones": [
+        {
+          "index": 0,
+          "parent": -1,
+          "name": "tag_origin"
+        },
+        {
+          "index": 1,
+          "parent": 0,
+          "name": "tag_base"
+        },
+        {
+          "index": 2,
+          "parent": 1,
+          "name": "tag_swivel"
+        },
+        {
+          "index": 3,
+          "parent": 2,
+          "name": "j_pivot"
+        },
+        {
+          "index": 4,
+          "parent": 3,
+          "name": "j_hinge"
+        },
+        {
+          "index": 5,
+          "parent": 4,
+          "name": "tag_gun"
+        },
+        {
+          "index": 6,
+          "parent": 5,
+          "name": "j_barrel_anchor"
+        },
+        {
+          "index": 7,
+          "parent": 5,
+          "name": "tag_brass"
+        },
+        {
+          "index": 8,
+          "parent": 5,
+          "name": "tag_clip"
+        },
+        {
+          "index": 9,
+          "parent": 6,
+          "name": "j_barrel"
+        },
+        {
+          "index": 10,
+          "parent": 9,
+          "name": "tag_barrel"
+        },
+        {
+          "index": 11,
+          "parent": 10,
+          "name": "tag_flash"
+        }
+      ],
+      "objects": [
+        {
+          "index": 0,
+          "name": "surf0"
+        },
+        {
+          "index": 1,
+          "name": "surf1"
+        },
+        {
+          "index": 2,
+          "name": "surf2"
+        },
+        {
+          "index": 3,
+          "name": "surf3"
+        }
+      ],
+      "materials": [
+        {
+          "index": 0,
+          "name": "mc/mtl_sentry_bo"
+        },
+        {
+          "index": 1,
+          "name": "mc/mtl_weapon_saw_misc_nocamo"
+        },
+        {
+          "index": 2,
+          "name": "mc/mtl_weapon_saw"
+        }
+      ],
+      "surfaces": [
+        {
+          "index": 0,
+          "name": "surf0",
+          "vertices": 356,
+          "triangles": 564,
+          "materialIndices": [
+            0
+          ],
+          "materials": [
+            "mc/mtl_sentry_bo"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "surf1",
+          "vertices": 72,
+          "triangles": 132,
+          "materialIndices": [
+            1
+          ],
+          "materials": [
+            "mc/mtl_weapon_saw_misc_nocamo"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "surf2",
+          "vertices": 160,
+          "triangles": 296,
+          "materialIndices": [
+            1
+          ],
+          "materials": [
+            "mc/mtl_weapon_saw_misc_nocamo"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "surf3",
+          "vertices": 512,
+          "triangles": 757,
+          "materialIndices": [
+            2
+          ],
+          "materials": [
+            "mc/mtl_weapon_saw"
+          ]
+        }
+      ],
+      "maxVertexIndex": 1099,
+      "faceVertexCountErrors": 0,
+      "bounds": {
+        "min": [
+          -22.708826,
+          -19.395699,
+          0.0
+        ],
+        "max": [
+          19.212023,
+          19.564678,
+          38.201344
+        ],
+        "extent": [
+          41.920849,
+          38.960377,
+          38.201344
+        ]
+      },
+      "internalConsistency": {
+        "boneDefinitionsMatch": true,
+        "vertexOffsetsMatch": true,
+        "triangleRecordsMatch": true,
+        "objectDefinitionsMatch": true,
+        "materialDefinitionsMatch": true,
+        "threeVerticesPerTriangle": true
+      }
+    },
+    "resident": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_resident/xmodel_export/model_export/worldmodel_xi_sentry_old_clean_lod0.xmodel_export",
+        "bytes": 678470,
+        "sha256": "1DE36F6CA397402962AF578902019FB06DE5C6887C63341259196D31972EBEE6"
+      },
+      "counts": {
+        "bones": 12,
+        "vertices": 1100,
+        "triangles": 1749,
+        "objects": 4,
+        "materials": 3
+      },
+      "bones": [
+        {
+          "index": 0,
+          "parent": -1,
+          "name": "tag_origin"
+        },
+        {
+          "index": 1,
+          "parent": 0,
+          "name": "tag_base"
+        },
+        {
+          "index": 2,
+          "parent": 1,
+          "name": "tag_swivel"
+        },
+        {
+          "index": 3,
+          "parent": 2,
+          "name": "j_pivot"
+        },
+        {
+          "index": 4,
+          "parent": 3,
+          "name": "j_hinge"
+        },
+        {
+          "index": 5,
+          "parent": 4,
+          "name": "tag_gun"
+        },
+        {
+          "index": 6,
+          "parent": 5,
+          "name": "j_barrel_anchor"
+        },
+        {
+          "index": 7,
+          "parent": 5,
+          "name": "tag_brass"
+        },
+        {
+          "index": 8,
+          "parent": 5,
+          "name": "tag_clip"
+        },
+        {
+          "index": 9,
+          "parent": 6,
+          "name": "j_barrel"
+        },
+        {
+          "index": 10,
+          "parent": 9,
+          "name": "tag_barrel"
+        },
+        {
+          "index": 11,
+          "parent": 10,
+          "name": "tag_flash"
+        }
+      ],
+      "objects": [
+        {
+          "index": 0,
+          "name": "surf0"
+        },
+        {
+          "index": 1,
+          "name": "surf1"
+        },
+        {
+          "index": 2,
+          "name": "surf2"
+        },
+        {
+          "index": 3,
+          "name": "surf3"
+        }
+      ],
+      "materials": [
+        {
+          "index": 0,
+          "name": "mc/mtl_sentry_bo"
+        },
+        {
+          "index": 1,
+          "name": "mc/mtl_weapon_saw_misc_nocamo"
+        },
+        {
+          "index": 2,
+          "name": "mc/mtl_weapon_saw"
+        }
+      ],
+      "surfaces": [
+        {
+          "index": 0,
+          "name": "surf0",
+          "vertices": 356,
+          "triangles": 564,
+          "materialIndices": [
+            0
+          ],
+          "materials": [
+            "mc/mtl_sentry_bo"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "surf1",
+          "vertices": 72,
+          "triangles": 132,
+          "materialIndices": [
+            1
+          ],
+          "materials": [
+            "mc/mtl_weapon_saw_misc_nocamo"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "surf2",
+          "vertices": 160,
+          "triangles": 296,
+          "materialIndices": [
+            1
+          ],
+          "materials": [
+            "mc/mtl_weapon_saw_misc_nocamo"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "surf3",
+          "vertices": 512,
+          "triangles": 757,
+          "materialIndices": [
+            2
+          ],
+          "materials": [
+            "mc/mtl_weapon_saw"
+          ]
+        }
+      ],
+      "maxVertexIndex": 1099,
+      "faceVertexCountErrors": 0,
+      "bounds": {
+        "min": [
+          -22.708826,
+          -19.395699,
+          0.0
+        ],
+        "max": [
+          19.212023,
+          19.564678,
+          38.201344
+        ],
+        "extent": [
+          41.920849,
+          38.960377,
+          38.201344
+        ]
+      },
+      "internalConsistency": {
+        "boneDefinitionsMatch": true,
+        "vertexOffsetsMatch": true,
+        "triangleRecordsMatch": true,
+        "objectDefinitionsMatch": true,
+        "materialDefinitionsMatch": true,
+        "threeVerticesPerTriangle": true
+      }
+    },
+    "minimal": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_minimal/xmodel_export/model_export/worldmodel_xi_sentry_old_clean_lod0.xmodel_export",
+        "bytes": 678469,
+        "sha256": "80E5C8AE23B7D6CDFA78A720055377EB6E592EEBED1E2EDFF6D44CD4F539DF0F"
+      },
+      "counts": {
+        "bones": 12,
+        "vertices": 1100,
+        "triangles": 1749,
+        "objects": 4,
+        "materials": 3
+      },
+      "bones": [
+        {
+          "index": 0,
+          "parent": -1,
+          "name": "tag_origin"
+        },
+        {
+          "index": 1,
+          "parent": 0,
+          "name": "tag_base"
+        },
+        {
+          "index": 2,
+          "parent": 1,
+          "name": "tag_swivel"
+        },
+        {
+          "index": 3,
+          "parent": 2,
+          "name": "j_pivot"
+        },
+        {
+          "index": 4,
+          "parent": 3,
+          "name": "j_hinge"
+        },
+        {
+          "index": 5,
+          "parent": 4,
+          "name": "tag_gun"
+        },
+        {
+          "index": 6,
+          "parent": 5,
+          "name": "j_barrel_anchor"
+        },
+        {
+          "index": 7,
+          "parent": 5,
+          "name": "tag_brass"
+        },
+        {
+          "index": 8,
+          "parent": 5,
+          "name": "tag_clip"
+        },
+        {
+          "index": 9,
+          "parent": 6,
+          "name": "j_barrel"
+        },
+        {
+          "index": 10,
+          "parent": 9,
+          "name": "tag_barrel"
+        },
+        {
+          "index": 11,
+          "parent": 10,
+          "name": "tag_flash"
+        }
+      ],
+      "objects": [
+        {
+          "index": 0,
+          "name": "surf0"
+        },
+        {
+          "index": 1,
+          "name": "surf1"
+        },
+        {
+          "index": 2,
+          "name": "surf2"
+        },
+        {
+          "index": 3,
+          "name": "surf3"
+        }
+      ],
+      "materials": [
+        {
+          "index": 0,
+          "name": "mc/mtl_sentry_bo"
+        },
+        {
+          "index": 1,
+          "name": "mc/mtl_weapon_saw_misc_nocamo"
+        },
+        {
+          "index": 2,
+          "name": "mc/mtl_weapon_saw"
+        }
+      ],
+      "surfaces": [
+        {
+          "index": 0,
+          "name": "surf0",
+          "vertices": 356,
+          "triangles": 564,
+          "materialIndices": [
+            0
+          ],
+          "materials": [
+            "mc/mtl_sentry_bo"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "surf1",
+          "vertices": 72,
+          "triangles": 132,
+          "materialIndices": [
+            1
+          ],
+          "materials": [
+            "mc/mtl_weapon_saw_misc_nocamo"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "surf2",
+          "vertices": 160,
+          "triangles": 296,
+          "materialIndices": [
+            1
+          ],
+          "materials": [
+            "mc/mtl_weapon_saw_misc_nocamo"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "surf3",
+          "vertices": 512,
+          "triangles": 757,
+          "materialIndices": [
+            2
+          ],
+          "materials": [
+            "mc/mtl_weapon_saw"
+          ]
+        }
+      ],
+      "maxVertexIndex": 1099,
+      "faceVertexCountErrors": 0,
+      "bounds": {
+        "min": [
+          -22.708826,
+          -19.395699,
+          0.0
+        ],
+        "max": [
+          19.212023,
+          19.564678,
+          38.201344
+        ],
+        "extent": [
+          41.920849,
+          38.960377,
+          38.201344
+        ]
+      },
+      "internalConsistency": {
+        "boneDefinitionsMatch": true,
+        "vertexOffsetsMatch": true,
+        "triangleRecordsMatch": true,
+        "objectDefinitionsMatch": true,
+        "materialDefinitionsMatch": true,
+        "threeVerticesPerTriangle": true
+      }
+    }
+  },
+  "compiledGlbs": {
+    "private": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_private/glb/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+        "bytes": 163676,
+        "sha256": "B8245433C347EED1DA962011974ABA0A308913CB4F8FCF772981EA79F91FF19D"
+      },
+      "binaryChunkBytes": 159100,
+      "binaryChunkSha256": "4F5F1D3E7160358CE0F2CE3FCA5DB03EDD3034C0DCEEA09E3FB4911C6AD336CA",
+      "generator": "OpenAssetTools v0.32.0",
+      "sceneCount": 1,
+      "nodeCount": 17,
+      "nodeNames": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "tag_brass",
+        "tag_clip",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash",
+        "surf0",
+        "surf1",
+        "surf2",
+        "surf3",
+        "worldmodel_xi_sentry_old_clean_lod0_skel"
+      ],
+      "skinCount": 1,
+      "jointCount": 12,
+      "jointNames": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "tag_brass",
+        "tag_clip",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash"
+      ],
+      "meshCount": 4,
+      "primitiveCount": 4,
+      "vertices": 11372,
+      "referencedVertices": 2843,
+      "triangles": 1749,
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf0"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 864,
+          "maxVertexIndex": 863,
+          "triangles": 564,
+          "materialIndex": 0,
+          "material": "mc/mtl_sentry_bo",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf1"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 216,
+          "maxVertexIndex": 1079,
+          "triangles": 132,
+          "materialIndex": 1,
+          "material": "mc/mtl_weapon_saw_misc_nocamo",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf2"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 552,
+          "maxVertexIndex": 1631,
+          "triangles": 296,
+          "materialIndex": 1,
+          "material": "mc/mtl_weapon_saw_misc_nocamo",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        },
+        {
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf3"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 1211,
+          "maxVertexIndex": 2842,
+          "triangles": 757,
+          "materialIndex": 2,
+          "material": "mc/mtl_weapon_saw",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        }
+      ],
+      "materials": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ],
+      "images": [
+        "../images/weapon_sentry_gun_col.dds",
+        "../images/weapon_sentry_gun_nml.dds",
+        "../images/weapon_saw_col.dds",
+        "../images/$identitynormalmap.dds"
+      ],
+      "bounds": {
+        "min": [
+          -22.708826065063477,
+          4.6193599700927734e-07,
+          -19.564678192138672
+        ],
+        "max": [
+          19.21202278137207,
+          38.20134353637695,
+          19.39569854736328
+        ],
+        "extent": [
+          41.92084884643555,
+          38.201343074440956,
+          38.96037673950195
+        ]
+      }
+    },
+    "resident": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_resident/glb/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+        "bytes": 163568,
+        "sha256": "C855CA62E0E4C00A81B14899B69FFEDC6BFEE74F8CE127E97CBE387255DD0F3D"
+      },
+      "binaryChunkBytes": 159100,
+      "binaryChunkSha256": "4F5F1D3E7160358CE0F2CE3FCA5DB03EDD3034C0DCEEA09E3FB4911C6AD336CA",
+      "generator": "OpenAssetTools v0.32.0",
+      "sceneCount": 1,
+      "nodeCount": 17,
+      "nodeNames": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "tag_brass",
+        "tag_clip",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash",
+        "surf0",
+        "surf1",
+        "surf2",
+        "surf3",
+        "worldmodel_xi_sentry_old_clean_lod0_skel"
+      ],
+      "skinCount": 1,
+      "jointCount": 12,
+      "jointNames": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "tag_brass",
+        "tag_clip",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash"
+      ],
+      "meshCount": 4,
+      "primitiveCount": 4,
+      "vertices": 11372,
+      "referencedVertices": 2843,
+      "triangles": 1749,
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf0"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 864,
+          "maxVertexIndex": 863,
+          "triangles": 564,
+          "materialIndex": 0,
+          "material": "mc/mtl_sentry_bo",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf1"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 216,
+          "maxVertexIndex": 1079,
+          "triangles": 132,
+          "materialIndex": 1,
+          "material": "mc/mtl_weapon_saw_misc_nocamo",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf2"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 552,
+          "maxVertexIndex": 1631,
+          "triangles": 296,
+          "materialIndex": 1,
+          "material": "mc/mtl_weapon_saw_misc_nocamo",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        },
+        {
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf3"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 1211,
+          "maxVertexIndex": 2842,
+          "triangles": 757,
+          "materialIndex": 2,
+          "material": "mc/mtl_weapon_saw",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        }
+      ],
+      "materials": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ],
+      "images": [
+        "../images/weapon_sentry_gun_col.dds",
+        "../images/weapon_sentry_gun_nml.dds",
+        "../images/weapon_saw_col.dds",
+        "../images/$identitynormalmap.dds"
+      ],
+      "bounds": {
+        "min": [
+          -22.708826065063477,
+          4.6193599700927734e-07,
+          -19.564678192138672
+        ],
+        "max": [
+          19.21202278137207,
+          38.20134353637695,
+          19.39569854736328
+        ],
+        "extent": [
+          41.92084884643555,
+          38.201343074440956,
+          38.96037673950195
+        ]
+      }
+    },
+    "minimal": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_minimal/glb/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+        "bytes": 163568,
+        "sha256": "C855CA62E0E4C00A81B14899B69FFEDC6BFEE74F8CE127E97CBE387255DD0F3D"
+      },
+      "binaryChunkBytes": 159100,
+      "binaryChunkSha256": "4F5F1D3E7160358CE0F2CE3FCA5DB03EDD3034C0DCEEA09E3FB4911C6AD336CA",
+      "generator": "OpenAssetTools v0.32.0",
+      "sceneCount": 1,
+      "nodeCount": 17,
+      "nodeNames": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "tag_brass",
+        "tag_clip",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash",
+        "surf0",
+        "surf1",
+        "surf2",
+        "surf3",
+        "worldmodel_xi_sentry_old_clean_lod0_skel"
+      ],
+      "skinCount": 1,
+      "jointCount": 12,
+      "jointNames": [
+        "tag_origin",
+        "tag_base",
+        "tag_swivel",
+        "j_pivot",
+        "j_hinge",
+        "tag_gun",
+        "j_barrel_anchor",
+        "tag_brass",
+        "tag_clip",
+        "j_barrel",
+        "tag_barrel",
+        "tag_flash"
+      ],
+      "meshCount": 4,
+      "primitiveCount": 4,
+      "vertices": 11372,
+      "referencedVertices": 2843,
+      "triangles": 1749,
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf0"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 864,
+          "maxVertexIndex": 863,
+          "triangles": 564,
+          "materialIndex": 0,
+          "material": "mc/mtl_sentry_bo",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf1"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 216,
+          "maxVertexIndex": 1079,
+          "triangles": 132,
+          "materialIndex": 1,
+          "material": "mc/mtl_weapon_saw_misc_nocamo",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf2"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 552,
+          "maxVertexIndex": 1631,
+          "triangles": 296,
+          "materialIndex": 1,
+          "material": "mc/mtl_weapon_saw_misc_nocamo",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        },
+        {
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "meshName": null,
+          "nodeNames": [
+            "surf3"
+          ],
+          "vertices": 2843,
+          "referencedVertices": 1211,
+          "maxVertexIndex": 2842,
+          "triangles": 757,
+          "materialIndex": 2,
+          "material": "mc/mtl_weapon_saw",
+          "positionMin": [
+            -22.708826065063477,
+            4.6193599700927734e-07,
+            -19.564678192138672
+          ],
+          "positionMax": [
+            19.21202278137207,
+            38.20134353637695,
+            19.39569854736328
+          ]
+        }
+      ],
+      "materials": [
+        "mc/mtl_sentry_bo",
+        "mc/mtl_weapon_saw_misc_nocamo",
+        "mc/mtl_weapon_saw"
+      ],
+      "images": [
+        "../images/weapon_sentry_gun_col.dds",
+        "../images/weapon_sentry_gun_nml.dds",
+        "../images/weapon_saw_col.dds",
+        "../images/$identitynormalmap.dds"
+      ],
+      "bounds": {
+        "min": [
+          -22.708826065063477,
+          4.6193599700927734e-07,
+          -19.564678192138672
+        ],
+        "max": [
+          19.21202278137207,
+          38.20134353637695,
+          19.39569854736328
+        ],
+        "extent": [
+          41.92084884643555,
+          38.201343074440956,
+          38.96037673950195
+        ]
+      }
+    }
+  },
+  "zoneLists": {
+    "private": [
+      {
+        "type": "techniqueset",
+        "name": "mc_l_sm_r0c0n0s0",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "~weapon_sentry_gun_spec-rgb&$~ae6da276",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "weapon_sentry_gun_nml",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "weapon_sentry_gun_col",
+        "reference": false
+      },
+      {
+        "type": "material",
+        "name": "mc/mtl_sentry_bo",
+        "reference": false
+      },
+      {
+        "type": "techniqueset",
+        "name": "mc_l_sm_r0c0s0",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "~weapon_saw_spc-r65g65b65&wea~fbd00e22",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "$identitynormalmap",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "weapon_saw_col",
+        "reference": false
+      },
+      {
+        "type": "material",
+        "name": "mc/mtl_weapon_saw_misc_nocamo",
+        "reference": false
+      },
+      {
+        "type": "material",
+        "name": "mc/mtl_weapon_saw",
+        "reference": false
+      },
+      {
+        "type": "xmodel",
+        "name": "worldmodel_xi_sentry_old_clean",
+        "reference": false
+      }
+    ],
+    "resident": [
+      {
+        "type": "techniqueset",
+        "name": "mc_l_sm_r0c0n0s0",
+        "reference": true
+      },
+      {
+        "type": "image",
+        "name": "~weapon_sentry_gun_spec-rgb&$~ae6da276",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "weapon_sentry_gun_nml",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "weapon_sentry_gun_col",
+        "reference": false
+      },
+      {
+        "type": "material",
+        "name": "mc/mtl_sentry_bo",
+        "reference": false
+      },
+      {
+        "type": "techniqueset",
+        "name": "mc_l_sm_r0c0s0",
+        "reference": true
+      },
+      {
+        "type": "image",
+        "name": "~weapon_saw_spc-r65g65b65&wea~fbd00e22",
+        "reference": true
+      },
+      {
+        "type": "image",
+        "name": "$identitynormalmap",
+        "reference": true
+      },
+      {
+        "type": "image",
+        "name": "weapon_saw_col",
+        "reference": true
+      },
+      {
+        "type": "material",
+        "name": "mc/mtl_weapon_saw_misc_nocamo",
+        "reference": false
+      },
+      {
+        "type": "material",
+        "name": "mc/mtl_weapon_saw",
+        "reference": true
+      },
+      {
+        "type": "xmodel",
+        "name": "worldmodel_xi_sentry_old_clean",
+        "reference": false
+      }
+    ],
+    "minimal": [
+      {
+        "type": "techniqueset",
+        "name": "mc_l_sm_r0c0n0s0",
+        "reference": true
+      },
+      {
+        "type": "image",
+        "name": "~weapon_sentry_gun_spec-rgb&$~ae6da276",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "weapon_sentry_gun_nml",
+        "reference": false
+      },
+      {
+        "type": "image",
+        "name": "weapon_sentry_gun_col",
+        "reference": false
+      },
+      {
+        "type": "material",
+        "name": "mc/mtl_sentry_bo",
+        "reference": false
+      },
+      {
+        "type": "techniqueset",
+        "name": "mc_l_sm_r0c0s0",
+        "reference": true
+      },
+      {
+        "type": "image",
+        "name": "~weapon_saw_spc-r65g65b65&wea~fbd00e22",
+        "reference": true
+      },
+      {
+        "type": "image",
+        "name": "$identitynormalmap",
+        "reference": true
+      },
+      {
+        "type": "image",
+        "name": "weapon_saw_col",
+        "reference": true
+      },
+      {
+        "type": "material",
+        "name": "mc/mtl_weapon_saw_misc_nocamo",
+        "reference": false
+      },
+      {
+        "type": "material",
+        "name": "mc/mtl_weapon_saw",
+        "reference": true
+      },
+      {
+        "type": "xmodel",
+        "name": "worldmodel_xi_sentry_old_clean",
+        "reference": false
+      }
+    ]
+  },
+  "dumpedImages": {
+    "$identitynormalmap.dds": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_private/images_with_iwd/images/$identitynormalmap.dds",
+        "bytes": 132,
+        "sha256": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96"
+      },
+      "width": 1,
+      "height": 1
+    },
+    "weapon_saw_col.dds": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_private/images_with_iwd/images/weapon_saw_col.dds",
+        "bytes": 349672,
+        "sha256": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA"
+      },
+      "width": 1024,
+      "height": 512
+    },
+    "weapon_sentry_gun_col.dds": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_private/images_with_iwd/images/weapon_sentry_gun_col.dds",
+        "bytes": 1048704,
+        "sha256": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC"
+      },
+      "width": 1024,
+      "height": 1024
+    },
+    "weapon_sentry_gun_nml.dds": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_private/images_with_iwd/images/weapon_sentry_gun_nml.dds",
+        "bytes": 349680,
+        "sha256": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3"
+      },
+      "width": 512,
+      "height": 512
+    },
+    "~weapon_saw_spc-r65g65b65&wea~fbd00e22.dds": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_private/images_with_iwd/images/~weapon_saw_spc-r65g65b65&wea~fbd00e22.dds",
+        "bytes": 699216,
+        "sha256": "D28ABC3F55A48AB9FA11590146429147922026D88BF6E8408C801B1490863E7B"
+      },
+      "width": 1024,
+      "height": 512
+    },
+    "~weapon_sentry_gun_spec-rgb&$~ae6da276.dds": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/private/dumps_private/images_with_iwd/images/~weapon_sentry_gun_spec-rgb&$~ae6da276.dds",
+        "bytes": 1048704,
+        "sha256": "36E224A593AA5AA7D166917A16136DD262531A5AEB90644827D1F06455CCB270"
+      },
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "productionIdentityComparison": {
+    "oldProductionLethal": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+        "bytes": 304020,
+        "sha256": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD"
+      },
+      "binaryChunkBytes": 299952,
+      "binaryChunkSha256": "11E6E439DC0D57D3C2B1A81696727B0B9594D62E777504DBF4825563FA57F076",
+      "generator": "xi_ftag audit clean-sentry builder",
+      "sceneCount": 1,
+      "nodeCount": 16,
+      "nodeNames": [
+        "tag_origin",
+        "j_barrel",
+        "j_barrel_anchor",
+        "j_hinge",
+        "j_pivot",
+        "tag_barrel",
+        "tag_base",
+        "tag_brass",
+        "tag_flash",
+        "tag_gun",
+        "tag_swivel",
+        "surf0",
+        "surf1",
+        "surf2",
+        "surf3",
+        "worldmodel_xi_sentry_old_clean_candidate_lod0_skel"
+      ],
+      "skinCount": 1,
+      "jointCount": 11,
+      "jointNames": [
+        "tag_origin",
+        "j_barrel",
+        "j_barrel_anchor",
+        "j_hinge",
+        "j_pivot",
+        "tag_barrel",
+        "tag_base",
+        "tag_brass",
+        "tag_flash",
+        "tag_gun",
+        "tag_swivel"
+      ],
+      "meshCount": 4,
+      "primitiveCount": 4,
+      "vertices": 21292,
+      "referencedVertices": 5323,
+      "triangles": 3742,
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "meshName": "surf0",
+          "nodeNames": [
+            "surf0"
+          ],
+          "vertices": 5323,
+          "referencedVertices": 465,
+          "maxVertexIndex": 464,
+          "triangles": 370,
+          "materialIndex": 0,
+          "material": "mc/mtl_sentry_bo",
+          "positionMin": [
+            -25.35036277770996,
+            -9.897407531738281,
+            -24.638486862182617
+          ],
+          "positionMax": [
+            35.09221267700195,
+            28.643354415893555,
+            19.395700454711914
+          ]
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "meshName": "surf1",
+          "nodeNames": [
+            "surf1"
+          ],
+          "vertices": 5323,
+          "referencedVertices": 850,
+          "maxVertexIndex": 1314,
+          "triangles": 564,
+          "materialIndex": 0,
+          "material": "mc/mtl_sentry_bo",
+          "positionMin": [
+            -25.35036277770996,
+            -9.897407531738281,
+            -24.638486862182617
+          ],
+          "positionMax": [
+            35.09221267700195,
+            28.643354415893555,
+            19.395700454711914
+          ]
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "meshName": "surf2",
+          "nodeNames": [
+            "surf2"
+          ],
+          "vertices": 5323,
+          "referencedVertices": 3283,
+          "maxVertexIndex": 4597,
+          "triangles": 2216,
+          "materialIndex": 0,
+          "material": "mc/mtl_sentry_bo",
+          "positionMin": [
+            -25.35036277770996,
+            -9.897407531738281,
+            -24.638486862182617
+          ],
+          "positionMax": [
+            35.09221267700195,
+            28.643354415893555,
+            19.395700454711914
+          ]
+        },
+        {
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "meshName": "surf3",
+          "nodeNames": [
+            "surf3"
+          ],
+          "vertices": 5323,
+          "referencedVertices": 725,
+          "maxVertexIndex": 5322,
+          "triangles": 592,
+          "materialIndex": 0,
+          "material": "mc/mtl_sentry_bo",
+          "positionMin": [
+            -25.35036277770996,
+            -9.897407531738281,
+            -24.638486862182617
+          ],
+          "positionMax": [
+            35.09221267700195,
+            28.643354415893555,
+            19.395700454711914
+          ]
+        }
+      ],
+      "materials": [
+        "mc/mtl_sentry_bo"
+      ],
+      "images": [
+        "../images/weapon_sentry_gun_col.dds",
+        "../images/weapon_sentry_gun_nml.dds"
+      ],
+      "bounds": {
+        "min": [
+          -25.35036277770996,
+          -9.897407531738281,
+          -24.638486862182617
+        ],
+        "max": [
+          35.09221267700195,
+          28.643354415893555,
+          19.395700454711914
+        ],
+        "extent": [
+          60.442575454711914,
+          38.540761947631836,
+          44.03418731689453
+        ]
+      }
+    },
+    "groundFrostSentry": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/model_export/worldmodel_t8_sentry_deployed_lod0.glb",
+        "bytes": 515016,
+        "sha256": "580A7381B916FAFFBBBC812F785A42F1EBE61100B15ED4CE490B983356C9AD9E"
+      },
+      "binaryChunkBytes": 512900,
+      "binaryChunkSha256": "C9D95D07AE1A9984835A893F473F53A5909DC04A0740E32AA4962214FACEA984",
+      "generator": "Khronos glTF Blender I/O v3.6.27",
+      "sceneCount": 1,
+      "nodeCount": 4,
+      "nodeNames": [
+        "tag_flash",
+        "tag_origin",
+        "xi_t8_sentry_deployed",
+        "xi_t8_sentry_rig"
+      ],
+      "skinCount": 1,
+      "jointCount": 2,
+      "jointNames": [
+        "tag_origin",
+        "tag_flash"
+      ],
+      "meshCount": 1,
+      "primitiveCount": 1,
+      "vertices": 7043,
+      "referencedVertices": 7043,
+      "triangles": 5641,
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "meshName": "wpn_t8_sentry_world_LOD0_mtl_wpn_t8_pistol_standard_barrel_base",
+          "nodeNames": [
+            "xi_t8_sentry_deployed"
+          ],
+          "vertices": 7043,
+          "referencedVertices": 7043,
+          "maxVertexIndex": 7042,
+          "triangles": 5641,
+          "materialIndex": 0,
+          "material": "mc/xi_t8_eq_sentry_main",
+          "positionMin": [
+            -8.5,
+            0,
+            -8.5
+          ],
+          "positionMax": [
+            14.836942672729492,
+            20.755416870117188,
+            8.5
+          ]
+        }
+      ],
+      "materials": [
+        "mc/xi_t8_eq_sentry_main"
+      ],
+      "images": [],
+      "bounds": {
+        "min": [
+          -8.5,
+          0.0,
+          -8.5
+        ],
+        "max": [
+          14.836942672729492,
+          20.755416870117188,
+          8.5
+        ],
+        "extent": [
+          23.336942672729492,
+          20.755416870117188,
+          17.0
+        ]
+      }
+    },
+    "airborneDefrosterDrone": {
+      "artifact": {
+        "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/model_export/worldmodel_t8_defroster_drone_lod0.glb",
+        "bytes": 173136,
+        "sha256": "2737870FF7A67C75D33DDD68D2158D7721E852869F5DA755207714A8AC5E15D5"
+      },
+      "binaryChunkBytes": 166320,
+      "binaryChunkSha256": "34E239FF5DF545B16A505769F47D52230869D341557B5525833A8A255AD46D41",
+      "generator": "Khronos glTF Blender I/O v3.6.27",
+      "sceneCount": 1,
+      "nodeCount": 24,
+      "nodeNames": [
+        "tag_cam_fx",
+        "tag_cam_ball_animate",
+        "tag_driver_camera",
+        "tag_foot_back_left_animate",
+        "tag_foot_back_right_animate",
+        "tag_foot_front_left_animate",
+        "tag_foot_front_right_animate",
+        "tag_wing_back_propeller_light_fx_1",
+        "tag_wing_back_propeller_pba_animate",
+        "tag_wing_back_hinge_animate",
+        "tag_wing_left_propeller_light_fx_2",
+        "tag_wing_left_propeller_pba_animate",
+        "tag_wing_left_hinge_animate",
+        "tag_wing_right_propeller_light_fx_3",
+        "tag_wing_right_propeller_pba_animate",
+        "tag_wing_right_hinge_animate",
+        "tag_accessory_animate",
+        "tag_body",
+        "tag_ik_loc_le",
+        "tag_ik_loc_ri",
+        "tag_accessory",
+        "src00_xmaterial_66b9760b4e6d01f",
+        "src00_xmaterial_7bf9498ec257a20",
+        "src00_armature"
+      ],
+      "skinCount": 1,
+      "jointCount": 21,
+      "jointNames": [
+        "tag_accessory",
+        "tag_body",
+        "tag_accessory_animate",
+        "tag_cam_ball_animate",
+        "tag_cam_fx",
+        "tag_driver_camera",
+        "tag_foot_back_left_animate",
+        "tag_foot_back_right_animate",
+        "tag_foot_front_left_animate",
+        "tag_foot_front_right_animate",
+        "tag_wing_back_hinge_animate",
+        "tag_wing_back_propeller_light_fx_1",
+        "tag_wing_back_propeller_pba_animate",
+        "tag_wing_left_hinge_animate",
+        "tag_wing_left_propeller_light_fx_2",
+        "tag_wing_left_propeller_pba_animate",
+        "tag_wing_right_hinge_animate",
+        "tag_wing_right_propeller_light_fx_3",
+        "tag_wing_right_propeller_pba_animate",
+        "tag_ik_loc_le",
+        "tag_ik_loc_ri"
+      ],
+      "meshCount": 2,
+      "primitiveCount": 2,
+      "vertices": 2244,
+      "referencedVertices": 2244,
+      "triangles": 2064,
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "meshName": "wpn_t8_eqp_drone_hawk_world_LOD0_xmaterial_66b9760b4e6d01f",
+          "nodeNames": [
+            "src00_xmaterial_66b9760b4e6d01f"
+          ],
+          "vertices": 204,
+          "referencedVertices": 204,
+          "maxVertexIndex": 203,
+          "triangles": 150,
+          "materialIndex": 0,
+          "material": "mc/xi_t8_eq_drone_hawk_main",
+          "positionMin": [
+            -27.00120735168457,
+            -3.7601144313812256,
+            -27.010303497314453
+          ],
+          "positionMax": [
+            20.53652572631836,
+            9.483256340026855,
+            27.120872497558594
+          ]
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "meshName": "wpn_t8_eqp_drone_hawk_world_LOD0_xmaterial_7bf9498ec257a20",
+          "nodeNames": [
+            "src00_xmaterial_7bf9498ec257a20"
+          ],
+          "vertices": 2040,
+          "referencedVertices": 2040,
+          "maxVertexIndex": 2039,
+          "triangles": 1914,
+          "materialIndex": 0,
+          "material": "mc/xi_t8_eq_drone_hawk_main",
+          "positionMin": [
+            -27.302555084228516,
+            -5.368719100952148,
+            -28.083040237426758
+          ],
+          "positionMax": [
+            22.029468536376953,
+            9.441916465759277,
+            28.083040237426758
+          ]
+        }
+      ],
+      "materials": [
+        "mc/xi_t8_eq_drone_hawk_main"
+      ],
+      "images": [],
+      "bounds": {
+        "min": [
+          -27.302555084228516,
+          -5.368719100952148,
+          -28.083040237426758
+        ],
+        "max": [
+          22.029468536376953,
+          9.483256340026855,
+          28.083040237426758
+        ],
+        "extent": [
+          49.33202362060547,
+          14.851975440979004,
+          56.166080474853516
+        ]
+      }
+    }
+  },
+  "formatCapacities": {
+    "evidence": {
+      "source": "https://raw.githubusercontent.com/Laupetin/OpenAssetTools/v0.32.0/src/Common/Game/IW3/IW3_Assets.h",
+      "xSurfaceFields": "lines 389-403: uint16_t vertCount, triCount, and uint16_t triangle indices",
+      "xModelFields": "lines 501-531: unsigned char numBones, numRootBones, and numsurfs"
+    },
+    "representableMax": {
+      "bones": 255,
+      "surfaces": 255,
+      "verticesPerSurface": 65535,
+      "trianglesPerSurface": 65535,
+      "triangleVertexIndex": 65535
+    },
+    "compiled": {
+      "bones": 12,
+      "surfaces": 4,
+      "verticesPerSurface": [
+        356,
+        72,
+        160,
+        512
+      ],
+      "trianglesPerSurface": [
+        564,
+        132,
+        296,
+        757
+      ],
+      "maxTriangleVertexIndex": 1099
+    },
+    "scope": "Representational field capacities only; not a claim about every runtime pool or rendering limit."
+  },
+  "promotionMap": {
+    "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/promotion-map.json",
+    "bytes": 7077,
+    "sha256": "1AD88C5366D6964B39FD313ADF617CFC8B2408ABAADED2C73AA49FF7626EBCC1"
+  },
+  "rollbackPayload": {
+    "path": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6/rollback/worldmodel_xi_sentry_old_clean_lod0.pre_round6.glb",
+    "bytes": 304020,
+    "sha256": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD"
+  }
+}

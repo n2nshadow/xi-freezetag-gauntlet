@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "verdict": "PASS",
+  "runtimeIdentityVerdict": "PASS",
+  "visualAlignmentVerdict": "HOLD",
+  "promotionReady": false,
+  "baseCommit": "30424acca3264c7b9c47a536436518231a9749db",
+  "candidate": {
+    "patchSha256": "9230c0e42120c2161ede0bd35792fd7622ca875fa71e62517a8c04e6fca1dc9f",
+    "patchByteLength": 11016268,
+    "changedPathCount": 236,
+    "candidateFilesSha256": "9f7071d67706dfc59eb67695fba99e10a0b35c3962084a0662a40f61654a372d",
+    "manifestSha256": "cae59fbb794cbcc660a07702d8da9f4c20365b954581721465a8840b454f2c1b",
+    "unsignedAttestationRequestSha256": "b1a9a4ae8aea8af51da9b133ddfaae3143e20bf8148e967aab64085ecc322291",
+    "promotedGateSha256": "81a5e6d13fa541c215af62f5488303379e0ed1f50bac473a52aeedc77d05dfdb",
+    "runtimeTableSha256": "08d71aaa650cb78100b2cef9a77cae2b8d61a7581fd741de713ab1f4456cb746",
+    "packagedGscSha256": "079c3d0a07c1560ba9349e53279a459cbedd0de46db440c416cb34429e98819d"
+  },
+  "reproduction": {
+    "scratchClone": "D:\\CodexScratch\\weapon-runtime-critic",
+    "initialHeadExact": true,
+    "initialTreeClean": true,
+    "initialAuditTreeAbsent": true,
+    "gitApplyCheckPassed": true,
+    "gitApplyPassed": true,
+    "candidateIndexPathSetExact": true,
+    "candidateFilesChecked": 236,
+    "candidateFileHashOrLengthMismatches": 0,
+    "requiredVerifierSources": 228,
+    "requiredSourcesPresentInHead": 37,
+    "requiredSourcesAbsentFromHead": 191,
+    "requiredSourcesStaleInHead": 37,
+    "requiredSourcesMissingAfterPatch": 0,
+    "builderRerunExitCode": 0,
+    "builderRerunPatchExact": true,
+    "builderDeterministicArtifactsCompared": 10,
+    "builderDeterministicArtifactMismatches": 0,
+    "cleanTreePortability": "PASS"
+  },
+  "counts": {
+    "families": 11,
+    "states": 37,
+    "uniqueStateIds": 37,
+    "uniqueFamilyAttachmentPairs": 37,
+    "readyStates": 20,
+    "holdStates": 17,
+    "xanimFieldsPerState": 30,
+    "orderedXanimSlotsChecked": 1110,
+    "nonemptyNamedXanimSlots": 879,
+    "emptyXanimSlots": 231,
+    "localXanimHashChecks": 879,
+    "uniqueRuntimeXanims": 180,
+    "weaponFileHashChecksAgainstRound3Manifest": 37,
+    "geometryInputHashChecks": 11,
+    "authorityPayloads": 11
+  },
+  "stateMappingSha256": "9c00f97c25376afe5cbbf1d4631582371b2390db1b3b9bbef751a24fefeb6e0f",
+  "knownHoldStateIds": [
+    "F01-A1",
+    "F01-A2",
+    "F01-A3",
+    "F02-A1",
+    "F02-A2",
+    "F02-A3",
+    "F03-A1",
+    "F03-A2",
+    "F03-A3",
+    "F05-A1",
+    "F05-A2",
+    "F05-A3",
+    "F07-A1",
+    "F07-A3",
+    "F08-A3",
+    "F09-A3",
+    "F10-A3"
+  ],
+  "criteria": [
+    {
+      "id": "exact-candidate-reconstruction",
+      "status": "PASS",
+      "summary": "The exact binary patch applies to committed HEAD and reconstructs all 236 declared outputs with exact hashes and lengths."
+    },
+    {
+      "id": "all-state-mappings",
+      "status": "PASS",
+      "summary": "All 37 unique family/attachment mappings, saved selections, readiness values, and runtime targets reconcile exactly."
+    },
+    {
+      "id": "animation-slots-and-hashes",
+      "status": "PASS",
+      "summary": "All 1110 ordered slots match weapon fields; all 879 non-empty local hashes match across 180 unique XAnims."
+    },
+    {
+      "id": "selection-and-deployment-routing",
+      "status": "PASS",
+      "summary": "Protected selection/deployment paths are runtime-resolver mediated, guard empty results, and do not rewrite saved attachments."
+    },
+    {
+      "id": "held-and-unknown-fallback",
+      "status": "PASS",
+      "summary": "All 17 HOLD selections are retained and deploy A0 with explicit audit; unknown families terminate on an empty weapon before engine deployment."
+    },
+    {
+      "id": "exact-per-state-readiness",
+      "status": "PASS",
+      "summary": "The 20 READY and 17 HOLD values match the exact state policy and are bound by packaged GSC row validation."
+    },
+    {
+      "id": "external-approval-boundary",
+      "status": "PASS",
+      "summary": "Only an explicit, detached, external and candidate-bound bundle with the pinned signer passes; local audit substitution is rejected."
+    },
+    {
+      "id": "stale-missing-mismatched-rejection",
+      "status": "PASS",
+      "summary": "Missing, stale, tampered, mismatched, internal-root, non-disjoint, and untrusted inputs all fail closed."
+    },
+    {
+      "id": "same-count-swap-rejection",
+      "status": "PASS",
+      "summary": "The F01-A1/F02-A0 count-preserving readiness swap is rejected by the gate and exact packaged runtime policy."
+    },
+    {
+      "id": "post-resolution-selection-change-rejection",
+      "status": "PASS",
+      "summary": "Resolver-local and post-resolution saved-selection rewrites are rejected."
+    },
+    {
+      "id": "builder-rerun",
+      "status": "PASS",
+      "summary": "The copied builder checks exited 0 and regenerated the exact patch and all deterministic outputs."
+    }
+  ],
+  "routing": {
+    "savedSelectionsRetained": true,
+    "allHeldStatesResolveToA0": true,
+    "explicitHoldAuditPresent": true,
+    "unknownFamilyFailsBeforeEngineDeployment": true,
+    "emptyResultsGuardedBeforeDeployment": true,
+    "deploymentPathsTableMediated": true,
+    "protectedDeploymentSelectionWrites": 0,
+    "exactRuntimeReadinessBindingPresent": true
+  },
+  "gateMatrix": {
+    "totalInvocations": 33,
+    "expectedPasses": 3,
+    "actualPasses": 3,
+    "expectedFailures": 30,
+    "actualFailures": 30,
+    "semanticFixtures": 13,
+    "semanticFixturesRejected": 13,
+    "validExternalBundlePassed": true,
+    "actualBuildStyleInvocationPassed": true,
+    "localAuditAutoDiscoveryUsed": false,
+    "localAuditSubstitutionRejected": true,
+    "repositoryContainedAuthorityRejected": true,
+    "repositoryContainedTrustRejected": true,
+    "sameCountReadinessSwapRejected": true,
+    "postResolutionSelectionRewriteRejected": true,
+    "privateTestKeyPersisted": false,
+    "realIndependentApprovalBundleProvided": false
+  },
+  "knownEvidenceSupersession": {
+    "stateId": "F10-A0",
+    "externalRound1WeaponStateMatrixSha256": "726487e0bd74601d02cc99f7956ae4b28120da441a3a48f98381cda3e565c8e0",
+    "round3CandidateManifestAndFileSha256": "7ef916a91aebbe7b33cd6526940216bc14d37816d97672011ecac89a2fd5e76c",
+    "externalRound1MatrixSaysVisibleTagHidden": true,
+    "round3CandidateHidesOnly": [
+      "tag_silencer"
+    ],
+    "round3GateBindsCorrectedBytes": true,
+    "blocking": false
+  },
+  "biggestRemainingGap": "The declared external payload set retains a superseded, contradictory Round 1 F10-A0 matrix row. Corrected Round 3 bytes are separately candidate-bound and explicitly enforced, so runtime QA passes, but the external evidence should be regenerated before real approval.",
+  "limitations": {
+    "visualAlignmentStillHold": true,
+    "ephemeralTestSignatureOnly": true,
+    "liveEngineRunPerformed": false,
+    "runtimeBuildPerformed": false
+  },
+  "operations": {
+    "productionModified": false,
+    "builderLaneModified": false,
+    "writesRestrictedToCriticLaneAndDisposableScratch": true,
+    "buildRun": false,
+    "packageRun": false,
+    "installRun": false,
+    "launchRun": false,
+    "promotionRun": false,
+    "scratchCloneDisposed": true,
+    "externalFixturesDisposed": true
+  },
+  "artifacts": {
+    "report": "REPORT.md",
+    "result": "RESULT.json",
+    "sha256Manifest": "SHA256SUMS.txt"
+  }
+}

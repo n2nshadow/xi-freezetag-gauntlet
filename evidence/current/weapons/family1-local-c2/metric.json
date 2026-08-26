@@ -1,0 +1,1163 @@
+{
+  "schemaVersion": 1,
+  "status": "DIAGNOSTIC_HOLD",
+  "candidate": "xi_ftag/.audit/weapon_alignment_builder_round2/iterations/family-01-local-c2/drafts/family-01/viewmodel_t8_icr7_summon_raw_local_c2_lod0.glb",
+  "candidateSha256Before": "76270D68BCEC88DFB7BFBBB7808B655F6A1A8DF234B42E0F7FCD48EC1C064217",
+  "candidateSha256After": "76270D68BCEC88DFB7BFBBB7808B655F6A1A8DF234B42E0F7FCD48EC1C064217",
+  "candidateHashStable": true,
+  "hands": "mw2_ftag/model_export/viewmodel_base_viewhands_lod0.glb",
+  "handsSha256": "A11222B24F77C29686CCC4591A0917E6502483AA6FCAF2901A27F3345B355DA6",
+  "label": "local-c2-authority-exact",
+  "cameraMode": "authority",
+  "visibilityProfile": "family",
+  "compositionRootMode": "candidate",
+  "candidateRootRawModelMatrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "sourceM16RootRawModelMatrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "candidateVersusSourceRootMaximumElementDelta": 0.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "rasterCenterPixel": [
+    960,
+    540
+  ],
+  "compositionContract": "data-level skinning of exact idle base plus exact phase override; static weapon candidate j_gun composed onto animated viewhands tag_weapon in serialized model coordinates; one model-to-Blender conversion after composition; exact state hideTags; fixed raster-center witness",
+  "tileCount": 4,
+  "tiles": [
+    {
+      "role": "bare",
+      "weaponFile": "g36c_mp",
+      "phase": "ads_up",
+      "visibleTag": "tag_sights",
+      "hiddenTags": [
+        "tag_acog",
+        "tag_holo",
+        "tag_reflex",
+        "tag_silencer"
+      ],
+      "expectedHiddenTags": [
+        "tag_acog",
+        "tag_reflex",
+        "tag_silencer"
+      ],
+      "visibilityProfile": "family",
+      "visibilityFilter": {
+        "inputTriangles": 15599,
+        "visibleBodyTriangles": 10661,
+        "visibleActiveTriangles": 1339,
+        "hiddenTriangles": 3599,
+        "faceOwnerCounts": {
+          "j_bolt": 170,
+          "j_gun": 9107,
+          "tag_acog": 1200,
+          "tag_clip": 1108,
+          "tag_grip": 276,
+          "tag_holo": 1200,
+          "tag_reflex": 1199,
+          "tag_sights": 1339
+        }
+      },
+      "layers": [
+        {
+          "phase": "idle",
+          "field": "idleAnim",
+          "name": "viewmodel_mw2_m16_idle",
+          "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_idle",
+          "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697",
+          "frameCount": 30,
+          "frame": 15
+        },
+        {
+          "phase": "ads_up",
+          "field": "adsUpAnim",
+          "name": "viewmodel_mw2_m16_ADS_up",
+          "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_ads_up",
+          "sha256": "4079A7EC4B35F6C2CB0A513B90F28E6E4114248178019C78B915F42A47339462",
+          "frameCount": 12,
+          "frame": 12
+        }
+      ],
+      "attachmentRawModelMatrix": [
+        [
+          0.999896262009,
+          0.003479035797,
+          0.013977178905,
+          3.983134224005
+        ],
+        [
+          -0.003479035797,
+          0.999993947841,
+          -2.4314814e-05,
+          2.928996701583
+        ],
+        [
+          -0.013977178905,
+          -2.4314814e-05,
+          0.999902314168,
+          5.372677429953
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentBlenderMatrix": [
+        [
+          0.999896262009,
+          -0.013977178905,
+          0.003479035797,
+          3.983134224005
+        ],
+        [
+          0.013977178905,
+          0.999902314168,
+          2.4314814e-05,
+          -5.372677429953
+        ],
+        [
+          -0.003479035797,
+          2.4314814e-05,
+          0.999993947841,
+          2.928996701583
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handTagRawModelMatrix": [
+        [
+          0.999896262009,
+          -0.013977178905,
+          0.003479035797,
+          3.983134224005
+        ],
+        [
+          -0.003479035797,
+          2.4314814e-05,
+          0.999993947841,
+          2.928996701583
+        ],
+        [
+          -0.013977178905,
+          -0.999902314168,
+          -2.4314814e-05,
+          5.372677429953
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "candidateRootRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceM16RootRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "compositionRootMode": "candidate",
+      "candidateVersusSourceRootMaximumElementDelta": 0.0,
+      "handsBoundsBlender": {
+        "lower": [
+          -18.137629435,
+          -13.680407973,
+          -9.216240271
+        ],
+        "upper": [
+          15.997324716,
+          -1.438920973,
+          15.233225802
+        ],
+        "center": [
+          -1.070152359,
+          -7.559664473,
+          3.008492765
+        ],
+        "span": [
+          34.134954151,
+          12.241487,
+          24.449466073
+        ]
+      },
+      "weaponBoundsBlender": {
+        "lower": [
+          -8.006657912,
+          -7.747300347,
+          -8.89421472
+        ],
+        "upper": [
+          33.507451104,
+          -3.593569357,
+          9.815884389
+        ],
+        "center": [
+          12.750396596,
+          -5.670434852,
+          0.460834835
+        ],
+        "span": [
+          41.514109016,
+          4.153730991,
+          18.710099109
+        ]
+      },
+      "camera": {
+        "mode": "authority",
+        "source": {
+          "kind": "sealed-source-M16-runtime-camera",
+          "path": "xi_ftag/.audit/weapon_alignment_builder_round2/metrics/family01-absolute-runtime-axis-control.json",
+          "sha256": "2857F13CFBD7B76F45428FE500F081A88EDA2016DCA214AD0F024E5A10673263"
+        },
+        "eye": [
+          -3.197882252,
+          -5.548252067,
+          7.499498088
+        ],
+        "forward": [
+          0.999720777,
+          -0.003840998,
+          -0.023315563
+        ],
+        "right": [
+          -0.003842042,
+          -0.999992619,
+          0.0
+        ],
+        "up": [
+          0.023315391,
+          -8.9579e-05,
+          0.999728155
+        ],
+        "horizontalFovDegrees": 50.0
+      },
+      "resolution": [
+        1920,
+        1080
+      ],
+      "rasterCenterPixel": [
+        960,
+        540
+      ],
+      "fixedCenterWitnessInRaster": true,
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2/renders/data-level-composed/local-c2-authority-exact/family-01/bare_ads_up_data_composed.png",
+      "sha256": "03C1FDC27043D0D2EF4CC7547706DA73379621829656E28F9B75B9FB01EB0691",
+      "visualRuntimeClaim": "HOLD_PENDING_EXACT_RASTER_INSPECTION"
+    },
+    {
+      "role": "reflex",
+      "weaponFile": "g36c_reflex_mp",
+      "phase": "ads_up",
+      "visibleTag": "tag_reflex",
+      "hiddenTags": [
+        "tag_acog",
+        "tag_holo",
+        "tag_sights",
+        "tag_silencer"
+      ],
+      "expectedHiddenTags": [
+        "tag_acog",
+        "tag_sights",
+        "tag_silencer"
+      ],
+      "visibilityProfile": "family",
+      "visibilityFilter": {
+        "inputTriangles": 15599,
+        "visibleBodyTriangles": 10661,
+        "visibleActiveTriangles": 1199,
+        "hiddenTriangles": 3739,
+        "faceOwnerCounts": {
+          "j_bolt": 170,
+          "j_gun": 9107,
+          "tag_acog": 1200,
+          "tag_clip": 1108,
+          "tag_grip": 276,
+          "tag_holo": 1200,
+          "tag_reflex": 1199,
+          "tag_sights": 1339
+        }
+      },
+      "layers": [
+        {
+          "phase": "idle",
+          "field": "idleAnim",
+          "name": "viewmodel_mw2_m16_idle",
+          "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_idle",
+          "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697",
+          "frameCount": 30,
+          "frame": 15
+        },
+        {
+          "phase": "ads_up",
+          "field": "adsUpAnim",
+          "name": "viewmodel_ow2_m16a4_reflex_ads_up",
+          "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_ow2_m16a4_reflex_ads_up",
+          "sha256": "E1507E3D2AAF1D1BAD2869D49F1A3538AF834EE23A3DD3B382062A4B9B103069",
+          "frameCount": 13,
+          "frame": 13
+        }
+      ],
+      "attachmentRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.967000007629
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.95664363306
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.590938344117
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentBlenderMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.967000007629
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -5.590938344117
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.95664363306
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handTagRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.967000007629
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.95664363306
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          5.590938344117
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "candidateRootRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceM16RootRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "compositionRootMode": "candidate",
+      "candidateVersusSourceRootMaximumElementDelta": 0.0,
+      "handsBoundsBlender": {
+        "lower": [
+          -19.214279343,
+          -13.754495043,
+          -9.193814536
+        ],
+        "upper": [
+          15.023505825,
+          -1.520588098,
+          15.219146929
+        ],
+        "center": [
+          -2.095386759,
+          -7.63754157,
+          3.012666197
+        ],
+        "span": [
+          34.237785168,
+          12.233906945,
+          24.412961465
+        ]
+      },
+      "weaponBoundsBlender": {
+        "lower": [
+          -9.031380653,
+          -7.966299057,
+          -8.863684245
+        ],
+        "upper": [
+          32.466126442,
+          -4.047178998,
+          9.845016054
+        ],
+        "center": [
+          11.717372894,
+          -6.006739027,
+          0.490665905
+        ],
+        "span": [
+          41.497507095,
+          3.919120058,
+          18.708700299
+        ]
+      },
+      "camera": {
+        "mode": "authority",
+        "source": {
+          "kind": "sealed-source-M16-runtime-camera",
+          "path": "xi_ftag/.audit/weapon_alignment_builder_round2/metrics/family01-absolute-runtime-axis-control.json",
+          "sha256": "2857F13CFBD7B76F45428FE500F081A88EDA2016DCA214AD0F024E5A10673263"
+        },
+        "eye": [
+          -3.197882252,
+          -5.548252067,
+          7.499498088
+        ],
+        "forward": [
+          0.999720777,
+          -0.003840998,
+          -0.023315563
+        ],
+        "right": [
+          -0.003842042,
+          -0.999992619,
+          0.0
+        ],
+        "up": [
+          0.023315391,
+          -8.9579e-05,
+          0.999728155
+        ],
+        "horizontalFovDegrees": 50.0
+      },
+      "resolution": [
+        1920,
+        1080
+      ],
+      "rasterCenterPixel": [
+        960,
+        540
+      ],
+      "fixedCenterWitnessInRaster": true,
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2/renders/data-level-composed/local-c2-authority-exact/family-01/reflex_ads_up_data_composed.png",
+      "sha256": "826BEF778CC4D3A19C34BBD9D73D1C27EFD3CB025015721029AA9A3C213587A8",
+      "visualRuntimeClaim": "HOLD_PENDING_EXACT_RASTER_INSPECTION"
+    },
+    {
+      "role": "acog",
+      "weaponFile": "g36c_acog_mp",
+      "phase": "ads_up",
+      "visibleTag": "tag_acog",
+      "hiddenTags": [
+        "tag_holo",
+        "tag_reflex",
+        "tag_sights",
+        "tag_silencer"
+      ],
+      "expectedHiddenTags": [
+        "tag_reflex",
+        "tag_sights",
+        "tag_silencer"
+      ],
+      "visibilityProfile": "family",
+      "visibilityFilter": {
+        "inputTriangles": 15599,
+        "visibleBodyTriangles": 10661,
+        "visibleActiveTriangles": 1200,
+        "hiddenTriangles": 3738,
+        "faceOwnerCounts": {
+          "j_bolt": 170,
+          "j_gun": 9107,
+          "tag_acog": 1200,
+          "tag_clip": 1108,
+          "tag_grip": 276,
+          "tag_holo": 1200,
+          "tag_reflex": 1199,
+          "tag_sights": 1339
+        }
+      },
+      "layers": [
+        {
+          "phase": "idle",
+          "field": "idleAnim",
+          "name": "viewmodel_mw2_m16_idle",
+          "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_idle",
+          "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697",
+          "frameCount": 30,
+          "frame": 15
+        },
+        {
+          "phase": "ads_up",
+          "field": "adsUpAnim",
+          "name": "viewmodel_ow2_m16a4_acog_ads_up",
+          "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_ow2_m16a4_acog_ads_up",
+          "sha256": "473ECD0D9F4C14371EB61E64E87FA4FCCE8CEF8FD6EC1505D313CF6EF76DAEA5",
+          "frameCount": 13,
+          "frame": 13
+        }
+      ],
+      "attachmentRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.967000007629
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.956658927379
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.578979898383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentBlenderMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.967000007629
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -5.578979898383
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.956658927379
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handTagRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.967000007629
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.956658927379
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          5.578979898383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "candidateRootRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceM16RootRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "compositionRootMode": "candidate",
+      "candidateVersusSourceRootMaximumElementDelta": 0.0,
+      "handsBoundsBlender": {
+        "lower": [
+          -19.214279343,
+          -13.742536597,
+          -9.193799241
+        ],
+        "upper": [
+          15.023505825,
+          -1.508629652,
+          15.219162224
+        ],
+        "center": [
+          -2.095386759,
+          -7.625583125,
+          3.012681491
+        ],
+        "span": [
+          34.237785168,
+          12.233906945,
+          24.412961465
+        ]
+      },
+      "weaponBoundsBlender": {
+        "lower": [
+          -9.031380653,
+          -7.954340611,
+          -8.863668951
+        ],
+        "upper": [
+          32.466126442,
+          -4.035220552,
+          9.845031349
+        ],
+        "center": [
+          11.717372894,
+          -5.994780582,
+          0.490681199
+        ],
+        "span": [
+          41.497507095,
+          3.919120058,
+          18.708700299
+        ]
+      },
+      "camera": {
+        "mode": "authority",
+        "source": {
+          "kind": "sealed-source-M16-runtime-camera",
+          "path": "xi_ftag/.audit/weapon_alignment_builder_round2/metrics/family01-absolute-runtime-axis-control.json",
+          "sha256": "2857F13CFBD7B76F45428FE500F081A88EDA2016DCA214AD0F024E5A10673263"
+        },
+        "eye": [
+          -3.197882252,
+          -5.548252067,
+          7.499498088
+        ],
+        "forward": [
+          0.999720777,
+          -0.003840998,
+          -0.023315563
+        ],
+        "right": [
+          -0.003842042,
+          -0.999992619,
+          0.0
+        ],
+        "up": [
+          0.023315391,
+          -8.9579e-05,
+          0.999728155
+        ],
+        "horizontalFovDegrees": 30.0
+      },
+      "resolution": [
+        1920,
+        1080
+      ],
+      "rasterCenterPixel": [
+        960,
+        540
+      ],
+      "fixedCenterWitnessInRaster": true,
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2/renders/data-level-composed/local-c2-authority-exact/family-01/acog_ads_up_data_composed.png",
+      "sha256": "2E8D18B5A58563085776E722D9001933687FC3377EFAAD5DD0F6D0F793C4C16C",
+      "visualRuntimeClaim": "HOLD_PENDING_EXACT_RASTER_INSPECTION"
+    },
+    {
+      "role": "suppressor",
+      "weaponFile": "g36c_silencer_mp",
+      "phase": "ads_up",
+      "visibleTag": "tag_silencer",
+      "hiddenTags": [
+        "tag_acog",
+        "tag_holo",
+        "tag_reflex"
+      ],
+      "expectedHiddenTags": [
+        "tag_acog",
+        "tag_reflex"
+      ],
+      "visibilityProfile": "family",
+      "visibilityFilter": {
+        "inputTriangles": 15599,
+        "visibleBodyTriangles": 12000,
+        "visibleActiveTriangles": 0,
+        "hiddenTriangles": 3599,
+        "faceOwnerCounts": {
+          "j_bolt": 170,
+          "j_gun": 9107,
+          "tag_acog": 1200,
+          "tag_clip": 1108,
+          "tag_grip": 276,
+          "tag_holo": 1200,
+          "tag_reflex": 1199,
+          "tag_sights": 1339
+        }
+      },
+      "layers": [
+        {
+          "phase": "idle",
+          "field": "idleAnim",
+          "name": "viewmodel_mw2_m16_idle",
+          "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_idle",
+          "sha256": "5341FF96BA99379E8BE0E71D3B365B16790CF9D03156AB24D0221FF821543697",
+          "frameCount": 30,
+          "frame": 15
+        },
+        {
+          "phase": "ads_up",
+          "field": "adsUpAnim",
+          "name": "viewmodel_mw2_m16_ADS_up",
+          "path": "xi_ftag/.asset_staging/xanim_validation/legacy/xanim/viewmodel_mw2_m16_ads_up",
+          "sha256": "4079A7EC4B35F6C2CB0A513B90F28E6E4114248178019C78B915F42A47339462",
+          "frameCount": 12,
+          "frame": 12
+        }
+      ],
+      "attachmentRawModelMatrix": [
+        [
+          0.999896262009,
+          0.003479035797,
+          0.013977178905,
+          3.983134224005
+        ],
+        [
+          -0.003479035797,
+          0.999993947841,
+          -2.4314814e-05,
+          2.928996701583
+        ],
+        [
+          -0.013977178905,
+          -2.4314814e-05,
+          0.999902314168,
+          5.372677429953
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "attachmentBlenderMatrix": [
+        [
+          0.999896262009,
+          -0.013977178905,
+          0.003479035797,
+          3.983134224005
+        ],
+        [
+          0.013977178905,
+          0.999902314168,
+          2.4314814e-05,
+          -5.372677429953
+        ],
+        [
+          -0.003479035797,
+          2.4314814e-05,
+          0.999993947841,
+          2.928996701583
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handTagRawModelMatrix": [
+        [
+          0.999896262009,
+          -0.013977178905,
+          0.003479035797,
+          3.983134224005
+        ],
+        [
+          -0.003479035797,
+          2.4314814e-05,
+          0.999993947841,
+          2.928996701583
+        ],
+        [
+          -0.013977178905,
+          -0.999902314168,
+          -2.4314814e-05,
+          5.372677429953
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "candidateRootRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceM16RootRawModelMatrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "compositionRootMode": "candidate",
+      "candidateVersusSourceRootMaximumElementDelta": 0.0,
+      "handsBoundsBlender": {
+        "lower": [
+          -18.137629435,
+          -13.680407973,
+          -9.216240271
+        ],
+        "upper": [
+          15.997324716,
+          -1.438920973,
+          15.233225802
+        ],
+        "center": [
+          -1.070152359,
+          -7.559664473,
+          3.008492765
+        ],
+        "span": [
+          34.134954151,
+          12.241487,
+          24.449466073
+        ]
+      },
+      "weaponBoundsBlender": {
+        "lower": [
+          -8.006657912,
+          -7.747300347,
+          -8.89421472
+        ],
+        "upper": [
+          33.507451104,
+          -3.593569357,
+          9.815884389
+        ],
+        "center": [
+          12.750396596,
+          -5.670434852,
+          0.460834835
+        ],
+        "span": [
+          41.514109016,
+          4.153730991,
+          18.710099109
+        ]
+      },
+      "camera": {
+        "mode": "authority",
+        "source": {
+          "kind": "sealed-source-M16-runtime-camera",
+          "path": "xi_ftag/.audit/weapon_alignment_builder_round2/metrics/family01-absolute-runtime-axis-control.json",
+          "sha256": "2857F13CFBD7B76F45428FE500F081A88EDA2016DCA214AD0F024E5A10673263"
+        },
+        "eye": [
+          -3.197882252,
+          -5.548252067,
+          7.499498088
+        ],
+        "forward": [
+          0.999720777,
+          -0.003840998,
+          -0.023315563
+        ],
+        "right": [
+          -0.003842042,
+          -0.999992619,
+          0.0
+        ],
+        "up": [
+          0.023315391,
+          -8.9579e-05,
+          0.999728155
+        ],
+        "horizontalFovDegrees": 50.0
+      },
+      "resolution": [
+        1920,
+        1080
+      ],
+      "rasterCenterPixel": [
+        960,
+        540
+      ],
+      "fixedCenterWitnessInRaster": true,
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2/renders/data-level-composed/local-c2-authority-exact/family-01/suppressor_ads_up_data_composed.png",
+      "sha256": "2C54CE7C2442B3AE75FD38AE97DAA42E8F85C7975D3F3A76E82FB97F5D7DC381",
+      "visualRuntimeClaim": "HOLD_PENDING_EXACT_RASTER_INSPECTION"
+    }
+  ],
+  "visualRuntimeClaims": "HOLD_PENDING_EXACT_RASTER_INSPECTION",
+  "promotionReady": false
+}

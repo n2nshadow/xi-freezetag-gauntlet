@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "status": "NOT_EXECUTED",
+  "projectRoot": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag",
+  "auditRoot": "C:/Users/shawn/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/sentry_oat_builder_round6",
+  "assetName": "worldmodel_xi_sentry_old_clean",
+  "intent": "Replace only the lethal sentry model payload and add the exact external DDS source dependencies named by that payload. Keep XModel metadata, zone references, the asset profile, Frost Sentry, and Defroster Drone unchanged.",
+  "preflightVerifier": "verify_round6.py",
+  "promotionExecutedByThisAudit": false,
+  "operations": [
+    {
+      "order": 1,
+      "action": "atomic-replace",
+      "source": "private/zone_raw/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+      "sourceSha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51",
+      "target": "zone_raw/xi_ftag/model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+      "targetPrecondition": {
+        "exists": true,
+        "sha256": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD"
+      },
+      "targetPostcondition": {
+        "exists": true,
+        "sha256": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+      },
+      "rollback": {
+        "action": "atomic-restore",
+        "source": ".audit/sentry_oat_builder_round6/rollback/worldmodel_xi_sentry_old_clean_lod0.pre_round6.glb",
+        "sourceSha256": "58C3532307E16A3F60E61A6DEC6A2FEBA3E267F625917AA1399EAEE4A21AEBAD",
+        "currentTargetSha256Required": "9EDE3C17FF16D750700781F8B62DC2EE06F08A2E36DF203A46CAEE4C7B914D51"
+      }
+    },
+    {
+      "order": 2,
+      "action": "create-if-absent",
+      "source": "private/zone_raw/images/weapon_sentry_gun_col.dds",
+      "sourceSha256": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC",
+      "target": "zone_raw/xi_ftag/images/weapon_sentry_gun_col.dds",
+      "targetPrecondition": { "exists": false },
+      "targetPostcondition": { "exists": true, "sha256": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC" },
+      "rollback": { "action": "delete-if-hash", "sha256": "5E77D9948A8C4F00C5A7796F5DD296E3C5EADD30E7E814FE01814759A7E222CC" }
+    },
+    {
+      "order": 3,
+      "action": "create-if-absent",
+      "source": "private/zone_raw/images/weapon_sentry_gun_nml.dds",
+      "sourceSha256": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3",
+      "target": "zone_raw/xi_ftag/images/weapon_sentry_gun_nml.dds",
+      "targetPrecondition": { "exists": false },
+      "targetPostcondition": { "exists": true, "sha256": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3" },
+      "rollback": { "action": "delete-if-hash", "sha256": "395561C17BFC5CE54DF0132DD068CBAA5E0FA2519236457E0266CC0021BB28D3" }
+    },
+    {
+      "order": 4,
+      "action": "create-if-absent",
+      "source": "private/zone_raw/images/weapon_saw_col.dds",
+      "sourceSha256": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA",
+      "target": "zone_raw/xi_ftag/images/weapon_saw_col.dds",
+      "targetPrecondition": { "exists": false },
+      "targetPostcondition": { "exists": true, "sha256": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA" },
+      "rollback": { "action": "delete-if-hash", "sha256": "78C46428E014B45D1AAA3A8082A2D308654E109CF1B401AA59EC66701C8FAFEA" }
+    },
+    {
+      "order": 5,
+      "action": "create-if-absent",
+      "source": "private/zone_raw/images/$identitynormalmap.dds",
+      "sourceSha256": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96",
+      "target": "zone_raw/xi_ftag/images/$identitynormalmap.dds",
+      "targetPrecondition": { "exists": false },
+      "targetPostcondition": { "exists": true, "sha256": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96" },
+      "rollback": { "action": "delete-if-hash", "sha256": "CE9B0ED111BDAA932B5FEB145ABF9D7252F7A35C10C1E2647B6D924D2BF34A96" }
+    }
+  ],
+  "unchangedMetadata": {
+    "path": "zone_raw/xi_ftag/xmodel/worldmodel_xi_sentry_old_clean.json",
+    "sha256": "68929F3834097C09003DF63DB1148D776D61A38E70500F2E149BE8F5DAF2377C",
+    "lodFile": "model_export/worldmodel_xi_sentry_old_clean_lod0.glb",
+    "action": "verify-only"
+  },
+  "runtimeAssetsNotPromoted": [
+    {
+      "asset": "mc/mtl_sentry_bo",
+      "reason": "Already exists in production and was loaded from the private exact copy in every OAT probe."
+    },
+    {
+      "asset": "mc/mtl_weapon_saw_misc_nocamo",
+      "reason": "The promotion-minimal OAT probe omitted its disk JSON and resolved it from common_mp."
+    },
+    {
+      "asset": "mc/mtl_weapon_saw",
+      "reason": "Already listed in xi_ftag_stock_render_assets and resolved as a resident reference."
+    },
+    {
+      "asset": "IW3 image assets",
+      "reason": "Production sentry IWIs already exist; SAW IWIs are resident through common_mp. DDS creations above satisfy the authoritative GLB URI table without replacing engine image payloads."
+    }
+  ],
+  "protectedInvariants": [
+    { "path": "zone_raw/xi_ftag/xi_ftag/_assetprofile.gsc", "sha256": "2247DDDA60A2E38F7D2842EAA4528A6E8A6E8B2390198CAB3F9F140F36CBC20C" },
+    { "path": "zone_source/xi_ftag.zone", "sha256": "421A2362ED6A72332C13B779313C43B22EF2461CB0BF32754134DC816C2F73CE" },
+    { "path": "zone_source/assetlist/xi_ftag_stock_render_assets.csv", "sha256": "90F7A3F0478794F5B6F566AFFE18A77E602157B8A2795F9D1262D4A86BEB3A36" },
+    { "path": "zone_raw/xi_ftag/xmodel/worldmodel_t8_sentry_deployed.json", "sha256": "5C9757A71714A931B1E930D583044001972CED0771BA9E329455D7F7652B7369" },
+    { "path": "zone_raw/xi_ftag/model_export/worldmodel_t8_sentry_deployed_lod0.glb", "sha256": "580A7381B916FAFFBBBC812F785A42F1EBE61100B15ED4CE490B983356C9AD9E" },
+    { "path": "zone_raw/xi_ftag/xmodel/worldmodel_t8_defroster_drone.json", "sha256": "24E46C73A85BEE21E51A0496134AFEB6E4D542A19BA81145262DBD89CF7CDAB0" },
+    { "path": "zone_raw/xi_ftag/model_export/worldmodel_t8_defroster_drone_lod0.glb", "sha256": "2737870FF7A67C75D33DDD68D2158D7721E852869F5DA755207714A8AC5E15D5" }
+  ],
+  "executionProtocol": {
+    "promote": [
+      "Run verify_round6.py and require PASS before any write.",
+      "Recheck every target precondition immediately before writing.",
+      "For each operation, copy the source to a same-directory temporary file, verify its SHA-256, then atomically replace or rename to the target.",
+      "Run the target postconditions and protected-invariant checks. If any check fails, stop and run rollback in reverse operation order."
+    ],
+    "rollback": [
+      "Process operations in reverse order.",
+      "Delete a created DDS only when its current hash equals the operation rollback hash.",
+      "Restore the GLB only when its current hash equals the promoted candidate hash and the sealed rollback payload has the old production hash.",
+      "Recheck the original GLB hash, DDS absence preconditions, unchanged metadata, and all protected invariants."
+    ]
+  }
+}

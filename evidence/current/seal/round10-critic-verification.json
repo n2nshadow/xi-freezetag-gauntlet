@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "capturedUtc": "2026-08-26T03:41:28.6146771Z",
+  "status": "PASS",
+  "independentReplay": true,
+  "checkCount": 37,
+  "passCount": 37,
+  "failureCount": 0,
+  "failedChecks": [],
+  "matrices": {
+    "PS7": {
+      "edition": "Core",
+      "version": "7.6.4",
+      "status": "PASS",
+      "caseCount": 32,
+      "passCount": 32,
+      "heldCaseCount": 22,
+      "precommitAllOldCount": 16,
+      "postcommitAllNewCount": 6,
+      "secondRecoveryKillCount": 3,
+      "childCount": 77,
+      "allChildrenReaped": true,
+      "sha256": "751E4240A56B3A39F01D0D925C5283677C944F71D17E1C804C1E54D37AF8B843"
+    },
+    "PS5": {
+      "edition": "Desktop",
+      "version": "5.1.26100.9168",
+      "status": "PASS",
+      "caseCount": 32,
+      "passCount": 32,
+      "heldCaseCount": 22,
+      "precommitAllOldCount": 16,
+      "postcommitAllNewCount": 6,
+      "secondRecoveryKillCount": 3,
+      "childCount": 77,
+      "allChildrenReaped": true,
+      "sha256": "F984222E838EA128BEB5B7C2AD6AE7DA724634ABE8F8B7A7B5F22C4388DFB5C4"
+    }
+  },
+  "sourceSuites": {
+    "PS7": {
+      "parserErrors": 0,
+      "parserFileCount": 6,
+      "groupCount": 8,
+      "helperTamperRejected": true,
+      "helperOmissionRejected": true,
+      "helperSelectedExactlyOnce": true,
+      "runnerExitCode": 0
+    },
+    "PS5": {
+      "parserErrors": 0,
+      "parserFileCount": 6,
+      "groupCount": 8,
+      "helperTamperRejected": true,
+      "helperOmissionRejected": true,
+      "helperSelectedExactlyOnce": true,
+      "runnerExitCode": 0
+    }
+  },
+  "productionUntouched": true,
+  "residueCount": 0,
+  "liveChildCount": 0,
+  "checks": [
+    {
+      "name": "frozen candidate matches inspected builder package",
+      "status": "PASS",
+      "evidence": [
+        {
+          "path": "build.ps1",
+          "length": 51296,
+          "sha256": "276D399AB2525878D7BEB52F32108B4E460D603F8CB8FAC9C94117AD4A3BF728"
+        },
+        {
+          "path": "install-steam-ftag-mod.ps1",
+          "length": 26666,
+          "sha256": "C0EE6EB4E224B74E11C7CC55668600A696D9CE6A86D6C9203964D1F421A2F9FC"
+        },
+        {
+          "path": "play-with-bots.ps1",
+          "length": 70088,
+          "sha256": "0663CBAE75CAC69AF4311C1F8E09C3D5A00D4DA3A7FCBD3E1B6E74EF1AECA387"
+        },
+        {
+          "path": "tools/Build-SourceSeal.ps1",
+          "length": 67519,
+          "sha256": "091454D944C3CB2BA7389D658CB07057C22F38C4BBFDE8A33B1409BC54AA14A9"
+        },
+        {
+          "path": "tools/Install-PackageTransaction.ps1",
+          "length": 75321,
+          "sha256": "341435DA6B6CAA95F1EB5D1A8B85D83DFEC84B43E1C418CA8B17F35AF6490DA2"
+        },
+        {
+          "path": "tools/Test-BuildSourceSeal.ps1",
+          "length": 86765,
+          "sha256": "30073E95786AA2382B7C35C8DF2C0C0744EC1A753328838655AF00066BD5F90D"
+        }
+      ]
+    },
+    {
+      "name": "replayed harness matches inspected builder harness",
+      "status": "PASS",
+      "evidence": [
+        {
+          "path": "AtomicWorker.ps1",
+          "length": 7232,
+          "sha256": "A2F7CA19518C3DB16FC52ECBE20457DE41C04C035B6C298787C602567B1E0DA0"
+        },
+        {
+          "path": "Collect-CandidateRuntimeSeal.ps1",
+          "length": 7448,
+          "sha256": "8BB664F67CA8F5D1CAD65B3AFEE706D0CBC1E6E84200120A6991C0298059F8D1"
+        },
+        {
+          "path": "Finalize-Round10Evidence.ps1",
+          "length": 14910,
+          "sha256": "A2F32C07992F667210E8817A911FDD9AEED7504C9C3D8F17C1F40B22702B7E66"
+        },
+        {
+          "path": "Invoke-AtomicBoundaryMatrix.ps1",
+          "length": 38755,
+          "sha256": "1B03E409B1C540FE92C3E9A0340B37FF96A2E6621997B023D85A3DD3EACC3BEC"
+        },
+        {
+          "path": "Invoke-CandidateSuite.ps1",
+          "length": 2474,
+          "sha256": "AB38E57EBF88735EEFF037EAA0387D8836B03652D5106ED16176F1D7DD8FBE19"
+        },
+        {
+          "path": "Parse-CandidateScripts.ps1",
+          "length": 3346,
+          "sha256": "28E5C5513AAC4C47880BD1436D30CD4A174EF7A2CB82EA70ED25179DA89CAE4D"
+        }
+      ]
+    },
+    {
+      "name": "PS7 exact 32-case manifest",
+      "status": "PASS",
+      "evidence": {
+        "expected": 32,
+        "actual": 32
+      }
+    },
+    {
+      "name": "PS7 all case records pass",
+      "status": "PASS",
+      "evidence": {
+        "failures": []
+      }
+    },
+    {
+      "name": "PS7 exact held visibility through kill and recovery",
+      "status": "PASS",
+      "evidence": {
+        "held": 22,
+        "allOld": 16,
+        "allNew": 6,
+        "failures": []
+      }
+    },
+    {
+      "name": "PS7 interrupted recovery remains canonical",
+      "status": "PASS",
+      "evidence": {
+        "interruptions": 3,
+        "failures": []
+      }
+    },
+    {
+      "name": "PS7 local NTFS TxF rollback preflight",
+      "status": "PASS",
+      "evidence": {
+        "supported": true,
+        "architecture": "txf-directory-swap-v1",
+        "volumeName": "\\\\?\\Volume{ea824a74-6e8c-11ed-b8d5-a8a1597c356c}\\",
+        "mountPoint": "\\\\?\\C:\\",
+        "fileSystem": "NTFS",
+        "driveType": 3,
+        "serialNumber": 2564513485,
+        "api": "CreateTransaction+MoveFileTransactedW+CommitTransaction",
+        "automaticRollbackProbe": "PASS",
+        "osVersion": "Microsoft Windows NT 10.0.26200.0",
+        "powershellEdition": "Core",
+        "powershellVersion": "7.6.4"
+      }
+    },
+    {
+      "name": "PS7 TxF API diagnostic",
+      "status": "PASS",
+      "evidence": {
+        "exceptionType": "System.ComponentModel.Win32Exception",
+        "message": "MoveFileTransacted failed from C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round10\\tmp\\atomic-matrix-PS7\\c-801c48bd36b6\\parent\\.xi-ftag-txf-probe-missing-de8fbf344e844e1db7a75a68591b2dea to C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round10\\tmp\\atomic-matrix-PS7\\c-801c48bd36b6\\parent\\.xi-ftag-txf-probe-unused-1c01bb0c538c471f8191f7672afb86ff (Win32 2)",
+        "hresult": -2147467259,
+        "nativeErrorCode": 2
+      }
+    },
+    {
+      "name": "PS7 invalid topology fails closed",
+      "status": "PASS",
+      "evidence": {
+        "exitCode": 1,
+        "after": "all-old"
+      }
+    },
+    {
+      "name": "PS7 corrupt capsules recover canonically",
+      "status": "PASS",
+      "evidence": {
+        "pendingRecovery": "all-old",
+        "pendingFinal": "all-new",
+        "durableRecovery": "all-new"
+      }
+    },
+    {
+      "name": "PS7 child cleanup",
+      "status": "PASS",
+      "evidence": {
+        "childCount": 77,
+        "allReaped": true
+      }
+    },
+    {
+      "name": "PS7 case residue arrays empty",
+      "status": "PASS",
+      "evidence": {
+        "failures": []
+      }
+    },
+    {
+      "name": "PS7 parser covers six scripts",
+      "status": "PASS",
+      "evidence": {
+        "fileCount": 6,
+        "errors": 0
+      }
+    },
+    {
+      "name": "PS7 eight-group source suite",
+      "status": "PASS",
+      "evidence": {
+        "groups": [
+          "PASS structured AST call order and complete build capture",
+          "PASS schema 4 frozen-session baseline and ordinary source/package drift",
+          "PASS frozen reads, retained output causality, and stale tuple rejection",
+          "PASS every selected external/reference/toolchain input and set",
+          "PASS ordinal source identity, actual casing, and collision rejection",
+          "PASS pre-cleanup project/package and nested input reparse rejection",
+          "PASS canonical IWD entries, per-entry hashes, and lowercase cfg invariant",
+          "PASS TxF-preflighted atomic installer publication and recovery"
+        ],
+        "runnerExitCode": 0
+      }
+    },
+    {
+      "name": "PS7 helper tamper and omission rejection",
+      "status": "PASS",
+      "evidence": [
+        {
+          "case": "installer_helper_source_and_selected_runtime_binding",
+          "manifestSourcePath": "xi_ftag/tools/Install-PackageTransaction.ps1",
+          "manifestSourceSha256": "341435DA6B6CAA95F1EB5D1A8B85D83DFEC84B43E1C418CA8B17F35AF6490DA2",
+          "selectedRuntimeName": "installer-transaction-runtime",
+          "tamperRejected": true,
+          "omissionRejected": true
+        }
+      ]
+    },
+    {
+      "name": "PS7 selected runtime binds helper once",
+      "status": "PASS",
+      "evidence": {
+        "selectedRuntimeCount": 2,
+        "helperSha256": "341435DA6B6CAA95F1EB5D1A8B85D83DFEC84B43E1C418CA8B17F35AF6490DA2"
+      }
+    },
+    {
+      "name": "PS7 source-suite cleanup",
+      "status": "PASS",
+      "evidence": {
+        "testRootExists": false,
+        "tempRootExists": false
+      }
+    },
+    {
+      "name": "PS5 exact 32-case manifest",
+      "status": "PASS",
+      "evidence": {
+        "expected": 32,
+        "actual": 32
+      }
+    },
+    {
+      "name": "PS5 all case records pass",
+      "status": "PASS",
+      "evidence": {
+        "failures": []
+      }
+    },
+    {
+      "name": "PS5 exact held visibility through kill and recovery",
+      "status": "PASS",
+      "evidence": {
+        "held": 22,
+        "allOld": 16,
+        "allNew": 6,
+        "failures": []
+      }
+    },
+    {
+      "name": "PS5 interrupted recovery remains canonical",
+      "status": "PASS",
+      "evidence": {
+        "interruptions": 3,
+        "failures": []
+      }
+    },
+    {
+      "name": "PS5 local NTFS TxF rollback preflight",
+      "status": "PASS",
+      "evidence": {
+        "supported": true,
+        "architecture": "txf-directory-swap-v1",
+        "volumeName": "\\\\?\\Volume{ea824a74-6e8c-11ed-b8d5-a8a1597c356c}\\",
+        "mountPoint": "\\\\?\\C:\\",
+        "fileSystem": "NTFS",
+        "driveType": 3,
+        "serialNumber": 2564513485,
+        "api": "CreateTransaction+MoveFileTransactedW+CommitTransaction",
+        "automaticRollbackProbe": "PASS",
+        "osVersion": "Microsoft Windows NT 10.0.26200.0",
+        "powershellEdition": "Desktop",
+        "powershellVersion": "5.1.26100.9168"
+      }
+    },
+    {
+      "name": "PS5 TxF API diagnostic",
+      "status": "PASS",
+      "evidence": {
+        "exceptionType": "System.ComponentModel.Win32Exception",
+        "message": "MoveFileTransacted failed from C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round10\\tmp\\atomic-matrix-PS5\\c-801c48bd36b6\\parent\\.xi-ftag-txf-probe-missing-727ad27fcd2c45c38f8405dfe32e5a8b to C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\build_source_seal_critic_round10\\tmp\\atomic-matrix-PS5\\c-801c48bd36b6\\parent\\.xi-ftag-txf-probe-unused-9ba8cc48ba824df2bfaf37524b2e77f0 (Win32 2)",
+        "hresult": -2147467259,
+        "nativeErrorCode": 2
+      }
+    },
+    {
+      "name": "PS5 invalid topology fails closed",
+      "status": "PASS",
+      "evidence": {
+        "exitCode": 1,
+        "after": "all-old"
+      }
+    },
+    {
+      "name": "PS5 corrupt capsules recover canonically",
+      "status": "PASS",
+      "evidence": {
+        "pendingRecovery": "all-old",
+        "pendingFinal": "all-new",
+        "durableRecovery": "all-new"
+      }
+    },
+    {
+      "name": "PS5 child cleanup",
+      "status": "PASS",
+      "evidence": {
+        "childCount": 77,
+        "allReaped": true
+      }
+    },
+    {
+      "name": "PS5 case residue arrays empty",
+      "status": "PASS",
+      "evidence": {
+        "failures": []
+      }
+    },
+    {
+      "name": "PS5 parser covers six scripts",
+      "status": "PASS",
+      "evidence": {
+        "fileCount": 6,
+        "errors": 0
+      }
+    },
+    {
+      "name": "PS5 eight-group source suite",
+      "status": "PASS",
+      "evidence": {
+        "groups": [
+          "PASS structured AST call order and complete build capture",
+          "PASS schema 4 frozen-session baseline and ordinary source/package drift",
+          "PASS frozen reads, retained output causality, and stale tuple rejection",
+          "PASS every selected external/reference/toolchain input and set",
+          "PASS ordinal source identity, actual casing, and collision rejection",
+          "PASS pre-cleanup project/package and nested input reparse rejection",
+          "PASS canonical IWD entries, per-entry hashes, and lowercase cfg invariant",
+          "PASS TxF-preflighted atomic installer publication and recovery"
+        ],
+        "runnerExitCode": 0
+      }
+    },
+    {
+      "name": "PS5 helper tamper and omission rejection",
+      "status": "PASS",
+      "evidence": [
+        {
+          "case": "installer_helper_source_and_selected_runtime_binding",
+          "manifestSourcePath": "xi_ftag/tools/Install-PackageTransaction.ps1",
+          "manifestSourceSha256": "341435DA6B6CAA95F1EB5D1A8B85D83DFEC84B43E1C418CA8B17F35AF6490DA2",
+          "selectedRuntimeName": "installer-transaction-runtime",
+          "tamperRejected": true,
+          "omissionRejected": true
+        }
+      ]
+    },
+    {
+      "name": "PS5 selected runtime binds helper once",
+      "status": "PASS",
+      "evidence": {
+        "selectedRuntimeCount": 8,
+        "helperSha256": "341435DA6B6CAA95F1EB5D1A8B85D83DFEC84B43E1C418CA8B17F35AF6490DA2"
+      }
+    },
+    {
+      "name": "PS5 source-suite cleanup",
+      "status": "PASS",
+      "evidence": {
+        "testRootExists": false,
+        "tempRootExists": false
+      }
+    },
+    {
+      "name": "global reserved residue absent",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "name": "audit temporary tree empty",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "name": "no critic child process remains",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "name": "production target hashes and timestamps unchanged",
+      "status": "PASS",
+      "evidence": {
+        "before": [
+          {
+            "path": "xi_ftag/tools/Build-SourceSeal.ps1",
+            "exists": true,
+            "length": 67519,
+            "lastWriteUtc": "2026-08-25T19:29:06.0860232Z",
+            "sha256": "091454D944C3CB2BA7389D658CB07057C22F38C4BBFDE8A33B1409BC54AA14A9"
+          },
+          {
+            "path": "xi_ftag/tools/Test-BuildSourceSeal.ps1",
+            "exists": true,
+            "length": 68017,
+            "lastWriteUtc": "2026-08-25T19:58:37.0055206Z",
+            "sha256": "C0B90A91648415903C443E091522C9E6698AC19CFAFB95F9E645E82976B2BBA2"
+          },
+          {
+            "path": "xi_ftag/tools/Install-PackageTransaction.ps1",
+            "exists": false,
+            "length": null,
+            "lastWriteUtc": null,
+            "sha256": null
+          },
+          {
+            "path": "xi_ftag/build.ps1",
+            "exists": true,
+            "length": 50859,
+            "lastWriteUtc": "2026-08-25T19:53:24.2322353Z",
+            "sha256": "74E6EDBBBABF7ACF41C4801E3208E5D0CCFC44A0F8528FB082EB0EFDD9D7800F"
+          },
+          {
+            "path": "xi_ftag/install-steam-ftag-mod.ps1",
+            "exists": true,
+            "length": 33061,
+            "lastWriteUtc": "2026-08-25T19:52:30.4391219Z",
+            "sha256": "96AB1FD459BC41F417B7AD8C54FD9152BF2948EB25369689928C504F1FBA8193"
+          },
+          {
+            "path": "xi_ftag/play-with-bots.ps1",
+            "exists": true,
+            "length": 70088,
+            "lastWriteUtc": "2026-08-25T14:51:46.1954124Z",
+            "sha256": "0663CBAE75CAC69AF4311C1F8E09C3D5A00D4DA3A7FCBD3E1B6E74EF1AECA387"
+          }
+        ],
+        "after": [
+          {
+            "path": "xi_ftag/tools/Build-SourceSeal.ps1",
+            "exists": true,
+            "length": 67519,
+            "lastWriteUtc": "2026-08-25T19:29:06.0860232Z",
+            "sha256": "091454D944C3CB2BA7389D658CB07057C22F38C4BBFDE8A33B1409BC54AA14A9"
+          },
+          {
+            "path": "xi_ftag/tools/Test-BuildSourceSeal.ps1",
+            "exists": true,
+            "length": 68017,
+            "lastWriteUtc": "2026-08-25T19:58:37.0055206Z",
+            "sha256": "C0B90A91648415903C443E091522C9E6698AC19CFAFB95F9E645E82976B2BBA2"
+          },
+          {
+            "path": "xi_ftag/tools/Install-PackageTransaction.ps1",
+            "exists": false,
+            "length": null,
+            "lastWriteUtc": null,
+            "sha256": null
+          },
+          {
+            "path": "xi_ftag/build.ps1",
+            "exists": true,
+            "length": 50859,
+            "lastWriteUtc": "2026-08-25T19:53:24.2322353Z",
+            "sha256": "74E6EDBBBABF7ACF41C4801E3208E5D0CCFC44A0F8528FB082EB0EFDD9D7800F"
+          },
+          {
+            "path": "xi_ftag/install-steam-ftag-mod.ps1",
+            "exists": true,
+            "length": 33061,
+            "lastWriteUtc": "2026-08-25T19:52:30.4391219Z",
+            "sha256": "96AB1FD459BC41F417B7AD8C54FD9152BF2948EB25369689928C504F1FBA8193"
+          },
+          {
+            "path": "xi_ftag/play-with-bots.ps1",
+            "exists": true,
+            "length": 70088,
+            "lastWriteUtc": "2026-08-25T14:51:46.1954124Z",
+            "sha256": "0663CBAE75CAC69AF4311C1F8E09C3D5A00D4DA3A7FCBD3E1B6E74EF1AECA387"
+          }
+        ]
+      }
+    },
+    {
+      "name": "repository state outside critic unchanged",
+      "status": "PASS",
+      "evidence": {
+        "before": "40405A7D1C7232C07B8455098D6FFFA7E65468A4054CC6003BA4249569332E1B",
+        "after": "40405A7D1C7232C07B8455098D6FFFA7E65468A4054CC6003BA4249569332E1B",
+        "statusLineCount": 1763
+      }
+    }
+  ]
+}

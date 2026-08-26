@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "audit": "XI FreezeTag lethal-sentry independent OAT critic Round 7",
+  "verdict": "HOLD",
+  "singleBiggestRemainingGap": "promotion-map.json is not crash-consistent as a five-write transaction: a crash after operations 1-4 leaves a mixed production state, and the recipe provides no durable journal, commit marker, or automatic recovery entrypoint.",
+  "authoritativeCandidateSha256Exact": true,
+  "candidateOatSubgate": "PASS",
+  "promotionMinimalDependencySubgate": "PASS",
+  "promotionTransactionSubgate": "HOLD",
+  "promotionExecuted": false,
+  "productionChanged": false,
+  "runtimeOrInGameAppearanceClaimed": false,
+  "blockingFindingIds": [
+    "PROMOTION-ATOMICITY-01"
+  ],
+  "hardBar": {
+    "1": "PASS",
+    "2": "PASS",
+    "3": "PASS",
+    "4": "PASS",
+    "5": "PASS",
+    "6": "HOLD",
+    "7": "PASS",
+    "8": "PASS",
+    "9": "PASS",
+    "10": "PASS"
+  },
+  "verificationManifest": "VERIFICATION_MANIFEST.json",
+  "report": "REPORT.md",
+  "sha256Sums": "SHA256SUMS.txt"
+}

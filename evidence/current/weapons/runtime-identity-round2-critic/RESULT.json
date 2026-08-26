@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "status": "FAIL",
+  "verdict": "FAIL",
+  "runtimeIdentityVerdict": "FAIL",
+  "visualAlignmentVerdict": "HOLD",
+  "promotionReady": false,
+  "candidate": {
+    "path": ".audit/weapon_runtime_identity_builder_round2/candidate/weapon_runtime_identity_round2.patch",
+    "expectedSha256": "39c778afc42f31d06bd131a67c6b89e3871687296dafade77f11c42568583722",
+    "actualSha256": "39c778afc42f31d06bd131a67c6b89e3871687296dafade77f11c42568583722",
+    "exactHashMatch": true,
+    "byteLength": 109699,
+    "changedPathCount": 8
+  },
+  "counts": {
+    "families": 11,
+    "states": 37,
+    "uniqueStateIds": 37,
+    "uniqueFamilyAttachmentPairs": 37,
+    "readyStates": 20,
+    "holdStates": 17,
+    "runtimeXanimFieldsPerState": 30,
+    "runtimeXanimSlots": 1110,
+    "presentLocalXanimHashesChecked": 879,
+    "uniqueRuntimeXanims": 180,
+    "requiredVerifierSourcePaths": 228,
+    "requiredPathsUnavailableFromCommittedHeadEvenAfterPatch": 191
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "status": "FAIL",
+      "summary": "Real clean-clone patch application fails and 191 required verifier inputs are absent from committed HEAD. Valid current-snapshot authority passes and absent/missing/tampered/stale authority cases fail, but the trust root is not external and candidate-bound."
+    },
+    {
+      "id": 2,
+      "status": "FAIL",
+      "summary": "Promoted verifier contains an executable repository .audit path pattern and accepts an authority root inside repository .audit."
+    },
+    {
+      "id": 3,
+      "status": "PASS",
+      "summary": "37 unique states and all 1110 ordered XAnim slots independently match exact names; all 879 present local hashes match."
+    },
+    {
+      "id": 4,
+      "status": "PASS",
+      "summary": "F10-A0 tag_scope_colt is visible and not hidden; all three authoritative copies are byte-exact at SHA-256 7ef916a91aebbe7b33cd6526940216bc14d37816d97672011ecac89a2fd5e76c."
+    },
+    {
+      "id": 5,
+      "status": "FAIL",
+      "summary": "Normal HOLD resolution preserves selection, resolves A0, and audits explicitly, but holdWeaponFinish bypasses the resolver and can deploy a held attachment."
+    },
+    {
+      "id": 6,
+      "status": "FAIL",
+      "summary": "Core class/spawn/restore routes are table-mediated, but Dvar-controlled finish deployment bypasses the table."
+    },
+    {
+      "id": 7,
+      "status": "FAIL",
+      "summary": "Unknown family is guarded in normal loadout paths but reaches giveWeapon and switchToWeapon through holdWeaponFinish without an empty-weapon guard."
+    },
+    {
+      "id": 8,
+      "status": "FAIL",
+      "summary": "Build gate rejects a dual readiness swap but runtime accepts it; resolver-local rewrite is rejected but a post-resolver saved-selection rewrite passes."
+    }
+  ],
+  "blockers": [
+    {
+      "id": "B1_CLEAN_CLONE_PORTABILITY",
+      "summary": "Exact patch does not apply to committed clean clone HEAD 30424acca3264c7b9c47a536436518231a9749db, and 191 verifier inputs are unavailable there."
+    },
+    {
+      "id": "B2_EXTERNAL_TRUST_ROOT",
+      "summary": "Authority externality is not enforced and the accepted receipt does not seal the Round 2 candidate."
+    },
+    {
+      "id": "B3_PROMOTED_AUDIT_PATH",
+      "summary": "Promoted verifier hardcodes a repository .audit path pattern and accepts an authority root under repository .audit."
+    },
+    {
+      "id": "B4_RUNTIME_DEPLOYMENT_BYPASS",
+      "summary": "Dvar-controlled holdWeaponFinish uses getWeaponFile directly and can deploy held or unknown-family results without fail-closed guards."
+    },
+    {
+      "id": "B5_RUNTIME_DUAL_SWAP",
+      "summary": "Packaged GSC validates readiness totals rather than exact per-state readiness, so a count-preserving swap remains runtime-valid."
+    },
+    {
+      "id": "B6_SELECTION_REWRITE_SCOPE",
+      "summary": "Saved-selection rewrite detection covers getRuntimeAttachment only; an equivalent applyPrimaryLoadout rewrite passes the promoted gate."
+    }
+  ],
+  "positiveChecks": {
+    "candidateHashExact": true,
+    "reconstructedOutputsMatchStaging": true,
+    "validAuthorityPassesCurrentSnapshot": true,
+    "absentMissingTamperedStaleAuthorityRejected": true,
+    "alignmentReceiptChainExact": true,
+    "statesAndXanimsExactCurrentSnapshot": true,
+    "f10AuthoritativeCopiesExact": true,
+    "normalHeldSelectionsRetainedAndAudited": true,
+    "normalClassSpawnRestoreRoutesTableMediated": true
+  },
+  "adversarialChecks": {
+    "cleanCloneApplyPassed": false,
+    "validReceiptCanPassCommittedClone": false,
+    "repositoryInternalAuditAuthorityAccepted": true,
+    "trustRootGenuinelyExternalAndNonSelfCertifying": false,
+    "dualReadinessSwapRejectedByBuildGate": true,
+    "dualReadinessSwapRejectedByRuntime": false,
+    "resolverSelectionRewriteRejected": true,
+    "postResolverSelectionRewriteRejected": false,
+    "unknownFamilyCannotReachEngineDeployment": false,
+    "heldStateDirectBypassAbsent": false
+  },
+  "production": {
+    "modified": false,
+    "untouched": true,
+    "builderLaneModified": false,
+    "writesRestrictedToCriticLane": true,
+    "cleanCloneDisposed": true,
+    "temporaryFixturesDisposed": true,
+    "buildRun": false,
+    "installRun": false
+  },
+  "evidence": [
+    "evidence/clean-clone-check.json",
+    "evidence/reconstruction-and-scope.json",
+    "evidence/authority-and-negative-tests.json",
+    "evidence/state-xanim-recount.json",
+    "evidence/f10-authoritative-copies.json",
+    "evidence/runtime-path-adversarial.json",
+    "evidence/visual-alignment-status.json",
+    "evidence/production-integrity.json",
+    "evidence/critic-summary.json"
+  ]
+}

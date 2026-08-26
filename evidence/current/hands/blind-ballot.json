@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "protocol": "XI round12 independent blind A/B ballot",
+  "identity_state": "SEALED - mapping_v2.sealed.bin not opened",
+  "evidence": {
+    "primary_manifest": "render_manifest_blind_lit_v2.json",
+    "primary_render_count": 56,
+    "primary_contact_sheets": "contact_sheets_blind_lit_v2",
+    "secondary_manifest": "render_manifest_blind.json",
+    "secondary_render_count": 56,
+    "panel_order": "A left, B right",
+    "camera_and_light": "Shared per pair",
+    "material": "Equal neutral clay hands; equal neutral gray M16"
+  },
+  "scale": "0 severe failure, 3 borderline, 4 acceptable, 5 clean control quality",
+  "scores": [
+    {
+      "criterion": "bind full anatomy across palm/back/underside/side",
+      "A": 5.0,
+      "B": 4.0,
+      "vote": "A",
+      "note": "B is visibly thinner and more faceted, but both hands remain complete and consistently oriented in all six axes."
+    },
+    {
+      "criterion": "wrist/cuff/forearm continuity, both hands",
+      "A": 5.0,
+      "B": 4.0,
+      "vote": "A",
+      "note": "B has a narrow angular thenar-to-wrist transition and bulky intentional cuff ornaments; no collapse or corkscrew is visible."
+    },
+    {
+      "criterion": "thumb opposition and palm volume",
+      "A": 5.0,
+      "B": 4.0,
+      "vote": "A",
+      "note": "B shows an angular X-like thenar crease in the underside view, but the thumb opposes the fingers plausibly and the palm retains depth in orthogonal views."
+    },
+    {
+      "criterion": "finger completeness and fingertips",
+      "A": 5.0,
+      "B": 4.0,
+      "vote": "A",
+      "note": "B fingers are long/faceted but all digits and tips are present, consistently sided, and not inside-out."
+    },
+    {
+      "criterion": "idle fore-end hand to M16",
+      "A": 5.0,
+      "B": 4.0,
+      "vote": "A",
+      "note": "Both wrap the fore-end/handguard at the same control pose. B has no obvious hover or deeper penetration than A in x/y/underside views."
+    },
+    {
+      "criterion": "idle trigger hand to M16",
+      "A": 5.0,
+      "B": 4.0,
+      "vote": "A",
+      "note": "B tracks the grip/receiver contact coherently; apparent intersections are comparable to the stock-shaped A control."
+    },
+    {
+      "criterion": "reload magazine/fore-end hand contact",
+      "A": 5.0,
+      "B": 4.0,
+      "vote": "A",
+      "note": "At frame 35 and the 0/18/52/70 timeline, B follows the magazine/receiver interaction without visible detachment or catastrophic penetration."
+    },
+    {
+      "criterion": "reload trigger hand/receiver contact",
+      "A": 5.0,
+      "B": 4.0,
+      "vote": "A",
+      "note": "The B trigger hand remains aligned to the receiver/grip as coherently as the animated control trajectory permits."
+    },
+    {
+      "criterion": "camera volume and contamination silhouette",
+      "A": 4.5,
+      "B": 4.0,
+      "vote": "A",
+      "note": "A has the larger sleeve envelope. B's spikes/straps are localized to cuffs and do not dominate the frame; no detached hand-geometry contamination is visible."
+    }
+  ],
+  "mandatory_fatal_defects": {
+    "A": {
+      "reversed_hand": false,
+      "collapsed_or_corkscrewed_wrist_forearm": false,
+      "flattened_palm": false,
+      "missing_or_inside_out_finger": false,
+      "impossible_thumb_opposition": false,
+      "camera_dominating_volume": false,
+      "material_or_geometry_contamination": false,
+      "idle_reload_contact_worse_than_control": false
+    },
+    "B": {
+      "reversed_hand": false,
+      "collapsed_or_corkscrewed_wrist_forearm": false,
+      "flattened_palm": false,
+      "missing_or_inside_out_finger": false,
+      "impossible_thumb_opposition": false,
+      "camera_dominating_volume": false,
+      "material_or_geometry_contamination": false,
+      "idle_reload_contact_worse_than_control": false
+    }
+  },
+  "visual_defects_or_gaps": {
+    "A": [
+      "Large sleeve envelope reduces closeup clarity but is internally coherent and serves as the control baseline."
+    ],
+    "B": [
+      "Hands are visibly thinner and lower-poly than A.",
+      "Left underside shows an angular X-like thenar/wrist crease; orthogonal views show retained palm depth, so it is scored nonfatal.",
+      "Cuff spikes and straps create a busy silhouette but remain localized and connected to intended wrist apparel."
+    ]
+  },
+  "blind_visual_disposition": {
+    "A": "PASS",
+    "B": "PASS_WITH_NONFATAL_ANATOMICAL_GAP",
+    "comparative_winner": "A",
+    "mapping_reveal_allowed_after_lock": true
+  }
+}

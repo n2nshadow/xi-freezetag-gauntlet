@@ -1,0 +1,1491 @@
+{
+  "allDisplacedNegativesRejected": true,
+  "allNegativesFreshPhysicalCopies": true,
+  "allPositiveControlsPassed": true,
+  "contractSha256": "398c5c026a0578d0bbfc32aba5b89adf50ccc2fa80b92315eb2ebc43951299b8",
+  "executionMode": "real-untouched-stock-assets-with-physical-copied-negatives-v3",
+  "inputAssets": [
+    {
+      "actualSha256": "4e52e9cd84f8c1ad5444510fe277fdd3c053cd845de45b4908f7e3368691f3f5",
+      "expectedSha256": "4e52e9cd84f8c1ad5444510fe277fdd3c053cd845de45b4908f7e3368691f3f5",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_base_viewhands_lod0.glb",
+      "verified": true
+    },
+    {
+      "actualSha256": "383a991692fd697adf45c6e5bb11d09a96aefd4ea12cddfa397e0744c385931e",
+      "expectedSha256": "383a991692fd697adf45c6e5bb11d09a96aefd4ea12cddfa397e0744c385931e",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_m249_mp_lod0.glb",
+      "verified": true
+    },
+    {
+      "actualSha256": "f78fa79ee3ba57f8ab56232f13e1d05614f45619ceb56e6d489f34174cd710d9",
+      "expectedSha256": "f78fa79ee3ba57f8ab56232f13e1d05614f45619ceb56e6d489f34174cd710d9",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_m4_and_silencer_mp_lod0.glb",
+      "verified": true
+    },
+    {
+      "actualSha256": "f6c39da0bdbabebf74d54ddeb0ba1496cdd510964723ab627df22ce4f7a801d5",
+      "expectedSha256": "f6c39da0bdbabebf74d54ddeb0ba1496cdd510964723ab627df22ce4f7a801d5",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/model_export/viewmodel_m4_mp_lod0.glb",
+      "verified": true
+    },
+    {
+      "actualSha256": "8f96655e3a29269ae5791f197a5f4cce5c2a2c94a07af5789f9dc45dc0bf551e",
+      "expectedSha256": "8f96655e3a29269ae5791f197a5f4cce5c2a2c94a07af5789f9dc45dc0bf551e",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_acog_mp",
+      "verified": true
+    },
+    {
+      "actualSha256": "1b315a16749e7f02086afc82be0971f81b2f792d9416ed793fc4ba8e296da2fb",
+      "expectedSha256": "1b315a16749e7f02086afc82be0971f81b2f792d9416ed793fc4ba8e296da2fb",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_mp",
+      "verified": true
+    },
+    {
+      "actualSha256": "b2baab181249867deb4fb33fc57ea98684257381c1712b13e11c96d7ad06a138",
+      "expectedSha256": "b2baab181249867deb4fb33fc57ea98684257381c1712b13e11c96d7ad06a138",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_reflex_mp",
+      "verified": true
+    },
+    {
+      "actualSha256": "1acf007d740708baa2d483cfc3edf3785c8773df86423bfb4533bd1fcf7888e6",
+      "expectedSha256": "1acf007d740708baa2d483cfc3edf3785c8773df86423bfb4533bd1fcf7888e6",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_silencer_mp",
+      "verified": true
+    },
+    {
+      "actualSha256": "0e18dcd7781a262d3c677fe1b89fa139ef2ac2b1b7909925fa382b765d48f4d4",
+      "expectedSha256": "0e18dcd7781a262d3c677fe1b89fa139ef2ac2b1b7909925fa382b765d48f4d4",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/saw_grip_mp",
+      "verified": true
+    },
+    {
+      "actualSha256": "643b7a0ec9389b5c74febc7a1d991f1b1b3fd5b5776b54ed5b0b17865f3c8ab8",
+      "expectedSha256": "643b7a0ec9389b5c74febc7a1d991f1b1b3fd5b5776b54ed5b0b17865f3c8ab8",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/saw_mp",
+      "verified": true
+    },
+    {
+      "actualSha256": "aec565bbeeabc4ef580764370a87840d384e6786c90be396716bd02b4097a929",
+      "expectedSha256": "aec565bbeeabc4ef580764370a87840d384e6786c90be396716bd02b4097a929",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+      "verified": true
+    },
+    {
+      "actualSha256": "092d6135186a0b79e5146096a8cfc8c359ce98fb50f910d2230997acfd63e423",
+      "expectedSha256": "092d6135186a0b79e5146096a8cfc8c359ce98fb50f910d2230997acfd63e423",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+      "verified": true
+    },
+    {
+      "actualSha256": "1eb04cbd58862b8be736055f4ed1018ee4d31bad561b9ee472010bca295936a5",
+      "expectedSha256": "1eb04cbd58862b8be736055f4ed1018ee4d31bad561b9ee472010bca295936a5",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+      "verified": true
+    },
+    {
+      "actualSha256": "e72b8bb9ccf021143f2333d58c3b4fa43befcbe9cc24c3f9e646ece0d39601d3",
+      "expectedSha256": "e72b8bb9ccf021143f2333d58c3b4fa43befcbe9cc24c3f9e646ece0d39601d3",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle",
+      "verified": true
+    },
+    {
+      "actualSha256": "fc369d3a477e03b3f808f55dd943037f49b71a0d587611a77fe60a201ad33399",
+      "expectedSha256": "fc369d3a477e03b3f808f55dd943037f49b71a0d587611a77fe60a201ad33399",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+      "verified": true
+    },
+    {
+      "actualSha256": "65c07c16faf8e14b42b017a01814bda4feb5d2c82182605262c80996f2c67b6e",
+      "expectedSha256": "65c07c16faf8e14b42b017a01814bda4feb5d2c82182605262c80996f2c67b6e",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_acog_ads_fire",
+      "verified": true
+    },
+    {
+      "actualSha256": "bb8bd2bce443e3bff9351c715ef1c9db2b3851e8213860d20fa9dbb0391731bc",
+      "expectedSha256": "bb8bd2bce443e3bff9351c715ef1c9db2b3851e8213860d20fa9dbb0391731bc",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_acog_ads_up",
+      "verified": true
+    },
+    {
+      "actualSha256": "753c6076969d7e9ce1aab485ef61a32c262834e9be387e8b5dbec36e59772405",
+      "expectedSha256": "753c6076969d7e9ce1aab485ef61a32c262834e9be387e8b5dbec36e59772405",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_idle",
+      "verified": true
+    },
+    {
+      "actualSha256": "b5e95cb7abb3ba98b977f3d43f03e801b9212cb0f07b181656fc26176c06ad9d",
+      "expectedSha256": "b5e95cb7abb3ba98b977f3d43f03e801b9212cb0f07b181656fc26176c06ad9d",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_iron_ads_up",
+      "verified": true
+    },
+    {
+      "actualSha256": "be081d36988a55a92b1c4398586166eafb6e765217569559febb5e3902443275",
+      "expectedSha256": "be081d36988a55a92b1c4398586166eafb6e765217569559febb5e3902443275",
+      "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_reflex_ads_up",
+      "verified": true
+    },
+    {
+      "actualSha256": "d88e9563fa193f2f94b5a262c10c6198182f82e27ab155141de28b36ea4871c1",
+      "expectedSha256": "d88e9563fa193f2f94b5a262c10c6198182f82e27ab155141de28b36ea4871c1",
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2/metrics/global-stock-cod4-measurement-calibration.json",
+      "verified": true
+    },
+    {
+      "actualSha256": "242dc6cd01d59ecdc2fb540a79e0b11e034b7e46ad92612c83964e46594aac99",
+      "expectedSha256": "242dc6cd01d59ecdc2fb540a79e0b11e034b7e46ad92612c83964e46594aac99",
+      "path": "xi_ftag/.audit/weapon_alignment_builder_round2/tooling/probe_global_stock_cod4_calibration.py",
+      "verified": true
+    },
+    {
+      "actualSha256": "dc1a6634015f0ec98ac06f2f8d9d233befc7e174d3fe9e7d6760cad629e438a9",
+      "expectedSha256": "dc1a6634015f0ec98ac06f2f8d9d233befc7e174d3fe9e7d6760cad629e438a9",
+      "path": "xi_ftag/.audit/weapon_alignment_source_controls_round1/REPORT.md",
+      "verified": true
+    }
+  ],
+  "method": "cod4-stock-projection-contact-calibration-v1",
+  "negativeCases": [
+    {
+      "category": "bare",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 2.0,
+          "metric": "axisErrorPixels",
+          "observed": 64.335209
+        }
+      ],
+      "controlId": "COD4-STOCK-M4",
+      "copiedGeometrySha256": "8fb3084f906cf9824dece0fbad83d5283f4f58a77e3594b9a93c07636754665a",
+      "copiedPointCount": 779,
+      "copiedPolygonCount": 570,
+      "execution": {
+        "line": {
+          "direction": [
+            0.999413013,
+            -3.543e-06,
+            0.034258306
+          ],
+          "front": [
+            14.744360924,
+            -0.28939864,
+            5.364643574
+          ],
+          "method": "rear-front-geometry-p12-p88",
+          "pointCount": 779,
+          "rear": [
+            -0.640602708,
+            -0.289344102,
+            4.837271214
+          ]
+        },
+        "localTranslation": [
+          3.298e-06,
+          -0.24999997,
+          -0.000122074
+        ],
+        "pixels": {
+          "front": [
+            982.000584,
+            539.999998
+          ],
+          "rear": [
+            1024.335209,
+            539.999999
+          ]
+        }
+      },
+      "freshPhysicalCopy": true,
+      "id": "M4-IRON-DISPLACED",
+      "kind": "projection",
+      "physicalTransformApplied": true,
+      "rejected": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1",
+      "sourceAssetSha256": "f6c39da0bdbabebf74d54ddeb0ba1496cdd510964723ab627df22ce4f7a801d5",
+      "sourceGeometrySha256": "91510140470ea40482aba49e22ca74f40d4ea590cc2d92c79e4981c1d400a1b1",
+      "sourcePointCount": 779,
+      "sourcePolygonCount": 570,
+      "transform": {
+        "cameraRightModelUnits": 0.25
+      }
+    },
+    {
+      "category": "reflex",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 2.0,
+          "metric": "axisErrorPixels",
+          "observed": 46.442158137
+        }
+      ],
+      "controlId": "COD4-STOCK-M4",
+      "copiedGeometrySha256": "803d9e6af6a662963135b3bd31a5f0e0a400c3f82eec1d5fd9a2619e484fd74c",
+      "copiedPointCount": 386,
+      "copiedPolygonCount": 294,
+      "execution": {
+        "localTranslation": [
+          9.66e-07,
+          -0.25,
+          0.0
+        ],
+        "pixel": [
+          1006.442158,
+          540.0
+        ],
+        "witness": {
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "center": [
+            2.709315062,
+            -0.250000149,
+            4.907441139
+          ],
+          "materialToken": "mtl_weapon_reflex_red_dot",
+          "method": "exact reticle-material vertices and fitted plane normal",
+          "planeResidualMaximum": 0.0,
+          "planeResidualRms": 0.0,
+          "pointCount": 6,
+          "uniquePointCount": 6
+        }
+      },
+      "freshPhysicalCopy": true,
+      "id": "M4-REFLEX-DISPLACED",
+      "kind": "projection",
+      "physicalTransformApplied": true,
+      "rejected": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1",
+      "sourceAssetSha256": "f6c39da0bdbabebf74d54ddeb0ba1496cdd510964723ab627df22ce4f7a801d5",
+      "sourceGeometrySha256": "6d82b081ecf5680a9849a90edebdeb891904d28716110dd7f4741782aa762a41",
+      "sourcePointCount": 386,
+      "sourcePolygonCount": 294,
+      "transform": {
+        "cameraRightModelUnits": 0.25
+      }
+    },
+    {
+      "category": "acog",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 0.5,
+          "metric": "sourceAxisDeltaDegrees",
+          "observed": 2.999997882
+        }
+      ],
+      "controlId": "COD4-STOCK-M4",
+      "copiedGeometrySha256": "9ff6d88899e222286b7ce8c8e16fc0fbe3f8aec1651b9e923c4ac1327cae47a6",
+      "copiedPointCount": 804,
+      "copiedPolygonCount": 619,
+      "execution": {
+        "rotationAxisGlb": "+Z",
+        "sourceAxisDeltaDegrees": 2.999997882
+      },
+      "freshPhysicalCopy": true,
+      "id": "M4-ACOG-ROTATED",
+      "kind": "axis",
+      "physicalTransformApplied": true,
+      "rejected": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1",
+      "sourceAssetSha256": "f6c39da0bdbabebf74d54ddeb0ba1496cdd510964723ab627df22ce4f7a801d5",
+      "sourceGeometrySha256": "c02290cda875fc39d6c21658897f73bd7f403aff01305bce3283e7799f9ff8e4",
+      "sourcePointCount": 804,
+      "sourcePolygonCount": 619,
+      "transform": {
+        "rotationDegrees": 3.0
+      }
+    },
+    {
+      "category": "suppressor",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 0.02,
+          "metric": "contactDeltaModelUnits",
+          "observed": 0.707106381
+        },
+        {
+          "comparator": "<=",
+          "limit": 0.5,
+          "metric": "axisDeltaDegrees",
+          "observed": 4.999998653
+        }
+      ],
+      "controlId": "COD4-STOCK-M4",
+      "copiedGeometrySha256": "cab22113ed64a1931d9e9f0ac9070e996eb9c51599ac7203c97c7d34838f32c7",
+      "copiedPointCount": 50,
+      "copiedPolygonCount": 39,
+      "execution": {
+        "axisDeltaDegrees": 4.999998653,
+        "deltaGlb": [
+          0.0,
+          0.5,
+          -0.5
+        ]
+      },
+      "freshPhysicalCopy": true,
+      "id": "M4-SILENCER-DISPLACED",
+      "kind": "contact-axis",
+      "physicalTransformApplied": true,
+      "rejected": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1",
+      "sourceAssetSha256": "f78fa79ee3ba57f8ab56232f13e1d05614f45619ceb56e6d489f34174cd710d9",
+      "sourceGeometrySha256": "fe15af569c6c4bc55469c66a8a383ca9a85a07bbabc7be98d3b370433c8d8715",
+      "sourcePointCount": 50,
+      "sourcePolygonCount": 39,
+      "transform": {
+        "deltaModelUnits": [
+          0.0,
+          0.5,
+          0.5
+        ],
+        "rotationDegrees": 5.0
+      }
+    },
+    {
+      "category": "grip",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 0.02,
+          "metric": "maximumContactDeltaModelUnits",
+          "observed": 0.74999981
+        },
+        {
+          "comparator": "<=",
+          "limit": 0.5,
+          "metric": "maximumAxisDeltaDegrees",
+          "observed": 8.040253488
+        }
+      ],
+      "controlId": "COD4-STOCK-M249",
+      "copiedGeometrySha256": "a39ecae34950b89993190b03f02ad032e63d5491f08daf2f8015c2aa090f81d4",
+      "copiedPointCount": 171,
+      "copiedPolygonCount": 123,
+      "execution": {
+        "phaseAxisDeltas": [
+          8.040253488,
+          8.040253488,
+          8.040253488
+        ],
+        "phaseContactDeltas": [
+          0.74999981,
+          0.74999981,
+          0.74999981
+        ],
+        "runtimePhases": {
+          "ads_fire": [
+            {
+              "frame": 0,
+              "frameCount": 1,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+              "sha256": "fc369d3a477e03b3f808f55dd943037f49b71a0d587611a77fe60a201ad33399"
+            },
+            {
+              "frame": 14,
+              "frameCount": 14,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+              "sha256": "aec565bbeeabc4ef580764370a87840d384e6786c90be396716bd02b4097a929"
+            },
+            {
+              "frame": 5,
+              "frameCount": 5,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+              "sha256": "092d6135186a0b79e5146096a8cfc8c359ce98fb50f910d2230997acfd63e423"
+            }
+          ],
+          "fire": [
+            {
+              "frame": 0,
+              "frameCount": 1,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+              "sha256": "fc369d3a477e03b3f808f55dd943037f49b71a0d587611a77fe60a201ad33399"
+            },
+            {
+              "frame": 8,
+              "frameCount": 8,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+              "sha256": "1eb04cbd58862b8be736055f4ed1018ee4d31bad561b9ee472010bca295936a5"
+            }
+          ],
+          "idle": [
+            {
+              "frame": 0,
+              "frameCount": 1,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+              "sha256": "fc369d3a477e03b3f808f55dd943037f49b71a0d587611a77fe60a201ad33399"
+            }
+          ]
+        }
+      },
+      "freshPhysicalCopy": true,
+      "id": "M249-GRIP-DISPLACED",
+      "kind": "contact-axis",
+      "physicalTransformApplied": true,
+      "rejected": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1",
+      "sourceAssetSha256": "383a991692fd697adf45c6e5bb11d09a96aefd4ea12cddfa397e0744c385931e",
+      "sourceGeometrySha256": "07e1eed3607c2a107a008c604ee733908c7cc2b80e43bff6cf5880321c41c995",
+      "sourcePointCount": 171,
+      "sourcePolygonCount": 123,
+      "transform": {
+        "deltaModelUnits": [
+          0.0,
+          0.0,
+          0.75
+        ],
+        "rotationDegrees": 15.0
+      }
+    }
+  ],
+  "negativeRejectCount": 5,
+  "positiveCases": [
+    {
+      "category": "bare",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 2.0,
+          "metric": "axisErrorPixels",
+          "observed": 0.0
+        }
+      ],
+      "controlId": "COD4-STOCK-M4",
+      "execution": {
+        "cameraMethod": "untouched-stock-rear-front-sight-line-v1",
+        "line": {
+          "direction": [
+            0.999413013,
+            -3.543e-06,
+            0.034258306
+          ],
+          "front": [
+            14.744358063,
+            -0.03939867,
+            5.364765644
+          ],
+          "method": "rear-front-geometry-p12-p88",
+          "pointCount": 779,
+          "rear": [
+            -0.640606046,
+            -0.039344124,
+            4.837393284
+          ]
+        },
+        "pixels": {
+          "front": [
+            960.0,
+            540.0
+          ],
+          "rear": [
+            960.0,
+            540.0
+          ]
+        },
+        "runtimeLayers": [
+          {
+            "frame": 1,
+            "frameCount": 2,
+            "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_idle",
+            "sha256": "753C6076969D7E9CE1AAB485EF61A32C262834E9BE387E8B5DBEC36E59772405"
+          },
+          {
+            "frame": 13,
+            "frameCount": 13,
+            "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_iron_ads_up",
+            "sha256": "B5E95CB7ABB3BA98B977F3D43F03E801B9212CB0F07B181656FC26176C06AD9D"
+          }
+        ],
+        "sourceGeometry": {
+          "meshCount": 1,
+          "pointCount": 779,
+          "polygonCount": 570,
+          "sha256": "91510140470ea40482aba49e22ca74f40d4ea590cc2d92c79e4981c1d400a1b1"
+        },
+        "weaponFile": {
+          "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_mp",
+          "sha256": "1b315a16749e7f02086afc82be0971f81b2f792d9416ed793fc4ba8e296da2fb"
+        }
+      },
+      "id": "iron-projection",
+      "passed": true,
+      "realInputsExecuted": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1"
+    },
+    {
+      "category": "reflex",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 2.0,
+          "metric": "axisErrorPixels",
+          "observed": 0.0
+        },
+        {
+          "comparator": "<=",
+          "limit": 0.02,
+          "metric": "signedGapResidual",
+          "observed": 0.0
+        },
+        {
+          "comparator": "<=",
+          "limit": 0.5,
+          "metric": "normalErrorDegrees",
+          "observed": 0.0
+        }
+      ],
+      "controlId": "COD4-STOCK-M4",
+      "execution": {
+        "contact": {
+          "evaluator": "shared coherent-plane contact_patch_clusters + host_contact_pairs + evaluate_contact_pair",
+          "negativeFixtures": {
+            "clip": {
+              "evaluation": {
+                "acceptedSignedGap": -5.8174e-05,
+                "failures": [
+                  "signed-gap-outside-accepted-control-envelope"
+                ],
+                "limits": {
+                  "maximumPlaneResidual": 0.01,
+                  "minimumAttachmentArea": 0.2,
+                  "minimumAttachmentTriangles": 2,
+                  "minimumHostArea": 0.75,
+                  "minimumHostTriangles": 2,
+                  "minimumOverlapArea": 0.2,
+                  "normalErrorDeg": 0.5,
+                  "signedGapResidual": 0.02
+                },
+                "passed": false,
+                "signedGapResidual": 0.079999685
+              },
+              "fixtureType": "physically translated copied attachment meshes",
+              "meshCount": 3,
+              "passedByCorrectlyFailingGate": true,
+              "selectedPair": {
+                "attachment": {
+                  "area": 1.99341668,
+                  "center": [
+                    1.655513644,
+                    -1.2e-07,
+                    3.255207062
+                  ],
+                  "coordinate": 3.255206823,
+                  "interfaceBounds": {
+                    "lower": [
+                      -1.567940712,
+                      -2.38e-07,
+                      -0.31784007
+                    ],
+                    "upper": [
+                      1.567940354,
+                      -2.38e-07,
+                      0.31784007
+                    ]
+                  },
+                  "normal": [
+                    0.0,
+                    0.0,
+                    -1.0
+                  ],
+                  "quality": {
+                    "area": 1.99341668,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualMaximum": 2.38e-07,
+                    "planeResidualRms": 2.38e-07,
+                    "triangleCount": 2.0
+                  },
+                  "triangles": 2
+                },
+                "attachmentOpticalHeight": 1.572234154,
+                "forwardOverlap": 3.135881066,
+                "host": {
+                  "area": 5.913788037,
+                  "center": [
+                    2.448962212,
+                    -0.038896147,
+                    3.335264921
+                  ],
+                  "coordinate": 3.335264921,
+                  "interfaceBounds": {
+                    "lower": [
+                      -2.742652655,
+                      0.080057621,
+                      -0.379205197
+                    ],
+                    "upper": [
+                      4.329550266,
+                      0.080057621,
+                      0.456997126
+                    ]
+                  },
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "quality": {
+                    "area": 5.913788037,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualMaximum": 2.38e-07,
+                    "planeResidualRms": 2.38e-07,
+                    "triangleCount": 2.0
+                  },
+                  "triangles": 2
+                },
+                "normalErrorDeg": 0.0,
+                "overlapArea": 1.993417312,
+                "rightOverlap": 0.635680139,
+                "signedGap": -0.080057859
+              },
+              "translation": [
+                -0.0,
+                -0.0,
+                -0.079999998
+              ]
+            },
+            "float": {
+              "evaluation": {
+                "acceptedSignedGap": -5.8174e-05,
+                "failures": [
+                  "signed-gap-outside-accepted-control-envelope"
+                ],
+                "limits": {
+                  "maximumPlaneResidual": 0.01,
+                  "minimumAttachmentArea": 0.2,
+                  "minimumAttachmentTriangles": 2,
+                  "minimumHostArea": 0.75,
+                  "minimumHostTriangles": 2,
+                  "minimumOverlapArea": 0.2,
+                  "normalErrorDeg": 0.5,
+                  "signedGapResidual": 0.02
+                },
+                "passed": false,
+                "signedGapResidual": 0.080000162
+              },
+              "fixtureType": "physically translated copied attachment meshes",
+              "meshCount": 3,
+              "passedByCorrectlyFailingGate": true,
+              "selectedPair": {
+                "attachment": {
+                  "area": 1.99341668,
+                  "center": [
+                    1.655513644,
+                    -1.2e-07,
+                    3.415206909
+                  ],
+                  "coordinate": 3.415206671,
+                  "interfaceBounds": {
+                    "lower": [
+                      -1.567940712,
+                      -2.38e-07,
+                      -0.31784007
+                    ],
+                    "upper": [
+                      1.567940354,
+                      -2.38e-07,
+                      0.31784007
+                    ]
+                  },
+                  "normal": [
+                    0.0,
+                    0.0,
+                    -1.0
+                  ],
+                  "quality": {
+                    "area": 1.99341668,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualMaximum": 2.38e-07,
+                    "planeResidualRms": 2.38e-07,
+                    "triangleCount": 2.0
+                  },
+                  "triangles": 2
+                },
+                "attachmentOpticalHeight": 1.572234154,
+                "forwardOverlap": 3.135881066,
+                "host": {
+                  "area": 5.913788037,
+                  "center": [
+                    2.448962212,
+                    -0.038896147,
+                    3.335264921
+                  ],
+                  "coordinate": 3.335264921,
+                  "interfaceBounds": {
+                    "lower": [
+                      -2.742652655,
+                      -0.079942226,
+                      -0.379205197
+                    ],
+                    "upper": [
+                      4.329550266,
+                      -0.079942226,
+                      0.456997126
+                    ]
+                  },
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "quality": {
+                    "area": 5.913788037,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualMaximum": 2.38e-07,
+                    "planeResidualRms": 2.38e-07,
+                    "triangleCount": 2.0
+                  },
+                  "triangles": 2
+                },
+                "normalErrorDeg": 0.0,
+                "overlapArea": 1.993417312,
+                "rightOverlap": 0.635680139,
+                "signedGap": 0.079941988
+              },
+              "translation": [
+                0.0,
+                0.0,
+                0.079999998
+              ]
+            }
+          },
+          "passed": true,
+          "positive": {
+            "evaluation": {
+              "acceptedSignedGap": -5.8174e-05,
+              "failures": [],
+              "limits": {
+                "maximumPlaneResidual": 0.01,
+                "minimumAttachmentArea": 0.2,
+                "minimumAttachmentTriangles": 2,
+                "minimumHostArea": 0.75,
+                "minimumHostTriangles": 2,
+                "minimumOverlapArea": 0.2,
+                "normalErrorDeg": 0.5,
+                "signedGapResidual": 0.02
+              },
+              "passed": true,
+              "signedGapResidual": 0.0
+            },
+            "selectedPair": {
+              "attachment": {
+                "area": 1.99341668,
+                "center": [
+                  1.655513644,
+                  -1.2e-07,
+                  3.335206747
+                ],
+                "coordinate": 3.335206747,
+                "interfaceBounds": {
+                  "lower": [
+                    -1.567940712,
+                    0.0,
+                    -0.31784007
+                  ],
+                  "upper": [
+                    1.567940354,
+                    0.0,
+                    0.31784007
+                  ]
+                },
+                "normal": [
+                  0.0,
+                  0.0,
+                  -1.0
+                ],
+                "quality": {
+                  "area": 1.99341668,
+                  "normalSpreadDeg": 0.0,
+                  "planeResidualMaximum": 0.0,
+                  "planeResidualRms": 0.0,
+                  "triangleCount": 2.0
+                },
+                "triangles": 2
+              },
+              "attachmentOpticalHeight": 1.572234392,
+              "forwardOverlap": 3.135881066,
+              "host": {
+                "area": 5.913788037,
+                "center": [
+                  2.448962212,
+                  -0.038896147,
+                  3.335264921
+                ],
+                "coordinate": 3.335264921,
+                "interfaceBounds": {
+                  "lower": [
+                    -2.742652655,
+                    5.7936e-05,
+                    -0.379205197
+                  ],
+                  "upper": [
+                    4.329550266,
+                    5.7936e-05,
+                    0.456997126
+                  ]
+                },
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "quality": {
+                  "area": 5.913788037,
+                  "normalSpreadDeg": 0.0,
+                  "planeResidualMaximum": 2.38e-07,
+                  "planeResidualRms": 2.38e-07,
+                  "triangleCount": 2.0
+                },
+                "triangles": 2
+              },
+              "normalErrorDeg": 0.0,
+              "overlapArea": 1.993417312,
+              "rightOverlap": 0.635680139,
+              "signedGap": -5.8174e-05
+            }
+          }
+        },
+        "measurementOrigin": "fresh-independent-execution-v1",
+        "pixel": [
+          960.0,
+          540.0
+        ],
+        "runtimeLayers": [
+          {
+            "frame": 1,
+            "frameCount": 2,
+            "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_idle",
+            "sha256": "753C6076969D7E9CE1AAB485EF61A32C262834E9BE387E8B5DBEC36E59772405"
+          },
+          {
+            "frame": 13,
+            "frameCount": 13,
+            "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_reflex_ads_up",
+            "sha256": "BE081D36988A55A92B1C4398586166EAFB6E765217569559FEBB5E3902443275"
+          }
+        ],
+        "sourceGeometry": {
+          "meshCount": 3,
+          "pointCount": 386,
+          "polygonCount": 294,
+          "sha256": "6d82b081ecf5680a9849a90edebdeb891904d28716110dd7f4741782aa762a41"
+        },
+        "weaponFile": {
+          "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_reflex_mp",
+          "sha256": "b2baab181249867deb4fb33fc57ea98684257381c1712b13e11c96d7ad06a138"
+        },
+        "witness": {
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "center": [
+            2.709314108,
+            -1.79e-07,
+            4.907441139
+          ],
+          "materialToken": "mtl_weapon_reflex_red_dot",
+          "method": "exact reticle-material vertices and fitted plane normal",
+          "planeResidualMaximum": 0.0,
+          "planeResidualRms": 0.0,
+          "pointCount": 6,
+          "uniquePointCount": 6
+        }
+      },
+      "id": "reflex-projection",
+      "passed": true,
+      "realInputsExecuted": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1"
+    },
+    {
+      "category": "acog",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 2.0,
+          "metric": "axisErrorPixels",
+          "observed": 0.0
+        },
+        {
+          "comparator": "<=",
+          "limit": 0.5,
+          "metric": "sourceAxisDeltaDegrees",
+          "observed": 0.0
+        },
+        {
+          "comparator": "<=",
+          "limit": 0.02,
+          "metric": "signedGapResidual",
+          "observed": 0.0
+        }
+      ],
+      "controlId": "COD4-STOCK-M4",
+      "execution": {
+        "contact": {
+          "evaluator": "shared coherent-plane contact_patch_clusters + host_contact_pairs + evaluate_contact_pair",
+          "negativeFixtures": {
+            "clip": {
+              "evaluation": {
+                "acceptedSignedGap": -0.00597091,
+                "failures": [
+                  "signed-gap-outside-accepted-control-envelope"
+                ],
+                "limits": {
+                  "maximumPlaneResidual": 0.01,
+                  "minimumAttachmentArea": 0.2,
+                  "minimumAttachmentTriangles": 2,
+                  "minimumHostArea": 0.75,
+                  "minimumHostTriangles": 2,
+                  "minimumOverlapArea": 0.2,
+                  "normalErrorDeg": 0.5,
+                  "signedGapResidual": 0.02
+                },
+                "passed": false,
+                "signedGapResidual": 0.079999685
+              },
+              "fixtureType": "physically translated copied attachment meshes",
+              "meshCount": 4,
+              "passedByCorrectlyFailingGate": true,
+              "selectedPair": {
+                "attachment": {
+                  "area": 3.881501681,
+                  "center": [
+                    1.725188136,
+                    -1.15e-07,
+                    3.249294519
+                  ],
+                  "coordinate": 3.249294281,
+                  "interfaceBounds": {
+                    "lower": [
+                      -1.637316942,
+                      -2.93e-07,
+                      -0.592662334
+                    ],
+                    "upper": [
+                      1.6373173,
+                      -2.15e-07,
+                      0.592662334
+                    ]
+                  },
+                  "normal": [
+                    -2.91e-07,
+                    0.0,
+                    -1.0
+                  ],
+                  "quality": {
+                    "area": 3.881501681,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualMaximum": 2.38e-07,
+                    "planeResidualRms": 2.38e-07,
+                    "triangleCount": 2.0
+                  },
+                  "triangles": 2
+                },
+                "attachmentOpticalHeight": 1.410128713,
+                "forwardOverlap": 3.274634242,
+                "host": {
+                  "area": 5.913788037,
+                  "center": [
+                    2.448962212,
+                    -0.038896147,
+                    3.335264921
+                  ],
+                  "coordinate": 3.335265576,
+                  "interfaceBounds": {
+                    "lower": [
+                      -4.259875774,
+                      0.085969396,
+                      -0.45699808
+                    ],
+                    "upper": [
+                      2.812327147,
+                      0.085971288,
+                      0.379205674
+                    ]
+                  },
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "quality": {
+                    "area": 5.913788037,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualMaximum": 2.38e-07,
+                    "planeResidualRms": 2.38e-07,
+                    "triangleCount": 2.0
+                  },
+                  "triangles": 2
+                },
+                "normalErrorDeg": 1.6686e-05,
+                "overlapArea": 2.738261446,
+                "rightOverlap": 0.836203754,
+                "signedGap": -0.085970595
+              },
+              "translation": [
+                -2.1e-08,
+                0.0,
+                -0.079999998
+              ]
+            },
+            "float": {
+              "evaluation": {
+                "acceptedSignedGap": -0.00597091,
+                "failures": [
+                  "signed-gap-outside-accepted-control-envelope"
+                ],
+                "limits": {
+                  "maximumPlaneResidual": 0.01,
+                  "minimumAttachmentArea": 0.2,
+                  "minimumAttachmentTriangles": 2,
+                  "minimumHostArea": 0.75,
+                  "minimumHostTriangles": 2,
+                  "minimumOverlapArea": 0.2,
+                  "normalErrorDeg": 0.5,
+                  "signedGapResidual": 0.02
+                },
+                "passed": false,
+                "signedGapResidual": 0.080000162
+              },
+              "fixtureType": "physically translated copied attachment meshes",
+              "meshCount": 4,
+              "passedByCorrectlyFailingGate": true,
+              "selectedPair": {
+                "attachment": {
+                  "area": 3.881501681,
+                  "center": [
+                    1.725188136,
+                    -1.15e-07,
+                    3.409294367
+                  ],
+                  "coordinate": 3.409294128,
+                  "interfaceBounds": {
+                    "lower": [
+                      -1.637317061,
+                      -2.93e-07,
+                      -0.592662334
+                    ],
+                    "upper": [
+                      1.637317181,
+                      -2.15e-07,
+                      0.592662334
+                    ]
+                  },
+                  "normal": [
+                    -2.91e-07,
+                    0.0,
+                    -1.0
+                  ],
+                  "quality": {
+                    "area": 3.881501681,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualMaximum": 2.38e-07,
+                    "planeResidualRms": 2.38e-07,
+                    "triangleCount": 2.0
+                  },
+                  "triangles": 2
+                },
+                "attachmentOpticalHeight": 1.410129189,
+                "forwardOverlap": 3.274634242,
+                "host": {
+                  "area": 5.913788037,
+                  "center": [
+                    2.448962212,
+                    -0.038896147,
+                    3.335264921
+                  ],
+                  "coordinate": 3.335265576,
+                  "interfaceBounds": {
+                    "lower": [
+                      -4.259875774,
+                      -0.074030451,
+                      -0.45699808
+                    ],
+                    "upper": [
+                      2.812326908,
+                      -0.074028559,
+                      0.379205674
+                    ]
+                  },
+                  "normal": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "quality": {
+                    "area": 5.913788037,
+                    "normalSpreadDeg": 0.0,
+                    "planeResidualMaximum": 2.38e-07,
+                    "planeResidualRms": 2.38e-07,
+                    "triangleCount": 2.0
+                  },
+                  "triangles": 2
+                },
+                "normalErrorDeg": 1.6686e-05,
+                "overlapArea": 2.738261446,
+                "rightOverlap": 0.836203754,
+                "signedGap": 0.074029252
+              },
+              "translation": [
+                2.1e-08,
+                -0.0,
+                0.079999998
+              ]
+            }
+          },
+          "passed": true,
+          "positive": {
+            "evaluation": {
+              "acceptedSignedGap": -0.00597091,
+              "failures": [],
+              "limits": {
+                "maximumPlaneResidual": 0.01,
+                "minimumAttachmentArea": 0.2,
+                "minimumAttachmentTriangles": 2,
+                "minimumHostArea": 0.75,
+                "minimumHostTriangles": 2,
+                "minimumOverlapArea": 0.2,
+                "normalErrorDeg": 0.5,
+                "signedGapResidual": 0.02
+              },
+              "passed": true,
+              "signedGapResidual": 0.0
+            },
+            "selectedPair": {
+              "attachment": {
+                "area": 3.881501681,
+                "center": [
+                  1.725188136,
+                  -1.15e-07,
+                  3.329294205
+                ],
+                "coordinate": 3.329294205,
+                "interfaceBounds": {
+                  "lower": [
+                    -1.637316942,
+                    -5.5e-08,
+                    -0.592662334
+                  ],
+                  "upper": [
+                    1.6373173,
+                    2.3e-08,
+                    0.592662334
+                  ]
+                },
+                "normal": [
+                  -2.91e-07,
+                  0.0,
+                  -1.0
+                ],
+                "quality": {
+                  "area": 3.881501681,
+                  "normalSpreadDeg": 0.0,
+                  "planeResidualMaximum": 0.0,
+                  "planeResidualRms": 0.0,
+                  "triangleCount": 2.0
+                },
+                "triangles": 2
+              },
+              "attachmentOpticalHeight": 1.410129428,
+              "forwardOverlap": 3.274634242,
+              "host": {
+                "area": 5.913788037,
+                "center": [
+                  2.448962212,
+                  -0.038896147,
+                  3.335264921
+                ],
+                "coordinate": 3.335265576,
+                "interfaceBounds": {
+                  "lower": [
+                    -4.259875774,
+                    0.005969711,
+                    -0.45699808
+                  ],
+                  "upper": [
+                    2.812327147,
+                    0.005971601,
+                    0.379205674
+                  ]
+                },
+                "normal": [
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "quality": {
+                  "area": 5.913788037,
+                  "normalSpreadDeg": 0.0,
+                  "planeResidualMaximum": 2.38e-07,
+                  "planeResidualRms": 2.38e-07,
+                  "triangleCount": 2.0
+                },
+                "triangles": 2
+              },
+              "normalErrorDeg": 1.6686e-05,
+              "overlapArea": 2.738261446,
+              "rightOverlap": 0.836203754,
+              "signedGap": -0.00597091
+            }
+          }
+        },
+        "measurementOrigin": "fresh-independent-execution-v1",
+        "pixel": [
+          960.0,
+          540.0
+        ],
+        "runtimeLayers": [
+          {
+            "frame": 1,
+            "frameCount": 2,
+            "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_idle",
+            "sha256": "753C6076969D7E9CE1AAB485EF61A32C262834E9BE387E8B5DBEC36E59772405"
+          },
+          {
+            "frame": 13,
+            "frameCount": 13,
+            "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_acog_ads_up",
+            "sha256": "BB8BD2BCE443E3BFF9351C715EF1C9DB2B3851E8213860D20FA9DBB0391731BC"
+          }
+        ],
+        "sourceGeometry": {
+          "meshCount": 4,
+          "pointCount": 804,
+          "polygonCount": 619,
+          "sha256": "c02290cda875fc39d6c21658897f73bd7f403aff01305bce3283e7799f9ff8e4"
+        },
+        "weaponFile": {
+          "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_acog_mp",
+          "sha256": "8f96655e3a29269ae5791f197a5f4cce5c2a2c94a07af5789f9dc45dc0bf551e"
+        },
+        "witness": {
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "center": [
+            -0.504230022,
+            -6.85e-07,
+            4.739423991
+          ],
+          "materialToken": "mtl_weapon_acog_reticle",
+          "method": "exact reticle-material vertices and fitted plane normal",
+          "planeResidualMaximum": 0.0,
+          "planeResidualRms": 0.0,
+          "pointCount": 8,
+          "uniquePointCount": 8
+        }
+      },
+      "id": "acog-projection",
+      "passed": true,
+      "realInputsExecuted": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1"
+    },
+    {
+      "category": "suppressor",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 0.02,
+          "metric": "contactDeltaModelUnits",
+          "observed": 0.0
+        },
+        {
+          "comparator": "<=",
+          "limit": 0.5,
+          "metric": "axisDeltaDegrees",
+          "observed": 8.54e-07
+        }
+      ],
+      "controlId": "COD4-STOCK-M4",
+      "execution": {
+        "baseTagFlash": [
+          [
+            0.0,
+            1.0,
+            -1.19e-07,
+            23.870096207
+          ],
+          [
+            -7.5e-08,
+            1.19e-07,
+            1.0,
+            0.015752843
+          ],
+          [
+            1.0,
+            0.0,
+            7.5e-08,
+            2.503872633
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "runtimeLayers": [
+          {
+            "frame": 1,
+            "frameCount": 2,
+            "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_idle",
+            "sha256": "753C6076969D7E9CE1AAB485EF61A32C262834E9BE387E8B5DBEC36E59772405"
+          },
+          {
+            "frame": 13,
+            "frameCount": 13,
+            "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m4_iron_ads_up",
+            "sha256": "B5E95CB7ABB3BA98B977F3D43F03E801B9212CB0F07B181656FC26176C06AD9D"
+          }
+        ],
+        "silencerRoot": [
+          [
+            0.0,
+            1.0,
+            -1.19e-07,
+            23.870096207
+          ],
+          [
+            -7.5e-08,
+            1.19e-07,
+            1.0,
+            0.015752843
+          ],
+          [
+            1.0,
+            0.0,
+            7.5e-08,
+            2.503872633
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sourceGeometry": {
+          "meshCount": 1,
+          "pointCount": 50,
+          "polygonCount": 39,
+          "sha256": "fe15af569c6c4bc55469c66a8a383ca9a85a07bbabc7be98d3b370433c8d8715"
+        },
+        "weaponFile": {
+          "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/m4_silencer_mp",
+          "sha256": "1acf007d740708baa2d483cfc3edf3785c8773df86423bfb4533bd1fcf7888e6"
+        }
+      },
+      "id": "suppressor-contact-axis",
+      "passed": true,
+      "realInputsExecuted": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1"
+    },
+    {
+      "category": "grip",
+      "checks": [
+        {
+          "comparator": "<=",
+          "limit": 0.02,
+          "metric": "maximumContactDeltaModelUnits",
+          "observed": 0.0
+        },
+        {
+          "comparator": "<=",
+          "limit": 0.5,
+          "metric": "maximumAxisDeltaDegrees",
+          "observed": 0.0
+        }
+      ],
+      "controlId": "COD4-STOCK-M249",
+      "execution": {
+        "pointCount": 171,
+        "runtimePhases": {
+          "ads_fire": [
+            {
+              "frame": 0,
+              "frameCount": 1,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+              "sha256": "fc369d3a477e03b3f808f55dd943037f49b71a0d587611a77fe60a201ad33399"
+            },
+            {
+              "frame": 14,
+              "frameCount": 14,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_ads_up",
+              "sha256": "aec565bbeeabc4ef580764370a87840d384e6786c90be396716bd02b4097a929"
+            },
+            {
+              "frame": 5,
+              "frameCount": 5,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_ads_fgrip",
+              "sha256": "092d6135186a0b79e5146096a8cfc8c359ce98fb50f910d2230997acfd63e423"
+            }
+          ],
+          "fire": [
+            {
+              "frame": 0,
+              "frameCount": 1,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+              "sha256": "fc369d3a477e03b3f808f55dd943037f49b71a0d587611a77fe60a201ad33399"
+            },
+            {
+              "frame": 8,
+              "frameCount": 8,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_fire_fgrip",
+              "sha256": "1eb04cbd58862b8be736055f4ed1018ee4d31bad561b9ee472010bca295936a5"
+            }
+          ],
+          "idle": [
+            {
+              "frame": 0,
+              "frameCount": 1,
+              "path": "xi_ftag/.asset_staging/stock_reference/common_mp/xanim/viewmodel_m249_idle_fgrip",
+              "sha256": "fc369d3a477e03b3f808f55dd943037f49b71a0d587611a77fe60a201ad33399"
+            }
+          ]
+        },
+        "sourceGeometry": {
+          "meshCount": 1,
+          "pointCount": 171,
+          "polygonCount": 123,
+          "sha256": "07e1eed3607c2a107a008c604ee733908c7cc2b80e43bff6cf5880321c41c995"
+        },
+        "weaponFile": {
+          "path": "xi_ftag/.asset_staging/stock_reference/common_mp/weapons/saw_grip_mp",
+          "sha256": "0e18dcd7781a262d3c677fe1b89fa139ef2ac2b1b7909925fa382b765d48f4d4"
+        }
+      },
+      "id": "foregrip-contact-orientation",
+      "passed": true,
+      "realInputsExecuted": true,
+      "sameEvaluator": "sealed-numeric-threshold-v1"
+    }
+  ],
+  "positivePassCount": 5,
+  "referenceReplay": {
+    "angularZeroEpsilonDegrees": 5e-05,
+    "comparisonMethod": "sealed-generator-angular-noise-normalized-v1",
+    "exactMatch": true,
+    "expectedCategoriesSha256": "0d4ee93b4a59e96e2f75c256d76278da59ed375dd21f726418026b7dff546f99",
+    "firstDifference": "",
+    "freshCategoriesSha256": "0d4ee93b4a59e96e2f75c256d76278da59ed375dd21f726418026b7dff546f99",
+    "generatorPath": "xi_ftag/.audit/weapon_alignment_builder_round2/tooling/probe_global_stock_cod4_calibration.py",
+    "generatorSha256": "242dc6cd01d59ecdc2fb540a79e0b11e034b7e46ad92612c83964e46594aac99",
+    "passed": true,
+    "path": "xi_ftag/.audit/weapon_alignment_builder_round2/metrics/global-stock-cod4-measurement-calibration.json",
+    "replayedPayloadSha256": "6ce552687b8430bfa061d78f4055a7d2e42184f925e209c9709f5c47b3dce768",
+    "scope": "reflex-acog-projection-contact-only",
+    "sha256": "d88e9563fa193f2f94b5a262c10c6198182f82e27ab155141de28b36ea4871c1"
+  },
+  "resultSha256": "53d0355f78228a759008c831f5ded9e7a546b796fd3e65e86a9abda9ab2d868a",
+  "sourceReport": {
+    "path": "xi_ftag/.audit/weapon_alignment_source_controls_round1/REPORT.md",
+    "sha256": "dc1a6634015f0ec98ac06f2f8d9d233befc7e174d3fe9e7d6760cad629e438a9"
+  },
+  "status": "PASS"
+}

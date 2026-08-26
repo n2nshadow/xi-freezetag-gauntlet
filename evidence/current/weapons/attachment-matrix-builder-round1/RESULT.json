@@ -1,0 +1,246 @@
+{
+  "auditId": "weapon_attachment_matrix_builder_round1",
+  "candidatePatch": {
+    "byteLength": 110160,
+    "changedPathCount": 7,
+    "changedPaths": [
+      "weapons/xi/dragunov_mp",
+      "xi_ftag/source_weapons/modern/10_kvinhibitor/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/mp/xi_weaponattachmentmatrix.csv",
+      "xi_ftag/zone_raw/xi_ftag/ui_mp/xi_offline_class.menu",
+      "xi_ftag/zone_raw/xi_ftag/weapons/mp/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/xi_ftag/_weapons.gsc",
+      "xi_ftag/zone_source/xi_ftag.zone"
+    ],
+    "currentTreeApplyCheck": true,
+    "path": "candidate.patch",
+    "reconstructionExact": true,
+    "sha256": "b7920db5a1139a07572fcb2f7e3f3ca628809848f5895e763c5d4cc7b5f8d8ee"
+  },
+  "contractSha256": "a14f41827acebde44d5dab3c45d2c08e9c955cff38a0811fcd41815cebe1d523",
+  "counts": {
+    "a0": 11,
+    "attachments": 26,
+    "changedPaths": 7,
+    "hold": 17,
+    "physicalNegativeFixtures": 10,
+    "ready": 20,
+    "states": 37
+  },
+  "fixtures": [
+    {
+      "actualIssueCodes": [
+        "contract_digest_mismatch",
+        "readiness_count",
+        "state_digest_mismatch",
+        "state_set_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "state_set_mismatch"
+      ],
+      "fixture": "fixtures/exact-set-missing",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "a4_present",
+        "contract_digest_mismatch",
+        "readiness_count",
+        "state_digest_mismatch",
+        "state_set_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "state_set_mismatch",
+        "a4_present"
+      ],
+      "fixture": "fixtures/exact-set-extra-a4",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "contract_digest_mismatch",
+        "identity_mismatch",
+        "selected_weapon_alias"
+      ],
+      "expectedIssueCodes": [
+        "selected_weapon_alias",
+        "identity_mismatch"
+      ],
+      "fixture": "fixtures/selected-weapon-alias",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "visible_hide_overlap"
+      ],
+      "expectedIssueCodes": [
+        "visible_hide_overlap"
+      ],
+      "fixture": "fixtures/f10-visible-hide-overlap",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "silent_a0_fallback"
+      ],
+      "expectedIssueCodes": [
+        "silent_a0_fallback"
+      ],
+      "fixture": "fixtures/silent-a0-fallback",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "post_resolver_selection_rewrite"
+      ],
+      "expectedIssueCodes": [
+        "post_resolver_selection_rewrite"
+      ],
+      "fixture": "fixtures/post-resolver-selection-rewrite",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "held_selection_event_missing"
+      ],
+      "expectedIssueCodes": [
+        "held_selection_event_missing"
+      ],
+      "fixture": "fixtures/held-event-removed",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "contract_digest_mismatch",
+        "external_visual_acceptance_missing",
+        "identity_mismatch",
+        "readiness_count"
+      ],
+      "expectedIssueCodes": [
+        "external_visual_acceptance_missing"
+      ],
+      "fixture": "fixtures/ready-without-external-visual-acceptance",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "contract_digest_mismatch",
+        "invalid_sidearm_state",
+        "readiness_count",
+        "state_digest_mismatch",
+        "state_set_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "invalid_sidearm_state",
+        "state_set_mismatch"
+      ],
+      "fixture": "fixtures/invalid-sidearm-state",
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "coarse_offline_label"
+      ],
+      "expectedIssueCodes": [
+        "coarse_offline_label"
+      ],
+      "fixture": "fixtures/offline-coarse-labels",
+      "passed": true,
+      "rejected": true
+    }
+  ],
+  "generatedAtUtc": "2026-08-26T00:00:00Z",
+  "heldStateIds": [
+    "F01-A1",
+    "F01-A2",
+    "F01-A3",
+    "F02-A1",
+    "F02-A2",
+    "F02-A3",
+    "F03-A1",
+    "F03-A2",
+    "F03-A3",
+    "F05-A1",
+    "F05-A2",
+    "F05-A3",
+    "F07-A1",
+    "F07-A3",
+    "F08-A3",
+    "F09-A3",
+    "F10-A3"
+  ],
+  "limitations": [
+    "No production, build, package, installer, Steam, server, game, or launch path was modified or run.",
+    "No composed ADS raster, animation/contact sweep, independent visual critic, or live persistence run was performed.",
+    "The 17 held states remain saved and labeled but cannot deploy until a later candidate carries external visual acceptance."
+  ],
+  "productionIntegrity": {
+    "baselineMatchesExactCurrentBytes": true,
+    "baselinePathCount": 81,
+    "gitStatusAfterSha256": "73bf1d59565cf972f3ee83d4bed486d23af9cbad6fe4b0378804a26dac5dc6c4",
+    "gitStatusBeforeSha256": "73bf1d59565cf972f3ee83d4bed486d23af9cbad6fe4b0378804a26dac5dc6c4",
+    "gitStatusByteLengthAfter": 112563,
+    "gitStatusByteLengthBefore": 112563,
+    "gitStatusUnchanged": true,
+    "productionHashesBeforeEqualAfter": true,
+    "productionModified": false
+  },
+  "promotionReady": false,
+  "readyStateIds": [
+    "F01-A0",
+    "F02-A0",
+    "F03-A0",
+    "F05-A0",
+    "F07-A0",
+    "F08-A0",
+    "F09-A0",
+    "F10-A0",
+    "F13-A0",
+    "F13-A1",
+    "F13-A2",
+    "F13-A3",
+    "F14-A0",
+    "F14-A1",
+    "F14-A2",
+    "F14-A3",
+    "F15-A0",
+    "F15-A1",
+    "F15-A2",
+    "F15-A3"
+  ],
+  "role": "builder",
+  "runtimePolicy": {
+    "a0FallbackCount": 0,
+    "explicitEvent": "XI_WEAPON;RUNTIME_IDENTITY_HOLD",
+    "externalVisualAcceptanceRequiredForPromotion": true,
+    "heldRuntimeAttachment": -1,
+    "heldRuntimeWeapon": "",
+    "savedSelectionRetained": true
+  },
+  "schemaVersion": 1,
+  "stateSetSha256": "f73d992b1b7787ce8f79b58aa2cf0550df07cf0bed8602544464f7f973370c7c",
+  "status": "HOLD",
+  "subverdicts": {
+    "currentByteRebase": "PASS",
+    "exactStateSet": "PASS",
+    "externalVisualAcceptance": "HOLD",
+    "liveRuntime": "HOLD",
+    "physicalNegativeFixtures": "PASS",
+    "runtimeMenuContract": "PASS"
+  },
+  "verdict": "HOLD",
+  "visualAcceptanceRequest": {
+    "acceptancePresent": false,
+    "path": "candidate/visual-acceptance-request.json",
+    "sha256": "881bc0f66b484e35271a476f746548cbbd79f1cafe31cbe6d4c0dfde676fd01a"
+  }
+}
