@@ -1,0 +1,1398 @@
+{
+  "auditId": "weapon_attachment_matrix_builder_round3",
+  "binding": {
+    "candidateContentSha256": "6d76ff0287b0a6255a472be0ec666e2a9d956c54bb720bb1b14b48474221704a",
+    "candidateId": "weapon_attachment_matrix_builder_round3",
+    "contractSha256": "840e0c291261a9c4b17f2637dd9550b11110a44978bd0d455c98eedc26c4d98a",
+    "runtimePolicyFunctionSha256": {
+      "applyPrimaryLoadout": "92964ab64119f3f2813beb97b9142d0c2b944d5c84ce905fe05ca4e5186ffe63",
+      "applySidearmLoadout": "7fd82fe471d055d3e49397c15ce2103dce9ede4b334f8a69fdbc0586897e724e",
+      "deployNativeClass": "9141e7e65f7210c3958106c97997b36a5c5e65f4d957700c30a4eb88fd98e652",
+      "getAttachmentMenuLabel": "61c399cfb6b4f3f5519aea635cab9b50de8da25df35f05c715444af26469d066",
+      "getRuntimeAttachment": "941657c6e7efea229397e745e85f9100b8ece3dd2f121b7658312edc7dc016b7",
+      "getRuntimeWeaponFile": "6d093b89888f5a284c891d2a011770af2f866c6d3aac5e8ff261f86738428ac4",
+      "isImportedAttachmentRuntimeReady": "e02f5a9cd5d57a3b3b5063b453b43e35dd23f295d8c98975ceb566491ed94ff9",
+      "isImportedWeaponRuntimeIdentityRowValid": "432b84fe381cf3b81ed1d26601dddd8c5360c2bb9beead91fa4aa6853528d10d",
+      "isImportedWeaponRuntimeIdentityVerified": "a34874b9143fe6077b16a654db1f167cdbbfb34b0a5bbbc8e4a399c26e0ee228",
+      "isNativeClassReadyToDeploy": "5a57a615c8d161fd16a13e0aaf96dbdb41812cd16f5fccfc6dce465a0f071cd5",
+      "isWeaponAttachmentMatrixAuthorityLoaded": "d3e90fc370d93417e579276cc0b5df38b76bba58356b160c869e5f8f68efa455",
+      "reportRuntimeIdentityHold": "b83db8ee67c75a16c8bc9b4336b1f8bc739e4d1339823a0181272b4980fc1305",
+      "restorePlayerLoadoutCache": "ae4d485435b3204f9f78c4df4b7f3b4c913776657b53f725df99196101b86ff6",
+      "restorePlayerLoadoutProfile": "de793244e579e2853f1a96ef77aa3db7980974d05ee016dd1ba6c417393eda9b",
+      "restorePlayerLoadoutUserinfo": "935c93b9ce06e6385218af4b76bb4b874f01c67ec4298340451756145dbb697e",
+      "savePlayerLoadoutCache": "f53e6d709b67fe3eb9c25849462625bd22e7acd3d62b6c081e1bda0839535385",
+      "savePlayerLoadoutProfile": "304e6be1114cb2b6dddad25a8bb04e964d34fe6c908e67c679826780e1a7f269",
+      "validateRestoredLoadoutPolicy": "58818ee2b972bcccfb828b6e24056eb80627f0bc819b67e7595bbfae054a5a21",
+      "verifyImportedWeaponRuntimeIdentityAuthority": "8287fe27fcca531501d0b292ef1666dcbc1d33be386297e6692b142ee986ca27",
+      "verifyRuntimeWeaponRoster": "6ae324427a64dd381709aec62b9420b3a3e96e13ecc3f9e6812af5ab75c68878",
+      "verifyWeaponFallback": "1f6d7f63c40741868882d7a542e04d6ad6e9f42d4e2109c39739d3d1c2d1471f"
+    },
+    "runtimePolicySha256": "5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67",
+    "stateSetSha256": "f73d992b1b7787ce8f79b58aa2cf0550df07cf0bed8602544464f7f973370c7c"
+  },
+  "candidatePatch": {
+    "allLfStable": true,
+    "byteLength": 110002,
+    "changedPathCount": 7,
+    "changedPaths": [
+      "weapons/xi/dragunov_mp",
+      "xi_ftag/source_weapons/modern/10_kvinhibitor/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/mp/xi_weaponattachmentmatrix.csv",
+      "xi_ftag/zone_raw/xi_ftag/ui_mp/xi_offline_class.menu",
+      "xi_ftag/zone_raw/xi_ftag/weapons/mp/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/xi_ftag/_weapons.gsc",
+      "xi_ftag/zone_source/xi_ftag.zone"
+    ],
+    "currentProductionApplyCheck": true,
+    "isolatedReconstructionExact": true,
+    "lfFiles": {
+      "weapons/xi/dragunov_mp": {
+        "bareCrCount": 0,
+        "crlfCount": 0,
+        "lfStable": true
+      },
+      "xi_ftag/source_weapons/modern/10_kvinhibitor/dragunov_mp": {
+        "bareCrCount": 0,
+        "crlfCount": 0,
+        "lfStable": true
+      },
+      "xi_ftag/zone_raw/xi_ftag/mp/xi_weaponattachmentmatrix.csv": {
+        "bareCrCount": 0,
+        "crlfCount": 0,
+        "lfStable": true
+      },
+      "xi_ftag/zone_raw/xi_ftag/ui_mp/xi_offline_class.menu": {
+        "bareCrCount": 0,
+        "crlfCount": 0,
+        "lfStable": true
+      },
+      "xi_ftag/zone_raw/xi_ftag/weapons/mp/dragunov_mp": {
+        "bareCrCount": 0,
+        "crlfCount": 0,
+        "lfStable": true
+      },
+      "xi_ftag/zone_raw/xi_ftag/xi_ftag/_weapons.gsc": {
+        "bareCrCount": 0,
+        "crlfCount": 0,
+        "lfStable": true
+      },
+      "xi_ftag/zone_source/xi_ftag.zone": {
+        "bareCrCount": 0,
+        "crlfCount": 0,
+        "lfStable": true
+      }
+    },
+    "patchBareCrCount": 0,
+    "patchCrlfCount": 0,
+    "path": "candidate.patch",
+    "sha256": "628fe01918ea9793300940491bbd6bf4a29f043af47a312adb405e68bd1e1251"
+  },
+  "counts": {
+    "adversarialMutations": 16,
+    "attachmentStates": 26,
+    "bareStates": 11,
+    "canonicalHeldEvents": 17,
+    "changedPaths": 7,
+    "heldStates": 17,
+    "heldTransitionPhases": 68,
+    "readyStates": 20,
+    "states": 37,
+    "unheldTransitionPhases": 80
+  },
+  "f10": {
+    "correctedSha256": "7ef916a91aebbe7b33cd6526940216bc14d37816d97672011ecac89a2fd5e76c",
+    "stagedSha256": [
+      "7ef916a91aebbe7b33cd6526940216bc14d37816d97672011ecac89a2fd5e76c",
+      "7ef916a91aebbe7b33cd6526940216bc14d37816d97672011ecac89a2fd5e76c",
+      "7ef916a91aebbe7b33cd6526940216bc14d37816d97672011ecac89a2fd5e76c"
+    ],
+    "visibleTag": "tag_scope_colt",
+    "visibleTagHidden": false
+  },
+  "familyLabels": [
+    {
+      "family": 1,
+      "familyLabel": "ICR-7 Summon",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 2,
+      "familyLabel": "VAPR-XKG Vampire Hunter",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 3,
+      "familyLabel": "Auger DMR",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 5,
+      "familyLabel": "Hades Venom Cocktail",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 7,
+      "familyLabel": "MOG 12 Enforcer",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 8,
+      "familyLabel": "RK7 Garrison Odin's Song",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 9,
+      "familyLabel": "Outlaw Regulator",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 10,
+      "familyLabel": "SDM Lost Patrol",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 13,
+      "familyLabel": "GKS Black Plague",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 14,
+      "familyLabel": "Cordite Zero G",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    },
+    {
+      "family": 15,
+      "familyLabel": "KN-57 Faberge",
+      "offlineMenu": true,
+      "offlineTable": true,
+      "online": true
+    }
+  ],
+  "generatedAtUtc": "2026-08-26T00:00:00Z",
+  "heldStateIds": [
+    "F01-A1",
+    "F01-A2",
+    "F01-A3",
+    "F02-A1",
+    "F02-A2",
+    "F02-A3",
+    "F03-A1",
+    "F03-A2",
+    "F03-A3",
+    "F05-A1",
+    "F05-A2",
+    "F05-A3",
+    "F07-A1",
+    "F07-A3",
+    "F08-A3",
+    "F09-A3",
+    "F10-A3"
+  ],
+  "inputEvidence": {
+    "criticBlockerCodes": [
+      "hard_bar_a0_attachment_missing",
+      "hard_bar_a0_resolver_missing",
+      "hard_bar_a0_runtime_missing",
+      "held_native_deploy_blocked",
+      "held_primary_stripped",
+      "held_sidearm_stripped",
+      "hold_event_misreports_runtime"
+    ],
+    "criticChecksums": {
+      "byteIdentical": true,
+      "copiedPath": "inputs/critic-round2-SHA256SUMS.txt",
+      "copiedSha256": "fbcd889bb9547d7b9632913e0474f8f12b44b722b07f6ac5a56c7dcae59e26b5",
+      "currentPath": "xi_ftag/gauntlet/dashboard/evidence/current/weapons/attachment-matrix-critic-round2/SHA256SUMS.txt",
+      "currentSha256": "fbcd889bb9547d7b9632913e0474f8f12b44b722b07f6ac5a56c7dcae59e26b5"
+    },
+    "criticReport": {
+      "byteIdentical": true,
+      "copiedPath": "inputs/critic-round2-REPORT.md",
+      "copiedSha256": "d238b5121c39c6fed3cac0260a84dfa58ef52f62e15f1dc34ca2b55c30cc6baf",
+      "currentPath": "xi_ftag/gauntlet/dashboard/evidence/current/weapons/attachment-matrix-critic-round2/REPORT.md",
+      "currentSha256": "d238b5121c39c6fed3cac0260a84dfa58ef52f62e15f1dc34ca2b55c30cc6baf"
+    },
+    "criticResult": {
+      "byteIdentical": true,
+      "copiedPath": "inputs/critic-round2-RESULT.json",
+      "copiedSha256": "397a055431c828e8e1315a6c5d5559b40fb41123de95f1db278bff44a80a424e",
+      "currentPath": "xi_ftag/gauntlet/dashboard/evidence/current/weapons/attachment-matrix-critic-round2/RESULT.json",
+      "currentSha256": "397a055431c828e8e1315a6c5d5559b40fb41123de95f1db278bff44a80a424e"
+    },
+    "rejectedCandidatePatch": {
+      "byteLength": 110160,
+      "path": "inputs/round1-candidate.patch",
+      "sha256": "b7920db5a1139a07572fcb2f7e3f3ca628809848f5895e763c5d4cc7b5f8d8ee"
+    },
+    "weaponAlignmentBar": {
+      "byteIdentical": true,
+      "copiedPath": "inputs/weapon_alignment_bar.md",
+      "copiedSha256": "ba919e14c86e4fe27a6762c7c09741f5b3486c8ac5b8d72a465790806be33a25",
+      "currentPath": "xi_ftag/gauntlet/weapon_alignment_bar.md",
+      "currentSha256": "ba919e14c86e4fe27a6762c7c09741f5b3486c8ac5b8d72a465790806be33a25"
+    }
+  },
+  "limitations": [
+    "Runtime/menu claims are deterministic static and transition-harness proofs; the game engine was not launched.",
+    "No composed ADS raster, animation/contact sweep, or independent visual acceptance was produced.",
+    "The 17 selected attachment identities remain on visual HOLD even though their family A0 runtime fallback deploys.",
+    "This lane does not authorize promotion, packaging, Steam publication, or production edits."
+  ],
+  "mutations": [
+    {
+      "actualIssueCodes": [
+        "contract_digest_mismatch",
+        "held_runtime_empty",
+        "held_wrong_family_a0",
+        "identity_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "held_runtime_empty"
+      ],
+      "fixture": "fixtures/empty-runtime-matrix",
+      "issues": [
+        {
+          "code": "identity_mismatch",
+          "detail": "F01-A1 row is not exact"
+        },
+        {
+          "code": "held_runtime_empty",
+          "detail": "F01-A1"
+        },
+        {
+          "code": "held_wrong_family_a0",
+          "detail": "F01-A1 runtime='' expected='g36c_mp'"
+        },
+        {
+          "code": "contract_digest_mismatch",
+          "detail": "fbdcc594e2c0592f2ec7c7523725edc73317daba64c72774c848f0e575b541f6"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "held_runtime_empty",
+        "runtime_policy_digest_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "held_runtime_empty"
+      ],
+      "fixture": "fixtures/empty-runtime-resolver",
+      "issues": [
+        {
+          "code": "held_runtime_empty",
+          "detail": "valid held A0 path returns empty"
+        },
+        {
+          "code": "runtime_policy_digest_mismatch",
+          "detail": "actual=3efa9223af2230ef91509da903199bf22ea71cd274cbca8f7b6a83a36ce808c2 expected=5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "runtime_policy_digest_mismatch",
+        "saved_selection_rewrite"
+      ],
+      "expectedIssueCodes": [
+        "saved_selection_rewrite"
+      ],
+      "fixture": "fixtures/saved-selection-rewrite",
+      "issues": [
+        {
+          "code": "saved_selection_rewrite",
+          "detail": "applyPrimaryLoadout"
+        },
+        {
+          "code": "runtime_policy_digest_mismatch",
+          "detail": "actual=faeea003c5f19bd342a96496cbcd0c8c4a1ea795860414367677b19747d75bac expected=5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "held_deploy_blocked",
+        "runtime_policy_digest_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "held_deploy_blocked"
+      ],
+      "fixture": "fixtures/blocked-held-deploy",
+      "issues": [
+        {
+          "code": "held_deploy_blocked",
+          "detail": "readiness depends on getRuntimeAttachment"
+        },
+        {
+          "code": "runtime_policy_digest_mismatch",
+          "detail": "actual=24a9e751aad1f42ed28d406602fa067e8122eaeb055a27cc9bb8372e31a57b0c expected=5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "contract_digest_mismatch",
+        "held_wrong_family_a0",
+        "identity_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "held_wrong_family_a0"
+      ],
+      "fixture": "fixtures/wrong-family-a0-matrix",
+      "issues": [
+        {
+          "code": "identity_mismatch",
+          "detail": "F01-A1 row is not exact"
+        },
+        {
+          "code": "held_wrong_family_a0",
+          "detail": "F01-A1 runtime='g3_mp' expected='g36c_mp'"
+        },
+        {
+          "code": "contract_digest_mismatch",
+          "detail": "e6480a77676127423d80f2c5f395bbf6cd1c81344d4f7096439aabd468446341"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "held_runtime_empty",
+        "runtime_policy_digest_mismatch",
+        "wrong_family_a0"
+      ],
+      "expectedIssueCodes": [
+        "wrong_family_a0"
+      ],
+      "fixture": "fixtures/wrong-family-a0-resolver",
+      "issues": [
+        {
+          "code": "held_runtime_empty",
+          "detail": "resolver lacks canonical token return getWeaponFile( family, runtimeAttachment );"
+        },
+        {
+          "code": "wrong_family_a0",
+          "detail": "runtime resolver changes family"
+        },
+        {
+          "code": "wrong_family_a0",
+          "detail": "runtime resolver is not family-preserving"
+        },
+        {
+          "code": "runtime_policy_digest_mismatch",
+          "detail": "actual=f52f28aa5e8845319680eaf91973b0c1ebceb5865732e7e9fd17731f3efefe74 expected=5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "wrong_f10"
+      ],
+      "expectedIssueCodes": [
+        "wrong_f10"
+      ],
+      "fixture": "fixtures/wrong-f10-visible-hide-overlap",
+      "issues": [
+        {
+          "code": "wrong_f10",
+          "detail": "F10-A0"
+        },
+        {
+          "code": "wrong_f10",
+          "detail": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.audit\\weapon_attachment_matrix_builder_round3\\fixtures\\wrong-f10-visible-hide-overlap\\dragunov_mp"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "attachment_label_missing"
+      ],
+      "expectedIssueCodes": [
+        "attachment_label_missing"
+      ],
+      "fixture": "fixtures/missing-offline-hold-label",
+      "issues": [
+        {
+          "code": "attachment_label_missing",
+          "detail": "GRIP [HOLD]"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "family_label_missing"
+      ],
+      "expectedIssueCodes": [
+        "family_label_missing"
+      ],
+      "fixture": "fixtures/missing-family-label",
+      "issues": [
+        {
+          "code": "family_label_missing",
+          "detail": "F10 SDM Lost Patrol"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "persistence_regression",
+        "persistence_runtime_rewrite",
+        "runtime_policy_digest_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "persistence_runtime_rewrite"
+      ],
+      "fixture": "fixtures/cache-persistence-runtime-rewrite",
+      "issues": [
+        {
+          "code": "runtime_policy_digest_mismatch",
+          "detail": "actual=f003c182a6bc86d82cf874a7b566af98fef96fc0f6a4b588fd519d00459a6dc9 expected=5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67"
+        },
+        {
+          "code": "persistence_regression",
+          "detail": "savePlayerLoadoutCache lacks entry[\"primaryAttachment\"] = self.pers[\"xi_primary_attachment\"];"
+        },
+        {
+          "code": "persistence_runtime_rewrite",
+          "detail": "savePlayerLoadoutCache"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "persistence_regression",
+        "persistence_runtime_rewrite",
+        "runtime_policy_digest_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "persistence_runtime_rewrite"
+      ],
+      "fixture": "fixtures/profile-persistence-runtime-rewrite",
+      "issues": [
+        {
+          "code": "runtime_policy_digest_mismatch",
+          "detail": "actual=69a163ee4a4db1b34af71aea6af1bd20c1cacdbbb917fcd6f634cc9880317ddd expected=5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67"
+        },
+        {
+          "code": "persistence_regression",
+          "detail": "savePlayerLoadoutProfile lacks values[0] = self.pers[\"xi_primary_family\"] + self.pers[\"xi_primary_attachment\"] * 32;"
+        },
+        {
+          "code": "persistence_runtime_rewrite",
+          "detail": "savePlayerLoadoutProfile"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "persistence_regression",
+        "runtime_policy_digest_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "persistence_regression"
+      ],
+      "fixture": "fixtures/userinfo-persistence-selection-loss",
+      "issues": [
+        {
+          "code": "runtime_policy_digest_mismatch",
+          "detail": "actual=fa0c10ad82b8619f92c37153758b88a2c4b4278af88a2e8070821568eb48ec80 expected=5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67"
+        },
+        {
+          "code": "persistence_regression",
+          "detail": "restorePlayerLoadoutUserinfo lacks self.pers[\"xi_primary_attachment\"] = primaryAttachment;"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "event_not_deployed",
+        "runtime_policy_digest_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "event_not_deployed"
+      ],
+      "fixture": "fixtures/held-event-deployed-zero",
+      "issues": [
+        {
+          "code": "event_not_deployed",
+          "detail": "event lacks ;SELECTION_RETAINED;1;DEPLOYED;1;"
+        },
+        {
+          "code": "event_not_deployed",
+          "detail": "held event claims deployment is blocked"
+        },
+        {
+          "code": "runtime_policy_digest_mismatch",
+          "detail": "actual=df7a1b1be621b46c89677561dd51512b7316092f00cf1405380da7faff0bb0e0 expected=5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "held_event_incomplete",
+        "runtime_policy_digest_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "held_event_incomplete"
+      ],
+      "fixture": "fixtures/held-event-reason-missing",
+      "issues": [
+        {
+          "code": "held_event_incomplete",
+          "detail": "event lacks ;HOLD_REASON;EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED;"
+        },
+        {
+          "code": "runtime_policy_digest_mismatch",
+          "detail": "actual=d50206aa9910d37204db60acb8756ec1625ce04d7e463848c6f735d4dc6d29a6 expected=5b65aa49c06038d0112583302b7905fa9eed089358f7c84f4bd3f1a0ccc44b67"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "contract_digest_mismatch",
+        "readiness_count",
+        "state_digest_mismatch",
+        "state_set_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "state_set_mismatch"
+      ],
+      "fixture": "fixtures/exact-state-missing",
+      "issues": [
+        {
+          "code": "state_set_mismatch",
+          "detail": "missing=['F15-A3'] extra=[]"
+        },
+        {
+          "code": "readiness_count",
+          "detail": "states=36 ready=19 hold=17"
+        },
+        {
+          "code": "state_digest_mismatch",
+          "detail": "e4619b5063c0ab9c5a3eba086f86e06698b04174a4f05d7127165d47a84b6a1a"
+        },
+        {
+          "code": "contract_digest_mismatch",
+          "detail": "78629cfe7b1a5749aea5d5a9fe7472cd737b6bfeb2f9217e5be685b4a4925ce8"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    },
+    {
+      "actualIssueCodes": [
+        "contract_digest_mismatch",
+        "forbidden_a4",
+        "readiness_count",
+        "state_digest_mismatch",
+        "state_set_mismatch"
+      ],
+      "expectedIssueCodes": [
+        "forbidden_a4",
+        "state_set_mismatch"
+      ],
+      "fixture": "fixtures/forbidden-a4",
+      "issues": [
+        {
+          "code": "state_set_mismatch",
+          "detail": "missing=[] extra=['F01-A4']"
+        },
+        {
+          "code": "forbidden_a4",
+          "detail": "A4 is outside the exact 37-state contract"
+        },
+        {
+          "code": "readiness_count",
+          "detail": "states=38 ready=20 hold=18"
+        },
+        {
+          "code": "state_digest_mismatch",
+          "detail": "e3bec366d337df1dd4ccbe232e534e9e9d1f67da84ea4a805c331c285c06d1db"
+        },
+        {
+          "code": "contract_digest_mismatch",
+          "detail": "7249d665ebdd82b715e1e14c74f6699e74faeb0daf7b2fff02c380990ae2dcc8"
+        }
+      ],
+      "passed": true,
+      "rejected": true
+    }
+  ],
+  "operations": {
+    "buildRun": false,
+    "gameLaunched": false,
+    "packageRun": false,
+    "physicalModelAlignmentTouched": false,
+    "productionModified": false,
+    "promotionClaimed": false,
+    "serverRun": false,
+    "steamTouched": false,
+    "writesRestrictedToAssignedLane": true
+  },
+  "persistence": {
+    "functions": {
+      "restorePlayerLoadoutCache": {
+        "self.pers[\"xi_primary_attachment\"] = entry[\"primaryAttachment\"];": true,
+        "self.pers[\"xi_sidearm_attachment\"] = entry[\"sidearmAttachment\"];": true
+      },
+      "restorePlayerLoadoutProfile": {
+        "self.pers[\"xi_primary_attachment\"] = primaryAttachment;": true,
+        "self.pers[\"xi_sidearm_attachment\"] = sidearmAttachment;": true
+      },
+      "restorePlayerLoadoutUserinfo": {
+        "primaryAttachment = self getOfflineLoadoutUserinfoValue( slot, \"a\" );": true,
+        "self.pers[\"xi_primary_attachment\"] = primaryAttachment;": true,
+        "self.pers[\"xi_sidearm_attachment\"] = sidearmAttachment;": true,
+        "sidearmAttachment = self getOfflineLoadoutUserinfoValue( slot, \"b\" );": true
+      },
+      "savePlayerLoadoutCache": {
+        "entry[\"primaryAttachment\"] = self.pers[\"xi_primary_attachment\"];": true,
+        "entry[\"sidearmAttachment\"] = self.pers[\"xi_sidearm_attachment\"];": true
+      },
+      "savePlayerLoadoutProfile": {
+        "values[0] = self.pers[\"xi_primary_family\"] + self.pers[\"xi_primary_attachment\"] * 32;": true,
+        "values[1] = self.pers[\"xi_sidearm_family\"] + self.pers[\"xi_sidearm_attachment\"] * 32;": true
+      },
+      "validateRestoredLoadoutPolicy": {
+        "!isAttachmentAvailable( self.pers[\"xi_primary_family\"], self.pers[\"xi_primary_attachment\"] )": true,
+        "!isAttachmentAvailable( self.pers[\"xi_sidearm_family\"], self.pers[\"xi_sidearm_attachment\"] )": true,
+        "self.pers[\"xi_weapon_attachment\"] = self.pers[\"xi_primary_attachment\"];": true
+      }
+    },
+    "gscSha256": "e6cab9e8482cf2afb13314aee09c0882dcf3cae00df2b374f8dc43fa1aba92a4",
+    "savedSelectionRetained": true
+  },
+  "productionIntegrity": {
+    "baselineMatchesExactCurrentProductionBytes": true,
+    "baselinePathCount": 81,
+    "filteredGitStatusAfter": {
+      "byteLength": 114815,
+      "recordCount": 1844,
+      "sha256": "9812d5713754416c7818d7c50760af8420e65741ca43c8bfa911d0e72df5a4cb"
+    },
+    "filteredGitStatusBefore": {
+      "byteLength": 114815,
+      "recordCount": 1844,
+      "sha256": "9812d5713754416c7818d7c50760af8420e65741ca43c8bfa911d0e72df5a4cb"
+    },
+    "filteredGitStatusUnchanged": true,
+    "productionHashesBeforeEqualAfter": true,
+    "productionModified": false,
+    "sameKillGoalSourceAfterSha256": "cebe40960026471eaffaf14d27607a2df7e9ac958dfbdeee191158d1af7ade08",
+    "sameKillGoalSourceBeforeSha256": "cebe40960026471eaffaf14d27607a2df7e9ac958dfbdeee191158d1af7ade08",
+    "sameKillGoalSourceUnchanged": true,
+    "stagedPathCount": 82
+  },
+  "promotionReady": false,
+  "readyStateIds": [
+    "F01-A0",
+    "F02-A0",
+    "F03-A0",
+    "F05-A0",
+    "F07-A0",
+    "F08-A0",
+    "F09-A0",
+    "F10-A0",
+    "F13-A0",
+    "F13-A1",
+    "F13-A2",
+    "F13-A3",
+    "F14-A0",
+    "F14-A1",
+    "F14-A2",
+    "F14-A3",
+    "F15-A0",
+    "F15-A1",
+    "F15-A2",
+    "F15-A3"
+  ],
+  "role": "BUILD agent",
+  "runtimePolicy": {
+    "deployReadinessEnabled": true,
+    "eventFields": [
+      "STATE",
+      "RUNTIME_ATTACHMENT",
+      "RUNTIME_WEAPON",
+      "RUNTIME_A0",
+      "SELECTION_RETAINED=1",
+      "DEPLOYED=1",
+      "HOLD_REASON"
+    ],
+    "explicitEvent": "XI_WEAPON;RUNTIME_IDENTITY_HOLD",
+    "heldRuntimeAttachment": 0,
+    "heldRuntimeWeapon": "family A0 weaponfile",
+    "heldRuntimeWeaponNeverEmpty": true,
+    "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+    "savedSelectionRetained": true
+  },
+  "sameKillGoalSelection": {
+    "behaviorPreserved": true,
+    "conflictFunctionSha256": "9649c933485bd43a9af3776615a631cb7c44d18d7c7ac5acd02bf012fc2bed61",
+    "menuResponseByteIdenticalToProductionBaseline": true,
+    "menuResponseSha256": "153f83aa0fdc1c41cc10146f46b3d97beeac9675bd09396d46b751460b07f45e",
+    "selectStreakRewardSha256": "057bd00dc5991b107abf52623d5fe9695cbedbb5fb4b3d8b796def307cccf633",
+    "streakSourcePath": "xi_ftag/zone_raw/xi_ftag/xi_ftag/_streaks.gsc",
+    "streakSourceSha256": "cebe40960026471eaffaf14d27607a2df7e9ac958dfbdeee191158d1af7ade08"
+  },
+  "schemaVersion": 1,
+  "states": [
+    {
+      "deployed": true,
+      "family": 1,
+      "familyLabel": "ICR-7 Summon",
+      "holdReason": "",
+      "runtimeA0": "g36c_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "g36c_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "g36c_mp",
+      "selectionRetained": true,
+      "state": "F01-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 1,
+      "familyLabel": "ICR-7 Summon",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "g36c_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "g36c_mp",
+      "selectedAttachment": 1,
+      "selectedWeapon": "g36c_reflex_mp",
+      "selectionRetained": true,
+      "state": "F01-A1",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 1,
+      "familyLabel": "ICR-7 Summon",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "g36c_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "g36c_mp",
+      "selectedAttachment": 2,
+      "selectedWeapon": "g36c_acog_mp",
+      "selectionRetained": true,
+      "state": "F01-A2",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 1,
+      "familyLabel": "ICR-7 Summon",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "g36c_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "g36c_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "g36c_silencer_mp",
+      "selectionRetained": true,
+      "state": "F01-A3",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 2,
+      "familyLabel": "VAPR-XKG Vampire Hunter",
+      "holdReason": "",
+      "runtimeA0": "g3_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "g3_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "g3_mp",
+      "selectionRetained": true,
+      "state": "F02-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 2,
+      "familyLabel": "VAPR-XKG Vampire Hunter",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "g3_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "g3_mp",
+      "selectedAttachment": 1,
+      "selectedWeapon": "g3_reflex_mp",
+      "selectionRetained": true,
+      "state": "F02-A1",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 2,
+      "familyLabel": "VAPR-XKG Vampire Hunter",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "g3_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "g3_mp",
+      "selectedAttachment": 2,
+      "selectedWeapon": "g3_acog_mp",
+      "selectionRetained": true,
+      "state": "F02-A2",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 2,
+      "familyLabel": "VAPR-XKG Vampire Hunter",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "g3_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "g3_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "g3_silencer_mp",
+      "selectionRetained": true,
+      "state": "F02-A3",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 3,
+      "familyLabel": "Auger DMR",
+      "holdReason": "",
+      "runtimeA0": "m14_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "m14_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "m14_mp",
+      "selectionRetained": true,
+      "state": "F03-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 3,
+      "familyLabel": "Auger DMR",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "m14_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "m14_mp",
+      "selectedAttachment": 1,
+      "selectedWeapon": "m14_reflex_mp",
+      "selectionRetained": true,
+      "state": "F03-A1",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 3,
+      "familyLabel": "Auger DMR",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "m14_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "m14_mp",
+      "selectedAttachment": 2,
+      "selectedWeapon": "m14_acog_mp",
+      "selectionRetained": true,
+      "state": "F03-A2",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 3,
+      "familyLabel": "Auger DMR",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "m14_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "m14_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "m14_silencer_mp",
+      "selectionRetained": true,
+      "state": "F03-A3",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 5,
+      "familyLabel": "Hades Venom Cocktail",
+      "holdReason": "",
+      "runtimeA0": "m60e4_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "m60e4_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "m60e4_mp",
+      "selectionRetained": true,
+      "state": "F05-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 5,
+      "familyLabel": "Hades Venom Cocktail",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "m60e4_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "m60e4_mp",
+      "selectedAttachment": 1,
+      "selectedWeapon": "m60e4_reflex_mp",
+      "selectionRetained": true,
+      "state": "F05-A1",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 5,
+      "familyLabel": "Hades Venom Cocktail",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "m60e4_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "m60e4_mp",
+      "selectedAttachment": 2,
+      "selectedWeapon": "m60e4_acog_mp",
+      "selectionRetained": true,
+      "state": "F05-A2",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 5,
+      "familyLabel": "Hades Venom Cocktail",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "m60e4_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "m60e4_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "m60e4_grip_mp",
+      "selectionRetained": true,
+      "state": "F05-A3",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 7,
+      "familyLabel": "MOG 12 Enforcer",
+      "holdReason": "",
+      "runtimeA0": "winchester1200_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "winchester1200_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "winchester1200_mp",
+      "selectionRetained": true,
+      "state": "F07-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 7,
+      "familyLabel": "MOG 12 Enforcer",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "winchester1200_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "winchester1200_mp",
+      "selectedAttachment": 1,
+      "selectedWeapon": "winchester1200_reflex_mp",
+      "selectionRetained": true,
+      "state": "F07-A1",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 7,
+      "familyLabel": "MOG 12 Enforcer",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "winchester1200_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "winchester1200_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "winchester1200_grip_mp",
+      "selectionRetained": true,
+      "state": "F07-A3",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 8,
+      "familyLabel": "RK7 Garrison Odin's Song",
+      "holdReason": "",
+      "runtimeA0": "colt45_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "colt45_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "colt45_mp",
+      "selectionRetained": true,
+      "state": "F08-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 8,
+      "familyLabel": "RK7 Garrison Odin's Song",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "colt45_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "colt45_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "colt45_silencer_mp",
+      "selectionRetained": true,
+      "state": "F08-A3",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 9,
+      "familyLabel": "Outlaw Regulator",
+      "holdReason": "",
+      "runtimeA0": "remington700_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "remington700_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "remington700_mp",
+      "selectionRetained": true,
+      "state": "F09-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 9,
+      "familyLabel": "Outlaw Regulator",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "remington700_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "remington700_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "remington700_silencer_mp",
+      "selectionRetained": true,
+      "state": "F09-A3",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 10,
+      "familyLabel": "SDM Lost Patrol",
+      "holdReason": "",
+      "runtimeA0": "dragunov_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "dragunov_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "dragunov_mp",
+      "selectionRetained": true,
+      "state": "F10-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 10,
+      "familyLabel": "SDM Lost Patrol",
+      "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+      "runtimeA0": "dragunov_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "dragunov_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "dragunov_silencer_mp",
+      "selectionRetained": true,
+      "state": "F10-A3",
+      "status": "HOLD"
+    },
+    {
+      "deployed": true,
+      "family": 13,
+      "familyLabel": "GKS Black Plague",
+      "holdReason": "",
+      "runtimeA0": "skorpion_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "skorpion_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "skorpion_mp",
+      "selectionRetained": true,
+      "state": "F13-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 13,
+      "familyLabel": "GKS Black Plague",
+      "holdReason": "",
+      "runtimeA0": "skorpion_mp",
+      "runtimeAttachment": 1,
+      "runtimeWeapon": "skorpion_reflex_mp",
+      "selectedAttachment": 1,
+      "selectedWeapon": "skorpion_reflex_mp",
+      "selectionRetained": true,
+      "state": "F13-A1",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 13,
+      "familyLabel": "GKS Black Plague",
+      "holdReason": "",
+      "runtimeA0": "skorpion_mp",
+      "runtimeAttachment": 2,
+      "runtimeWeapon": "skorpion_acog_mp",
+      "selectedAttachment": 2,
+      "selectedWeapon": "skorpion_acog_mp",
+      "selectionRetained": true,
+      "state": "F13-A2",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 13,
+      "familyLabel": "GKS Black Plague",
+      "holdReason": "",
+      "runtimeA0": "skorpion_mp",
+      "runtimeAttachment": 3,
+      "runtimeWeapon": "skorpion_silencer_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "skorpion_silencer_mp",
+      "selectionRetained": true,
+      "state": "F13-A3",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 14,
+      "familyLabel": "Cordite Zero G",
+      "holdReason": "",
+      "runtimeA0": "uzi_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "uzi_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "uzi_mp",
+      "selectionRetained": true,
+      "state": "F14-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 14,
+      "familyLabel": "Cordite Zero G",
+      "holdReason": "",
+      "runtimeA0": "uzi_mp",
+      "runtimeAttachment": 1,
+      "runtimeWeapon": "uzi_reflex_mp",
+      "selectedAttachment": 1,
+      "selectedWeapon": "uzi_reflex_mp",
+      "selectionRetained": true,
+      "state": "F14-A1",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 14,
+      "familyLabel": "Cordite Zero G",
+      "holdReason": "",
+      "runtimeA0": "uzi_mp",
+      "runtimeAttachment": 2,
+      "runtimeWeapon": "uzi_acog_mp",
+      "selectedAttachment": 2,
+      "selectedWeapon": "uzi_acog_mp",
+      "selectionRetained": true,
+      "state": "F14-A2",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 14,
+      "familyLabel": "Cordite Zero G",
+      "holdReason": "",
+      "runtimeA0": "uzi_mp",
+      "runtimeAttachment": 3,
+      "runtimeWeapon": "uzi_silencer_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "uzi_silencer_mp",
+      "selectionRetained": true,
+      "state": "F14-A3",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 15,
+      "familyLabel": "KN-57 Faberge",
+      "holdReason": "",
+      "runtimeA0": "mp44_mp",
+      "runtimeAttachment": 0,
+      "runtimeWeapon": "mp44_mp",
+      "selectedAttachment": 0,
+      "selectedWeapon": "mp44_mp",
+      "selectionRetained": true,
+      "state": "F15-A0",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 15,
+      "familyLabel": "KN-57 Faberge",
+      "holdReason": "",
+      "runtimeA0": "mp44_mp",
+      "runtimeAttachment": 1,
+      "runtimeWeapon": "g3_gl_mp",
+      "selectedAttachment": 1,
+      "selectedWeapon": "g3_gl_mp",
+      "selectionRetained": true,
+      "state": "F15-A1",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 15,
+      "familyLabel": "KN-57 Faberge",
+      "holdReason": "",
+      "runtimeA0": "mp44_mp",
+      "runtimeAttachment": 2,
+      "runtimeWeapon": "m14_gl_mp",
+      "selectedAttachment": 2,
+      "selectedWeapon": "m14_gl_mp",
+      "selectionRetained": true,
+      "state": "F15-A2",
+      "status": "READY"
+    },
+    {
+      "deployed": true,
+      "family": 15,
+      "familyLabel": "KN-57 Faberge",
+      "holdReason": "",
+      "runtimeA0": "mp44_mp",
+      "runtimeAttachment": 3,
+      "runtimeWeapon": "g36c_gl_mp",
+      "selectedAttachment": 3,
+      "selectedWeapon": "g36c_gl_mp",
+      "selectionRetained": true,
+      "state": "F15-A3",
+      "status": "READY"
+    }
+  ],
+  "status": "PASS_WITH_VISUAL_HOLD",
+  "subverdicts": {
+    "adversarialMutations": "PASS",
+    "deployReadiness": "PASS",
+    "exact37StateInventory": "PASS",
+    "externalComposedVisualAcceptance": "HOLD",
+    "f10Correction": "PASS",
+    "familyLabels": "PASS",
+    "heldA0Fallback": "PASS",
+    "lfStablePatch": "PASS",
+    "liveEngineRuntime": "NOT_RUN",
+    "persistence": "PASS",
+    "physicalModelAlignment": "NOT_TOUCHED",
+    "productionIntegrity": "PASS",
+    "runtimeMenuSemantics": "PASS",
+    "sameKillGoalSelectionBehavior": "PASS",
+    "savedSelectionRetention": "PASS"
+  },
+  "transitions": {
+    "canonicalEventCount": 17,
+    "canonicalEventLogSha256": "022f459be7bb2bcd88e5b18ece0a6f17b3d025eb56b682afd344336cc4cf9924",
+    "held": {
+      "allPassed": true,
+      "count": 17,
+      "phaseCount": 68,
+      "requirements": {
+        "deployed": true,
+        "holdReason": "EXTERNAL_VISUAL_ACCEPTANCE_REQUIRED",
+        "runtimeAttachment": 0,
+        "runtimeWeapon": "family A0 weaponfile, never empty",
+        "selectionRetained": true
+      },
+      "stateIds": [
+        "F01-A1",
+        "F01-A2",
+        "F01-A3",
+        "F02-A1",
+        "F02-A2",
+        "F02-A3",
+        "F03-A1",
+        "F03-A2",
+        "F03-A3",
+        "F05-A1",
+        "F05-A2",
+        "F05-A3",
+        "F07-A1",
+        "F07-A3",
+        "F08-A3",
+        "F09-A3",
+        "F10-A3"
+      ]
+    },
+    "unheld": {
+      "allPassed": true,
+      "count": 20,
+      "phaseCount": 80,
+      "requirements": {
+        "deployed": true,
+        "runtimeAttachment": "selected attachment",
+        "runtimeWeapon": "selected weaponfile",
+        "selectionRetained": true
+      },
+      "stateIds": [
+        "F01-A0",
+        "F02-A0",
+        "F03-A0",
+        "F05-A0",
+        "F07-A0",
+        "F08-A0",
+        "F09-A0",
+        "F10-A0",
+        "F13-A0",
+        "F13-A1",
+        "F13-A2",
+        "F13-A3",
+        "F14-A0",
+        "F14-A1",
+        "F14-A2",
+        "F14-A3",
+        "F15-A0",
+        "F15-A1",
+        "F15-A2",
+        "F15-A3"
+      ]
+    }
+  },
+  "verdict": "HOLD",
+  "visualAcceptanceRequest": {
+    "acceptancePresent": false,
+    "path": "candidate/visual-acceptance-request.json",
+    "promotionReady": false,
+    "sha256": "0794dd75649f5e2b2839aff798cf758cc7cfab2f7e634624238e0d55bc03225f"
+  }
+}
