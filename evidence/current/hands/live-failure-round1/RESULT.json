@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "lane": "viewhands_live_failure_baseline_round1",
+  "evidenceType": "USER_LIVE_COD4_CAPTURE",
+  "verdict": "FAIL",
+  "promotionReady": false,
+  "winningBar": "xi_ftag/gauntlet/viewhands_runtime_bar.md",
+  "captures": [
+    {
+      "path": "evidence/live-failure-wide.png",
+      "sha256": "B77B778AB3C88566BA4B94CDF9226B41F8AF31B2FA70C7571C9756B2AB7D34A8",
+      "bytes": 5232593,
+      "dimensions": [3130, 1302]
+    },
+    {
+      "path": "evidence/live-failure-close.png",
+      "sha256": "099C961D482FDC2106E299C129CF25DC5099EFB37792A75424B09B44A7E74671",
+      "bytes": 1654997,
+      "dimensions": [1034, 1001]
+    }
+  ],
+  "fatalVisualFindings": {
+    "cameraDominatingCollapsedHandVolume": true,
+    "recognizablePalmFingerAndWristAnatomy": false,
+    "coherentForearmAndCuffSilhouette": false,
+    "weaponAndSightPictureUnobstructed": false,
+    "materialRegionsRemainOnCoherentGeometry": false
+  },
+  "separateSceneFinding": "The wide capture also contains repeated malformed scene textures/geometry. The screenshots alone cannot attribute that separate corruption to viewhands, a package limit, or another asset.",
+  "limitations": [
+    "The selected operator, exact weapon state, package hash, and engine log are not visible in the captures.",
+    "The captures prove the shipped visual result failed but do not by themselves isolate skeleton, weight, OAT, material, or asset-budget root cause."
+  ],
+  "requiredDisposition": "All eight custom viewhands remain HOLD until an exact compiled candidate beats these captures under the full runtime bar and the user confirms the live result."
+}
