@@ -1,0 +1,112 @@
+{
+  "audit": "viewhands_ghost_budget35_blind_round1",
+  "phase": "prereveal",
+  "blind": true,
+  "rubric": [
+    "anatomy",
+    "grip",
+    "deformation_stability",
+    "weapon_clearance",
+    "consistency"
+  ],
+  "score_range": "0-10",
+  "motions": [
+    {
+      "motion": "ads-fire",
+      "A": {"anatomy": 5, "grip": 6, "deformation_stability": 4, "weapon_clearance": 7, "consistency": 6, "total": 28},
+      "B": {"anatomy": 3, "grip": 2, "deformation_stability": 4, "weapon_clearance": 1, "consistency": 3, "total": 13},
+      "winner": "A",
+      "rationale": "A preserves a centered weapon and readable bilateral contact. B crowds the camera with sleeves and collapses the hands over an almost fully obscured weapon."
+    },
+    {
+      "motion": "aug-reload",
+      "A": {"anatomy": 6, "grip": 5, "deformation_stability": 4, "weapon_clearance": 5, "consistency": 5, "total": 25},
+      "B": {"anatomy": 5, "grip": 6, "deformation_stability": 6, "weapon_clearance": 7, "consistency": 6, "total": 30},
+      "winner": "B",
+      "rationale": "B keeps the weapon larger, better aligned, and connected to the reload action. A has clearer fingers but a small, weakly integrated weapon and hard sleeve wedges."
+    },
+    {
+      "motion": "glock-reload",
+      "A": {"anatomy": 7, "grip": 7, "deformation_stability": 6, "weapon_clearance": 8, "consistency": 7, "total": 35},
+      "B": {"anatomy": 6, "grip": 3, "deformation_stability": 4, "weapon_clearance": 3, "consistency": 4, "total": 20},
+      "winner": "A",
+      "rationale": "A presents two distinct hands, a believable active reload separation, and a clearly held pistol. B leaves weapon parts detached between angular sleeves."
+    },
+    {
+      "motion": "idle",
+      "A": {"anatomy": 5, "grip": 6, "deformation_stability": 4, "weapon_clearance": 7, "consistency": 6, "total": 28},
+      "B": {"anatomy": 3, "grip": 2, "deformation_stability": 4, "weapon_clearance": 1, "consistency": 3, "total": 13},
+      "winner": "A",
+      "rationale": "A retains a coherent two-hand weapon pose despite oversized angular sleeves. B merges the hand area into a dense central knot with no readable weapon silhouette."
+    },
+    {
+      "motion": "l118-rechamber",
+      "A": {"anatomy": 6, "grip": 5, "deformation_stability": 4, "weapon_clearance": 6, "consistency": 5, "total": 26},
+      "B": {"anatomy": 5, "grip": 7, "deformation_stability": 6, "weapon_clearance": 7, "consistency": 6, "total": 31},
+      "winner": "B",
+      "rationale": "B gives the rechamber action a continuous horizontal weapon relationship and more stable sleeves. A has better-separated hands but weaker contact and pronounced wedge deformation."
+    },
+    {
+      "motion": "m16-reload",
+      "A": {"anatomy": 5, "grip": 5, "deformation_stability": 4, "weapon_clearance": 5, "consistency": 5, "total": 24},
+      "B": {"anatomy": 4, "grip": 6, "deformation_stability": 5, "weapon_clearance": 7, "consistency": 6, "total": 28},
+      "winner": "B",
+      "rationale": "B is anatomically cluttered but keeps a large, aligned rifle in the action. A reduces the rifle to a small central fragment and separates the magazine far from the grip."
+    },
+    {
+      "motion": "mp5-sprint",
+      "A": {"anatomy": 6, "grip": 7, "deformation_stability": 6, "weapon_clearance": 9, "consistency": 8, "total": 36},
+      "B": {"anatomy": 5, "grip": 2, "deformation_stability": 4, "weapon_clearance": 3, "consistency": 3, "total": 17},
+      "winner": "A",
+      "rationale": "A maintains a recognizable sprint carry with the MP5 spanning both hands. B leaves the weapon vertically detached below the hands."
+    },
+    {
+      "motion": "spas-rechamber",
+      "A": {"anatomy": 5, "grip": 7, "deformation_stability": 6, "weapon_clearance": 9, "consistency": 7, "total": 34},
+      "B": {"anatomy": 4, "grip": 3, "deformation_stability": 4, "weapon_clearance": 3, "consistency": 4, "total": 18},
+      "winner": "A",
+      "rationale": "A keeps the shotgun fully visible and aligned through both hand zones. B breaks the pose into separated sleeves, hands, weapon, and a detached rectangular part."
+    }
+  ],
+  "aggregate": {
+    "A": {"score_total": 236, "score_max": 400, "mean": 5.9, "motion_wins": 5},
+    "B": {"score_total": 170, "score_max": 400, "mean": 4.25, "motion_wins": 3},
+    "ties": 0
+  },
+  "overall_winner": "A",
+  "biggest_remaining_defect": "A repeatedly collapses the sleeves into broad angular, camera-facing wedges around the wrists, especially in idle, ADS, and rifle reload poses, which crowds the hands and weakens forearm volume.",
+  "prereveal_artifact_sha256": {
+    "blind-verdict.json": "7e5faa27da29d3bae9d88e61569263fbb7511ba9ed9ee76c8292d307796f93d3",
+    "REPORT.md": "74ac4e0b9591d232b9db0ffd8a04bd170377c2d8aacee3cbb77349055741ea9f",
+    "scope": "Exact artifact contents after the blind decision and before this reveal append; also recorded in PREREVEAL_SHA256.txt."
+  },
+  "reveal": {
+    "inspected_after_prereveal_commitment": true,
+    "comparison": "production-vs-budget35-native-candidate",
+    "commitment": {
+      "expected_reveal_sha256": "63530eedc9310b2731721ccedbde5d887757e5840ae6c6e2991c65854662b8ee",
+      "actual_reveal_sha256": "63530eedc9310b2731721ccedbde5d887757e5840ae6c6e2991c65854662b8ee",
+      "verified": true,
+      "pair_count": 16,
+      "motion_count": 8
+    },
+    "motion_identity_results": [
+      {"motion": "ads-fire", "blind_winner": "A", "identity_winner": "production"},
+      {"motion": "aug-reload", "blind_winner": "B", "identity_winner": "budget35-candidate"},
+      {"motion": "glock-reload", "blind_winner": "A", "identity_winner": "budget35-candidate"},
+      {"motion": "idle", "blind_winner": "A", "identity_winner": "production"},
+      {"motion": "l118-rechamber", "blind_winner": "B", "identity_winner": "budget35-candidate"},
+      {"motion": "m16-reload", "blind_winner": "B", "identity_winner": "budget35-candidate"},
+      {"motion": "mp5-sprint", "blind_winner": "A", "identity_winner": "budget35-candidate"},
+      {"motion": "spas-rechamber", "blind_winner": "A", "identity_winner": "budget35-candidate"}
+    ],
+    "identity_aggregate": {
+      "budget35-candidate": {"score_total": 220, "score_max": 400, "mean": 5.5, "motion_wins": 6},
+      "production": {"score_total": 186, "score_max": 400, "mean": 4.65, "motion_wins": 2},
+      "ties": 0
+    },
+    "identity_winner": "budget35-candidate",
+    "challenger_beats_production": true,
+    "winner_biggest_remaining_defect": "The budget35 candidate fails badly in idle and ads-fire: oversized sleeves and collapsed central hand geometry nearly erase the weapon, leaving grip and alignment unreadable."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "revealSha256": "63530eedc9310b2731721ccedbde5d887757e5840ae6c6e2991c65854662b8ee",
+  "pairCount": 16,
+  "motions": [
+    "idle",
+    "ads-fire",
+    "m16-reload",
+    "glock-reload",
+    "aug-reload",
+    "mp5-sprint",
+    "l118-rechamber",
+    "spas-rechamber"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "comparison": "production-vs-budget35-native-candidate",
+  "motions": {
+    "idle": {
+      "A": "production",
+      "B": "budget35-candidate"
+    },
+    "ads-fire": {
+      "A": "production",
+      "B": "budget35-candidate"
+    },
+    "m16-reload": {
+      "A": "production",
+      "B": "budget35-candidate"
+    },
+    "glock-reload": {
+      "A": "budget35-candidate",
+      "B": "production"
+    },
+    "aug-reload": {
+      "A": "production",
+      "B": "budget35-candidate"
+    },
+    "mp5-sprint": {
+      "A": "budget35-candidate",
+      "B": "production"
+    },
+    "l118-rechamber": {
+      "A": "production",
+      "B": "budget35-candidate"
+    },
+    "spas-rechamber": {
+      "A": "budget35-candidate",
+      "B": "production"
+    }
+  }
+}
