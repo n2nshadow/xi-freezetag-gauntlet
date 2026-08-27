@@ -46,7 +46,7 @@
       <div class="section-shell">
         <div class="intro-grid">
           <div class="goal-copy">
-            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 68</p>
+            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 73</p>
             <h1 id="goal-title">Clear an independent, evidence-backed release gate.</h1>
             <p class="lede">
               Ship the 18-map CoD4 FreezeTag build inside hard engine limits, with its rescue
@@ -69,7 +69,7 @@
             </div>
             <div class="snapshot-stamp">
               <span>Current verdict: <strong class="text-fail">FAIL</strong></span>
-              <time datetime="2026-08-26T20:39:00-04:00">26 Aug 2026, 20:39 EDT</time>
+              <time datetime="2026-08-26T21:23:35-04:00">26 Aug 2026, 21:23 EDT</time>
             </div>
           </div>
         </div>
@@ -319,7 +319,7 @@
             <p class="eyebrow">Live checkpoint</p>
             <h2 id="current-round-title">Center Every Sight, Seal Every Runtime State</h2>
           </div>
-          <span class="status status-unknown status-large">Snapshot 72 / no-go</span>
+          <span class="status status-unknown status-large">Snapshot 73 / no-go</span>
         </header>
 
         <div class="round-grid">
@@ -339,11 +339,11 @@
               </div>
               <div>
                 <dt>Remote viewer</dt>
-                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The expiring tunnel has been replaced by a dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=72">GitHub Pages dashboard</a>. Android-style outside checks return the complete Snapshot 72 page and assets over enforced HTTPS. Only the public dashboard repository is served; the private mod and recovered reference source remain private.</dd>
+                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The expiring tunnel has been replaced by a dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=73">GitHub Pages dashboard</a>. Android-style outside checks return the complete dashboard and assets over enforced HTTPS. Only the public dashboard repository is served; the private mod and recovered reference source remain private.</dd>
               </div>
               <div>
                 <dt>Alignment evaluator</dt>
-                <dd><strong class="text-fail">FRESH CRITIC REJECTED THE JUDGE.</strong> The original replay still passes <code>9 / 9</code> tests and rejects its <code>49</code> known fixtures, but a coherently resealed real <code>1920 x 1080</code> raster with a <code>64 px</code> sight displacement and even an arbitrary nonexistent raster hash both pass. Stock controls bypass the final-raster path, contact and visibility contain asserted values, and sight landmarks are not measured separately. The Round 2 builder added trajectory tests, but lead inspection found that its claimed stock/recoil positive raster is synthetic colored block geometry rather than an exact-composed stock M4 or M249 frame. That evidence is rejected; the evaluator remains <strong class="text-fail">HOLD</strong> until real stock controls and authored ADS-fire recoil pass through the same raster decoder used for candidates.</dd>
+                <dd><strong class="text-fail">FRESH CRITIC REJECTED THE JUDGE.</strong> A real stock M4/viewhands raster now replaces the colored-block placeholder, but the current probe still accepts a hand-authored camera eye, basis, and <code>90</code>-degree FOV per case. Its recoil witness also moves only at subpixel-noise scale. The winning bar now requires one immutable, hash-sealed CoD4 camera policy shared by stock controls, candidates, and physical negatives; request-side camera/FOV/crop retuning must be rejected. It also requires nontrivial authored ADS-fire travel and absolute raster trajectories, not merely relative drift. The evaluator remains <strong class="text-fail">HOLD</strong> until all five real stock controls and those adversarial mutations pass through the same decoder used for candidates.</dd>
               </div>
               <div>
                 <dt>Gameplay spine</dt>
@@ -363,7 +363,7 @@
               </div>
               <div>
                 <dt>Weapon alignment</dt>
-                <dd><strong class="text-fail">ALL 37 STATES HELD; PHYSICAL BUILDERS AND THE EVALUATOR REPAIR REMAIN ACTIVE.</strong> Real terminal raster inspection rejects F01's bare slab and grossly oversized/clipped reflex and ACOG geometry. F02's semantic decomposition now identifies its dedicated A2 glass as the authoritative optical landmark at <code>0.69 px</code> from center, but this does not prove contact, scale, A0/A3 aperture ownership, or all animation phases. The other <code>29 / 29</code> states remain unproved. Fresh criticism accepts <code>628FE019...</code> only for selection-retained family-A0 runtime behavior; its physical gate is still <strong class="text-fail">HOLD</strong>. The release bar still requires exact final <code>1920 x 1080</code> composed rasters within <code>2 px</code>, source-sealed recoil, correct hip framing, attachment scale/contact, hide/show ownership, and all six animation phases for every state.</dd>
+                <dd><strong class="text-fail">ALL 37 STATES HELD; PHYSICAL BUILDERS AND THE EVALUATOR REPAIR REMAIN ACTIVE.</strong> F01 is rebuilding exact source-authored M16 sight components after the prior camera path produced clipped side views. F02's terminal masks are numerically centered, but its recoil is effectively static, its absolute landmarks remain displaced, and its contact frame is not inspectable; those results are rejected. The other <code>29 / 29</code> states remain unproved. Fresh criticism accepts <code>628FE019...</code> only for selection-retained family-A0 runtime behavior; its physical gate is still <strong class="text-fail">HOLD</strong>. The release bar requires exact final <code>1920 x 1080</code> composed rasters within <code>2 px</code>, immutable source-derived framing, nontrivial source-sealed recoil, attachment scale/contact, hide/show ownership, and all six animation phases for every state.</dd>
               </div>
               <div>
                 <dt>Sentry deployment trace</dt>
@@ -1164,6 +1164,24 @@
               <div class="timeline-meta">
                 <span class="tier tier-visual">Visual gate</span>
                 <span>0/37 physical candidate states promoted; production untouched</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail is-active">
+            <div class="timeline-marker" aria-hidden="true">G-27</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Lead bar repair / evaluator Round 2</span>
+                  <h3>Camera fitting and static recoil loopholes closed</h3>
+                </div>
+                <span class="status status-fail">Rebuild active</span>
+              </div>
+              <p>The first real stock M4 raster is visually authentic, but its request still hand-authors the camera and FOV, while the sampled recoil is effectively motionless. The authoritative bar now forbids per-case camera, FOV, crop, recenter, and look-at fitting; controls, candidates, and negatives must share one source-sealed runtime camera policy. Recoil must show nontrivial authored travel and match absolute raster landmarks. All three active builders are rerunning against this stricter contract.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-visual">Hard visual gate</span>
+                <span>weapon_alignment_bar.md tightened; production remains untouched</span>
               </div>
             </div>
           </li>
