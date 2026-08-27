@@ -46,7 +46,7 @@
       <div class="section-shell">
         <div class="intro-grid">
           <div class="goal-copy">
-            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 75</p>
+            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 76</p>
             <h1 id="goal-title">Clear an independent, evidence-backed release gate.</h1>
             <p class="lede">
               Ship the 18-map CoD4 FreezeTag build inside hard engine limits, with its rescue
@@ -152,7 +152,7 @@
               <strong>Reproducible package</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              105 validators owned; all 87 mandatory source gates pass. A new OAT link is intentionally pending the hands visual gate.
+              107 validators owned; all 88 mandatory source gates pass. A new OAT link is intentionally pending the active hands and weapon visual gates.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
@@ -1148,6 +1148,60 @@
               <div class="timeline-meta">
                 <span class="tier tier-visual">Fresh critic</span>
                 <a href="evidence/current/hands/round16-budget35-critic/REPORT.md">round16 budget35 report</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-pass">
+            <div class="timeline-marker" aria-hidden="true">G-29</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Lead preflight / complete source gate</span>
+                  <h3>All mandatory source validators pass</h3>
+                </div>
+                <span class="status status-pass">88 / 88</span>
+              </div>
+              <p>The current FT-only source cleared all 88 mandatory gates across 107 owned validators. This proves the source contract is internally consistent; it does not replace a fresh OAT package, runtime evidence, or the user-live gate.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Structural</span>
+                <a href="evidence/current/preflight/snapshot76/REPORT.md">snapshot76 preflight report</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail is-active">
+            <div class="timeline-marker" aria-hidden="true">G-30</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Fresh weapon critic / Family 02</span>
+                  <h3>Bare-iron trajectory misses the hard bar</h3>
+                </div>
+                <span class="status status-fail">Hold / Round 5 active</span>
+              </div>
+              <p>The critic replayed all 922 sealed files and independently measured a 236.924198 px rear-aperture error, 234.924198 px beyond the two-pixel limit. Reflex, ACOG, and suppressor geometry pass, but zero of 24 required physical state-phase slots is accepted. Nothing is promoted.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-visual">Fresh critic</span>
+                <a href="evidence/current/weapons/family02-round4-critic/REPORT.md">Family 02 Round 4 verdict</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-unknown is-active">
+            <div class="timeline-marker" aria-hidden="true">G-31</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Viewhands builder / Ghost Round 2</span>
+                  <h3>Idle and ADS clearance improve; blind critic active</h3>
+                </div>
+                <span class="status status-unknown">Quarantined</span>
+              </div>
+              <p>The sealed challenger reports roughly 31% more weapon visibility while retaining a 37.347% source-vertex reduction, the exact 71-bone native rig, all 42 controls, and all 20 finger segments. It remains quarantined until a fresh critic independently beats production across all eight motions.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-visual">Builder evidence</span>
+                <a href="evidence/current/hands/round17-budget35-builder/REPORT.md">Ghost Round 2 builder summary</a>
               </div>
             </div>
           </li>
