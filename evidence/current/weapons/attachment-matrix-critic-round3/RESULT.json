@@ -1,0 +1,124 @@
+{
+  "candidatePatch": {
+    "actualSha256": "628fe01918ea9793300940491bbd6bf4a29f043af47a312adb405e68bd1e1251",
+    "applyConfiguration": {
+      "core.autocrlf": "input",
+      "core.eol": "lf"
+    },
+    "bytes": 110002,
+    "crCount": 0,
+    "expectedPaths": [
+      "weapons/xi/dragunov_mp",
+      "xi_ftag/source_weapons/modern/10_kvinhibitor/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/mp/xi_weaponattachmentmatrix.csv",
+      "xi_ftag/zone_raw/xi_ftag/ui_mp/xi_offline_class.menu",
+      "xi_ftag/zone_raw/xi_ftag/weapons/mp/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/xi_ftag/_weapons.gsc",
+      "xi_ftag/zone_source/xi_ftag.zone"
+    ],
+    "expectedSha256": "628fe01918ea9793300940491bbd6bf4a29f043af47a312adb405e68bd1e1251",
+    "hashMatch": true,
+    "lfCount": 838,
+    "lfOnly": true,
+    "liveApplyCheckExitCode": 0,
+    "parsedPaths": [
+      "weapons/xi/dragunov_mp",
+      "xi_ftag/source_weapons/modern/10_kvinhibitor/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/mp/xi_weaponattachmentmatrix.csv",
+      "xi_ftag/zone_raw/xi_ftag/ui_mp/xi_offline_class.menu",
+      "xi_ftag/zone_raw/xi_ftag/weapons/mp/dragunov_mp",
+      "xi_ftag/zone_raw/xi_ftag/xi_ftag/_weapons.gsc",
+      "xi_ftag/zone_source/xi_ftag.zone"
+    ],
+    "pathSetExact": true,
+    "reconstruction": "reconstruction/clean-20260827T003359592140Z",
+    "reverseApplyExitCode": 0,
+    "reverseCheckExitCode": 0,
+    "reverseRoundTripComparison": {
+      "baselineEntryCount": 6,
+      "byteOrHashDifferenceCount": 0,
+      "candidateEntryCount": 6,
+      "changedEntries": [],
+      "differenceCount": 0,
+      "exact": true,
+      "extraPaths": [],
+      "missingPaths": [],
+      "pathDifferenceCount": 0
+    },
+    "reverseRoundTripExact": true,
+    "stagedApplyCheckExitCode": 0,
+    "stagedApplyExitCode": 0
+  },
+  "checkerCorrection": {
+    "classification": "CHECKER_EOL_HANDLING_BUG_NOT_CANDIDATE_DELTA",
+    "evidence": "evidence/reconstruction-line-ending-analysis.json",
+    "f10NotetrackExactParsedValueEqual": true,
+    "reverseManifestDifferenceCount": 0
+  },
+  "counts": {
+    "a0States": 11,
+    "adversarialMutationsDetected": 20,
+    "adversarialMutationsTotal": 20,
+    "attachmentStates": 26,
+    "builderManifestEntriesTotal": 407,
+    "builderManifestEntriesVerified": 407,
+    "canonicalHeldEvents": 17,
+    "heldSelections": 17,
+    "readyStates": 20,
+    "states": 37
+  },
+  "generatedAtUtc": "2026-08-27T00:33:59.592140+00:00",
+  "gitHead": "30424acca3264c7b9c47a536436518231a9749db",
+  "largestRemainingGap": "Fresh independent engine-composed physical and animation evidence for all 37 states, especially acceptance of the 17 quarantined attachment geometries.",
+  "limitations": {
+    "buildPackageSteamServerNotRun": true,
+    "liveEngineNotRun": true,
+    "runtimeMenuPassBasis": "Independent patch reconstruction, static GSC/menu control-flow verification, exact-state simulation, persistence round-trips, and adversarial mutation rejection."
+  },
+  "productionIntegrity": {
+    "builderArtifactsUnchanged": true,
+    "gitStatusExcludingCriticLaneUnchanged": true,
+    "guardedPathsUnchanged": true,
+    "pass": true
+  },
+  "repository": "C:\\Users\\shawn\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag",
+  "role": "FRESH_INDEPENDENT_CRITIC",
+  "round": 3,
+  "runtimeMenuDerivation": {
+    "failedInputs": [],
+    "inputs": {
+      "adversarialMutations20": true,
+      "builderManifest407": true,
+      "candidatePatchAndReconstruction": true,
+      "coreSemanticAudit": true,
+      "productionAndBuilderIntegrity": true
+    },
+    "pass": true
+  },
+  "schemaVersion": 1,
+  "subverdicts": {
+    "adversarialMutations": "PASS",
+    "builderManifest407": "PASS",
+    "candidatePatchIntegrity": "PASS",
+    "deployReadiness": "PASS",
+    "deterministicAuditEvent": "PASS",
+    "exact37StateSet": "PASS",
+    "f10A0Conflict": "PASS",
+    "f10NotetrackSoundMapUnchanged": "PASS",
+    "heldA0Runtime": "PASS",
+    "labels": "PASS",
+    "liveEngineRuntime": "NOT_RUN_BY_SCOPE",
+    "persistence": "PASS",
+    "physicalAlignment": "HOLD",
+    "productionIntegrity": "PASS",
+    "reverseRoundTripExact": "PASS",
+    "sameKillGoalSelection": "PASS",
+    "savedAndMenuIdentityRetention": "PASS"
+  },
+  "verdicts": {
+    "overall": "HOLD",
+    "physicalVisualGate": "HOLD",
+    "promotionReady": false,
+    "runtimeMenuSemantics": "PASS"
+  }
+}
