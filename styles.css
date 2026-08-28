@@ -1181,7 +1181,105 @@ h3 {
   color: var(--ice-bright);
 }
 
+.progress-gallery {
+  background: #151c1e;
+}
+
+.progress-gallery h2,
+.gallery-item figcaption strong {
+  color: #f2f6f7;
+}
+
+.progress-gallery .section-note,
+.gallery-item figcaption > span:last-child {
+  color: #aebabc;
+}
+
+.gallery-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 24px;
+}
+
+.gallery-header .section-note {
+  max-width: 620px;
+  margin: 0;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.gallery-item {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #3b484b;
+  border-radius: 6px;
+  background: #0c1112;
+}
+
+.gallery-item-wide {
+  grid-column: span 3;
+}
+
+.gallery-image,
+.gallery-pair a {
+  display: block;
+  min-height: 0;
+  background: #080b0c;
+}
+
+.gallery-image img,
+.gallery-pair img {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+}
+
+.gallery-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: #3b484b;
+}
+
+.gallery-pair img {
+  height: 340px;
+}
+
+.gallery-item figcaption {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 9px 12px;
+  padding: 15px 16px 17px;
+  border-top: 1px solid #3b484b;
+}
+
+.gallery-item figcaption strong {
+  font-size: 15px;
+}
+
+.gallery-item figcaption > span:last-child {
+  grid-column: 1 / -1;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
 @media (max-width: 1120px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-item-wide {
+    grid-column: span 2;
+  }
   .header-inner {
     gap: 22px;
   }
@@ -1353,6 +1451,29 @@ h3 {
     align-items: start;
     flex-direction: column;
     gap: 14px;
+  }
+
+  .gallery-header {
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item-wide {
+    grid-column: span 1;
+  }
+
+  .gallery-pair {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-image img,
+  .gallery-pair img {
+    height: min(64vw, 300px);
   }
 
   .score-row {
