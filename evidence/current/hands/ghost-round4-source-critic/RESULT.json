@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "audit": "viewhands_ghost_round4_source_rig_critic",
+  "verdict": "BLOCK",
+  "passed": false,
+  "promotionAllowed": false,
+  "liveCod4Mandatory": true,
+  "summary": "No inspected trial satisfies the full source-preservation and CoD-animation contract. regional127-v2 is a useful bind/linker reference but is only a six-island approximation with no directly tracked weighted source joints.",
+  "strictContractFeasibility": {
+    "satisfiableAsWritten": false,
+    "conflict": "Exact original SMD numeric weights cannot coexist with a minimum serialized weight of 0.0101.",
+    "originalMinimumPositiveWeight": 0.007843,
+    "originalRepeatedCornerInfluenceCountBelow0101": 710,
+    "convertedUniqueInfluenceCountBelow0101": 182,
+    "requiredBuilderBehavior": "Fail closed and require an explicit canonical-weight decision. Do not label the reduced/floored weight set as exact original weights."
+  },
+  "sourceFacts": {
+    "sha256": "4DABB81AFB32CAAED248A4A8F5B1107EDE9E4ABB2D4BD024001DFF351C1654DA",
+    "nodeCount": 66,
+    "weightedJointCount": 56,
+    "triangleCount": 20411,
+    "uniqueCornerRecordCount": 15192,
+    "maximumInfluences": 4,
+    "twistContract": "j_wristtwist1..6_le and j_wristtwist1..6_ri are sibling children of their respective elbow joints",
+    "serialTwistChainAllowed": false
+  },
+  "stockFacts": {
+    "sha256": "3FF4DD298BEEEA7FD4EB7FF25DE5B7D21CA33059583FB8A283F7EF7ECDFEB182",
+    "skinJointCount": 71,
+    "weightedJointCount": 49
+  },
+  "bindComparison": {
+    "uniformScaleUsed": 0.44363154461127974,
+    "sourceToStockSegmentRatios": {
+      "leftUpperArm": 0.44363064862394586,
+      "leftForearm": 0.4645678908799135,
+      "rightUpperArm": 0.44363154461127974,
+      "rightForearm": 0.46456977279200734,
+      "shoulderWidth": 0.3916642043087398
+    },
+    "singleSimilarityFitIsExact": false,
+    "wristRegisteredCommonJointErrors": {
+      "left": {
+        "jointCount": 21,
+        "positionMedian": 7.476706071902515,
+        "positionMaximum": 36.64747720396461,
+        "rotationMedianDegrees": 57.8382008876315,
+        "rotationMaximumDegrees": 101.75473524883759
+      },
+      "right": {
+        "jointCount": 21,
+        "positionMedian": 4.9430588171708045,
+        "positionMaximum": 20.301427903845553,
+        "rotationMedianDegrees": 161.79014951177638,
+        "rotationMaximumDegrees": 180.0
+      }
+    }
+  },
+  "trials": {
+    "full127-wrist-v1": {
+      "verdict": "FAIL",
+      "jointCount": 127,
+      "directlyTrackedWeightedJointCount": 0,
+      "independentEightMotionEdgeP999Range": [
+        1.0000154508556407,
+        1.0000274936877138
+      ],
+      "rawToSkinnedBindMaximum": 41.95788093556737,
+      "explanation": "Every weighted source joint in an arm receives the same wrist-global delta. The surface is rigid, so strain vanishes, but shoulder, elbow, wrist, twist, and finger articulation also vanish."
+    },
+    "regional127-v2": {
+      "verdict": "FAIL_WITH_REUSABLE_BIND_METHOD",
+      "jointCount": 127,
+      "sha256": "D2C2C0C4943F1A72A5E499A22EEB50093CE23AF34CDFF6287B8A2863200BA208",
+      "stockJointOrderIsExactPrefix": true,
+      "stockHierarchyMismatchCount": 0,
+      "maximumStockControlWorldBindMatrixDifference": 0.0,
+      "weightedStockControlCount": 0,
+      "weightedAliasCount": 56,
+      "directlyTrackedWeightedJointCount": 0,
+      "regionalDriverRootCount": 6,
+      "sourceWeightedLocalJointsWithoutIndependentArticulation": 50,
+      "retainedWeightedSourceParentBreakCount": 4,
+      "retainedWeightedSourceParentBreaks": [
+        "j_shoulder_le>j_elbow_le",
+        "j_shoulder_ri>j_elbow_ri",
+        "j_elbow_le>j_wrist_le",
+        "j_elbow_ri>j_wrist_ri"
+      ],
+      "sourceTwistSiblingContractPreserved": true,
+      "maximumInfluences": 4,
+      "minimumSerializedWeight": 0.010144232772290707,
+      "rawToSkinnedBindMaximum": 0.000012146028090229182,
+      "independentEightMotion": {
+        "edgeP999Range": [
+          1.7851497736212185,
+          2.1609773988378786
+        ],
+        "edgeMaximumRange": [
+          4.828851786025283,
+          5.922884952852675
+        ],
+        "triangleAreaP999Range": [
+          1.7810319641812622,
+          2.1908565792838592
+        ],
+        "triangleAreaMinimumRange": [
+          0.030274055274139438,
+          0.1323054124631928
+        ]
+      },
+      "visualEvidenceS9": {
+        "candidateFrameCount": 69,
+        "genericValidatorPassedCount": 0,
+        "genericEdgePassedCount": 69,
+        "sideShapePassedCount": 63,
+        "weaponAttachedCount": 69,
+        "absoluteEdgeP999Range": [
+          1.527744529099921,
+          2.5593852289894987
+        ],
+        "absoluteMaximumEdgeRatioRange": [
+          4.458482711164152,
+          6.243341580438197
+        ],
+        "sideShapeFailureCount": 6
+      },
+      "oat": {
+        "linkExitCode": 0,
+        "linkWarnings": 0,
+        "linkErrors": 0,
+        "fastfileBytes": 292398,
+        "fastfileSha256": "B345056BFCC6F143E0C2CD569B781209E812A50C51CCBF94FE7DF09F612016BE",
+        "unlinkXmodelExitCode": -1073740791,
+        "unlinkGlbExitCode": -1073740791,
+        "unlinkFailureMatchesPristineStock71Control": true,
+        "unlinkFailureIsDiscriminative": false,
+        "runtimePassProven": false
+      },
+      "realRisk": "Mixed-weight vertices span independently driven shoulder, elbow, and wrist islands; digits and twist helpers never articulate relative to their island roots."
+    },
+    "semantic-v1": {
+      "verdict": "FAIL_BUT_PROVES_77_JOINT_TOPOLOGY",
+      "jointCount": 77,
+      "directlyTrackedWeightedJointCount": 50,
+      "sourceTwistSiblingContractPreserved": true,
+      "rawToSkinnedBindMaximum": 5.535434949420929,
+      "independentEightMotionEdgeP999Range": [
+        8.393549266334992,
+        10.973047475179587
+      ],
+      "independentEightMotionTriangleAreaP999Range": [
+        14.539809767515068,
+        17.270673820595437
+      ]
+    },
+    "two-layer-split-v2": {
+      "verdict": "FAIL",
+      "jointCount": 85,
+      "directlyTrackedWeightedJointCount": 42,
+      "sourceTwistSiblingContractPreservedCount": 6,
+      "sourceTwistSiblingContractTotal": 12,
+      "rawToSkinnedBindMaximum": 5.106023996823979,
+      "independentEightMotionEdgeP999Range": [
+        3.3845078334669516,
+        4.264814405651467
+      ],
+      "independentEightMotionTriangleAreaP999Range": [
+        6.292449984925215,
+        16.797734695264815
+      ]
+    }
+  },
+  "validatorInterpretation": {
+    "genericContractMismatches": [
+      "The 56 xi_src_* joints are expected extras when --allow-extra-joints is used.",
+      "sharedJointCount=0 follows from the alias-weight architecture and makes bind-center registration inapplicable as written.",
+      "The identical Unlinker crashes on pristine stock71 and regional127 are a tool/control limitation, not candidate-specific evidence."
+    ],
+    "realRuntimeOrDeformationRisks": [
+      "No regional weighted alias has a direct XAnim track.",
+      "Only six broad helper islands inherit motion; all 34 weighted digit and palm aliases remain rigid relative to each wrist island.",
+      "Four source weighted parent links are cut at shoulder/elbow/wrist region boundaries.",
+      "Regional mixed-weight edges stretch up to 6.243x in dense evidence and six dense frames fail side shape.",
+      "OAT linking does not exercise live animation, engine bone limits, weapon interaction, or first-person rendering."
+    ],
+    "falseComfort": "The generic edge gate compares against the stock mesh's already large edge ratios and permits an OR-based maximum-edge exception. It is not a source-preservation gate."
+  },
+  "smallestArchitecture": {
+    "jointCount": 77,
+    "status": "MINIMUM_TOPOLOGICAL_LAYOUT_REQUIRES_SOURCE_BIND_AWARE_ANIMATION_RETARGET",
+    "stockControlsAndTags": 71,
+    "additionalNativeHelpers": 6,
+    "helperJoints": [
+      "xi_src_j_elbow_bulge_le",
+      "xi_src_j_elbow_bulge_ri",
+      "xi_src_j_wristtwist6_le",
+      "xi_src_j_wristtwist4_ri",
+      "xi_src_j_wristtwist5_ri",
+      "xi_src_j_wristtwist6_ri"
+    ],
+    "helperParentRule": "Every helper is a direct child of j_elbow_le or j_elbow_ri as appropriate.",
+    "leftTwistMapping": {
+      "j_wristtwist1_le": "j_sleave_reshape_top_le_1",
+      "j_wristtwist2_le": "j_sleave_reshape_top_le_2",
+      "j_wristtwist3_le": "j_sleave_reshape_bottom_le_2",
+      "j_wristtwist4_le": "j_sleave_reshape_bottom_le_1",
+      "j_wristtwist5_le": "j_sleave_reshape_top_le_3",
+      "j_wristtwist6_le": "xi_src_j_wristtwist6_le"
+    },
+    "rightTwistMapping": {
+      "j_wristtwist1_ri": "j_sleave_reshape_top_ri_1",
+      "j_wristtwist2_ri": "j_sleave_reshape_top_ri_2",
+      "j_wristtwist3_ri": "j_sleave_reshape_top_ri_3",
+      "j_wristtwist4_ri": "xi_src_j_wristtwist4_ri",
+      "j_wristtwist5_ri": "xi_src_j_wristtwist5_ri",
+      "j_wristtwist6_ri": "xi_src_j_wristtwist6_ri"
+    },
+    "digitMapping": "Map each source digit _1,_2,_3 injectively to CoD _0,_1,_2; retain CoD _3 controls unweighted.",
+    "palmMapping": "Map source ringbase/pinkybase to CoD ringpalm/pinkypalm.",
+    "bindRule": "Use only rigid transforms per disconnected source arm component, derive mapped control locals from the retained source global binds, and regenerate coherent inverse binds for every skin slot.",
+    "animationRule": "Retarget and bake each required CoD XAnim into source-bind-aware local tracks for all 50 mapped controls and derive tracks for the six helpers. Preserve sibling twists; never accumulate twist1..6 serially.",
+    "untouchedStockXanimCompatible": false,
+    "passiveParallelDriverLayerAccepted": false,
+    "activeParallelAlternative": "A 127-joint stock71 plus source56 layer is viable only if an actual per-joint constraint system or xi_src_* animation tracks are executed. Parent inheritance alone is insufficient."
+  },
+  "independentSourceSurfaceBar": {
+    "maximumRawToSkinnedBindDistance": 0.001,
+    "minimumEdgeP001": 0.75,
+    "maximumEdgeP999": 1.25,
+    "maximumEdgeRatio": 2.0,
+    "maximumEdgeRatioException": "Only for a final animated edge no longer than 0.25 units and with explicit visual clearance.",
+    "minimumTriangleAreaP001": 0.5,
+    "maximumTriangleAreaP999": 1.5,
+    "requiredWeightedArticulationCoverage": 56,
+    "requiredMotionAndDenseFrameVisualFailures": 0,
+    "genericStockRelativeValidatorPassIsSufficient": false,
+    "liveCod4ReceiptRequired": true
+  },
+  "builderRecommendation": [
+    "Stop promotion of every current trial, including regional127-v2.",
+    "Resolve the exact-original-weight versus 0.0101-floor contradiction before another candidate build.",
+    "Reuse regional127-v2's exact stock prefix and coherent bind/inverse-bind construction, not its six-island driving policy.",
+    "Implement the 77-joint injective semantic layout and a source-bind-aware XAnim retarget/bake stage.",
+    "If legacy XAnims must remain untouched and no active constraint path exists, declare the strict build infeasible rather than adding another passive driver layer.",
+    "Run independent eight-motion and dense-frame source-surface gates, pristine OAT linking, and a live CoD4 first-person test before promotion."
+  ],
+  "evidence": [
+    "evidence/rig_facts.json",
+    "evidence/regional127_artifact_assessment.json",
+    "evidence/independent_eight_motion_metrics.csv",
+    "evidence/original_source_nodes.csv",
+    "evidence/stock_skin_joints.csv",
+    "evidence/regional127_skin_joints.csv",
+    "evidence/regional_source_alias_parents.csv",
+    "evidence/twist_parent_contract.csv",
+    "evidence/source_to_stock_bind.csv",
+    "evidence/serialized_skeletons.png",
+    "evidence/bind_error_bars.png",
+    "evidence/animation_failure_montage.png",
+    "evidence/regional127_source_bind_comparison.png",
+    "evidence/regional127_continuous_contact_sheet.png",
+    "evidence/regional127_blind_ab_contact_sheet.png"
+  ]
+}
