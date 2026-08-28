@@ -47,7 +47,7 @@
       <div class="section-shell">
         <div class="intro-grid">
           <div class="goal-copy">
-            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 83</p>
+            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 84</p>
             <h1 id="goal-title">Clear an independent, evidence-backed release gate.</h1>
             <p class="lede">
               Ship the 18-map CoD4 FreezeTag build inside hard engine limits, with its rescue
@@ -320,7 +320,7 @@
             <p class="eyebrow">Live checkpoint</p>
             <h2 id="current-round-title">Center Every Sight, Seal Every Runtime State</h2>
           </div>
-          <span class="status status-unknown status-large">Snapshot 83 / image transaction passed, source builders active</span>
+          <span class="status status-unknown status-large">Snapshot 84 / bad geometry rejected before promotion</span>
         </header>
 
         <div class="round-grid">
@@ -340,7 +340,7 @@
               </div>
               <div>
                 <dt>Remote viewer</dt>
-                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=83">GitHub Pages dashboard</a> works away from the home network over HTTPS. Only this curated dashboard repository is served; the private mod and recovered reference source remain private.</dd>
+                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=84">GitHub Pages dashboard</a> works away from the home network over HTTPS. Only this curated dashboard repository is served; the private mod and recovered reference source remain private.</dd>
               </div>
               <div>
                 <dt>Alignment evaluator</dt>
@@ -889,10 +889,11 @@
             <p class="eyebrow">Biggest remaining gap</p>
             <h3 id="gap-title">Repair native hand weights, then close the real weapon source chain.</h3>
             <p>
-              Ghost Round 4 now reproduces its binary and metadata, but its bind registration proves that arm weights are still
-              being folded into too few CoD controls. The next pass must preserve native wrist, palm, hand, and finger influence
-              before a fresh critic sees it. Family 01 Round 7 is visibly better, yet its upstream T8 source, material closure,
-              reload silhouette, and ADS-fire transition are not release-ready. Round 8 owns that source-integrated rebuild.
+              Ghost Round 4 now preserves the native weighted layer one-to-one, but the first two-layer motion probe still tears
+              wrist triangles and spikes the sleeve before a fresh critic can see it. The builder is repairing the native helper
+              hierarchy and now rejects bind-stage edge distortion before animation. Family 01 Round 8 isolated its changes to
+              authored sight-owned geometry, but the lead audit caught anisotropic shape distortion; that pass is being replaced
+              with rigid component placement while the receiver and non-role geometry remain exact.
             </p>
             <div class="exit-evidence">
               <span>Exit evidence</span>
@@ -1132,6 +1133,42 @@
               <div class="timeline-meta">
                 <span class="tier tier-visual">Fresh critic</span>
                 <span>Round 7 source REJECT; one isolated diagnostic test only</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-fail is-active">
+            <div class="timeline-marker" aria-hidden="true">G-34</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Ghost / Round 4 two-layer source rig</span>
+                  <h3>Native weights survive; bind-stage geometry still fails</h3>
+                </div>
+                <span class="status status-fail">Visual REJECT / builder active</span>
+              </div>
+              <p>The new source contract retains all 56 weighted native joints one-to-one, stays below 100 joints, keeps four or fewer influences, and preserves the 0.0101 minimum serialized weight. The real idle render still exposes wrist tears, sleeve spikes, and a mismatched silhouette. Measured pre-animation edge ratios reach 0.2618x to 5.6306x, so the build is rejected before critic or promotion while the native helper hierarchy is repaired.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-visual">Lead visual reject</span>
+                <a href="evidence/current/hands/ghost-round4-builder/two-layer-v2-idle-reject.png">inspect rejected idle render</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item is-unknown is-active">
+            <div class="timeline-marker" aria-hidden="true">G-35</div>
+            <div class="timeline-main">
+              <div class="timeline-title">
+                <div>
+                  <span class="timeline-kicker">Family 01 / Round 8 source integration</span>
+                  <h3>Sight-owned distortion caught before source promotion</h3>
+                </div>
+                <span class="status status-unknown">Rigid rebuild active</span>
+              </div>
+              <p>The lead audit proved the first Round 8 pass changed 2,318 tag_sights-owned vertices inside the 18,673-vertex base mesh while leaving receiver-owned geometry untouched. That isolation was useful, but anisotropic scaling still changed the authored sight shape. The replacement now uses rigid per-component placement, an explicit transform ledger, and decoded-geometry proof that every non-role vertex remains equivalent.</p>
+              <div class="timeline-meta">
+                <span class="tier tier-structural">Builder correction</span>
+                <span>Fresh critic waits for the new sealed candidate</span>
               </div>
             </div>
           </li>
@@ -1529,6 +1566,17 @@
               <span class="status status-fail">Hands / source reproduced, bind FAIL</span>
               <strong>Ghost Round 4 offline motion sweep</strong>
               <span>The editable source and binary are now reproducible, but this board is not a pass: all eight motion reports fail bind registration and expose the remaining wrist, elbow, and shoulder weight folding.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/hands/ghost-round4-builder/two-layer-v2-idle-reject.png">
+              <img src="evidence/current/hands/ghost-round4-builder/two-layer-v2-idle-reject.png" alt="Rejected Ghost two-layer viewhands idle render beside the stock live animation reference" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-fail">Hands / lead visual REJECT</span>
+              <strong>Native-weight prototype exposes the real bind defect</strong>
+              <span>The one-to-one source-weight layer is intact, but wrist tears and sleeve spikes remain plainly visible. This failed image is kept public so a metadata-only pass cannot hide the remaining geometry problem.</span>
             </figcaption>
           </figure>
 
