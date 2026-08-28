@@ -47,7 +47,7 @@
       <div class="section-shell">
         <div class="intro-grid">
           <div class="goal-copy">
-            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 86</p>
+            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 89</p>
             <h1 id="goal-title">Clear an independent, evidence-backed release gate.</h1>
             <p class="lede">
               Ship the 18-map CoD4 FreezeTag build inside hard engine limits, with its rescue
@@ -61,35 +61,35 @@
                 <p class="eyebrow" id="winning-bar-title">Concrete winning bar</p>
                 <p class="gate-rule">All six hard gates must pass. Structural evidence cannot substitute for runtime or live play.</p>
               </div>
-              <div class="gate-count" aria-label="One of six gates passed">
-                <strong>1</strong><span>/ 6</span>
+              <div class="gate-count" aria-label="Two of six gates passed">
+                <strong>2</strong><span>/ 6</span>
               </div>
             </div>
-            <div class="gate-progress" role="progressbar" aria-label="Winning bar progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="1">
+            <div class="gate-progress" role="progressbar" aria-label="Winning bar progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="2">
               <span></span>
             </div>
             <div class="snapshot-stamp">
               <span>Current verdict: <strong class="text-fail">FAIL</strong></span>
-              <time datetime="2026-08-28T01:46:00-04:00">28 Aug 2026, 01:46 EDT</time>
+              <time datetime="2026-08-28T16:09:00-04:00">28 Aug 2026, 16:09 EDT</time>
             </div>
           </div>
         </div>
 
         <ol class="winning-bar" aria-label="Release gates">
-          <li class="checkpoint is-fail">
+          <li class="checkpoint is-pass">
             <span class="checkpoint-index">01</span>
             <strong>Build and package</strong>
-            <span>Atomic publication independently passes; real build held for visual gates</span>
+            <span>Sealed OAT tuple: 0 warnings, 0 errors; exact package verified</span>
           </li>
-          <li class="checkpoint is-fail">
+          <li class="checkpoint is-pass">
             <span class="checkpoint-index">02</span>
             <strong>Engine envelope</strong>
-            <span>18 maps inside hard caps</span>
+            <span>18 shipped maps inside release caps; mp_vacant 988/1000</span>
           </li>
           <li class="checkpoint is-pass">
             <span class="checkpoint-index">03</span>
             <strong>Runtime integration</strong>
-            <span>84/100; skinned cache overflow</span>
+            <span>Snapshot 89 hash-verified and live on stock mp_shipment</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">04</span>
@@ -99,12 +99,12 @@
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">05</span>
             <strong>Blind visual A/B</strong>
-              <span>Challenger wins 6/8; idle and ADS still fail</span>
+              <span>Ghost Round 6 is diagnostic only; 8 weighted joints, no fingers</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">06</span>
             <strong>User live test</strong>
-            <span>Rejected: hands, ice/translucency, sentry visuals</span>
+            <span>Snapshot 89 live session active; verdict pending</span>
           </li>
         </ol>
 
@@ -153,7 +153,7 @@
               <strong>Reproducible package</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              108 validators owned; all 89 mandatory source gates pass. A clean OAT package rebuild is active with the immutable-source linker projection repair.
+              Snapshot 89 sealed 5,985 production files and built one exact tuple. OpenAssetTools finished with 0 warnings and 0 errors; the manifest and all three runtime files are hash-bound.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
@@ -165,7 +165,7 @@
               <strong>Engine envelope and maps</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              Materials 353/760, union 1676/2048, XModels 989/1000; 18 of 21 stock maps supported.
+              Materials 299/760, runtime union 1678/2048, XModels 988/1000 on mp_vacant; all 18 shipped maps meet the 990 release threshold.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
@@ -213,7 +213,7 @@
               <strong>User live session</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              User-live play rejected this exact tuple: collapsed viewhands, widespread opaque/corrupt rendering, a composite sentry pile, and displaced sights.
+              The previous tuple was rejected for collapsed viewhands, corrupt surfaces, a composite sentry pile, and displaced sights. Snapshot 89 is clean-installed from its sealed hashes and is now under user-live judgment.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-live">User live</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -237,42 +237,42 @@
             <div class="metric-head">
               <div>
                 <span class="metric-label">Materials</span>
-                <strong>353 <small>/ 760</small></strong>
+                <strong>299 <small>/ 760</small></strong>
               </div>
               <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="Materials used" aria-valuemin="0" aria-valuemax="760" aria-valuenow="353">
-              <span style="--meter-fill: 46.4%"></span>
+            <div class="meter" role="progressbar" aria-label="Materials used" aria-valuemin="0" aria-valuemax="760" aria-valuenow="299">
+              <span style="--meter-fill: 39.3%"></span>
             </div>
-            <p>46.4% used <span>407 headroom</span></p>
+            <p>39.3% used <span>461 headroom</span></p>
           </article>
 
           <article class="budget-metric">
             <div class="metric-head">
               <div>
                 <span class="metric-label">Map + mod assets</span>
-                <strong>1,676 <small>/ 2,048</small></strong>
+                <strong>1,678 <small>/ 2,048</small></strong>
               </div>
               <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="Map and mod assets used" aria-valuemin="0" aria-valuemax="2048" aria-valuenow="1676">
-              <span style="--meter-fill: 81.8%"></span>
+            <div class="meter" role="progressbar" aria-label="Map and mod assets used" aria-valuemin="0" aria-valuemax="2048" aria-valuenow="1678">
+              <span style="--meter-fill: 81.9%"></span>
             </div>
-            <p>81.8% used <span>372 headroom</span></p>
+            <p>81.9% used <span>370 headroom</span></p>
           </article>
 
           <article class="budget-metric is-tight">
             <div class="metric-head">
               <div>
                 <span class="metric-label">XModels on mp_vacant</span>
-                <strong>989 <small>/ 1,000</small></strong>
+                <strong>988 <small>/ 1,000</small></strong>
               </div>
               <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="XModels used on mp_vacant" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="989">
-              <span style="--meter-fill: 98.9%"></span>
+            <div class="meter" role="progressbar" aria-label="XModels used on mp_vacant" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="988">
+              <span style="--meter-fill: 98.8%"></span>
             </div>
-            <p>98.9% used <span>11 engine / 1 safety headroom</span></p>
+            <p>98.8% used <span>12 engine / 2 safety headroom</span></p>
           </article>
 
           <article class="budget-metric">
@@ -293,20 +293,20 @@
         <div class="package-strip" aria-label="IWD package inventory">
           <div class="package-title">
             <span class="eyebrow">IWD inventory</span>
-            <strong><code>Round 2 sealed candidate / quarantined</code></strong>
+            <strong><code>Snapshot 89 exact runtime package</code></strong>
           </div>
           <dl>
             <div>
               <dt>Package size</dt>
-              <dd>28,677,579 <small>bytes</small></dd>
+              <dd>29,853,466 <small>bytes</small></dd>
             </div>
             <div>
               <dt>Files</dt>
-              <dd>509</dd>
+              <dd>519</dd>
             </div>
             <div>
               <dt>Runtime images</dt>
-              <dd>330</dd>
+              <dd>340</dd>
             </div>
           </dl>
         </div>
@@ -318,14 +318,30 @@
         <header class="section-heading">
           <div>
             <p class="eyebrow">Live checkpoint</p>
-            <h2 id="current-round-title">Center Every Sight, Seal Every Runtime State</h2>
+            <h2 id="current-round-title">Sealed Test Tuple; Live Test Active</h2>
           </div>
-          <span class="status status-unknown status-large">Snapshot 88 / run 17 wins blind; cuff repair active</span>
+          <span class="status status-unknown status-large">Snapshot 89 / package PASS; Ghost diagnostic HOLD</span>
         </header>
 
         <div class="round-grid">
           <div>
             <dl class="round-facts">
+              <div>
+                <dt>Exact test tuple</dt>
+                <dd><strong class="text-pass">BUILD AND PACKAGE PASS.</strong> <code>mod.ff</code> is <code>8B0F3FEB...</code> at <code>24,587,852</code> bytes; <code>xi_ftag.iwd</code> is <code>0369317B...</code> at <code>29,853,466</code> bytes; <code>xi_ftag.cfg</code> is <code>FAC54B77...</code>. The source manifest is <code>B25A6AD7...</code>, and the frozen build input is <code>C2D14FF2...</code>.</dd>
+              </div>
+              <div>
+                <dt>Build evidence</dt>
+                <dd><a href="evidence/current/seal/snapshot89-build-report.md">Read the Snapshot 89 report</a>, <a href="evidence/current/seal/snapshot89-build-result.json">inspect the machine-readable result</a>, or <a href="evidence/current/seal/snapshot89-build-sha256sums.txt">verify the exact hashes</a>.</dd>
+              </div>
+              <div>
+                <dt>Concurrent map work</dt>
+                <dd>The separate map agent's work is outside this sealed runtime tuple. Snapshot 89 packages only the main <code>xi_ftag</code> runtime files and does not modify or publish custom-map work.</dd>
+              </div>
+              <div>
+                <dt>Steam test install</dt>
+                <dd><strong class="text-pass">EXACT TUPLE VERIFIED.</strong> The three Snapshot 89 files were clean-installed at <code>2026-08-28 16:44 EDT</code>; all destination hashes match the sealed manifest. The previous runtime was moved intact to <code>_backup_xi_ftag_20260828_164451_dbe64e08</code> before publication.</dd>
+              </div>
               <div>
                 <dt>Recovered builders</dt>
                 <dd>All eight operator far LODs now have promotion receipts. Alice's <code>900 exported / 712 compiled</code> challenger beat production <code>8.75 / 2.00</code> in a concealed A/B, passed a fresh OAT round trip, and was promoted through a hash-sealed rollback transaction. LOD0, viewhands, cards, and the other seven operators stayed unchanged.</dd>
@@ -340,7 +356,7 @@
               </div>
               <div>
                 <dt>Remote viewer</dt>
-                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=88">GitHub Pages dashboard</a> works away from the home network over HTTPS. Only this curated dashboard repository is served; the private mod and recovered reference source remain private.</dd>
+                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=89">GitHub Pages dashboard</a> works away from the home network over HTTPS. Only this curated dashboard repository is served; the private mod and recovered reference source remain private.</dd>
               </div>
               <div>
                 <dt>Alignment evaluator</dt>
@@ -360,7 +376,7 @@
               </div>
               <div>
                 <dt>Best hands probe</dt>
-                <dd><strong>RUN 17 WINS THE BLIND CHALLENGER REVIEW, STILL HELD.</strong> The fresh critic ranked run 17 ahead of runs 10 and 12 plus current production across all eight weapon-attached motions. It preserves the Ghost skin, gloves, tattoos, UVs, stock71 rig, and coherent hands while removing the earlier floating dots. OAT and deterministic rebuilds pass. Cuff components still separate under motion, so promotion remains blocked; a reversible live diagnostic is cleared and a cuff-only repair round is active.</dd>
+                <dd><strong>ROUND 6 LIVE DIAGNOSTIC ONLY.</strong> Seven production viewhands retain the strict native articulation gate. Ghost is exact-hash isolated to the sealed Round 6 diagnostic, but it has only <code>8</code> weighted joints and no finger articulation. It is cleared only for a reversible user comparison and is forbidden from permanent promotion.</dd>
               </div>
               <div>
                 <dt>Weapon alignment</dt>
@@ -368,11 +384,11 @@
               </div>
               <div>
                 <dt>Sentry deployment trace</dt>
-                <dd>Current source routes both Frost Sentry and Sentry Grenade through the same <code>briefcase_bomb_defuse_mp</code> throwable-marker system, including the same settle and detonation resolver. Their different live-test deployment presentation therefore indicates stale or mismatched packaged source, not an intentional source-path difference; seal round 6 must prevent that mismatch before the next build.</dd>
+                <dd>The sealed source routes both sentries through the shared suitcase deployment path while retaining one full-size lethal gun and one mini T8 defroster. Snapshot 89 must now prove in game that stale composite geometry is gone and both presentations match the intended deployment.</dd>
               </div>
               <div>
                 <dt>Outlaw lens and IWD</dt>
-                <dd>The Outlaw lens alpha/material repair and runtime-reference checks pass. The sealed Round 2 candidate contains <code>330</code> runtime images plus all <code>179</code> required non-image entries, passes ZIP CRC, decodes <code>330 / 330</code> IWIs, and retains the authoritative XRK and sentry-spec payloads. The installed IWD remains intentionally untouched and stale.</dd>
+                <dd>The exact Snapshot 89 IWD contains <code>340</code> reachable runtime images and <code>519</code> total entries at <code>29,853,466</code> bytes. ZIP ordering, CRC, exclusions, source-backed material reachability, and all <code>72</code> announcer clips pass. Its Steam copy now matches the sealed hash byte-for-byte.</dd>
               </div>
               <div>
                 <dt>Hades world probe</dt>
@@ -384,7 +400,7 @@
               </div>
               <div>
                 <dt>Weapon-pool constraint</dt>
-                <dd>The playable source remains at <code>11</code> explicit fastfile weapons and <code>84 / 128</code> runtime names. Round 2 is a complete <code>509</code>-entry candidate: <code>330</code> images plus all <code>179</code> non-image entries. It lowers linked FF image names from <code>405</code> to <code>346</code>, reduces IWI payload from <code>78,436,172</code> to <code>59,430,376</code> bytes, preserves every HD hard-veto asset, and passes decode, alpha, normal-map, CRC, and dependency checks. It is sealed for independent criticism, not promoted.</dd>
+                <dd>The playable source stays at <code>11</code> explicitly linked weapons inside the <code>128</code>-weapon runtime pool. Snapshot 89 links <code>61</code> concrete XModels plus <code>11</code> verified stock references and leaves <code>12</code> engine XModel slots on <code>mp_vacant</code>. Retired XI Signature and duplicate-finish runtime assets remain unlinked.</dd>
               </div>
             </dl>
 
