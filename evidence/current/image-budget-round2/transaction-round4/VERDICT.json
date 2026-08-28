@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "audit": "visual_asset_budget_promotion_critic_round4",
+  "sourcePromotionDecision": "PASS",
+  "safeForTransactionalSourcePromotion": true,
+  "approvedOperationCount": 40,
+  "approvedToolSha256": "9E7D23235559F6091DA73F91AD121B5D7F7BCE9D2B98423660712E8AEB9CBBE8",
+  "approvedSourceLedgerSha256": "127AAAE5A38278AD97F750FC73A7838628C73139212840F1F8FB535AB933047B",
+  "approvedBuilderSealSha256": "C308F9E601B216EF70156DDB4FED7AD9DA4E7BD5B6B04E2DF532F7C470B62CC5",
+  "evidenceSealSha256": "3320790262CF42F4AC89211D571309F23F92309CCCED6C0BADF9ADCE6804214F"
+}
