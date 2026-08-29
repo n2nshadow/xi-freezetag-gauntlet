@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "verdict": "FAIL/HOLD",
+  "productionOrBuilderModified": false,
+  "checks": {
+    "productionBodyHashStillExpected": true,
+    "candidateBodyHashStillExpected": true,
+    "candidateAtlasHashStillExpected": true
+  },
+  "inputs": [
+    {
+      "role": "production body",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/model_export/playermodel_xi_ghost_5_1_lod0.glb",
+      "bytes": 660820,
+      "sha256": "E3ECF995A3431F0FD561774AB58495D7CB632CC9C444F0D4CD7E8CC13D470437"
+    },
+    {
+      "role": "production viewhands control",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/model_export/viewhands_xi_ghost_5_1_lod0.glb",
+      "bytes": 546008,
+      "sha256": "C6E3C50502E9FD01CB08B8DAFED17CC8C6026D8016C33C58630FEC3DC23FD803"
+    },
+    {
+      "role": "production atlas",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/images_source/xi_operator_ghost_5_1_t8_atlas_col.dds",
+      "bytes": 16777344,
+      "sha256": "EADC7C86A60B395A9EFA3EF11D13CD6FB290411E307F673B585154BE4F17774F"
+    },
+    {
+      "role": "production body material",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/materials/mc/xi_operator_ghost_5_1_t8_atlas.json",
+      "bytes": 3357,
+      "sha256": "709BADC6010409A414A203EAD513E541124F1AF1222C4BA892899675346F1761"
+    },
+    {
+      "role": "production glass material",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/zone_raw/xi_ftag/materials/mc/xi_operator_ghost_5_1_t8_atlas_glass.json",
+      "bytes": 2401,
+      "sha256": "B7E44930FEF689D846C295EFFF9A1247858B7815D4AFBEDF4FEE35C12D9D4C8C"
+    },
+    {
+      "role": "sealed candidate body",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_builder_round3/candidate/playermodel_xi_ghost_5_1_lod0.glb",
+      "bytes": 660820,
+      "sha256": "3544E7E44F4CE5623A31CB98CD4759AC93D81C1BACB8B414C03D80A378897931"
+    },
+    {
+      "role": "sealed candidate atlas",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_builder_round3/candidate/xi_operator_ghost_5_1_t8_atlas_col.dds",
+      "bytes": 16777344,
+      "sha256": "37E22E89D9A49E1EFEBD6FD1FE5AF44251B7C66D9D0367595BFC472AFFC2F32A"
+    },
+    {
+      "role": "candidate body material",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_builder_round3/candidate/materials/mc/xi_operator_ghost_5_1_t8_atlas.json",
+      "bytes": 3327,
+      "sha256": "12B1FEF053E77CCA27999FB8031F48D117E86732E42CE6E338E099AACDB13047"
+    },
+    {
+      "role": "candidate glass material",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_builder_round3/candidate/materials/mc/xi_operator_ghost_5_1_t8_atlas_glass.json",
+      "bytes": 2401,
+      "sha256": "B7E44930FEF689D846C295EFFF9A1247858B7815D4AFBEDF4FEE35C12D9D4C8C"
+    },
+    {
+      "role": "builder projection evidence read by critic",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_builder_round3/projection-audit.json",
+      "bytes": 13795,
+      "sha256": "0D782A1B336F7776E145C76CBC9149A0C6E42B5359D10E7F412BA6516C6ED306"
+    },
+    {
+      "role": "builder alpha evidence read by critic",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_builder_round3/alpha-contract.json",
+      "bytes": 3567,
+      "sha256": "66C7175AC1D9D445B64CFD068412CE8F28A245393FF2C4C1C75714330FD63FBB"
+    },
+    {
+      "role": "authored rear reference",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_builder_round3/renders/reference-authored/rear.png",
+      "bytes": 2744187,
+      "sha256": "5797AAC13168C62E01FE54610815CD215BE25F49F0EA79FC72D61C0F2FBC2ABB"
+    },
+    {
+      "role": "authored source card",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/operator_critic_resume/renders/references/t8-operator-card-resized.png",
+      "bytes": 1013666,
+      "sha256": "6D698E7479E440F25A2CF755793E8E7C0E5B3810CF85C39AAFED598256FEAB4C"
+    },
+    {
+      "role": "prior independent evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/operator_critic_resume/REPORT.md",
+      "bytes": 13903,
+      "sha256": "B9390E61816C4CB830AE8BE594B446568493E3C309DCE2F7E32CC5803BB97BD4"
+    },
+    {
+      "role": "prior fresh production pool audit",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/operator_critic_resume/current-pool-oat-audit.json",
+      "bytes": 45655,
+      "sha256": "8C823E1314C714CEEBE659008DF0339BB4A3FBB0590B7CF57F070E7BCBE2B005"
+    },
+    {
+      "role": "OAT linker",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/viewhands_ghost_round4_reproducible_builder/inputs/oat-v0.32.0-pristine/Linker.exe",
+      "bytes": 4483072,
+      "sha256": "1A5CB7499458BEF359F55FF2A78C72E5822F62455599AB291B590DA747C0233B"
+    },
+    {
+      "role": "OAT unlinker",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/viewhands_ghost_round4_reproducible_builder/inputs/oat-v0.32.0-pristine/Unlinker.exe",
+      "bytes": 4568576,
+      "sha256": "8475AF247240D34B29AA51AE5C84B3E4AED2F7100BB5C689FD3FA1EA666F4A7F"
+    },
+    {
+      "role": "OAT image converter",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.audit/viewhands_ghost_round4_reproducible_builder/inputs/oat-v0.32.0-pristine/ImageConverter.exe",
+      "bytes": 361984,
+      "sha256": "FB0EFD4172DC741CEB2329D000118C6262EEA2D9103A24092FB4AA0CA4218906"
+    }
+  ],
+  "evidence": [
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/REPORT.md",
+      "bytes": 8918,
+      "sha256": "BC909443B4E43A660ED9E3671626A15FA311B25A273869458ACCE42B69A280E4"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/RESULT.json",
+      "bytes": 3442,
+      "sha256": "28F60EF9E99757376262DCD16A97267322E34B3258355090C5E4668B5C213CCC"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/VERDICT.txt",
+      "bytes": 10,
+      "sha256": "63F88977BA2AE5702FE04420CC0807506C9676839AE26A956B56BC0141E11727"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/glb-containment-audit.json",
+      "bytes": 9145,
+      "sha256": "F92848303AA9061D4A138D48A57AAAF7843F6C0E630225B1A10E1FCF7E35B2EC"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/oat-isolated-audit.json",
+      "bytes": 18556,
+      "sha256": "7C8BFBF4B29C47900F18F76F882A4F50660E9561C8390112CBD1052268332D53"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/oat-roundtrip-audit.json",
+      "bytes": 38998,
+      "sha256": "7DC9DB47F061A90C9E3E825FCA4725FB5C322B1E5E0BADA036051E30632D4713"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/oat-production.log",
+      "bytes": 2432,
+      "sha256": "BDDAF5351A1FF486C8B9BA798A23CA031982659D3A16DE094CA6BC60995F3D38"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/oat-candidate.log",
+      "bytes": 2432,
+      "sha256": "F1734C30EB2902FF77648DFF34E9F5925887DD969B942CF6E5C6F73E9BF85702"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/MANIFEST-pre-reveal.json",
+      "bytes": 5693,
+      "sha256": "2C50AA412BBC3A9B9FDBD85A0520286FD1ABFC329E91C70E6B4D127AEC19B5F0"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/BALLOT-pre-reveal.md",
+      "bytes": 3372,
+      "sha256": "1E807AB310A4230D725AD2CAFD4E17D45179A42D1632E7B1D199E5E96F19BE53"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/SEALED-KEY.json",
+      "bytes": 497,
+      "sha256": "421923944219870B4B2DF17B9469CD38324D8695390D6E48A33C9ECF95583F19"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/SEALED-KEY.sha256",
+      "bytes": 83,
+      "sha256": "FAD0D1C88B6B0BC68D99E03D957A30141F41B04ECD9AF1F9A9531AEDC725466E"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/RESULT-post-reveal.json",
+      "bytes": 633,
+      "sha256": "0ABA1F95DCE4C9E6097726B896A33DC02C21979499AAB174B5226DD06EE500DA"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/close-boots-lower-straps.png",
+      "bytes": 324244,
+      "sha256": "9BC28C0C9201F5B9693CCB3CB535DF473DB22E42D3DB75DE6B1737347076C4C9"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/close-face-hair.png",
+      "bytes": 436334,
+      "sha256": "5A06C12F27FF642D8C4B00FE3C85028D080CCCCC4E48C5B22D1F0B4BD82BF155"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/close-pants-knees.png",
+      "bytes": 387823,
+      "sha256": "621827D4475713FBC0936F066278A27C23905DFC3B0E78F71B3ECD54EC91DFAD"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/close-vest-patch-shirt.png",
+      "bytes": 631768,
+      "sha256": "524432F24881A4DD81E955F1ABD09C6A7A8DB05638208853BFEF7A04CE7A341E"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/close-wrists-cuffs.png",
+      "bytes": 528837,
+      "sha256": "A1251379736BE4CA801E4B892C70DDCAEB47A06B64AD1AD7D44451D914D10938"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/panel-front-left-3q.png",
+      "bytes": 1373457,
+      "sha256": "21EE9A924092F50C58AC9B4E3EBA13544806ABA94433C04A96186F3A85CD31F2"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/panel-front-right-3q.png",
+      "bytes": 1374864,
+      "sha256": "0FD4DFD72B177300BA0F131298985D0328A1955D62798CEBDC37051B2F242D8C"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/panel-front.png",
+      "bytes": 1414716,
+      "sha256": "EDEF03EBC859F8B9EFFA2A3B975976ECECE65C9E5FD29C6D21EDED23CCEE7AD8"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/panel-left.png",
+      "bytes": 947132,
+      "sha256": "02E7E2E6294BDF187FF38F01D3BE4374181529BE88FE204C361533130AF145DA"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/panel-rear-left-3q.png",
+      "bytes": 1331792,
+      "sha256": "8CD4CBE8400790D881A848CE8042E12F9A7EB6C28164F98D5CC4A5B62CAB0CEC"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/panel-rear-right-3q.png",
+      "bytes": 1343642,
+      "sha256": "3D24488770546442A787DF4BECD35800425A9C66962F33BE225C613437BD6852"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/panel-rear.png",
+      "bytes": 1379729,
+      "sha256": "6BB2B43EFE41492D7C251D266B28F170BFE0CCADDD3D3A84FB8EB4BA0DD4BAD5"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/panel-right.png",
+      "bytes": 947891,
+      "sha256": "43C8E311AC33F3A5487733934F6BA38802713EFEE26DB1FF599A8DEE742BEC50"
+    },
+    {
+      "role": "critic evidence",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/blind/source-card-vs-blind-front-3q.png",
+      "bytes": 1524219,
+      "sha256": "635998480270EEE33624F4DE1DE7C5399757786A6F2177E44E1C1DC2390D743A"
+    }
+  ],
+  "methods": [
+    {
+      "role": "critic method",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/audit_candidate.py",
+      "bytes": 14656,
+      "sha256": "B678EEF0C76A07C44C10C65BB2C2AE7FA98EACA0CF4BBCE7DA7B0BB50175FCD8"
+    },
+    {
+      "role": "critic method",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/audit_roundtrip.py",
+      "bytes": 7676,
+      "sha256": "BDEADAE6EE0646B47C2D7A7B566A0C6E5C4BD2BFE111622AD1F3D09C719A1480"
+    },
+    {
+      "role": "critic method",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/make_blind_evidence.py",
+      "bytes": 6745,
+      "sha256": "40091CE23189DCB6F0A75B7D716AF147CF53093DFDAD18C7AFF3BB9161E4797B"
+    },
+    {
+      "role": "critic method",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/render_blind_views.py",
+      "bytes": 6572,
+      "sha256": "90F0EC549D7A99647BDA026F1EEAA9953AD0B1A621DBEB6AD8AC7251E7C0296E"
+    },
+    {
+      "role": "critic method",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/run_isolated_oat.ps1",
+      "bytes": 13219,
+      "sha256": "4F141ACB7A493BFA0666B52FABF817511F4F4A43B6497D4FC7265CA118B1BCE4"
+    },
+    {
+      "role": "critic method",
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/ghost_atlas_critic_round3/finalize_evidence.py",
+      "bytes": 5065,
+      "sha256": "FF916B9A1EF9AA8B83D7F3D3DD778D1017E961D67EEFD4E123088DED1731B449"
+    }
+  ],
+  "counts": {
+    "inputs": 18,
+    "evidence": 27,
+    "methods": 6
+  }
+}

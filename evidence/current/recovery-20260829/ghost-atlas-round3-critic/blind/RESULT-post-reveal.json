@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sealedKeySha256Expected": "421923944219870B4B2DF17B9469CD38324D8695390D6E48A33C9ECF95583F19",
+  "sealedKeySha256Actual": "421923944219870B4B2DF17B9469CD38324D8695390D6E48A33C9ECF95583F19",
+  "sealedKeyVerified": true,
+  "ballotSha256": "1E807AB310A4230D725AD2CAFD4E17D45179A42D1632E7B1D199E5E96F19BE53",
+  "mapping": {
+    "A": "production",
+    "B": "candidate"
+  },
+  "preRevealPreference": "A",
+  "preRevealAbsoluteResult": "FAIL/HOLD for both labels",
+  "candidateResultAfterReveal": "FAIL/HOLD",
+  "candidateLostBlindScore": true,
+  "productionScore": 26,
+  "candidateScore": 14,
+  "promote": false
+}

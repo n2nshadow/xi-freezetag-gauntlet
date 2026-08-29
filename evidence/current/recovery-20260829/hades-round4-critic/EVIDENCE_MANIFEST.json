@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "critic": "fresh-independent-hades-critic-round4",
+  "verdict": "FAIL/HOLD",
+  "createdUtc": "2026-08-29T08:41:45.4413198Z",
+  "authoritativeRepo": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag",
+  "writeScope": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4",
+  "productionArtifactsModified": false,
+  "sealedWorldCandidatePresent": false,
+  "identityWorldIsWorldCandidate": false,
+  "methods": [
+    "independent SHA-256 verification",
+    "matched Blender 3.6 EEVEE production renders",
+    "independent cryptographic A/B assignment per view",
+    "ballot frozen before blind-key read",
+    "independent Blender connectivity/boundary/helper/optic audit",
+    "independent UV-to-35-region atlas classification",
+    "authoritative plan and production gate reconciliation"
+  ],
+  "blind": {
+    "pairCount": 7,
+    "keySha256": "8DC3F0DC2448A1FE2C99B355E367FE8FD7A7D927A4F45569A8639707DBCFB109",
+    "manifest": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\blind-manifest.json",
+    "ballot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\BLIND_BALLOT.md"
+  },
+  "inputs": [
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\source_data\\t8_asset_import_plan.json",
+      "sha256": "1400132FBF4C035D5ECB01AEB0F3D69710068B8CB7F98F6A36E79FE90DF84CF4",
+      "bytes": 18814
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\t8_pack\\bruenmk9\\candidate-summary.json",
+      "sha256": "23BF543722656C773B32418D9033BE55CD34F2DE895C44EE895AFD32D57121F9",
+      "bytes": 4220
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\t8_pack\\bruenmk9\\atlases\\atlas-build-report.json",
+      "sha256": "5CCD6EC38748E24EAABA150FC277353F3E9D12F756BD7421917E58F09243E8FF",
+      "bytes": 64826
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\t8_pack\\active_optics\\atlases\\atlas-build-report.json",
+      "sha256": "8417B2DACC6F6556BBAB099858847E1D0FA30293ABAF1750C7F08FD7079B2D90",
+      "bytes": 37309
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\weapon_optic_resume\\audits\\v4-production-visual-gates.json",
+      "sha256": "9AA67B77404D708879446C88FD5C0CB2B518FA884FB5521444A57F4C3FC7B4F4",
+      "bytes": 16474
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\weapon_optic_resume\\audits\\hades-world-production-final-glb-validation.json",
+      "sha256": "C666344460D418202E3E0A20B375DB0FEBF223431875E1B3C5D942A0652FBEC0",
+      "bytes": 15121
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\t8_pack\\rigged\\bruenmk9\\bruenmk9-view-rigged.glb",
+      "sha256": "AE3587149234105B9295A1C7AFE9B1AFDE3B53F5F41A45E5FB020563A6EE85B3",
+      "bytes": 1929964
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\weapon_optic_resume\\bruen\\work\\v4-final\\bruenmk9-view-feature-body.glb",
+      "sha256": "0A87523EAB9E649DD80E7FD5E4B3F96068799BAFBF0C46338FF800D9A928AA3D",
+      "bytes": 1201880
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\weapon_optic_resume\\bruen\\work\\v4-final\\bruenmk9-view-rigged-optics.glb",
+      "sha256": "C4F916CF2FD0F7DE0964E3106207A3D26016DD4A92CC028B3A9E3C0CAC81EDD2",
+      "bytes": 2028856
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\zone_raw\\xi_ftag\\model_export\\viewmodel_t8_hades_venom_lod0.glb",
+      "sha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1",
+      "bytes": 1770564
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\zone_raw\\xi_ftag\\model_export\\worldmodel_t8_hades_venom_lod0.glb",
+      "sha256": "6A234017B0377A584365C93718501C8D7E4EF1F5F9809B9478BD0ABC4F4E25C0",
+      "bytes": 1091336
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\source_data\\t8_weapon_textures\\bruenmk9\\xi_t8_bruenmk9_col.png",
+      "sha256": "4FF02878B0E3147B00E30A3356A9C59E74F170F3ADE61676EFF88DA0F0BFF3BE",
+      "bytes": 2759770
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\t8_pack\\active_optics\\atlases\\xi_t8_optics_col.png",
+      "sha256": "60BB4B515537089DD7012328E72A1817C3B6E1ED4A7050760DB6EA21A66A4671",
+      "bytes": 1325505
+    }
+  ],
+  "generatedArtifacts": [
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\acog-ads-blind-pair.png",
+      "sha256": "8D4CCC1348460C7316815642C6535499E18EE263C1C82F17EE262F2E70D94247",
+      "bytes": 528500
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\holographic-ads-blind-pair.png",
+      "sha256": "886FB23ECA855F393960A3CC1064AF8812280F54EE2BF217288017F0B8FCB9A8",
+      "bytes": 493519
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\identity-profile-blind-pair.png",
+      "sha256": "FE30E82C245867DBA86E91A56063751460D9807ADF7B454F6BD8B07F1871DB7C",
+      "bytes": 471329
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\identity-world-blind-pair.png",
+      "sha256": "CDE6B41FF48082C0ABC8000F61FC7E283EF9895C318AC7B2C34E4F13E67AFC57",
+      "bytes": 547094
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\iron-ads-blind-pair.png",
+      "sha256": "FCBF17EFB8CD5435A81DC10A7A5D8DB03692202778DF1DB4517A5C216471E2E5",
+      "bytes": 472556
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\iron-hip-blind-pair.png",
+      "sha256": "94B2AA2601AE02F308A8060874D198D7A60F5C34CFDADD6DA8C430280C9A268C",
+      "bytes": 1049438
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\production-view-independent-audit.json",
+      "sha256": "C1C88D1D219D256CAAD8F4F75DA643F038454026E9A0AB02B1EFEF38C7B80737",
+      "bytes": 136343
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\production-view-region-audit.json",
+      "sha256": "DD578469400A68435114CEFBB7A6D5F349AFC031E4F9B3F37BC78511461D7081",
+      "bytes": 11382
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\production-world-independent-audit.json",
+      "sha256": "7D9F036E6628BA74A51C3C1D5B63D38E285F217220B1A9EC9BFE0AADC5187E94",
+      "bytes": 24197
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\production-world-region-audit.json",
+      "sha256": "8C230BE2F810335A17420DDD586537987DE0BD85BD145158B8376A48363E91AC",
+      "bytes": 11366
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\reflex-ads-blind-pair.png",
+      "sha256": "CE82E4AE9B17944A03DB644AE9FE195E2B4998EA3DD7AF21E5ACAAD8FAFD0244",
+      "bytes": 515844
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\sealed-view-body-independent-audit.json",
+      "sha256": "73060EA8E60D586507C9B086951C013FDE3260A8846F4C40C43EC16CC23FB655",
+      "bytes": 33777
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\sealed-view-body-region-audit.json",
+      "sha256": "508BBD1D41444B488A150DF31A216780F30A6C12DDFEB3C08CCD79633F5595B3",
+      "bytes": 11399
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\sealed-view-composed-independent-audit.json",
+      "sha256": "CA0E059E5A2455A78F0883D2A874514BD2C6E3C66964A4651E91A7359DF7E955",
+      "bytes": 181807
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\source-view-rigged-independent-audit.json",
+      "sha256": "5AFEEF20DB18443FB4412526D4060EBF489B77A6688841DA493BC977C5C5A674",
+      "bytes": 33822
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\analysis\\source-view-rigged-region-audit.json",
+      "sha256": "820560369BEBB738433A018BAFFC709F30F736E27E7FEFB0B95064125EF3009E",
+      "bytes": 11404
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\audit_atlas_regions.py",
+      "sha256": "38050E9C1ED5658DAFD64257021730821D82754EC0B60B6EFCD7FA28B2678A45",
+      "bytes": 6314
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\audit_glb.py",
+      "sha256": "D034ACC050FC0E7876A45CE9089DCA102B201006B95E42C3C3BFA45ADBD1DC6B",
+      "bytes": 10264
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\BLIND_BALLOT.md",
+      "sha256": "0A17F54C6DDF6D95951DF32FBC23A175E90BF3946989738F601C6D613E47555D",
+      "bytes": 1987
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\acog-ads-A.png",
+      "sha256": "0B5073611946CF8F93768C900B0565C0B3FFFCDD5A7FE427AD1C1E3D576E981A",
+      "bytes": 2093316
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\acog-ads-B.png",
+      "sha256": "DFD87C0C63148B730F600B99AC2B62878FD9501FF47680B97CF2FF905C3ED651",
+      "bytes": 1946103
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\blind-key.json",
+      "sha256": "8DC3F0DC2448A1FE2C99B355E367FE8FD7A7D927A4F45569A8639707DBCFB109",
+      "bytes": 2437
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\blind-manifest.json",
+      "sha256": "CC7CBDB70AFCEA1C1AA511A9F9F0B9E3B3602C736FB989ACC91CD400E671BF4B",
+      "bytes": 5040
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\holographic-ads-A.png",
+      "sha256": "BC7EE077EE78369B688ADE693BA2B400207C42AC1F4EAD1AB5B3BD8B96ADF0FE",
+      "bytes": 1951438
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\holographic-ads-B.png",
+      "sha256": "2FB352E8F2CED45717BF9776CEED955B163A4D63321F2041F8FC37BDF0A22F97",
+      "bytes": 1992181
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\identity-profile-A.png",
+      "sha256": "274DACAA5A2300523087B270751B73D134849C0E8DA03C5A7F2E87D660E295C2",
+      "bytes": 1982421
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\identity-profile-B.png",
+      "sha256": "C1CD7E1AE008E786FD58B655BA78F30412F6B60FABFF7D2F70FD77172465BF0C",
+      "bytes": 1992304
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\identity-world-A.png",
+      "sha256": "1CB23733311D6DD1534E61075B6DA0F82E0A4F4204C4198BE033A63E61864DEC",
+      "bytes": 2069223
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\identity-world-B.png",
+      "sha256": "AD7787E6E2C2EFE03FFB12DC81460F21D07A7E4E651FCFA8145CEE7DDC6C6843",
+      "bytes": 2081172
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\iron-ads-A.png",
+      "sha256": "50945842BD66F62E7574164BD3624579C58CC3999101BE19B823B516F347E9CD",
+      "bytes": 1909169
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\iron-ads-B.png",
+      "sha256": "C1C3D2F49B5E3DDE185D00093411D97C5A4967FFD034ADF9A91FD21A347E6660",
+      "bytes": 1991504
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\iron-hip-A.png",
+      "sha256": "D67DAC0D2E14229038E446A4606CAA0F7285DD0FBDF30918B9F5E629AD1B1B42",
+      "bytes": 2653175
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\iron-hip-B.png",
+      "sha256": "EB0EFDB19FB76A16367F95E0FBABC96199810F94BD3AE6D2154398497D8E064C",
+      "bytes": 2579676
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\reflex-ads-A.png",
+      "sha256": "846DF62AE42C5F33520D33C2809751A174A015AA7FBF552A6E7129C6D7A8B87B",
+      "bytes": 1942215
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\blind\\reflex-ads-B.png",
+      "sha256": "735DA50F88EABC53D076B250AB2AE51088F541518E823BC3967A74920C60A038",
+      "bytes": 2091179
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\acog-ads.json",
+      "sha256": "03C1071DCBD94181A3E88237C526096C2C57A9528FCB6DDD0A700F3F0221B0C7",
+      "bytes": 2540
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\acog-ads.png",
+      "sha256": "0B5073611946CF8F93768C900B0565C0B3FFFCDD5A7FE427AD1C1E3D576E981A",
+      "bytes": 2093316
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\holographic-ads.json",
+      "sha256": "DB99EED5FA9F7F183B574B8B20832CBE816B7F85B178C5584652575347A4B5B2",
+      "bytes": 2548
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\holographic-ads.png",
+      "sha256": "2FB352E8F2CED45717BF9776CEED955B163A4D63321F2041F8FC37BDF0A22F97",
+      "bytes": 1992181
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\identity-profile.json",
+      "sha256": "0CFD9D0116FE11754D7F50E9EB29B029D5DF72816B503D56F74CE1EC2CC0AA03",
+      "bytes": 2497
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\identity-profile.png",
+      "sha256": "C1CD7E1AE008E786FD58B655BA78F30412F6B60FABFF7D2F70FD77172465BF0C",
+      "bytes": 1992304
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\identity-world.json",
+      "sha256": "6E5D85D0FDE51AE205F3B88F7AAC79F80C47609A1C783403C922EB5A787FF2F9",
+      "bytes": 2491
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\identity-world.png",
+      "sha256": "AD7787E6E2C2EFE03FFB12DC81460F21D07A7E4E651FCFA8145CEE7DDC6C6843",
+      "bytes": 2081172
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\iron-ads.json",
+      "sha256": "4EAFBC10B40B8A7A7F19D0B654F5B1A671E2F5C841378598178C72752A485814",
+      "bytes": 2462
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\iron-ads.png",
+      "sha256": "C1C3D2F49B5E3DDE185D00093411D97C5A4967FFD034ADF9A91FD21A347E6660",
+      "bytes": 1991504
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\iron-hip.json",
+      "sha256": "761A7E062A21018F96FE327EDE2E4CFD0B676E41AC9367CB8A8BA50DAD4632CB",
+      "bytes": 2425
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\iron-hip.png",
+      "sha256": "D67DAC0D2E14229038E446A4606CAA0F7285DD0FBDF30918B9F5E629AD1B1B42",
+      "bytes": 2653175
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\reflex-ads.json",
+      "sha256": "BD3C82DEF50D6D58158D4A68C5946F3212D46C20C791544B7109CFA52070E1C0",
+      "bytes": 2536
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\matched\\production\\reflex-ads.png",
+      "sha256": "735DA50F88EABC53D076B250AB2AE51088F541518E823BC3967A74920C60A038",
+      "bytes": 2091179
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\REPORT.md",
+      "sha256": "07B947B38F8D88632DE34A28A51DDFE361F858A095E670AA91E2058C5BBFA1ED",
+      "bytes": 8565
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag\\xi_ftag\\.asset_staging\\agents\\hades_critic_round4\\RESULT.json",
+      "sha256": "812D890347A5B51A14A65D5C37AC6FB8797C618CE3E4C27F5613DEC60F26D165",
+      "bytes": 3583
+    }
+  ]
+}

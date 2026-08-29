@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "verdict": "FAIL/HOLD",
+  "promote": false,
+  "productionUnchanged": true,
+  "sealedInputs": {
+    "productionBodySha256": "E3ECF995A3431F0FD561774AB58495D7CB632CC9C444F0D4CD7E8CC13D470437",
+    "candidateBodySha256": "3544E7E44F4CE5623A31CB98CD4759AC93D81C1BACB8B414C03D80A378897931",
+    "candidateAtlasDdsSha256": "37E22E89D9A49E1EFEBD6FD1FE5AF44251B7C66D9D0367595BFC472AFFC2F32A",
+    "allVerified": true
+  },
+  "blindReview": {
+    "sealedKeySha256": "421923944219870B4B2DF17B9469CD38324D8695390D6E48A33C9ECF95583F19",
+    "ballotSha256": "1E807AB310A4230D725AD2CAFD4E17D45179A42D1632E7B1D199E5E96F19BE53",
+    "mapping": {
+      "A": "production",
+      "B": "candidate"
+    },
+    "productionScore": 26,
+    "candidateScore": 14,
+    "maximumScore": 40,
+    "candidateViewWins": 0,
+    "productionViewWins": 6,
+    "ties": 2,
+    "absolutePass": false
+  },
+  "hardCriteria": {
+    "faceBeardVestPatchShirtJeansBootSemantics": "FAIL",
+    "noNonAuthoredOpaqueBacking": "FAIL",
+    "noRandomAtlasIslands": "FAIL",
+    "authoredCutoutAlpha": "FAIL",
+    "noFragmentedDecalsPatchesKneesLegsHolesTriangles": "FAIL",
+    "topologySkeletonWeightsViewhandsPoolNoLoss": "PASS",
+    "glbTexcoordOnlyContainment": "PASS",
+    "isolatedOatCompileRoundtrip": "PASS"
+  },
+  "visualVetoes": [
+    "fragmented patchwork beard",
+    "colored neck and front-vest islands",
+    "patch-edge breakup",
+    "white backing-like grenade mark",
+    "fragmented rear vest emblem",
+    "large dark stretched side/rear vest wedge",
+    "blue-white lower-leg UV chevrons"
+  ],
+  "containment": {
+    "candidateBytes": 660820,
+    "changedBytes": 30807,
+    "changedBytesOutsideTexcoord0": 0,
+    "uvRows": 8939,
+    "changedUvRows": 8210,
+    "jsonChunkByteIdentical": true,
+    "topologyPositionsNormalsIndicesJointsWeightsHierarchySlotsFilenameIdentical": true
+  },
+  "atlas": {
+    "decodedRgbDifferentPixels": 0,
+    "decodedAlphaDifferentPixels": 579448,
+    "productionOpaquePixels": 2298134,
+    "candidateOpaquePixels": 2877582,
+    "productionZeroAlphaPixels": 1167003,
+    "candidateZeroAlphaPixels": 1041366
+  },
+  "oat": {
+    "version": "0.32.0",
+    "productionWarnings": 0,
+    "productionErrors": 0,
+    "candidateWarnings": 0,
+    "candidateErrors": 0,
+    "compiledBody": {
+      "productionVertices": 8365,
+      "candidateVertices": 8365,
+      "productionFaces": 6060,
+      "candidateFaces": 6060,
+      "productionBones": 51,
+      "candidateBones": 51
+    },
+    "compiledViewhands": {
+      "productionVertices": 6473,
+      "candidateVertices": 6473,
+      "productionFaces": 7672,
+      "candidateFaces": 7672,
+      "productionBones": 71,
+      "candidateBones": 71,
+      "contentExceptHarnessZoneOriginIdentical": true
+    },
+    "candidateWorsensBodyPool": false,
+    "candidateWorsensViewhandsPool": false,
+    "roundtripNonUvBodyPayloadsIdentical": true,
+    "roundtripAllViewhandsPayloadsIdentical": true
+  },
+  "largestRemainingGap": "Source-surface correspondence inside shared atlas tiles; tile-constrained nearest-triangle projection still lands disconnected beard, decal, vest, and lower-leg components on the wrong authored islands.",
+  "smallestNextBuilderScope": "Restart from production and remap only an explicit rear-vest-emblem vertex mask using source-surface/component identity. Freeze all other TEXCOORD_0 rows, atlas RGB/alpha, material JSON, geometry, skinning, viewhands, and pools."
+}

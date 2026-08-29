@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "critic": "fresh-independent-hades-critic-round4",
+  "verdict": "FAIL/HOLD",
+  "strict": true,
+  "compileStatus": "unproven",
+  "productionPromotion": "hold",
+  "oat": {
+    "run": false,
+    "eligible": false,
+    "reason": "No complete sealed view+world package; no sealed world candidate exists."
+  },
+  "sealedPackage": {
+    "complete": false,
+    "viewBody": {
+      "sha256": "0A87523EAB9E649DD80E7FD5E4B3F96068799BAFBF0C46338FF800D9A928AA3D",
+      "hashVerified": true
+    },
+    "composedView": {
+      "sha256": "C4F916CF2FD0F7DE0964E3106207A3D26016DD4A92CC028B3A9E3C0CAC81EDD2",
+      "hashVerified": true
+    },
+    "worldCandidate": null,
+    "identityWorldIsWorldCandidate": false
+  },
+  "production": {
+    "viewSha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1",
+    "worldSha256": "6A234017B0377A584365C93718501C8D7E4EF1F5F9809B9478BD0ABC4F4E25C0"
+  },
+  "blindBallot": {
+    "pairCount": 7,
+    "sealedPreferred": 5,
+    "productionPreferred": 0,
+    "ties": 2,
+    "unconditionalPasses": 0,
+    "recordedBeforeUnsealing": true,
+    "keySha256": "8DC3F0DC2448A1FE2C99B355E367FE8FD7A7D927A4F45569A8639707DBCFB109"
+  },
+  "hardCriteria": {
+    "physicalConnectivity": "fail",
+    "noLoosePaleBlocksOrOpenUnderside": "fail",
+    "actualWorldCandidate": "fail",
+    "correctAds": "fail",
+    "transparentUsableOptics": "fail",
+    "reflexCorruptionRepair": "pass",
+    "acogTransmission": "fail"
+  },
+  "namedGates": [
+    {
+      "name": "hades-required-view-features",
+      "status": "fail",
+      "artifactCondition": "present in sealed geometry",
+      "reason": "authoritative plan excludes required uber/snake sources"
+    },
+    {
+      "name": "hades-required-world-features",
+      "status": "fail",
+      "artifactCondition": "not reviewable",
+      "reason": "no sealed world candidate and plan omissions"
+    },
+    {
+      "name": "hades-blue-purple-ivory-palette",
+      "status": "fail",
+      "artifactCondition": "passes in staged atlas",
+      "reason": "authoritative plan is incomplete and not reproducible"
+    },
+    {
+      "name": "hades-ivory-is-assigned-to-snake-skin",
+      "status": "fail",
+      "artifactCondition": "passes in sealed artifact",
+      "reason": "authoritative plan leaves snake main/head grades null"
+    },
+    {
+      "name": "hades-large-surfaces-remain-blue-purple-dark",
+      "status": "fail",
+      "artifactCondition": "passes in sealed artifact",
+      "reason": "authoritative plan omits upper-armor grade"
+    },
+    {
+      "name": "hades-uber-decals-use-authored-cutout-alpha",
+      "status": "fail",
+      "artifactCondition": "passes in staged atlas",
+      "reason": "authoritative plan omits required material class declarations"
+    },
+    {
+      "name": "hades-production-final-glb-atlas-and-topology",
+      "status": "fail",
+      "artifactCondition": "35 regions map",
+      "reason": "production world fails boundary-edge-density"
+    }
+  ],
+  "connectivity": {
+    "sealedViewBody": {
+      "triangles": 13412,
+      "components": 2205,
+      "boundaryEdges": 15216,
+      "boundaryDensity": 0.54879896
+    },
+    "productionWorld": {
+      "triangles": 10000,
+      "components": 2826,
+      "boundaryEdges": 14928,
+      "boundaryDensity": 0.66452991
+    }
+  },
+  "biggestGap": "No actual sealed world candidate.",
+  "smallestNextBuilderScope": "Create and seal one staging-only Hades world GLB from the staged world reference and 35-region atlas, with SHA-256, topology/UV audit, and real world-model renders; do not promote production."
+}

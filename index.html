@@ -99,7 +99,7 @@
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">05</span>
             <strong>Blind visual A/B</strong>
-              <span>Round 2 beat current in 5/5 motions, but lost 5/5 to stock; atlas repair active</span>
+              <span>Ghost atlas round 3 lost 14-26; rear-emblem-only correction active</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">06</span>
@@ -320,7 +320,7 @@
             <p class="eyebrow">Live checkpoint</p>
             <h2 id="current-round-title">Visual Repair Gauntlet Active</h2>
           </div>
-          <span class="status status-unknown status-large">Weapon specialist and Ghost atlas repair active; deployables source pass</span>
+          <span class="status status-unknown status-large">Ghost rear-emblem and Hades world-only builders active; no candidate promoted</span>
         </header>
 
         <div class="round-grid">
@@ -328,7 +328,7 @@
             <dl class="round-facts">
               <div>
                 <dt>Active repair round</dt>
-                <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> The deployables specialist passed the current one-piece source layout and shared suitcase marker, but release remains on hold until a fresh full build proves both throws, settling, spawn, sweep, and cleanup in CoD4. The resumed operator critic held Round 2: hands improved over current in all five motions but lost all five stock controls, and the third-person body remained visually tied because its semantic atlas mapping is wrong. Hades still fails seven real visual/material gates. A material-only Ghost atlas builder and the weapon specialist are active in isolated F: staging.</dd>
+                <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> The deployables specialist passed the current one-piece source layout and shared suitcase marker, but release remains on hold until a fresh full build proves both throws, settling, spawn, sweep, and cleanup in CoD4. Ghost atlas round 3 compiled cleanly yet lost its blind comparison <code>14-26</code>: global projection changed <code>8,210 / 8,939</code> UV rows and introduced beard, vest, and lower-leg artifacts. Production stayed unchanged. The next Ghost builder is restricted to an explicit rear-emblem vertex mask. The fresh Hades critic also held its candidate: no real world GLB exists, so a world-only builder is now producing the missing reviewable half without altering view optics.</dd>
               </div>
               <div>
                 <dt>Triangle allocation result</dt>
@@ -364,7 +364,7 @@
               </div>
               <div>
                 <dt>Remote viewer</dt>
-                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=90">GitHub Pages dashboard</a> works away from the home network over HTTPS. Only this curated dashboard repository is served; the private mod and recovered reference source remain private.</dd>
+                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=91">GitHub Pages dashboard</a> works away from the home network over HTTPS. Only this curated dashboard repository is served; the private mod and recovered reference source remain private.</dd>
               </div>
               <div>
                 <dt>Alignment evaluator</dt>
@@ -387,6 +387,10 @@
                 <dd><strong class="text-fail">FAIL / HOLD; PRODUCTION UNCHANGED.</strong> The candidate hands won <code>5 / 5</code> strict blind comparisons against current, but lost <code>5 / 5</code> against stock, remained oversized and open-handed, and raised the compiled viewhands maximum by <code>1,022</code> vertices. The body was a <code>4 / 4</code> visual tie because only skin weights changed; the broken source-material-to-atlas assignment could not improve. The next builder is restricted to Ghost body atlas mapping with topology, positions, joints, weights, viewhands, and pool counts frozen. <a href="evidence/current/recovery-20260829/operator-round2-critic/REPORT.md">Read the critic report.</a></dd>
               </div>
               <div>
+                <dt>Ghost Atlas Round 3 verdict</dt>
+                <dd><strong class="text-fail">FAIL / HOLD; PRODUCTION UNCHANGED.</strong> The candidate passed isolated OAT linkage and preserved exact body, hands, topology, skeleton, material-slot, and pool counts, but a fresh blind critic scored production <code>26</code> to candidate <code>14</code>. The broad remap changed <code>8,210 / 8,939</code> UV rows and produced patchwork beard, neck/vest islands, a malformed grenade mark, stretched vest geometry, and blue-white lower-leg fragments. The next round starts from production and may change only an explicitly verified rear-emblem vertex mask; atlas RGB/alpha and every other UV remain frozen. <a href="evidence/current/recovery-20260829/ghost-atlas-round3-critic/REPORT.md">Read the critic report.</a></dd>
+              </div>
+              <div>
                 <dt>Weapon alignment</dt>
                 <dd><strong>FAMILY 01 OPTIC TRANSLATION REJECTED ON CONTACT.</strong> A real geometry bake centered reflex and ACOG views, but side/profile evidence showed both optic assemblies floating above the receiver rail. That candidate is rejected. The next pass must keep rigid authored optics physically seated and center the whole weapon through an engine-consumed ADS path, never by separating the sight from the gun.</dd>
               </div>
@@ -400,7 +404,7 @@
               </div>
               <div>
                 <dt>Hades world probe</dt>
-                <dd><strong class="text-fail">CURRENT SOURCE FAILS 7 VISUAL GATES.</strong> The Hades candidate is inside the coarse triangle envelope, but required view/world features, the blue-purple-ivory palette, ivory snake-skin assignment, broad-surface balance, authored decal cutout alpha, and final GLB atlas/topology evidence are not acceptable yet. No promotion is authorized.</dd>
+                <dd><strong class="text-fail">FRESH CRITIC FAIL / HOLD; ALL 7 GATES STILL FAIL.</strong> The sealed view won five decisive blind comparisons and tied two identity views, but none passed unconditionally. All optics remain visibly unseated, ACOG and holographic transmission are unusable, loose/open geometry remains, the import plan is stale, and no sealed world GLB exists. OAT was correctly skipped because the view/world package is incomplete. The next builder may create only one real world candidate with topology, UV, identity, and compile evidence. <a href="evidence/current/recovery-20260829/hades-round4-critic/REPORT.md">Read the critic report.</a></dd>
               </div>
               <div>
                 <dt>Operator LOD3 verdict</dt>
@@ -1677,13 +1681,13 @@
           </figure>
 
           <figure class="gallery-item gallery-item-wide">
-            <a class="gallery-image" href="evidence/current/weapons/silhouette-round1/hades-balanced-ads.png">
-              <img src="evidence/current/weapons/silhouette-round1/hades-balanced-ads.png" alt="Balanced 11991-triangle Hades candidate viewed through its authored iron-sight axis" loading="lazy">
+            <a class="gallery-image" href="evidence/current/recovery-20260829/hades-round4-critic/analysis/acog-ads-blind-pair.png">
+              <img src="evidence/current/recovery-20260829/hades-round4-critic/analysis/acog-ads-blind-pair.png" alt="Anonymized matched ACOG sight comparison between production and the held Hades round-four candidate" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-fail">Hades / current visual gate FAIL</span>
-              <strong>Numeric budget compliance is not enough</strong>
-              <span>This earlier candidate records useful sight-corridor work, but the current source still fails seven Hades feature, palette, material, alpha, and topology checks. The specialist is rebuilding from the authored source identity; this image is evidence, not an accepted production result.</span>
+              <span class="status status-fail">Hades round 4 / strict FAIL-HOLD</span>
+              <strong>The improved view still has floating, unusable optics</strong>
+              <span>The sealed view won the five decisive blind comparisons, but none passed unconditionally. This matched ACOG pair exposes the elevated mount and dark transmission; the holographic sight is also opaque, loose geometry remains, and no actual world candidate exists. The next round is world-only, leaving these view failures isolated for a later correction.</span>
             </figcaption>
           </figure>
 
@@ -1706,6 +1710,17 @@
               <span class="status status-fail">Viewhands / improved over current, still HOLD</span>
               <strong>Round 2 wins the local comparison but not the stock bar</strong>
               <span>The independent critic preferred Round 2 over current in every one of five matched motion sheets, including this sealed M16 reload pair. It still lost all five <a href="evidence/current/recovery-20260829/operator-round2-critic/hands-ads-stock-candidate.png">stock-control comparisons</a>, retained oversized open grips, and set a higher compiled viewhands-pool maximum. Production hashes remain unchanged.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260829/ghost-atlas-round3-critic/blind/source-card-vs-blind-front-3q.png">
+              <img src="evidence/current/recovery-20260829/ghost-atlas-round3-critic/blind/source-card-vs-blind-front-3q.png" alt="Ghost source card beside anonymized production and round-three atlas candidates from matching front three-quarter views" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-fail">Ghost atlas round 3 / blind FAIL</span>
+              <strong>A clean compile did not make the broad remap visually correct</strong>
+              <span>The fresh critic preferred production <code>26-14</code> across eight matched views. Round 3 preserved geometry, skeleton, materials, and runtime pool counts, but rewrote almost the entire UV set and introduced beard, vest, grenade, and lower-leg fragments. It was rejected without touching production; the next attempt is rear-emblem-only.</span>
             </figcaption>
           </figure>
 
