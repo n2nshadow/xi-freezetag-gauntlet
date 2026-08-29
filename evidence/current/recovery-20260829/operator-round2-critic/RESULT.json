@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "critic": "independent operator/viewhands resume",
+  "date": "2026-08-29",
+  "verdict": "FAIL_HOLD",
+  "promotionRecommended": false,
+  "productionModified": false,
+  "largestRemainingGap": {
+    "category": "third_person_body_semantic_material_atlas_remap",
+    "finding": "The clean original T8 operator becomes patchwork/incorrect in the converted source, production, round-2, offline XAnim, and retained live evidence even though UVs and normals are finite. Round 2 changes only skin attributes and cannot close this gap."
+  },
+  "candidateEvaluation": {
+    "body": {
+      "sha256": "0AF050FE19EB0CD4D564DB33318A642DEC8BCD861299FD8A62E1A0FBA63FBCFF",
+      "result": "FAIL",
+      "blindCurrentCandidate": {
+        "motions": 4,
+        "candidateWins": 0,
+        "ties": 4,
+        "absolutePasses": 0
+      },
+      "glb": {
+        "joints": 51,
+        "weightedJoints": 34,
+        "serializedVertices": 8939,
+        "triangles": 6060,
+        "materialSlots": 2
+      },
+      "compiled": {
+        "vertices": 8365,
+        "faces": 6060,
+        "bones": 51,
+        "materialSlots": 2,
+        "worsensCurrentPoolMaximum": false
+      },
+      "dense367Poses": {
+        "edgeP999Worst": 3.7622072731446394,
+        "edgeMaximumWorst": 4.10573222492624,
+        "collapsedTrianglesMaximum": 8,
+        "expandedTrianglesMaximum": 4
+      }
+    },
+    "viewhands": {
+      "sha256": "E8F7C4F2E6B532CFCE98BE968AA91C47ADEC395571B6FA07FB5343ED31179BA1",
+      "result": "FAIL_BEST_PARTIAL_IMPROVEMENT",
+      "blind": {
+        "currentCandidateMotions": 5,
+        "candidateWinsVsCurrent": 5,
+        "absolutePasses": 0,
+        "candidateWinsVsStock": 0,
+        "candidateWinsVsT8SourceBind": 0
+      },
+      "glb": {
+        "joints": 71,
+        "weightedJoints": 51,
+        "serializedVertices": 9780,
+        "triangles": 11506,
+        "materialSlots": 2
+      },
+      "compiled": {
+        "vertices": 8886,
+        "faces": 11506,
+        "bones": 71,
+        "materialSlots": 2,
+        "productionGhostVertexDelta": 2413,
+        "productionPoolMaximumDelta": 1022,
+        "worsensCurrentPoolMaximum": true
+      },
+      "sourceSilhouette": {
+        "iou": 0.1764571166838429,
+        "convertedAreaRatio": 1.6911726185278966
+      },
+      "independentMotionCoverage": {
+        "fullFrames": 520,
+        "motionFamilies": 10,
+        "mainFiveFamilyPassed": false,
+        "idleEquipmentPassed": true,
+        "augL118SpasClassSpreadPassed": false
+      }
+    }
+  },
+  "materialChain": {
+    "productionFilesChecked": 10,
+    "allByteIdenticalToConversionCandidateSource": true,
+    "bodyAtlasSourceMaterials": 62,
+    "bodyAtlasDdsDimensions": [2048, 2048],
+    "bodyAtlasIwiDimensions": [1024, 1024]
+  },
+  "oatRoundtrip": {
+    "result": "PASS_STRUCTURAL_ONLY",
+    "fastfileBytes": 518105,
+    "fastfileSha256": "7C6CBEF67F4DD2CAF445AAC99245AFB5518AA3FCAAC40DF67E68D89824B539F3",
+    "warnings": 0,
+    "errors": 0,
+    "inputAndExtractedGlbsByteIdentical": false
+  },
+  "nextBuilderRound": {
+    "scope": "ghost_body_atlas_remap_only",
+    "freeze": [
+      "viewhands",
+      "body_positions",
+      "body_indices",
+      "body_topology",
+      "body_joints",
+      "body_weights"
+    ],
+    "requiredCompiledContract": {
+      "bones": 51,
+      "vertices": 8365,
+      "faces": 6060,
+      "materialSlots": 2,
+      "mustNotSetNewPoolMaximum": true
+    }
+  },
+  "evidenceRoot": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/operator_critic_resume"
+}

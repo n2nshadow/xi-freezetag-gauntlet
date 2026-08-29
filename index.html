@@ -70,7 +70,7 @@
             </div>
             <div class="snapshot-stamp">
               <span>Current verdict: <strong class="text-fail">FAIL</strong></span>
-              <time datetime="2026-08-29T02:32:00-04:00">29 Aug 2026, 02:32 EDT</time>
+              <time datetime="2026-08-29T03:03:00-04:00">29 Aug 2026, 03:03 EDT</time>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">05</span>
             <strong>Blind visual A/B</strong>
-              <span>Ghost Round 6 is diagnostic only; 8 weighted joints, no fingers</span>
+              <span>Round 2 beat current in 5/5 motions, but lost 5/5 to stock; atlas repair active</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">06</span>
@@ -201,7 +201,7 @@
               <strong>Blind visual A/B</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              The critic scored 38/100; custom viewhands lost all 16 stock comparisons across eight operators.
+              The resumed critic preferred Round 2 over current in all five motion pairs, but stock still won all five control pairs. The third-person body tied current 4/4 because its semantic material-atlas remap remains broken.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -320,7 +320,7 @@
             <p class="eyebrow">Live checkpoint</p>
             <h2 id="current-round-title">Visual Repair Gauntlet Active</h2>
           </div>
-          <span class="status status-unknown status-large">Recovery resumed; two visual specialists active, deployables source pass</span>
+          <span class="status status-unknown status-large">Weapon specialist and Ghost atlas repair active; deployables source pass</span>
         </header>
 
         <div class="round-grid">
@@ -328,7 +328,7 @@
             <dl class="round-facts">
               <div>
                 <dt>Active repair round</dt>
-                <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> The deployables specialist passed the current one-piece source layout and shared suitcase marker, but release remains on hold until a fresh full build proves both throws, settling, spawn, sweep, and cleanup in CoD4. The weapon and operator specialists remain active. Hades is the present weapon blocker and fails seven real visual/material gates; the viewhands lane still requires articulated stock-compatible fingers and clean cuffs.</dd>
+                <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> The deployables specialist passed the current one-piece source layout and shared suitcase marker, but release remains on hold until a fresh full build proves both throws, settling, spawn, sweep, and cleanup in CoD4. The resumed operator critic held Round 2: hands improved over current in all five motions but lost all five stock controls, and the third-person body remained visually tied because its semantic atlas mapping is wrong. Hades still fails seven real visual/material gates. A material-only Ghost atlas builder and the weapon specialist are active in isolated F: staging.</dd>
               </div>
               <div>
                 <dt>Triangle allocation result</dt>
@@ -364,7 +364,7 @@
               </div>
               <div>
                 <dt>Remote viewer</dt>
-                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=89">GitHub Pages dashboard</a> works away from the home network over HTTPS. Only this curated dashboard repository is served; the private mod and recovered reference source remain private.</dd>
+                <dd><strong class="text-pass">PERMANENT PUBLIC PAGE LIVE.</strong> The dedicated <a href="https://n2nshadow.github.io/xi-freezetag-gauntlet/?snapshot=90">GitHub Pages dashboard</a> works away from the home network over HTTPS. Only this curated dashboard repository is served; the private mod and recovered reference source remain private.</dd>
               </div>
               <div>
                 <dt>Alignment evaluator</dt>
@@ -383,8 +383,8 @@
                 <dd><strong class="text-pass">CURRENT SOURCE PASS / RELEASE HOLD.</strong> A fresh specialist verified one shared suitcase marker, identical deployment timing, one clean full-size lethal sentry, one compact defroster, no C4/claymore presentation, no child-model pileup, and grounded yaw-only rotation. Two independent OAT probes produced the same <code>704,685</code>-byte fastfile with zero warnings/errors. A real client test is still required, especially around the retained <code>0.8</code>-second settle fuse.</dd>
               </div>
               <div>
-                <dt>Best hands probe</dt>
-                <dd><strong>ROUND 6 LIVE DIAGNOSTIC ONLY.</strong> Seven production viewhands retain the strict native articulation gate. Ghost is exact-hash isolated to the sealed Round 6 diagnostic, but it has only <code>8</code> weighted joints and no finger articulation. It is cleared only for a reversible user comparison and is forbidden from permanent promotion.</dd>
+                <dt>Operator Round 2 verdict</dt>
+                <dd><strong class="text-fail">FAIL / HOLD; PRODUCTION UNCHANGED.</strong> The candidate hands won <code>5 / 5</code> strict blind comparisons against current, but lost <code>5 / 5</code> against stock, remained oversized and open-handed, and raised the compiled viewhands maximum by <code>1,022</code> vertices. The body was a <code>4 / 4</code> visual tie because only skin weights changed; the broken source-material-to-atlas assignment could not improve. The next builder is restricted to Ghost body atlas mapping with topology, positions, joints, weights, viewhands, and pool counts frozen. <a href="evidence/current/recovery-20260829/operator-round2-critic/REPORT.md">Read the critic report.</a></dd>
               </div>
               <div>
                 <dt>Weapon alignment</dt>
@@ -1699,13 +1699,13 @@
           </figure>
 
           <figure class="gallery-item gallery-item-wide">
-            <a class="gallery-image" href="evidence/current/hands/operator-round1/m16-reload.png">
-              <img src="evidence/current/hands/operator-round1/m16-reload.png" alt="Current staged Ghost viewhands candidate under the stock M16 reload motion" loading="lazy">
+            <a class="gallery-image" href="evidence/current/recovery-20260829/operator-round2-critic/hands-m16-reload-current-candidate.png">
+              <img src="evidence/current/recovery-20260829/operator-round2-critic/hands-m16-reload-current-candidate.png" alt="Anonymized current and Round 2 Ghost viewhands under the same M16 reload motion" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-fail">Viewhands / fresh critic HOLD</span>
-              <strong>Cleaner silhouette, but finger articulation is not real yet</strong>
-              <span>The exact stock71 skeleton and OAT compile pass, but the critic found weights on only eight arm joints. All finger chains remain inert, so the same builder has resumed to repair weights before another blind review. A separate <a href="evidence/current/hands/operator-round1/body-reload-frame-45.png">third-person reload frame</a> records the body candidate.</span>
+              <span class="status status-fail">Viewhands / improved over current, still HOLD</span>
+              <strong>Round 2 wins the local comparison but not the stock bar</strong>
+              <span>The independent critic preferred Round 2 over current in every one of five matched motion sheets, including this sealed M16 reload pair. It still lost all five <a href="evidence/current/recovery-20260829/operator-round2-critic/hands-ads-stock-candidate.png">stock-control comparisons</a>, retained oversized open grips, and set a higher compiled viewhands-pool maximum. Production hashes remain unchanged.</span>
             </figcaption>
           </figure>
 
