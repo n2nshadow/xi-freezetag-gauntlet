@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "verdict": "PASS",
+  "scope": "XI Ghost rear-emblem Round 4 independent critic",
+  "productionUnchanged": true,
+  "steamUnchanged": true,
+  "authorization": {
+    "stagingPromotionReview": true,
+    "productionPromotion": false,
+    "install": false,
+    "commit": false,
+    "steamEdit": false
+  },
+  "sealedInputs": {
+    "productionBodySha256": "E3ECF995A3431F0FD561774AB58495D7CB632CC9C444F0D4CD7E8CC13D470437",
+    "candidateBodySha256": "B8F99F41F67AABD5C724E5584F43A48132C510A472A9D93C78C4F7FE152BB4F4",
+    "priorRound3BodySha256": "3544E7E44F4CE5623A31CB98CD4759AC93D81C1BACB8B414C03D80A378897931",
+    "productionViewhandsSha256": "C6E3C50502E9FD01CB08B8DAFED17CC8C6026D8016C33C58630FEC3DC23FD803",
+    "allVerified": true
+  },
+  "blindReview": {
+    "freshBlind": true,
+    "sealedKeySha256": "CFE02BAD7CE55038D659E14C4F322CB3133A0F0796432B197C98284D2A115D64",
+    "ballotSha256": "A66851B0E1BFBAA912DC8625F87A00851AD1041954C419A1052100AC4B8DF601",
+    "ballotFrozenBeforeReveal": true,
+    "authoredReferenceExcludedUntilAfterFreeze": true,
+    "mapping": {
+      "A": "production",
+      "B": "candidate"
+    },
+    "winner": "candidate",
+    "rear": "candidate",
+    "rearLeftThreeQuarter": "candidate",
+    "rearRightThreeQuarter": "candidate",
+    "front": "exact tie",
+    "left": "tie except rear-emblem edge pixels",
+    "right": "tie except rear-emblem edge pixels",
+    "alphaAllViews": "exact tie",
+    "visualGate": "PASS"
+  },
+  "visualArtifacts": {
+    "newBeard": false,
+    "newNeck": false,
+    "newVestIsland": false,
+    "newWrist": false,
+    "newPants": false,
+    "newBoot": false,
+    "newAlpha": false
+  },
+  "glbContainment": {
+    "pass": true,
+    "candidateBytes": 660820,
+    "changedFileBytes": 110,
+    "changedTexcoordRows": 24,
+    "changedAccessor": 2,
+    "changedRows": [467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 482, 484, 485, 490, 493, 497, 498, 499, 503, 504, 505],
+    "affectedTriangles": 25,
+    "allChangesInsideTexcoord0": true,
+    "jsonHeaderTopologyPositionsNormalsTangentsIndicesJointsWeightsHierarchySkeletonMaterialSlotsIdentical": true,
+    "atlasRgbAlphaIdentical": true,
+    "materialFilesIdentical": true,
+    "viewhandsIdentical": true
+  },
+  "priorRound3Regression": {
+    "pass": true,
+    "round3ChangedFileBytes": 30807,
+    "round3ChangedUvRows": 8210,
+    "round4ChangedFileBytes": 110,
+    "round4ChangedUvRows": 24,
+    "priorFailuresAbsent": true
+  },
+  "oat": {
+    "pass": true,
+    "version": "0.32.0",
+    "productionWarningsErrors": [0, 0],
+    "candidateWarningsErrors": [0, 0],
+    "xmodelExportUnlinkWarningsErrors": {
+      "production": [0, 0],
+      "candidate": [0, 0]
+    },
+    "gltfUnlinkWarningsErrors": {
+      "production": [0, 0],
+      "candidate": [0, 0]
+    },
+    "compiledBody": {
+      "production": {"vertices": 8365, "faces": 6060, "bones": 51, "objects": 2, "materials": 2},
+      "candidate": {"vertices": 8365, "faces": 6060, "bones": 51, "objects": 2, "materials": 2}
+    },
+    "compiledHands": {
+      "production": {"vertices": 6473, "faces": 7672, "bones": 71, "objects": 2, "materials": 2},
+      "candidate": {"vertices": 6473, "faces": 7672, "bones": 71, "objects": 2, "materials": 2}
+    },
+    "assetCounts": {
+      "production": {"images": 4, "materials": 4, "techniquesets": 1, "xmodels": 2},
+      "candidate": {"images": 4, "materials": 4, "techniquesets": 1, "xmodels": 2}
+    },
+    "noBodyHandsMaterialImageXmodelPoolIncrease": true,
+    "productionAndSteamHashesUnchanged": true
+  },
+  "containment": {
+    "pass": true,
+    "criticWorkspaceOnly": true,
+    "productionDependenciesRehashedUnchanged": true,
+    "candidateRehashedUnchanged": true,
+    "oatAndSteamReadOnlyInputsRehashedUnchanged": true
+  },
+  "authoredReference": {
+    "nonVoting": true,
+    "introducedAfterBallotFreeze": true,
+    "bodySha256": "90E3DEE917126F61C8703EE0B8B3E34FF0DCE3489CFDE2F8CF0910A689D30180"
+  },
+  "residualNote": "Production's unchanged modeled dark overlaps still interrupt the center of the authored emblem; this is inherited, byte-identical, and not a Round 4 regression.",
+  "finalAction": "Allow staging promotion review only; retain production unchanged pending a separate explicit promotion decision."
+}

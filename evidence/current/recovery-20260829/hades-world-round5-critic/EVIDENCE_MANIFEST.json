@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "status": "complete",
+  "verdict": "HOLD",
+  "root": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/hades_world_critic_round5",
+  "manifestSelfExcluded": true,
+  "sealedInputsFinalRehash": {
+    "candidate": "D8E207A31DC66497D168A1BCE84633234BAD609B46FDCF257718DDA379F6D300",
+    "productionWorld": "6A234017B0377A584365C93718501C8D7E4EF1F5F9809B9478BD0ABC4F4E25C0",
+    "productionView": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1"
+  },
+  "requiredFiles": {
+    "REPORT.md": {
+      "relativePath": "REPORT.md",
+      "bytes": 6313,
+      "sha256": "7C7E3BCA537E8F276D6551CF56B9C55309EADC6781E5A6CE3B189E2F2B589EA1",
+      "role": "required top-level critic deliverable"
+    },
+    "RESULT.json": {
+      "relativePath": "RESULT.json",
+      "bytes": 5207,
+      "sha256": "A1E464C63D5740C0CF8F79DA09CEF35E805054AA7546E1A302DA4BBB23FC3BD1",
+      "role": "required top-level critic deliverable"
+    },
+    "BLIND_KEY.json": {
+      "relativePath": "BLIND_KEY.json",
+      "bytes": 1116,
+      "sha256": "78E8F75448CE770FECD82AFC7BC16E154D602B4A23B0C2B048586EBE4FCF4F89",
+      "role": "required top-level critic deliverable"
+    },
+    "BLIND_BALLOT_PRE_REVEAL.json": {
+      "relativePath": "BLIND_BALLOT_PRE_REVEAL.json",
+      "bytes": 3229,
+      "sha256": "FAE0623B178AC549C5AB4F52F3028854A7719CE4BF2DCCD453462B81B8B2B9A7",
+      "role": "required top-level critic deliverable"
+    },
+    "analysis/BLIND_RESULT_POST_REVEAL.json": {
+      "relativePath": "analysis/BLIND_RESULT_POST_REVEAL.json",
+      "bytes": 1946,
+      "sha256": "5C1D0A5B2C8CFB22BE153DBF21D0C0C453CDE1A94D3690497BA32DCB56207885",
+      "role": "independent audit receipt"
+    },
+    "analysis/WORLD_AUDIT.json": {
+      "relativePath": "analysis/WORLD_AUDIT.json",
+      "bytes": 48212,
+      "sha256": "9E3B82D83148BC450EEFB58499B2A78AACBE1AAA19F6B5548AFE089CFD04A7B7",
+      "role": "independent audit receipt"
+    },
+    "analysis/ATLAS_AUDIT.json": {
+      "relativePath": "analysis/ATLAS_AUDIT.json",
+      "bytes": 43125,
+      "sha256": "D02914963C2BFC87EFEB94114EAB64DC8829EE5E35A5E9B0F95F5EA29078BACA",
+      "role": "independent audit receipt"
+    },
+    "analysis/OAT_PRODUCTION_VIEW_AUDIT.json": {
+      "relativePath": "analysis/OAT_PRODUCTION_VIEW_AUDIT.json",
+      "bytes": 29517,
+      "sha256": "2776058334A094E967BD3FDB424260979C352FE5077C37DB93BB8F7438EFA2CC",
+      "role": "independent audit receipt"
+    },
+    "analysis/PROVENANCE_AUDIT.json": {
+      "relativePath": "analysis/PROVENANCE_AUDIT.json",
+      "bytes": 8864,
+      "sha256": "31C9C6C0A340B40A7A3DC35B9658812F768B2BEEF9E30DC86FDE16AC52DDFDA7",
+      "role": "independent audit receipt"
+    },
+    "analysis/render_receipt.json": {
+      "relativePath": "analysis/render_receipt.json",
+      "bytes": 9575,
+      "sha256": "EE11C672FCF02D83A0C3C876FCF23459587D8738B4CD50C5E9F9EE81C0ACE4D7",
+      "role": "independent audit receipt"
+    }
+  },
+  "counts": {
+    "filesExcludingManifest": 86,
+    "matchedWorldImages": 8,
+    "blindImagesAndPlates": 12,
+    "logs": 15
+  },
+  "failedAttemptsRetained": [
+    {
+      "log": "logs/002-independent-world-audit.log",
+      "reason": "Blender color-managed/premultiplied pixel decode was incorrectly used as an authoritative palette gate; geometry results were valid but the run exited nonzero."
+    },
+    {
+      "log": "logs/004-atlas-rgba-audit.log",
+      "reason": "Initial Pillow gate required stale atlas-report alpha statistics to equal actual PNG pixels. Final audit directly gates actual alpha and records report drift separately."
+    }
+  ],
+  "scope": {
+    "writesConfinedToRoot": true,
+    "productionPromotionPerformed": false,
+    "viewOrOpticAssetModified": false,
+    "primaryOatUsedProductionView": true
+  },
+  "files": [
+    {
+      "relativePath": "analysis/ATLAS_AUDIT.json",
+      "bytes": 43125,
+      "sha256": "D02914963C2BFC87EFEB94114EAB64DC8829EE5E35A5E9B0F95F5EA29078BACA",
+      "role": "independent audit receipt"
+    },
+    {
+      "relativePath": "analysis/BLIND_RESULT_POST_REVEAL.json",
+      "bytes": 1946,
+      "sha256": "5C1D0A5B2C8CFB22BE153DBF21D0C0C453CDE1A94D3690497BA32DCB56207885",
+      "role": "independent audit receipt"
+    },
+    {
+      "relativePath": "analysis/INPUT_SEALS.json",
+      "bytes": 3169,
+      "sha256": "1816F52BF6315AB80DE8ED105B5EC595761EB6D2943E2685DF5D87B330A4DA2D",
+      "role": "independent audit receipt"
+    },
+    {
+      "relativePath": "analysis/OAT_PRODUCTION_VIEW_AUDIT.json",
+      "bytes": 29517,
+      "sha256": "2776058334A094E967BD3FDB424260979C352FE5077C37DB93BB8F7438EFA2CC",
+      "role": "independent audit receipt"
+    },
+    {
+      "relativePath": "analysis/PROVENANCE_AUDIT.json",
+      "bytes": 8864,
+      "sha256": "31C9C6C0A340B40A7A3DC35B9658812F768B2BEEF9E30DC86FDE16AC52DDFDA7",
+      "role": "independent audit receipt"
+    },
+    {
+      "relativePath": "analysis/render_receipt.json",
+      "bytes": 9575,
+      "sha256": "EE11C672FCF02D83A0C3C876FCF23459587D8738B4CD50C5E9F9EE81C0ACE4D7",
+      "role": "independent audit receipt"
+    },
+    {
+      "relativePath": "analysis/WORLD_AUDIT.json",
+      "bytes": 48212,
+      "sha256": "9E3B82D83148BC450EEFB58499B2A78AACBE1AAA19F6B5548AFE089CFD04A7B7",
+      "role": "independent audit receipt"
+    },
+    {
+      "relativePath": "blind/BLIND_MANIFEST_PRE_REVEAL.json",
+      "bytes": 4725,
+      "sha256": "C92055B771EEDD4EA39FF55C373DCF89EE5F311193B2B0D45ABE126F53FAEE2F",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "blind/front-three-quarter-A.png",
+      "bytes": 1803124,
+      "sha256": "C7A4F4F5C598D03BC1FAF1A75A220D6511A609F55414495890A2BF32E4FEF9D6",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/front-three-quarter-B.png",
+      "bytes": 1802233,
+      "sha256": "00B63F93F78BAF84367E6997C40A7C7CF418BC2903F2446EDBD77537B6C84E8C",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/front-three-quarter-blind-plate.png",
+      "bytes": 1282210,
+      "sha256": "B897756D0C4E12277ACEAEB63829D8E1A573E3F114C2B31F97EA7FEAF326AD0B",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/identity-close-A.png",
+      "bytes": 1919444,
+      "sha256": "02840628234478226B53B7D5E2D8010301623D5A09B4CCAE5D74919977FB061D",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/identity-close-B.png",
+      "bytes": 1917179,
+      "sha256": "D51B9D19A794E3D947C0ED29C3FA23932D9A0F2956CDE2BF3BB6FCBAC265B8E6",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/identity-close-blind-plate.png",
+      "bytes": 2071405,
+      "sha256": "A3B162A18C51FDB7E24C27DC7E9220E0F3A52344B79AD402CA34C34538FEB2E5",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/profile-A.png",
+      "bytes": 1774341,
+      "sha256": "83B54D46069E3F4D60D19020AAE11F80F757BCA2E95BD44F0F3DD647DB80CBC4",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/profile-B.png",
+      "bytes": 1772241,
+      "sha256": "F68244311D5C4CDC2FC4DCCB7C6C4F052B841EC6ED36F0EB6F2A27BEE88AE97C",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/profile-blind-plate.png",
+      "bytes": 1329481,
+      "sha256": "1B07D285B2875C9C63E550A78A0005DB8E0581468ADCEA83E7B125CD7BFC2E32",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/rear-three-quarter-A.png",
+      "bytes": 1854892,
+      "sha256": "04F4571EB1748CA8E535F2499E603B0054DE9963A0124DBA98754DDBA1970882",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/rear-three-quarter-B.png",
+      "bytes": 1858215,
+      "sha256": "CDD49F042409B4D4467A706EA9ABF4D755485821C253487BF0B47A9EE6B7E57F",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "blind/rear-three-quarter-blind-plate.png",
+      "bytes": 1433666,
+      "sha256": "5D9C990BB3D6190101DBCDB4E9835A17BDC1775F7A2A0446FD2F43D1081EB5B9",
+      "role": "blind A/B image or plate"
+    },
+    {
+      "relativePath": "BLIND_BALLOT_PRE_REVEAL.json",
+      "bytes": 3229,
+      "sha256": "FAE0623B178AC549C5AB4F52F3028854A7719CE4BF2DCCD453462B81B8B2B9A7",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "BLIND_KEY.json",
+      "bytes": 1116,
+      "sha256": "78E8F75448CE770FECD82AFC7BC16E154D602B4A23B0C2B048586EBE4FCF4F89",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "logs/001-input-seals.log",
+      "bytes": 3169,
+      "sha256": "1816F52BF6315AB80DE8ED105B5EC595761EB6D2943E2685DF5D87B330A4DA2D",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/002-independent-world-audit.log",
+      "bytes": 645,
+      "sha256": "D62F345D20CE898CE5541BBEE58C33AF86D9E8C520596D1AA268D76D6A0B8BB0",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/003-independent-world-audit-authoritative-geometry.log",
+      "bytes": 634,
+      "sha256": "745F5C906775907DA4B58C3DE23704647D8DD6440FAFDA485D6735893ADDE6DC",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/004-atlas-rgba-audit.log",
+      "bytes": 1159,
+      "sha256": "89E8473CB46ADDF2ECAF46EA95ED8AD779B074C6DCD088203024E976AB95C6BD",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/005-atlas-rgba-audit-final.log",
+      "bytes": 1162,
+      "sha256": "D121C811C506CEB000E6018F7240655031912D04E8B912533638EBD0186B0890",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/006-matched-world-renders.log",
+      "bytes": 8254,
+      "sha256": "99E05959C5175E4984213430D4C6420A4686FA2701DB4D77B6EEA2161A9CBD84",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/007-blind-seal.log",
+      "bytes": 263,
+      "sha256": "B16702801AC911DB2115CB2D840FCA089A7387C06B2ACFFC29AC1D934F011EDF",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/008-ballot-freeze.log",
+      "bytes": 300,
+      "sha256": "F12CCF2A0518C4C1220AF429A71FBF0B2FCCE733A2C7FA868EC267A73D6D37D2",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/009-oat-baseline-linker.log",
+      "bytes": 1012,
+      "sha256": "405AC31BC516D644AFD48B0EEA45C9D8CB5DC3A8F610D19035BCBAA7605CDAE5",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/009-oat-candidate-linker.log",
+      "bytes": 1012,
+      "sha256": "F8176D41EAFA9B6F3A98DB190B4482249C5B59BF9964EADAD6D5AF59C6EF2F05",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/010-oat-baseline-unlinker-list.log",
+      "bytes": 1237,
+      "sha256": "D5ABDCE53BE1D2C1FD960FD8A805AE1B81E87FF8E637A9E16854BCBB0DE5C27C",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/010-oat-candidate-unlinker-list.log",
+      "bytes": 1241,
+      "sha256": "CDA15156E09BC1BC097E230D39440F8051CC395CDE9B19CA5E1D74E5E20891BE",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/011-oat-production-view-driver.log",
+      "bytes": 1808,
+      "sha256": "7617CE32D9F2D940E99F432552AD3BAB7ED1AA02CD879425FAA4D45914387F43",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/012-provenance-audit.log",
+      "bytes": 407,
+      "sha256": "4A0C4A32732C7B492F22951B54BD21AC2EB932D523E2B5E89E91AF49B2355942",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "logs/013-final-evidence-build.log",
+      "bytes": 586,
+      "sha256": "6698D8707B7741141E13A8FDA34DBB166730311CDD0083EB35AA65D1C8ECB585",
+      "role": "complete command/audit log"
+    },
+    {
+      "relativePath": "matched/candidate/front-three-quarter.png",
+      "bytes": 1803124,
+      "sha256": "C7A4F4F5C598D03BC1FAF1A75A220D6511A609F55414495890A2BF32E4FEF9D6",
+      "role": "matched genuine world render"
+    },
+    {
+      "relativePath": "matched/candidate/identity-close.png",
+      "bytes": 1917179,
+      "sha256": "D51B9D19A794E3D947C0ED29C3FA23932D9A0F2956CDE2BF3BB6FCBAC265B8E6",
+      "role": "matched genuine world render"
+    },
+    {
+      "relativePath": "matched/candidate/profile.png",
+      "bytes": 1772241,
+      "sha256": "F68244311D5C4CDC2FC4DCCB7C6C4F052B841EC6ED36F0EB6F2A27BEE88AE97C",
+      "role": "matched genuine world render"
+    },
+    {
+      "relativePath": "matched/candidate/rear-three-quarter.png",
+      "bytes": 1858215,
+      "sha256": "CDD49F042409B4D4467A706EA9ABF4D755485821C253487BF0B47A9EE6B7E57F",
+      "role": "matched genuine world render"
+    },
+    {
+      "relativePath": "matched/production/front-three-quarter.png",
+      "bytes": 1802233,
+      "sha256": "00B63F93F78BAF84367E6997C40A7C7CF418BC2903F2446EDBD77537B6C84E8C",
+      "role": "matched genuine world render"
+    },
+    {
+      "relativePath": "matched/production/identity-close.png",
+      "bytes": 1919444,
+      "sha256": "02840628234478226B53B7D5E2D8010301623D5A09B4CCAE5D74919977FB061D",
+      "role": "matched genuine world render"
+    },
+    {
+      "relativePath": "matched/production/profile.png",
+      "bytes": 1774341,
+      "sha256": "83B54D46069E3F4D60D19020AAE11F80F757BCA2E95BD44F0F3DD647DB80CBC4",
+      "role": "matched genuine world render"
+    },
+    {
+      "relativePath": "matched/production/rear-three-quarter.png",
+      "bytes": 1854892,
+      "sha256": "04F4571EB1748CA8E535F2499E603B0054DE9963A0124DBA98754DDBA1970882",
+      "role": "matched genuine world render"
+    },
+    {
+      "relativePath": "oat/baseline/zone_out/xi_hades_r5c_base.ff",
+      "bytes": 789815,
+      "sha256": "3663DEA9953F79A6DA05FF1B080AD1352B172642D27E64176F3E501314494834",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_bruenmk9_col.iwi",
+      "bytes": 262172,
+      "sha256": "BDA82F4437FB1B78D92BE0273C12C7D9C7394BF1A928003ED0733B2E870650CA",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_bruenmk9_nml.iwi",
+      "bytes": 262172,
+      "sha256": "E4EE20A7AD8D77D6B6612DE470E03CBC2AD41823CF3B7B5E9C9C04DCB49112F3",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_bruenmk9_spec.iwi",
+      "bytes": 262172,
+      "sha256": "120DE51B4849E0753AC1F6FC8AAD4FF5E0027F5E139AE13AD6F1F3B4D5AC4978",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_optics_col.iwi",
+      "bytes": 131100,
+      "sha256": "61F8461426131CDFE29D915751F519B0C3EAD68D7F2925C7CF595873146C803B",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_optics_nml.iwi",
+      "bytes": 131100,
+      "sha256": "4841F3CBA7CE7DB46A37583FD72FA44EEC870C378F37D3B67A2F50DE614780C0",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_optics_spec.iwi",
+      "bytes": 131100,
+      "sha256": "59582016E6B4F7245655030EEDF32F153EF31D192F60DFAFD3D0D57CA548CCAD",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/materials/mc/xi_t8_bruenmk9.json",
+      "bytes": 5177,
+      "sha256": "A5FFA8C63AB9BCD2272B89718743989E4F8AFA4AAAB45EA9C28C13E14401CD07",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/materials/mc/xi_t8_bruenmk9_cutout.json",
+      "bytes": 3801,
+      "sha256": "44E776918B355B31EB4689B08594016ECA8C140612FC25DB7E8AE861B1D9B3E6",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/materials/mc/xi_t8_optics.json",
+      "bytes": 5171,
+      "sha256": "5EE6630E18617D337A4DAF25A8204F8BACB270A81DB33EBE4F80A4D81589C81E",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/materials/mc/xi_t8_optics_cutout.json",
+      "bytes": 3794,
+      "sha256": "A636CC36913CCCC2A5E043D3CE6AA27D49AE9115DED3012DA2FC3D52BB221AAC",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/model_export/viewmodel_t8_bruenmk9_candidate_lod0.glb",
+      "bytes": 1770564,
+      "sha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/model_export/worldmodel_t8_bruenmk9_candidate_lod0.glb",
+      "bytes": 1091336,
+      "sha256": "6A234017B0377A584365C93718501C8D7E4EF1F5F9809B9478BD0ABC4F4E25C0",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/xmodel/viewmodel_t8_bruenmk9_candidate.json",
+      "bytes": 298,
+      "sha256": "572E8A72061E7FCBB2D54B9FE374119E1F65924BF66E1DBC8D8CC16B436C5990",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/xmodel/worldmodel_t8_bruenmk9_candidate.json",
+      "bytes": 299,
+      "sha256": "DDCF4524C5E8C8C8C0BE99E77D08D9166E547B6896F6DB03DF34C6FE0779B684",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_source/xi_hades_r5c_base.zone",
+      "bytes": 117,
+      "sha256": "8ADF57027E3DFE62B24BD073472F3568F6AB9B91D955682C9C5FB2F9E62BCDBF",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_out/xi_hades_r5c_cand.ff",
+      "bytes": 773018,
+      "sha256": "2AC1311E7751B8874309173D0CDC50DF5975A3CFF74D28AC170E515E8F79819C",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_bruenmk9_col.iwi",
+      "bytes": 262172,
+      "sha256": "BDA82F4437FB1B78D92BE0273C12C7D9C7394BF1A928003ED0733B2E870650CA",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_bruenmk9_nml.iwi",
+      "bytes": 262172,
+      "sha256": "E4EE20A7AD8D77D6B6612DE470E03CBC2AD41823CF3B7B5E9C9C04DCB49112F3",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_bruenmk9_spec.iwi",
+      "bytes": 262172,
+      "sha256": "120DE51B4849E0753AC1F6FC8AAD4FF5E0027F5E139AE13AD6F1F3B4D5AC4978",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_optics_col.iwi",
+      "bytes": 131100,
+      "sha256": "61F8461426131CDFE29D915751F519B0C3EAD68D7F2925C7CF595873146C803B",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_optics_nml.iwi",
+      "bytes": 131100,
+      "sha256": "4841F3CBA7CE7DB46A37583FD72FA44EEC870C378F37D3B67A2F50DE614780C0",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_optics_spec.iwi",
+      "bytes": 131100,
+      "sha256": "59582016E6B4F7245655030EEDF32F153EF31D192F60DFAFD3D0D57CA548CCAD",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/materials/mc/xi_t8_bruenmk9.json",
+      "bytes": 5177,
+      "sha256": "A5FFA8C63AB9BCD2272B89718743989E4F8AFA4AAAB45EA9C28C13E14401CD07",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/materials/mc/xi_t8_bruenmk9_cutout.json",
+      "bytes": 3801,
+      "sha256": "44E776918B355B31EB4689B08594016ECA8C140612FC25DB7E8AE861B1D9B3E6",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/materials/mc/xi_t8_optics.json",
+      "bytes": 5171,
+      "sha256": "5EE6630E18617D337A4DAF25A8204F8BACB270A81DB33EBE4F80A4D81589C81E",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/materials/mc/xi_t8_optics_cutout.json",
+      "bytes": 3794,
+      "sha256": "A636CC36913CCCC2A5E043D3CE6AA27D49AE9115DED3012DA2FC3D52BB221AAC",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/model_export/viewmodel_t8_bruenmk9_candidate_lod0.glb",
+      "bytes": 1770564,
+      "sha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/model_export/worldmodel_t8_bruenmk9_candidate_lod0.glb",
+      "bytes": 1020180,
+      "sha256": "D8E207A31DC66497D168A1BCE84633234BAD609B46FDCF257718DDA379F6D300",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/xmodel/viewmodel_t8_bruenmk9_candidate.json",
+      "bytes": 298,
+      "sha256": "572E8A72061E7FCBB2D54B9FE374119E1F65924BF66E1DBC8D8CC16B436C5990",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/xmodel/worldmodel_t8_bruenmk9_candidate.json",
+      "bytes": 299,
+      "sha256": "DDCF4524C5E8C8C8C0BE99E77D08D9166E547B6896F6DB03DF34C6FE0779B684",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_source/xi_hades_r5c_cand.zone",
+      "bytes": 117,
+      "sha256": "0BDB87AB755BD5C7DA981E81BE429DAE1EDD17B4BA42A8EE8A5D7DE9D1E55DA6",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "REPORT.md",
+      "bytes": 6313,
+      "sha256": "7C7E3BCA537E8F276D6551CF56B9C55309EADC6781E5A6CE3B189E2F2B589EA1",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "RESULT.json",
+      "bytes": 5207,
+      "sha256": "A1E464C63D5740C0CF8F79DA09CEF35E805054AA7546E1A302DA4BBB23FC3BD1",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "tools/audit_atlas.py",
+      "bytes": 7045,
+      "sha256": "162D776978B31ADDA3088291A11C4E12C52A8E513E360F24A0011DD29C33AB2C",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/audit_provenance.ps1",
+      "bytes": 7407,
+      "sha256": "E1D1AA76BDCAAEED4802B6E0DD520FCF91B34C482C1DB7479E5E2CC6EEC6893A",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/audit_worlds.py",
+      "bytes": 24183,
+      "sha256": "91A80F79CD313B4E85E457D3E494BDFA64B3A7913FB912F98B93D08DFBC5B5A4",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/build_evidence_manifest.py",
+      "bytes": 6732,
+      "sha256": "32A30CA15746D9B3248680B8E26F46423C133CC9C0DD8AD1C416E37B823CB4E0",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/make_blind.ps1",
+      "bytes": 6243,
+      "sha256": "AE4D049CE210EE21947FED746FA0CB45B05288E710D521FD28F27ACD87C4B68F",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/render_worlds.py",
+      "bytes": 10332,
+      "sha256": "48FE5C5D6E1413BE0E768E6CBB480499E1F8F9CCD3FFD29B762DD8A45A66916B",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/run_oat_production_view.ps1",
+      "bytes": 11411,
+      "sha256": "9F179364AB70CD5C35D6DACC6F97F61A4A88B71DDD0B63E6B8829A9D9CBE379C",
+      "role": "critic-owned reproducibility utility"
+    }
+  ]
+}

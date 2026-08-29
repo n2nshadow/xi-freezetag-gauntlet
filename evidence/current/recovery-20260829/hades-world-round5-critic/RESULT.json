@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "critic": "fresh-independent-hades-world-critic-round5",
+  "verdict": "HOLD",
+  "strict": true,
+  "strictPassBarPassed": false,
+  "productionPromotion": "not performed; prohibited by visual gate",
+  "fatalGates": [
+    "candidate decisively loses front-three-quarter blind view",
+    "material visual regression on front-visible purple canister strap"
+  ],
+  "sealedInputs": {
+    "candidateWorld": {
+      "sha256": "D8E207A31DC66497D168A1BCE84633234BAD609B46FDCF257718DDA379F6D300",
+      "expectedMatch": true,
+      "bytes": 1020180
+    },
+    "productionWorld": {
+      "sha256": "6A234017B0377A584365C93718501C8D7E4EF1F5F9809B9478BD0ABC4F4E25C0",
+      "expectedMatch": true,
+      "bytes": 1091336
+    },
+    "productionViewForPrimaryOat": {
+      "sha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1",
+      "expectedMatch": true,
+      "bytes": 1770564
+    },
+    "stagedHoldViewUsedForPrimaryOat": false
+  },
+  "blind": {
+    "keySha256": "78E8F75448CE770FECD82AFC7BC16E154D602B4A23B0C2B048586EBE4FCF4F89",
+    "ballotSha256": "FAE0623B178AC549C5AB4F52F3028854A7719CE4BF2DCCD453462B81B8B2B9A7",
+    "frozenBeforeReveal": true,
+    "candidateWins": 3,
+    "productionWins": 1,
+    "ties": 0,
+    "candidateDecisiveWins": 3,
+    "productionDecisiveWins": 1,
+    "candidateWinsOrTiesEveryView": false,
+    "candidateDecisivelyWinsAtLeastTwo": true,
+    "materialRegression": true,
+    "failedView": "front-three-quarter"
+  },
+  "topology": {
+    "status": "passed",
+    "candidate": {
+      "vertices": 14063,
+      "triangles": 9984,
+      "edges": 21782,
+      "components": 2445,
+      "boundaryEdges": 13612,
+      "boundaryEdgesPerEdge": 0.624919658433569,
+      "boundaryEdgesPerTriangle": 1.3633814102564104,
+      "wireEdges": 0,
+      "overConnectedEdges": 0
+    },
+    "production": {
+      "vertices": 15108,
+      "triangles": 10000,
+      "edges": 22464,
+      "components": 2826,
+      "boundaryEdges": 14928,
+      "boundaryEdgesPerEdge": 0.6645299145299145,
+      "boundaryEdgesPerTriangle": 1.4928,
+      "wireEdges": 0,
+      "overConnectedEdges": 0
+    },
+    "deltaCandidateMinusProduction": {
+      "vertices": -1045,
+      "triangles": -16,
+      "edges": -682,
+      "components": -381,
+      "boundaryEdges": -1316,
+      "boundaryEdgesPerEdge": -0.0396102560963455,
+      "boundaryEdgesPerTriangle": -0.12941858974358955
+    },
+    "weldedAt1e5": {
+      "candidateComponents": 1498,
+      "productionComponents": 1785,
+      "candidateBoundaryEdgesPerEdge": 0.5328434974283615,
+      "productionBoundaryEdgesPerEdge": 0.6054295277054668,
+      "overConnectedEdges": 0
+    }
+  },
+  "uvMaterialsPaletteAlpha": {
+    "status": "passed",
+    "materials": [
+      "mc/xi_t8_bruenmk9",
+      "mc/xi_t8_bruenmk9_cutout"
+    ],
+    "flipV": true,
+    "orientationScoreFlipped": 9984,
+    "orientationScoreUnflipped": 6763,
+    "regionsPopulated": 35,
+    "regionsExpected": 35,
+    "classifiedTriangles": 9984,
+    "unmatchedTriangles": 0,
+    "runtimeMaterialClassMismatches": 0,
+    "palette": "blue-purple-ivory passed",
+    "opaqueAlpha": "passed",
+    "cutoutAlpha": "passed; all required uber cutouts 0..255",
+    "atlasReportAlphaMetadata": "stale relative to actual PNG; non-blocking because PNG was directly audited"
+  },
+  "oat": {
+    "status": "passed",
+    "primaryView": "actual current production view",
+    "primaryViewSha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1",
+    "stagedViewUsed": false,
+    "baseline": {
+      "linkerExitCode": 0,
+      "unlinkerListExitCode": 0,
+      "warnings": 0,
+      "errors": 0
+    },
+    "candidate": {
+      "linkerExitCode": 0,
+      "unlinkerListExitCode": 0,
+      "warnings": 0,
+      "errors": 0
+    },
+    "pools": {
+      "xmodel": {
+        "baseline": 2,
+        "candidate": 2,
+        "delta": 0,
+        "exactNamesMatch": true
+      },
+      "material": {
+        "baseline": 4,
+        "candidate": 4,
+        "delta": 0,
+        "exactNamesMatch": true
+      },
+      "image": {
+        "baseline": 6,
+        "candidate": 6,
+        "delta": 0,
+        "exactNamesMatch": true
+      }
+    }
+  },
+  "provenance": {
+    "artifactMaterialization": "passed: byte-for-byte from retained prior OAT input",
+    "allFourAuthoredSourceHashesExact": true,
+    "authoritativeImportPlan": "stale-follow-up-required",
+    "historicalRound4BuilderDirectoryExists": false,
+    "stalePlanBlockingForThisSealedArtifact": false,
+    "stalePlanBlockingBeforeSourceDrivenRebuildOrPromotion": true
+  },
+  "round4Comparison": {
+    "priorVerdict": "HOLD",
+    "priorMissingRealWorldCandidate": true,
+    "priorMissingWorldEvidence": true,
+    "priorOatIneligible": true,
+    "round5RealWorldCandidate": true,
+    "round5WorldOnlyEvidence": true,
+    "round5ProductionViewOat": "passed",
+    "newBlockingReason": "front-three-quarter blind material regression"
+  },
+  "smallestNextBuilderCorrection": "Close only the front-visible slit/open face in the candidate's purple canister strap, preserving atlas, UV regions, palette, and all other geometry. Use the available 16-triangle headroom, reseal, and rerun the four-view blind plus production-view OAT."
+}
