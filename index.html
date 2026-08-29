@@ -318,14 +318,22 @@
         <header class="section-heading">
           <div>
             <p class="eyebrow">Live checkpoint</p>
-            <h2 id="current-round-title">Sealed Test Tuple; Live Test Active</h2>
+            <h2 id="current-round-title">Visual Repair Gauntlet Active</h2>
           </div>
-          <span class="status status-unknown status-large">Snapshot 89 / package PASS; Ghost diagnostic HOLD</span>
+          <span class="status status-unknown status-large">Snapshot 89 installed; three repair builders active</span>
         </header>
 
         <div class="round-grid">
           <div>
             <dl class="round-facts">
+              <div>
+                <dt>Active repair round</dt>
+                <dd><strong>WEAPONS IMPROVED; OPERATORS AND DEPLOYABLES HOLD.</strong> The latest staged Hades and GKS viewmodels fit the fixed <code>12,000</code>-triangle bar while preserving their sight corridors and visible shells. A fresh operator critic independently rejected the current viewhands because only eight arm joints carry weights and the finger chains remain inert. The original operator builder has resumed with that exact gap; weapon/optic and deployable builders remain active.</dd>
+              </div>
+              <div>
+                <dt>Triangle allocation result</dt>
+                <dd>The rejected GKS experiment spent too much geometry on its central shell and starved neighboring pieces to <code>12%</code>, causing long spikes. The accepted staging candidate keeps complete sight meshes, retains <code>72%</code> through the ADS corridor, <code>47%</code> on the broad receiver, and roughly <code>27%</code> on the remaining visible shells. It finishes at <code>11,987</code> triangles with zero measured bounds drift and is still awaiting a fresh critic.</dd>
+              </div>
               <div>
                 <dt>Exact test tuple</dt>
                 <dd><strong class="text-pass">BUILD AND PACKAGE PASS.</strong> <code>mod.ff</code> is <code>8B0F3FEB...</code> at <code>24,587,852</code> bytes; <code>xi_ftag.iwd</code> is <code>0369317B...</code> at <code>29,853,466</code> bytes; <code>xi_ftag.cfg</code> is <code>FAC54B77...</code>. The source manifest is <code>B25A6AD7...</code>, and the frozen build input is <code>C2D14FF2...</code>.</dd>
@@ -1635,6 +1643,50 @@
         </header>
 
         <div class="gallery-grid">
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/weapons/silhouette-round1/gks-balanced-ads.png">
+              <img src="evidence/current/weapons/silhouette-round1/gks-balanced-ads.png" alt="Balanced 11987-triangle GKS candidate viewed through its authored ADS axis" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">GKS / improved candidate, critic pending</span>
+              <strong>Sight corridor and visible shells share the 12k budget</strong>
+              <span>The centered sight survives while the receiver avoids the severe spikes seen in the rejected 65% core experiment. Compare the <a href="evidence/current/weapons/silhouette-round1/gks-source-ads.png">full source render</a>; residual faceting still keeps this out of production.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/weapons/silhouette-round1/hades-balanced-ads.png">
+              <img src="evidence/current/weapons/silhouette-round1/hades-balanced-ads.png" alt="Balanced 11991-triangle Hades candidate viewed through its authored iron-sight axis" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">Hades / improved candidate, critic pending</span>
+              <strong>Iron sight, rail openings, and upper shell remain readable</strong>
+              <span>The candidate finishes at 11,991 triangles and stays close to the <a href="evidence/current/weapons/silhouette-round1/hades-source-ads.png">24,259-triangle source</a>. Lower receiver details still need the independent weapon critic and an eventual in-engine receipt.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/weapons/silhouette-round1/gks-rejected-core65-ads.png">
+              <img src="evidence/current/weapons/silhouette-round1/gks-rejected-core65-ads.png" alt="Rejected GKS decimation trial with long triangular spikes along the receiver" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-fail">GKS / regression rejected</span>
+              <strong>Overfunding the center starves the weapon edges</strong>
+              <span>This trial proves why triangle count alone is not the bar: reserving 65% for one central shell forced neighboring parts to 12% and created visible spikes. It was rejected before promotion and replaced by the balanced candidate.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/hands/operator-round1/m16-reload.png">
+              <img src="evidence/current/hands/operator-round1/m16-reload.png" alt="Current staged Ghost viewhands candidate under the stock M16 reload motion" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-fail">Viewhands / fresh critic HOLD</span>
+              <strong>Cleaner silhouette, but finger articulation is not real yet</strong>
+              <span>The exact stock71 skeleton and OAT compile pass, but the critic found weights on only eight arm joints. All finger chains remain inert, so the same builder has resumed to repair weights before another blind review. A separate <a href="evidence/current/hands/operator-round1/body-reload-frame-45.png">third-person reload frame</a> records the body candidate.</span>
+            </figcaption>
+          </figure>
+
           <figure class="gallery-item gallery-item-wide">
             <a class="gallery-image" href="evidence/current/sentry/gunner-turret-candidate.png">
               <img src="evidence/current/sentry/gunner-turret-candidate.png" alt="Recovered mounted SAW Gunner Heli turret candidate rendered from its production LOD0 geometry" loading="lazy">
