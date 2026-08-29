@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#101516">
   <title>XI FreezeTag | Gauntlet Progress</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260829-2">
   <script src="dashboard.js" defer></script>
 </head>
 <body>
@@ -47,7 +47,7 @@
       <div class="section-shell">
         <div class="intro-grid">
           <div class="goal-copy">
-            <p class="eyebrow">XI / RELEASE GAUNTLET / SNAPSHOT 89</p>
+            <p class="eyebrow">XI / RELEASE GAUNTLET / RECOVERY RESUME</p>
             <h1 id="goal-title">Clear an independent, evidence-backed release gate.</h1>
             <p class="lede">
               Ship the 18-map CoD4 FreezeTag build inside hard engine limits, with its rescue
@@ -70,7 +70,7 @@
             </div>
             <div class="snapshot-stamp">
               <span>Current verdict: <strong class="text-fail">FAIL</strong></span>
-              <time datetime="2026-08-28T16:09:00-04:00">28 Aug 2026, 16:09 EDT</time>
+              <time datetime="2026-08-29T02:32:00-04:00">29 Aug 2026, 02:32 EDT</time>
             </div>
           </div>
         </div>
@@ -86,10 +86,10 @@
             <strong>Engine envelope</strong>
             <span>18 shipped maps inside release caps; mp_vacant 988/1000</span>
           </li>
-          <li class="checkpoint is-pass">
+          <li class="checkpoint is-fail">
             <span class="checkpoint-index">03</span>
             <strong>Runtime integration</strong>
-            <span>Snapshot 89 hash-verified and live on stock mp_shipment</span>
+            <span>Older snapshot ran, but current repaired source has no sealed runtime build</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">04</span>
@@ -104,7 +104,7 @@
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">06</span>
             <strong>User live test</strong>
-            <span>Snapshot 89 live session active; verdict pending</span>
+            <span>Snapshot 89 rejected visually; repaired source still needs a new build</span>
           </li>
         </ol>
 
@@ -320,7 +320,7 @@
             <p class="eyebrow">Live checkpoint</p>
             <h2 id="current-round-title">Visual Repair Gauntlet Active</h2>
           </div>
-          <span class="status status-unknown status-large">Snapshot 89 installed; one builder + two fresh critics active</span>
+          <span class="status status-unknown status-large">Recovery resumed; two visual specialists active, deployables source pass</span>
         </header>
 
         <div class="round-grid">
@@ -328,15 +328,15 @@
             <dl class="round-facts">
               <div>
                 <dt>Active repair round</dt>
-                <dd><strong>WEAPONS IMPROVED; OPERATORS AND DEPLOYABLES HOLD.</strong> The latest staged Hades and GKS viewmodels fit the fixed <code>12,000</code>-triangle bar while preserving their sight corridors and visible shells. A fresh operator critic independently rejected the current viewhands because only eight arm joints carry weights and the finger chains remain inert. The original operator builder has resumed with that exact gap. Separate fresh critics are now auditing the completed optic and sentry-marker candidates, including real engine cost and stale-fastfile separation.</dd>
+                <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> The deployables specialist passed the current one-piece source layout and shared suitcase marker, but release remains on hold until a fresh full build proves both throws, settling, spawn, sweep, and cleanup in CoD4. The weapon and operator specialists remain active. Hades is the present weapon blocker and fails seven real visual/material gates; the viewhands lane still requires articulated stock-compatible fingers and clean cuffs.</dd>
               </div>
               <div>
                 <dt>Triangle allocation result</dt>
-                <dd>The rejected GKS experiment spent too much geometry on its central shell and starved neighboring pieces to <code>12%</code>, causing long spikes. The accepted staging candidate keeps complete sight meshes, retains <code>72%</code> through the ADS corridor, <code>47%</code> on the broad receiver, and roughly <code>27%</code> on the remaining visible shells. It finishes at <code>11,987</code> triangles with zero measured bounds drift and is still awaiting a fresh critic.</dd>
+                <dd>Triangle count is a ceiling, not the visual bar. The latest full preflight rejects Hades even though it fits the numeric budget: authored sight/rail features, blue-purple-ivory identity, snake-skin material assignment, broad-surface color balance, decal cutout alpha, and final atlas/topology evidence are incomplete. Savings must come from hidden interiors and broad planar centers while the silhouette and ADS corridor remain intact.</dd>
               </div>
               <div>
                 <dt>Exact test tuple</dt>
-                <dd><strong class="text-pass">BUILD AND PACKAGE PASS.</strong> <code>mod.ff</code> is <code>8B0F3FEB...</code> at <code>24,587,852</code> bytes; <code>xi_ftag.iwd</code> is <code>0369317B...</code> at <code>29,853,466</code> bytes; <code>xi_ftag.cfg</code> is <code>FAC54B77...</code>. The source manifest is <code>B25A6AD7...</code>, and the frozen build input is <code>C2D14FF2...</code>.</dd>
+                <dd><strong class="text-pass">LAST PLAYABLE BASELINE ONLY.</strong> Snapshot 89 remains the last sealed reversible tuple: <code>mod.ff</code> <code>8B0F3FEB...</code>, <code>xi_ftag.iwd</code> <code>0369317B...</code>, and <code>xi_ftag.cfg</code> <code>FAC54B77...</code>. Current source is newer and is not represented by those hashes.</dd>
               </div>
               <div>
                 <dt>Build evidence</dt>
@@ -356,7 +356,7 @@
               </div>
               <div>
                 <dt>Independent critics</dt>
-                <dd><strong class="text-pass">SNAPSHOT 89 TUPLE CRITIC PASS, QUALIFIED.</strong> A fresh independent audit rehashed the exact three files, replayed all <code>519</code> IWD entries, found no map payload, and approved the backup-preserving sealed-output path for a reversible local test. Source freshness is intentionally not claimed because four scripts changed after sealing. Ghost remains a diagnostic-only <strong class="text-fail">HOLD</strong>: eight weighted joints, no finger articulation, and no accepted live first-person receipt.</dd>
+                <dd><strong class="text-pass">SNAPSHOT 89 TUPLE CRITIC PASS, QUALIFIED.</strong> That exact older package is reproducible, but the user's live screenshots reject its hands, weapon alignment, missing first-person weapons, malformed materials, and operator quality. It is retained as rollback evidence, not presented as the current candidate. Fresh specialists are working from the current F: source.</dd>
               </div>
               <div>
                 <dt>Probe</dt>
@@ -376,11 +376,11 @@
               </div>
               <div>
                 <dt>Verdict</dt>
-                <dd><strong class="text-fail">TEST CHECKPOINT ONLY.</strong> The user may live-test a measurable improvement even while its critic verdict remains HOLD. A test candidate stays reversible and is not called approved or backed up as confirmed until the user accepts it in game.</dd>
+                <dd><strong class="text-fail">SOURCE REPAIR IN PROGRESS.</strong> Snapshot 89 exposed serious visual regressions in live play. No newer package will be called improved merely because it compiles: source gates, independent visual review, a sealed reversible build, and the user's in-game verdict remain separate requirements.</dd>
               </div>
               <div>
                 <dt>Sentry recovery</dt>
-                <dd><strong class="text-pass">OFFLINE GEOMETRY, MATERIAL, AND OAT PASS.</strong> The fresh Round 7 critic independently linked the exact <code>9EDE3C17...</code> candidate under the production lethal-sentry identity in private and promotion-minimal contexts with zero warnings/errors. Source and compiled hierarchy, four surfaces, <code>1,749</code> triangles, three materials, and the current production image payloads all agree. Frost Sentry and Defroster Drone remain distinct. Promotion is held only until the shared crash-safe transaction lane passes; real CoD4 lighting and deployment remain later runtime gates.</dd>
+                <dd><strong class="text-pass">CURRENT SOURCE PASS / RELEASE HOLD.</strong> A fresh specialist verified one shared suitcase marker, identical deployment timing, one clean full-size lethal sentry, one compact defroster, no C4/claymore presentation, no child-model pileup, and grounded yaw-only rotation. Two independent OAT probes produced the same <code>704,685</code>-byte fastfile with zero warnings/errors. A real client test is still required, especially around the retained <code>0.8</code>-second settle fuse.</dd>
               </div>
               <div>
                 <dt>Best hands probe</dt>
@@ -400,7 +400,7 @@
               </div>
               <div>
                 <dt>Hades world probe</dt>
-                <dd>Round 4 is promoted at <code>9,984 triangles / 14,063 vertices</code>, preserves <code>35/35</code> source regions, and wins over round 3. The dropped composite was rebuilt at <code>60,617 / 64,000</code> vertices, and the current source passes all <code>42</code> weapon material/geometry gates.</dd>
+                <dd><strong class="text-fail">CURRENT SOURCE FAILS 7 VISUAL GATES.</strong> The Hades candidate is inside the coarse triangle envelope, but required view/world features, the blue-purple-ivory palette, ivory snake-skin assignment, broad-surface balance, authored decal cutout alpha, and final GLB atlas/topology evidence are not acceptable yet. No promotion is authorized.</dd>
               </div>
               <div>
                 <dt>Operator LOD3 verdict</dt>
@@ -408,7 +408,7 @@
               </div>
               <div>
                 <dt>Weapon-pool constraint</dt>
-                <dd>The playable source stays at <code>11</code> explicitly linked weapons inside the <code>128</code>-weapon runtime pool. Snapshot 89 links <code>61</code> concrete XModels plus <code>11</code> verified stock references and leaves <code>12</code> engine XModel slots on <code>mp_vacant</code>. Retired XI Signature and duplicate-finish runtime assets remain unlinked.</dd>
+                <dd>The current source stays at <code>11</code> explicitly linked weapons inside the <code>128</code>-weapon runtime pool, with seven approved XI utility names and no duplicated stock aliases. Stock XModels are references rather than embedded copies, so deleting those references would not buy attachment headroom. The runtime manifest retains <code>340</code> reachable images after eight byte-identical slots were removed. <a href="evidence/current/recovery-20260829/runtime-asset-audit.md">Read the current asset audit.</a></dd>
               </div>
             </dl>
 
@@ -1644,6 +1644,28 @@
 
         <div class="gallery-grid">
           <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260829/deployables-comparison-45.png">
+              <img src="evidence/current/recovery-20260829/deployables-comparison-45.png" alt="Side-by-side model evidence showing the rejected MW2 multipart sentry, the clean XI lethal sentry, and the compact XI defroster" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">Deployables / source PASS, live HOLD</span>
+              <strong>One suitcase path, two clean role-specific sentries</strong>
+              <span>The recovered MW2 combo on the left contains the extra launcher and child-part structure that caused stacked weapons. XI keeps the familiar suitcase deployment but spawns one full-size lethal model or one compact defroster model. Both compile cleanly; throw, settle, sweep, and cleanup still need a fresh live receipt.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260829/mw2-betty-world-textured-yaw25.png">
+              <img src="evidence/current/recovery-20260829/mw2-betty-world-textured-yaw25.png" alt="Recovered round MW2 bouncing betty world model rendered with its authored dark metal material" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-pass">Equipment / recovered source PASS</span>
+              <strong>The bouncing betty is a round mine again</strong>
+              <span>The incorrect rectangular T8 claymore stand-in is retired. Runtime source now uses the recovered MW2 view/world models and the matching <code>specialty_weapon_betty</code> icon; isolated OAT linkage and class-menu/runtime-reference tests pass.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
             <a class="gallery-image" href="evidence/current/weapons/silhouette-round1/gks-balanced-ads.png">
               <img src="evidence/current/weapons/silhouette-round1/gks-balanced-ads.png" alt="Balanced 11987-triangle GKS candidate viewed through its authored ADS axis" loading="lazy">
             </a>
@@ -1659,9 +1681,9 @@
               <img src="evidence/current/weapons/silhouette-round1/hades-balanced-ads.png" alt="Balanced 11991-triangle Hades candidate viewed through its authored iron-sight axis" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-unknown">Hades / improved candidate, critic pending</span>
-              <strong>Iron sight, rail openings, and upper shell remain readable</strong>
-              <span>The candidate finishes at 11,991 triangles and stays close to the <a href="evidence/current/weapons/silhouette-round1/hades-source-ads.png">24,259-triangle source</a>. Lower receiver details still need the independent weapon critic and an eventual in-engine receipt.</span>
+              <span class="status status-fail">Hades / current visual gate FAIL</span>
+              <strong>Numeric budget compliance is not enough</strong>
+              <span>This earlier candidate records useful sight-corridor work, but the current source still fails seven Hades feature, palette, material, alpha, and topology checks. The specialist is rebuilding from the authored source identity; this image is evidence, not an accepted production result.</span>
             </figcaption>
           </figure>
 

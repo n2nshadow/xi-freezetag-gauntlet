@@ -1453,6 +1453,14 @@ h3 {
     gap: 14px;
   }
 
+  .section-heading .status-large {
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    line-height: 1.35;
+    text-align: left;
+  }
+
   .gallery-header {
     align-items: start;
     flex-direction: column;
@@ -1474,6 +1482,19 @@ h3 {
   .gallery-image img,
   .gallery-pair img {
     height: min(64vw, 300px);
+  }
+
+  .gallery-item figcaption {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .gallery-item figcaption > span:last-child {
+    grid-column: 1;
+  }
+
+  .gallery-item figcaption .status {
+    justify-self: start;
   }
 
   .score-row {
