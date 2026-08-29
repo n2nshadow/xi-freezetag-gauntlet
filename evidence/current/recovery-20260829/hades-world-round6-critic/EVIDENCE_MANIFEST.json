@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "status": "complete",
+  "verdict": "HOLD",
+  "root": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag/xi_ftag/.asset_staging/agents/hades_world_critic_round6",
+  "manifestAndSha256SumsSelfExcluded": true,
+  "sealedInputsFinalRehash": {
+    "candidate": "2E69C1A32CF3D5418F39E4ED6F497187A8E2B99AB54004E5C2985A69A3B09A77",
+    "round5": "D8E207A31DC66497D168A1BCE84633234BAD609B46FDCF257718DDA379F6D300",
+    "productionWorld": "6A234017B0377A584365C93718501C8D7E4EF1F5F9809B9478BD0ABC4F4E25C0",
+    "productionView": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1"
+  },
+  "requiredFiles": {
+    "REPORT.md": {
+      "relativePath": "REPORT.md",
+      "bytes": 5754,
+      "sha256": "B1391D0585004A32F214E30197F8C7B3A20CC8335760A3316FDF9E7A492217C1",
+      "role": "required top-level critic deliverable"
+    },
+    "RESULT.json": {
+      "relativePath": "RESULT.json",
+      "bytes": 3688,
+      "sha256": "F291B431227AD86932FD26E96186456D138ADA334294FBFAF26E3DECC28168C9",
+      "role": "required top-level critic deliverable"
+    },
+    "BLIND_KEY.json": {
+      "relativePath": "BLIND_KEY.json",
+      "bytes": 1116,
+      "sha256": "7A500FED2E4EA0E883F6C0DD337D6C51B6B2165E6AEC714D05AF841602B3392C",
+      "role": "required top-level critic deliverable"
+    },
+    "BLIND_BALLOT_PRE_REVEAL.json": {
+      "relativePath": "BLIND_BALLOT_PRE_REVEAL.json",
+      "bytes": 1361,
+      "sha256": "8ACBF74E5D871106D34CEB8B24B43F24920C44163015451CC3A64C2C3D8480CF",
+      "role": "required top-level critic deliverable"
+    },
+    "blind/BLIND_MANIFEST_PRE_REVEAL.json": {
+      "relativePath": "blind/BLIND_MANIFEST_PRE_REVEAL.json",
+      "bytes": 4725,
+      "sha256": "47987D8520352560295067FFA1A6D1EEA45DAAB9C26BE5BAF4C2E21A8C0B751A",
+      "role": "required top-level critic deliverable"
+    },
+    "analysis/BLIND_RESULT_POST_REVEAL.json": {
+      "relativePath": "analysis/BLIND_RESULT_POST_REVEAL.json",
+      "bytes": 2364,
+      "sha256": "06D8B80BD93837BAE96FEDD69644C22CC9F19D6FA56173A719F987E878554152",
+      "role": "independent critic audit receipt"
+    },
+    "analysis/GLB_DELTA_AUDIT.json": {
+      "relativePath": "analysis/GLB_DELTA_AUDIT.json",
+      "bytes": 10538,
+      "sha256": "EC5DD9885855EAA52826B95DA37C089005F1488918F683C75CB764FABE6EDDB7",
+      "role": "independent critic audit receipt"
+    },
+    "analysis/WORLD_AUDIT.json": {
+      "relativePath": "analysis/WORLD_AUDIT.json",
+      "bytes": 55802,
+      "sha256": "86037AA96E6BF47A0BB2BDEE29EB92D3089088DC9E7BAD49958FA7930DD05289",
+      "role": "independent critic audit receipt"
+    },
+    "analysis/ATLAS_AUDIT.json": {
+      "relativePath": "analysis/ATLAS_AUDIT.json",
+      "bytes": 43125,
+      "sha256": "854167635E36838C197163F17458EF59DCCCAA04A9DD41D3E795F0C8BAA9C8CD",
+      "role": "independent critic audit receipt"
+    },
+    "analysis/OAT_PRODUCTION_VIEW_AUDIT.json": {
+      "relativePath": "analysis/OAT_PRODUCTION_VIEW_AUDIT.json",
+      "bytes": 29617,
+      "sha256": "47040A153C6EA389E73C4A516A12158850ACA14AB066A52FF9258C303CDD8348",
+      "role": "independent critic audit receipt"
+    },
+    "analysis/INTEGRITY_BEFORE.json": {
+      "relativePath": "analysis/INTEGRITY_BEFORE.json",
+      "bytes": 155156,
+      "sha256": "1DF338A07698CA313AAB070271EC5F97860120502F70AAFA0B3345A10859B3B8",
+      "role": "independent critic audit receipt"
+    },
+    "analysis/INTEGRITY_AFTER.json": {
+      "relativePath": "analysis/INTEGRITY_AFTER.json",
+      "bytes": 155154,
+      "sha256": "6C0554F26FD50A6785DF3B2AFCC35200A20851D3F81C26A4632A10D7CB0B5352",
+      "role": "independent critic audit receipt"
+    },
+    "analysis/INTEGRITY_COMPARISON.json": {
+      "relativePath": "analysis/INTEGRITY_COMPARISON.json",
+      "bytes": 1578,
+      "sha256": "D463710479D220ADE5AC2DB70ABC200587A97DA275E2A8257B71CE623ED756EA",
+      "role": "independent critic audit receipt"
+    },
+    "analysis/render_receipt.json": {
+      "relativePath": "analysis/render_receipt.json",
+      "bytes": 9574,
+      "sha256": "1A93D70B7D2354F79F6A7CFA73A44368C8374D5A0F89B4CDBEBBACA42EF64171",
+      "role": "independent critic audit receipt"
+    }
+  },
+  "counts": {
+    "filesExcludingManifestAndSums": 93,
+    "matchedWorldImages": 8,
+    "blindImagesAndContactSheets": 12,
+    "logs": 19
+  },
+  "failedAttemptsRetained": [
+    {
+      "log": "logs/002-raw-glb-delta-audit.log",
+      "reason": "Initial parser compared primitive-local indices to claimed model-global indices and used an overly tight locality threshold; corrected audit records the 250-vertex base and exact global indices."
+    }
+  ],
+  "scope": {
+    "writesConfinedToRoot": true,
+    "promotionPerformed": false,
+    "primaryOatUsedActualProductionView": true,
+    "protectedScopesUnchanged": true
+  },
+  "files": [
+    {
+      "relativePath": "analysis/ATLAS_AUDIT.json",
+      "bytes": 43125,
+      "sha256": "854167635E36838C197163F17458EF59DCCCAA04A9DD41D3E795F0C8BAA9C8CD",
+      "role": "independent critic audit receipt"
+    },
+    {
+      "relativePath": "analysis/BLIND_RESULT_POST_REVEAL.json",
+      "bytes": 2364,
+      "sha256": "06D8B80BD93837BAE96FEDD69644C22CC9F19D6FA56173A719F987E878554152",
+      "role": "independent critic audit receipt"
+    },
+    {
+      "relativePath": "analysis/GLB_DELTA_AUDIT.json",
+      "bytes": 10538,
+      "sha256": "EC5DD9885855EAA52826B95DA37C089005F1488918F683C75CB764FABE6EDDB7",
+      "role": "independent critic audit receipt"
+    },
+    {
+      "relativePath": "analysis/INTEGRITY_AFTER.json",
+      "bytes": 155154,
+      "sha256": "6C0554F26FD50A6785DF3B2AFCC35200A20851D3F81C26A4632A10D7CB0B5352",
+      "role": "independent critic audit receipt"
+    },
+    {
+      "relativePath": "analysis/INTEGRITY_BEFORE.json",
+      "bytes": 155156,
+      "sha256": "1DF338A07698CA313AAB070271EC5F97860120502F70AAFA0B3345A10859B3B8",
+      "role": "independent critic audit receipt"
+    },
+    {
+      "relativePath": "analysis/INTEGRITY_COMPARISON.json",
+      "bytes": 1578,
+      "sha256": "D463710479D220ADE5AC2DB70ABC200587A97DA275E2A8257B71CE623ED756EA",
+      "role": "independent critic audit receipt"
+    },
+    {
+      "relativePath": "analysis/OAT_PRODUCTION_VIEW_AUDIT.json",
+      "bytes": 29617,
+      "sha256": "47040A153C6EA389E73C4A516A12158850ACA14AB066A52FF9258C303CDD8348",
+      "role": "independent critic audit receipt"
+    },
+    {
+      "relativePath": "analysis/render_receipt.json",
+      "bytes": 9574,
+      "sha256": "1A93D70B7D2354F79F6A7CFA73A44368C8374D5A0F89B4CDBEBBACA42EF64171",
+      "role": "independent critic audit receipt"
+    },
+    {
+      "relativePath": "analysis/WORLD_AUDIT.json",
+      "bytes": 55802,
+      "sha256": "86037AA96E6BF47A0BB2BDEE29EB92D3089088DC9E7BAD49958FA7930DD05289",
+      "role": "independent critic audit receipt"
+    },
+    {
+      "relativePath": "blind/BLIND_MANIFEST_PRE_REVEAL.json",
+      "bytes": 4725,
+      "sha256": "47987D8520352560295067FFA1A6D1EEA45DAAB9C26BE5BAF4C2E21A8C0B751A",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "blind/front-three-quarter-A.png",
+      "bytes": 1802233,
+      "sha256": "DAFA3F2C8B32EA0D9684986031D4F50A19F157ECF4F99144997579ADE24EFBBB",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/front-three-quarter-B.png",
+      "bytes": 1802672,
+      "sha256": "207A892AE18FD413FCD13295DAE650CDC825F0E8FCF28D7275B26C4848767027",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/front-three-quarter-blind-plate.png",
+      "bytes": 1281239,
+      "sha256": "D5715DFF734CFB86BAB50D57D391D9D95BDEF758AE3D818575D7E2B062781920",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/identity-close-A.png",
+      "bytes": 1916461,
+      "sha256": "F6D86FC45B405851444DE62B910D9A396DE242B4F6CC4862E8D0DBE5AD9266E9",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/identity-close-B.png",
+      "bytes": 1919444,
+      "sha256": "2EED72322A214B5C003015323BD35340CF3DF3023BCA53E985E938606C2DB955",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/identity-close-blind-plate.png",
+      "bytes": 2070135,
+      "sha256": "5AE09220A47FF0C489E1547AEA411B898C098971E287D8CC1262A64C2CD59174",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/profile-A.png",
+      "bytes": 1771949,
+      "sha256": "E4B895D2FB71E8E06E994EBACC9E5DB477D6584A7B67E38B0428603267EC54D0",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/profile-B.png",
+      "bytes": 1774341,
+      "sha256": "9E0D43F47541C6CF48523AE7C92AEFAC38C5CC44A894236D45F3ECAA3DCA762F",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/profile-blind-plate.png",
+      "bytes": 1328979,
+      "sha256": "937B44451EBF69EB214CD02FB969551D4E1DFF237546D0B028FA544919492E33",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/rear-three-quarter-A.png",
+      "bytes": 1857939,
+      "sha256": "7F77AC93601A7F24147F31C25C1CE9581658E9573644EBB3332A95EA829DD34D",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/rear-three-quarter-B.png",
+      "bytes": 1854892,
+      "sha256": "CF9BAD8C12DC195217A898D5F50152BAD685E087F64ED4FCDD2D02024A74941A",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "blind/rear-three-quarter-blind-plate.png",
+      "bytes": 1433400,
+      "sha256": "AC4E26C1001A60DCCED9BD344637C84BF5FE092DBB952A1D5D56F30E8AE49E99",
+      "role": "sealed blind A/B image or contact sheet"
+    },
+    {
+      "relativePath": "BLIND_BALLOT_PRE_REVEAL.json",
+      "bytes": 1361,
+      "sha256": "8ACBF74E5D871106D34CEB8B24B43F24920C44163015451CC3A64C2C3D8480CF",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "BLIND_KEY.json",
+      "bytes": 1116,
+      "sha256": "7A500FED2E4EA0E883F6C0DD337D6C51B6B2165E6AEC714D05AF841602B3392C",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "logs/001-input-seals-and-integrity.log",
+      "bytes": 367,
+      "sha256": "DD351193556779BCC5AC3C1C56F0795AE5F1B9CC306A3B7CE6349A6CFF1DB6F4",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/002-raw-glb-delta-audit.log",
+      "bytes": 284,
+      "sha256": "216116D6270DF0E8970E105238C1FF3B2C8BBF9272B403D9494D76E38FC100BD",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/003-raw-glb-delta-audit-corrected.log",
+      "bytes": 331,
+      "sha256": "6AC26E3C54A48F7FC7EBECAEDDAFF0E23E2364407DD40E5F8B8943A347497994",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/004-independent-blender-world-audit.log",
+      "bytes": 834,
+      "sha256": "5E35FC22BD664AA7F2D8BF41873F5E68D3FE5DA09FC8369FE2AA8EADE28836CC",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/005-authoritative-atlas-rgba-audit.log",
+      "bytes": 1162,
+      "sha256": "D121C811C506CEB000E6018F7240655031912D04E8B912533638EBD0186B0890",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/006-fresh-matched-world-renders.log",
+      "bytes": 8254,
+      "sha256": "F3D464DA67D2792725A5D812BB1B6B9AF50A72185A7F1108D9E5B2D15C359C92",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/007-blind-randomization-and-key-seal.log",
+      "bytes": 263,
+      "sha256": "3004ABC930F0FEA200655C51F2432AA98D92FFA7F7A1ABF494157A088DF52571",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/008-ballot-freeze.log",
+      "bytes": 404,
+      "sha256": "4850556CAC2B494C930AB6751724D57EDE275C5F2620949BD7EC15249DC379D1",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/009-blind-key-reveal.log",
+      "bytes": 2076,
+      "sha256": "E33824204748430486B7FA74A452583998286B84E047EBBC10E9CA333E300F09",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/009-oat-baseline-linker.log",
+      "bytes": 1012,
+      "sha256": "80FBDF456B3CC4E4DBAFEA22E32CCCA2973B40DBB8D6AF1DDD4BC20212E28D6C",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/009-oat-candidate-linker.log",
+      "bytes": 1012,
+      "sha256": "C32A883C0B9BB4011D44F2C4761B8846C7BD124011B97026E699A556C93E88EF",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/010-oat-baseline-unlinker-list.log",
+      "bytes": 1237,
+      "sha256": "99348352153DD53A5DE8736F4CED4E1D4CAB9099117A3A2913BD7620CF7A9773",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/010-oat-candidate-unlinker-list.log",
+      "bytes": 1241,
+      "sha256": "2816C1BD85D13F9A26D163E032299EF21E5EB02D9F097282A0C5D95E2A388D9E",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/010-oat-production-view-driver.log",
+      "bytes": 1808,
+      "sha256": "07421A4712135146BDDD23010FED8518BF77CFC1496164D6122345F04044350A",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/011-final-input-rehash-and-integrity.log",
+      "bytes": 365,
+      "sha256": "15D1BFECDA6FB73C0F421B2F943461390CEBE389A37FE129A147D58F1B26B3AF",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/012-integrity-comparison.log",
+      "bytes": 1578,
+      "sha256": "D463710479D220ADE5AC2DB70ABC200587A97DA275E2A8257B71CE623ED756EA",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/013-final-package-validation.log",
+      "bytes": 786,
+      "sha256": "48F67C97CF6ACA72F52EABA339F1C953FFBEE32432076158A4969B641E4CE60A",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/git-status-after.txt",
+      "bytes": 1415801,
+      "sha256": "11A9DECC56FED15AB9F31E3B6715AD582A1BC19DB3EE3CAA198CED907D463087",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "logs/git-status-before.txt",
+      "bytes": 1415801,
+      "sha256": "11A9DECC56FED15AB9F31E3B6715AD582A1BC19DB3EE3CAA198CED907D463087",
+      "role": "complete critic command/audit log"
+    },
+    {
+      "relativePath": "matched/candidate/front-three-quarter.png",
+      "bytes": 1802672,
+      "sha256": "207A892AE18FD413FCD13295DAE650CDC825F0E8FCF28D7275B26C4848767027",
+      "role": "fresh matched WORLD-only Blender render"
+    },
+    {
+      "relativePath": "matched/candidate/identity-close.png",
+      "bytes": 1916461,
+      "sha256": "F6D86FC45B405851444DE62B910D9A396DE242B4F6CC4862E8D0DBE5AD9266E9",
+      "role": "fresh matched WORLD-only Blender render"
+    },
+    {
+      "relativePath": "matched/candidate/profile.png",
+      "bytes": 1771949,
+      "sha256": "E4B895D2FB71E8E06E994EBACC9E5DB477D6584A7B67E38B0428603267EC54D0",
+      "role": "fresh matched WORLD-only Blender render"
+    },
+    {
+      "relativePath": "matched/candidate/rear-three-quarter.png",
+      "bytes": 1857939,
+      "sha256": "7F77AC93601A7F24147F31C25C1CE9581658E9573644EBB3332A95EA829DD34D",
+      "role": "fresh matched WORLD-only Blender render"
+    },
+    {
+      "relativePath": "matched/production/front-three-quarter.png",
+      "bytes": 1802233,
+      "sha256": "DAFA3F2C8B32EA0D9684986031D4F50A19F157ECF4F99144997579ADE24EFBBB",
+      "role": "fresh matched WORLD-only Blender render"
+    },
+    {
+      "relativePath": "matched/production/identity-close.png",
+      "bytes": 1919444,
+      "sha256": "2EED72322A214B5C003015323BD35340CF3DF3023BCA53E985E938606C2DB955",
+      "role": "fresh matched WORLD-only Blender render"
+    },
+    {
+      "relativePath": "matched/production/profile.png",
+      "bytes": 1774341,
+      "sha256": "9E0D43F47541C6CF48523AE7C92AEFAC38C5CC44A894236D45F3ECAA3DCA762F",
+      "role": "fresh matched WORLD-only Blender render"
+    },
+    {
+      "relativePath": "matched/production/rear-three-quarter.png",
+      "bytes": 1854892,
+      "sha256": "CF9BAD8C12DC195217A898D5F50152BAD685E087F64ED4FCDD2D02024A74941A",
+      "role": "fresh matched WORLD-only Blender render"
+    },
+    {
+      "relativePath": "oat/baseline/zone_out/xi_hades_r6c_base.ff",
+      "bytes": 789815,
+      "sha256": "3663DEA9953F79A6DA05FF1B080AD1352B172642D27E64176F3E501314494834",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_bruenmk9_col.iwi",
+      "bytes": 262172,
+      "sha256": "BDA82F4437FB1B78D92BE0273C12C7D9C7394BF1A928003ED0733B2E870650CA",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_bruenmk9_nml.iwi",
+      "bytes": 262172,
+      "sha256": "E4EE20A7AD8D77D6B6612DE470E03CBC2AD41823CF3B7B5E9C9C04DCB49112F3",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_bruenmk9_spec.iwi",
+      "bytes": 262172,
+      "sha256": "120DE51B4849E0753AC1F6FC8AAD4FF5E0027F5E139AE13AD6F1F3B4D5AC4978",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_optics_col.iwi",
+      "bytes": 131100,
+      "sha256": "61F8461426131CDFE29D915751F519B0C3EAD68D7F2925C7CF595873146C803B",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_optics_nml.iwi",
+      "bytes": 131100,
+      "sha256": "4841F3CBA7CE7DB46A37583FD72FA44EEC870C378F37D3B67A2F50DE614780C0",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/images/xi_t8_optics_spec.iwi",
+      "bytes": 131100,
+      "sha256": "59582016E6B4F7245655030EEDF32F153EF31D192F60DFAFD3D0D57CA548CCAD",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/materials/mc/xi_t8_bruenmk9.json",
+      "bytes": 5177,
+      "sha256": "A5FFA8C63AB9BCD2272B89718743989E4F8AFA4AAAB45EA9C28C13E14401CD07",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/materials/mc/xi_t8_bruenmk9_cutout.json",
+      "bytes": 3801,
+      "sha256": "44E776918B355B31EB4689B08594016ECA8C140612FC25DB7E8AE861B1D9B3E6",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/materials/mc/xi_t8_optics.json",
+      "bytes": 5171,
+      "sha256": "5EE6630E18617D337A4DAF25A8204F8BACB270A81DB33EBE4F80A4D81589C81E",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/materials/mc/xi_t8_optics_cutout.json",
+      "bytes": 3794,
+      "sha256": "A636CC36913CCCC2A5E043D3CE6AA27D49AE9115DED3012DA2FC3D52BB221AAC",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/model_export/viewmodel_t8_bruenmk9_candidate_lod0.glb",
+      "bytes": 1770564,
+      "sha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/model_export/worldmodel_t8_bruenmk9_candidate_lod0.glb",
+      "bytes": 1091336,
+      "sha256": "6A234017B0377A584365C93718501C8D7E4EF1F5F9809B9478BD0ABC4F4E25C0",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/xmodel/viewmodel_t8_bruenmk9_candidate.json",
+      "bytes": 298,
+      "sha256": "572E8A72061E7FCBB2D54B9FE374119E1F65924BF66E1DBC8D8CC16B436C5990",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_raw/xmodel/worldmodel_t8_bruenmk9_candidate.json",
+      "bytes": 299,
+      "sha256": "DDCF4524C5E8C8C8C0BE99E77D08D9166E547B6896F6DB03DF34C6FE0779B684",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/baseline/zone_source/xi_hades_r6c_base.zone",
+      "bytes": 117,
+      "sha256": "DD19FE3DF4E9DC74A4835724ECBA682830D8F22D445AB5F18C938BBEFEBD9784",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_out/xi_hades_r6c_cand.ff",
+      "bytes": 773092,
+      "sha256": "5A4EB609D36B223FDD73A93FC8D1B8E758A230F3F1C9435DC5C98DD5619418DA",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_bruenmk9_col.iwi",
+      "bytes": 262172,
+      "sha256": "BDA82F4437FB1B78D92BE0273C12C7D9C7394BF1A928003ED0733B2E870650CA",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_bruenmk9_nml.iwi",
+      "bytes": 262172,
+      "sha256": "E4EE20A7AD8D77D6B6612DE470E03CBC2AD41823CF3B7B5E9C9C04DCB49112F3",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_bruenmk9_spec.iwi",
+      "bytes": 262172,
+      "sha256": "120DE51B4849E0753AC1F6FC8AAD4FF5E0027F5E139AE13AD6F1F3B4D5AC4978",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_optics_col.iwi",
+      "bytes": 131100,
+      "sha256": "61F8461426131CDFE29D915751F519B0C3EAD68D7F2925C7CF595873146C803B",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_optics_nml.iwi",
+      "bytes": 131100,
+      "sha256": "4841F3CBA7CE7DB46A37583FD72FA44EEC870C378F37D3B67A2F50DE614780C0",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/images/xi_t8_optics_spec.iwi",
+      "bytes": 131100,
+      "sha256": "59582016E6B4F7245655030EEDF32F153EF31D192F60DFAFD3D0D57CA548CCAD",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/materials/mc/xi_t8_bruenmk9.json",
+      "bytes": 5177,
+      "sha256": "A5FFA8C63AB9BCD2272B89718743989E4F8AFA4AAAB45EA9C28C13E14401CD07",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/materials/mc/xi_t8_bruenmk9_cutout.json",
+      "bytes": 3801,
+      "sha256": "44E776918B355B31EB4689B08594016ECA8C140612FC25DB7E8AE861B1D9B3E6",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/materials/mc/xi_t8_optics.json",
+      "bytes": 5171,
+      "sha256": "5EE6630E18617D337A4DAF25A8204F8BACB270A81DB33EBE4F80A4D81589C81E",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/materials/mc/xi_t8_optics_cutout.json",
+      "bytes": 3794,
+      "sha256": "A636CC36913CCCC2A5E043D3CE6AA27D49AE9115DED3012DA2FC3D52BB221AAC",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/model_export/viewmodel_t8_bruenmk9_candidate_lod0.glb",
+      "bytes": 1770564,
+      "sha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/model_export/worldmodel_t8_bruenmk9_candidate_lod0.glb",
+      "bytes": 1020332,
+      "sha256": "2E69C1A32CF3D5418F39E4ED6F497187A8E2B99AB54004E5C2985A69A3B09A77",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/xmodel/viewmodel_t8_bruenmk9_candidate.json",
+      "bytes": 298,
+      "sha256": "572E8A72061E7FCBB2D54B9FE374119E1F65924BF66E1DBC8D8CC16B436C5990",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_raw/xmodel/worldmodel_t8_bruenmk9_candidate.json",
+      "bytes": 299,
+      "sha256": "DDCF4524C5E8C8C8C0BE99E77D08D9166E547B6896F6DB03DF34C6FE0779B684",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "oat/candidate/zone_source/xi_hades_r6c_cand.zone",
+      "bytes": 117,
+      "sha256": "2B622EBAD32E2C8E0D7AA46A55DF6D91C55A948B013E335470E33B28C8B4D4F7",
+      "role": "isolated production-view OAT fixture/output"
+    },
+    {
+      "relativePath": "REPORT.md",
+      "bytes": 5754,
+      "sha256": "B1391D0585004A32F214E30197F8C7B3A20CC8335760A3316FDF9E7A492217C1",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "RESULT.json",
+      "bytes": 3688,
+      "sha256": "F291B431227AD86932FD26E96186456D138ADA334294FBFAF26E3DECC28168C9",
+      "role": "required top-level critic deliverable"
+    },
+    {
+      "relativePath": "tools/audit_atlas.py",
+      "bytes": 7045,
+      "sha256": "162D776978B31ADDA3088291A11C4E12C52A8E513E360F24A0011DD29C33AB2C",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/audit_glb_delta.py",
+      "bytes": 10953,
+      "sha256": "9D709ED472A0D43006454EA55BFB38FE2FDA82CC7F9686D0EFE60B65FDB0EA66",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/audit_worlds.py",
+      "bytes": 26426,
+      "sha256": "2476D931417E9FFD7FFA2BB029BC7745E6E068BD8DDC4522BDA8B3F28CA882BB",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/build_evidence_manifest.py",
+      "bytes": 7033,
+      "sha256": "DF10DB676004BBDE4DEC97511A7BBDA290403A58836795EB8A14F0C6FA4FAEF8",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/capture_integrity.ps1",
+      "bytes": 5403,
+      "sha256": "C6EED3B9ECA1030399C8CC8F0EE6C267648FBF4DD283D535FCF39450E2B831B8",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/make_blind.ps1",
+      "bytes": 6243,
+      "sha256": "AE4D049CE210EE21947FED746FA0CB45B05288E710D521FD28F27ACD87C4B68F",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/render_worlds.py",
+      "bytes": 10332,
+      "sha256": "48FE5C5D6E1413BE0E768E6CBB480499E1F8F9CCD3FFD29B762DD8A45A66916B",
+      "role": "critic-owned reproducibility utility"
+    },
+    {
+      "relativePath": "tools/run_oat_production_view.ps1",
+      "bytes": 11723,
+      "sha256": "9A1EDF3D3ABC4BC8FA883D2A27076322E2B4D2BF8429F9BADFFDC8C1B379202B",
+      "role": "critic-owned reproducibility utility"
+    }
+  ]
+}

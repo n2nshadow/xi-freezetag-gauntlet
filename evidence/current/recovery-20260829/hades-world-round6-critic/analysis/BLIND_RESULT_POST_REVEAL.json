@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "status": "failed",
+  "revealUtc": "2026-08-29T11:24:20.8538469Z",
+  "sealedKeySha256": "7A500FED2E4EA0E883F6C0DD337D6C51B6B2165E6AEC714D05AF841602B3392C",
+  "sealedBallotSha256": "8ACBF74E5D871106D34CEB8B24B43F24920C44163015451CC3A64C2C3D8480CF",
+  "ballotFrozenBeforeReveal": true,
+  "views": [
+    {
+      "view": "profile",
+      "blindVote": "B",
+      "revealedWinner": "production",
+      "strength": "decisive",
+      "reason": "B has the cleaner complete silhouette, more coherent receiver and canister surfaces, and stronger snake identity without a new projection or palette discontinuity.",
+      "assignment": {
+        "A": "candidate",
+        "B": "production"
+      }
+    },
+    {
+      "view": "front-three-quarter",
+      "blindVote": "B",
+      "revealedWinner": "candidate",
+      "strength": "decisive",
+      "reason": "B materially closes the broad front purple canister-strap slit and presents a continuous cloth face with no visible flap, floating face, z-fight, palette break, or silhouette regression.",
+      "assignment": {
+        "A": "production",
+        "B": "candidate"
+      }
+    },
+    {
+      "view": "rear-three-quarter",
+      "blindVote": "B",
+      "revealedWinner": "production",
+      "strength": "decisive",
+      "reason": "B has cleaner canister-band continuity, a more complete receiver, and a more legible connected snake treatment with no material regression.",
+      "assignment": {
+        "A": "candidate",
+        "B": "production"
+      }
+    },
+    {
+      "view": "identity-close",
+      "blindVote": "B",
+      "revealedWinner": "production",
+      "strength": "decisive",
+      "reason": "B preserves the blue-purple-ivory identity while presenting the purple canister strap as a materially cleaner continuous surface; no protrusion, floating triangle, shimmer, or new silhouette defect is visible.",
+      "assignment": {
+        "A": "candidate",
+        "B": "production"
+      }
+    }
+  ],
+  "tally": {
+    "candidateWins": 1,
+    "productionWins": 3,
+    "ties": 0,
+    "candidateDecisiveWins": 1
+  },
+  "checks": {
+    "keyHashExact": true,
+    "ballotHashExact": true,
+    "candidateWinsOrTiesEveryView": false,
+    "atLeastTwoDecisiveCandidateWins": false,
+    "noMaterialVisualRegression": true
+  }
+}

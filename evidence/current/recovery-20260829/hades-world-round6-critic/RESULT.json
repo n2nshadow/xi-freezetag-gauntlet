@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "critic": "fresh-independent-hades-world-critic-round6",
+  "verdict": "HOLD",
+  "strict": true,
+  "strictPassBarPassed": false,
+  "promotionPerformed": false,
+  "fatalGates": [
+    "candidate decisively loses profile blind view",
+    "candidate decisively loses rear-three-quarter blind view",
+    "candidate decisively loses identity-close blind view",
+    "candidate has only one decisive win; at least two required"
+  ],
+  "sealedInputs": {
+    "candidateWorld": {"sha256": "2E69C1A32CF3D5418F39E4ED6F497187A8E2B99AB54004E5C2985A69A3B09A77", "bytes": 1020332, "beforeAndAfterExact": true},
+    "productionWorld": {"sha256": "6A234017B0377A584365C93718501C8D7E4EF1F5F9809B9478BD0ABC4F4E25C0", "bytes": 1091336, "beforeAndAfterExact": true},
+    "productionViewForPrimaryOat": {"sha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1", "bytes": 1770564, "beforeAndAfterExact": true},
+    "round5Control": {"sha256": "D8E207A31DC66497D168A1BCE84633234BAD609B46FDCF257718DDA379F6D300", "bytes": 1020180, "beforeAndAfterExact": true}
+  },
+  "blind": {
+    "status": "failed",
+    "keySha256": "7A500FED2E4EA0E883F6C0DD337D6C51B6B2165E6AEC714D05AF841602B3392C",
+    "ballotSha256": "8ACBF74E5D871106D34CEB8B24B43F24920C44163015451CC3A64C2C3D8480CF",
+    "ballotFrozenBeforeReveal": true,
+    "candidateWins": 1,
+    "productionWins": 3,
+    "ties": 0,
+    "candidateDecisiveWins": 1,
+    "candidateWinsOrTiesEveryView": false,
+    "atLeastTwoDecisiveCandidateWins": false,
+    "frontSlitMateriallyClosed": true,
+    "newFrontPatchRegressionObserved": false
+  },
+  "topology": {
+    "status": "passed",
+    "candidate": {"vertices": 14065, "triangles": 9986, "edges": 21786, "components": 2445, "boundaryEdges": 13614, "boundaryEdgesPerEdge": 0.6248967226659322, "wireEdges": 0, "overConnectedEdges": 0, "degenerateTriangles": 0},
+    "round5": {"vertices": 14063, "triangles": 9984, "edges": 21782, "components": 2445, "boundaryEdges": 13612, "boundaryEdgesPerEdge": 0.624919658433569},
+    "deltaFromRound5": {"vertices": 2, "triangles": 2, "edges": 4, "components": 0, "boundaryEdges": 2},
+    "existingAttributePrefixesByteIdentical": true,
+    "existingIndexPrefixByteIdentical": true,
+    "patchLocallyContained": true
+  },
+  "uvMaterialsPaletteAlpha": {
+    "status": "passed",
+    "regionsPopulated": 35,
+    "classifiedTriangles": 9986,
+    "unmatchedTriangles": 0,
+    "runtimeMaterialClassMismatches": 0,
+    "onlyPatchRegionDelta": {"mtl_wpn_t8_lmg_hades_mag_cloth_sig_02": 2},
+    "materials": ["mc/xi_t8_bruenmk9", "mc/xi_t8_bruenmk9_cutout"],
+    "palette": "blue-purple-ivory passed by direct RGBA decode",
+    "alpha": "opaque and cutout behavior passed; required uber cutouts span 0..255"
+  },
+  "oat": {
+    "status": "passed",
+    "primaryViewSha256": "B82BB33C153BEA73DF4DE4B38D44F3E31A8F4C4293985C543F7F33F76119A0C1",
+    "stagedViewUsed": false,
+    "baselineLinkerUnlinkerExitCodes": [0, 0],
+    "candidateLinkerUnlinkerExitCodes": [0, 0],
+    "warnings": 0,
+    "errors": 0,
+    "pools": {"xmodel": 2, "material": 4, "image": 6},
+    "exactNamesMatch": true
+  },
+  "integrity": {
+    "status": "passed",
+    "productionSteamGitDashboardBuilderViewOpticUnchanged": true,
+    "writesConfinedToCriticDirectory": true
+  },
+  "singleBiggestRemainingGap": "Candidate visual coherence remains inferior to production in profile, rear-three-quarter, and identity-close views.",
+  "smallestCorrection": "Retain the successful front patch; restore production-equivalent continuity only on the side/rear/identity-visible canister strap and receiver surfaces implicated by the three losses, reseal, and rerun all four blind views."
+}
