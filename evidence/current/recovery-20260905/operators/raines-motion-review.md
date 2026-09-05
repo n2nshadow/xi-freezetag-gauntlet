@@ -5,17 +5,31 @@
 DIAGNOSTIC HOLD. No model edit, promotion, production copy, or game launch.
 This bounded lead review replaces neither a fresh full critic nor a live test.
 
+## Source Provenance Correction
+
+The packaged file named `source-body-full.glb` is NOT untouched author geometry.
+Its 12,376 triangles match the adjacent conversion record's output, while that
+record reports 54,404 input polygons. The latest LOD0/1/2/3 reduction therefore
+starts after an earlier large reduction. Matching that packaged reference does
+not prove fidelity to the original author, and its failures cannot yet be
+attributed exclusively to the current native retarget. The actual SMD source
+inventory is being verified separately in `raines_source_provenance_round1`.
+
+The diagnostic's legacy `authored_bind` filename means the packaged 102-joint
+bind control, not an untouched raw-author model. Its geometry was not edited by
+this check. Earlier sealed builder reports remain historical, not corrected in
+place.
+
 The close standing candidate retains the correct Ajax The Chef identity much
 better than the old red-plaid slot. The existing front/side/face/LOD evidence
 does not justify motion acceptance. Fresh corrected crouch views visibly show
 lower-leg discontinuities and angular apron deformation in both the stock-rig
-source reference and LOD0. These need source-to-native rig/seam investigation;
-decimating the candidate differently cannot by itself explain a defect already
-present before its LOD reduction.
+source reference and LOD0. These need raw-source, earlier-reduction and native
+rig/seam investigation. This check alone cannot distinguish those causes.
 
 This is a visual diagnosis, not a proof of the exact responsible joint mapping.
 The source-reference match does not excuse the candidate's appearance. The
-original 102-joint package model was also inspected in bind, using only a
+already-reduced 102-joint package model was also inspected in bind, using only a
 documented rigid/uniform presentation transform, without applying native clips
 to its incompatible source skeleton.
 
@@ -54,6 +68,6 @@ scale 0.3882638399282961 with a proper rotation. Its exact matrix is recorded;
 it is not a replacement retarget recipe. Single clips omit engine animation
 layering, controllers, IK and full locomotion; the fire clip is partial.
 
-Next: trace lower-leg boundary vertices and apron joint ancestry against the
-actual authored inputs and stock target before changing weights. Keep this
+Next: obtain the actual un-reduced authored input, then trace lower-leg boundary
+vertices and apron joint ancestry against the stock target before changing weights. Keep this
 candidate held and preserve all sealed earlier evidence.
