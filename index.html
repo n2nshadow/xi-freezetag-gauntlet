@@ -70,7 +70,7 @@
             </div>
             <div class="snapshot-stamp">
               <span>Current verdict: <strong class="text-fail">HOLD</strong></span>
-              <time datetime="2026-09-05T01:42:00-04:00">05 Sep 2026, 01:42 EDT</time>
+              <time datetime="2026-09-05T02:35:00-04:00">05 Sep 2026, 02:35 EDT</time>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">05</span>
             <strong>Blind visual A/B</strong>
-              <span>8/8 viewarms pass native checks; body and combined-weapon critics remain active</span>
+              <span>8/8 viewarms are hash-sealed; combined weapon proof is 44/64 and remains rejected</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">06</span>
@@ -320,7 +320,7 @@
             <p class="eyebrow">Live checkpoint</p>
             <h2 id="current-round-title">Asset Recovery Gauntlet Active</h2>
           </div>
-          <span class="status status-unknown status-large">8/8 viewarms pass native gate; RAM-7 + DM56 package 993/990 HOLD; Steam unchanged</span>
+          <span class="status status-unknown status-large">8/8 viewarms checkpointed; combined RAM-7 + DM56 proof 44/64 FAIL; Steam unchanged</span>
         </header>
 
         <div class="round-grid">
@@ -328,7 +328,7 @@
             <dl class="round-facts">
               <div>
                 <dt>05 September checkpoint</dt>
-                <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> All eight latest authored viewarm sets pass the exact native contract. Four third-person bodies are already staged, Mara31 and Talon11 have finished builder validation and are under fresh independent review, and Iskra/Mace repairs remain active.</dd>
+                <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> All eight latest authored viewarm sets pass the exact native contract and are preserved in checkpoint <code>a2eac3ae</code>. Mara31 and Talon11 remain under fresh independent review; the new Iskra61 and Mace51 candidates now visually match their full authored sources and are finishing engine closure before criticism.</dd>
               </div>
               <div>
                 <dt>Weapon package hold</dt>
@@ -336,7 +336,7 @@
               </div>
               <div>
                 <dt>Active headroom repair</dt>
-                <dd>One combined view XModel and one combined world XModel are being built per family. Authored reflex, compact optic, and suppressor geometry remain on hideable tags, with a dedicated magazine model. This replaces redundant per-state models while preserving the selected attachment appearance.</dd>
+                <dd>One combined view XModel and one combined world XModel are being built per family. The current comparison is honestly rejected at <strong>44 / 64</strong>: all 20 failures are reflex or compact-optic view states. Base, suppressor, and world states match; the optic transforms must reproduce the frozen Round 3 authored fit before this can recover the required XModel slots.</dd>
               </div>
               <div>
                 <dt>Current evidence</dt>
@@ -344,7 +344,7 @@
               </div>
               <div>
                 <dt>Publication state</dt>
-                <dd>The public dashboard is current, but neither Steam nor the release package has been changed. The next retained test tuple must pass the strict 990 XModel ceiling, exact IWD model-field inspection, direct fastfile unlink verification, and a fresh independent critic.</dd>
+                <dd><strong>LOCAL SNAPSHOT 95; PUBLIC SNAPSHOT 93.</strong> This local page includes the latest candidate evidence, but it has not been published. Neither Steam nor the release package has changed. The next retained test tuple must pass the strict 990 XModel ceiling, exact IWD model-field inspection, direct fastfile unlink verification, and a fresh independent critic.</dd>
               </div>
             </dl>
 
@@ -949,12 +949,12 @@
 
           <aside class="gap-panel" aria-labelledby="gap-title">
             <p class="eyebrow">Biggest remaining gap</p>
-            <h3 id="gap-title">Recover three XModel slots without changing the authored weapon states.</h3>
+            <h3 id="gap-title">Make the combined optic states match before spending the recovered slots.</h3>
             <p>
-              The latest authored viewarms already clear their exact native gate. RAM-7 and DM56 now have coherent Round 3
-              weapon, reflex, compact-optic, suppressor, and magazine assets, but separate models push the full package to
-              993 runtime XModels. The active round combines each family's visual states behind engine hide tags and must
-              prove, by blind render comparison and OAT round trip, that no optic, magazine, muzzle, rail, or ADS axis moves.
+              The latest authored viewarms clear their exact native gate and are checkpointed. RAM-7 and DM56 still need
+              three release slots, but the first combined hide-tag proof passes only 44 of 64 fixed-camera comparisons.
+              All 20 misses are view-model reflex or compact-optic states, so no package integration is allowed until those
+              transforms reproduce the frozen Round 3 rail fit and ADS axis exactly and a fresh critic confirms the result.
             </p>
             <div class="exit-evidence">
               <span>Exit evidence</span>
@@ -1739,6 +1739,28 @@
 
         <div class="gallery-grid">
           <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/operators/iskra61-source-candidate-round2.png">
+              <img src="evidence/current/recovery-20260905/operators/iskra61-source-candidate-round2.png" alt="Iskra61 authored source, rejected Round 1 control, and Round 2 candidate shown from four matched angles" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">Iskra61 Round 2 / visual candidate</span>
+              <strong>The colored hair, costume, proportions, and rear silhouette now follow the authored source</strong>
+              <span>The matched four-angle board shows the Round 2 candidate recovering the intended Seraph Kitty Six identity that Round 1 lost. Engine closure and fresh independent criticism are still required before promotion.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/operators/mace51-source-candidate-round2.png">
+              <img src="evidence/current/recovery-20260905/operators/mace51-source-candidate-round2.png" alt="Mace51 authored source, rejected Round 1 control, and Round 2 candidate shown from four matched angles" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">Mace51 Round 2 / visual candidate</span>
+              <strong>The rabbit head, layered outfit, color blocking, and equipment silhouette are restored</strong>
+              <span>The candidate closely tracks the full Firebreak Carat Thief source from front, side, and rear views. It remains quarantined until its 51-joint, four-LOD, material, IWD, and OAT evidence is complete and independently reviewed.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
             <a class="gallery-image" href="evidence/current/recovery-20260905/ram7-view-round3.png">
               <img src="evidence/current/recovery-20260905/ram7-view-round3.png" alt="RAM-7 Round 3 view-model review board showing base, reflex, compact optic, suppressor, and magazine states" loading="lazy">
             </a>
@@ -2110,8 +2132,8 @@
 
   <footer class="site-footer">
     <div class="section-shell footer-inner">
-      <p><strong>XI FreezeTag Gauntlet</strong> / public evidence board</p>
-      <p>Snapshot 94 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
+      <p><strong>XI FreezeTag Gauntlet</strong> / local evidence board</p>
+      <p>Snapshot 95 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
     </div>
   </footer>
 </body>
