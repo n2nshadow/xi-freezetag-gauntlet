@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_FOR_PROVING_PACKAGE_ONLY",
+  "independentReview": true,
+  "generatedAt": "2026-09-05T03:37:11.6996983-04:00",
+  "builderRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2",
+  "builderReport": {
+    "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\REPORT.md",
+    "sha256": "D25E2F40A4D2B050D7500B2D9DBB72C79BFE3E20F92C03601EE41D1DF8C6AD61"
+  },
+  "builderDeliveryManifest": {
+    "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\DELIVERY_MANIFEST.json",
+    "sha256": "11EA2182DBBB3927C826ABC3E9E53C3BDC6FD0C3B6DE4C386AC8D635F0F2D2BD"
+  },
+  "operators": [
+    {
+      "operatorId": "mace_5_1",
+      "intendedIdentity": "Firebreak - The Carat Thief (Heist), rabbit source identity",
+      "candidateRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag",
+      "xmodelDescriptor": {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\xmodel\\playermodel_xi_mace_5_1.json",
+        "sha256": "E4C3ADB148E66BDC90C607785E4AFCAFCE2A1EA2AE65C80E51FB8B397CF906F2"
+      },
+      "lods": [
+        {
+          "lod": 0,
+          "distance": 220,
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\model_export\\playermodel_xi_mace_5_1_lod0.glb",
+          "sha256": "5060642743AEE914F5907CE4144DFCF6A1F0AA99DEB00304CAC8A769DBA3C4E9"
+        },
+        {
+          "lod": 1,
+          "distance": 500,
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\model_export\\playermodel_xi_mace_5_1_lod1.glb",
+          "sha256": "A5A1B8204176E002427762593F0310189DE07B2E4F04585691D306F48A0DCDA1"
+        },
+        {
+          "lod": 2,
+          "distance": 1200,
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\model_export\\playermodel_xi_mace_5_1_lod2.glb",
+          "sha256": "4D83D033BF3C83067C74D609510A3DA87D6D1D21B3220CDDEFBBEAFC86A75A73"
+        },
+        {
+          "lod": 3,
+          "distance": 1000000,
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\model_export\\playermodel_xi_mace_5_1_lod3.glb",
+          "sha256": "9BE1C1CBE3ABA3C558C08A9F3C1258FF7794524FE1628D557278275CFBC7FB22"
+        }
+      ],
+      "materials": [
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\materials\\mc\\round1-texture-manifest.json",
+          "sha256": "D2FE4FC02DB79D3CF1138C12760D3E311A4CD817E7EE1C606BDEE39D1749BAF7",
+          "role": "texture-source-manifest"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\materials\\mc\\xi_mace51_exact_body.json",
+          "sha256": "2A029C8CD4841F4263BB8548D2694860523BC09AFC130EBE8C850F04FA96FC4C",
+          "role": "opaque"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\materials\\mc\\xi_mace51_exact_body_cutout.json",
+          "sha256": "A9551AD005DDA52324FF8E3BEC061E9589B5F2FBE249B4C05A23DACC881A6853",
+          "role": "cutout"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\materials\\mc\\xi_mace51_exact_body_glass.json",
+          "sha256": "3B3AB2C218DF1CD3557374A342BF4B4BC15138333AACA1DC14DD105BDBA43046",
+          "role": "glass"
+        }
+      ],
+      "images": [
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\images\\xi_mace51_exact_body_col.iwi",
+          "sha256": "606D24F3BC51CDD065EB1C6331C42BA3BEDD42547B0130FB958A8557F52F4984"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\images\\xi_mace51_exact_body_spec.iwi",
+          "sha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\images_source\\xi_mace51_exact_body_col.dds",
+          "sha256": "959FF1A156E539FC12CCE8BBD2631868D9993DC3DFC9350C87E9569C6A67ECCC"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\images_source\\xi_mace51_exact_body_col.png",
+          "sha256": "C5A7988334B7127E2BDFDDDE9958BCB23B876DC78863B639C59F7C2D38015F5D"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\candidate\\zone_raw\\xi_ftag\\images_source\\xi_mace51_exact_body_spec.dds",
+          "sha256": "48FF9BB0F34EB0BBBB27E10763E221CC743F3167D3EDAE9D674A0F4F608D4914"
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\source\\full-native51-classified.glb",
+          "sha256": "175E29D032CA3F2196DB5AEB484B68651D9933C71941EF984981BC7324BE3026"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\source\\lineup.png",
+          "sha256": "C3B2B4A2EE5EC76142F7CBA0336FF4A788B730FA828AA5F8BB6B60B37CB93294"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\source\\round1-texture-manifest.json",
+          "sha256": "D2FE4FC02DB79D3CF1138C12760D3E311A4CD817E7EE1C606BDEE39D1749BAF7"
+        },
+        {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\source\\stock.glb",
+          "sha256": "98C99FF6CB672629B5500D8C0DA8529520E63EB2273A19CFD84793C645EC56C6"
+        }
+      ],
+      "oatEvidence": [
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\metrics\\oat-closure.json", "sha256": "51CAFF5C507312317529077C2AE23220008C3AAE3CC7BEEC023865B890F59C9D"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\metrics\\oat-semantic-roundtrip.json", "sha256": "05606685C8A46E2B3F9C015359E19F3EB9D3B4B28C9098D6007AE1C1960AFF3D"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\oat\\logs\\oat-roundtrip.log", "sha256": "B13E987C8FEDD9CFAD3BF3DC9CB269F5D0D040124B15F46BD37BF972CC74AF25"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\oat\\logs\\oat-list.log", "sha256": "21331F86998D53E3C3295DBE4847A0B1AA7CCBD7776EAC0B46DE89E42630E8B4"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\oat\\logs\\oat-dump.log", "sha256": "59DF2B486BB5B7B199BCF485D5705181CCD173BB5B7651E2DB321F6A2BA0D371"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\oat\\zone_out\\mace_5_1_round2_oat.ff", "sha256": "AB3EBB051594B96763785174E8323729CE7F778A81466E77200079EEC9767015"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\independent-oat-roundtrip.json", "sha256": "D120E8726487CD54D843B3934B7DCAF44944CE3D545DF933C9CC6484FC29734E"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\oat-independent\\link-mace.log", "sha256": "8EC4F209DD6B120D3379FD9C0D7EBC6677F7BFA9D3BCD2EDCDFB55C5536BEBA8"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\oat-independent\\list-mace.log", "sha256": "A107162AC4ADFB0D85176FE5E98E89C9E2D92B68990B212A15C07087B47B09C6"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\oat-independent\\dump-mace.log", "sha256": "2B5FA3259F13BE61D95114E7FCD853C5178D1558641774DDB8CDC8025A04B163"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\oat-independent\\link-combined.log", "sha256": "6D99FADFD36E5051E8638311F665D577A22DAB080773FCFAA7C69DAB02EC085A"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\oat-independent\\list-combined.log", "sha256": "7C94DC33A77820A4CEA057A6472257B128633C2921DAC89DCE6597D7336C2A5C"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\oat-independent\\dump-combined.log", "sha256": "B8612445FF24236280058AB56F4F5DF8E5822236623793E267B504AEBE4D1F16"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\oat-independent\\zone_out\\critic_mace_round2.ff", "sha256": "AB3EBB051594B96763785174E8323729CE7F778A81466E77200079EEC9767015"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\oat-independent\\zone_out\\critic_combined_round2.ff", "sha256": "1FBEFA60CFA123F8924A380D4529D7497BD7007F0305E028EE49B6C37CBE53BA"}
+      ],
+      "poseEvidence": [
+        {"pose": "crouch", "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\poses\\pose-crouch.png", "sha256": "BFC045F6F01095D993369EDECB12E3E82426EDF3A68F0EECB7ADCA9CA1A1E91B"},
+        {"pose": "death", "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\poses\\pose-death.png", "sha256": "00E2F3FF06F0D0AB09AC1414774811735179CB620E3CDC9472A84B025CA31B75"},
+        {"pose": "fire", "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\poses\\pose-fire.png", "sha256": "29C6859100EA90A904E7D4E1FC9C388AFEA3BD6EA8AC10F3198783D7D50E5546"},
+        {"pose": "idle", "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\poses\\pose-idle.png", "sha256": "1785DB44D2F059258C724CAB302589A4CEC4BE73742C1516F31A826740F06957"},
+        {"pose": "run", "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\poses\\pose-run.png", "sha256": "D6917854647A5E682AE71C59479DF0654CF520CD29213D7231A79F13D1DE1561"},
+        {"pose": "composite", "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\revealed\\stock-animation-poses.png", "sha256": "E5E034461141F5BF5EFADB0AABF291B71EF443677B3C9B87245E507BF8E0F36D"},
+        {"pose": "manifest", "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\metrics\\pose-and-render-manifest.json", "sha256": "8D762A36B3A31E40CE812A03FA674C7CD26D84B58BC94DCFA3DE6623F71077FE"},
+        {"pose": "receipt", "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\metrics\\render-receipt.json", "sha256": "C16D6A25203374B757FE1B7559744EA6487873F94640617AAFB9D748A965A45B"}
+      ],
+      "blindEvidence": [
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\blind\\identity-silhouette.png", "sha256": "BDDF1608DD115B7FFAA33BD2F8FFD0D748CAD3A99B9F33F1FDE22DA86622507E"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\blind\\lod-continuity.png", "sha256": "B7CFDE984B6E9FE0190F7BCE92F0C9115EAB6530E1023F7302B241E60F098714"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\blind-key.json", "sha256": "80C44A73DA2A00B7A4B7A0A2D519AACB4AAF804B3E01EC68127ADFED52F1A695"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\blind\\sealed-assessment.json", "sha256": "E92F9A1C167D49AC09A84BBC57361AEC5792B3B6E0D8BB1ED2EB8F9139C866A1"}
+      ],
+      "visualEvidence": [
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\revealed\\identity-silhouette.png", "sha256": "E8CB9C1100A81F6AD63495106AE0E4A04740684C8671DE30DADD95DFAC3B31A1"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\revealed\\lod-continuity.png", "sha256": "E49603267B7C1630439DCB8AEA94AC58DE2470C79E942D565F05AD21958390B2"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2\\operators\\mace\\evidence\\revealed\\material-detail.png", "sha256": "D088E44B2171843BDCA4D9791D0C26DB522A57D62B820DA714E31C94AC0B5072"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\glb-capacity-roundtrip.json", "sha256": "437E33523F9161C152226A7018E0890B6BA314A14FB4CEE807736A8A5B5D4D5D"},
+        {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\material-image-alpha-closure.json", "sha256": "40C6E2F2F5314D202FFEA528AD6584BF37B5BF5BA34AFDFED1F0AB522F913F69"}
+      ],
+      "criticReport": {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\REPORT.md",
+        "sha256": "BEBE630DD2846642A2A0BB9C282A4874F1C8FA8A69F498632623242281FE2854"
+      },
+      "criticResult": {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\RESULT.json",
+        "sha256": "D9EAE8355C28D356CFA3B2D30D926362985CB3D0AC95F884D5ED75EDB1B0AE3D"
+      },
+      "liveEngineAndUserTestOutstanding": true,
+      "productionReleaseStatus": "HOLD"
+    }
+  ],
+  "liveEngineAndUserTestOutstanding": true,
+  "productionReleaseStatus": "HOLD"
+}

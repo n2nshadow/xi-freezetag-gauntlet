@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-05T03:37:11.6996983-04:00",
+  "reviewType": "independent-critic",
+  "builderRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2",
+  "criticRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic",
+  "overallStatus": "PARTIAL_PASS_FOR_PROVING_PACKAGE_ONLY",
+  "productionReleaseStatus": "HOLD",
+  "operators": {
+    "iskra_6_1": {
+      "intendedIdentity": "Seraph - Kitty Six (Superhero)",
+      "offlineVerdict": "HOLD",
+      "provingPackageStatus": "HOLD",
+      "safeForSealedProvingPackage": false,
+      "productionReleaseStatus": "HOLD",
+      "gates": {
+        "exactSourceIdentity": "PASS",
+        "structuralRigAndBind": "PASS",
+        "weights": "PASS",
+        "triangleTiersAndLodMap": "PASS",
+        "surfaceIndexAndBoneCapacity": "PASS",
+        "imageMaterialAlphaClosure": "PASS",
+        "oatLinkListDump": "PASS",
+        "semanticRoundtrip": "PASS",
+        "stockAnimationPoses": "FAIL",
+        "authoredComponentRetention": "FAIL",
+        "replacementDelta": "PASS",
+        "manifestAndNoninterference": "PASS"
+      },
+      "largestRemainingGap": "The authored white Kitty Six doll/charm is reduced to disconnected dark fragments at LOD0 and degrades further through LOD3; restore it as one intact readable component and repeat visual, pose, and OAT proving.",
+      "blockingFinding": {
+        "sourceTriangles": 676,
+        "sourceVertices": 373,
+        "sourceConnectedComponents": 1,
+        "lod0Triangles": 113,
+        "lod0TriangleRetentionPercent": 16.715976,
+        "lod0ConnectedComponents": 16,
+        "lod1Triangles": 60,
+        "lod2Triangles": 25,
+        "lod3Triangles": 15,
+        "observedInAllFiveStockPoses": true,
+        "evidencePath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\iskra-charm-retention.json",
+        "evidenceSha256": "9B632725D1F1988ADB037864EEC81BE5CE45B73237492BE1678D4A179D8596E7"
+      },
+      "lods": [
+        {"lod": 0, "distance": 220, "vertices": 32544, "triangles": 28499, "surfaces": 2, "bones": 51},
+        {"lod": 1, "distance": 500, "vertices": 26742, "triangles": 22000, "surfaces": 2, "bones": 51},
+        {"lod": 2, "distance": 1200, "vertices": 20082, "triangles": 15000, "surfaces": 2, "bones": 51},
+        {"lod": 3, "distance": 1000000, "vertices": 14671, "triangles": 10000, "surfaces": 2, "bones": 51}
+      ]
+    },
+    "mace_5_1": {
+      "intendedIdentity": "Firebreak - The Carat Thief (Heist), rabbit source identity",
+      "offlineVerdict": "PASS",
+      "provingPackageStatus": "PASS_FOR_PROVING_PACKAGE_ONLY",
+      "safeForSealedProvingPackage": true,
+      "productionReleaseStatus": "HOLD",
+      "gates": {
+        "exactSourceIdentity": "PASS",
+        "structuralRigAndBind": "PASS",
+        "weights": "PASS",
+        "triangleTiersAndLodMap": "PASS",
+        "surfaceIndexAndBoneCapacity": "PASS",
+        "imageMaterialAlphaClosure": "PASS",
+        "oatLinkListDump": "PASS",
+        "semanticRoundtrip": "PASS",
+        "stockAnimationPoses": "PASS",
+        "authoredComponentRetention": "PASS",
+        "replacementDelta": "PASS",
+        "manifestAndNoninterference": "PASS"
+      },
+      "largestRemainingGap": "Native IW3 glass/cutout appearance, gameplay deformation, LOD transitions, real client memory behavior, and user acceptance remain outstanding live tests.",
+      "lods": [
+        {"lod": 0, "distance": 220, "vertices": 25389, "triangles": 28499, "surfaces": 3, "bones": 51},
+        {"lod": 1, "distance": 500, "vertices": 20885, "triangles": 22000, "surfaces": 3, "bones": 51},
+        {"lod": 2, "distance": 1200, "vertices": 15601, "triangles": 15000, "surfaces": 3, "bones": 51},
+        {"lod": 3, "distance": 1000000, "vertices": 11375, "triangles": 10000, "surfaces": 3, "bones": 51}
+      ],
+      "capacity": {
+        "largestSurfaceReferencedVertices": 21802,
+        "largestSurfaceTriangles": 23940,
+        "largestSurfaceMaximumIndex": 21801,
+        "oatGlobalMaximumIndex": 25388,
+        "uint16Limit": 65535,
+        "xmodelSurfaceCountLimit": 255,
+        "requiredBones": 51,
+        "requestedBoneCeiling": 128,
+        "maximumInfluences": 4,
+        "minimumPositiveWeight": 0.0102
+      },
+      "replacementDelta": {
+        "xmodels": 0,
+        "materials": 1,
+        "images": 0,
+        "coreGeometryIncreaseBytes": [2116928, 2721568],
+        "textureChangeBytes": -524336,
+        "netEstimatedIncreaseBytes": [1592592, 2197232],
+        "estimateOnly": true
+      }
+    }
+  },
+  "blindReview": {
+    "sealedAt": "2026-09-05T02:50:33.7528292-04:00",
+    "keyOpenedAfterSeal": true,
+    "iskraScores": {"candidateA": 92, "fullSourceB": 96, "wrongCurrentControlC": 18},
+    "maceScores": {"candidateA": 90, "fullSourceB": 96, "wrongCurrentControlC": 16},
+    "round1Limitation": "The anonymized C panels were wrong-current controls, not the rejected exact-identity Round1 candidates. Exact Round1 comparison was performed after reveal and is not claimed as sealed blind evidence.",
+    "evidencePath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\blind\\sealed-assessment.json",
+    "evidenceSha256": "E92F9A1C167D49AC09A84BBC57361AEC5792B3B6E0D8BB1ED2EB8F9139C866A1"
+  },
+  "machineReplay": {
+    "candidateGlbs": 8,
+    "builderOatDumpedGlbs": 8,
+    "criticIndividualAndCombinedOatDumpedGlbs": 16,
+    "exactJointCount": 51,
+    "allJointHierarchyBindChecksPass": true,
+    "allCandidateWeightChecksPass": true,
+    "allTriangleTiersExact": true,
+    "allLodMapsExact": true,
+    "allSurfaceAndIndexChecksPass": true,
+    "allImageAndMaterialChecksPass": true,
+    "allSemanticRoundtripsPass": true,
+    "finalOatVersion": "0.32.0",
+    "finalOatLinkListDumpWarnings": 0,
+    "finalOatLinkListDumpErrors": 0,
+    "initialSetupFailuresRetainedAndNotWaived": true,
+    "evidence": [
+      {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\glb-capacity-roundtrip.json", "sha256": "437E33523F9161C152226A7018E0890B6BA314A14FB4CEE807736A8A5B5D4D5D"},
+      {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\independent-oat-roundtrip.json", "sha256": "D120E8726487CD54D843B3934B7DCAF44944CE3D545DF933C9CC6484FC29734E"},
+      {"path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\evidence\\machine\\material-image-alpha-closure.json", "sha256": "40C6E2F2F5314D202FFEA528AD6584BF37B5BF5BA34AFDFED1F0AB522F913F69"}
+    ]
+  },
+  "packageCapacity": {
+    "acceptedOperatorLod0Range": {
+      "vertices": [8939, 15294],
+      "triangles": [6060, 13827],
+      "surfaces": [2, 2],
+      "bones": [51]
+    },
+    "currentDirectCounts": {"xmodels": 61, "materials": 322, "images": 32},
+    "projectedWithMace": {"xmodels": 61, "materials": 323, "images": 32},
+    "fullPackageBaseline": {
+      "backlotRuntimeXmodels": 993,
+      "hardXmodelLimit": 1000,
+      "repositorySafetyLimit": 990,
+      "modExclusiveXmodels": 70,
+      "modExclusiveXmodelLimit": 70,
+      "backlotRuntimeMaterials": 1710,
+      "hardMaterialLimit": 2048
+    },
+    "projectedWithMaceFullPackage": {
+      "backlotRuntimeXmodels": 993,
+      "backlotRuntimeMaterials": 1711,
+      "hardXmodelHeadroom": 7,
+      "repositorySafetyXmodelHeadroom": -3,
+      "hardMaterialHeadroom": 337,
+      "imageCountDelta": 0
+    },
+    "fullPackageReleaseGate": "HOLD",
+    "reason": "The package already exceeds the repository's 990 Backlot XModel safety ceiling. Mace adds no XModel or image slot and one material, but does not cure that existing package-level hold."
+  },
+  "manifestAndNoninterference": {
+    "status": "PASS",
+    "inventoryRecords": 699,
+    "inventoryMismatches": 0,
+    "deliveryChecksumRecords": 701,
+    "deliveryChecksumMismatches": 0,
+    "builderFilesRehashed": 702,
+    "builderMismatches": 0,
+    "productionZoneRawFilesRehashed": 2176,
+    "productionZoneRawMismatches": 0,
+    "selectedProtectedFilesRehashed": 9,
+    "selectedProtectedMismatches": 0,
+    "steamFastfilesRehashed": 5,
+    "steamMismatches": 0,
+    "builderDeliveryManifestSha256": "11EA2182DBBB3927C826ABC3E9E53C3BDC6FD0C3B6DE4C386AC8D635F0F2D2BD"
+  },
+  "promotionManifest": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_mace_body_round2_critic\\promotion-manifest.json",
+  "liveEngineAndUserTestOutstanding": true
+}
