@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "lead-schema-audit",
+  "recordedAt": "2026-09-05T04:46:51.8678390-04:00",
+  "family": "Family08 Renetti suppressor surface",
+  "status": "PASS",
+  "promotionStatus": "NOT_A_PROMOTION",
+  "conclusion": "OAT v0.32.0 does not serialize twoHanded or adsTransBlendTime for IW3 weapon dumps; same-compiler baseline and candidate differ semantically only in the authorized primary gunModel and worldModel fields.",
+  "correctedGate": {
+    "sourceRetainsTwoHanded": true,
+    "sourceTwoHanded": "1",
+    "sourceRetainsAdsTransBlendTime": true,
+    "sourceAdsTransBlendTime": "0.1",
+    "protectedAlternateModelSlotsPreserved": true,
+    "sameCompilerSerializedDifferenceFields": [
+      "gunModel",
+      "worldModel"
+    ],
+    "lineEndingsNormalizedForSemanticComparison": true
+  },
+  "controls": {
+    "stockCommonMp": {
+      "serializedFieldCount": 501,
+      "twoHandedPresent": false,
+      "adsTransBlendTimePresent": false,
+      "sha256": "B0B60E74E66E94A746EE64BFF0BB766E73303EEE18DBA97D2D6046C83E29FB68"
+    },
+    "productionSource": {
+      "parsedFieldCount": 356,
+      "twoHanded": "1",
+      "adsTransBlendTime": "0.1",
+      "sha256": "5D74EB8A3469BAEC7369A5E3D2B9DCCCC26709A82AE7FDD10D2E45D806F6C4EF"
+    },
+    "candidateSource": {
+      "parsedFieldCount": 356,
+      "twoHanded": "1",
+      "adsTransBlendTime": "0.1",
+      "sha256": "7FCB377B11A8CAE003278F9D14430E22FEE85D68653D8985E64DB2654B0305AD"
+    },
+    "productionBaselineCompiled": {
+      "serializedFieldCount": 501,
+      "twoHandedPresent": false,
+      "adsTransBlendTimePresent": false,
+      "linkWarnings": 0,
+      "linkErrors": 0,
+      "listWarnings": 0,
+      "listErrors": 0,
+      "dumpWarnings": 0,
+      "dumpErrors": 0,
+      "dumpSha256": "2698A2DBAFCDAFA77D6FC186D668BD0A8B69D4A38870B4E378823807FDDC4394",
+      "fastfileSha256": "3EB7F8CBD00A0A7A311CEB34B244959D9D6064EB5B733D82AA757B953585E232"
+    },
+    "candidateCompiled": {
+      "serializedFieldCount": 501,
+      "twoHandedPresent": false,
+      "adsTransBlendTimePresent": false,
+      "dumpSha256": "C8C426727022801AF2628C544CA2EA89BCA7DAC7EF7A65190D0E9A80B8EB7F4C",
+      "fastfileSha256": "2DA79FCDC6FE77EA38CD56DD50460943F2FAAAECE5B6DBB1B6FE23B1C19ABF26"
+    }
+  },
+  "toolchain": {
+    "linkerSha256": "1A5CB7499458BEF359F55FF2A78C72E5822F62455599AB291B590DA747C0233B",
+    "unlinkerSha256": "8475AF247240D34B29AA51AE5C84B3E4AED2F7100BB5C689FD3FA1EA666F4A7F",
+    "loadedProductionModFfSha256": "CD68D537A8741FA5509589ECC589DB5DD08CEF8859AE994EF2132D931AFE7FE2"
+  },
+  "nextAction": "Reissue Family08 evidence under this corrected gate, then send the full output to a fresh independent critic."
+}

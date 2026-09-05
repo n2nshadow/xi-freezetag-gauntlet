@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "SHA-256",
+  "root": "lead_stock_weapon_schema_audit",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 2893,
+      "sha256": "179066EA40B631C8D847111D25996200EBDF738FCB0BDD0E7E9EA5F8B4DC7C2F"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 2698,
+      "sha256": "4C0DAFD0BA3AB729F5A3F1CF95B7C8AE259F81F20F9050DC9CA60A03407B26D7"
+    },
+    {
+      "path": "custom_production_baseline/source/lead_f08_production_baseline.zone",
+      "bytes": 947,
+      "sha256": "02B19A302CCB050B96301D5CBFDFB84EBDD9C3EC1C56A57F2DB596C9328FCF9B"
+    },
+    {
+      "path": "custom_production_baseline/runtime/weapons/mp/colt45_silencer_mp",
+      "bytes": 7979,
+      "sha256": "5D74EB8A3469BAEC7369A5E3D2B9DCCCC26709A82AE7FDD10D2E45D806F6C4EF"
+    },
+    {
+      "path": "custom_production_baseline/link.log",
+      "bytes": 2678,
+      "sha256": "BB767080E1E95DD333B8CF93C738928ECD3B8E2006B525F0EAB70A10644F29F7"
+    },
+    {
+      "path": "custom_production_baseline/list.log",
+      "bytes": 2197,
+      "sha256": "F40E5E09B0064B02C6EF7A5E1EE73941C595490381D0489CA350D8FF155A1E9C"
+    },
+    {
+      "path": "custom_production_baseline/dump.log",
+      "bytes": 609,
+      "sha256": "E51EB96BBD8F65485B33BFD252AFF582EBFCE9980DE183F962E8BF3D7526AC15"
+    },
+    {
+      "path": "custom_production_baseline/output/lead_f08_production_baseline.ff",
+      "bytes": 105732,
+      "sha256": "3EB7F8CBD00A0A7A311CEB34B244959D9D6064EB5B733D82AA757B953585E232"
+    },
+    {
+      "path": "custom_production_baseline/roundtrip/weapons/mp/colt45_silencer_mp",
+      "bytes": 11038,
+      "sha256": "2698A2DBAFCDAFA77D6FC186D668BD0A8B69D4A38870B4E378823807FDDC4394"
+    },
+    {
+      "path": "weapons/colt45_silencer_mp",
+      "bytes": 10750,
+      "sha256": "B0B60E74E66E94A746EE64BFF0BB766E73303EEE18DBA97D2D6046C83E29FB68"
+    }
+  ]
+}

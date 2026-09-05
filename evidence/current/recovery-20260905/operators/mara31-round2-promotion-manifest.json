@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-05T08:20:56.363840+00:00",
+  "status": "PASS_FOR_PROVING_PACKAGE_ONLY",
+  "independentReview": true,
+  "reviewType": "independent-critic",
+  "builderRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2",
+  "criticRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic",
+  "productionReleaseStatus": "HOLD",
+  "liveEngineAndUserTestOutstanding": true,
+  "scope": "Mara31 Zero - Dark Sails isolated proving package only",
+  "operatorId": "mara_3_1",
+  "identity": "Zero - Dark Sails (Pirate)",
+  "operators": [
+    {
+      "operatorId": "mara_3_1",
+      "intendedIdentity": "Zero - Dark Sails (Pirate)",
+      "candidateRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag",
+      "provingPackageStatus": "PASS_FOR_PROVING_PACKAGE_ONLY",
+      "safeForSealedProvingPackage": true,
+      "xmodelDescriptor": {
+        "name": "playermodel_xi_mara_3_1",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\xmodel\\playermodel_xi_mara_3_1.json",
+        "bytes": 445,
+        "sha256": "7670631296D9F943D84AD54CD054C4A40107F6228FEC3488886B4A53AD55757E",
+        "targetPath": "zone_raw/xi_ftag/xmodel/playermodel_xi_mara_3_1.json"
+      },
+      "lods": [
+        {
+          "lod": 0,
+          "distance": 220.0,
+          "name": "playermodel_xi_mara_3_1_lod0.glb",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod0.glb",
+          "bytes": 563960,
+          "sha256": "36A5805AB20C0710889A18662223649ED8C0A9D75AA7ED6D4AAC66F8DE0757BD",
+          "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod0.glb"
+        },
+        {
+          "lod": 1,
+          "distance": 500.0,
+          "name": "playermodel_xi_mara_3_1_lod1.glb",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod1.glb",
+          "bytes": 297996,
+          "sha256": "1256E90FD4E00A7711C945158A6182C8E5F798A1B5C600A216DD05F9C94A8A9F",
+          "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod1.glb"
+        },
+        {
+          "lod": 2,
+          "distance": 1200.0,
+          "name": "playermodel_xi_mara_3_1_lod2.glb",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod2.glb",
+          "bytes": 173596,
+          "sha256": "4EE1BB382C7001E2DA286F5EA4478B0A96F656A6676B9EAE81D1ADAB6DAFB6DC",
+          "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod2.glb"
+        },
+        {
+          "lod": 3,
+          "distance": 1000000.0,
+          "name": "playermodel_xi_mara_3_1_lod3.glb",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod3.glb",
+          "bytes": 81864,
+          "sha256": "3DC03BCB1BBDD01E3593A14ADA573DED0302CE6D127093B0016043B87EFE0B7D",
+          "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod3.glb"
+        }
+      ],
+      "materials": [
+        {
+          "name": "mc/xi_mara31_darksails_body",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\materials\\mc\\xi_mara31_darksails_body.json",
+          "bytes": 3351,
+          "sha256": "E83984B53807C27A8E556F507E8CD920FCB2509729501117E741AE6ED56B6D34"
+        },
+        {
+          "name": "mc/xi_mara31_darksails_body_alpha",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\materials\\mc\\xi_mara31_darksails_body_alpha.json",
+          "bytes": 2395,
+          "sha256": "5D44446C8302BA5E262889B2C5A612C84CF7F01B58EB44C7E8C6EE670ED45D0C"
+        }
+      ],
+      "images": [
+        {
+          "name": "xi_mara31_darksails_body_col",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_col.iwi",
+          "targetPath": "images/xi_mara31_darksails_body_col.iwi",
+          "bytes": 1048604,
+          "sha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33"
+        },
+        {
+          "name": "xi_mara31_darksails_body_spec",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_spec.iwi",
+          "targetPath": "images/xi_mara31_darksails_body_spec.iwi",
+          "bytes": 44,
+          "sha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF"
+        }
+      ],
+      "canonicalFastfile": {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\zone_out\\mara31_darksails_canonical_critic.ff",
+        "bytes": 402617,
+        "sha256": "294729C9B38881D9BAB94E603D40F27A7FC08FAEC5339865E3DE2B87C69217C7"
+      },
+      "iwd": {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\package\\xi_mara31_darksails_body_round2.iwd",
+        "bytes": 242618,
+        "sha256": "A42C363D7BF2F8D0C48E50F7E83ECBD252F5F8DA25C94374AADF9EC7D17ADEF9",
+        "entryCount": 2,
+        "entries": [
+          {
+            "path": "images/xi_mara31_darksails_body_col.iwi",
+            "bytes": 1048604,
+            "compressedBytes": 242260,
+            "crc32": "74A76F00",
+            "sha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33",
+            "expectedSha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33",
+            "candidatePath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_col.iwi",
+            "candidateSha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33",
+            "byteExactToCandidate": true,
+            "encrypted": false,
+            "directory": false,
+            "safeRelativePath": true
+          },
+          {
+            "path": "images/xi_mara31_darksails_body_spec.iwi",
+            "bytes": 44,
+            "compressedBytes": 26,
+            "crc32": "6E26DC99",
+            "sha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF",
+            "expectedSha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF",
+            "candidatePath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_spec.iwi",
+            "candidateSha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF",
+            "byteExactToCandidate": true,
+            "encrypted": false,
+            "directory": false,
+            "safeRelativePath": true
+          }
+        ]
+      },
+      "liveEngineAndUserTestOutstanding": true,
+      "productionReleaseStatus": "HOLD",
+      "criticReport": {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\REPORT.md",
+        "bytes": 8151,
+        "sha256": "18B248E4B1FD2C6EEB2D8702328A9BD74A583C8EF35B27FB64A0069D52021EBA"
+      },
+      "criticResult": {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\RESULT.json",
+        "bytes": 11496,
+        "sha256": "E04FCC637BA806AF60E008136CF10BD8E41A3633DE93B29150241FD97AB3BAA0"
+      }
+    }
+  ],
+  "sourceSmds": [
+    {
+      "name": "c_t8_mp_spe_hacker_pirate_arms1_LOD0.smd",
+      "originalAbsolutePath": "C:\\Users\\shawn\\Desktop\\stufftoadd\\Zero - Dark Sails (Pirate)\\c_t8_mp_spe_hacker_pirate_arms1\\c_t8_mp_spe_hacker_pirate_arms1_LOD0.smd",
+      "stagedPath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\source_provenance\\c_t8_mp_spe_hacker_pirate_arms1_LOD0.smd",
+      "bytes": 5344843,
+      "sha256": "709F0A488A2EFA2A842091A7DFF841F80B36036E0A1DAC595AF1FA5A472B0DC2",
+      "originalAndStagedByteExact": true
+    },
+    {
+      "name": "c_t8_mp_spe_hacker_pirate_head1_LOD0.smd",
+      "originalAbsolutePath": "C:\\Users\\shawn\\Desktop\\stufftoadd\\Zero - Dark Sails (Pirate)\\c_t8_mp_spe_hacker_pirate_head1\\c_t8_mp_spe_hacker_pirate_head1_LOD0.smd",
+      "stagedPath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\source_provenance\\c_t8_mp_spe_hacker_pirate_head1_LOD0.smd",
+      "bytes": 7938989,
+      "sha256": "1D6E5A27C6141E1FAF669A3FEFD8015083921DFEB03F45FE33127CECC6ACC76B",
+      "originalAndStagedByteExact": true
+    },
+    {
+      "name": "c_t8_mp_spe_hacker_pirate_lowerbody1_LOD0.smd",
+      "originalAbsolutePath": "C:\\Users\\shawn\\Desktop\\stufftoadd\\Zero - Dark Sails (Pirate)\\c_t8_mp_spe_hacker_pirate_lowerbody1\\c_t8_mp_spe_hacker_pirate_lowerbody1_LOD0.smd",
+      "stagedPath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\source_provenance\\c_t8_mp_spe_hacker_pirate_lowerbody1_LOD0.smd",
+      "bytes": 3310698,
+      "sha256": "2A7788B2F51D7BB233DD27BD0522160301D28A392EAF6DC6CFF14D4C1A793089",
+      "originalAndStagedByteExact": true
+    },
+    {
+      "name": "c_t8_mp_spe_hacker_pirate_torso1_LOD0.smd",
+      "originalAbsolutePath": "C:\\Users\\shawn\\Desktop\\stufftoadd\\Zero - Dark Sails (Pirate)\\c_t8_mp_spe_hacker_pirate_torso1\\c_t8_mp_spe_hacker_pirate_torso1_LOD0.smd",
+      "stagedPath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\source_provenance\\c_t8_mp_spe_hacker_pirate_torso1_LOD0.smd",
+      "bytes": 11056493,
+      "sha256": "C2C7B4FDB7C588ECFB09A8C006B73B3861507792FFC42FD749D5D8BE5C7FFBE0",
+      "originalAndStagedByteExact": true
+    },
+    {
+      "name": "c_t8_mp_spe_hacker_pirate_viewarms1_LOD0.smd",
+      "originalAbsolutePath": "C:\\Users\\shawn\\Desktop\\stufftoadd\\Zero - Dark Sails (Pirate)\\c_t8_mp_spe_hacker_pirate_viewarms1\\c_t8_mp_spe_hacker_pirate_viewarms1_LOD0.smd",
+      "stagedPath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\source_provenance\\c_t8_mp_spe_hacker_pirate_viewarms1_LOD0.smd",
+      "bytes": 8694803,
+      "sha256": "A113ACB0951FB3F1D5F59B545C4BD6D3FE1331B8DDF32A40B4581D26ED1E7FCB",
+      "originalAndStagedByteExact": true
+    }
+  ],
+  "candidateFiles": [
+    {
+      "path": "candidate/mara31/reference/operator-card.png",
+      "bytes": 588106,
+      "sha256": "51B9EDF770DFEF31A20ADD5155D5DEB076AF27B434F6C86F81BD3595F8768E87"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/images/xi_mara31_darksails_body_col.iwi",
+      "bytes": 1048604,
+      "sha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/images/xi_mara31_darksails_body_spec.iwi",
+      "bytes": 44,
+      "sha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/images_source/xi_mara31_darksails_body_col.dds",
+      "bytes": 16777344,
+      "sha256": "B73651EED83193BC9CD5DC2D0884E2F3976D67ABDC21B1B71410E7EF1344A13D"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/images_source/xi_mara31_darksails_body_col.png",
+      "bytes": 3208970,
+      "sha256": "D7743174E7B431F401D54F5750ED9376DD04D725075DDA64AC048820E2060950"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/images_source/xi_mara31_darksails_body_spec.dds",
+      "bytes": 192,
+      "sha256": "48FF9BB0F34EB0BBBB27E10763E221CC743F3167D3EDAE9D674A0F4F608D4914"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/materials/mc/xi_mara31_darksails_body.json",
+      "bytes": 3351,
+      "sha256": "E83984B53807C27A8E556F507E8CD920FCB2509729501117E741AE6ED56B6D34"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/materials/mc/xi_mara31_darksails_body_alpha.json",
+      "bytes": 2395,
+      "sha256": "5D44446C8302BA5E262889B2C5A612C84CF7F01B58EB44C7E8C6EE670ED45D0C"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/model_export/playermodel_xi_mara31_darksails_round1_lod0.glb",
+      "bytes": 563960,
+      "sha256": "36A5805AB20C0710889A18662223649ED8C0A9D75AA7ED6D4AAC66F8DE0757BD"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/model_export/playermodel_xi_mara31_darksails_round1_lod1.glb",
+      "bytes": 297996,
+      "sha256": "1256E90FD4E00A7711C945158A6182C8E5F798A1B5C600A216DD05F9C94A8A9F"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/model_export/playermodel_xi_mara31_darksails_round1_lod2.glb",
+      "bytes": 173596,
+      "sha256": "4EE1BB382C7001E2DA286F5EA4478B0A96F656A6676B9EAE81D1ADAB6DAFB6DC"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/model_export/playermodel_xi_mara31_darksails_round1_lod3.glb",
+      "bytes": 81864,
+      "sha256": "3DC03BCB1BBDD01E3593A14ADA573DED0302CE6D127093B0016043B87EFE0B7D"
+    },
+    {
+      "path": "candidate/mara31/zone_raw/xi_ftag/xmodel/playermodel_xi_mara31_darksails_round1.json",
+      "bytes": 505,
+      "sha256": "2EB7D7ABD2AA3E734BB608DC2A0CD1C5CC43387F4D64288050C06791B2FC45CB"
+    }
+  ],
+  "canonicalTargets": {
+    "xmodel": "playermodel_xi_mara_3_1",
+    "descriptor": {
+      "name": "playermodel_xi_mara_3_1",
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\xmodel\\playermodel_xi_mara_3_1.json",
+      "bytes": 445,
+      "sha256": "7670631296D9F943D84AD54CD054C4A40107F6228FEC3488886B4A53AD55757E",
+      "targetPath": "zone_raw/xi_ftag/xmodel/playermodel_xi_mara_3_1.json"
+    },
+    "lods": [
+      {
+        "lod": 0,
+        "distance": 220.0,
+        "name": "playermodel_xi_mara_3_1_lod0.glb",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod0.glb",
+        "bytes": 563960,
+        "sha256": "36A5805AB20C0710889A18662223649ED8C0A9D75AA7ED6D4AAC66F8DE0757BD",
+        "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod0.glb"
+      },
+      {
+        "lod": 1,
+        "distance": 500.0,
+        "name": "playermodel_xi_mara_3_1_lod1.glb",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod1.glb",
+        "bytes": 297996,
+        "sha256": "1256E90FD4E00A7711C945158A6182C8E5F798A1B5C600A216DD05F9C94A8A9F",
+        "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod1.glb"
+      },
+      {
+        "lod": 2,
+        "distance": 1200.0,
+        "name": "playermodel_xi_mara_3_1_lod2.glb",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod2.glb",
+        "bytes": 173596,
+        "sha256": "4EE1BB382C7001E2DA286F5EA4478B0A96F656A6676B9EAE81D1ADAB6DAFB6DC",
+        "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod2.glb"
+      },
+      {
+        "lod": 3,
+        "distance": 1000000.0,
+        "name": "playermodel_xi_mara_3_1_lod3.glb",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod3.glb",
+        "bytes": 81864,
+        "sha256": "3DC03BCB1BBDD01E3593A14ADA573DED0302CE6D127093B0016043B87EFE0B7D",
+        "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod3.glb"
+      }
+    ],
+    "materials": [
+      {
+        "name": "mc/xi_mara31_darksails_body",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\materials\\mc\\xi_mara31_darksails_body.json",
+        "bytes": 3351,
+        "sha256": "E83984B53807C27A8E556F507E8CD920FCB2509729501117E741AE6ED56B6D34"
+      },
+      {
+        "name": "mc/xi_mara31_darksails_body_alpha",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\materials\\mc\\xi_mara31_darksails_body_alpha.json",
+        "bytes": 2395,
+        "sha256": "5D44446C8302BA5E262889B2C5A612C84CF7F01B58EB44C7E8C6EE670ED45D0C"
+      }
+    ],
+    "images": [
+      {
+        "name": "xi_mara31_darksails_body_col",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_col.iwi",
+        "targetPath": "images/xi_mara31_darksails_body_col.iwi",
+        "bytes": 1048604,
+        "sha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33"
+      },
+      {
+        "name": "xi_mara31_darksails_body_spec",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_spec.iwi",
+        "targetPath": "images/xi_mara31_darksails_body_spec.iwi",
+        "bytes": 44,
+        "sha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF"
+      }
+    ],
+    "preservedViewhands": "viewhands_xi_mara_3_1"
+  },
+  "canonicalFastfile": {
+    "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\zone_out\\mara31_darksails_canonical_critic.ff",
+    "bytes": 402617,
+    "sha256": "294729C9B38881D9BAB94E603D40F27A7FC08FAEC5339865E3DE2B87C69217C7"
+  },
+  "iwd": {
+    "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\package\\xi_mara31_darksails_body_round2.iwd",
+    "bytes": 242618,
+    "sha256": "A42C363D7BF2F8D0C48E50F7E83ECBD252F5F8DA25C94374AADF9EC7D17ADEF9",
+    "entryCount": 2,
+    "entries": [
+      {
+        "path": "images/xi_mara31_darksails_body_col.iwi",
+        "bytes": 1048604,
+        "compressedBytes": 242260,
+        "crc32": "74A76F00",
+        "sha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33",
+        "expectedSha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33",
+        "candidatePath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_col.iwi",
+        "candidateSha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33",
+        "byteExactToCandidate": true,
+        "encrypted": false,
+        "directory": false,
+        "safeRelativePath": true
+      },
+      {
+        "path": "images/xi_mara31_darksails_body_spec.iwi",
+        "bytes": 44,
+        "compressedBytes": 26,
+        "crc32": "6E26DC99",
+        "sha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF",
+        "expectedSha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF",
+        "candidatePath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_spec.iwi",
+        "candidateSha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF",
+        "byteExactToCandidate": true,
+        "encrypted": false,
+        "directory": false,
+        "safeRelativePath": true
+      }
+    ]
+  },
+  "replacementDelta": {
+    "xmodel": 0,
+    "material": 0,
+    "image": 0
+  },
+  "directZoneCleanup": [
+    {
+      "action": "replace",
+      "from": "// Mara / Death Dealer",
+      "to": "// Mara / Zero - Dark Sails"
+    },
+    {
+      "action": "replace",
+      "from": "image,xi_mara31_atlas_col",
+      "to": "image,xi_mara31_darksails_body_col"
+    },
+    {
+      "action": "replace",
+      "from": "image,xi_mara31_spec",
+      "to": "image,xi_mara31_darksails_body_spec"
+    },
+    {
+      "action": "replace",
+      "from": "material,mc/xi_mara31_atlas",
+      "to": "material,mc/xi_mara31_darksails_body"
+    },
+    {
+      "action": "replace",
+      "from": "material,mc/xi_mara31_atlas_glass",
+      "to": "material,mc/xi_mara31_darksails_body_alpha"
+    },
+    {
+      "action": "preserve",
+      "value": "xmodel,playermodel_xi_mara_3_1"
+    },
+    {
+      "action": "must-not-add",
+      "value": "xmodel,playermodel_xi_mara31_darksails_round1"
+    }
+  ],
+  "iwdCleanup": {
+    "selector": "all-local-iwi-images",
+    "required": "Replace/remove the two old Mara body IWIs when adding the two Dark Sails IWIs, then regenerate expectedCount and aggregateSha256; otherwise the physical all-local IWD set would retain unreachable legacy payloads.",
+    "netRuntimeImageDelta": 0
+  },
+  "excludedBuilderArtifacts": [
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\oat\\zone_out\\mara31_body_round2_oat.ff",
+      "bytes": 402619,
+      "sha256": "DFA85B8838736F815965A9C227883D92B8632D693AA5B6B6C8F7C52382606589",
+      "reason": "Lists the noncanonical separate XModel playermodel_xi_mara31_darksails_round1."
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\xmodel\\playermodel_xi_mara31_darksails_round1.json",
+      "bytes": 505,
+      "sha256": "2EB7D7ABD2AA3E734BB608DC2A0CD1C5CC43387F4D64288050C06791B2FC45CB",
+      "reason": "Names the staging-only XModel; use the sealed canonical descriptor instead."
+    }
+  ],
+  "offlineGates": [
+    {
+      "id": "builder-checksum-inventory",
+      "passed": true
+    },
+    {
+      "id": "round1-seal-reuse",
+      "passed": true
+    },
+    {
+      "id": "five-source-smd-byte-provenance",
+      "passed": true
+    },
+    {
+      "id": "blind-identity-lod-pose-visual-review",
+      "passed": true
+    },
+    {
+      "id": "four-lod-stock-rig-limits-and-deformation",
+      "passed": true
+    },
+    {
+      "id": "canonical-mara-only-oat-link-list-dump",
+      "passed": true
+    },
+    {
+      "id": "material-semantic-roundtrip",
+      "passed": true
+    },
+    {
+      "id": "separate-fastfile-name-and-iwd-byte-closure",
+      "passed": true
+    },
+    {
+      "id": "five-stock-animation-pose-audits",
+      "passed": true
+    },
+    {
+      "id": "canonical-zero-delta-roster-mapping",
+      "passed": true
+    },
+    {
+      "id": "protected-input-noninterference",
+      "passed": true
+    }
+  ],
+  "evidence": {
+    "core": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\evidence\\core-audit.json",
+      "bytes": 182068,
+      "sha256": "E54DF5A16214EA1FA571E71F2E3491F3C95FD2CAA152B0917061518D0C955B09"
+    },
+    "oat": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\evidence\\oat-replay.json",
+      "bytes": 114986,
+      "sha256": "AF063C74BE69B4CFA0FE5BD9BF2C6250DCF9CC09548E5E65F14AD8C0B581674E"
+    },
+    "blindMapping": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\blind\\SEALED-MAPPING.json",
+      "bytes": 40948,
+      "sha256": "BFFD109BCE5860E778F7381379498436165BD400203DF5F0FAD453E72C37D6D0"
+    },
+    "blindAssessment": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\blind\\ASSESSMENT.json",
+      "bytes": 2669,
+      "sha256": "2DE99279D2D0A0EC93F2EFDE66FF44DCED3FA575B2BF4A5889D82DDAA7F398E6"
+    },
+    "blindReveal": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\blind\\REVEAL.json",
+      "bytes": 3249,
+      "sha256": "9036C579A1CD4FF4C83EC19CD8AE419C4C6841C9E5197EA85F61D2F49036AF45"
+    },
+    "noninterference": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\evidence\\noninterference-after.json",
+      "bytes": 57466,
+      "sha256": "6A62D0D9939CEB83928B512068D43C306705CED6C0FD031F065A3BD2481EDCF2"
+    }
+  },
+  "limitations": {
+    "combinedOatExternalImageBytePassClaimed": false,
+    "productionIntegrationPerformed": false,
+    "fullModBuildRun": false,
+    "liveEngineRun": false,
+    "userApproval": false
+  },
+  "criticReport": {
+    "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\REPORT.md",
+    "bytes": 8151,
+    "sha256": "18B248E4B1FD2C6EEB2D8702328A9BD74A583C8EF35B27FB64A0069D52021EBA"
+  },
+  "criticResult": {
+    "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\RESULT.json",
+    "bytes": 11496,
+    "sha256": "E04FCC637BA806AF60E008136CF10BD8E41A3633DE93B29150241FD97AB3BAA0"
+  }
+}

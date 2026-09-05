@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 2,
+  "status": "PASS_FOR_PROVING_PACKAGE_ONLY",
+  "disposition": "CRITIC_READY_PROVING_ONLY",
+  "round2Root": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2",
+  "readOnlyInputs": {
+    "builderRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1",
+    "builderSealSha256": "09FDBDC64408D3750F8903969CC278B6B8540C6901FBD6710E42803D2748D97F",
+    "criticRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1_critic",
+    "criticReportSha256": "716A2079C7C06B7A451DB14E0B8B359692B9D1705DC87E7455486E3EBF04215F",
+    "criticResultSha256": "385FD8FC91EC35243A1A9F473DD2570C4995CF8D6785CC768D6B8C4779FE29AC"
+  },
+  "frozenModels": [
+    {
+      "family": "ram7",
+      "kind": "view",
+      "role": "combined",
+      "name": "viewmodel_f02_ram7_base_reflex_tags_r1",
+      "path": "candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f02_ram7_base_reflex_tags_r1.glb",
+      "sha256": "D8D3C40A5320A89EF999D1EFC9EC6EC8B7FF204A04B7F38606C557599C614AED",
+      "descriptor": "candidate\\zone_raw\\xi_ftag\\xmodel\\viewmodel_f02_ram7_base_reflex_tags_r1.json",
+      "descriptorSha256": "44545B47A69AD16D6B5900D879384F143BBCF6B90B465A4A1B23092D5B211356",
+      "packedStates": [
+        "base",
+        "reflex"
+      ],
+      "sourceRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1",
+      "copiedIntoRound2": false,
+      "byteFrozen": true
+    },
+    {
+      "family": "ram7",
+      "kind": "world",
+      "role": "combined",
+      "name": "worldmodel_f02_ram7_base_reflex_tags_r1",
+      "path": "candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_base_reflex_tags_r1.glb",
+      "sha256": "5E7F97E829FB0928BE4C5327D7D2A12ACB6EF5AF29ADC79592FC68F81494625F",
+      "descriptor": "candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f02_ram7_base_reflex_tags_r1.json",
+      "descriptorSha256": "4290C398DE04DE56B305A8532197A5D5ADCF121F56ECAEDC322AB8D1D490D629",
+      "packedStates": [
+        "base",
+        "reflex"
+      ],
+      "sourceRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1",
+      "copiedIntoRound2": false,
+      "byteFrozen": true
+    },
+    {
+      "family": "ram7",
+      "kind": "view",
+      "role": "combined",
+      "name": "viewmodel_f02_ram7_cs_tags_r1",
+      "path": "candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f02_ram7_cs_tags_r1.glb",
+      "sha256": "FBFC050D9882133389A8E440D0348F212C9A470F8C3E12FAD4ED3C09B678D938",
+      "descriptor": "candidate\\zone_raw\\xi_ftag\\xmodel\\viewmodel_f02_ram7_cs_tags_r1.json",
+      "descriptorSha256": "D1EC8C6E4B68AD6CCBD08DFF80D38091DBEC3F8C7630EC56777EE270890CAEBD",
+      "packedStates": [
+        "compact",
+        "suppressor"
+      ],
+      "sourceRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1",
+      "copiedIntoRound2": false,
+      "byteFrozen": true
+    },
+    {
+      "family": "ram7",
+      "kind": "world",
+      "role": "combined",
+      "name": "worldmodel_f02_ram7_cs_tags_r1",
+      "path": "candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_cs_tags_r1.glb",
+      "sha256": "699FDF8FC321C47DE1D86F37CB4FEEC8E4ECF95DCE8C0E4E4041871011A62814",
+      "descriptor": "candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f02_ram7_cs_tags_r1.json",
+      "descriptorSha256": "03EFD12CB9EAF439B8C31974E93EBB8289C38A5AD8C9635B7248F6F27324A5DC",
+      "packedStates": [
+        "compact",
+        "suppressor"
+      ],
+      "sourceRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1",
+      "copiedIntoRound2": false,
+      "byteFrozen": true
+    },
+    {
+      "family": "ram7",
+      "kind": "world",
+      "role": "worldClipModel",
+      "name": "worldmodel_f02_ram7_mag_authored_r1",
+      "path": "candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_mag_authored_r1.glb",
+      "sha256": "72556CD9A600DCC658201975D89794A7432FC3B0A807B649B2647E3B22FD42E5",
+      "descriptor": "candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f02_ram7_mag_authored_r1.json",
+      "descriptorSha256": "1833F06A9420AD0A7C223F375908A644FEB6461360EB95811A0D3D7A344068B4",
+      "packedStates": [],
+      "sourceRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1",
+      "copiedIntoRound2": false,
+      "byteFrozen": true
+    },
+    {
+      "family": "dm56",
+      "kind": "view",
+      "role": "combined",
+      "name": "viewmodel_f03_dm56_combined_tags_r1",
+      "path": "candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f03_dm56_combined_tags_r1.glb",
+      "sha256": "1AD0F0B70016AED0608ADEB61418C5455580F9A53AE20BBE8F90411A7BF76D3C",
+      "descriptor": "candidate\\zone_raw\\xi_ftag\\xmodel\\viewmodel_f03_dm56_combined_tags_r1.json",
+      "descriptorSha256": "D804E9F1B282D98958C03336C06CAA51919BE855C4E562F07944194E3DF6A993",
+      "packedStates": [
+        "base",
+        "reflex",
+        "compact",
+        "suppressor"
+      ],
+      "sourceRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1",
+      "copiedIntoRound2": false,
+      "byteFrozen": true
+    },
+    {
+      "family": "dm56",
+      "kind": "world",
+      "role": "combined",
+      "name": "worldmodel_f03_dm56_combined_tags_r1",
+      "path": "candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f03_dm56_combined_tags_r1.glb",
+      "sha256": "03D1CCA4293D11EAC81A61F42B73C97499ED047EE864C71C714AF0EAB6A51851",
+      "descriptor": "candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f03_dm56_combined_tags_r1.json",
+      "descriptorSha256": "9CCC986213B28A3DE2240DF7000CF80F463920E3DF302415A78879202DC16D88",
+      "packedStates": [
+        "base",
+        "reflex",
+        "compact",
+        "suppressor"
+      ],
+      "sourceRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1",
+      "copiedIntoRound2": false,
+      "byteFrozen": true
+    },
+    {
+      "family": "dm56",
+      "kind": "world",
+      "role": "worldClipModel",
+      "name": "worldmodel_f03_dm56_mag_authored_r1",
+      "path": "candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f03_dm56_mag_authored_r1.glb",
+      "sha256": "C2844CA3D8B696126F7A6BB5EDD70955236AEF27E1A006CF36591EEDD0F44EFF",
+      "descriptor": "candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f03_dm56_mag_authored_r1.json",
+      "descriptorSha256": "DADCE4CA7C0AA654462336A5BF499C6C069C8E3093C2939349177E53CB1FC1BB",
+      "packedStates": [],
+      "sourceRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1",
+      "copiedIntoRound2": false,
+      "byteFrozen": true
+    }
+  ],
+  "repair": {
+    "gates": [
+      7,
+      8
+    ],
+    "weaponPatchManifest": {
+      "path": "weapon-field-patch-manifest.json",
+      "bytes": 27432,
+      "sha256": "A6B54F637FB5A383734C7F62192143067AD493E74A0B188F18E10E638B313855"
+    },
+    "weaponCopies": [
+      {
+        "path": "weapons_patched/g3_acog_mp",
+        "bytes": 7940,
+        "sha256": "9FF237FB542F0AE20DF88066B42B833D300A8EAD15DB58C947DE5696836E89FB"
+      },
+      {
+        "path": "weapons_patched/g3_mp",
+        "bytes": 7982,
+        "sha256": "7D6C183FFC5D53FB8BA37857EA82DDC9448F229E309574B6680523EEA33E2E6D"
+      },
+      {
+        "path": "weapons_patched/g3_reflex_mp",
+        "bytes": 8021,
+        "sha256": "C981D6BD8BEF323FED6396F45AEBE9EF1D88EAF96205E56C336DEF3B66CE7164"
+      },
+      {
+        "path": "weapons_patched/g3_silencer_mp",
+        "bytes": 7957,
+        "sha256": "9D350AA3594C7976A0A7F85B5AD112A91F81564C4F9C7A416FE19BB650F48B85"
+      },
+      {
+        "path": "weapons_patched/m14_acog_mp",
+        "bytes": 8137,
+        "sha256": "87B5BB5781AB2C3688F63DEE71F3A11DAFDEB4D98273BA1BBBC2BBEEA2764631"
+      },
+      {
+        "path": "weapons_patched/m14_mp",
+        "bytes": 8114,
+        "sha256": "10FC3D924F31A1065772ECE9313AB46BA40D667241C2FCF288AC90B2F9FC6172"
+      },
+      {
+        "path": "weapons_patched/m14_reflex_mp",
+        "bytes": 8145,
+        "sha256": "B2433206411AE9FDF73A94460091CC0988D031194988A08AC1A60B49575C2C16"
+      },
+      {
+        "path": "weapons_patched/m14_silencer_mp",
+        "bytes": 8116,
+        "sha256": "EC5131E7DF8D2AF20873D42960205A84220604727730BC85B8FA631B7668DA11"
+      }
+    ],
+    "protectedFields": [
+      "gunModel2",
+      "worldModel2"
+    ],
+    "projectedFormula": "993 - 17 + 8 = 984",
+    "projectedRuntimeXModels": 984,
+    "strictSafetyHeadroom": 6
+  },
+  "replayCounts": {
+    "priorSeal": "243/243",
+    "frozenInputs": "22/22",
+    "oatCompileListDump": "8/8",
+    "byteIdenticalFrozenCompiles": "8/8",
+    "compiledGeometry": "16/16",
+    "hideTagVisibility": "16/16",
+    "fixedCameraComparisons": "64/64",
+    "weaponFiles": "8/8",
+    "dedicatedMagazineModels": "2/2",
+    "noninterference": "PASS"
+  },
+  "evidence": [
+    {
+      "path": "evidence/compiled-geometry-replay.json",
+      "bytes": 64419,
+      "sha256": "3BBA0785316989425EB35AD24119001919AAFD2F90C58F82A115F7874638FB65"
+    },
+    {
+      "path": "evidence/fixed-camera-replay.json",
+      "bytes": 83388,
+      "sha256": "C3FD61D5EC07AEAE35F01E2D0882428C5D54C80B0F7DCCC53962F00F0074D2EB"
+    },
+    {
+      "path": "evidence/frozen-input-replay.json",
+      "bytes": 11164,
+      "sha256": "05A1265A7383D50E5F3AC7F3DAEE2F36F882CA4DD2F1CECB2863EE67A9AA3CB8"
+    },
+    {
+      "path": "evidence/noninterference-replay.json",
+      "bytes": 17715,
+      "sha256": "EAB0F981EE3A3E9FAAAFB6C9260F40A9534D66F7597800D564E8DBA5937F430A"
+    },
+    {
+      "path": "evidence/oat-replay.json",
+      "bytes": 519135,
+      "sha256": "DEDBA315FF4FD9F2D62FAAEB9782BED6AA47592C014A3003C2EF928FA66AB8AC"
+    },
+    {
+      "path": "evidence/prior-seal-replay.json",
+      "bytes": 427,
+      "sha256": "0670B0455038FCA91D08DC04F9D811F0CB5E5BB56DDE39D53EFA910719F754F0"
+    },
+    {
+      "path": "evidence/weapon-patch-replay.json",
+      "bytes": 30851,
+      "sha256": "4B55A79C1D399B84F542981569903C2CF9927D4A14C44772BBA8E162CF8CDBF1"
+    },
+    {
+      "path": "evidence/xmodel-delta-replay.json",
+      "bytes": 11387,
+      "sha256": "138B2DE9B126A77824262978E12ADEABA055B5A10455DD7380B088C9E0305730"
+    }
+  ],
+  "report": {
+    "path": "REPORT.md",
+    "bytes": 10603,
+    "sha256": "8A95ADB5DF4554ED473E5F1DAA4F6D837527AAA4168AF9FDEEE4EF6AD0036315"
+  },
+  "result": {
+    "path": "RESULT.json",
+    "bytes": 781989,
+    "sha256": "EB12569A537FBA7A7527A2EB66064C338687EE776518CF72EF321E0819543216"
+  },
+  "sha256Manifest": {
+    "path": "SHA256-MANIFEST.json",
+    "bytes": 13583,
+    "sha256": "2C5EB03CF34FFAEE396CB35BDE6383B7D775A22458D21C6E67E047365D870187"
+  },
+  "productionChangesApplied": false,
+  "promotionManifestCreated": false,
+  "integratedRuntimeClaim": false,
+  "livePending": [
+    "CoD4 animation behavior",
+    "CoD4 ADS behavior",
+    "CoD4 reload behavior",
+    "CoD4 drop behavior",
+    "measured integrated map/runtime XModel-pool behavior"
+  ]
+}

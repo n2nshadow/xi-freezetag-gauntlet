@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-05T08:20:56.363840+00:00",
+  "reviewType": "independent-critic",
+  "builderRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2",
+  "criticRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic",
+  "overallStatus": "PASS_FOR_PROVING_PACKAGE_ONLY",
+  "status": "PASS_FOR_PROVING_PACKAGE_ONLY",
+  "productionReleaseStatus": "HOLD",
+  "liveEngineAndUserTestOutstanding": true,
+  "safeForSealedProvingPackage": true,
+  "operatorId": "mara_3_1",
+  "identity": "Zero - Dark Sails (Pirate)",
+  "operators": {
+    "mara_3_1": {
+      "intendedIdentity": "Zero - Dark Sails (Pirate)",
+      "offlineVerdict": "PASS",
+      "provingPackageStatus": "PASS_FOR_PROVING_PACKAGE_ONLY",
+      "safeForSealedProvingPackage": true,
+      "productionReleaseStatus": "HOLD",
+      "gates": {
+        "builder-checksum-inventory": "PASS",
+        "round1-seal-reuse": "PASS",
+        "five-source-smd-byte-provenance": "PASS",
+        "blind-identity-lod-pose-visual-review": "PASS",
+        "four-lod-stock-rig-limits-and-deformation": "PASS",
+        "canonical-mara-only-oat-link-list-dump": "PASS",
+        "material-semantic-roundtrip": "PASS",
+        "separate-fastfile-name-and-iwd-byte-closure": "PASS",
+        "five-stock-animation-pose-audits": "PASS",
+        "canonical-zero-delta-roster-mapping": "PASS",
+        "protected-input-noninterference": "PASS"
+      },
+      "canonicalXmodel": "playermodel_xi_mara_3_1",
+      "canonicalDescriptor": {
+        "name": "playermodel_xi_mara_3_1.json",
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\xmodel\\playermodel_xi_mara_3_1.json",
+        "bytes": 445,
+        "sha256": "7670631296D9F943D84AD54CD054C4A40107F6228FEC3488886B4A53AD55757E"
+      },
+      "canonicalLods": [
+        {
+          "lod": 0,
+          "distance": 220.0,
+          "name": "playermodel_xi_mara_3_1_lod0.glb",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod0.glb",
+          "bytes": 563960,
+          "sha256": "36A5805AB20C0710889A18662223649ED8C0A9D75AA7ED6D4AAC66F8DE0757BD",
+          "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod0.glb"
+        },
+        {
+          "lod": 1,
+          "distance": 500.0,
+          "name": "playermodel_xi_mara_3_1_lod1.glb",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod1.glb",
+          "bytes": 297996,
+          "sha256": "1256E90FD4E00A7711C945158A6182C8E5F798A1B5C600A216DD05F9C94A8A9F",
+          "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod1.glb"
+        },
+        {
+          "lod": 2,
+          "distance": 1200.0,
+          "name": "playermodel_xi_mara_3_1_lod2.glb",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod2.glb",
+          "bytes": 173596,
+          "sha256": "4EE1BB382C7001E2DA286F5EA4478B0A96F656A6676B9EAE81D1ADAB6DAFB6DC",
+          "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod2.glb"
+        },
+        {
+          "lod": 3,
+          "distance": 1000000.0,
+          "name": "playermodel_xi_mara_3_1_lod3.glb",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\asset_root\\model_export\\playermodel_xi_mara_3_1_lod3.glb",
+          "bytes": 81864,
+          "sha256": "3DC03BCB1BBDD01E3593A14ADA573DED0302CE6D127093B0016043B87EFE0B7D",
+          "targetPath": "zone_raw/xi_ftag/model_export/playermodel_xi_mara_3_1_lod3.glb"
+        }
+      ],
+      "runtimeMaterials": [
+        {
+          "name": "mc/xi_mara31_darksails_body",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\materials\\mc\\xi_mara31_darksails_body.json",
+          "bytes": 3351,
+          "sha256": "E83984B53807C27A8E556F507E8CD920FCB2509729501117E741AE6ED56B6D34"
+        },
+        {
+          "name": "mc/xi_mara31_darksails_body_alpha",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\materials\\mc\\xi_mara31_darksails_body_alpha.json",
+          "bytes": 2395,
+          "sha256": "5D44446C8302BA5E262889B2C5A612C84CF7F01B58EB44C7E8C6EE670ED45D0C"
+        }
+      ],
+      "runtimeImages": [
+        {
+          "name": "xi_mara31_darksails_body_col",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_col.iwi",
+          "targetPath": "images/xi_mara31_darksails_body_col.iwi",
+          "bytes": 1048604,
+          "sha256": "CA3AEA5287C6B62BB2DB46ACA2F8B1DBF8DD73C8C2592D7D28231A763B95FE33"
+        },
+        {
+          "name": "xi_mara31_darksails_body_spec",
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2\\candidate\\mara31\\zone_raw\\xi_ftag\\images\\xi_mara31_darksails_body_spec.iwi",
+          "targetPath": "images/xi_mara31_darksails_body_spec.iwi",
+          "bytes": 44,
+          "sha256": "6525D68B2B4269CBD816F8F6BFEC861B09DAA0BF56BEEA43D61934E8172015BF"
+        }
+      ],
+      "largestRemainingGap": "Live IW3 rendering, memory behavior, stock-animation gameplay deformation, LOD transitions, and user acceptance remain outstanding."
+    }
+  },
+  "safeFor": "isolated sealed proving package using the critic canonical fastfile and exact candidate IWD",
+  "notApprovedFor": [
+    "production copy",
+    "Steam deployment",
+    "live server",
+    "engine memory",
+    "gameplay",
+    "user acceptance"
+  ],
+  "gates": [
+    {
+      "id": "builder-checksum-inventory",
+      "passed": true
+    },
+    {
+      "id": "round1-seal-reuse",
+      "passed": true
+    },
+    {
+      "id": "five-source-smd-byte-provenance",
+      "passed": true
+    },
+    {
+      "id": "blind-identity-lod-pose-visual-review",
+      "passed": true
+    },
+    {
+      "id": "four-lod-stock-rig-limits-and-deformation",
+      "passed": true
+    },
+    {
+      "id": "canonical-mara-only-oat-link-list-dump",
+      "passed": true
+    },
+    {
+      "id": "material-semantic-roundtrip",
+      "passed": true
+    },
+    {
+      "id": "separate-fastfile-name-and-iwd-byte-closure",
+      "passed": true
+    },
+    {
+      "id": "five-stock-animation-pose-audits",
+      "passed": true
+    },
+    {
+      "id": "canonical-zero-delta-roster-mapping",
+      "passed": true
+    },
+    {
+      "id": "protected-input-noninterference",
+      "passed": true
+    }
+  ],
+  "blindReview": {
+    "mappingSha256": "BFFD109BCE5860E778F7381379498436165BD400203DF5F0FAD453E72C37D6D0",
+    "assessmentSha256": "2DE99279D2D0A0EC93F2EFDE66FF44DCED3FA575B2BF4A5889D82DDAA7F398E6",
+    "mapping": {
+      "A": "wrong-control",
+      "B": "source",
+      "C": "candidate"
+    },
+    "scores": {
+      "A": 1.5,
+      "B": 9.4,
+      "C": 9.0
+    },
+    "passed": true
+  },
+  "geometry": {
+    "triangles": [
+      5468,
+      2428,
+      1304,
+      693
+    ],
+    "vertices": [
+      7567,
+      3924,
+      2194,
+      900
+    ],
+    "surfaces": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "bones": [
+      51,
+      51,
+      51,
+      51
+    ],
+    "allPassed": true
+  },
+  "canonicalIntegration": {
+    "canonicalXmodel": "playermodel_xi_mara_3_1",
+    "replacementDelta": {
+      "xmodel": 0,
+      "material": 0,
+      "image": 0
+    },
+    "intendedDirectCountsBefore": {
+      "fx": 8,
+      "ignore": 1,
+      "image": 32,
+      "localize": 2,
+      "material": 322,
+      "menulist": 10,
+      "rawfile": 64,
+      "sound": 67,
+      "stringtable": 17,
+      "techniqueset": 22,
+      "weapon": 11,
+      "xanim": 258,
+      "xmodel": 61
+    },
+    "projectedDirectCounts": {
+      "xmodel": 61,
+      "material": 322,
+      "image": 32
+    },
+    "builderPlusOneClaimAccepted": false,
+    "builderFastfilePromotionEligible": false,
+    "criticCanonicalFastfile": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\oat\\zone_out\\mara31_darksails_canonical_critic.ff",
+      "bytes": 402617,
+      "sha256": "294729C9B38881D9BAB94E603D40F27A7FC08FAEC5339865E3DE2B87C69217C7"
+    }
+  },
+  "imageProofBoundary": {
+    "fastfileNamesReachable": true,
+    "iwdPathsAndHashesExact": true,
+    "externalIwiBytesRecoverableByUnlinker": false,
+    "imageByteUnlinkerPassClaimed": false,
+    "expectedExternalImageErrors": [
+      "ERROR: Could not find data for image \"xi_mara31_darksails_body_spec\"",
+      "ERROR: Could not find data for image \"xi_mara31_darksails_body_col\""
+    ]
+  },
+  "pending": [
+    "authorized canonical production integration and direct-zone/IWD cleanup",
+    "full-mod build and integrated pool measurement",
+    "live engine rendering, memory, animation, LOD transition, and gameplay",
+    "user approval"
+  ],
+  "evidence": {
+    "core": {
+      "path": "evidence/core-audit.json",
+      "bytes": 182068,
+      "sha256": "E54DF5A16214EA1FA571E71F2E3491F3C95FD2CAA152B0917061518D0C955B09"
+    },
+    "oat": {
+      "path": "evidence/oat-replay.json",
+      "bytes": 114986,
+      "sha256": "AF063C74BE69B4CFA0FE5BD9BF2C6250DCF9CC09548E5E65F14AD8C0B581674E"
+    },
+    "blindReveal": {
+      "path": "blind/REVEAL.json",
+      "bytes": 3249,
+      "sha256": "9036C579A1CD4FF4C83EC19CD8AE419C4C6841C9E5197EA85F61D2F49036AF45"
+    },
+    "noninterference": {
+      "path": "evidence/noninterference-after.json",
+      "bytes": 57466,
+      "sha256": "6A62D0D9939CEB83928B512068D43C306705CED6C0FD031F065A3BD2481EDCF2"
+    }
+  },
+  "promotionManifest": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\mara31_body_round2_critic\\promotion-manifest.json"
+}

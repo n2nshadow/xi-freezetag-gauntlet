@@ -1419,10 +1419,16 @@ h3 {
 
   .section-nav {
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0 14px;
+    overflow-x: visible;
   }
 
   .section-nav a {
-    padding: 14px 0 12px;
+    min-width: 0;
+    padding: 11px 0 10px;
+    text-align: center;
   }
 
   .intro .section-shell {
