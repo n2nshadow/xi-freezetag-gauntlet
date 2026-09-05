@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#101516">
   <title>XI FreezeTag | Gauntlet Progress</title>
-  <link rel="stylesheet" href="styles.css?v=20260829-2">
+  <link rel="stylesheet" href="styles.css?v=20260905-1">
   <script src="dashboard.js" defer></script>
 </head>
 <body>
@@ -47,11 +47,11 @@
       <div class="section-shell">
         <div class="intro-grid">
           <div class="goal-copy">
-            <p class="eyebrow">XI / RELEASE GAUNTLET / RECOVERY RESUME</p>
+            <p class="eyebrow">XI / RELEASE GAUNTLET / 05 SEPTEMBER RECOVERY</p>
             <h1 id="goal-title">Clear an independent, evidence-backed release gate.</h1>
             <p class="lede">
-              Ship the 18-map CoD4 FreezeTag build inside hard engine limits, with its rescue
-              systems independently proven in runtime and one final user session completed live.
+              Finish the authored operator, viewarm, weapon, and attachment recovery inside CoD4's
+              hard engine limits, then seal one reversible build for runtime and user-live proof.
             </p>
           </div>
 
@@ -61,30 +61,30 @@
                 <p class="eyebrow" id="winning-bar-title">Concrete winning bar</p>
                 <p class="gate-rule">All six hard gates must pass. Structural evidence cannot substitute for runtime or live play.</p>
               </div>
-              <div class="gate-count" aria-label="Two of six gates passed">
-                <strong>2</strong><span>/ 6</span>
+              <div class="gate-count" aria-label="Zero of six release gates passed for the current source">
+                <strong>0</strong><span>/ 6</span>
               </div>
             </div>
-            <div class="gate-progress" role="progressbar" aria-label="Winning bar progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="2">
+            <div class="gate-progress" role="progressbar" aria-label="Winning bar progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0">
               <span></span>
             </div>
             <div class="snapshot-stamp">
-              <span>Current verdict: <strong class="text-fail">FAIL</strong></span>
-              <time datetime="2026-08-29T07:34:00-04:00">29 Aug 2026, 07:34 EDT</time>
+              <span>Current verdict: <strong class="text-fail">HOLD</strong></span>
+              <time datetime="2026-09-05T01:42:00-04:00">05 Sep 2026, 01:42 EDT</time>
             </div>
           </div>
         </div>
 
         <ol class="winning-bar" aria-label="Release gates">
-          <li class="checkpoint is-pass">
+          <li class="checkpoint is-fail">
             <span class="checkpoint-index">01</span>
             <strong>Build and package</strong>
-            <span>Sealed OAT tuple: 0 warnings, 0 errors; exact package verified</span>
+            <span>Latest proof compiled cleanly, but its rejected 993/990 package was removed</span>
           </li>
-          <li class="checkpoint is-pass">
+          <li class="checkpoint is-fail">
             <span class="checkpoint-index">02</span>
             <strong>Engine envelope</strong>
-            <span>18 shipped maps inside release caps; mp_vacant 988/1000</span>
+            <span>Current RAM-7 + DM56 proof is 993/1000, three over the 990 release cap</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">03</span>
@@ -99,12 +99,12 @@
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">05</span>
             <strong>Blind visual A/B</strong>
-              <span>Ghost rear-emblem round 4 passed; Hades round 6 won front but lost three other views</span>
+              <span>8/8 viewarms pass native checks; body and combined-weapon critics remain active</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">06</span>
             <strong>User live test</strong>
-            <span>Snapshot 89 rejected visually; repaired source still needs a new build</span>
+            <span>No current repaired package is installed; Steam remains unchanged</span>
           </li>
         </ol>
 
@@ -133,9 +133,9 @@
             <p class="eyebrow">Objective gates</p>
             <h2 id="scorecards-title">System scorecards</h2>
           </div>
-          <div class="score-tally" aria-label="Two pass, four fail">
-            <span><i class="state-dot pass" aria-hidden="true"></i>2 pass</span>
-            <span><i class="state-dot fail" aria-hidden="true"></i>4 fail</span>
+          <div class="score-tally" aria-label="Zero release gates passed, six held">
+            <span><i class="state-dot pass" aria-hidden="true"></i>0 pass</span>
+            <span><i class="state-dot fail" aria-hidden="true"></i>6 hold</span>
           </div>
         </header>
 
@@ -153,10 +153,10 @@
               <strong>Reproducible package</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              Snapshot 89 sealed 5,985 production files and built one exact tuple. OpenAssetTools finished with 0 warnings and 0 errors; the manifest and all three runtime files are hash-bound.
+              The latest RAM-7 and DM56 proof built with 0 OAT warnings and 0 errors, but the exact output was intentionally removed after its independent budget hold. Current source has no retained release tuple.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
-            <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
+            <div role="cell" data-label="State"><span class="status status-fail">Hold</span></div>
           </div>
 
           <div class="score-row" role="row">
@@ -165,10 +165,10 @@
               <strong>Engine envelope and maps</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              Materials 299/760, runtime union 1678/2048, XModels 988/1000 on mp_vacant; all 18 shipped maps meet the 990 release threshold.
+              Exact proof measured 993/1000 runtime XModels, 70/70 exclusive models, 1710/2048 materials, and 451/760 linked materials. It is under the engine hard limit but three models over the 990 release ceiling.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
-            <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
+            <div role="cell" data-label="State"><span class="status status-fail">Hold</span></div>
           </div>
 
           <div class="score-row" role="row">
@@ -177,7 +177,7 @@
               <strong>Independent runtime integration</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              The critic scored 84/100 and found client-side skinned-cache loss hidden by the old receipt scanner.
+              Eight authored viewarm sets pass the exact native gate. Four operator bodies are staged; Mara31 and Talon11 completed builder validation and are now with a fresh critic. No current full package has runtime proof.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-runtime">Runtime</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -201,7 +201,7 @@
               <strong>Blind visual A/B</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              The resumed critic preferred Round 2 over current in all five motion pairs, but stock still won all five control pairs. The third-person body tied current 4/4 because its semantic material-atlas remap remains broken.
+              RAM-7 and DM56 Round 3 preserve their authored weapon and optic surfaces in review renders. Their separate state models compile, but the release package is held while a combined hide-tag model round removes redundant XModel slots without changing visible states.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -213,7 +213,7 @@
               <strong>User live session</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              The previous tuple was rejected for collapsed viewhands, corrupt surfaces, a composite sentry pile, and displaced sights. Snapshot 89 is clean-installed from its sealed hashes and is now under user-live judgment.
+              Steam remains unchanged. The current repaired source will not be installed until the strict 990 budget, fresh visual critics, exact package verification, and reversible deployment receipt all pass.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-live">User live</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -236,77 +236,77 @@
           <article class="budget-metric">
             <div class="metric-head">
               <div>
-                <span class="metric-label">Materials</span>
-                <strong>299 <small>/ 760</small></strong>
+                <span class="metric-label">Linked materials</span>
+                <strong>451 <small>/ 760</small></strong>
               </div>
               <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="Materials used" aria-valuemin="0" aria-valuemax="760" aria-valuenow="299">
-              <span style="--meter-fill: 39.3%"></span>
+            <div class="meter" role="progressbar" aria-label="Linked materials used" aria-valuemin="0" aria-valuemax="760" aria-valuenow="451">
+              <span style="--meter-fill: 59.3%"></span>
             </div>
-            <p>39.3% used <span>461 headroom</span></p>
+            <p>59.3% used <span>309 headroom</span></p>
           </article>
 
           <article class="budget-metric">
             <div class="metric-head">
               <div>
-                <span class="metric-label">Map + mod assets</span>
-                <strong>1,678 <small>/ 2,048</small></strong>
+                <span class="metric-label">Runtime material union</span>
+                <strong>1,710 <small>/ 2,048</small></strong>
               </div>
               <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="Map and mod assets used" aria-valuemin="0" aria-valuemax="2048" aria-valuenow="1678">
-              <span style="--meter-fill: 81.9%"></span>
+            <div class="meter" role="progressbar" aria-label="Runtime material union used" aria-valuemin="0" aria-valuemax="2048" aria-valuenow="1710">
+              <span style="--meter-fill: 83.5%"></span>
             </div>
-            <p>81.9% used <span>370 headroom</span></p>
+            <p>83.5% used <span>338 headroom</span></p>
           </article>
 
           <article class="budget-metric is-tight">
             <div class="metric-head">
               <div>
                 <span class="metric-label">XModels on mp_vacant</span>
-                <strong>988 <small>/ 1,000</small></strong>
+                <strong>993 <small>/ 1,000</small></strong>
               </div>
-              <span class="status status-pass">Pass</span>
+              <span class="status status-fail">Hold</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="XModels used on mp_vacant" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="988">
-              <span style="--meter-fill: 98.8%"></span>
+            <div class="meter" role="progressbar" aria-label="XModels used on mp_vacant" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="993">
+              <span style="--meter-fill: 99.3%"></span>
             </div>
-            <p>98.8% used <span>12 engine / 2 safety headroom</span></p>
+            <p>99.3% used <span>7 engine headroom / 3 over safety</span></p>
           </article>
 
           <article class="budget-metric">
             <div class="metric-head">
               <div>
-                <span class="metric-label">Supported stock maps</span>
-                <strong>18 <small>/ 21</small></strong>
+                <span class="metric-label">Exclusive XModels</span>
+                <strong>70 <small>/ 70</small></strong>
               </div>
-              <span class="status status-pass">Pass</span>
+              <span class="status status-fail">Hold</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="Supported stock maps" aria-valuemin="0" aria-valuemax="21" aria-valuenow="18">
-              <span style="--meter-fill: 85.7%"></span>
+            <div class="meter" role="progressbar" aria-label="Exclusive XModels used" aria-valuemin="0" aria-valuemax="70" aria-valuenow="70">
+              <span style="--meter-fill: 100%"></span>
             </div>
-            <p>Shipped safety bar met <span>3 excluded</span></p>
+            <p>100% used <span>combined-model round active</span></p>
           </article>
         </div>
 
         <div class="package-strip" aria-label="IWD package inventory">
           <div class="package-title">
             <span class="eyebrow">IWD inventory</span>
-            <strong><code>Snapshot 89 exact runtime package</code></strong>
+            <strong><code>Latest rejected proof / output removed</code></strong>
           </div>
           <dl>
             <div>
-              <dt>Package size</dt>
-              <dd>29,853,466 <small>bytes</small></dd>
+              <dt>mod.ff proof</dt>
+              <dd>31,283,691 <small>bytes</small></dd>
             </div>
             <div>
-              <dt>Files</dt>
-              <dd>519</dd>
+              <dt>IWD proof</dt>
+              <dd>53,881,688 <small>bytes</small></dd>
             </div>
             <div>
-              <dt>Runtime images</dt>
-              <dd>340</dd>
+              <dt>Release delta</dt>
+              <dd>+3 <small>XModels over 990</small></dd>
             </div>
           </dl>
         </div>
@@ -318,13 +318,38 @@
         <header class="section-heading">
           <div>
             <p class="eyebrow">Live checkpoint</p>
-            <h2 id="current-round-title">Visual Repair Gauntlet Active</h2>
+            <h2 id="current-round-title">Asset Recovery Gauntlet Active</h2>
           </div>
-          <span class="status status-unknown status-large">Ghost rear-emblem PASS and workspace-promoted; Hades world round 7 active; Steam unchanged</span>
+          <span class="status status-unknown status-large">8/8 viewarms pass native gate; RAM-7 + DM56 package 993/990 HOLD; Steam unchanged</span>
         </header>
 
         <div class="round-grid">
           <div>
+            <dl class="round-facts">
+              <div>
+                <dt>05 September checkpoint</dt>
+                <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> All eight latest authored viewarm sets pass the exact native contract. Four third-person bodies are already staged, Mara31 and Talon11 have finished builder validation and are under fresh independent review, and Iskra/Mace repairs remain active.</dd>
+              </div>
+              <div>
+                <dt>Weapon package hold</dt>
+                <dd><strong class="text-fail">993 / 990 RELEASE HOLD.</strong> The exact RAM-7 + DM56 proof compiled with zero OAT warnings/errors and stayed under the 1000-model hard engine limit, but it exceeded the normal 990 safety ceiling by three XModels. The rejected output directory was deleted; source candidates and receipts remain.</dd>
+              </div>
+              <div>
+                <dt>Active headroom repair</dt>
+                <dd>One combined view XModel and one combined world XModel are being built per family. Authored reflex, compact optic, and suppressor geometry remain on hideable tags, with a dedicated magazine model. This replaces redundant per-state models while preserving the selected attachment appearance.</dd>
+              </div>
+              <div>
+                <dt>Current evidence</dt>
+                <dd><a href="evidence/current/recovery-20260905/full-asset-proving-status.md">Read the exact package hold</a>, <a href="evidence/current/recovery-20260905/latest-viewhands-native.json">inspect the eight-viewarm native receipt</a>, or <a href="evidence/current/recovery-20260905/family01-world-lods-critic.md">read the Family 01 world-LOD critic</a>.</dd>
+              </div>
+              <div>
+                <dt>Publication state</dt>
+                <dd>The public dashboard is current, but neither Steam nor the release package has been changed. The next retained test tuple must pass the strict 990 XModel ceiling, exact IWD model-field inspection, direct fastfile unlink verification, and a fresh independent critic.</dd>
+              </div>
+            </dl>
+
+            <details class="archive-detail">
+              <summary>Earlier recovery record through 29 August</summary>
             <dl class="round-facts">
               <div>
                 <dt>Active repair round</dt>
@@ -423,6 +448,7 @@
                 <dd>The current source stays at <code>11</code> explicitly linked weapons inside the <code>128</code>-weapon runtime pool, with seven approved XI utility names and no duplicated stock aliases. Stock XModels are references rather than embedded copies, so deleting those references would not buy attachment headroom. The runtime manifest retains <code>340</code> reachable images after eight byte-identical slots were removed. <a href="evidence/current/recovery-20260829/runtime-asset-audit.md">Read the current asset audit.</a></dd>
               </div>
             </dl>
+            </details>
 
             <div class="evidence-block">
               <h3>Evidence links and paths</h3>
@@ -923,21 +949,20 @@
 
           <aside class="gap-panel" aria-labelledby="gap-title">
             <p class="eyebrow">Biggest remaining gap</p>
-            <h3 id="gap-title">Repair native hand weights, then close the real weapon source chain.</h3>
+            <h3 id="gap-title">Recover three XModel slots without changing the authored weapon states.</h3>
             <p>
-              Ghost Round 4 now preserves the native weighted layer one-to-one, but the first two-layer motion probe still tears
-              wrist triangles and spikes the sleeve before a fresh critic can see it. The builder is repairing the native helper
-              hierarchy and now rejects bind-stage edge distortion before animation. Family 01 Round 8 isolated its changes to
-              authored sight-owned geometry, but the lead audit caught anisotropic shape distortion; that pass is being replaced
-              with rigid component placement while the receiver and non-role geometry remain exact.
+              The latest authored viewarms already clear their exact native gate. RAM-7 and DM56 now have coherent Round 3
+              weapon, reflex, compact-optic, suppressor, and magazine assets, but separate models push the full package to
+              993 runtime XModels. The active round combines each family's visual states behind engine hide tags and must
+              prove, by blind render comparison and OAT round trip, that no optic, magazine, muzzle, rail, or ADS axis moves.
             </p>
             <div class="exit-evidence">
               <span>Exit evidence</span>
-              <code>Exact hand contract / 37 states / centered live ADS / all phases / no visual veto</code>
+              <code>&lt;=990 XModels / exact visible states / authored optics seated / OAT clean / fresh critic PASS</code>
             </div>
             <div class="gap-after">
               <span>After this clears</span>
-              <strong>Pass both fresh critics, promote transactionally, rebuild once, then run the user-live test.</strong>
+              <strong>Promote passing bodies and combined weapons transactionally, rebuild once, then begin runtime proof.</strong>
             </div>
           </aside>
         </div>
@@ -1714,6 +1739,28 @@
 
         <div class="gallery-grid">
           <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/ram7-view-round3.png">
+              <img src="evidence/current/recovery-20260905/ram7-view-round3.png" alt="RAM-7 Round 3 view-model review board showing base, reflex, compact optic, suppressor, and magazine states" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">RAM-7 Round 3 / visual proof, package HOLD</span>
+              <strong>The authored weapon and optics are coherent; redundant states cost too many slots</strong>
+              <span>The source reflex, compact optic, suppressor, and magazine fit the RAM-7 in the sealed review board. A combined hide-tag model is now being judged against these frozen views so the release can recover XModel headroom without moving the rail fit or ADS corridor. <a href="evidence/current/recovery-20260905/ram7-world-round3.png">Inspect the world-model board.</a></span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/dm56-view-round3.png">
+              <img src="evidence/current/recovery-20260905/dm56-view-round3.png" alt="DM56 Round 3 view-model review board showing base, reflex, compact optic, suppressor, and magazine states" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">DM56 Round 3 / visual proof, package HOLD</span>
+              <strong>The DM56 states compile cleanly, but they are not released yet</strong>
+              <span>The selected source attachments remain readable and physically seated in the current proving assets. The package remains held at 993/990 until one combined view/world pair reproduces these states exactly and passes a fresh independent critic. <a href="evidence/current/recovery-20260905/dm56-world-round3.png">Inspect the world-model board.</a></span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
             <a class="gallery-image" href="evidence/current/recovery-20260829/ghost-rear-emblem-round4-critic/BLIND-CONTACT-SHEET.png">
               <img src="evidence/current/recovery-20260829/ghost-rear-emblem-round4-critic/BLIND-CONTACT-SHEET.png" alt="Concealed six-view Ghost operator comparison used by the independent rear-emblem critic" loading="lazy">
             </a>
@@ -2063,8 +2110,8 @@
 
   <footer class="site-footer">
     <div class="section-shell footer-inner">
-      <p><strong>XI FreezeTag Gauntlet</strong> / local evidence board</p>
-      <p>Snapshot 93 source: project evidence on 29 Aug 2026. <a href="README.md">Update guide</a></p>
+      <p><strong>XI FreezeTag Gauntlet</strong> / public evidence board</p>
+      <p>Snapshot 94 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
     </div>
   </footer>
 </body>

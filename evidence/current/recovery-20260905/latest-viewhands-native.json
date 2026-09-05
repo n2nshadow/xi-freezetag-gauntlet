@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "sourceManifestSha256": "A12F0C623B7FECE7CF0A6A8A41EB629199B92D3EDCE3820FDBB40F37E15AAEE0",
+  "seedFastfile": "reference/xi_viewhands_latest.ff",
+  "seedFastfileSha256": "E018D0AC5ECF5F6435D8085491F43B186570F980DD18771274BA175C9CEA8F95",
+  "records": [
+    {
+      "id": "alice_4_1",
+      "xmodel": "viewhands_xi_alice_4_1",
+      "compiledExportSha256": "C75A887841BABC6F334A34DF7352E3D5360F39EEF654B921D1FD9D523E14FE86",
+      "materials": [
+        "mc/mtl_marine_glove",
+        "mc/xi_operator_alice_4_1_t8_viewhands"
+      ]
+    },
+    {
+      "id": "ghost_5_1",
+      "xmodel": "viewhands_xi_ghost_5_1",
+      "compiledExportSha256": "715BC8505F92292574779AD7909477EFC1F0015A6CFAA5E5B0084EAD388F14A4",
+      "materials": [
+        "mc/mtl_marine_glove",
+        "mc/xi_operator_ghost_5_1_t8_viewhands",
+        "mc/xi_operator_ghost_5_1_t8_viewhands_glass"
+      ]
+    },
+    {
+      "id": "iskra_6_1",
+      "xmodel": "viewhands_xi_iskra_6_1",
+      "compiledExportSha256": "7A09DA1299C4620069028FEBDB70E176D6E189E2108D5EC72855EE893EF7D910",
+      "materials": [
+        "mc/mtl_marine_glove",
+        "mc/xi_operator_iskra_6_1_t8_viewhands"
+      ]
+    },
+    {
+      "id": "mace_5_1",
+      "xmodel": "viewhands_xi_mace_5_1",
+      "compiledExportSha256": "5A36871B1EA86C228520CDD4831CC3E693AA3839BD9CB4883D29291E58BDD5D6",
+      "materials": [
+        "mc/mtl_marine_glove",
+        "mc/xi_operator_mace_5_1_t8_viewhands"
+      ]
+    },
+    {
+      "id": "mara_3_1",
+      "xmodel": "viewhands_xi_mara_3_1",
+      "compiledExportSha256": "CA2CD1203DB62A1DD6F0B942FAB3825E2A82B2926E52B617FED1D1BD6A3876FE",
+      "materials": [
+        "mc/mtl_marine_glove",
+        "mc/xi_operator_mara_3_1_t8_viewhands"
+      ]
+    },
+    {
+      "id": "mara_3_2",
+      "xmodel": "viewhands_xi_mara_3_2",
+      "compiledExportSha256": "E8DA846E511CE9C7C862CD37640940C5E661E1BC3C1453219E8D0C6EFA21D989",
+      "materials": [
+        "mc/mtl_marine_glove",
+        "mc/xi_operator_mara_3_2_t8_viewhands"
+      ]
+    },
+    {
+      "id": "raines_5_1",
+      "xmodel": "viewhands_xi_raines_5_1",
+      "compiledExportSha256": "490B16DC3967B37637CF803C8DFDD0C4EC9BDB058996C234BA4B1D05E7A19408",
+      "materials": [
+        "mc/mtl_marine_glove",
+        "mc/xi_operator_raines_5_1_t8_viewhands"
+      ]
+    },
+    {
+      "id": "talon_1_1",
+      "xmodel": "viewhands_xi_talon_1_1",
+      "compiledExportSha256": "9E81218F388DD4F50BDB7C876D7CC80D7F1CBF701E3158D60988FB1172CBE7F1",
+      "materials": [
+        "mc/mtl_marine_glove",
+        "mc/xi_operator_talon_1_1_t8_viewhands"
+      ]
+    }
+  ],
+  "validationStatus": "quantized-native-candidate-full-build-and-in-game-pending",
+  "nativeWeightConditioning": {
+    "bound": 0.01567187706569009,
+    "formula": "4/256 + 3/65535 + 0.0000011",
+    "policy": "User-authorized bounded native quantization: one 1/256 conditioning allowance per maximum four influences plus IW3 uint16 residual serialization. Exact named support, significant dominant identity above twice this bound, normalized weights and authored triangle correspondence required. Raw tie flips remain reported. No final-payload hash tolerance."
+  },
+  "compiledExportHashNormalization": {
+    "version": 1,
+    "algorithm": "SHA256",
+    "rules": [
+      "ASCII text, CRLF to LF",
+      "Remove complete // Zone Origin: line including newline",
+      "Blank only third quoted MATERIAL declaration field (texture filename)",
+      "Preserve all other bytes, including slots, material names, shader labels, properties and geometry"
+    ]
+  }
+}
