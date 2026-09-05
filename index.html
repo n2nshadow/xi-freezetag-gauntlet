@@ -70,7 +70,7 @@
             </div>
             <div class="snapshot-stamp">
               <span>Current verdict: <strong class="text-fail">HOLD</strong></span>
-              <time datetime="2026-09-05T06:11:43-04:00">05 Sep 2026, 06:11 EDT</time>
+              <time datetime="2026-09-05T07:28:00-04:00">05 Sep 2026, 07:28 EDT</time>
             </div>
           </div>
         </div>
@@ -201,7 +201,7 @@
               <strong>Blind visual A/B</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              RAM-7 and DM56 pass 64/64 fixed views and a fresh independent critic; Renetti passes contact, material, schema, and OAT review. Alice, Ghost, Iskra, Mara32, Raines, and Talon still need final independent body decisions and live review.
+              RAM-7 and DM56 pass 64/64 fixed views and a fresh independent critic; Renetti passes contact, material, schema, and OAT review. Alice, Ghost, and Mara32 now have completed HOLD reviews. Iskra's hardware repair is ready for review; all body motion evidence needs the corrected evaluator and live proof.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -328,7 +328,7 @@
             <dl class="round-facts">
               <div>
                 <dt>05 September checkpoint</dt>
-                <dd><strong>RECOVERY ACTIVE; EXACT PROVING PACKAGE RETAINED.</strong> All eight authored viewarm sets remain sealed at checkpoint <code>a2eac3ae</code>. Mace51 and Mara31 Dark Sails are independently reviewed and staged. Full-map validation found a two-slot Vacant safety gap that must be fixed before the next integrated test package.</dd>
+                <dd><strong>RECOVERY ACTIVE; EXACT PROVING PACKAGE RETAINED.</strong> All eight authored viewarm sets remain sealed at checkpoint <code>a2eac3ae</code>. Mace51 and Mara31 Dark Sails remain staged, but their earlier pose evidence also needs rechecking. Full-map validation found a two-slot Vacant safety gap that must be fixed before the next integrated test package.</dd>
               </div>
               <div>
                 <dt>Exact integrated package</dt>
@@ -344,11 +344,15 @@
               </div>
               <div>
                 <dt>Current evidence</dt>
-                <dd><a href="evidence/current/recovery-20260905/package/exact-integrated-proving-report.md">Read the exact 987-slot checkpoint</a>, <a href="evidence/current/recovery-20260905/weapons/family23-combined-round2-critic-report.md">inspect the Family23 critic PASS</a>, <a href="evidence/current/recovery-20260905/weapons/renetti-round4-critic-report.md">inspect the Renetti critic PASS</a>, or <a href="evidence/current/recovery-20260905/operators/alice-round2-builder-report.md">follow Alice's repaired lower-body round</a>.</dd>
+                <dd><strong>BODY DIAGNOSTIC FIX: 11 TESTS PASS.</strong> The old evaluator also distorted untouched stock. Root-only coordinate conversion, half-quaternion Z/W, translation scaling, and bind offsets are corrected. Eighteen actual-module stock/Ghost/Mara32 geometry cases were rendered; independent review is pending. This is not body or live-game approval. <a href="evidence/current/recovery-20260905/operators/body-pose-recovery.md">Read the concrete fixes and limitations.</a></dd>
+              </div>
+              <div>
+                <dt>Operator repairs</dt>
+                <dd>Alice Round3 is restoring missing upper arms and torso in reduced LODs. <a href="evidence/current/recovery-20260905/operators/ghost-biker-round1-critic-report.md">Ghost</a> and <a href="evidence/current/recovery-20260905/operators/mara32-round1-critic-report.md">Mara32</a> remain held for real surface, alpha, and motion defects. Iskra Round4 reconnects hardware with exactly 217 joint-index byte changes, preserving geometry and the white charm. <a href="evidence/current/recovery-20260905/operators/iskra-round4-builder-report.md">Inspect the scoped repair.</a></dd>
               </div>
               <div>
                 <dt>Publication state</dt>
-                <dd><strong>SNAPSHOT 98.</strong> This page records the retained proving tuple, current reviews, and the later full-map safety finding. Steam and the production package remain unchanged. The Vacant safety gap, live engine/user acceptance, and six third-person operator body decisions still block release.</dd>
+                <dd><strong>SNAPSHOT 99.</strong> This page records the retained proving tuple, completed body HOLD reviews, and the corrected pose diagnostic. Steam and the production package remain unchanged. The Vacant safety gap, unresolved operator defects, and live engine/user acceptance still block release.</dd>
               </div>
             </dl>
 
@@ -1764,6 +1768,26 @@
         </header>
 
         <div class="gallery-grid">
+          <figure class="gallery-item">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/operators/stock-pose-old-idle.png">
+              <img src="evidence/current/recovery-20260905/operators/stock-pose-old-idle.png" alt="Untouched stock CoD4 body distorted by the previous offline pose evaluator" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-fail">Old diagnostic / invalid stock control</span>
+              <strong>The test itself folded the stock torso</strong>
+              <span>This is the unchanged stock body, not a rejected custom skin. Its incorrect pose exposed a shared evaluator defect.</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/operators/stock-pose-corrected-idle.png">
+              <img src="evidence/current/recovery-20260905/operators/stock-pose-corrected-idle.png" alt="Same stock CoD4 body and idle sample evaluated with corrected joint coordinates and translations" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">Corrected diagnostic / review pending</span>
+              <strong>Same model and clip, corrected joint math</strong>
+              <span>The gross folding is gone without editing the model. Stock head and hands are separate assets, intentionally absent here. Gray geometry evidence does not prove textures, blended gameplay animation, or custom-skin acceptance.</span>
+            </figcaption>
+          </figure>
           <figure class="gallery-item gallery-item-wide">
             <a class="gallery-image" href="evidence/current/recovery-20260905/operators/iskra-round3-identity-silhouette.png">
               <img src="evidence/current/recovery-20260905/operators/iskra-round3-identity-silhouette.png" alt="Iskra61 Round 3 operator identity and silhouette review showing the restored white Kitty Six charm" loading="lazy">
@@ -1771,7 +1795,7 @@
             <figcaption>
               <span class="status status-fail">Iskra61 Round 3 / fresh critic HOLD</span>
               <strong>The authored white Kitty Six charm is visible at every LOD</strong>
-              <span>The charm repair passes, but the critic proved twelve inherited tile-34 fragments still float in idle, crouch, and death. Round 4 is restricted to those root-weighted fragments; Iskra remains quarantined. <a href="evidence/current/recovery-20260905/operators/iskra-round3-critic-report.md">Read the critic report.</a></span>
+              <span>Round4 reconnects the charm's hardware through 217 joint-index byte changes, with no geometry or texture changes. Structural and OAT checks pass; corrected pose checks and fresh criticism are pending. The pictured identity remains unchanged. <a href="evidence/current/recovery-20260905/operators/iskra-round4-builder-report.md">Read the repair report.</a></span>
             </figcaption>
           </figure>
 
@@ -1791,9 +1815,9 @@
               <img src="evidence/current/recovery-20260905/operators/alice-round2-blind-lod-grid.png" alt="Alice41 Round 2 blind lower-body and LOD comparison grid" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-unknown">Alice41 Round 2 / builder PASS, fresh critic active</span>
-              <strong>The repaired lower-body silhouette remains source-faithful across all reviewed LODs</strong>
-              <span>The source-derived guard changes only LOD1 and LOD2, with minimum silhouette IoU of 0.959781 and 0.940824. OAT, semantics, five poses, and protected-region checks pass; promotion waits on a fresh critic. <a href="evidence/current/recovery-20260905/operators/alice-round2-builder-report.md">Read the builder report.</a></span>
+              <span class="status status-fail">Alice41 Round 2 / fresh critic HOLD</span>
+              <strong>Shins improved, but upper arms and torso still lose surfaces</strong>
+              <span>The critic confirmed the lower-body repair but found arm material absent at LOD1/2 and substantial torso gaps. Aggregate silhouette scores had hidden that loss. Round3 is repairing those exact surfaces; earlier pose scores are not accepted. <a href="evidence/current/recovery-20260905/operators/alice-round2-critic-report.md">Read the critic findings.</a></span>
             </figcaption>
           </figure>
 
@@ -1802,9 +1826,9 @@
               <img src="evidence/current/recovery-20260905/operators/mace51-source-candidate-round2.png" alt="Mace51 authored source, rejected Round 1 control, and Round 2 candidate shown from four matched angles" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-pass">Mace51 Round 2 / proving-package PASS</span>
+              <span class="status status-unknown">Mace51 Round 2 / staged, motion recheck pending</span>
               <strong>The rabbit head, layered outfit, color blocking, and equipment silhouette are restored</strong>
-              <span>The fresh critic passed source identity, 51-joint rig, four LODs, materials, external images, OAT build/list/dump, semantic roundtrip, and five stock poses. It is approved only for the next sealed proving package; live engine and user testing remain outstanding. <a href="evidence/current/recovery-20260905/operators/mace51-round2-promotion-manifest.json">Inspect the promotion manifest.</a></span>
+              <span>The earlier proving-only review passed identity, rig, LODs, materials and OAT closure. Its motion evidence used the now-questioned evaluator and must be repeated. Live engine and user testing remain outstanding. <a href="evidence/current/recovery-20260905/operators/mace51-round2-promotion-manifest.json">Inspect the historical proving manifest.</a></span>
             </figcaption>
           </figure>
 
@@ -1813,9 +1837,9 @@
               <img src="evidence/current/recovery-20260905/operators/mara31-dark-sails-round2-critic.png" alt="Anonymous source and two canonical Mara31 Dark Sails candidates compared from front, rear three-quarter, side, and rear views" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-pass">Mara31 Dark Sails / proving-package PASS</span>
+              <span class="status status-unknown">Mara31 Dark Sails / staged, motion recheck pending</span>
               <strong>The intended Dark Sails coat, hat, boots, silhouette, and authored materials survive the CoD4 conversion</strong>
-              <span>A fresh critic verified the canonical four-LOD body, materials, IWIs, rig, OAT output, poses, and sealed hashes. It is approved only for a proving package; live engine and user testing remain outstanding. <a href="evidence/current/recovery-20260905/operators/mara31-round2-promotion-manifest.json">Inspect the promotion manifest.</a></span>
+              <span>The earlier review verified the canonical four-LOD body, materials, rig, OAT output and sealed hashes. Motion must now be checked with the corrected evaluator. Live engine and user testing remain outstanding. <a href="evidence/current/recovery-20260905/operators/mara31-round2-promotion-manifest.json">Inspect the historical proving manifest.</a></span>
             </figcaption>
           </figure>
 
