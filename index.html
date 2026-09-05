@@ -70,7 +70,7 @@
             </div>
             <div class="snapshot-stamp">
               <span>Current verdict: <strong class="text-fail">HOLD</strong></span>
-              <time datetime="2026-09-05T07:28:00-04:00">05 Sep 2026, 07:28 EDT</time>
+              <time datetime="2026-09-05T09:08:00-04:00">05 Sep 2026, 09:08 EDT</time>
             </div>
           </div>
         </div>
@@ -201,7 +201,7 @@
               <strong>Blind visual A/B</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              RAM-7 and DM56 pass 64/64 fixed views and a fresh independent critic; Renetti passes contact, material, schema, and OAT review. Alice's middle-LOD repair and Iskra's metal rebind now pass targeted independent reviews. Whole-body holds remain; Ghost's small UV repair is under review. None is live-game acceptance.
+              RAM-7 and DM56 pass 64/64 fixed views and a fresh independent critic; Renetti passes contact, material, schema, and OAT review. Alice's middle-LOD repair, Iskra's metal rebind and Ghost's small UV repair pass targeted independent reviews. Ghost's vest layers still cross and Raines has motion defects. Whole-body and live-game acceptance remain held.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -348,11 +348,11 @@
               </div>
               <div>
                 <dt>Operator repairs</dt>
-                <dd><a href="evidence/current/recovery-20260905/operators/alice-round3-critic-report.md">Alice's middle-LOD repair passes fresh static/OAT review</a>; its old reducer's stretched pants bridge is gone. Round4 now repairs the far-LOD feet. <a href="evidence/current/recovery-20260905/operators/ghost-round2-builder-report.md">Ghost's five cross-atlas faces are repaired through 12 changed UV bytes</a>, pending criticism; larger vest/leg defects remain. <a href="evidence/current/recovery-20260905/operators/iskra-round4-critic-report.md">Iskra's metal rebind passes corrected-pose review</a>; the closed-loop shape and charm/backpack overlap remain Round5 work. Mara32, Raines, and Talon still need their remaining body work.</dd>
+                <dd><a href="evidence/current/recovery-20260905/operators/alice-round3-critic-report.md">Alice's middle-LOD repair passes fresh static/OAT review</a>; its old reducer's stretched pants bridge is gone. Round4 now repairs the far-LOD feet. <a href="evidence/current/recovery-20260905/operators/ghost-round2-critic-report.md">Ghost's 12-byte UV repair passes independent review</a>, but five measured vest/decal depth reversals remain; Round3 repairs those layers together. <a href="evidence/current/recovery-20260905/operators/iskra-round4-critic-report.md">Iskra's metal rebind passes corrected-pose review</a>; the closed-loop shape and charm/backpack overlap remain Round5 work. <a href="evidence/current/recovery-20260905/operators/raines-motion-review.md">Raines' corrected crouch check holds lower-leg and apron behavior</a>, already visible in its pre-LOD retargeted source. Mara32 and Talon still need their remaining body work.</dd>
               </div>
               <div>
                 <dt>Publication state</dt>
-                <dd><strong>SNAPSHOT 102.</strong> The current full build reproduces byte-identically and passes all 18 shipped map budgets. The publication-gate replay rejects the archived 992-slot tuple and accepts the new 990-slot tuple without relaxing the cap. Alice and Iskra have new targeted repair passes, with their specific remaining defects recorded. Steam and production remain unchanged. <a href="evidence/current/recovery-20260905/package/world-pack-critic.md">Independent packing review</a>; <a href="evidence/current/recovery-20260905/package/world-pack-integration.json">current exact tuple and repeat evidence</a>.</dd>
+                <dd><strong>SNAPSHOT 103.</strong> The current full build reproduces byte-identically and passes all 18 shipped map budgets. The publication-gate replay rejects the archived 992-slot tuple and accepts the new 990-slot tuple without relaxing the cap. The latest Ghost critic separates its small UV pass from the actual layer-geometry failure; a corrected Raines check identifies a pre-reduction motion problem. Three bounded body repairs are active. Steam and production remain unchanged. <a href="evidence/current/recovery-20260905/package/world-pack-critic.md">Independent packing review</a>; <a href="evidence/current/recovery-20260905/package/world-pack-integration.json">current exact tuple and repeat evidence</a>.</dd>
               </div>
             </dl>
 
@@ -982,8 +982,8 @@
             <h3 id="gap-title">Finish the operator repairs and prove them in motion.</h3>
             <p>
               The model-space repair now passes the actual full build and all 18 shipped maps. Alice's middle-LOD
-              surfaces pass review; its far-LOD feet are being repaired. Ghost's five-face UV fix is under review,
-              Iskra's hanging assembly needs follow-up, and Mara32 still has surface and motion gaps. Raines needs final review and Talon
+              surfaces pass review; its far-LOD feet are being repaired. Ghost's five-face UV fix passes review but its vest layers still cross,
+              Iskra's hanging assembly needs follow-up, and Mara32 still has surface and motion gaps. Raines needs a native rig/seam repair and final review; Talon
               needs identity/material work. Candidate animation must be judged with the corrected diagnostic and live evidence.
             </p>
             <div class="exit-evidence">
@@ -2249,7 +2249,7 @@
   <footer class="site-footer">
     <div class="section-shell footer-inner">
       <p><strong>XI FreezeTag Gauntlet</strong> / local evidence board</p>
-      <p>Snapshot 102 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
+      <p>Snapshot 103 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
     </div>
   </footer>
 </body>
