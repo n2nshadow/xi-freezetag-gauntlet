@@ -1,23 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedUtc": "2026-09-05T10:47:00.0966855Z",
-  "passed": false,
-  "failures": [
-    "The shipped sv_mapRotation contains maps above the 990-slot release threshold: mp_vacant",
-    "Only 17/21 stock maps fit the 990-slot release threshold; at least 18 are required.",
-    "Required core stock maps exceed the release XModel threshold: mp_vacant"
-  ],
+  "generatedUtc": "2026-09-05T11:59:00.7935521Z",
+  "passed": true,
+  "failures": [],
   "fastfile": {
     "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_out_full_asset_proving\\mod.ff",
-    "bytes": 31853072,
-    "sha256": "8CCDAC3C14E28EE2A6695E4E581A7838F2E4A5FA3C2021FF621945D2264C2619"
+    "bytes": 31855372,
+    "sha256": "E0D38443E794E7C3BED66317577C77FDCE786638737219D6A58C73110F091A1D"
   },
   "engineMaximum": 1000,
   "safetyMaximum": 990,
   "mapCount": 21,
   "supportedMapCount": 18,
-  "safetySafeMapCount": 17,
-  "concreteModXModels": 65,
+  "safetySafeMapCount": 18,
+  "concreteModXModels": 63,
   "verifiedStockReferences": 17,
   "unsupportedMaps": [
     "mp_broadcast",
@@ -27,8 +23,7 @@
   "safetyFailureMaps": [
     "mp_broadcast",
     "mp_citystreets",
-    "mp_crossfire",
-    "mp_vacant"
+    "mp_crossfire"
   ],
   "configuredRotation": {
     "configPath": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_out_full_asset_proving\\xi_ftag.cfg",
@@ -54,113 +49,83 @@
       "mp_shipment",
       "mp_killhouse"
     ],
-    "safetyPass": false
+    "safetyPass": true
   },
   "maps": [
     {
       "map": "mp_backlot",
       "stockXModels": 922,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 987,
-      "headroom": 13,
+      "runtimeXModels": 985,
+      "headroom": 15,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_bloc",
       "stockXModels": 761,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 826,
-      "headroom": 174,
+      "runtimeXModels": 824,
+      "headroom": 176,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_bog",
       "stockXModels": 852,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 917,
-      "headroom": 83,
+      "runtimeXModels": 915,
+      "headroom": 85,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_broadcast",
       "stockXModels": 948,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 1013,
-      "headroom": -13,
+      "runtimeXModels": 1011,
+      "headroom": -11,
       "enginePass": false,
       "safetyPass": false
     },
     {
       "map": "mp_carentan",
       "stockXModels": 879,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 944,
-      "headroom": 56,
+      "runtimeXModels": 942,
+      "headroom": 58,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_cargoship",
       "stockXModels": 761,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 826,
-      "headroom": 174,
+      "runtimeXModels": 824,
+      "headroom": 176,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_citystreets",
       "stockXModels": 973,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 1038,
-      "headroom": -38,
+      "runtimeXModels": 1036,
+      "headroom": -36,
       "enginePass": false,
       "safetyPass": false
     },
     {
       "map": "mp_convoy",
       "stockXModels": 905,
-      "concreteModXModels": 65,
-      "stockReferences": 17,
-      "runtimeXModels": 970,
-      "headroom": 30,
-      "enginePass": true,
-      "safetyPass": true
-    },
-    {
-      "map": "mp_countdown",
-      "stockXModels": 724,
-      "concreteModXModels": 65,
-      "stockReferences": 17,
-      "runtimeXModels": 789,
-      "headroom": 211,
-      "enginePass": true,
-      "safetyPass": true
-    },
-    {
-      "map": "mp_crash",
-      "stockXModels": 899,
-      "concreteModXModels": 65,
-      "stockReferences": 17,
-      "runtimeXModels": 964,
-      "headroom": 36,
-      "enginePass": true,
-      "safetyPass": true
-    },
-    {
-      "map": "mp_crash_snow",
-      "stockXModels": 903,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
       "runtimeXModels": 968,
       "headroom": 32,
@@ -168,104 +133,134 @@
       "safetyPass": true
     },
     {
+      "map": "mp_countdown",
+      "stockXModels": 724,
+      "concreteModXModels": 63,
+      "stockReferences": 17,
+      "runtimeXModels": 787,
+      "headroom": 213,
+      "enginePass": true,
+      "safetyPass": true
+    },
+    {
+      "map": "mp_crash",
+      "stockXModels": 899,
+      "concreteModXModels": 63,
+      "stockReferences": 17,
+      "runtimeXModels": 962,
+      "headroom": 38,
+      "enginePass": true,
+      "safetyPass": true
+    },
+    {
+      "map": "mp_crash_snow",
+      "stockXModels": 903,
+      "concreteModXModels": 63,
+      "stockReferences": 17,
+      "runtimeXModels": 966,
+      "headroom": 34,
+      "enginePass": true,
+      "safetyPass": true
+    },
+    {
       "map": "mp_creek",
       "stockXModels": 764,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 829,
-      "headroom": 171,
+      "runtimeXModels": 827,
+      "headroom": 173,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_crossfire",
       "stockXModels": 962,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 1027,
-      "headroom": -27,
+      "runtimeXModels": 1025,
+      "headroom": -25,
       "enginePass": false,
       "safetyPass": false
     },
     {
       "map": "mp_farm",
       "stockXModels": 824,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 889,
-      "headroom": 111,
+      "runtimeXModels": 887,
+      "headroom": 113,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_killhouse",
       "stockXModels": 690,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 755,
-      "headroom": 245,
+      "runtimeXModels": 753,
+      "headroom": 247,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_overgrown",
       "stockXModels": 805,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 870,
-      "headroom": 130,
+      "runtimeXModels": 868,
+      "headroom": 132,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_pipeline",
       "stockXModels": 827,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 892,
-      "headroom": 108,
+      "runtimeXModels": 890,
+      "headroom": 110,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_shipment",
       "stockXModels": 696,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 761,
-      "headroom": 239,
+      "runtimeXModels": 759,
+      "headroom": 241,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_showdown",
       "stockXModels": 773,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 838,
-      "headroom": 162,
+      "runtimeXModels": 836,
+      "headroom": 164,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_strike",
       "stockXModels": 862,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 927,
-      "headroom": 73,
+      "runtimeXModels": 925,
+      "headroom": 75,
       "enginePass": true,
       "safetyPass": true
     },
     {
       "map": "mp_vacant",
       "stockXModels": 927,
-      "concreteModXModels": 65,
+      "concreteModXModels": 63,
       "stockReferences": 17,
-      "runtimeXModels": 992,
-      "headroom": 8,
+      "runtimeXModels": 990,
+      "headroom": 10,
       "enginePass": true,
-      "safetyPass": false
+      "safetyPass": true
     }
   ]
 }

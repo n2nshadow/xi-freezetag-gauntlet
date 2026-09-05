@@ -1,0 +1,91 @@
+{
+  "status": "PASS_INTEGRATED_PACKAGING_ONLY",
+  "productionStatus": "HOLD",
+  "liveAcceptance": "OUTSTANDING",
+  "current": {
+    "mod.ff": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_out_full_asset_proving\\mod.ff",
+      "bytes": 31855372,
+      "sha256": "E0D38443E794E7C3BED66317577C77FDCE786638737219D6A58C73110F091A1D"
+    },
+    "xi_ftag.iwd": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_out_full_asset_proving\\xi_ftag.iwd",
+      "bytes": 53473268,
+      "sha256": "ABA2D9EC8668714BC8FDE09BC607BED8D79DCCCE3781BC0DDD1B690970908112"
+    },
+    "xi_ftag.cfg": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_out_full_asset_proving\\xi_ftag.cfg",
+      "bytes": 33100,
+      "sha256": "E0E777C6D0CD38744D4795B86FF28BD453083D908F7A695B482C81AAF1C82AA4"
+    },
+    "proving-receipt.json": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_out_full_asset_proving\\proving-receipt.json",
+      "bytes": 14652,
+      "sha256": "EDF364314447C478EEDB32AB1A9C7AE88395D6E759285F57D31335BE47AA7B18"
+    },
+    "stock-map-xmodel-budget.json": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_out_full_asset_proving\\stock-map-xmodel-budget.json",
+      "bytes": 6524,
+      "sha256": "A40D12CB911B11034C5B165D72F54885740A37A0E85409B0CE0AF46B011422E1"
+    }
+  },
+  "baseline": {
+    "mod.ff": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\lead_world_pack_integration_round1\\baseline\\mod.ff",
+      "bytes": 31853072,
+      "sha256": "8CCDAC3C14E28EE2A6695E4E581A7838F2E4A5FA3C2021FF621945D2264C2619"
+    },
+    "xi_ftag.iwd": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\lead_world_pack_integration_round1\\baseline\\xi_ftag.iwd",
+      "bytes": 53473205,
+      "sha256": "5436B11220FEBDE0D106A6D98F268B1788218C5ADFF48A5815847F2D1F6337B6"
+    },
+    "xi_ftag.cfg": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\lead_world_pack_integration_round1\\baseline\\xi_ftag.cfg",
+      "bytes": 33100,
+      "sha256": "E0E777C6D0CD38744D4795B86FF28BD453083D908F7A695B482C81AAF1C82AA4"
+    }
+  },
+  "removedAssets": [
+    [
+      "xmodel",
+      "worldmodel_xi_f01_acog_round1"
+    ],
+    [
+      "xmodel",
+      "worldmodel_xi_f01_bare_round1"
+    ],
+    [
+      "xmodel",
+      "worldmodel_xi_f01_reflex_round1"
+    ],
+    [
+      "xmodel",
+      "worldmodel_xi_f01_suppressor_round1"
+    ]
+  ],
+  "addedAssets": [
+    [
+      "xmodel",
+      "worldmodel_xi_f01_bare_suppressor_pack1"
+    ],
+    [
+      "xmodel",
+      "worldmodel_xi_f01_reflex_acog_pack1"
+    ]
+  ],
+  "changedIwdEntries": [
+    "weapons/mp/g36c_acog_mp",
+    "weapons/mp/g36c_mp",
+    "weapons/mp/g36c_reflex_mp",
+    "weapons/mp/g36c_silencer_mp"
+  ],
+  "unchangedIwdEntries": 711,
+  "retiredModelReferences": 0,
+  "configByteIdentical": true,
+  "concreteModelsBefore": 65,
+  "concreteModelsAfter": 63,
+  "backlotRuntimeXModels": 985,
+  "vacantRuntimeXModels": 990,
+  "bodyAndLiveAcceptance": "OUTSTANDING - package equivalence is not visual acceptance"
+}

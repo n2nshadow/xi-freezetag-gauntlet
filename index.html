@@ -84,7 +84,7 @@
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">02</span>
             <strong>Engine envelope</strong>
-            <span>Backlot fits at 987; Vacant needs 2 slots recovered to meet the 990 safety gate</span>
+            <span>Full shipped rotation passes the 990-slot gate: Backlot 985, Vacant 990; visual work remains</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">03</span>
@@ -150,10 +150,10 @@
           <div class="score-row is-current" role="row">
             <div class="score-system" role="cell" data-label="System">
               <span class="system-code">SYS-01</span>
-              <strong>Reproducible package</strong>
+              <strong>Integrated package</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              The exact full-roster proving package was rebuilt twice. Its <code>mod.ff</code> and <code>xi_ftag.iwd</code> are byte-identical across the repeat, the receipt binds both critic manifests, and final IWD model fields pass inspection.
+              The new full build contains the reviewed world-model packing overlay. Exact final inspection finds only four replaced/two added XModels and four changed weapon entries; the other 711 IWD entries are unchanged. Repeat-build determinism was proven for the previous tuple, not yet this one.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
@@ -165,10 +165,10 @@
               <strong>Engine envelope and maps</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              The full 21-map audit finds <strong>18/21</strong> below the engine limit and <strong>17/21</strong> below the XI safety limit. Backlot fits at 987, but shipped-rotation map Vacant reaches <strong>992/990</strong>. Two slots must be recovered before publication.
+              All <strong>18 shipped rotation maps pass</strong> the unchanged 990 safety cap. Backlot uses 985 slots and Vacant uses 990. Broadcast (1011), District (1036), and Crossfire (1025), outside the shipped rotation, remain unsupported. No maps or weapons were removed by this repair.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
-            <div role="cell" data-label="State"><span class="status status-fail">Hold</span></div>
+            <div role="cell" data-label="State"><span class="status status-pass">Rotation pass</span></div>
           </div>
 
           <div class="score-row" role="row">
@@ -177,7 +177,7 @@
               <strong>Independent runtime integration</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              Eight authored viewarm sets pass the exact native gate. Mace51 and Mara31 independently pass and are staged. The package links and unlinks cleanly, but live animation/gameplay validation and the remaining six body decisions are still open.
+              Eight authored viewarm sets pass the exact native gate. Mace51 and Mara31 are staged from prior reviews, with motion rechecks required. The package links and unlinks cleanly, but live animation/gameplay validation and the remaining body repairs are still open.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-runtime">Runtime</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -265,28 +265,28 @@
             <div class="metric-head">
               <div>
                 <span class="metric-label">XModels on mp_backlot</span>
-                <strong>987 <small>/ 1,000</small></strong>
+                <strong>985 <small>/ 1,000</small></strong>
               </div>
               <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="XModels used on mp_backlot" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="987">
-              <span style="--meter-fill: 98.7%"></span>
+            <div class="meter" role="progressbar" aria-label="XModels used on mp_backlot" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="985">
+              <span style="--meter-fill: 98.5%"></span>
             </div>
-            <p>98.7% used <span>13 engine headroom / 3 safety headroom</span></p>
+            <p>98.5% used <span>15 engine headroom / 5 safety headroom</span></p>
           </article>
 
           <article class="budget-metric">
             <div class="metric-head">
               <div>
                 <span class="metric-label">Exclusive XModels</span>
-                <strong>64 <small>/ 70</small></strong>
+                <strong>62 <small>/ 70</small></strong>
               </div>
               <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="Exclusive XModels used" aria-valuemin="0" aria-valuemax="70" aria-valuenow="64">
-              <span style="--meter-fill: 91.4%"></span>
+            <div class="meter" role="progressbar" aria-label="Exclusive XModels used" aria-valuemin="0" aria-valuemax="70" aria-valuenow="62">
+              <span style="--meter-fill: 88.6%"></span>
             </div>
-            <p>91.4% used <span>6 headroom</span></p>
+            <p>88.6% used <span>8 headroom</span></p>
           </article>
         </div>
 
@@ -298,15 +298,15 @@
           <dl>
             <div>
               <dt>mod.ff proof</dt>
-              <dd>31,853,072 <small>bytes</small></dd>
+              <dd>31,855,372 <small>bytes</small></dd>
             </div>
             <div>
               <dt>IWD proof</dt>
-              <dd>53,473,205 <small>bytes</small></dd>
+              <dd>53,473,268 <small>bytes</small></dd>
             </div>
             <div>
-              <dt>Vacant release gap</dt>
-              <dd>+2 <small>XModels over 990</small></dd>
+              <dt>Vacant model slots</dt>
+              <dd>990 <small>at the 990 safety cap</small></dd>
             </div>
           </dl>
         </div>
@@ -320,7 +320,7 @@
             <p class="eyebrow">Live checkpoint</p>
             <h2 id="current-round-title">Asset Recovery Gauntlet Active</h2>
           </div>
-          <span class="status status-unknown status-large">Backlot 987 / Vacant 992; 8/8 viewarms sealed; operator and model-space repairs active</span>
+          <span class="status status-unknown status-large">Backlot 985 / Vacant 990; 18-map gate passed; operator repairs active</span>
         </header>
 
         <div class="round-grid">
@@ -328,11 +328,11 @@
             <dl class="round-facts">
               <div>
                 <dt>05 September checkpoint</dt>
-                <dd><strong>RECOVERY ACTIVE; EXACT PROVING PACKAGE RETAINED.</strong> All eight authored viewarm sets remain sealed at checkpoint <code>a2eac3ae</code>. Mace51 and Mara31 Dark Sails remain staged, but their earlier pose evidence also needs rechecking. Full-map validation found a two-slot Vacant safety gap that must be fixed before the next integrated test package.</dd>
+                <dd><strong>RECOVERY ACTIVE; NEW FULL PROVING BUILD COMPLETE.</strong> All eight authored viewarm sets remain sealed at checkpoint <code>a2eac3ae</code>. Mace51 and Mara31 Dark Sails remain staged, but their earlier pose evidence needs rechecking. The two-slot Vacant safety gap is now fixed in the actual full build, without reducing visible weapon geometry.</dd>
               </div>
               <div>
                 <dt>Exact integrated package</dt>
-                <dd><strong>BACKLOT PASS; FULL ROTATION HOLD.</strong> The hash-bound package contains reviewed RAM-7, DM56, and suppressed Renetti candidates and repeats byte-identically. The full 21-map audit measures Backlot at 987 and Vacant at 992. The build now checks the whole shipped rotation before publication and retains the report when it fails. <a href="evidence/current/recovery-20260905/package/stock-map-xmodel-budget.json">Inspect every map count.</a></dd>
+                <dd><strong>ALL 18 SHIPPED MAPS PASS THE MODEL GATE.</strong> Current <code>mod.ff</code> is <code>E0D38443...</code>; IWD is <code>ABA2D9EC...</code>. Actual inspection confirms exactly 65 to 63 concrete mod models, four changed weapon definitions, 711 unchanged IWD entries, and an identical map configuration. Broadcast, District, and Crossfire remain unsupported. Steam is unchanged. <a href="evidence/current/recovery-20260905/package/stock-map-xmodel-budget.json">Every map count</a>; <a href="evidence/current/recovery-20260905/package/world-pack-integration.json">exact integrated tuple and delta</a>.</dd>
               </div>
               <div>
                 <dt>Reviewed rifle consolidation</dt>
@@ -352,7 +352,7 @@
               </div>
               <div>
                 <dt>Publication state</dt>
-                <dd><strong>SNAPSHOT 100.</strong> This page adds Alice's actual upper-body before/after and the completed independent pose-tool review. Family01's two-slot world-model packing repair is under independent review; fifteen loader tests verify exact weapon payloads and rejected mutations. Steam and the production package remain unchanged. The Vacant safety gap, unresolved operator defects, and live engine/user acceptance still block release.</dd>
+                <dd><strong>SNAPSHOT 101.</strong> Family01's two-slot world-model packing repair passed independent review and the actual full build. Bare/suppressor share one world model; reflex/ACOG share another, with only the selected version shown. First-person models and the separate magazine are unchanged. Fifteen loader tests pass. Operator defects and live engine/user acceptance still block release; Steam and production remain unchanged. <a href="evidence/current/recovery-20260905/package/world-pack-critic.md">Read the independent packing review.</a></dd>
               </div>
             </dl>
 
@@ -979,12 +979,12 @@
 
           <aside class="gap-panel" aria-labelledby="gap-title">
             <p class="eyebrow">Biggest remaining gap</p>
-            <h3 id="gap-title">Recover two model slots and finish the operator repairs.</h3>
+            <h3 id="gap-title">Finish the operator repairs and prove them in motion.</h3>
             <p>
-              Vacant is two slots above the XI safety ceiling. A contained Family01 world-state packing round will reuse
-              the proven selector approach while preserving every visible triangle and all authored attachment positions.
-              Alice, Ghost, and Mara32 reviews continue alongside Iskra's detached-fragment repair. Passing candidates
-              must survive the exact full-package and shipped-rotation gates before integration is accepted.
+              The model-space repair now passes the actual full build and all 18 shipped maps. Alice's missing
+              surfaces are restored for review; Ghost's five cross-atlas faces are being repaired, Iskra is undergoing
+              corrected-pose review, and Mara32 still has surface and motion gaps. Raines needs final review and Talon
+              needs identity/material work. Candidate animation must be judged with the corrected diagnostic and live evidence.
             </p>
             <div class="exit-evidence">
               <span>Exit evidence</span>
@@ -2249,7 +2249,7 @@
   <footer class="site-footer">
     <div class="section-shell footer-inner">
       <p><strong>XI FreezeTag Gauntlet</strong> / local evidence board</p>
-      <p>Snapshot 100 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
+      <p>Snapshot 101 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
     </div>
   </footer>
 </body>
