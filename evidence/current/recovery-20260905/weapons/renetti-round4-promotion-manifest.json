@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "manifestType": "canonical-sealed-proving-package-promotion",
+  "recordedAt": "2026-09-05T09:36:10Z",
+  "family": 8,
+  "round": 4,
+  "status": "PASS_FOR_PROVING_PACKAGE_ONLY",
+  "safeForSealedProvingPackage": true,
+  "releaseAuthorized": false,
+  "productionPromotionAuthorized": false,
+  "steamDeploymentAuthorized": false,
+  "target": "new hash-bound sealed proving package",
+  "hashAlgorithm": "SHA256",
+  "scope": {
+    "candidateWeaponId": "mp/colt45_silencer_mp",
+    "candidateViewModelId": "viewmodel_f08_renetti_suppressor_surface_round3",
+    "candidateWorldModelId": "worldmodel_f08_renetti_suppressor_surface_round3",
+    "excludedFamily13WeaponId": "skorpion_silencer_mp",
+    "authorizedSourceFieldChanges": [
+      "gunModel",
+      "worldModel"
+    ],
+    "protectedSourceFieldsExact": true,
+    "unrelatedSourceFieldsExactAfterNewlineNormalization": true
+  },
+  "sealedInputs": {
+    "round4Manifest": {
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag-recovery-20260904/xi_ftag/.asset_staging/recovery_20260904/gauntlet/family08_renetti_surface_round4/SHA256-MANIFEST.json",
+      "bytes": 41116,
+      "sha256": "BC80BE7320B1F13245FB223F2A0C5D27DE1C4E5D827A6A9825FEBADADC66E903",
+      "verifiedEntries": 218
+    },
+    "round4DeliveryManifest": {
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag-recovery-20260904/xi_ftag/.asset_staging/recovery_20260904/gauntlet/family08_renetti_surface_round4/delivery-manifest.json",
+      "bytes": 9270,
+      "sha256": "28AE294E9F37BB53B7E7130E5DCB5A8780AFD301A5F65D90F36D7F841EF26601",
+      "verifiedHashRecords": 15
+    },
+    "round3Manifest": {
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag-recovery-20260904/xi_ftag/.asset_staging/recovery_20260904/gauntlet/family08_renetti_surface_round3/SHA256-MANIFEST.json",
+      "bytes": 33818,
+      "sha256": "76ED8693F3060E62F5A06DCEF49B95351349C09D06B0B8997D1A07A12F76AA6C",
+      "byteIdenticalRound4CarryFiles": 179
+    },
+    "leadSchemaAuditManifest": {
+      "path": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag-recovery-20260904/xi_ftag/.asset_staging/recovery_20260904/gauntlet/lead_stock_weapon_schema_audit/SHA256-MANIFEST.json",
+      "bytes": 1877,
+      "sha256": "86226EA7B411C9D25CDCEA9C7CBF710ABD3B8A7F68844C4BAEFF71212552028D",
+      "verifiedEntries": 10
+    },
+    "currentFamily23Round2": {
+      "manifest": {
+        "bytes": 13583,
+        "sha256": "2C5EB03CF34FFAEE396CB35BDE6383B7D775A22458D21C6E67E047365D870187",
+        "verifiedEntries": 66
+      },
+      "weaponFieldPatchManifest": {
+        "bytes": 27432,
+        "sha256": "A6B54F637FB5A383734C7F62192143067AD493E74A0B188F18E10E638B313855"
+      },
+      "report": {
+        "bytes": 10603,
+        "sha256": "8A95ADB5DF4554ED473E5F1DAA4F6D837527AAA4168AF9FDEEE4EF6AD0036315"
+      },
+      "result": {
+        "bytes": 781989,
+        "sha256": "EB12569A537FBA7A7527A2EB66064C338687EE776518CF72EF321E0819543216"
+      }
+    },
+    "candidatePayload": {
+      "runtimeWeapon": {
+        "bytes": 8027,
+        "sha256": "7FCB377B11A8CAE003278F9D14430E22FEE85D68653D8985E64DB2654B0305AD"
+      },
+      "modelFastfile": {
+        "bytes": 629632,
+        "sha256": "2F06CE160674ABCB967610495F1AF7EB1576CE703710028B32DF4F557BFEE2D3"
+      },
+      "weaponFastfile": {
+        "bytes": 735472,
+        "sha256": "2DA79FCDC6FE77EA38CD56DD50460943F2FAAAECE5B6DBB1B6FE23B1C19ABF26"
+      },
+      "weaponDump": {
+        "bytes": 11088,
+        "sha256": "C8C426727022801AF2628C544CA2EA89BCA7DAC7EF7A65190D0E9A80B8EB7F4C"
+      }
+    }
+  },
+  "criticArtifacts": {
+    "report": {
+      "path": "REPORT.md",
+      "bytes": 13865,
+      "sha256": "4B5F478991726519813AFF256AB8FE965CCCB3395B7A49529E7FDF82F83BC180"
+    },
+    "result": {
+      "path": "RESULT.json",
+      "bytes": 19401,
+      "sha256": "76D25B5F719051F37FF64D234418FC147C7223856B21216665360088C09E70A4"
+    }
+  },
+  "offlineGates": [
+    {
+      "id": "round4-integrity",
+      "status": "PASS"
+    },
+    {
+      "id": "round3-byte-identical-carry",
+      "status": "PASS"
+    },
+    {
+      "id": "geometry-and-iw3-limits",
+      "status": "PASS"
+    },
+    {
+      "id": "contact-and-daylight",
+      "status": "PASS"
+    },
+    {
+      "id": "authored-material-identity",
+      "status": "PASS"
+    },
+    {
+      "id": "weapon-id-and-family13-exclusion",
+      "status": "PASS"
+    },
+    {
+      "id": "weapon-schema",
+      "status": "PASS"
+    },
+    {
+      "id": "oat-compile-list-dump",
+      "status": "PASS"
+    },
+    {
+      "id": "scope-matched-xmodel-accounting",
+      "status": "PASS_FOR_PROJECTION_ONLY"
+    },
+    {
+      "id": "pairwise-ab-review",
+      "status": "PASS"
+    }
+  ],
+  "xmodelAccounting": {
+    "rejectedClaim": {
+      "formula": "988 - 10 + 2 = 980",
+      "accepted": false,
+      "reason": "stale and scope-mismatched"
+    },
+    "exactIntegratedCheckpoint": {
+      "measuredBacklotRuntimeXModels": 993,
+      "checkpointPackageAvailability": "NOT_RETAINED",
+      "statusAnchorSha256": "1887B8A4ECA9C3B899FBDA1C8C4523A2A29E130B685E86CFC42918031D8F084E",
+      "priorIndependentReportSha256": "3994F21A418901A322E677A6FDA35937FDA3E3D6CC574AB567789E4ED7A54262",
+      "linkerLogSha256": "034525B82972247A8B9AB17FC5D8E1FE0614F6F9E5529FA8DC6DAA4B85EA4418"
+    },
+    "canonicalPlayermodelsAlreadyLoaded": [
+      "playermodel_xi_alice_4_1",
+      "playermodel_xi_ghost_5_1",
+      "playermodel_xi_iskra_6_1",
+      "playermodel_xi_mace_5_1",
+      "playermodel_xi_mara_3_1",
+      "playermodel_xi_mara_3_2",
+      "playermodel_xi_raines_5_1",
+      "playermodel_xi_talon_1_1"
+    ],
+    "approvedBodyReplacementDelta": 0,
+    "family23Formula": "993 - 17 + 8 = 984",
+    "family23NetDelta": -9,
+    "renettiRetiredModelCount": 0,
+    "renettiIntroducedModelIds": [
+      "viewmodel_f08_renetti_suppressor_surface_round3",
+      "worldmodel_f08_renetti_suppressor_surface_round3"
+    ],
+    "renettiNetDelta": 2,
+    "correctedFormula": "993 - 17 + 8 + 2 = 986",
+    "projectedRuntimeXModels": 986,
+    "strictSafetyCeiling": 990,
+    "strictSafetyHeadroom": 4,
+    "hardEngineCeiling": 1000,
+    "hardEngineHeadroom": 14,
+    "accountingType": "scope-matched complete-state source projection",
+    "integratedRebuildMeasured": false,
+    "releaseBudgetClaimAllowed": false
+  },
+  "provenOffline": [
+    "sealed file integrity and Round 3 carry",
+    "view/world geometry, LOD structure, and IW3 limits",
+    "full-circumference collar contact and static daylight review",
+    "authored material identity",
+    "correct weapon ownership and Family13 exclusion",
+    "source schema retention and protected-field exactness",
+    "clean isolated OAT compile/list/dump and exact payload reproduction",
+    "scope-matched projected XModel count of 986"
+  ],
+  "explicitlyOutstanding": [
+    "live animation behavior",
+    "live ADS alignment and transitions",
+    "live firing behavior, effects, and audio",
+    "integrated sealed-package rebuild",
+    "measured Backlot/runtime XModel count from that exact rebuilt package",
+    "integrated package/runtime behavior and stability"
+  ],
+  "requiredBeforeRelease": {
+    "integratedRebuild": true,
+    "hashExactIntegratedReceipt": true,
+    "sameScopeRuntimeXModelMeasurement": true,
+    "liveGameplayValidation": true
+  },
+  "boundary": {
+    "mayEnterSealedProvingPackage": true,
+    "mayEnterProduction": false,
+    "mayEnterSteam": false,
+    "mayChangeDashboard": false,
+    "mayChangeSourceCandidates": false,
+    "mayClaimReleaseReady": false
+  }
+}

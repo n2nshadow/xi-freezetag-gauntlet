@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-05T09:50:02.3264112Z",
+  "reviewType": "builder-only-lod12-lower-leg-repair",
+  "operator": "Alice41",
+  "variant": "Crash - Rigor Mortis",
+  "scope": "Regenerate only body LOD1 and LOD2 with source-derived lower-leg spatial protection.",
+  "passed": true,
+  "offlineBuilderStatus": "PASS",
+  "productionReleaseStatus": "HOLD",
+  "independentCriticApprovalClaimed": false,
+  "promotionManifestEmitted": false,
+  "gameBuildPerformed": false,
+  "gameInstallPerformed": false,
+  "gameLaunchPerformed": false,
+  "repair": {
+    "method": "source-derived spatial lower-body mask retained through bulk and priority weighted decimation passes",
+    "lowerBodyProtectionFraction": 0.38,
+    "sourceLowerBodyCutoffBlenderZ": 27.667375926971435,
+    "protectedLowerBodyVerticesInBulkPass": 773,
+    "authorizedRuntimeDeltas": [
+      "candidate/zone_raw/xi_ftag/model_export/playermodel_xi_alice_4_1_lod1.glb",
+      "candidate/zone_raw/xi_ftag/model_export/playermodel_xi_alice_4_1_lod2.glb"
+    ],
+    "lod1": {
+      "vertices": 8324,
+      "triangles": 7000,
+      "bytes": 626064,
+      "sha256": "B74D982EB829A1FCBE5BAD302816559A802B84E38A05566890BF97B25827E090"
+    },
+    "lod2": {
+      "vertices": 6328,
+      "triangles": 4500,
+      "bytes": 475332,
+      "sha256": "303C35C49F20968ADCAE869605A9202B0A58B66A0F5149EB8C7BD5CEC77F660D"
+    }
+  },
+  "gates": {
+    "onlyLod1AndLod2Changed": true,
+    "sourceDerivedLowerLegGuardActiveBothPasses": true,
+    "fourAngleOpaqueClayContinuity": true,
+    "texturedViewsRenderedAndMeasured": true,
+    "selfBlindSourceCandidateCurrent": true,
+    "exact51JointHierarchyAndBind": true,
+    "maximumFourWeights": true,
+    "uvClassAssignments": true,
+    "materialsAndIwisPreserved": true,
+    "oat032LinkListCompleteDump": true,
+    "oatSemanticRoundtrip": true,
+    "fiveStockPoses": true,
+    "uint16Limits": true,
+    "packageNoNewEnvelopeBreak": true,
+    "noninterference": true,
+    "noPromotionManifest": true
+  },
+  "preserved": {
+    "lod0": {"byteExact": true, "sha256": "A576E4C7BFC1B614FF400F58B20CEA269278B7FD9959AF7888DBA585EEC9884F"},
+    "lod3": {"byteExact": true, "sha256": "59B741EB46A61DBC98E2EB7628DF871F71C6D129B34FED02D77E119C7DAC5569"},
+    "descriptorByteExact": true,
+    "materialsByteExact": true,
+    "iwisByteExact": true,
+    "sourceTreeByteExact": true,
+    "jointCount": 51,
+    "maximumInfluences": 4,
+    "indexComponentType": "UNSIGNED_SHORT"
+  },
+  "visualEvidence": {
+    "texturedRenderCount": 39,
+    "opaqueClayRenderCount": 16,
+    "candidateMeanAuthoredSourceSilhouetteIou": 0.9617976448650822,
+    "currentMeanAuthoredSourceSilhouetteIou": 0.6986484465978025,
+    "lod1MinimumFourAngleLowerBodyClayIou": 0.959780851164032,
+    "lod2MinimumFourAngleLowerBodyClayIou": 0.9408241199839857,
+    "allRequiredViewsContinuous": true,
+    "views": ["front", "three-quarter", "side", "back"],
+    "blindReveal": {
+      "source": "A",
+      "candidate": "B",
+      "current": "C",
+      "intactLods": [0, 1, 2, 3],
+      "conclusion": "PASS_LOD1_LOD2_LOWER_LEG_CONTINUITY"
+    }
+  },
+  "stockPoses": [
+    {"name": "idle", "sampleFrame": 63.0, "passed": true},
+    {"name": "run", "sampleFrame": 6.72, "passed": true},
+    {"name": "crouch", "sampleFrame": 142.5, "passed": true},
+    {"name": "fire", "sampleFrame": 6.3, "passed": true},
+    {"name": "death", "sampleFrame": 43.46, "passed": true}
+  ],
+  "oat": {
+    "version": "0.32.0",
+    "passed": true,
+    "fastfileBytes": 814685,
+    "fastfileSha256": "81DB3C0A6BEAFB05DC4BF3B93E8A4C07A7ECA0A38D54BCCE587239B7C481D008",
+    "linkClean": true,
+    "listClean": true,
+    "completeDumpClean": true,
+    "customIwiPayloadsByteExact": true,
+    "semanticMaximumDeltas": {
+      "position": 0.0,
+      "normal": 0.006895542144775391,
+      "uv": 0.0004882216453552246,
+      "weight": 0.00004553794860839844,
+      "localBind": 0.0000095367431640625,
+      "inverseBind": 0.005043983459472656
+    }
+  },
+  "packageEnvelope": {
+    "candidateDelta": {"runtimeXModels": 0, "modExclusiveXModels": 0, "runtimeMaterials": 1, "customImagesConservative": 1},
+    "projected": {"runtimeXModels": 993, "runtimeXModelHardCap": 1000, "repositoryXModelSafetyLimit": 990, "modExclusiveXModels": 70, "modExclusiveXModelCap": 70, "runtimeMaterials": 1711, "runtimeMaterialHardCap": 2048},
+    "conclusion": "PASS_NO_NEW_ENVELOPE_BREAK; EXISTING_FULL_PACKAGE_SAFETY_HOLD_PERSISTS"
+  },
+  "noninterference": {
+    "passed": true,
+    "sealedProtectedRecordsVerified": 329,
+    "priorCriticFilesVerified": 359,
+    "round2SourceChanges": 0,
+    "round2CandidateChanges": 2,
+    "promotionManifestPresent": false,
+    "conclusion": "PASS_ONLY_LOD1_LOD2_RUNTIME_DELTAS_AND_ALL_PROTECTED_INPUTS_BYTE_IDENTICAL"
+  },
+  "evidence": {
+    "repairReceipt": "metrics/lod12-repair-build.json",
+    "validation": "metrics/round2-validation.json",
+    "machineAudit": "evidence_round2/machine/machine-audit.json",
+    "renderAnalysis": "evidence_round2/machine/render-analysis.json",
+    "blindVerdict": "evidence_round2/blind/reveal-and-verdict.json",
+    "poseManifest": "evidence_round2/machine/pose-and-render-manifest.json",
+    "oatClosure": "evidence_round2/machine/oat-closure.json",
+    "poolEnvelope": "evidence_round2/machine/pool-envelope.json",
+    "noninterference": "evidence_round2/machine/noninterference.json",
+    "sha256Manifest": "SHA256-MANIFEST.json"
+  },
+  "reasonProductionRemainsHold": "The signed full-package baseline is already 993 runtime XModels, above the repository safety limit of 990. This builder repair adds no XModels and does not clear that pre-existing release hold.",
+  "conclusion": "PASS_OFFLINE_BUILDER_EVIDENCE_LOD1_LOD2_SHIN_BOOT_CONTINUITY"
+}

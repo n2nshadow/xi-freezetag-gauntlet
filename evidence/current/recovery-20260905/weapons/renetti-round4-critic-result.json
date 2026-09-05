@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "fresh-independent-critic",
+  "recordedAt": "2026-09-05T09:36:10Z",
+  "family": 8,
+  "round": 4,
+  "subject": "Renetti suppressor surface and weapon binding",
+  "status": "PASS_FOR_PROVING_PACKAGE_ONLY",
+  "safeForSealedProvingPackage": true,
+  "releaseAuthorized": false,
+  "productionPromotionAuthorized": false,
+  "allOfflineProvingGatesPass": true,
+  "sealedBuilderVerdictTrusted": false,
+  "scope": {
+    "sealedInputRoot": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag-recovery-20260904/xi_ftag/.asset_staging/recovery_20260904/gauntlet/family08_renetti_surface_round4",
+    "criticOutputRoot": "F:/CodexData/Documents/Codex/2026-08-03/ok/work/cod4-freezetag-recovery-20260904/xi_ftag/.asset_staging/recovery_20260904/gauntlet/family08_renetti_surface_round4_critic",
+    "writesOutsideCriticRoot": false,
+    "productionChanged": false,
+    "steamChanged": false,
+    "dashboardChanged": false,
+    "sourceCandidatesChanged": false,
+    "otherFamiliesChanged": false
+  },
+  "integrity": {
+    "round4": {
+      "manifest": {
+        "path": "SHA256-MANIFEST.json",
+        "bytes": 41116,
+        "sha256": "BC80BE7320B1F13245FB223F2A0C5D27DE1C4E5D827A6A9825FEBADADC66E903",
+        "declaredFileCount": 218,
+        "matchedFileCount": 218,
+        "declaredBytes": 86760346,
+        "packageFileCountIncludingSelfOmittedManifest": 219,
+        "duplicatePathCount": 0,
+        "missingCount": 0,
+        "mismatchCount": 0,
+        "unexpectedCountExcludingSelf": 0,
+        "pass": true
+      },
+      "deliveryManifest": {
+        "path": "delivery-manifest.json",
+        "bytes": 9270,
+        "sha256": "28AE294E9F37BB53B7E7130E5DCB5A8780AFD301A5F65D90F36D7F841EF26601",
+        "recursiveHashRecordCount": 15,
+        "matchedHashRecordCount": 15,
+        "failureCount": 0,
+        "pass": true
+      }
+    },
+    "round3Carry": {
+      "sourceManifestSha256": "76ED8693F3060E62F5A06DCEF49B95351349C09D06B0B8997D1A07A12F76AA6C",
+      "sourceDeclaredCount": 178,
+      "sourceMatchedCount": 178,
+      "sourcePackageFileCountIncludingManifest": 179,
+      "byteIdenticalMappedCount": 179,
+      "sameRelativePathCount": 158,
+      "inheritedRound3PathCount": 21,
+      "missingCount": 0,
+      "ambiguousCount": 0,
+      "pass": true
+    },
+    "leadSchemaAudit": {
+      "manifestSha256": "86226EA7B411C9D25CDCEA9C7CBF710ABD3B8A7F68844C4BAEFF71212552028D",
+      "reportSha256": "179066EA40B631C8D847111D25996200EBDF738FCB0BDD0E7E9EA5F8B4DC7C2F",
+      "resultSha256": "4C0DAFD0BA3AB729F5A3F1CF95B7C8AE259F81F20F9050DC9CA60A03407B26D7",
+      "declaredHashCount": 10,
+      "matchedHashCount": 10,
+      "round4CopiedControlFileCount": 26,
+      "byteIdenticalCopiedControlFileCount": 26,
+      "pass": true
+    },
+    "currentFamily23Round2": {
+      "manifestSha256": "2C5EB03CF34FFAEE396CB35BDE6383B7D775A22458D21C6E67E047365D870187",
+      "manifestDeclaredCount": 66,
+      "manifestMatchedCount": 66,
+      "weaponPatchManifestSha256": "A6B54F637FB5A383734C7F62192143067AD493E74A0B188F18E10E638B313855",
+      "reportSha256": "8A95ADB5DF4554ED473E5F1DAA4F6D837527AAA4168AF9FDEEE4EF6AD0036315",
+      "resultSha256": "EB12569A537FBA7A7527A2EB66064C338687EE776518CF72EF321E0819543216",
+      "pass": true
+    }
+  },
+  "geometry": {
+    "parserMethod": "Independent GLB2/JSON/BIN parsing of indexed triangle primitives, attributes, hierarchy, joints, weights, limits, and material triangle counters",
+    "runtimeAndFreshDumpValid": true,
+    "models": [
+      {
+        "role": "view",
+        "lod": 0,
+        "runtimeSha256": "19D80ED9DF2EFFA2C3A7FDA1D020252A93CDC156D58393D70B5FBDED4BF7936B",
+        "freshDumpSha256": "7984E30CA9D0ACDE4EFE53D9D771E729FD265FFED045E25B21158485BFF2DDD3",
+        "surfaces": 7,
+        "bones": 9,
+        "triangles": 8626,
+        "acceptedSourceTriangles": 8554,
+        "authorizedExtraTriangles": 72,
+        "unauthorizedExtraTriangles": 0,
+        "missingSourceTriangles": 0,
+        "boneMismatches": 0,
+        "pass": true
+      },
+      {
+        "role": "world",
+        "lod": 0,
+        "runtimeSha256": "B2246F0859145BDD0C1CF20118AA017ADA3D8DFB0D8926624FF8CFDF73D8D096",
+        "freshDumpSha256": "6912B210736D0512AF82C7A50A037E3369CE9E622896DD9677C0B5962609F696",
+        "surfaces": 8,
+        "bones": 4,
+        "triangles": 8398,
+        "acceptedSourceTriangles": 8326,
+        "authorizedExtraTriangles": 72,
+        "unauthorizedExtraTriangles": 0,
+        "missingSourceTriangles": 0,
+        "boneMismatches": 0,
+        "pass": true
+      },
+      {
+        "role": "world",
+        "lod": 1,
+        "runtimeSha256": "20C24AF0A6610A2557847B8AC2A26D7F7238AE815ACB4AA8F481EE8734B72AC1",
+        "freshDumpSha256": "28AAF6413239D01272AC84F6B45603C189C9126819F2BD530D3B8812CCD78FB2",
+        "surfaces": 8,
+        "bones": 4,
+        "triangles": 6376,
+        "acceptedSourceTriangles": 6304,
+        "authorizedExtraTriangles": 72,
+        "unauthorizedExtraTriangles": 0,
+        "missingSourceTriangles": 0,
+        "boneMismatches": 0,
+        "pass": true
+      },
+      {
+        "role": "world",
+        "lod": 2,
+        "runtimeSha256": "95827E5DB2CC8BDEF7CB7CD06687E2A56819D254FD36ECAEA5BB6D6E79B51239",
+        "freshDumpSha256": "333A7F429B9605D82658240D9B097F4EAF6CEC9CBC15D1EF07C21F79577837D9",
+        "surfaces": 8,
+        "bones": 4,
+        "triangles": 5594,
+        "acceptedSourceTriangles": 5522,
+        "authorizedExtraTriangles": 72,
+        "unauthorizedExtraTriangles": 0,
+        "missingSourceTriangles": 0,
+        "boneMismatches": 0,
+        "pass": true
+      }
+    ],
+    "worldLodTrianglesStrictlyDescending": true,
+    "fourModelTriangleTotal": 28994,
+    "fourModelTriangleCeiling": 65535,
+    "runtimeToDumpSemanticComparison": {
+      "allTrianglesMatched": true,
+      "unmatchedTriangles": 0,
+      "boneMismatches": 0,
+      "maxPositionError": 0.0,
+      "maxNormalError": 0.0068922937,
+      "normalErrorLimit": 0.007,
+      "maxUvError": 0.0009764433,
+      "uvErrorLimit": 0.001,
+      "pass": true
+    },
+    "iw3LimitsPass": true,
+    "pass": true
+  },
+  "contact": {
+    "method": "Direct indexed-vertex intersection between suppressor body and Renetti barrel in runtime and fresh OAT dumps",
+    "representationsChecked": [
+      "runtime",
+      "freshOatDump"
+    ],
+    "records": [
+      {
+        "role": "view",
+        "lod": 0,
+        "exactSharedVertices": 18,
+        "minimumDistance": 0.0,
+        "quadrants": 4,
+        "maximumAngularGapDegrees": 24.252995,
+        "pass": true
+      },
+      {
+        "role": "world",
+        "lod": 0,
+        "exactSharedVertices": 18,
+        "minimumDistance": 0.0,
+        "quadrants": 4,
+        "maximumAngularGapDegrees": 22.960188,
+        "pass": true
+      },
+      {
+        "role": "world",
+        "lod": 1,
+        "exactSharedVertices": 18,
+        "minimumDistance": 0.0,
+        "quadrants": 4,
+        "maximumAngularGapDegrees": 23.55091,
+        "pass": true
+      },
+      {
+        "role": "world",
+        "lod": 2,
+        "exactSharedVertices": 18,
+        "minimumDistance": 0.0,
+        "quadrants": 4,
+        "maximumAngularGapDegrees": 23.111989,
+        "pass": true
+      }
+    ],
+    "angularGapLimitDegrees": 25.0,
+    "contactMaskViewsInspected": 8,
+    "continuousMagentaDaylightSlitObserved": false,
+    "fracturedWedgeObserved": false,
+    "detachedComponentObserved": false,
+    "contactMaskBoardSha256": "921639761050FF7B7F851ADBAD7F3FCD8B86DB23F0FBDA788307195F63B0F552",
+    "pass": true
+  },
+  "materials": {
+    "viewDonorSmd": {
+      "sha256": "F09D718E390721D1616FFC124BCA46729FD513E387CAF873B16C6D8380240874",
+      "bodyTriangles": 926,
+      "decalTriangles": 4,
+      "totalSuppressorTriangles": 930
+    },
+    "worldDonorSmd": {
+      "sha256": "B66BAC2BF60280411BD2BA3A95DDE77F4531D22331391E5A9E945593BAD5C2F2",
+      "bodyTriangles": 926,
+      "decalTriangles": 8,
+      "totalSuppressorTriangles": 934
+    },
+    "candidateBodyTriangles": 998,
+    "authorizedCollarTriangles": 72,
+    "donorBodyPlusCollarExact": true,
+    "viewMaterialIds": [
+      "mc/xi_f08_renetti_sup_view_0",
+      "mc/xi_f08_renetti_sup_view_1"
+    ],
+    "worldMaterialIds": [
+      "mc/xi_f08_renetti_sup_world_0",
+      "mc/xi_f08_renetti_sup_world_1",
+      "mc/xi_f08_renetti_sup_world_2"
+    ],
+    "materialJsonParsedCount": 5,
+    "materialJsonFailureCount": 0,
+    "allNonStockTexturesHaveDdsAndIwi": true,
+    "acceptedRound2ByteIdenticalCarry": {
+      "images": 46,
+      "materials": 10,
+      "xanim": 14,
+      "total": 70,
+      "mismatchCount": 0
+    },
+    "pass": true
+  },
+  "weaponSchema": {
+    "weaponId": "mp/colt45_silencer_mp",
+    "runtimeWeaponFileCount": 1,
+    "runtimeWeaponPath": "runtime/weapons/mp/colt45_silencer_mp",
+    "runtimeWeaponSha256": "7FCB377B11A8CAE003278F9D14430E22FEE85D68653D8985E64DB2654B0305AD",
+    "productionSourceSha256": "5D74EB8A3469BAEC7369A5E3D2B9DCCCC26709A82AE7FDD10D2E45D806F6C4EF",
+    "sourceFieldCount": {
+      "production": 356,
+      "candidate": 356
+    },
+    "sourceDuplicateFields": {
+      "production": 0,
+      "candidate": 0
+    },
+    "requiredSourceFields": {
+      "production": {
+        "twoHanded": "1",
+        "adsTransBlendTime": "0.1"
+      },
+      "candidate": {
+        "twoHanded": "1",
+        "adsTransBlendTime": "0.1"
+      },
+      "pass": true
+    },
+    "rawDifferentFields": [
+      "gunModel",
+      "hideTags",
+      "notetrackSoundMap",
+      "worldModel"
+    ],
+    "normalizedDifferentFields": [
+      "gunModel",
+      "worldModel"
+    ],
+    "normalization": "CRLF/LF/CR to LF within values only",
+    "authorizedPrimaryChanges": {
+      "gunModel": {
+        "from": "viewmodel_xi_renetti",
+        "to": "viewmodel_f08_renetti_suppressor_surface_round3"
+      },
+      "worldModel": {
+        "from": "worldmodel_xi_renetti",
+        "to": "worldmodel_f08_renetti_suppressor_surface_round3"
+      }
+    },
+    "protectedFieldCount": 31,
+    "protectedFieldsExact": true,
+    "unrelatedSourceFieldsExactAfterNormalization": true,
+    "roundtrip": {
+      "productionFieldCount": 501,
+      "candidateFieldCount": 501,
+      "productionDumpSha256": "2698A2DBAFCDAFA77D6FC186D668BD0A8B69D4A38870B4E378823807FDDC4394",
+      "candidateDumpSha256": "C8C426727022801AF2628C544CA2EA89BCA7DAC7EF7A65190D0E9A80B8EB7F4C",
+      "normalizedDifferentFields": [
+        "gunModel",
+        "worldModel"
+      ],
+      "twoHandedOmitted": true,
+      "adsTransBlendTimeOmitted": true,
+      "pass": true
+    },
+    "stockCommonMp": {
+      "fieldCount": 501,
+      "sha256": "B0B60E74E66E94A746EE64BFF0BB766E73303EEE18DBA97D2D6046C83E29FB68",
+      "twoHandedOmitted": true,
+      "adsTransBlendTimeOmitted": true,
+      "pass": true
+    },
+    "pass": true
+  },
+  "ownership": {
+    "requiredWeaponId": "mp/colt45_silencer_mp",
+    "requiredWeaponPresentInRuntimeZoneListAndDump": true,
+    "excludedWeaponId": "skorpion_silencer_mp",
+    "excludedWeaponOccurrencesInCandidateBearingPaths": 0,
+    "family13Excluded": true,
+    "unchangedSoundAliases": [
+      "weap_skorpionsd_fire_npc",
+      "weap_skorpionsd_fire_plr"
+    ],
+    "soundAliasesAreNotWeaponAssetIds": true,
+    "pass": true
+  },
+  "oatReplay": {
+    "linker": {
+      "bytes": 4483072,
+      "sha256": "1A5CB7499458BEF359F55FF2A78C72E5822F62455599AB291B590DA747C0233B"
+    },
+    "unlinker": {
+      "bytes": 4568576,
+      "sha256": "8475AF247240D34B29AA51AE5C84B3E4AED2F7100BB5C689FD3FA1EA666F4A7F"
+    },
+    "cases": [
+      {
+        "name": "candidateModels",
+        "compileExitCode": 0,
+        "listExitCode": 0,
+        "dumpExitCode": 0,
+        "warnings": 0,
+        "errors": 0,
+        "fastfileBytes": 629632,
+        "fastfileSha256": "2F06CE160674ABCB967610495F1AF7EB1576CE703710028B32DF4F557BFEE2D3",
+        "sealedFastfileExact": true,
+        "dumpFileCount": 7,
+        "allDumpFilesSealedExact": true,
+        "listedXModelsExact": true,
+        "family13Absent": true,
+        "pass": true
+      },
+      {
+        "name": "candidateWeapon",
+        "compileExitCode": 0,
+        "listExitCode": 0,
+        "dumpExitCode": 0,
+        "warnings": 0,
+        "errors": 0,
+        "fastfileBytes": 735472,
+        "fastfileSha256": "2DA79FCDC6FE77EA38CD56DD50460943F2FAAAECE5B6DBB1B6FE23B1C19ABF26",
+        "sealedFastfileExact": true,
+        "dumpSha256": "C8C426727022801AF2628C544CA2EA89BCA7DAC7EF7A65190D0E9A80B8EB7F4C",
+        "sealedDumpExact": true,
+        "listedWeaponExact": true,
+        "family13Absent": true,
+        "pass": true
+      },
+      {
+        "name": "productionWeaponBaseline",
+        "compileExitCode": 0,
+        "listExitCode": 0,
+        "dumpExitCode": 0,
+        "warnings": 0,
+        "errors": 0,
+        "fastfileBytes": 105732,
+        "fastfileSha256": "3EB7F8CBD00A0A7A311CEB34B244959D9D6064EB5B733D82AA757B953585E232",
+        "leadFastfileExact": true,
+        "dumpSha256": "2698A2DBAFCDAFA77D6FC186D668BD0A8B69D4A38870B4E378823807FDDC4394",
+        "leadDumpExact": true,
+        "pass": true
+      }
+    ],
+    "pathLengthQualification": "The evidentiary model dump used a short isolated output path because the initial long critic path exceeded legacy OAT file-opening limits; only the final 0-warning/0-error replay is relied upon.",
+    "scratchRemoved": true,
+    "pass": true
+  },
+  "blindReview": {
+    "pairCount": 8,
+    "roles": [
+      "view",
+      "world"
+    ],
+    "viewsPerRole": [
+      "collar_side",
+      "collar_top",
+      "collar_oblique",
+      "muzzle_front"
+    ],
+    "candidateAcceptableCount": 8,
+    "daylightSeamObserved": false,
+    "fracturedWedgeObserved": false,
+    "silhouetteDamageObserved": false,
+    "unintendedPieceObserved": false,
+    "reviewBoardSha256": "01AF6F3E82F650EDA8061960F5F842EE2752F4C64508F994621F2F1EF6E08B74",
+    "blindKeySha256": "FA442183718EE405D10C4225DE28B54375DF209851EEE50BD1D51209F70D904B",
+    "pass": true
+  },
+  "xmodelAccounting": {
+    "round4InheritedClaim": {
+      "basis": "988 - 10 + 2",
+      "projected": 980,
+      "accepted": false,
+      "reason": "Older 988 viewhands checkpoint and stale Family23 Round1 delta are not scope-matched to the current exact integrated proof checkpoint."
+    },
+    "exactIntegratedCheckpoint": {
+      "receiptBuiltAt": "2026-09-05T05:21:02.0445292Z",
+      "measuredBacklotRuntimeXModels": 993,
+      "hardEngineCeiling": 1000,
+      "nameUnion": 992,
+      "mapSpecificDuplicateSlots": 1,
+      "mapSpecificDuplicateModel": "weapon_saw_mg_setup",
+      "packageBinariesRetained": false,
+      "packageFingerprintRecords": {
+        "mod.ff": {
+          "bytes": 31283691,
+          "sha256": "9B94CDC1FAA28859737DD6F1FA21EC3D2EC13C93E110B50175267CA898716D4C"
+        },
+        "xi_ftag.iwd": {
+          "bytes": 53881688,
+          "sha256": "BFF883EA4EC34AE28F534718C5F6090BBA57F7AD45322981BA22CB55F098C980"
+        }
+      },
+      "anchors": {
+        "statusFile": {
+          "bytes": 1959,
+          "sha256": "1887B8A4ECA9C3B899FBDA1C8C4523A2A29E130B685E86CFC42918031D8F084E"
+        },
+        "priorIndependentReport": {
+          "bytes": 8093,
+          "sha256": "3994F21A418901A322E677A6FDA35937FDA3E3D6CC574AB567789E4ED7A54262"
+        },
+        "checkpointLinkerLog": {
+          "bytes": 116985,
+          "sha256": "034525B82972247A8B9AB17FC5D8E1FE0614F6F9E5529FA8DC6DAA4B85EA4418"
+        }
+      }
+    },
+    "canonicalPlayermodelLoads": {
+      "allEightExactlyOnce": true,
+      "ids": [
+        {
+          "id": "playermodel_xi_alice_4_1",
+          "line": 1429,
+          "count": 1
+        },
+        {
+          "id": "playermodel_xi_ghost_5_1",
+          "line": 1446,
+          "count": 1
+        },
+        {
+          "id": "playermodel_xi_iskra_6_1",
+          "line": 1462,
+          "count": 1
+        },
+        {
+          "id": "playermodel_xi_mace_5_1",
+          "line": 1475,
+          "count": 1
+        },
+        {
+          "id": "playermodel_xi_mara_3_1",
+          "line": 1489,
+          "count": 1
+        },
+        {
+          "id": "playermodel_xi_mara_3_2",
+          "line": 1500,
+          "count": 1
+        },
+        {
+          "id": "playermodel_xi_raines_5_1",
+          "line": 1512,
+          "count": 1
+        },
+        {
+          "id": "playermodel_xi_talon_1_1",
+          "line": 1527,
+          "count": 1
+        }
+      ],
+      "approvedBodyReplacementEffect": 0
+    },
+    "family23CompleteState": {
+      "checkpointWeaponFiles": 95,
+      "patchCount": 8,
+      "retiredUniquePrimaryModelIds": 17,
+      "introducedUniquePrimaryModelIds": 8,
+      "netDelta": -9,
+      "formula": "993 - 17 + 8 = 984",
+      "projectedRuntimeXModels": 984,
+      "pass": true
+    },
+    "renettiSameScopeDelta": {
+      "retiredUniqueModelIds": [],
+      "retiredCount": 0,
+      "introducedUniqueModelIds": [
+        "viewmodel_f08_renetti_suppressor_surface_round3",
+        "worldmodel_f08_renetti_suppressor_surface_round3"
+      ],
+      "introducedCount": 2,
+      "netDelta": 2,
+      "oldPrimaryIdsRemainReferenced": [
+        "viewmodel_xi_renetti",
+        "worldmodel_xi_renetti"
+      ],
+      "pass": true
+    },
+    "correctedFormula": "993 - 17 + 8 + 2 = 986",
+    "equivalentFormula": "984 + 2 = 986",
+    "projectedRuntimeXModels": 986,
+    "strictSafetyCeiling": 990,
+    "strictSafetyHeadroom": 4,
+    "hardEngineCeiling": 1000,
+    "hardEngineHeadroom": 14,
+    "integratedRebuildMeasured": false,
+    "releaseBudgetClaimAllowed": false,
+    "qualification": "Complete-state, scope-matched source projection only. A hashed integrated rebuild and measured runtime pool count are required before release.",
+    "passForProjectionOnly": true
+  },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Round 4 manifest and delivery integrity",
+      "status": "PASS"
+    },
+    {
+      "id": 2,
+      "name": "Round 3 byte-identical carry",
+      "status": "PASS"
+    },
+    {
+      "id": 3,
+      "name": "View/world geometry and IW3 limits",
+      "status": "PASS"
+    },
+    {
+      "id": 4,
+      "name": "Contact and daylight",
+      "status": "PASS"
+    },
+    {
+      "id": 5,
+      "name": "Authored material identity",
+      "status": "PASS"
+    },
+    {
+      "id": 6,
+      "name": "Correct weapon ID and Family13 exclusion",
+      "status": "PASS"
+    },
+    {
+      "id": 7,
+      "name": "Weapon schema and protected fields",
+      "status": "PASS"
+    },
+    {
+      "id": 8,
+      "name": "Fresh OAT compile list dump",
+      "status": "PASS"
+    },
+    {
+      "id": 9,
+      "name": "Scope-matched XModel projection",
+      "status": "PASS_FOR_PROJECTION_ONLY"
+    },
+    {
+      "id": 10,
+      "name": "Pairwise A/B visual review",
+      "status": "PASS"
+    }
+  ],
+  "outstanding": [
+    "live animation behavior",
+    "live ADS alignment and transitions",
+    "live firing behavior, effects, and audio",
+    "integrated sealed-package rebuild",
+    "measured Backlot/runtime XModel pool count for the rebuilt package",
+    "integrated package/runtime behavior and stability"
+  ],
+  "requiredBeforeRelease": [
+    "Build and hash the integrated package containing the approved complete state.",
+    "Measure Backlot/runtime XModel use from that exact rebuilt package on the same accounting scope.",
+    "Prove live animations, ADS, firing, and integrated runtime behavior."
+  ]
+}

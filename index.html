@@ -61,35 +61,35 @@
                 <p class="eyebrow" id="winning-bar-title">Concrete winning bar</p>
                 <p class="gate-rule">All six hard gates must pass. Structural evidence cannot substitute for runtime or live play.</p>
               </div>
-              <div class="gate-count" aria-label="Zero of six release gates passed for the current source">
-                <strong>0</strong><span>/ 6</span>
+              <div class="gate-count" aria-label="One of six release gates passed for the current source">
+                <strong>1</strong><span>/ 6</span>
               </div>
             </div>
-            <div class="gate-progress" role="progressbar" aria-label="Winning bar progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0">
-              <span></span>
+            <div class="gate-progress" role="progressbar" aria-label="Winning bar progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="1">
+              <span style="width: 16.667%"></span>
             </div>
             <div class="snapshot-stamp">
               <span>Current verdict: <strong class="text-fail">HOLD</strong></span>
-              <time datetime="2026-09-05T04:55:59-04:00">05 Sep 2026, 04:55 EDT</time>
+              <time datetime="2026-09-05T06:11:43-04:00">05 Sep 2026, 06:11 EDT</time>
             </div>
           </div>
         </div>
 
         <ol class="winning-bar" aria-label="Release gates">
-          <li class="checkpoint is-fail">
+          <li class="checkpoint is-pass">
             <span class="checkpoint-index">01</span>
             <strong>Build and package</strong>
-            <span>Latest proof compiled cleanly, but its rejected 993/990 package was removed</span>
+            <span>Exact retained package rebuilt twice with identical FF/IWD payloads and sealed receipt</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">02</span>
             <strong>Engine envelope</strong>
-            <span>Corrected RAM-7 + DM56 candidate projects 984/1000; fresh critic is running</span>
+            <span>Backlot fits at 987; Vacant needs 2 slots recovered to meet the 990 safety gate</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">03</span>
             <strong>Runtime integration</strong>
-            <span>Older snapshot ran, but current repaired source has no sealed runtime build</span>
+            <span>Sealed package exists and unlinks cleanly; live engine load and behavior still untested</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">04</span>
@@ -99,7 +99,7 @@
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">05</span>
             <strong>Blind visual A/B</strong>
-              <span>8/8 viewarms sealed; Mace and Mara passed; Iskra charm held; rifles reached 64/64</span>
+              <span>8/8 viewarms sealed; Mace/Mara and Families 2/3/8 pass; six body reviews remain</span>
           </li>
           <li class="checkpoint is-fail">
             <span class="checkpoint-index">06</span>
@@ -133,9 +133,9 @@
             <p class="eyebrow">Objective gates</p>
             <h2 id="scorecards-title">System scorecards</h2>
           </div>
-          <div class="score-tally" aria-label="Zero release gates passed, six held">
-            <span><i class="state-dot pass" aria-hidden="true"></i>0 pass</span>
-            <span><i class="state-dot fail" aria-hidden="true"></i>6 hold</span>
+          <div class="score-tally" aria-label="One release gate passed, five held">
+            <span><i class="state-dot pass" aria-hidden="true"></i>1 pass</span>
+            <span><i class="state-dot fail" aria-hidden="true"></i>5 hold</span>
           </div>
         </header>
 
@@ -153,10 +153,10 @@
               <strong>Reproducible package</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              The latest RAM-7 and DM56 proof built with 0 OAT warnings and 0 errors, but the exact output was intentionally removed after its independent budget hold. Current source has no retained release tuple.
+              The exact full-roster proving package was rebuilt twice. Its <code>mod.ff</code> and <code>xi_ftag.iwd</code> are byte-identical across the repeat, the receipt binds both critic manifests, and final IWD model fields pass inspection.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
-            <div role="cell" data-label="State"><span class="status status-fail">Hold</span></div>
+            <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
           </div>
 
           <div class="score-row" role="row">
@@ -165,7 +165,7 @@
               <strong>Engine envelope and maps</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              The last integrated proof measured 993/1000 runtime XModels. The corrected combined rifle candidate counts 17 truly retired models and 8 replacements, projecting 984/1000, six below the 990 release ceiling; a fresh critic is repeating that proof.
+              The full 21-map audit finds <strong>18/21</strong> below the engine limit and <strong>17/21</strong> below the XI safety limit. Backlot fits at 987, but shipped-rotation map Vacant reaches <strong>992/990</strong>. Two slots must be recovered before publication.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Hold</span></div>
@@ -177,7 +177,7 @@
               <strong>Independent runtime integration</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              Eight authored viewarm sets pass the exact native gate. Mace51 and rebuilt Mara31 independently pass for a proving package; Iskra61 and Talon11 remain held. No current full package has runtime proof.
+              Eight authored viewarm sets pass the exact native gate. Mace51 and Mara31 independently pass and are staged. The package links and unlinks cleanly, but live animation/gameplay validation and the remaining six body decisions are still open.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-runtime">Runtime</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -201,7 +201,7 @@
               <strong>Blind visual A/B</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              RAM-7 and DM56 preserve their authored weapon and optic surfaces in 64/64 fixed views. The corrected builder package preserves all protected alternate model slots and projects 984 XModels; independent hide-tag, field-preservation, and budget review is running.
+              RAM-7 and DM56 pass 64/64 fixed views and a fresh independent critic; Renetti passes contact, material, schema, and OAT review. Alice, Ghost, Iskra, Mara32, Raines, and Talon still need final independent body decisions and live review.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -229,7 +229,7 @@
             <p class="eyebrow">Current build envelope</p>
             <h2 id="budgets-title">Engine budgets</h2>
           </div>
-          <p class="section-note">Worst supported map: <code>mp_vacant</code></p>
+          <p class="section-note">Exact measured map: <code>mp_backlot</code></p>
         </header>
 
         <div class="budget-grid">
@@ -237,76 +237,76 @@
             <div class="metric-head">
               <div>
                 <span class="metric-label">Linked materials</span>
-                <strong>451 <small>/ 760</small></strong>
+                <strong>457 <small>/ 760</small></strong>
               </div>
               <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="Linked materials used" aria-valuemin="0" aria-valuemax="760" aria-valuenow="451">
-              <span style="--meter-fill: 59.3%"></span>
+            <div class="meter" role="progressbar" aria-label="Linked materials used" aria-valuemin="0" aria-valuemax="760" aria-valuenow="457">
+              <span style="--meter-fill: 60.1%"></span>
             </div>
-            <p>59.3% used <span>309 headroom</span></p>
+            <p>60.1% used <span>303 headroom</span></p>
           </article>
 
           <article class="budget-metric">
             <div class="metric-head">
               <div>
                 <span class="metric-label">Runtime material union</span>
-                <strong>1,710 <small>/ 2,048</small></strong>
+                <strong>1,716 <small>/ 2,048</small></strong>
               </div>
               <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="Runtime material union used" aria-valuemin="0" aria-valuemax="2048" aria-valuenow="1710">
-              <span style="--meter-fill: 83.5%"></span>
+            <div class="meter" role="progressbar" aria-label="Runtime material union used" aria-valuemin="0" aria-valuemax="2048" aria-valuenow="1716">
+              <span style="--meter-fill: 83.8%"></span>
             </div>
-            <p>83.5% used <span>338 headroom</span></p>
+            <p>83.8% used <span>332 headroom</span></p>
           </article>
 
-          <article class="budget-metric is-tight">
+          <article class="budget-metric">
             <div class="metric-head">
               <div>
-                <span class="metric-label">XModels on mp_vacant</span>
-                <strong>993 <small>/ 1,000</small></strong>
+                <span class="metric-label">XModels on mp_backlot</span>
+                <strong>987 <small>/ 1,000</small></strong>
               </div>
-              <span class="status status-fail">Hold</span>
+              <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="XModels used on mp_vacant" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="993">
-              <span style="--meter-fill: 99.3%"></span>
+            <div class="meter" role="progressbar" aria-label="XModels used on mp_backlot" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="987">
+              <span style="--meter-fill: 98.7%"></span>
             </div>
-            <p>99.3% used <span>7 engine headroom / 3 over safety</span></p>
+            <p>98.7% used <span>13 engine headroom / 3 safety headroom</span></p>
           </article>
 
           <article class="budget-metric">
             <div class="metric-head">
               <div>
                 <span class="metric-label">Exclusive XModels</span>
-                <strong>70 <small>/ 70</small></strong>
+                <strong>64 <small>/ 70</small></strong>
               </div>
-              <span class="status status-fail">Hold</span>
+              <span class="status status-pass">Pass</span>
             </div>
-            <div class="meter" role="progressbar" aria-label="Exclusive XModels used" aria-valuemin="0" aria-valuemax="70" aria-valuenow="70">
-              <span style="--meter-fill: 100%"></span>
+            <div class="meter" role="progressbar" aria-label="Exclusive XModels used" aria-valuemin="0" aria-valuemax="70" aria-valuenow="64">
+              <span style="--meter-fill: 91.4%"></span>
             </div>
-            <p>100% used <span>combined-model round active</span></p>
+            <p>91.4% used <span>6 headroom</span></p>
           </article>
         </div>
 
         <div class="package-strip" aria-label="IWD package inventory">
           <div class="package-title">
             <span class="eyebrow">IWD inventory</span>
-            <strong><code>Latest rejected proof / output removed</code></strong>
+            <strong><code>Exact sealed proving tuple retained</code></strong>
           </div>
           <dl>
             <div>
               <dt>mod.ff proof</dt>
-              <dd>31,283,691 <small>bytes</small></dd>
+              <dd>31,853,072 <small>bytes</small></dd>
             </div>
             <div>
               <dt>IWD proof</dt>
-              <dd>53,881,688 <small>bytes</small></dd>
+              <dd>53,473,205 <small>bytes</small></dd>
             </div>
             <div>
-              <dt>Release delta</dt>
-              <dd>+3 <small>XModels over 990</small></dd>
+              <dt>Vacant release gap</dt>
+              <dd>+2 <small>XModels over 990</small></dd>
             </div>
           </dl>
         </div>
@@ -320,7 +320,7 @@
             <p class="eyebrow">Live checkpoint</p>
             <h2 id="current-round-title">Asset Recovery Gauntlet Active</h2>
           </div>
-          <span class="status status-unknown status-large">8/8 viewarms checkpointed; Mace + Mara proving PASS; rifle candidate 984; Steam unchanged</span>
+          <span class="status status-unknown status-large">Backlot 987 / Vacant 992; 8/8 viewarms sealed; operator and model-space repairs active</span>
         </header>
 
         <div class="round-grid">
@@ -328,27 +328,27 @@
             <dl class="round-facts">
               <div>
                 <dt>05 September checkpoint</dt>
-                <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> All eight latest authored viewarm sets remain preserved in checkpoint <code>a2eac3ae</code>. Mace51 and Mara31 Dark Sails now independently pass for a sealed proving package. Iskra61 is held only for its fragmented Kitty Six charm and is in a focused repair round.</dd>
+                <dd><strong>RECOVERY ACTIVE; EXACT PROVING PACKAGE RETAINED.</strong> All eight authored viewarm sets remain sealed at checkpoint <code>a2eac3ae</code>. Mace51 and Mara31 Dark Sails are independently reviewed and staged. Full-map validation found a two-slot Vacant safety gap that must be fixed before the next integrated test package.</dd>
               </div>
               <div>
-                <dt>Weapon package hold</dt>
-                <dd><strong class="text-fail">LAST INTEGRATED PROOF: 993 / 990.</strong> The corrected complete-state consolidation retires 17 actually unreferenced rifle/fallback XModels and introduces 8, projecting <strong>984 / 1000</strong> with six slots under the normal safety ceiling. Its builder proof passes, but the projection is not an integrated package measurement and a fresh critic is running.</dd>
+                <dt>Exact integrated package</dt>
+                <dd><strong>BACKLOT PASS; FULL ROTATION HOLD.</strong> The hash-bound package contains reviewed RAM-7, DM56, and suppressed Renetti candidates and repeats byte-identically. The full 21-map audit measures Backlot at 987 and Vacant at 992. The build now checks the whole shipped rotation before publication and retains the report when it fails. <a href="evidence/current/recovery-20260905/package/stock-map-xmodel-budget.json">Inspect every map count.</a></dd>
               </div>
               <div>
-                <dt>Active headroom repair</dt>
-                <dd>RAM-7 now uses two pair-packed complete-state models per role; DM56 uses one four-state model per role. All <strong>64 / 64</strong> fixed-camera comparisons, <strong>16 / 16</strong> exact-geometry checks, <strong>16 / 16</strong> visibility checks, and <strong>8 / 8</strong> OAT round trips pass in builder evidence. Production and weapon files remain unchanged while the fresh critic repeats those checks.</dd>
+                <dt>Reviewed rifle consolidation</dt>
+                <dd>RAM-7 uses two pair-packed complete-state models per role; DM56 uses one four-state model per role. A fresh critic independently confirmed <strong>64 / 64</strong> fixed-camera views, <strong>16 / 16</strong> geometry checks, all visibility and hide-tag contracts, eight weapon patches, and the exact final IWD fields.</dd>
               </div>
               <div>
-                <dt>Weapon surface triage</dt>
-                <dd><strong>FAMILY 08 REPAIR ADVANCED.</strong> Renetti Round 3 now passes exact view/world suppressor contact and clean OAT checks under its correct weapon ID. A clean stock and production compiler audit proved that <code>twoHanded</code> and <code>adsTransBlendTime</code> are source-only OAT fields, so Round 4 is reissuing the sealed proof under the valid same-compiler bar. XRK and KV remain untouched and held.</dd>
+                <dt>Renetti surface result</dt>
+                <dd><strong>FAMILY 08 PASSES FOR PROVING.</strong> The fresh critic confirmed continuous view/world suppressor contact, authored materials, correct <code>colt45_silencer_mp</code> ownership, source-schema preservation, clean OAT round trips, and a two-model delta. XRK and KV remain untouched and held.</dd>
               </div>
               <div>
                 <dt>Current evidence</dt>
-                <dd><a href="evidence/current/recovery-20260905/full-asset-proving-status.md">Read the exact package hold</a>, <a href="evidence/current/recovery-20260905/operators/mara31-round2-critic-report.md">read the Mara critic PASS</a>, <a href="evidence/current/recovery-20260905/weapons/family23-combined-round2-builder-report.md">inspect the corrected rifle proof</a>, or <a href="evidence/current/recovery-20260905/weapons/renetti-oat-schema-audit.md">inspect the Renetti compiler audit</a>.</dd>
+                <dd><a href="evidence/current/recovery-20260905/package/exact-integrated-proving-report.md">Read the exact 987-slot checkpoint</a>, <a href="evidence/current/recovery-20260905/weapons/family23-combined-round2-critic-report.md">inspect the Family23 critic PASS</a>, <a href="evidence/current/recovery-20260905/weapons/renetti-round4-critic-report.md">inspect the Renetti critic PASS</a>, or <a href="evidence/current/recovery-20260905/operators/alice-round2-builder-report.md">follow Alice's repaired lower-body round</a>.</dd>
               </div>
               <div>
                 <dt>Publication state</dt>
-                <dd><strong>LOCAL SNAPSHOT 97; PUBLIC SNAPSHOT 93.</strong> This local page includes the latest candidate evidence, but it has not been published. Neither Steam nor the release package has changed. The next retained test tuple must pass the strict 990 XModel ceiling, exact IWD model-field inspection, direct fastfile unlink verification, and a fresh independent critic.</dd>
+                <dd><strong>SNAPSHOT 98.</strong> This page records the retained proving tuple, current reviews, and the later full-map safety finding. Steam and the production package remain unchanged. The Vacant safety gap, live engine/user acceptance, and six third-person operator body decisions still block release.</dd>
               </div>
             </dl>
 
@@ -953,20 +953,20 @@
 
           <aside class="gap-panel" aria-labelledby="gap-title">
             <p class="eyebrow">Biggest remaining gap</p>
-            <h3 id="gap-title">Independently prove the 984-slot rifle plan, then rebuild one sealed package.</h3>
+            <h3 id="gap-title">Recover two model slots and finish the operator repairs.</h3>
             <p>
-              The revised complete-state packs now match all 64 frozen RAM-7 and DM56 views and project a ten-model
-              reduction, but that result is still builder evidence. The fresh critic must independently prove hide-tag
-              semantics, compiled geometry, weapon-field preservation, and the exact 984-slot arithmetic before the
-              passing Mace body and rifle candidates may enter one integrated proving build.
+              Vacant is two slots above the XI safety ceiling. A contained Family01 world-state packing round will reuse
+              the proven selector approach while preserving every visible triangle and all authored attachment positions.
+              Alice, Ghost, and Mara32 reviews continue alongside Iskra's detached-fragment repair. Passing candidates
+              must survive the exact full-package and shipped-rotation gates before integration is accepted.
             </p>
             <div class="exit-evidence">
               <span>Exit evidence</span>
-              <code>fresh rifle critic PASS / canonical body manifests / &lt;=990 rebuilt XModels / OAT clean</code>
+              <code>fresh critics PASS / unchanged authored geometry / all 18 rotation maps &lt;=990 / OAT clean</code>
             </div>
             <div class="gap-after">
               <span>After this clears</span>
-              <strong>Promote passing bodies and combined weapons transactionally, rebuild once, then begin runtime proof.</strong>
+              <strong>Rebuild the exact package transactionally, then capture focused first- and third-person runtime proof.</strong>
             </div>
           </aside>
         </div>
@@ -1743,13 +1743,24 @@
 
         <div class="gallery-grid">
           <figure class="gallery-item gallery-item-wide">
-            <a class="gallery-image" href="evidence/current/recovery-20260905/operators/iskra61-source-candidate-round2.png">
-              <img src="evidence/current/recovery-20260905/operators/iskra61-source-candidate-round2.png" alt="Iskra61 authored source, rejected Round 1 control, and Round 2 candidate shown from four matched angles" loading="lazy">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/operators/iskra-round3-identity-silhouette.png">
+              <img src="evidence/current/recovery-20260905/operators/iskra-round3-identity-silhouette.png" alt="Iskra61 Round 3 operator identity and silhouette review showing the restored white Kitty Six charm" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-fail">Iskra61 Round 2 / critic HOLD</span>
-              <strong>The colored hair, costume, proportions, and rear silhouette now follow the authored source</strong>
-              <span>The body identity and engine-format checks pass, but the independent critic found the small white Kitty Six charm reduced to 16 dark fragments at LOD0 and worse at lower LODs. Round 3 is preserving that authored component intact before another review. <a href="evidence/current/recovery-20260905/operators/iskra-mace-round2-critic-report.md">Read the critic report.</a></span>
+              <span class="status status-fail">Iskra61 Round 3 / fresh critic HOLD</span>
+              <strong>The authored white Kitty Six charm is visible at every LOD</strong>
+              <span>The charm repair passes, but the critic proved twelve inherited tile-34 fragments still float in idle, crouch, and death. Round 4 is restricted to those root-weighted fragments; Iskra remains quarantined. <a href="evidence/current/recovery-20260905/operators/iskra-round3-critic-report.md">Read the critic report.</a></span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/operators/alice-round2-blind-lod-grid.png">
+              <img src="evidence/current/recovery-20260905/operators/alice-round2-blind-lod-grid.png" alt="Alice41 Round 2 blind lower-body and LOD comparison grid" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">Alice41 Round 2 / builder PASS, fresh critic active</span>
+              <strong>The repaired lower-body silhouette remains source-faithful across all reviewed LODs</strong>
+              <span>The source-derived guard changes only LOD1 and LOD2, with minimum silhouette IoU of 0.959781 and 0.940824. OAT, semantics, five poses, and protected-region checks pass; promotion waits on a fresh critic. <a href="evidence/current/recovery-20260905/operators/alice-round2-builder-report.md">Read the builder report.</a></span>
             </figcaption>
           </figure>
 
@@ -1776,35 +1787,35 @@
           </figure>
 
           <figure class="gallery-item gallery-item-wide">
-            <a class="gallery-image" href="evidence/current/recovery-20260905/ram7-view-round3.png">
-              <img src="evidence/current/recovery-20260905/ram7-view-round3.png" alt="RAM-7 Round 3 view-model review board showing base, reflex, compact optic, suppressor, and magazine states" loading="lazy">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/weapons/family23-ram7-reflex-ads.png">
+              <img src="evidence/current/recovery-20260905/weapons/family23-ram7-reflex-ads.png" alt="RAM-7 reflex sight aligned in the authored aim-down-sight view" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-unknown">RAM-7 combined Round 2 / 64-view builder PASS</span>
-              <strong>Two complete-state packs preserve the authored optics and recover four model slots</strong>
-              <span>The RAM-7 base/reflex and compact/suppressor pairs remain below the 65,535 rigid-vertex limit and reproduce the frozen authored views. The corrected package preserves protected alternate model slots; a fresh critic is independently repeating the proof. <a href="evidence/current/recovery-20260905/ram7-world-round3.png">Inspect the world-model board.</a></span>
+              <span class="status status-pass">RAM-7 combined Round 2 / fresh critic PASS</span>
+              <strong>The authored reflex alignment survives the complete-state packing</strong>
+              <span>A fresh critic repeated all 64 frozen views, hide-tag behavior, compiled geometry, material closure, and protected weapon-field checks. The reviewed models are present in the exact 987-slot proving build. <a href="evidence/current/recovery-20260905/weapons/family23-combined-round2-critic-report.md">Read the critic report.</a></span>
             </figcaption>
           </figure>
 
           <figure class="gallery-item gallery-item-wide">
-            <a class="gallery-image" href="evidence/current/recovery-20260905/dm56-view-round3.png">
-              <img src="evidence/current/recovery-20260905/dm56-view-round3.png" alt="DM56 Round 3 view-model review board showing base, reflex, compact optic, suppressor, and magazine states" loading="lazy">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/weapons/family23-dm56-compact-ads.png">
+              <img src="evidence/current/recovery-20260905/weapons/family23-dm56-compact-ads.png" alt="DM56 compact optic aligned in the authored aim-down-sight view" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-unknown">DM56 combined Round 2 / 64-view builder PASS</span>
-              <strong>One four-state pair preserves the authored attachments and recovers six model slots</strong>
-              <span>The complete frozen base, reflex, compact, and suppressor assemblies compile into one view and one world XModel plus a dedicated magazine. It remains staging-only until the fresh critic repeats the proof. <a href="evidence/current/recovery-20260905/dm56-world-round3.png">Inspect the world-model board.</a></span>
+              <span class="status status-pass">DM56 combined Round 2 / fresh critic PASS</span>
+              <strong>The compact optic stays centered while six model slots are recovered</strong>
+              <span>The same independent review proves all four authored attachment states, material and IWI closure, and exact weapon-field preservation. The reviewed models are present in the exact 987-slot proving build. <a href="evidence/current/recovery-20260905/weapons/family23-combined-round2-promotion-manifest.json">Inspect the sealed manifest.</a></span>
             </figcaption>
           </figure>
 
           <figure class="gallery-item gallery-item-wide">
-            <a class="gallery-image" href="evidence/current/recovery-20260905/weapons/renetti-round3-review-board.png">
-              <img src="evidence/current/recovery-20260905/weapons/renetti-round3-review-board.png" alt="Renetti Round 3 exact compiled-dump review board with view and world suppressor contact close-ups" loading="lazy">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/weapons/renetti-round4-review-board.png">
+              <img src="evidence/current/recovery-20260905/weapons/renetti-round4-review-board.png" alt="Renetti Round 4 exact compiled view and world suppressor contact review board" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-unknown">Renetti Round 3 / corrected bar pending critic</span>
-              <strong>The authored suppressor now seats on both exact compiled view and world models</strong>
-              <span>All geometry, visibility, material, and clean OAT checks pass. The lead compiler audit proved the former source-field HOLD was invalid; Round 4 is sealing the same output under the corrected comparison before fresh criticism. <a href="evidence/current/recovery-20260905/weapons/renetti-oat-schema-audit.md">Read the compiler audit.</a></span>
+              <span class="status status-pass">Renetti Round 4 / fresh critic PASS</span>
+              <strong>The authored suppressor seats correctly on the exact compiled view and world models</strong>
+              <span>The fresh critic verifies contact, materials, source schema, protected weapon fields, OAT output, and exclusion from the unrelated Family13 retirement. Both reviewed XModels are present in the exact 987-slot proving build. <a href="evidence/current/recovery-20260905/weapons/renetti-round4-critic-report.md">Read the critic report.</a></span>
             </figcaption>
           </figure>
 
@@ -2159,7 +2170,7 @@
   <footer class="site-footer">
     <div class="section-shell footer-inner">
       <p><strong>XI FreezeTag Gauntlet</strong> / local evidence board</p>
-      <p>Snapshot 97 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
+      <p>Snapshot 98 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
     </div>
   </footer>
 </body>

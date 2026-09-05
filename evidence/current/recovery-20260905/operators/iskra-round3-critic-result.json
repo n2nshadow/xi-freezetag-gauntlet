@@ -1,0 +1,1369 @@
+{
+  "schemaVersion": 1,
+  "reviewRole": "fresh independent critic",
+  "round3Root": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra61_body_round3",
+  "criticRoot": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra61_body_round3_critic",
+  "verdict": "HOLD",
+  "productionDisposition": "HOLD",
+  "liveEngineAndUserTestingOutstanding": true,
+  "sealedProvingPackageEligible": false,
+  "promotionManifestCreated": false,
+  "report": "REPORT.md",
+  "sha256Manifest": "SHA256-MANIFEST.json",
+  "gates": {
+    "round3ChecksumSeal": true,
+    "round2Seal": true,
+    "predecessorScope": true,
+    "manifestReferences": true,
+    "allGlbsStructurallyValid": true,
+    "runtimeSkeletonMatchesStock": true,
+    "candidateCountsAndWhiteCharm": true,
+    "semanticSelectorResolved": true,
+    "materials": true,
+    "imagesDecode": true,
+    "oatOutputs": true,
+    "oatSemanticRoundtrip": true,
+    "visualIdentityAndMaterialReadability": true,
+    "visualLodContinuity": true,
+    "noDetachedRenderedGeometry": false
+  },
+  "failures": [
+    "noDetachedRenderedGeometry"
+  ],
+  "candidateLods": [
+    {
+      "lod": 0,
+      "targetTriangles": 28499,
+      "glbTriangles": 28499,
+      "vertices": 32546,
+      "surfaces": 2,
+      "joints": 51,
+      "round2WhiteCharm": {
+        "tile": 53,
+        "source": "xmaterial_9649e4a90f0f44e",
+        "className": "opaque",
+        "rect": [
+          640,
+          448,
+          64,
+          64
+        ],
+        "triangles": 162,
+        "vertices": 186,
+        "components": 12,
+        "componentTriangles": [
+          30,
+          30,
+          24,
+          16,
+          16,
+          14,
+          14,
+          6,
+          4,
+          4,
+          2,
+          2
+        ],
+        "positionWeldedComponents": 3,
+        "positionWeldedComponentTriangles": [
+          148,
+          12,
+          2
+        ],
+        "materialTriangles": {
+          "mc/xi_iskra61_exact_body": 162
+        },
+        "positionMinimum": [
+          -10.876971244812012,
+          48.702171325683594,
+          -3.9948537349700928
+        ],
+        "positionMaximum": [
+          -9.647211074829102,
+          51.409732818603516,
+          -1.870194673538208
+        ],
+        "jointWeightTotals": {
+          "j_shoulderraise_le": 186.0
+        },
+        "glb": "inputs/round2_candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod0.glb"
+      },
+      "whiteCharm": {
+        "tile": 53,
+        "source": "xmaterial_9649e4a90f0f44e",
+        "className": "opaque",
+        "rect": [
+          640,
+          448,
+          64,
+          64
+        ],
+        "triangles": 332,
+        "vertices": 356,
+        "components": 12,
+        "componentTriangles": [
+          82,
+          82,
+          36,
+          36,
+          24,
+          16,
+          16,
+          14,
+          14,
+          6,
+          4,
+          2
+        ],
+        "positionWeldedComponents": 1,
+        "positionWeldedComponentTriangles": [
+          332
+        ],
+        "materialTriangles": {
+          "mc/xi_iskra61_exact_body": 332
+        },
+        "positionMinimum": [
+          -10.876971244812012,
+          48.702171325683594,
+          -3.9948537349700928
+        ],
+        "positionMaximum": [
+          -9.647211074829102,
+          51.409732818603516,
+          -1.8755922317504883
+        ],
+        "jointWeightTotals": {
+          "j_shoulderraise_le": 356.0
+        },
+        "glb": "operators/iskra/candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod0.glb"
+      },
+      "hairShell": {
+        "material": "mc/xi_iskra61_exact_body_cutout",
+        "primitiveSerial": 1,
+        "triangles": 676,
+        "vertices": 373,
+        "components": 1,
+        "surfaceComponents": 634,
+        "surfaceComponentTriangles": [
+          676,
+          73,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32
+        ],
+        "positionMinimum": [
+          -4.856956481933594,
+          63.27124786376953,
+          -3.107515573501587
+        ],
+        "positionMaximum": [
+          2.6903114318847656,
+          72.21941375732422,
+          3.1675288677215576
+        ],
+        "jointWeightTotals": {
+          "j_head": 343.2627421617508,
+          "j_neck": 16.882357083261013,
+          "j_spine4": 12.854901315644383
+        }
+      }
+    },
+    {
+      "lod": 1,
+      "targetTriangles": 22000,
+      "glbTriangles": 22000,
+      "vertices": 26776,
+      "surfaces": 2,
+      "joints": 51,
+      "round2WhiteCharm": {
+        "tile": 53,
+        "source": "xmaterial_9649e4a90f0f44e",
+        "className": "opaque",
+        "rect": [
+          640,
+          448,
+          64,
+          64
+        ],
+        "triangles": 132,
+        "vertices": 156,
+        "components": 12,
+        "componentTriangles": [
+          26,
+          26,
+          16,
+          16,
+          14,
+          14,
+          6,
+          4,
+          4,
+          2,
+          2,
+          2
+        ],
+        "positionWeldedComponents": 5,
+        "positionWeldedComponentTriangles": [
+          86,
+          30,
+          12,
+          2,
+          2
+        ],
+        "materialTriangles": {
+          "mc/xi_iskra61_exact_body": 132
+        },
+        "positionMinimum": [
+          -10.876971244812012,
+          48.71517562866211,
+          -3.9948537349700928
+        ],
+        "positionMaximum": [
+          -9.650755882263184,
+          51.409732818603516,
+          -1.8795047998428345
+        ],
+        "jointWeightTotals": {
+          "j_shoulderraise_le": 156.0
+        },
+        "glb": "inputs/round2_candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod1.glb"
+      },
+      "whiteCharm": {
+        "tile": 53,
+        "source": "xmaterial_9649e4a90f0f44e",
+        "className": "opaque",
+        "rect": [
+          640,
+          448,
+          64,
+          64
+        ],
+        "triangles": 332,
+        "vertices": 356,
+        "components": 12,
+        "componentTriangles": [
+          82,
+          82,
+          36,
+          36,
+          24,
+          16,
+          16,
+          14,
+          14,
+          6,
+          4,
+          2
+        ],
+        "positionWeldedComponents": 1,
+        "positionWeldedComponentTriangles": [
+          332
+        ],
+        "materialTriangles": {
+          "mc/xi_iskra61_exact_body": 332
+        },
+        "positionMinimum": [
+          -10.876971244812012,
+          48.702171325683594,
+          -3.9948537349700928
+        ],
+        "positionMaximum": [
+          -9.647211074829102,
+          51.409732818603516,
+          -1.8755922317504883
+        ],
+        "jointWeightTotals": {
+          "j_shoulderraise_le": 356.0
+        },
+        "glb": "operators/iskra/candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod1.glb"
+      },
+      "hairShell": {
+        "material": "mc/xi_iskra61_exact_body_cutout",
+        "primitiveSerial": 1,
+        "triangles": 521,
+        "vertices": 295,
+        "components": 1,
+        "surfaceComponents": 632,
+        "surfaceComponentTriangles": [
+          521,
+          64,
+          29,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "positionMinimum": [
+          -4.856956481933594,
+          63.27124786376953,
+          -3.109386682510376
+        ],
+        "positionMaximum": [
+          2.6903114318847656,
+          72.21941375732422,
+          3.1605184078216553
+        ],
+        "jointWeightTotals": {
+          "j_head": 267.16620272397995,
+          "j_neck": 15.366207795217633,
+          "j_spine4": 12.467589939013124
+        }
+      }
+    },
+    {
+      "lod": 2,
+      "targetTriangles": 15000,
+      "glbTriangles": 15000,
+      "vertices": 20152,
+      "surfaces": 2,
+      "joints": 51,
+      "round2WhiteCharm": {
+        "tile": 53,
+        "source": "xmaterial_9649e4a90f0f44e",
+        "className": "opaque",
+        "rect": [
+          640,
+          448,
+          64,
+          64
+        ],
+        "triangles": 66,
+        "vertices": 86,
+        "components": 10,
+        "componentTriangles": [
+          23,
+          23,
+          6,
+          4,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "positionWeldedComponents": 8,
+        "positionWeldedComponentTriangles": [
+          23,
+          23,
+          12,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "materialTriangles": {
+          "mc/xi_iskra61_exact_body": 66
+        },
+        "positionMinimum": [
+          -10.876971244812012,
+          48.71517562866211,
+          -3.9811322689056396
+        ],
+        "positionMaximum": [
+          -9.650755882263184,
+          51.409732818603516,
+          -1.8795047998428345
+        ],
+        "jointWeightTotals": {
+          "j_shoulderraise_le": 86.0
+        },
+        "glb": "inputs/round2_candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod2.glb"
+      },
+      "whiteCharm": {
+        "tile": 53,
+        "source": "xmaterial_9649e4a90f0f44e",
+        "className": "opaque",
+        "rect": [
+          640,
+          448,
+          64,
+          64
+        ],
+        "triangles": 332,
+        "vertices": 356,
+        "components": 12,
+        "componentTriangles": [
+          82,
+          82,
+          36,
+          36,
+          24,
+          16,
+          16,
+          14,
+          14,
+          6,
+          4,
+          2
+        ],
+        "positionWeldedComponents": 1,
+        "positionWeldedComponentTriangles": [
+          332
+        ],
+        "materialTriangles": {
+          "mc/xi_iskra61_exact_body": 332
+        },
+        "positionMinimum": [
+          -10.876971244812012,
+          48.702171325683594,
+          -3.9948537349700928
+        ],
+        "positionMaximum": [
+          -9.647211074829102,
+          51.409732818603516,
+          -1.8755922317504883
+        ],
+        "jointWeightTotals": {
+          "j_shoulderraise_le": 356.0
+        },
+        "glb": "operators/iskra/candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod2.glb"
+      },
+      "hairShell": {
+        "material": "mc/xi_iskra61_exact_body_cutout",
+        "primitiveSerial": 1,
+        "triangles": 384,
+        "vertices": 225,
+        "components": 1,
+        "surfaceComponents": 631,
+        "surfaceComponentTriangles": [
+          384,
+          55,
+          22,
+          15,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "positionMinimum": [
+          -4.865002155303955,
+          63.27124786376953,
+          -3.112381935119629
+        ],
+        "positionMaximum": [
+          2.6903114318847656,
+          72.21941375732422,
+          3.1639137268066406
+        ],
+        "jointWeightTotals": {
+          "j_head": 204.66735211014748,
+          "j_neck": 11.08132336474955,
+          "j_spine4": 9.251324725337327
+        }
+      }
+    },
+    {
+      "lod": 3,
+      "targetTriangles": 10000,
+      "glbTriangles": 10000,
+      "vertices": 14770,
+      "surfaces": 2,
+      "joints": 51,
+      "round2WhiteCharm": {
+        "tile": 53,
+        "source": "xmaterial_9649e4a90f0f44e",
+        "className": "opaque",
+        "rect": [
+          640,
+          448,
+          64,
+          64
+        ],
+        "triangles": 48,
+        "vertices": 62,
+        "components": 7,
+        "componentTriangles": [
+          17,
+          17,
+          6,
+          4,
+          2,
+          1,
+          1
+        ],
+        "positionWeldedComponents": 5,
+        "positionWeldedComponentTriangles": [
+          17,
+          17,
+          12,
+          1,
+          1
+        ],
+        "materialTriangles": {
+          "mc/xi_iskra61_exact_body": 48
+        },
+        "positionMinimum": [
+          -10.876971244812012,
+          48.66872787475586,
+          -3.9811322689056396
+        ],
+        "positionMaximum": [
+          -9.637229919433594,
+          51.409732818603516,
+          -1.8795047998428345
+        ],
+        "jointWeightTotals": {
+          "j_shoulderraise_le": 62.0
+        },
+        "glb": "inputs/round2_candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod3.glb"
+      },
+      "whiteCharm": {
+        "tile": 53,
+        "source": "xmaterial_9649e4a90f0f44e",
+        "className": "opaque",
+        "rect": [
+          640,
+          448,
+          64,
+          64
+        ],
+        "triangles": 332,
+        "vertices": 356,
+        "components": 12,
+        "componentTriangles": [
+          82,
+          82,
+          36,
+          36,
+          24,
+          16,
+          16,
+          14,
+          14,
+          6,
+          4,
+          2
+        ],
+        "positionWeldedComponents": 1,
+        "positionWeldedComponentTriangles": [
+          332
+        ],
+        "materialTriangles": {
+          "mc/xi_iskra61_exact_body": 332
+        },
+        "positionMinimum": [
+          -10.876971244812012,
+          48.702171325683594,
+          -3.9948537349700928
+        ],
+        "positionMaximum": [
+          -9.647211074829102,
+          51.409732818603516,
+          -1.8755922317504883
+        ],
+        "jointWeightTotals": {
+          "j_shoulderraise_le": 356.0
+        },
+        "glb": "operators/iskra/candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod3.glb"
+      },
+      "hairShell": {
+        "material": "mc/xi_iskra61_exact_body_cutout",
+        "primitiveSerial": 1,
+        "triangles": 257,
+        "vertices": 157,
+        "components": 1,
+        "surfaceComponents": 579,
+        "surfaceComponentTriangles": [
+          257,
+          40,
+          15,
+          14,
+          12,
+          11,
+          11,
+          11,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "positionMinimum": [
+          -4.865002155303955,
+          63.27688980102539,
+          -3.1025078296661377
+        ],
+        "positionMaximum": [
+          2.6903114318847656,
+          72.21499633789062,
+          3.1484549045562744
+        ],
+        "jointWeightTotals": {
+          "j_head": 143.75992365181446,
+          "j_neck": 7.155537569895387,
+          "j_spine4": 6.084538953378797
+        }
+      }
+    }
+  ],
+  "predecessorDelta": {
+    "embeddedRound2MatchesSealedRound2": true,
+    "onlyFourCandidateLodGlbsChanged": true,
+    "changedPaths": [
+      "model_export/playermodel_xi_iskra_6_1_lod0.glb",
+      "model_export/playermodel_xi_iskra_6_1_lod1.glb",
+      "model_export/playermodel_xi_iskra_6_1_lod2.glb",
+      "model_export/playermodel_xi_iskra_6_1_lod3.glb"
+    ]
+  },
+  "semanticResolution": {
+    "whiteCharmMaterial": "xmaterial_9649e4a90f0f44e",
+    "whiteCharmRawAuthored": {
+      "smd": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_kitty_body_round1\\source\\raw\\c_t8_mp_spe_seraph_superhero_torso1\\c_t8_mp_spe_seraph_superhero_torso1_LOD0.smd",
+      "triangles": 332,
+      "verticesFullSignature": 356,
+      "verticesByPosition": 168,
+      "components": 12,
+      "componentTriangles": [
+        82,
+        82,
+        36,
+        36,
+        24,
+        16,
+        16,
+        14,
+        14,
+        6,
+        4,
+        2
+      ],
+      "positionWeldedComponents": 1,
+      "positionWeldedComponentTriangles": [
+        332
+      ],
+      "positionMinimum": [
+        6.616886,
+        -8.90817,
+        1.807128
+      ],
+      "positionMaximum": [
+        9.055741,
+        -7.304965,
+        3.859403
+      ],
+      "jointWeightTotals": {
+        "j_charm": 996.0
+      }
+    },
+    "hairShellMaterial": "mtl_c_t8_mp_spe_seraph_head1_hair_hairshell",
+    "hairShellRawAuthored": {
+      "smd": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_kitty_body_round1\\source\\raw\\c_t8_mp_spe_seraph_superhero_head1\\c_t8_mp_spe_seraph_superhero_head1_LOD0.smd",
+      "triangles": 676,
+      "verticesFullSignature": 373,
+      "verticesByPosition": 373,
+      "components": 1,
+      "componentTriangles": [
+        676
+      ],
+      "positionWeldedComponents": 1,
+      "positionWeldedComponentTriangles": [
+        676
+      ],
+      "positionMinimum": [
+        -2.781084,
+        -3.035506,
+        62.238174
+      ],
+      "positionMaximum": [
+        4.53148,
+        3.050292,
+        70.919189
+      ],
+      "jointWeightTotals": {
+        "j_head": 1889.9764649999968,
+        "j_neck2": 55.45884899999986,
+        "j_spine4": 51.67842700000002,
+        "j_neck": 30.886285000000004
+      }
+    },
+    "namedDollRawAuthored": {
+      "smd": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_kitty_body_round1\\source\\raw\\c_t8_mp_spe_seraph_superhero_lowerbody1\\c_t8_mp_spe_seraph_superhero_lowerbody1_LOD0.smd",
+      "triangles": 1068,
+      "verticesFullSignature": 860,
+      "verticesByPosition": 544,
+      "components": 25,
+      "componentTriangles": [
+        228,
+        74,
+        67,
+        67,
+        64,
+        64,
+        50,
+        48,
+        48,
+        45,
+        44,
+        40,
+        36,
+        36,
+        34,
+        32,
+        16,
+        16,
+        11,
+        11,
+        9,
+        8,
+        8,
+        6,
+        6
+      ],
+      "positionWeldedComponents": 5,
+      "positionWeldedComponentTriangles": [
+        816,
+        144,
+        48,
+        30,
+        30
+      ],
+      "positionMinimum": [
+        -1.712108,
+        4.193762,
+        2.92827
+      ],
+      "positionMaximum": [
+        3.37288,
+        6.996716,
+        6.074753
+      ],
+      "jointWeightTotals": {
+        "j_doll": 3204.0
+      }
+    },
+    "sourceMetalMaterial": {
+      "smd": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_kitty_body_round1\\source\\raw\\c_t8_mp_spe_seraph_superhero_torso1\\c_t8_mp_spe_seraph_superhero_torso1_LOD0.smd",
+      "triangles": 1938,
+      "verticesFullSignature": 1682,
+      "verticesByPosition": 1013,
+      "components": 97,
+      "componentTriangles": [
+        104,
+        96,
+        96,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        64,
+        24,
+        24,
+        20,
+        18,
+        18,
+        18,
+        18,
+        16,
+        16,
+        16,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        8,
+        8,
+        7,
+        7,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "positionWeldedComponents": 32,
+      "positionWeldedComponentTriangles": [
+        104,
+        96,
+        96,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        78,
+        72,
+        68,
+        64,
+        64,
+        56,
+        56,
+        56,
+        56,
+        24,
+        24,
+        20,
+        20,
+        20,
+        20,
+        16,
+        16,
+        16,
+        16
+      ],
+      "positionMinimum": [
+        2.92541,
+        -9.784185,
+        -6.767774
+      ],
+      "positionMaximum": [
+        13.699406,
+        5.53793,
+        6.786243
+      ],
+      "jointWeightTotals": {
+        "j_spine4": 2954.8205959999177,
+        "j_spineupper": 914.3600829999939,
+        "j_spinelower": 435.4937690000104,
+        "j_charm_heart": 396.0,
+        "j_charm": 312.0,
+        "j_shoulderraise_le": 257.1143009999942,
+        "j_mainroot": 221.08204799999794,
+        "j_shoulderraise_ri": 104.70201100000033,
+        "j_clavicle_le": 103.96861100000031,
+        "j_shouldertwist_ri": 40.26667599999989,
+        "j_shouldertwist_le": 39.70977399999989,
+        "j_clavicle_ri": 34.4823570000001
+      }
+    },
+    "sourceGlbSignaturePrimitives": [
+      {
+        "serial": 8,
+        "meshIndex": 0,
+        "primitiveIndex": 8,
+        "mode": 4,
+        "material": "mc/xi_iskra61_exact_body",
+        "vertices": 356,
+        "referencedVertices": 356,
+        "triangles": 332,
+        "positionMinimum": [
+          -10.87702465057373,
+          48.70220184326172,
+          -3.994893789291382
+        ],
+        "positionMaximum": [
+          -9.647255897521973,
+          51.40977478027344,
+          -1.8756275177001953
+        ],
+        "positionFinite": true,
+        "invalidIndices": 0,
+        "repeatedIndexTriangles": 0,
+        "geometricDegenerateTriangles": 0,
+        "components": 12,
+        "componentTriangles": [
+          82,
+          82,
+          36,
+          36,
+          24,
+          16,
+          16,
+          14,
+          14,
+          6,
+          4,
+          2
+        ],
+        "positionWeldedComponents": 1,
+        "positionWeldedComponentTriangles": [
+          332
+        ],
+        "uvMinimum": [
+          0.6304941177368164,
+          0.7554690837860107
+        ],
+        "uvMaximum": [
+          0.743919312953949,
+          0.8694343566894531
+        ],
+        "uvFinite": true,
+        "normalFinite": true,
+        "zeroNormals": 0,
+        "normalLengthMaximumError": 1.003353136130869e-07,
+        "weightFinite": true,
+        "unweightedVertices": 0,
+        "weightSumMaximumError": 0.0,
+        "minimumPositiveWeight": 1.0,
+        "maximumInfluences": 1,
+        "invalidJointReferences": 0
+      },
+      {
+        "serial": 19,
+        "meshIndex": 0,
+        "primitiveIndex": 19,
+        "mode": 4,
+        "material": "mc/xi_iskra61_exact_body_cutout",
+        "vertices": 373,
+        "referencedVertices": 373,
+        "triangles": 676,
+        "positionMinimum": [
+          -4.85783052444458,
+          63.27206802368164,
+          -3.1078078746795654
+        ],
+        "positionMaximum": [
+          2.68989634513855,
+          72.22087860107422,
+          3.1677472591400146
+        ],
+        "positionFinite": true,
+        "invalidIndices": 0,
+        "repeatedIndexTriangles": 0,
+        "geometricDegenerateTriangles": 0,
+        "components": 1,
+        "componentTriangles": [
+          676
+        ],
+        "positionWeldedComponents": 1,
+        "positionWeldedComponentTriangles": [
+          676
+        ],
+        "uvMinimum": [
+          0.6305451393127441,
+          0.1305522918701172
+        ],
+        "uvMaximum": [
+          0.7435187697410583,
+          0.24443435668945312
+        ],
+        "uvFinite": true,
+        "normalFinite": true,
+        "zeroNormals": 0,
+        "normalLengthMaximumError": 8.204445145487682e-08,
+        "weightFinite": true,
+        "unweightedVertices": 0,
+        "weightSumMaximumError": 8.940696716308594e-08,
+        "minimumPositiveWeight": 0.01176500041037798,
+        "maximumInfluences": 3,
+        "invalidJointReferences": 0
+      }
+    ],
+    "interpretation": "The 676-triangle/373-vertex/one-component selector is the authored cutout hair shell. The visible white Kitty Six accessory is the separate opaque xmaterial_9649e4a90f0f44e assembly with 332 triangles, 356 full-signature vertices, and 12 authored components.",
+    "passed": true
+  },
+  "speckFinding": {
+    "candidateDefect": true,
+    "thresholdDetachedPixelComponents": 16,
+    "confirmedFloatingClusters": 12,
+    "round2ConfirmedFloatingClusters": 12,
+    "inheritedFromSealedRound2": true,
+    "interpretation": "Twelve distant rendered clusters coincide within two pixels with opaque atlas tile 34 model triangles. Every matched triangle is rigidly weighted to j_mainroot. The sealed Round2 pose evidence contains the same clusters, so the defect is inherited rather than introduced by Round3."
+  },
+  "visualFindings": {
+    "identity": "PASS: exact Kitty Six identity cues, full-body silhouette, and authored material palette remain readable in the staged orthographic views.",
+    "whiteKittySix": "PASS: the opaque white accessory is complete and readable at 332 triangles / 356 vertices / 12 indexed authored components in every candidate LOD.",
+    "lodContinuity": "PASS: blind and revealed LOD boards show no material or silhouette discontinuity across LOD0-LOD3.",
+    "posedGeometry": "HOLD: idle, crouch, and death renders contain confirmed distant tile 34 / j_mainroot geometry clusters."
+  },
+  "sourceSmds": [
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_kitty_body_round1\\source\\raw\\c_t8_mp_spe_seraph_superhero_arms1\\c_t8_mp_spe_seraph_superhero_arms1_LOD0.smd",
+      "bytes": 8256227,
+      "sha256": "FBE36CD32FAC108AB7269FED6617C31608F16BD9BD6218F160532235D7CA2B33",
+      "nodeCount": 101,
+      "nodes": {
+        "0": "tag_origin",
+        "1": "j_mainroot",
+        "2": "tag_aim",
+        "3": "tag_camera_cinematic",
+        "4": "tag_player",
+        "5": "tag_sync",
+        "6": "j_hip_le",
+        "7": "j_hip_ri",
+        "8": "j_spinelower",
+        "9": "j_hiptwist_ri",
+        "10": "j_knee_le",
+        "11": "j_knee_ri",
+        "12": "j_spineupper",
+        "13": "j_ankle_le",
+        "14": "j_ankle_ri",
+        "15": "j_spine4",
+        "16": "j_ball_le",
+        "17": "j_ball_ri",
+        "18": "j_clavicle_le",
+        "19": "j_clavicle_ri",
+        "20": "j_neck",
+        "21": "j_shoulderraise_le",
+        "22": "j_shoulderraise_ri",
+        "23": "tag_weapon_chest",
+        "24": "j_neck2",
+        "25": "j_shoulder_le",
+        "26": "j_shoulder_ri",
+        "27": "j_elbow_le",
+        "28": "j_elbow_ri",
+        "29": "j_head",
+        "30": "j_shouldertwist_le",
+        "31": "j_shouldertwist_ri",
+        "32": "j_helmet",
+        "33": "j_wrist_le",
+        "34": "j_wrist_ri",
+        "35": "tag_camera",
+        "36": "tag_char_vis_light_magenta_01",
+        "37": "tag_char_vis_light_magenta_02",
+        "38": "tag_eye",
+        "39": "j_index_le_1",
+        "40": "j_index_ri_1",
+        "41": "j_mid_le_1",
+        "42": "j_mid_ri_1",
+        "43": "j_pinkybase_le",
+        "44": "j_pinkybase_ri",
+        "45": "j_ringbase_le",
+        "46": "j_ringbase_ri",
+        "47": "j_thumb_le_1",
+        "48": "j_thumb_ri_1",
+        "49": "tag_inhand",
+        "50": "tag_weapon_left",
+        "51": "tag_weapon_right",
+        "52": "j_index_le_2",
+        "53": "j_index_ri_2",
+        "54": "j_mid_le_2",
+        "55": "j_mid_ri_2",
+        "56": "j_pinky_le_1",
+        "57": "j_pinky_ri_1",
+        "58": "j_ring_le_1",
+        "59": "j_ring_ri_1",
+        "60": "j_thumb_le_2",
+        "61": "j_thumb_ri_2",
+        "62": "j_index_le_3",
+        "63": "j_index_ri_3",
+        "64": "j_mid_le_3",
+        "65": "j_mid_ri_3",
+        "66": "j_pinky_le_2",
+        "67": "j_pinky_ri_2",
+        "68": "j_ring_le_2",
+        "69": "j_ring_ri_2",
+        "70": "j_thumb_le_3",
+        "71": "j_thumb_ri_3",
+        "72": "j_pinky_le_3",
+        "73": "j_pinky_ri_3",
+        "74": "j_ring_le_3",
+        "75": "j_ring_ri_3",
+        "76": "j_hipbackpush_le",
+        "77": "j_hipbackpush_ri",
+        "78": "j_hipfrontraise_le",
+        "79": "j_hipfrontraise_ri",
+        "80": "tag_hiphalfrot_le",
+        "81": "tag_hiphalfrot_ri",
+        "82": "j_hiptwist_le",
+        "83": "j_knee_bulge_le",
+        "84": "j_knee_bulge_ri",
+        "85": "j_elbow_bulge_le",
+        "86": "j_elbow_bulge_ri",
+        "87": "j_wristtwist1_le",
+        "88": "j_wristtwist1_ri",
+        "89": "j_wristtwist2_le",
+        "90": "j_wristtwist2_ri",
+        "91": "j_wristtwist3_le",
+        "92": "j_wristtwist3_ri",
+        "93": "j_wristtwist4_le",
+        "94": "j_wristtwist4_ri",
+        "95": "j_wristtwist5_le",
+        "96": "j_wristtwist5_ri",
+        "97": "j_wristtwist6_le",
+        "98": "j_wristtwist6_ri",
+        "99": "j_wristtwist_le",
+        "100": "j_wristtwist_ri"
+      },
+      "triangles": 21490,
+      "materialCount": 13
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_kitty_body_round1\\source\\raw\\c_t8_mp_spe_seraph_superhero_head1\\c_t8_mp_spe_seraph_superhero_head1_LOD0.smd",
+      "bytes": 8738006,
+      "sha256": "40C26CBB38E2074274E38EDDFACB044E490982FB27DD0FD551AFCCCEAC04A9B1",
+      "nodeCount": 25,
+      "nodes": {
+        "0": "tag_origin",
+        "1": "j_mainroot",
+        "2": "j_spinelower",
+        "3": "j_spineupper",
+        "4": "j_spine4",
+        "5": "j_clavicle_le",
+        "6": "j_clavicle_ri",
+        "7": "j_neck",
+        "8": "j_shoulderraise_le",
+        "9": "j_shoulderraise_ri",
+        "10": "j_neck2",
+        "11": "j_shoulder_le",
+        "12": "j_shoulder_ri",
+        "13": "j_head",
+        "14": "j_shouldertwist_le",
+        "15": "j_shouldertwist_ri",
+        "16": "j_eyeball_le",
+        "17": "j_eyeball_ri",
+        "18": "j_hair_back",
+        "19": "j_hair_front",
+        "20": "j_helmet",
+        "21": "j_teeth_lower",
+        "22": "j_teeth_upper",
+        "23": "j_tongue",
+        "24": "tag_eye"
+      },
+      "triangles": 26357,
+      "materialCount": 17
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_kitty_body_round1\\source\\raw\\c_t8_mp_spe_seraph_superhero_lowerbody1\\c_t8_mp_spe_seraph_superhero_lowerbody1_LOD0.smd",
+      "bytes": 4666506,
+      "sha256": "5823A5586877AEBB526B127C9ED5D8DB437F508F91CA80793BA5055F513EF65E",
+      "nodeCount": 21,
+      "nodes": {
+        "0": "j_mainroot",
+        "1": "j_doll_driver",
+        "2": "j_hip_le",
+        "3": "j_hip_ri",
+        "4": "j_spinelower",
+        "5": "j_doll",
+        "6": "j_hiptwist_ri",
+        "7": "j_knee_le",
+        "8": "j_knee_ri",
+        "9": "j_spineupper",
+        "10": "j_ankle_le",
+        "11": "j_ankle_ri",
+        "12": "j_spine4",
+        "13": "tag_ability_hero",
+        "14": "j_ball_le",
+        "15": "j_ball_ri",
+        "16": "j_shoulderraise_le",
+        "17": "j_shoulderraise_ri",
+        "18": "j_hiptwist_le",
+        "19": "j_knee_bulge_le",
+        "20": "j_knee_bulge_ri"
+      },
+      "triangles": 13800,
+      "materialCount": 18
+    },
+    {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\iskra_kitty_body_round1\\source\\raw\\c_t8_mp_spe_seraph_superhero_torso1\\c_t8_mp_spe_seraph_superhero_torso1_LOD0.smd",
+      "bytes": 3827849,
+      "sha256": "C79239993B2454B8C9AD5CA0B2A3776AF8C9E10BB326B0B96F5BF0141716FF16",
+      "nodeCount": 22,
+      "nodes": {
+        "0": "j_mainroot",
+        "1": "j_charm_driver",
+        "2": "j_spinelower",
+        "3": "j_charm",
+        "4": "j_charm_heart",
+        "5": "j_spineupper",
+        "6": "tag_hero_gear",
+        "7": "j_spine4",
+        "8": "j_clavicle_le",
+        "9": "j_clavicle_ri",
+        "10": "j_neck",
+        "11": "j_shoulderraise_le",
+        "12": "j_shoulderraise_ri",
+        "13": "tag_char_vis_light_orange_01",
+        "14": "tag_char_vis_light_red_01",
+        "15": "tag_stowed_back",
+        "16": "j_neck2",
+        "17": "j_shoulder_le",
+        "18": "j_shoulder_ri",
+        "19": "j_head",
+        "20": "j_shouldertwist_le",
+        "21": "j_shouldertwist_ri"
+      },
+      "triangles": 9659,
+      "materialCount": 16
+    }
+  ],
+  "visualEvidence": {
+    "blindBoard": {
+      "board": "blind-ab-identity.png",
+      "sha256": "2C21E2213868DBFED0E460B8F8A7D10675058C46C701114C7417AA1726B0E53C",
+      "key": {
+        "X": "round3",
+        "Y": "source"
+      },
+      "views": [
+        "front",
+        "three-quarter",
+        "side",
+        "back"
+      ]
+    },
+    "semanticBoard": {
+      "board": "semantic-selector.png",
+      "sha256": "D93EDC07E28D0AF37805399FFB4B3B0186615BC04EFD45C7D507194E86E19801",
+      "items": [
+        {
+          "label": "Source selector",
+          "counts": "676 / 373 / 1",
+          "source": "source-hair-tile13-front.png"
+        },
+        {
+          "label": "Source white Kitty Six",
+          "counts": "332 / 356 / 12",
+          "source": "source-white-accessory-tile53-front.png"
+        },
+        {
+          "label": "Round3 white Kitty Six",
+          "counts": "332 / 356 / 12",
+          "source": "round3-white-accessory-lod0-front.png"
+        },
+        {
+          "label": "Round3 selector",
+          "counts": "676 / 373 / 1",
+          "source": "round3-critic-inverted53-front.png"
+        }
+      ]
+    },
+    "speckBoard": {
+      "created": true,
+      "board": "pose-specks.png",
+      "sha256": "17E3EF3781750B76DF3F5816D26DFFDAC8A384F6E6FEC70008CE21BB94D7D1AE",
+      "poses": [
+        "idle",
+        "crouch",
+        "death"
+      ]
+    },
+    "round2Round3SpeckBoard": {
+      "created": true,
+      "board": "round2-round3-specks.png",
+      "sha256": "1C108711D95F62BECBCB6C217A7FFA04802CC08E513389FF0B0BAC7EC15F4504",
+      "poses": [
+        "idle",
+        "crouch",
+        "death"
+      ],
+      "rows": [
+        "sealed Round2",
+        "Round3"
+      ]
+    }
+  },
+  "artifacts": {
+    "glbAudit": "evidence/machine/glb-audit.json",
+    "poseSpeckAudit": "evidence/machine/pose-speck-audit.json",
+    "round2PoseSpeckAudit": "evidence/machine/round2-pose-speck-audit.json",
+    "materialAudit": "evidence/machine/material-audit.json",
+    "imageAudit": "evidence/machine/image-audit.json",
+    "imagePayloadAudit": "evidence/machine/image-payload-audit.json",
+    "manifestAudit": "evidence/machine/manifest-audit.json",
+    "oatAudit": "evidence/machine/oat-audit.json",
+    "sealAudit": "evidence/machine/seal-audit.json",
+    "predecessorDeltaAudit": "evidence/machine/predecessor-delta-audit.json"
+  }
+}

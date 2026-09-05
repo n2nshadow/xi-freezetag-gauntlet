@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-09-05T10:11:43.3810175Z",
+  "status": "PASS_FOR_SEALED_PROVING_PACKAGE_ONLY",
+  "productionReleaseStatus": "HOLD",
+  "steamDeploymentStatus": "HOLD",
+  "liveEngineAndUserTestOutstanding": true,
+  "profile": "full-roster-exact-operators-and-weapons-proving",
+  "mapAccountingScope": "mp_backlot",
+  "assetBudget": {
+    "fastfileMaterials": {
+      "used": 457,
+      "ceiling": 760
+    },
+    "runtimeMaterials": {
+      "used": 1716,
+      "ceiling": 2048
+    },
+    "runtimeXModelSlots": {
+      "used": 987,
+      "hardCeiling": 1000,
+      "strictSafetyCeiling": 990,
+      "strictSafetyHeadroom": 3
+    },
+    "runtimeXModelNameUnion": 986,
+    "mapSpecificDuplicateXModelSlots": 1,
+    "mapSpecificDuplicateXModels": [
+      "weapon_saw_mg_setup"
+    ],
+    "validated": true
+  },
+  "package": {
+    "mod.ff": {
+      "bytes": 31853072,
+      "sha256": "8CCDAC3C14E28EE2A6695E4E581A7838F2E4A5FA3C2021FF621945D2264C2619"
+    },
+    "xi_ftag.iwd": {
+      "bytes": 53473205,
+      "sha256": "5436B11220FEBDE0D106A6D98F268B1788218C5ADFF48A5815847F2D1F6337B6"
+    },
+    "xi_ftag.cfg": {
+      "bytes": 33100,
+      "sha256": "E0E777C6D0CD38744D4795B86FF28BD453083D908F7A695B482C81AAF1C82AA4"
+    },
+    "proving-receipt.json": {
+      "bytes": 7186,
+      "sha256": "F48AE7ABFC25CAFBF0B00323394670A5D50ECEAE2AE069B2E84D89D26052652C"
+    }
+  },
+  "loader": {
+    "path": "xi_ftag/tools/Build-GhostIcrProving.ps1",
+    "bytes": 100557,
+    "sha256": "3CF85E18C02C7A1CECD8C2B2A55678B1DFC329F33399027F96581C582D69836C"
+  },
+  "promotionBindings": {
+    "family23": "D778429B96C93ED7B72EFAE69FCBC009A90B91BB5454D5C72CCC88BFD84ED14F",
+    "family08": "1AE6DD928BAAC898A60583C10AB66779A9F3B86930C0CC4F0E6983D95BF16128",
+    "viewhandsManifest": "A12F0C623B7FECE7CF0A6A8A41EB629199B92D3EDCE3820FDBB40F37E15AAEE0",
+    "viewhandsNativeReference": "E018D0AC5ECF5F6435D8085491F43B186570F980DD18771274BA175C9CEA8F95"
+  },
+  "stagedAttachmentFamilies": [
+    1,
+    2,
+    3,
+    8
+  ],
+  "stagedReviewedBodyCandidates": [
+    "mace_5_1",
+    "mara_3_1"
+  ],
+  "notPromotedByThisCheckpoint": [
+    "alice_4_1",
+    "ghost_5_1",
+    "iskra_6_1",
+    "mara_3_2",
+    "raines_5_1",
+    "talon_1_1"
+  ],
+  "repeatBuild": {
+    "packageBinariesByteIdentical": true,
+    "receiptUpdatedOnlyForDurableBudgetEvidence": true
+  },
+  "outstanding": [
+    "live engine and user acceptance",
+    "animation and ADS validation",
+    "firing, reload, drop, effects, and audio validation",
+    "remaining third-person operator body decisions"
+  ],
+  "productionChanged": false,
+  "steamChanged": false
+}

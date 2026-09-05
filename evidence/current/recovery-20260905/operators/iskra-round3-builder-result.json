@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "operator": "iskra_6_1",
+  "candidate": "iskra_6_1 Round3",
+  "builderVerdict": "HOLD",
+  "independentReviewState": "CRITIC_READY",
+  "productionDisposition": "HOLD",
+  "candidateReadyForIndependentCritique": true,
+  "productionPromotionAuthorized": false,
+  "promotionManifestCreated": false,
+  "candidateFrozenAtReportGeneration": true,
+  "technicalGates": {
+    "sealedRound2Verified": true,
+    "candidateValidation": true,
+    "capacityAndIndices": true,
+    "materialImageAlpha": true,
+    "actualWhiteCharmMachineClosure": true,
+    "criticSelectorNumericClosure": true,
+    "fivePoseGeometry": true,
+    "finalRenderReceipt": true,
+    "oatBuildListDump": true,
+    "oatSemanticRoundtrip": true,
+    "replacementDelta": true,
+    "isolation": true
+  },
+  "candidateLods": [
+    {
+      "lod": 0,
+      "targetTriangles": 28499,
+      "triangles": 28499,
+      "vertices": 32546,
+      "surfaces": 2,
+      "joints": 51,
+      "minimumPositiveWeight": 0.010200000368058681,
+      "actualWhiteCharm": {
+        "triangles": 332,
+        "vertices": 356,
+        "components": 12,
+        "rigidJointSet": [
+          "j_shoulderraise_le"
+        ]
+      },
+      "file": {
+        "path": "operators/iskra/candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod0.glb",
+        "bytes": 2400648,
+        "sha256": "ABB8A050C9BAA44A5830D7D7D47E59508DF8E9CE39604BB29CD32940832C8F1F"
+      }
+    },
+    {
+      "lod": 1,
+      "targetTriangles": 22000,
+      "triangles": 22000,
+      "vertices": 26776,
+      "surfaces": 2,
+      "joints": 51,
+      "minimumPositiveWeight": 0.010199999436736107,
+      "actualWhiteCharm": {
+        "triangles": 332,
+        "vertices": 356,
+        "components": 12,
+        "rigidJointSet": [
+          "j_shoulderraise_le"
+        ]
+      },
+      "file": {
+        "path": "operators/iskra/candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod1.glb",
+        "bytes": 1969296,
+        "sha256": "BD830653842910FC8137B02DD5568BD693740C58E52864A8D6A1C93CCE1F94A1"
+      }
+    },
+    {
+      "lod": 2,
+      "targetTriangles": 15000,
+      "triangles": 15000,
+      "vertices": 20152,
+      "surfaces": 2,
+      "joints": 51,
+      "minimumPositiveWeight": 0.010199999436736107,
+      "actualWhiteCharm": {
+        "triangles": 332,
+        "vertices": 356,
+        "components": 12,
+        "rigidJointSet": [
+          "j_shoulderraise_le"
+        ]
+      },
+      "file": {
+        "path": "operators/iskra/candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod2.glb",
+        "bytes": 1476860,
+        "sha256": "C2CA10FF9108CA0AD997E518D709FFA786B8C243F5B583F4FDB1B69A073D7ECF"
+      }
+    },
+    {
+      "lod": 3,
+      "targetTriangles": 10000,
+      "triangles": 10000,
+      "vertices": 14770,
+      "surfaces": 2,
+      "joints": 51,
+      "minimumPositiveWeight": 0.010200000368058681,
+      "actualWhiteCharm": {
+        "triangles": 332,
+        "vertices": 356,
+        "components": 12,
+        "rigidJointSet": [
+          "j_shoulderraise_le"
+        ]
+      },
+      "file": {
+        "path": "operators/iskra/candidate/zone_raw/xi_ftag/model_export/playermodel_xi_iskra_6_1_lod3.glb",
+        "bytes": 1080872,
+        "sha256": "6284A03158EA823169A10FFA338F1585202495C17F618E120B3B5E4DAFA0335C"
+      }
+    }
+  ],
+  "actualWhiteCharm": {
+    "source": {
+      "materialIdentity": "xmaterial_9649e4a90f0f44e",
+      "materialClass": "opaque",
+      "triangles": 332,
+      "vertices": 356,
+      "components": 12,
+      "fileSha256": "73A8DB70C11A87E29F5DDE9C71A112C2D1545CA2A657DF22DE7C1D46538C7EEF"
+    },
+    "lodTriangles": [
+      332,
+      332,
+      332,
+      332
+    ],
+    "lodVertices": [
+      356,
+      356,
+      356,
+      356
+    ],
+    "lodComponents": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "rigidJoint": "j_shoulderraise_le",
+    "sourceUvsRetained": true,
+    "visiblePoseReview": "PASS_WITH_REVIEW_RESIDUAL"
+  },
+  "criticSelector": {
+    "semanticIdentity": "manifest tile 13 cutout hair shell",
+    "sourceTriangles": 676,
+    "sourceVertices": 373,
+    "sourceComponents": 1,
+    "lodTriangles": [
+      676,
+      521,
+      384,
+      257
+    ],
+    "lodComponents": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "numericClosurePassed": true,
+    "isActualWhiteCharm": false
+  },
+  "smallestRemainingGap": "The requested 676/373/one-component signature is the cutout hair-shell region at head bounds, not the opaque white charm. The actual white charm is 332/356 across 12 authored mesh pieces. Both regions are preserved separately; relabeling either as the other would falsify source identity.",
+  "unresolvedErrors": [
+    {
+      "id": "CHARM_SELECTOR_CONTRACT_CONTRADICTION",
+      "severity": "HOLD",
+      "description": "The requested 676/373/one-component signature is the cutout hair-shell region at head bounds, not the opaque white charm. The actual white charm is 332/356 across 12 authored mesh pieces. Both regions are preserved separately; relabeling either as the other would falsify source identity.",
+      "evidence": "operators/iskra/metrics/charm-selector-contract.json"
+    },
+    {
+      "id": "TINY_POSE_SPECKS",
+      "severity": "CRITIC_REVIEW",
+      "description": "Tiny dark specks remain visible in some whole-body rendered pose frames. They are outside the restored white-charm selection and do not form a major detached body part, but remain for critic review.",
+      "evidence": "operators/iskra/evidence/revealed/stock-animation-poses.png"
+    },
+    {
+      "id": "NO_LIVE_IW3_PROVING",
+      "severity": "PRODUCTION_HOLD",
+      "description": "No live multiplayer shader, LOD-transition, gameplay deformation, memory-residency, or user-acceptance test was performed."
+    }
+  ],
+  "warnings": [
+    {
+      "id": "BLENDER_TEXTURE_PATH_FALLBACK",
+      "description": "Blender first attempted an OBJ-relative concatenation for the absolute atlas path, then loaded the intended absolute atlas successfully. All 70 jobs rendered and the receipt passed."
+    },
+    {
+      "id": "OAT_OPTIONAL_GDT_PATH_ABSENT",
+      "description": "OAT logged optional source_data GDT search paths as not found; final link, list, and dump each ended with 0 warnings and 0 errors."
+    }
+  ]
+}

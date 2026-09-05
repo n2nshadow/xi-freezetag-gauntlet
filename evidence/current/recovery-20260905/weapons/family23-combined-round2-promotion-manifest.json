@@ -1,0 +1,640 @@
+{
+  "schemaVersion": 1,
+  "kind": "family23-combined-attachment-tags-sealed-proving-package",
+  "status": "PASS_FOR_PROVING_PACKAGE_ONLY",
+  "safeForSealedProvingPackage": true,
+  "productionPromotionAuthorized": false,
+  "builderBinding": {
+    "root": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2",
+    "sha256Manifest": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\SHA256-MANIFEST.json",
+      "bytes": 13583,
+      "sha256": "2C5EB03CF34FFAEE396CB35BDE6383B7D775A22458D21C6E67E047365D870187"
+    },
+    "deliveryManifest": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\delivery-manifest.json",
+      "bytes": 12498,
+      "sha256": "17BF3D2BA801FA5E855D04B2C96FC8FE4400D5F7F413BE1F631794101822F16C"
+    },
+    "deliverySeal": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\DELIVERY-MANIFEST.sha256",
+      "bytes": 90,
+      "sha256": "931965AF1A74F966F39D8A254BFCBBCEDE30A0AED25DBF95B8519BABF5C32341"
+    },
+    "weaponPatchManifest": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\weapon-field-patch-manifest.json",
+      "bytes": 27432,
+      "sha256": "A6B54F637FB5A383734C7F62192143067AD493E74A0B188F18E10E638B313855"
+    }
+  },
+  "criticBinding": {
+    "root": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2_critic",
+    "report": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2_critic\\REPORT.md",
+      "bytes": 8280,
+      "sha256": "6453A4FCD35E74A19A7589C2AFF25C71008BDDAB7A22B5DE82120F9275CC9C5C"
+    },
+    "result": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2_critic\\RESULT.json",
+      "bytes": 892218,
+      "sha256": "159841A8D634984C2E9A65F2D20BF7C1E44F8878E052CA7553DC0BF53F06CF75"
+    },
+    "offlineGateCount": 9,
+    "allOfflineGatesPass": true
+  },
+  "canonicalPayload": {
+    "models": [
+      {
+        "name": "viewmodel_f02_ram7_base_reflex_tags_r1",
+        "family": "ram7",
+        "kind": "view",
+        "role": "combined",
+        "packedStates": [
+          "base",
+          "reflex"
+        ],
+        "sourceModel": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f02_ram7_base_reflex_tags_r1.glb",
+          "bytes": 2689460,
+          "sha256": "D8D3C40A5320A89EF999D1EFC9EC6EC8B7FF204A04B7F38606C557599C614AED"
+        },
+        "descriptor": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\xmodel\\viewmodel_f02_ram7_base_reflex_tags_r1.json",
+          "bytes": 301,
+          "sha256": "44545B47A69AD16D6B5900D879384F143BBCF6B90B465A4A1B23092D5B211356"
+        },
+        "compiledFastfile": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\o\\m0\\viewmodel_f02_ram7_base_reflex_tags_r1.ff",
+          "bytes": 762862,
+          "sha256": "540FA0B6F0C02FC641DAA5D4E2F8C618B2B8DDDB0A05C98F4760DBD372F0CB94"
+        }
+      },
+      {
+        "name": "worldmodel_f02_ram7_base_reflex_tags_r1",
+        "family": "ram7",
+        "kind": "world",
+        "role": "combined",
+        "packedStates": [
+          "base",
+          "reflex"
+        ],
+        "sourceModel": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_base_reflex_tags_r1.glb",
+          "bytes": 2807408,
+          "sha256": "5E7F97E829FB0928BE4C5327D7D2A12ACB6EF5AF29ADC79592FC68F81494625F"
+        },
+        "descriptor": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f02_ram7_base_reflex_tags_r1.json",
+          "bytes": 299,
+          "sha256": "4290C398DE04DE56B305A8532197A5D5ADCF121F56ECAEDC322AB8D1D490D629"
+        },
+        "compiledFastfile": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\o\\m1\\worldmodel_f02_ram7_base_reflex_tags_r1.ff",
+          "bytes": 746692,
+          "sha256": "8E43FD0A430EE2946A9F049044A13F1FC994AAF306A01E066715160B564E12DD"
+        }
+      },
+      {
+        "name": "viewmodel_f02_ram7_cs_tags_r1",
+        "family": "ram7",
+        "kind": "view",
+        "role": "combined",
+        "packedStates": [
+          "compact",
+          "suppressor"
+        ],
+        "sourceModel": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f02_ram7_cs_tags_r1.glb",
+          "bytes": 2683992,
+          "sha256": "FBFC050D9882133389A8E440D0348F212C9A470F8C3E12FAD4ED3C09B678D938"
+        },
+        "descriptor": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\xmodel\\viewmodel_f02_ram7_cs_tags_r1.json",
+          "bytes": 292,
+          "sha256": "D1EC8C6E4B68AD6CCBD08DFF80D38091DBEC3F8C7630EC56777EE270890CAEBD"
+        },
+        "compiledFastfile": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\o\\m2\\viewmodel_f02_ram7_cs_tags_r1.ff",
+          "bytes": 775468,
+          "sha256": "85F22D7852B274C484B900484ECB61121045294B0A9FC277D746231C97B9241B"
+        }
+      },
+      {
+        "name": "worldmodel_f02_ram7_cs_tags_r1",
+        "family": "ram7",
+        "kind": "world",
+        "role": "combined",
+        "packedStates": [
+          "compact",
+          "suppressor"
+        ],
+        "sourceModel": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_cs_tags_r1.glb",
+          "bytes": 2801920,
+          "sha256": "699FDF8FC321C47DE1D86F37CB4FEEC8E4ECF95DCE8C0E4E4041871011A62814"
+        },
+        "descriptor": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f02_ram7_cs_tags_r1.json",
+          "bytes": 290,
+          "sha256": "03EFD12CB9EAF439B8C31974E93EBB8289C38A5AD8C9635B7248F6F27324A5DC"
+        },
+        "compiledFastfile": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\o\\m3\\worldmodel_f02_ram7_cs_tags_r1.ff",
+          "bytes": 753936,
+          "sha256": "C0906D179EDEA50B4B85009ACA3245894E32B4DF7B313113218B3F85DD1EB2DB"
+        }
+      },
+      {
+        "name": "worldmodel_f02_ram7_mag_authored_r1",
+        "family": "ram7",
+        "kind": "world",
+        "role": "worldClipModel",
+        "packedStates": [],
+        "sourceModel": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_mag_authored_r1.glb",
+          "bytes": 96212,
+          "sha256": "72556CD9A600DCC658201975D89794A7432FC3B0A807B649B2647E3B22FD42E5"
+        },
+        "descriptor": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f02_ram7_mag_authored_r1.json",
+          "bytes": 295,
+          "sha256": "1833F06A9420AD0A7C223F375908A644FEB6461360EB95811A0D3D7A344068B4"
+        },
+        "compiledFastfile": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\o\\m4\\worldmodel_f02_ram7_mag_authored_r1.ff",
+          "bytes": 25385,
+          "sha256": "F547A7C5B45A45CC451B61E2946EA9C779F7A2B52861940955DAA1C61BF9E72B"
+        }
+      },
+      {
+        "name": "viewmodel_f03_dm56_combined_tags_r1",
+        "family": "dm56",
+        "kind": "view",
+        "role": "combined",
+        "packedStates": [
+          "base",
+          "reflex",
+          "compact",
+          "suppressor"
+        ],
+        "sourceModel": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f03_dm56_combined_tags_r1.glb",
+          "bytes": 3279000,
+          "sha256": "1AD0F0B70016AED0608ADEB61418C5455580F9A53AE20BBE8F90411A7BF76D3C"
+        },
+        "descriptor": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\xmodel\\viewmodel_f03_dm56_combined_tags_r1.json",
+          "bytes": 298,
+          "sha256": "D804E9F1B282D98958C03336C06CAA51919BE855C4E562F07944194E3DF6A993"
+        },
+        "compiledFastfile": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\o\\m5\\viewmodel_f03_dm56_combined_tags_r1.ff",
+          "bytes": 967406,
+          "sha256": "1C6A8E33D2945F53672F62EB705B2107674C8EA1FF8C17B7E7F370670BA6EE81"
+        }
+      },
+      {
+        "name": "worldmodel_f03_dm56_combined_tags_r1",
+        "family": "dm56",
+        "kind": "world",
+        "role": "combined",
+        "packedStates": [
+          "base",
+          "reflex",
+          "compact",
+          "suppressor"
+        ],
+        "sourceModel": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f03_dm56_combined_tags_r1.glb",
+          "bytes": 3401008,
+          "sha256": "03D1CCA4293D11EAC81A61F42B73C97499ED047EE864C71C714AF0EAB6A51851"
+        },
+        "descriptor": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f03_dm56_combined_tags_r1.json",
+          "bytes": 296,
+          "sha256": "9CCC986213B28A3DE2240DF7000CF80F463920E3DF302415A78879202DC16D88"
+        },
+        "compiledFastfile": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\o\\m6\\worldmodel_f03_dm56_combined_tags_r1.ff",
+          "bytes": 948435,
+          "sha256": "1E0972CB78ECE06550437EA34D030799E02FE1EA0DDF0C1734FFAFFEAC204984"
+        }
+      },
+      {
+        "name": "worldmodel_f03_dm56_mag_authored_r1",
+        "family": "dm56",
+        "kind": "world",
+        "role": "worldClipModel",
+        "packedStates": [],
+        "sourceModel": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f03_dm56_mag_authored_r1.glb",
+          "bytes": 133976,
+          "sha256": "C2844CA3D8B696126F7A6BB5EDD70955236AEF27E1A006CF36591EEDD0F44EFF"
+        },
+        "descriptor": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round1\\candidate\\zone_raw\\xi_ftag\\xmodel\\worldmodel_f03_dm56_mag_authored_r1.json",
+          "bytes": 295,
+          "sha256": "DADCE4CA7C0AA654462336A5BF499C6C069C8E3093C2939349177E53CB1FC1BB"
+        },
+        "compiledFastfile": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\o\\m7\\worldmodel_f03_dm56_mag_authored_r1.ff",
+          "bytes": 40349,
+          "sha256": "4F29F963B8DBC12398D9119803DAB20E1499603C11CA1B5684ABDFCDDCC4F782"
+        }
+      }
+    ],
+    "weapons": [
+      {
+        "weapon": "g3_mp",
+        "state": "base",
+        "guardedProductionSource": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_raw\\xi_ftag\\weapons\\mp\\g3_mp",
+          "bytes": 7828,
+          "sha256": "9F4D43B3A4568ABE4222D28EC322E0834D5AE3C43F235EA969612AA127C40E5D"
+        },
+        "stagedWeapon": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\weapons_patched\\g3_mp",
+          "bytes": 7982,
+          "sha256": "7D6C183FFC5D53FB8BA37857EA82DDC9448F229E309574B6680523EEA33E2E6D"
+        },
+        "authorizedSet": {
+          "gunModel": "viewmodel_f02_ram7_base_reflex_tags_r1",
+          "gunModel3": "viewmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel3": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel4": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel5": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel6": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel7": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldClipModel": "worldmodel_f02_ram7_mag_authored_r1",
+          "hideTags": "tag_ftag_reflex"
+        },
+        "protectedUnchanged": [
+          "gunModel2",
+          "worldModel2"
+        ]
+      },
+      {
+        "weapon": "g3_reflex_mp",
+        "state": "reflex",
+        "guardedProductionSource": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_raw\\xi_ftag\\weapons\\mp\\g3_reflex_mp",
+          "bytes": 7857,
+          "sha256": "1EEF199D1024DB66AC2D0B7D997291F7167BC699AD951F92C46788FDE97F2262"
+        },
+        "stagedWeapon": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\weapons_patched\\g3_reflex_mp",
+          "bytes": 8021,
+          "sha256": "C981D6BD8BEF323FED6396F45AEBE9EF1D88EAF96205E56C336DEF3B66CE7164"
+        },
+        "authorizedSet": {
+          "gunModel": "viewmodel_f02_ram7_base_reflex_tags_r1",
+          "gunModel3": "viewmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel3": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel4": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel5": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel6": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldModel7": "worldmodel_f02_ram7_base_reflex_tags_r1",
+          "worldClipModel": "worldmodel_f02_ram7_mag_authored_r1",
+          "hideTags": "tag_ftag_base"
+        },
+        "protectedUnchanged": [
+          "gunModel2",
+          "worldModel2"
+        ]
+      },
+      {
+        "weapon": "g3_acog_mp",
+        "state": "compact",
+        "guardedProductionSource": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_raw\\xi_ftag\\weapons\\mp\\g3_acog_mp",
+          "bytes": 7844,
+          "sha256": "DD583927F132C54D19FB592F44C744F14CDDD4DC5C40959BE6EBBD30061F5DD1"
+        },
+        "stagedWeapon": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\weapons_patched\\g3_acog_mp",
+          "bytes": 7940,
+          "sha256": "9FF237FB542F0AE20DF88066B42B833D300A8EAD15DB58C947DE5696836E89FB"
+        },
+        "authorizedSet": {
+          "gunModel": "viewmodel_f02_ram7_cs_tags_r1",
+          "gunModel3": "viewmodel_f02_ram7_cs_tags_r1",
+          "worldModel": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel3": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel4": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel5": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel6": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel7": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldClipModel": "worldmodel_f02_ram7_mag_authored_r1",
+          "hideTags": "tag_ftag_suppressor"
+        },
+        "protectedUnchanged": [
+          "gunModel2",
+          "worldModel2"
+        ]
+      },
+      {
+        "weapon": "g3_silencer_mp",
+        "state": "suppressor",
+        "guardedProductionSource": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_raw\\xi_ftag\\weapons\\mp\\g3_silencer_mp",
+          "bytes": 7860,
+          "sha256": "AF318D4BB90A972B7DCD8F982F85F4FA7E28369B53236B19BB2D027F6C8B8230"
+        },
+        "stagedWeapon": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\weapons_patched\\g3_silencer_mp",
+          "bytes": 7957,
+          "sha256": "9D350AA3594C7976A0A7F85B5AD112A91F81564C4F9C7A416FE19BB650F48B85"
+        },
+        "authorizedSet": {
+          "gunModel": "viewmodel_f02_ram7_cs_tags_r1",
+          "gunModel3": "viewmodel_f02_ram7_cs_tags_r1",
+          "worldModel": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel3": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel4": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel5": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel6": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldModel7": "worldmodel_f02_ram7_cs_tags_r1",
+          "worldClipModel": "worldmodel_f02_ram7_mag_authored_r1",
+          "hideTags": "tag_ftag_compact"
+        },
+        "protectedUnchanged": [
+          "gunModel2",
+          "worldModel2"
+        ]
+      },
+      {
+        "weapon": "m14_mp",
+        "state": "base",
+        "guardedProductionSource": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_raw\\xi_ftag\\weapons\\mp\\m14_mp",
+          "bytes": 7962,
+          "sha256": "221FBA5EED19A0855DF8E7FBA37A2F98E71BC3F8B32DD254DB824E7A2B2BFC7A"
+        },
+        "stagedWeapon": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\weapons_patched\\m14_mp",
+          "bytes": 8114,
+          "sha256": "10FC3D924F31A1065772ECE9313AB46BA40D667241C2FCF288AC90B2F9FC6172"
+        },
+        "authorizedSet": {
+          "gunModel": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel3": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel4": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel5": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel6": "viewmodel_f03_dm56_combined_tags_r1",
+          "worldModel": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel3": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel4": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel5": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel6": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel7": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldClipModel": "worldmodel_f03_dm56_mag_authored_r1",
+          "hideTags": "tag_ftag_reflex\ntag_ftag_compact\ntag_ftag_suppressor"
+        },
+        "protectedUnchanged": [
+          "gunModel2",
+          "worldModel2"
+        ]
+      },
+      {
+        "weapon": "m14_reflex_mp",
+        "state": "reflex",
+        "guardedProductionSource": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_raw\\xi_ftag\\weapons\\mp\\m14_reflex_mp",
+          "bytes": 7977,
+          "sha256": "16DEC96FF8687F6536DF1C4AC3DCC20BD645F2E7EDF9824E36BCFF417D2A77EF"
+        },
+        "stagedWeapon": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\weapons_patched\\m14_reflex_mp",
+          "bytes": 8145,
+          "sha256": "B2433206411AE9FDF73A94460091CC0988D031194988A08AC1A60B49575C2C16"
+        },
+        "authorizedSet": {
+          "gunModel": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel3": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel4": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel5": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel6": "viewmodel_f03_dm56_combined_tags_r1",
+          "worldModel": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel3": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel4": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel5": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel6": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel7": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldClipModel": "worldmodel_f03_dm56_mag_authored_r1",
+          "hideTags": "tag_ftag_base\ntag_ftag_compact\ntag_ftag_suppressor"
+        },
+        "protectedUnchanged": [
+          "gunModel2",
+          "worldModel2"
+        ]
+      },
+      {
+        "weapon": "m14_acog_mp",
+        "state": "compact",
+        "guardedProductionSource": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_raw\\xi_ftag\\weapons\\mp\\m14_acog_mp",
+          "bytes": 7978,
+          "sha256": "8CEF933009D3D03DB37EA17C20FC6F7D2B80BCAE910AD9308FC083621D26DE8E"
+        },
+        "stagedWeapon": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\weapons_patched\\m14_acog_mp",
+          "bytes": 8137,
+          "sha256": "87B5BB5781AB2C3688F63DEE71F3A11DAFDEB4D98273BA1BBBC2BBEEA2764631"
+        },
+        "authorizedSet": {
+          "gunModel": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel3": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel4": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel5": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel6": "viewmodel_f03_dm56_combined_tags_r1",
+          "worldModel": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel3": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel4": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel5": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel6": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel7": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldClipModel": "worldmodel_f03_dm56_mag_authored_r1",
+          "hideTags": "tag_ftag_base\ntag_ftag_reflex\ntag_ftag_suppressor"
+        },
+        "protectedUnchanged": [
+          "gunModel2",
+          "worldModel2"
+        ]
+      },
+      {
+        "weapon": "m14_silencer_mp",
+        "state": "suppressor",
+        "guardedProductionSource": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_raw\\xi_ftag\\weapons\\mp\\m14_silencer_mp",
+          "bytes": 7956,
+          "sha256": "30F21357769CDE0F3F937592260AB773D5A7F95DC9EF4BAAE95A5136347EC4D2"
+        },
+        "stagedWeapon": {
+          "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\family23_combined_attachment_tags_round2\\weapons_patched\\m14_silencer_mp",
+          "bytes": 8116,
+          "sha256": "EC5131E7DF8D2AF20873D42960205A84220604727730BC85B8FA631B7668DA11"
+        },
+        "authorizedSet": {
+          "gunModel": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel3": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel4": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel5": "viewmodel_f03_dm56_combined_tags_r1",
+          "gunModel6": "viewmodel_f03_dm56_combined_tags_r1",
+          "worldModel": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel3": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel4": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel5": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel6": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldModel7": "worldmodel_f03_dm56_combined_tags_r1",
+          "worldClipModel": "worldmodel_f03_dm56_mag_authored_r1",
+          "hideTags": "tag_ftag_base\ntag_ftag_reflex\ntag_ftag_compact"
+        },
+        "protectedUnchanged": [
+          "gunModel2",
+          "worldModel2"
+        ]
+      }
+    ],
+    "frozenAuthorities": [
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\delivery-manifest.json",
+        "bytes": 78288,
+        "sha256": "19130A4E5A69B994C76D5E6551FD7662A9320AEBE21CE811C95D4AC28CEA315A"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\build-manifest.json",
+        "bytes": 114749,
+        "sha256": "4D460C91C8A2AC22BF6903E7F1FD208DB5A493E2A8872649F19BB3134D8CAAA0"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f02_ram7_round3_base.glb",
+        "bytes": 1115624,
+        "sha256": "7EA25BA186D6DC1A60A1FDAFBF415F698D856E4C92C151F9FB4CDAE9D1975315"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_round3_base.glb",
+        "bytes": 1326128,
+        "sha256": "E78DE3403A0F99C15D989E215AB84392B4665D6671CB88D957E727A7FD89A0DC"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f02_ram7_round3_reflex.glb",
+        "bytes": 2422176,
+        "sha256": "04EC74CC209A001F2B8ED92E306334B80B579DF3A78A1B6880323197AE57BD58"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_round3_reflex.glb",
+        "bytes": 1786668,
+        "sha256": "8B6B2832B714105F804B1FEDE61502BBD841D0B820DA8D07917DE971D58D5CF0"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f02_ram7_round3_compact.glb",
+        "bytes": 2391292,
+        "sha256": "F85F597508917F7BCBFAB11D32D25B2322CB7F644BFD8AF5A95AF5E3B49FE321"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_round3_compact.glb",
+        "bytes": 1766816,
+        "sha256": "6DE271DFE8BEE1476C7707B4DC4584E7C123CD2F2D7E6E0CA06AF2A03CDFAAA5"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f02_ram7_round3_suppressor.glb",
+        "bytes": 1129620,
+        "sha256": "51E66D9625771F7B75F6B4DE3D6B9C36C976EB9B12B35D65912767125991F9B9"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f02_ram7_round3_suppressor.glb",
+        "bytes": 1340156,
+        "sha256": "1FE45443226D3FBC6F37759E97668C7D519C0463BAE10B9C5D3E21DC1A4CE22B"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f03_dm56_round3_base.glb",
+        "bytes": 609468,
+        "sha256": "84FC34E16832D948ABC8C6C530B9916396F50FE67DCE82BDB33D04604EE9CAC5"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f03_dm56_round3_base.glb",
+        "bytes": 793572,
+        "sha256": "1718DD07B75099DE6C642257F8D5A6EC107820C5E0885FDC561F1671BCB259D6"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f03_dm56_round3_reflex.glb",
+        "bytes": 1641364,
+        "sha256": "9BA1D1695DB577598434089549F53FB8251F827BF2C82EB2D96619DDC8B22466"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f03_dm56_round3_reflex.glb",
+        "bytes": 1252380,
+        "sha256": "1323F3C3E97AFDE6424166DB04402903DC685B08E70B754646143DC00224F8F8"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f03_dm56_round3_compact.glb",
+        "bytes": 1610532,
+        "sha256": "177F9D214466ECA11588AD7CBE8B8EA25DAF2F72DF84BEDD27F044ECCB8DFEAA"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f03_dm56_round3_compact.glb",
+        "bytes": 1232524,
+        "sha256": "36E8C9209B4DAAAA9332303988302FECBE3143348C7BBAEA099498310AB54D88"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\viewmodel_f03_dm56_round3_suppressor.glb",
+        "bytes": 623464,
+        "sha256": "BED242A4AF40DD1FD3076895FDC8AD9F533E234834CE33D45943A3B511426B72"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\candidate\\zone_raw\\xi_ftag\\model_export\\worldmodel_f03_dm56_round3_suppressor.glb",
+        "bytes": 807600,
+        "sha256": "BA2A657CB3A713A0A9D764D083E1698188EDE2A7B914261698998AE67D82880D"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\review\\dm56_view_board.png",
+        "bytes": 500528,
+        "sha256": "C9EA5679DAAA2EA0183593FB5B17004D576136101655993EFBB0752C64E26D7F"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\review\\dm56_world_board.png",
+        "bytes": 379226,
+        "sha256": "972D870CEAFCE6113FD479FFDB76DFFF0DB8A586191A05F7CF63527B1AAE5A90"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\review\\ram7_view_board.png",
+        "bytes": 529480,
+        "sha256": "BA1F0C1B3AD84CF8095072E11B2D825447B11964D70DFCF86219549A71740E12"
+      },
+      {
+        "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\families02_03_attachments_round1\\round3\\review\\ram7_world_board.png",
+        "bytes": 384542,
+        "sha256": "3720886C0DCD8041604A91B598C7CBFBE522D766069C3DDB8339351137F7FD94"
+      }
+    ]
+  },
+  "poolProjection": {
+    "formula": "993 - 17 + 8 = 984",
+    "projectedRuntimeXModels": 984,
+    "strictSafetyCeiling": 990,
+    "qualification": "This is the mandated primary-slot substitution projection. Protected finish-slot bindings are reported separately. It is not a rebuilt integrated package or a measured runtime-pool result.",
+    "baselineAuthority": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\source_data\\full_asset_proving_status_20260905.md",
+      "bytes": 1959,
+      "sha256": "1887B8A4ECA9C3B899FBDA1C8C4523A2A29E130B685E86CFC42918031D8F084E"
+    },
+    "historicalPackageBinariesRetained": false,
+    "worldmodelXiM13bRetained": true
+  },
+  "scopeRestrictions": [
+    "isolated sealed proving package only",
+    "do not copy to production",
+    "do not copy to Steam",
+    "do not alter dashboard or other families",
+    "do not claim integrated runtime acceptance"
+  ],
+  "explicitlyOutstandingAndNotTested": [
+    "live CoD4 animation behavior",
+    "live CoD4 ADS behavior",
+    "live CoD4 reload behavior",
+    "live CoD4 drop behavior",
+    "measured integrated map/runtime XModel-pool behavior"
+  ]
+}
