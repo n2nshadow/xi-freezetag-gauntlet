@@ -153,7 +153,7 @@
               <strong>Integrated package</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              The new full build contains the reviewed world-model packing overlay. Exact final inspection finds only four replaced/two added XModels and four changed weapon entries; the other 711 IWD entries are unchanged. Repeat-build determinism was proven for the previous tuple, not yet this one.
+              The new full build contains the reviewed world-model packing overlay. Exact final inspection finds only four replaced/two added XModels and four changed weapon entries; the other 711 IWD entries are unchanged. A repeat build reproduces the current FF, IWD, and CFG byte-for-byte; timestamped receipt metadata is rebound separately.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-pass">Pass</span></div>
@@ -201,7 +201,7 @@
               <strong>Blind visual A/B</strong>
             </div>
             <div class="score-result" role="cell" data-label="Objective result">
-              RAM-7 and DM56 pass 64/64 fixed views and a fresh independent critic; Renetti passes contact, material, schema, and OAT review. Alice, Ghost, and Mara32 now have completed HOLD reviews. Iskra's hardware repair is ready for review; all body motion evidence needs the corrected evaluator and live proof.
+              RAM-7 and DM56 pass 64/64 fixed views and a fresh independent critic; Renetti passes contact, material, schema, and OAT review. Alice's middle-LOD repair and Iskra's metal rebind now pass targeted independent reviews. Whole-body holds remain; Ghost's small UV repair is under review. None is live-game acceptance.
             </div>
             <div role="cell" data-label="Highest evidence"><span class="tier tier-structural">Structural</span></div>
             <div role="cell" data-label="State"><span class="status status-fail">Fail</span></div>
@@ -348,11 +348,11 @@
               </div>
               <div>
                 <dt>Operator repairs</dt>
-                <dd>Alice Round3 restores the missing upper arms and torso at 7,000/4,500 triangles, retaining all 828 protected lower-band faces; independent review remains open. <a href="evidence/current/recovery-20260905/operators/ghost-biker-round1-critic-report.md">Ghost</a> has five cross-atlas faces under targeted repair. <a href="evidence/current/recovery-20260905/operators/mara32-round1-critic-report.md">Mara32</a> remains held for surface and motion defects. Iskra Round4 reconnects hardware with exactly 217 joint-index byte changes, preserving geometry and the white charm; corrected-pose criticism is running. <a href="evidence/current/recovery-20260905/operators/iskra-round4-builder-report.md">Inspect the scoped repair.</a></dd>
+                <dd><a href="evidence/current/recovery-20260905/operators/alice-round3-critic-report.md">Alice's middle-LOD repair passes fresh static/OAT review</a>; its old reducer's stretched pants bridge is gone. Round4 now repairs the far-LOD feet. <a href="evidence/current/recovery-20260905/operators/ghost-round2-builder-report.md">Ghost's five cross-atlas faces are repaired through 12 changed UV bytes</a>, pending criticism; larger vest/leg defects remain. <a href="evidence/current/recovery-20260905/operators/iskra-round4-critic-report.md">Iskra's metal rebind passes corrected-pose review</a>; the closed-loop shape and charm/backpack overlap remain Round5 work. Mara32, Raines, and Talon still need their remaining body work.</dd>
               </div>
               <div>
                 <dt>Publication state</dt>
-                <dd><strong>SNAPSHOT 101.</strong> Family01's two-slot world-model packing repair passed independent review and the actual full build. Bare/suppressor share one world model; reflex/ACOG share another, with only the selected version shown. First-person models and the separate magazine are unchanged. Fifteen loader tests pass. Operator defects and live engine/user acceptance still block release; Steam and production remain unchanged. <a href="evidence/current/recovery-20260905/package/world-pack-critic.md">Read the independent packing review.</a></dd>
+                <dd><strong>SNAPSHOT 102.</strong> The current full build reproduces byte-identically and passes all 18 shipped map budgets. The publication-gate replay rejects the archived 992-slot tuple and accepts the new 990-slot tuple without relaxing the cap. Alice and Iskra have new targeted repair passes, with their specific remaining defects recorded. Steam and production remain unchanged. <a href="evidence/current/recovery-20260905/package/world-pack-critic.md">Independent packing review</a>; <a href="evidence/current/recovery-20260905/package/world-pack-integration.json">current exact tuple and repeat evidence</a>.</dd>
               </div>
             </dl>
 
@@ -981,9 +981,9 @@
             <p class="eyebrow">Biggest remaining gap</p>
             <h3 id="gap-title">Finish the operator repairs and prove them in motion.</h3>
             <p>
-              The model-space repair now passes the actual full build and all 18 shipped maps. Alice's missing
-              surfaces are restored for review; Ghost's five cross-atlas faces are being repaired, Iskra is undergoing
-              corrected-pose review, and Mara32 still has surface and motion gaps. Raines needs final review and Talon
+              The model-space repair now passes the actual full build and all 18 shipped maps. Alice's middle-LOD
+              surfaces pass review; its far-LOD feet are being repaired. Ghost's five-face UV fix is under review,
+              Iskra's hanging assembly needs follow-up, and Mara32 still has surface and motion gaps. Raines needs final review and Talon
               needs identity/material work. Candidate animation must be judged with the corrected diagnostic and live evidence.
             </p>
             <div class="exit-evidence">
@@ -1795,7 +1795,7 @@
             <figcaption>
               <span class="status status-fail">Iskra61 Round 3 / fresh critic HOLD</span>
               <strong>The authored white Kitty Six charm is visible at every LOD</strong>
-              <span>Round4 reconnects the charm's hardware through 217 joint-index byte changes, with no geometry or texture changes. Structural and OAT checks pass; corrected pose checks and fresh criticism are pending. The pictured identity remains unchanged. <a href="evidence/current/recovery-20260905/operators/iskra-round4-builder-report.md">Read the repair report.</a></span>
+              <span>Round4 reconnects the charm's hardware through 217 joint-index byte changes, with no geometry or texture changes. Fresh corrected-pose review passes the targeted rebind, but finds an inherited lost loop shape and charm/backpack intersection at the sampled death pose. The pictured identity remains unchanged; whole-body acceptance is held. <a href="evidence/current/recovery-20260905/operators/iskra-round4-critic-report.md">Read the completed review.</a></span>
             </figcaption>
           </figure>
 
@@ -1826,9 +1826,9 @@
               <img src="evidence/current/recovery-20260905/operators/alice-round3-upperbody.jpg" alt="Alice source, rejected middle LOD, and repaired LOD2 showing restored arms and torso; labeled detail crops" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-unknown">Alice41 Round 3 / repair ready for review</span>
+              <span class="status status-pass">Alice41 Round 3 / targeted repair passes</span>
               <strong>Missing arm and torso surfaces restored</strong>
-              <span>Source / Round2 / Round3, at 4,500 triangles for the repaired LOD2. Both middle LODs retain all source arm, pants, and shirt faces plus 828 protected lower-band faces. LOD0/3 are unchanged. The authored hip-weight split, new compile, motion, and independent review remain open. These are labeled preview crops, not in-game screenshots. <a href="evidence/current/recovery-20260905/operators/alice-round3-builder-report.md">Inspect the repair and limits.</a></span>
+              <span>Source / Round2 / Round3, at 4,500 triangles for the repaired LOD2. Fresh independent static/OAT review confirms retained source arm, pants, and shirt faces and all 828 protected lower-band faces. Corrected poses retain the restored surfaces; the old stretched bridge edge is removed. LOD0/3 are unchanged, and the far-LOD feet still block whole-body clearance. These are labeled preview crops, not in-game screenshots. <a href="evidence/current/recovery-20260905/operators/alice-round3-critic-report.md">Inspect the completed review.</a></span>
             </figcaption>
           </figure>
 
@@ -2249,7 +2249,7 @@
   <footer class="site-footer">
     <div class="section-shell footer-inner">
       <p><strong>XI FreezeTag Gauntlet</strong> / local evidence board</p>
-      <p>Snapshot 101 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
+      <p>Snapshot 102 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
     </div>
   </footer>
 </body>

@@ -21,12 +21,12 @@
     "proving-receipt.json": {
       "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_out_full_asset_proving\\proving-receipt.json",
       "bytes": 14652,
-      "sha256": "EDF364314447C478EEDB32AB1A9C7AE88395D6E759285F57D31335BE47AA7B18"
+      "sha256": "80E7BCC13689870C4D99BD6B1B0F7F0900268DC2E4F5FEDD0801E269B3194853"
     },
     "stock-map-xmodel-budget.json": {
       "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\zone_out_full_asset_proving\\stock-map-xmodel-budget.json",
       "bytes": 6524,
-      "sha256": "A40D12CB911B11034C5B165D72F54885740A37A0E85409B0CE0AF46B011422E1"
+      "sha256": "D3ECEA43D7BE697D47A1E6E519C60920DA6D2D43D1071514A5BC68C68082ABA3"
     }
   },
   "baseline": {
@@ -87,5 +87,23 @@
   "concreteModelsAfter": 63,
   "backlotRuntimeXModels": 985,
   "vacantRuntimeXModels": 990,
-  "bodyAndLiveAcceptance": "OUTSTANDING - package equivalence is not visual acceptance"
+  "bodyAndLiveAcceptance": "OUTSTANDING - package equivalence is not visual acceptance",
+  "repeatBuild": {
+    "byteIdenticalGameFiles": [
+      "mod.ff",
+      "xi_ftag.iwd",
+      "xi_ftag.cfg"
+    ],
+    "originalResult": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\lead_world_pack_integration_round1\\first-build-result.json",
+      "bytes": 3716,
+      "sha256": "1F386A513217BE7B1900C32DA66BD8E6B9CCE0618FDA09E2C0953ADE904A4513"
+    },
+    "repeatBuildLog": {
+      "path": "F:\\CodexData\\Documents\\Codex\\2026-08-03\\ok\\work\\cod4-freezetag-recovery-20260904\\xi_ftag\\.asset_staging\\recovery_20260904\\gauntlet\\lead_world_pack_integration_round1\\repeat-build.log",
+      "bytes": 1280,
+      "sha256": "5AF87097E7F5235AF400247B7324DF6490750798F8B7C2C102A7D16DC957621C"
+    },
+    "receiptMetadataIsNotRequiredToBeIdentical": true
+  }
 }
