@@ -45,7 +45,16 @@ Mara32, each in bind and five stock poses. Actual neutral renders were inspected
 The gross stock torso folding is removed. Real candidate leg/skirt/surface defects
 remain visible. Gray clay images are geometry diagnostics, not texture approval.
 
-Independent reviewer: `lead_body_pose_calibration_round1_critic` (pending).
+Independent reviewer: `lead_body_pose_calibration_round1_critic` confirmed the
+correction is usable as a more accurate v17 single-clip IW3 BODY diagnostic.
+Thirteen independent behavior tests pass, and all 18 geometry cases were
+independently reproduced within 5.1e-10 export-coordinate units. Sixteen stock
+images were inspected. No candidate acceptance or promotion was granted.
+
+Two out-of-scope/precision findings remain explicit: v19 T5 flag 0x4 is currently
+misread as a delta block, and omitted-quaternion-component reconstruction has
+minor float-rounding differences (up to 0.0034281 degrees per sampled real key).
+Use the reviewed path only with v17 clips; do not claim bit-exact engine parity.
 
 ## Remaining Gates
 

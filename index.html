@@ -344,15 +344,15 @@
               </div>
               <div>
                 <dt>Current evidence</dt>
-                <dd><strong>BODY DIAGNOSTIC FIX: 11 TESTS PASS.</strong> The old evaluator also distorted untouched stock. Root-only coordinate conversion, half-quaternion Z/W, translation scaling, and bind offsets are corrected. Eighteen actual-module stock/Ghost/Mara32 geometry cases were rendered; independent review is pending. This is not body or live-game approval. <a href="evidence/current/recovery-20260905/operators/body-pose-recovery.md">Read the concrete fixes and limitations.</a></dd>
+                <dd><strong>BODY DIAGNOSTIC FIX: INDEPENDENT REVIEW CONFIRMED.</strong> The old evaluator also distorted untouched stock. Root-only coordinate conversion, half-quaternion Z/W, translation scaling, and bind offsets are corrected. Eleven lead tests and thirteen independent tests pass; eighteen actual-module meshes were independently reproduced. Approved scope is v17 single-clip body diagnosis, not body or live-game acceptance. <a href="evidence/current/recovery-20260905/operators/body-pose-critic.md">Read the independent findings and limits.</a></dd>
               </div>
               <div>
                 <dt>Operator repairs</dt>
-                <dd>Alice Round3 is restoring missing upper arms and torso in reduced LODs. <a href="evidence/current/recovery-20260905/operators/ghost-biker-round1-critic-report.md">Ghost</a> and <a href="evidence/current/recovery-20260905/operators/mara32-round1-critic-report.md">Mara32</a> remain held for real surface, alpha, and motion defects. Iskra Round4 reconnects hardware with exactly 217 joint-index byte changes, preserving geometry and the white charm. <a href="evidence/current/recovery-20260905/operators/iskra-round4-builder-report.md">Inspect the scoped repair.</a></dd>
+                <dd>Alice Round3 restores the missing upper arms and torso at 7,000/4,500 triangles, retaining all 828 protected lower-band faces; independent review remains open. <a href="evidence/current/recovery-20260905/operators/ghost-biker-round1-critic-report.md">Ghost</a> has five cross-atlas faces under targeted repair. <a href="evidence/current/recovery-20260905/operators/mara32-round1-critic-report.md">Mara32</a> remains held for surface and motion defects. Iskra Round4 reconnects hardware with exactly 217 joint-index byte changes, preserving geometry and the white charm; corrected-pose criticism is running. <a href="evidence/current/recovery-20260905/operators/iskra-round4-builder-report.md">Inspect the scoped repair.</a></dd>
               </div>
               <div>
                 <dt>Publication state</dt>
-                <dd><strong>SNAPSHOT 99.</strong> This page records the retained proving tuple, completed body HOLD reviews, and the corrected pose diagnostic. Steam and the production package remain unchanged. The Vacant safety gap, unresolved operator defects, and live engine/user acceptance still block release.</dd>
+                <dd><strong>SNAPSHOT 100.</strong> This page adds Alice's actual upper-body before/after and the completed independent pose-tool review. Family01's two-slot world-model packing repair is under independent review; fifteen loader tests verify exact weapon payloads and rejected mutations. Steam and the production package remain unchanged. The Vacant safety gap, unresolved operator defects, and live engine/user acceptance still block release.</dd>
               </div>
             </dl>
 
@@ -1783,7 +1783,7 @@
               <img src="evidence/current/recovery-20260905/operators/stock-pose-corrected-idle.png" alt="Same stock CoD4 body and idle sample evaluated with corrected joint coordinates and translations" loading="lazy">
             </a>
             <figcaption>
-              <span class="status status-unknown">Corrected diagnostic / review pending</span>
+              <span class="status status-pass">Corrected diagnostic / scoped independent approval</span>
               <strong>Same model and clip, corrected joint math</strong>
               <span>The gross folding is gone without editing the model. Stock head and hands are separate assets, intentionally absent here. Gray geometry evidence does not prove textures, blended gameplay animation, or custom-skin acceptance.</span>
             </figcaption>
@@ -1817,7 +1817,18 @@
             <figcaption>
               <span class="status status-fail">Alice41 Round 2 / fresh critic HOLD</span>
               <strong>Shins improved, but upper arms and torso still lose surfaces</strong>
-              <span>The critic confirmed the lower-body repair but found arm material absent at LOD1/2 and substantial torso gaps. Aggregate silhouette scores had hidden that loss. Round3 is repairing those exact surfaces; earlier pose scores are not accepted. <a href="evidence/current/recovery-20260905/operators/alice-round2-critic-report.md">Read the critic findings.</a></span>
+              <span>The critic confirmed the lower-body repair but found arm material absent at LOD1/2 and substantial torso gaps. Aggregate silhouette scores had hidden that loss. Round3 repairs those exact surfaces; earlier pose scores are not accepted. <a href="evidence/current/recovery-20260905/operators/alice-round2-critic-report.md">Read the critic findings.</a></span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260905/operators/alice-round3-upperbody.jpg">
+              <img src="evidence/current/recovery-20260905/operators/alice-round3-upperbody.jpg" alt="Alice source, rejected middle LOD, and repaired LOD2 showing restored arms and torso; labeled detail crops" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-unknown">Alice41 Round 3 / repair ready for review</span>
+              <strong>Missing arm and torso surfaces restored</strong>
+              <span>Source / Round2 / Round3, at 4,500 triangles for the repaired LOD2. Both middle LODs retain all source arm, pants, and shirt faces plus 828 protected lower-band faces. LOD0/3 are unchanged. The authored hip-weight split, new compile, motion, and independent review remain open. These are labeled preview crops, not in-game screenshots. <a href="evidence/current/recovery-20260905/operators/alice-round3-builder-report.md">Inspect the repair and limits.</a></span>
             </figcaption>
           </figure>
 
@@ -2238,7 +2249,7 @@
   <footer class="site-footer">
     <div class="section-shell footer-inner">
       <p><strong>XI FreezeTag Gauntlet</strong> / local evidence board</p>
-      <p>Snapshot 98 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
+      <p>Snapshot 100 source: project evidence on 05 Sep 2026. <a href="README.md">Update guide</a></p>
     </div>
   </footer>
 </body>
