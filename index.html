@@ -353,8 +353,20 @@
             </dl>
 
             <details class="archive-detail">
-              <summary>Earlier recovery record through 29 August</summary>
+              <summary>Earlier recovery record through 4 September</summary>
             <dl class="round-facts">
+              <div>
+                <dt>Ghost arm atlas repair</dt>
+                <dd><strong class="text-fail">SHAPE PROCESS RETAINED / OPERATOR IDENTITY HOLD.</strong> The accepted 71-joint hybrid hand shape and stock-animation behavior remain the deformation benchmark. Its atlas-only repair cleanly removes the red/white corruption and won a blind A/B, but the newly supplied authoritative lineup proves those hooded dark sleeves do not belong to the selected biker <code>GHOST51</code>. The next arm candidate must reuse the successful rig-and-weight process with the biker's authored bare tattooed arms, gloves, and textures. <a href="evidence/current/recovery-20260904/ghost-arms-uv-round1/REPORT.md">Inspect the useful but identity-rejected atlas round.</a></dd>
+              </div>
+              <div>
+                <dt>ICR engine-axis repair</dt>
+                <dd><strong class="text-pass">STRUCTURAL PASS / USER-LIVE HOLD.</strong> The 4 September runtime screenshot exposed a post-composition skeleton failure hidden by the static renders: <code>j_gun</code> had been rewritten from the HK416 template quaternion and the explicit skin root was missing. The corrected production model restores every template joint transform and inverse-bind matrix, passes the expanded <code>16</code>-viewmodel orientation suite, and links in the focused package with <code>0</code> errors. The weapon geometry and authored optic placement are unchanged. <a href="evidence/current/recovery-20260904/icr-engine-axis-round1/REPORT.md">Read the repair report and inspect the runtime evidence.</a></dd>
+              </div>
+              <div>
+                <dt>Current Ghost visual split</dt>
+                <dd><strong>AUTHORITATIVE IDENTITY BAR CORRECTED.</strong> The selected <code>GHOST51</code> is the biker in the second panel: black cap and goggles, beard, sleeveless patch vest, tattooed arms, and pale cargo jeans. The hooded long-coat operator is <code>ALICE41</code>. The current production body has the right biker identity but a poor conversion; the mistaken hooded replacement is rejected and remains staged only as evidence. <a href="evidence/current/recovery-20260904/operator-lineup/authoritative-eight-operators.png">View the authoritative eight-operator lineup.</a></dd>
+              </div>
               <div>
                 <dt>Active repair round</dt>
                 <dd><strong>RECOVERY ACTIVE; NO NEW PLAYABLE SNAPSHOT CLAIMED.</strong> Ghost rear-emblem round 4 passed a fresh concealed A/B in every affected view, changed exactly <code>24</code> masked UV rows and <code>110</code> GLB bytes, and was promoted through a hash-sealed workspace-only transaction. Its body, hands, skeleton, materials, pools, and Steam tuple stayed fixed. Hades round 6 then closed the front purple canister-strap slit with a contained two-triangle patch and passed every structural gate. The fresh critic still held it because production decisively won profile, rear three-quarter, and identity-close views. Round 7 is retaining the successful front closure while restoring those three weaker surfaces.</dd>
@@ -457,6 +469,16 @@
             <div class="evidence-block">
               <h3>Evidence links and paths</h3>
               <ul class="evidence-list">
+                <li>
+                  <span class="tier tier-visual">Process pass / identity hold</span>
+                  <a href="evidence/current/recovery-20260904/ghost-arms-uv-round1/before-after-stock-animation-poses.png">Ghost arm atlas comparison across stock animation poses</a>
+                  <code>Useful atlas and deformation proof, but the hooded sleeves are rejected for the selected biker GHOST51 identity</code>
+                </li>
+                <li>
+                  <span class="tier tier-runtime">User identity bar</span>
+                  <a href="evidence/current/recovery-20260904/operator-lineup/authoritative-eight-operators.png">Authoritative lineup of the eight selected operators</a>
+                  <code>GHOST51 is the biker in panel two; ALICE41 owns the hooded long-coat silhouette</code>
+                </li>
                 <li>
                   <span class="tier tier-runtime">User live</span>
                   <a href="evidence/current/hands/live-failure-round1/evidence/live-failure-wide.png">Latest in-game viewhands failure baseline</a>
@@ -1754,6 +1776,17 @@
           </figure>
 
           <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260904/operator-lineup/authoritative-eight-operators.png">
+              <img src="evidence/current/recovery-20260904/operator-lineup/authoritative-eight-operators.png" alt="The authoritative lineup of the eight selected XI operators, with biker Ghost in the second panel and hooded Alice in the first" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-pass">Eight operators / authoritative user bar</span>
+              <strong>This lineup now controls body, arm, texture, and menu-card identity</strong>
+              <span>Ghost is the biker in panel two, not the hooded operator. Every body and first-person arm candidate must match its panel before geometry quality is judged.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
             <a class="gallery-image" href="evidence/current/recovery-20260905/operators/alice-round2-blind-lod-grid.png">
               <img src="evidence/current/recovery-20260905/operators/alice-round2-blind-lod-grid.png" alt="Alice41 Round 2 blind lower-body and LOD comparison grid" loading="lazy">
             </a>
@@ -1816,6 +1849,17 @@
               <span class="status status-pass">Renetti Round 4 / fresh critic PASS</span>
               <strong>The authored suppressor seats correctly on the exact compiled view and world models</strong>
               <span>The fresh critic verifies contact, materials, source schema, protected weapon fields, OAT output, and exclusion from the unrelated Family13 retirement. Both reviewed XModels are present in the exact 987-slot proving build. <a href="evidence/current/recovery-20260905/weapons/renetti-round4-critic-report.md">Read the critic report.</a></span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide">
+            <a class="gallery-image" href="evidence/current/recovery-20260904/ghost-arms-uv-round1/before-after-stock-animation-poses.png">
+              <img src="evidence/current/recovery-20260904/ghost-arms-uv-round1/before-after-stock-animation-poses.png" alt="Ghost view arms with the wrong fallback texture beside the corrected authored atlas across four stock animation poses" loading="lazy">
+            </a>
+            <figcaption>
+              <span class="status status-fail">Historical Ghost arms / identity HOLD</span>
+              <strong>The deformation method works, but these sleeves belong to the wrong source identity</strong>
+              <span>The corrected atlas removes the malformed red and white contamination without changing the successful hand shape or 71-joint rig. It remains process evidence only; the next candidate must use the biker Ghost's authored arms and textures.</span>
             </figcaption>
           </figure>
 
